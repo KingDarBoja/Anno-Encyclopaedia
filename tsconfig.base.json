@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "paths": {
-      "@anno/achievements-ui": ["./libs/achievements/ui/src/index.ts"]
+      "@anno/achievements-ui": ["./libs/achievements/ui/src/index.ts"],
+      "@anno/achievements-data": [
+        "./libs/achievements/data-access/src/index.ts"
+      ]
     }
   },
   "exclude": ["node_modules", "tmp"]
