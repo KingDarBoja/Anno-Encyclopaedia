@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --color-anno-gold: #d4af37;
+  --color-anno-roman-red: #800000;
+}

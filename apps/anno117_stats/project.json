@@ -32,7 +32,10 @@
             "output": "assets/data"
           }
         ],
-        "styles": ["apps/anno117_stats/src/styles.scss"]
+        "styles": [
+          "apps/anno117_stats/src/styles.scss",
+          "apps/anno117_stats/src/tailwind.css"
+        ]
       },
       "configurations": {
         "production": {
