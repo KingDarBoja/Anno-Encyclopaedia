@@ -1,10 +1,10 @@
 {
-  "name": "anno_encyclopaedia",
-  "$schema": "node_modules/nx/schemas/project-schema.json",
+  "name": "anno117_stats",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "includedScripts": [],
   "projectType": "application",
   "prefix": "app",
-  "sourceRoot": "./src",
+  "sourceRoot": "apps/anno117_stats/src",
   "tags": [],
   "targets": {
     "build": {
@@ -12,8 +12,8 @@
       "outputs": ["{options.outputPath}"],
       "options": {
         "outputPath": "dist/anno_encyclopaedia",
-        "browser": "./src/main.ts",
-        "tsConfig": "tsconfig.app.json",
+        "browser": "apps/anno117_stats/src/main.ts",
+        "tsConfig": "apps/anno117_stats/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
         "assets": [
           {
@@ -32,7 +32,7 @@
             "output": "assets/data"
           }
         ],
-        "styles": ["./src/styles.scss"]
+        "styles": ["apps/anno117_stats/src/styles.scss"]
       },
       "configurations": {
         "production": {
@@ -63,10 +63,10 @@
       "executor": "@angular/build:dev-server",
       "configurations": {
         "production": {
-          "buildTarget": "anno_encyclopaedia:build:production"
+          "buildTarget": "anno117_stats:build:production"
         },
         "development": {
-          "buildTarget": "anno_encyclopaedia:build:development"
+          "buildTarget": "anno117_stats:build:development"
         }
       },
       "defaultConfiguration": "development"
@@ -74,7 +74,7 @@
     "lint": {
       "executor": "@nx/eslint:lint",
       "options": {
-        "lintFilePatterns": ["./src"]
+        "lintFilePatterns": ["apps/anno117_stats/src"]
       }
     },
     "test": {
@@ -85,7 +85,7 @@
       "continuous": true,
       "executor": "@nx/web:file-server",
       "options": {
-        "buildTarget": "anno_encyclopaedia:build",
+        "buildTarget": "anno117_stats:build",
         "port": 4200,
         "staticFilePath": "dist/anno_encyclopaedia/browser",
         "spa": true

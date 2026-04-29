@@ -3,6 +3,7 @@ import nx from '@nx/eslint-plugin';
 
 export default [
   ...baseConfig,
+  ...baseConfig,
   {
     ignores: ['**/dist', '**/out-tsc'],
   },
