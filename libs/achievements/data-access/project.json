@@ -2,7 +2,7 @@
   "name": "achievements-data",
   "$schema": "../../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/achievements/data-access/src",
-  "prefix": "lib",
+  "prefix": "anno",
   "projectType": "library",
   "tags": [],
   "targets": {

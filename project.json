@@ -17,8 +17,19 @@
         "inlineStyleLanguage": "scss",
         "assets": [
           {
+            "glob": "favicon.ico",
+            "input": "libs/shared/assets/src",
+            "output": "/"
+          },
+          {
             "glob": "**/*",
-            "input": "public"
+            "input": "libs/shared/assets/src/assets",
+            "output": "assets"
+          },
+          {
+            "glob": "**/*",
+            "input": "libs/shared/assets/src/data",
+            "output": "assets/data"
           }
         ],
         "styles": ["./src/styles.scss"]
