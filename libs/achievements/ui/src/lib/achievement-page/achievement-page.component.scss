@@ -1,0 +1,25 @@
+.main-achievements-title {
+  color: var(--primary-color);
+}
+
+.main-achievements-subtitle {
+  // Tailwind v4 / Modern CSS way to handle opacity on hex variables
+  // 0.7 opacity
+  color: color-mix(in srgb, var(--secondary-color), transparent 30%);
+}
+
+.achievements-header {
+  // 0.3 opacity for the border
+  border-bottom: 2px solid color-mix(in srgb, var(--secondary-color), transparent 70%);
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+
+  .reward-title {
+    color: var(--primary-color);
+    margin: 0;
+  }
+
+  .reward-subtitle {
+    color: color-mix(in srgb, var(--secondary-color), transparent 40%);
+  }
+}

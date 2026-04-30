@@ -7,63 +7,33 @@ import { Achievement } from '@anno/achievements-data';
   imports: [],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="achievement-card group">
-      <div class="card-inner">
-        <!-- Roman Ornamentation (Tailwind v4 utility) -->
-        <div
-          class="absolute top-0 left-0 w-full h-1 bg-linear-to-r from-transparent via-anno-gold/40 to-transparent"
-        ></div>
+    <div class="achievement-card-alt">
+      <header>
+        <h3>{{ data().title }}</h3>
+      </header>
 
-        <div class="flex gap-5">
-          <div class="icon-container">
-            <img
-              [src]="data().image_url"
-              [alt]="data().title"
-              class="w-full h-full object-contain filter group-hover:scale-110 transition-transform duration-500"
-            />
-          </div>
-
-          <div class="flex-1">
-            <div class="flex justify-between items-start">
-              <h3
-                class="font-display text-xl text-anno-red uppercase tracking-tight"
-              >
-                {{ data().title }}
-              </h3>
-              <span class="points">{{ data().points }}</span>
-            </div>
-
-            <p
-              class="text-sm text-slate-600 mt-1 italic font-medium leading-snug"
-            >
-              {{ data().description }}
-            </p>
-          </div>
+      <div class="card-body-row">
+        <div class="card-image">
+          <img [src]="data().image_url" [alt]="data().title" />
+        </div>
+        <div class="card-content">
+          <p>{{ data().description }}</p>
         </div>
       </div>
+
+      <footer class="card-footer">
+        <div class="footer-col">
+          <span class="label">Points</span>
+          <span class="value">{{ data().points }}</span>
+        </div>
+        <div class="footer-col">
+          <span class="label">Difficulty</span>
+          <span class="value">{{ data().difficulty }}</span>
+        </div>
+      </footer>
     </div>
   `,
-  styles: `
-    .achievement-card {
-      @apply relative cursor-pointer grayscale opacity-70 transition-all duration-500;
-
-      &:hover {
-        @apply -translate-y-1 opacity-100;
-      }
-
-      .card-inner {
-        @apply p-5 bg-white/50 border border-anno-gold/20 rounded-lg backdrop-blur-xs;
-      }
-
-      .icon-container {
-        @apply w-16 h-16 bg-anno-gold/5 border border-anno-gold/10 p-2 rounded flex-shrink-0;
-      }
-
-      .points {
-        @apply font-display text-anno-gold font-bold text-lg;
-      }
-    }
-  `,
+  styleUrl: './achievement-card.component.scss',
 })
 export class AchievementCardComponent {
   data = input.required<Achievement>();

@@ -1,1 +1,1 @@
-export * from './lib/achievements-ui/achievements-ui';
+export * from './lib/achievement-page/achievement-page.component';

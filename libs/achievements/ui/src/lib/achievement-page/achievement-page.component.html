@@ -1,0 +1,40 @@
+<section class="w-full flex flex-col items-center py-8">
+  <h2 class="mb-4 text-center text-3xl font-bold main-achievements-title">
+    Base Game Achievements
+  </h2>
+
+  <p class="mb-12 max-w-2xl text-center px-4 main-achievements-subtitle">
+    The base game has a total of 99 achievements, categorized into Bronze,
+    Silver and Gold levels.
+  </p>
+
+  <!-- Content Wrapper -->
+  <div class="w-full max-w-[1600px] flex flex-row items-start px-6">
+    <!-- <anno-toc [entries]="tocEntries()" /> -->
+
+    <div class="flex-grow min-w-0">
+      @for (set of achievementSets(); track set.title) {
+        <div [id]="slugify(set.title)" class="w-full mb-16">
+          <div
+            class="flex flex-col md:flex-row md:items-end justify-between achievements-header"
+          >
+            <h3 class="reward-title text-lg font-bold">
+              {{ set.title }}
+            </h3>
+            <span class="reward-subtitle text-sm italic">
+              Reward: <strong>{{ set.reward }}</strong> (90 Fame)
+            </span>
+          </div>
+
+          <div
+            class="grid w-full gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 box-border justify-items-center"
+          >
+            @for (achievement of set.achievements; track achievement.id) {
+              <anno-achievement-card [data]="achievement" />
+            }
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>
