@@ -14,7 +14,7 @@ import { Achievement } from '@anno/achievements-data';
 
       <div class="card-body-row">
         <div class="card-image">
-          <img [src]="data().image_url" [alt]="data().title" />
+          <img [src]="data().image_url.replace('.png', '.webp')" [alt]="data().title" />
         </div>
         <div class="card-content">
           <p>{{ data().description }}</p>
