@@ -1,0 +1,51 @@
+header {
+  display: flex;
+  width: 100%;
+  padding: 1em;
+  justify-content: center;
+
+  nav {
+    display: flex;
+    height: 3em;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: space-between;
+    background-color: var(--primary-color);
+
+    div {
+      height: 100%;
+
+      a {
+        display: flex;
+        height: 100%;
+        padding: 0 2em;
+        align-items: center;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        transition: background-color 0.2s;
+
+        &:hover {
+          // #0005 in hex is roughly 33% opacity black
+          background-color: rgba(0, 0, 0, 0.33);
+        }
+      }
+
+      &.active {
+        position: relative;
+
+        &::before {
+          content: '';
+          display: block;
+          position: absolute;
+          bottom: 0.5em;
+          left: 20px;
+          right: 20px;
+          height: 2px;
+          border-radius: 1px;
+          background-color: white;
+        }
+      }
+    }
+  }
+}
