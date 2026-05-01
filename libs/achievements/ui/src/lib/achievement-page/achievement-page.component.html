@@ -13,13 +13,13 @@
     <!-- <anno-toc [entries]="tocEntries()" /> -->
 
     <div class="flex-grow min-w-0">
-      @for (set of achievementSets(); track set.title) {
-        <div [id]="slugify(set.title)" class="w-full mb-16">
+      @for (set of achievementSets(); track set.categoryLabel) {
+        <div [id]="set.slug" class="w-full mb-16">
           <div
             class="flex flex-col md:flex-row md:items-end justify-between achievements-header"
           >
             <h3 class="reward-title text-lg font-bold">
-              {{ set.title }}
+              {{ set.categoryLabel }}
             </h3>
             <span class="reward-subtitle text-sm italic">
               Reward: <strong>{{ set.reward }}</strong> (90 Fame)

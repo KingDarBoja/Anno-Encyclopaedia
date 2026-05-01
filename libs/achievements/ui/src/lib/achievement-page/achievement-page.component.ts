@@ -16,24 +16,14 @@ export class AchievementPageComponent {
 
   tocEntries = computed(() =>
     this.achievementSets().map((set) => ({
-      slug: this.slugify(set.title),
-      title: set.title,
+      slug: set.slug,
+      title: set.categoryLabel,
     })),
   );
 
-  slugify(title: string): string {
-    return title
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '');
-  }
-
   constructor() {
-    effect(
-      () => {
-        this.achievementService.fetchAchievements();
-      },
-      { allowSignalWrites: true },
-    );
+    effect(() => {
+      this.achievementService.fetchAchievements();
+    });
   }
 }

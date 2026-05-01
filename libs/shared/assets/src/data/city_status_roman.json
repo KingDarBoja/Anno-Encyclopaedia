@@ -1,0 +1,1352 @@
+{
+    "roman_01": {
+        "UID": 1929,
+        "Name": "Outpost",
+        "Icon": "icon_2d_city_status_01_0",
+        "RequiredPopulation": 0,
+        "AttributeEffectsRoman": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        }
+    },
+    "roman_02": {
+        "UID": 3559,
+        "Name": "Small Vicus",
+        "Icon": "icon_2d_city_status_02_0",
+        "RequiredPopulation": 200,
+        "AttributeEffectsRoman": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        }
+    },
+    "roman_03": {
+        "UID": 3563,
+        "Name": "Large Vicus",
+        "Icon": "icon_2d_city_status_03_0",
+        "RequiredPopulation": 500,
+        "AttributeEffectsRoman": {
+            "Belief": 1,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": -1,
+            "Health": 0
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 1,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": -1,
+            "Health": 0
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 1,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": -1,
+            "Health": 0
+        }
+    },
+    "roman_04": {
+        "UID": 3564,
+        "Name": "Minor Town",
+        "Icon": "icon_2d_city_status_04_0",
+        "RequiredPopulation": 1000,
+        "AttributeEffectsRoman": {
+            "Belief": 2,
+            "Knowledge": 1,
+            "Prestige": 0,
+            "Happiness": -2,
+            "FireSafety": -2,
+            "Health": 0
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 2,
+            "Knowledge": 1,
+            "Prestige": 0,
+            "Happiness": -2,
+            "FireSafety": -2,
+            "Health": 0
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 2,
+            "Knowledge": 1,
+            "Prestige": 0,
+            "Happiness": -2,
+            "FireSafety": -2,
+            "Health": 0
+        }
+    },
+    "roman_05": {
+        "UID": 3573,
+        "Name": "Growing Town",
+        "Icon": "icon_2d_city_status_05_0",
+        "RequiredPopulation": 1500,
+        "AttributeEffectsRoman": {
+            "Belief": 3,
+            "Knowledge": 2,
+            "Prestige": 1,
+            "Happiness": -4,
+            "FireSafety": -3,
+            "Health": -2
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 3,
+            "Knowledge": 2,
+            "Prestige": 1,
+            "Happiness": -4,
+            "FireSafety": -3,
+            "Health": -2
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 3,
+            "Knowledge": 2,
+            "Prestige": 1,
+            "Happiness": -4,
+            "FireSafety": -3,
+            "Health": -2
+        }
+    },
+    "roman_06": {
+        "UID": 3579,
+        "Name": "Large Town",
+        "Icon": "icon_2d_city_status_06_0",
+        "RequiredPopulation": 3000,
+        "AttributeEffectsRoman": {
+            "Belief": 4,
+            "Knowledge": 3,
+            "Prestige": 2,
+            "Happiness": -6,
+            "FireSafety": -4,
+            "Health": -4
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 4,
+            "Knowledge": 3,
+            "Prestige": 2,
+            "Happiness": -6,
+            "FireSafety": -4,
+            "Health": -4
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 4,
+            "Knowledge": 3,
+            "Prestige": 2,
+            "Happiness": -6,
+            "FireSafety": -4,
+            "Health": -4
+        }
+    },
+    "roman_07": {
+        "UID": 3581,
+        "Name": "Minor City",
+        "Icon": "icon_2d_city_status_07_0",
+        "RequiredPopulation": 5000,
+        "AttributeEffectsRoman": {
+            "Belief": 5,
+            "Knowledge": 4,
+            "Prestige": 3,
+            "Happiness": -8,
+            "FireSafety": -5,
+            "Health": -6
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 5,
+            "Knowledge": 4,
+            "Prestige": 3,
+            "Happiness": -8,
+            "FireSafety": -5,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 5,
+            "Knowledge": 4,
+            "Prestige": 3,
+            "Happiness": -8,
+            "FireSafety": -5,
+            "Health": -6
+        }
+    },
+    "roman_08": {
+        "UID": 3591,
+        "Name": "Growing City",
+        "Icon": "icon_2d_city_status_08_0",
+        "RequiredPopulation": 7500,
+        "AttributeEffectsRoman": {
+            "Belief": 6,
+            "Knowledge": 5,
+            "Prestige": 4,
+            "Happiness": -10,
+            "FireSafety": -6,
+            "Health": -8
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 6,
+            "Knowledge": 5,
+            "Prestige": 4,
+            "Happiness": -10,
+            "FireSafety": -6,
+            "Health": -8
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 6,
+            "Knowledge": 5,
+            "Prestige": 4,
+            "Happiness": -10,
+            "FireSafety": -6,
+            "Health": -8
+        }
+    },
+    "roman_09": {
+        "UID": 3595,
+        "Name": "Major City",
+        "Icon": "icon_2d_city_status_09_0",
+        "RequiredPopulation": 10000,
+        "AttributeEffectsRoman": {
+            "Belief": 7,
+            "Knowledge": 6,
+            "Prestige": 5,
+            "Happiness": -11,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 7,
+            "Knowledge": 6,
+            "Prestige": 5,
+            "Happiness": -11,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 7,
+            "Knowledge": 6,
+            "Prestige": 5,
+            "Happiness": -11,
+            "FireSafety": -6,
+            "Health": -10
+        }
+    },
+    "roman_10": {
+        "UID": 3599,
+        "Name": "Minor Colonia",
+        "Icon": "icon_2d_city_status_10_0",
+        "RequiredPopulation": 15000,
+        "AttributeEffectsRoman": {
+            "Belief": 8,
+            "Knowledge": 7,
+            "Prestige": 6,
+            "Happiness": -12,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 8,
+            "Knowledge": 7,
+            "Prestige": 6,
+            "Happiness": -12,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 8,
+            "Knowledge": 7,
+            "Prestige": 6,
+            "Happiness": -12,
+            "FireSafety": -6,
+            "Health": -10
+        }
+    },
+    "roman_11": {
+        "UID": 3606,
+        "Name": "Growing Colonia",
+        "Icon": "icon_2d_city_status_11_0",
+        "RequiredPopulation": 20000,
+        "AttributeEffectsRoman": {
+            "Belief": 9,
+            "Knowledge": 8,
+            "Prestige": 7,
+            "Happiness": -13,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 9,
+            "Knowledge": 8,
+            "Prestige": 7,
+            "Happiness": -13,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 9,
+            "Knowledge": 8,
+            "Prestige": 7,
+            "Happiness": -13,
+            "FireSafety": -6,
+            "Health": -10
+        }
+    },
+    "roman_12": {
+        "UID": 3610,
+        "Name": "Major Colonia",
+        "Icon": "icon_2d_city_status_12_0",
+        "RequiredPopulation": 25000,
+        "AttributeEffectsRoman": {
+            "Belief": 10,
+            "Knowledge": 9,
+            "Prestige": 8,
+            "Happiness": -14,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 10,
+            "Knowledge": 9,
+            "Prestige": 8,
+            "Happiness": -14,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 10,
+            "Knowledge": 9,
+            "Prestige": 8,
+            "Happiness": -14,
+            "FireSafety": -6,
+            "Health": -10
+        }
+    },
+    "roman_13": {
+        "UID": 3611,
+        "Name": "Vast Colonia",
+        "Icon": "icon_2d_city_status_13_0",
+        "RequiredPopulation": 30000,
+        "AttributeEffectsRoman": {
+            "Belief": 11,
+            "Knowledge": 10,
+            "Prestige": 9,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 11,
+            "Knowledge": 10,
+            "Prestige": 9,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -10
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 11,
+            "Knowledge": 10,
+            "Prestige": 9,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -10
+        }
+    },
+    "roman_14": {
+        "UID": 3612,
+        "Name": "Minor Imperial City",
+        "Icon": "icon_2d_city_status_14_0",
+        "RequiredPopulation": 35000,
+        "AttributeEffectsRoman": {
+            "Belief": 12,
+            "Knowledge": 11,
+            "Prestige": 10,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 12,
+            "Knowledge": 11,
+            "Prestige": 10,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 12,
+            "Knowledge": 11,
+            "Prestige": 10,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        }
+    },
+    "roman_15": {
+        "UID": 3613,
+        "Name": "Growing Imperial City",
+        "Icon": "icon_2d_city_status_15_0",
+        "RequiredPopulation": 40000,
+        "AttributeEffectsRoman": {
+            "Belief": 13,
+            "Knowledge": 12,
+            "Prestige": 11,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 13,
+            "Knowledge": 12,
+            "Prestige": 11,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 13,
+            "Knowledge": 12,
+            "Prestige": 11,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        }
+    },
+    "roman_16": {
+        "UID": 5700,
+        "Name": "Major Imperial City",
+        "Icon": "icon_2d_city_status_16_0",
+        "RequiredPopulation": 45000,
+        "AttributeEffectsRoman": {
+            "Belief": 14,
+            "Knowledge": 13,
+            "Prestige": 12,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 14,
+            "Knowledge": 13,
+            "Prestige": 12,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 14,
+            "Knowledge": 13,
+            "Prestige": 12,
+            "Happiness": -14,
+            "FireSafety": -7,
+            "Health": -11
+        }
+    },
+    "roman_17": {
+        "UID": 5701,
+        "Name": "Vast Imperial City",
+        "Icon": "icon_2d_city_status_17_0",
+        "RequiredPopulation": 50000,
+        "AttributeEffectsRoman": {
+            "Belief": 15,
+            "Knowledge": 14,
+            "Prestige": 13,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 15,
+            "Knowledge": 14,
+            "Prestige": 13,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 15,
+            "Knowledge": 14,
+            "Prestige": 13,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -11
+        }
+    },
+    "roman_18": {
+        "UID": 5702,
+        "Name": "Minor Megalopolis",
+        "Icon": "icon_2d_city_status_18_0",
+        "RequiredPopulation": 55000,
+        "AttributeEffectsRoman": {
+            "Belief": 16,
+            "Knowledge": 15,
+            "Prestige": 14,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 16,
+            "Knowledge": 15,
+            "Prestige": 14,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 16,
+            "Knowledge": 15,
+            "Prestige": 14,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -11
+        }
+    },
+    "roman_19": {
+        "UID": 21122,
+        "Name": "Growing Megalopolis",
+        "Icon": "icon_2d_city_status_19_0",
+        "RequiredPopulation": 60000,
+        "AttributeEffectsRoman": {
+            "Belief": 17,
+            "Knowledge": 16,
+            "Prestige": 15,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 17,
+            "Knowledge": 16,
+            "Prestige": 15,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 17,
+            "Knowledge": 16,
+            "Prestige": 15,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        }
+    },
+    "roman_20": {
+        "UID": 21123,
+        "Name": "Major Megalopolis",
+        "Icon": "icon_2d_city_status_20_0",
+        "RequiredPopulation": 65000,
+        "AttributeEffectsRoman": {
+            "Belief": 18,
+            "Knowledge": 17,
+            "Prestige": 16,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 18,
+            "Knowledge": 17,
+            "Prestige": 16,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 18,
+            "Knowledge": 17,
+            "Prestige": 16,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        }
+    },
+    "roman_21": {
+        "UID": 21124,
+        "Name": "Vast Megalopolis",
+        "Icon": "icon_2d_city_status_21_0",
+        "RequiredPopulation": 70000,
+        "AttributeEffectsRoman": {
+            "Belief": 19,
+            "Knowledge": 18,
+            "Prestige": 17,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 19,
+            "Knowledge": 18,
+            "Prestige": 17,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 19,
+            "Knowledge": 18,
+            "Prestige": 17,
+            "Happiness": -15,
+            "FireSafety": -7,
+            "Health": -12
+        }
+    },
+    "roman_22": {
+        "UID": 21125,
+        "Name": "Minor Cosmopolis",
+        "Icon": "icon_2d_city_status_22_0",
+        "RequiredPopulation": 75000,
+        "AttributeEffectsRoman": {
+            "Belief": 20,
+            "Knowledge": 19,
+            "Prestige": 18,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -12
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 20,
+            "Knowledge": 19,
+            "Prestige": 18,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -12
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 20,
+            "Knowledge": 19,
+            "Prestige": 18,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -12
+        }
+    },
+    "roman_23": {
+        "UID": 21126,
+        "Name": "Growing Cosmopolis",
+        "Icon": "icon_2d_city_status_23_0",
+        "RequiredPopulation": 80000,
+        "AttributeEffectsRoman": {
+            "Belief": 21,
+            "Knowledge": 20,
+            "Prestige": 19,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -12
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 21,
+            "Knowledge": 20,
+            "Prestige": 19,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -12
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 21,
+            "Knowledge": 20,
+            "Prestige": 19,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -12
+        }
+    },
+    "roman_24": {
+        "UID": 21127,
+        "Name": "Major Cosmopolis",
+        "Icon": "icon_2d_city_status_24_0",
+        "RequiredPopulation": 85000,
+        "AttributeEffectsRoman": {
+            "Belief": 22,
+            "Knowledge": 21,
+            "Prestige": 20,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 22,
+            "Knowledge": 21,
+            "Prestige": 20,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 22,
+            "Knowledge": 21,
+            "Prestige": 20,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        }
+    },
+    "roman_25": {
+        "UID": 21128,
+        "Name": "Vast Cosmopolis",
+        "Icon": "icon_2d_city_status_25_0",
+        "RequiredPopulation": 90000,
+        "AttributeEffectsRoman": {
+            "Belief": 23,
+            "Knowledge": 22,
+            "Prestige": 21,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 23,
+            "Knowledge": 22,
+            "Prestige": 21,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 23,
+            "Knowledge": 22,
+            "Prestige": 21,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        }
+    },
+    "roman_26": {
+        "UID": 21129,
+        "Name": "Minor Monstropolis",
+        "Icon": "icon_2d_city_status_26_0",
+        "RequiredPopulation": 95000,
+        "AttributeEffectsRoman": {
+            "Belief": 24,
+            "Knowledge": 23,
+            "Prestige": 22,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 24,
+            "Knowledge": 23,
+            "Prestige": 22,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 24,
+            "Knowledge": 23,
+            "Prestige": 22,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        }
+    },
+    "roman_27": {
+        "UID": 21130,
+        "Name": "Growing Monstropolis",
+        "Icon": "icon_2d_city_status_27_0",
+        "RequiredPopulation": 100000,
+        "AttributeEffectsRoman": {
+            "Belief": 25,
+            "Knowledge": 24,
+            "Prestige": 23,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 25,
+            "Knowledge": 24,
+            "Prestige": 23,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 25,
+            "Knowledge": 24,
+            "Prestige": 23,
+            "Happiness": -16,
+            "FireSafety": -8,
+            "Health": -13
+        }
+    },
+    "roman_28": {
+        "UID": 21131,
+        "Name": "Major Monstropolis",
+        "Icon": "icon_2d_city_status_28_0",
+        "RequiredPopulation": 105000,
+        "AttributeEffectsRoman": {
+            "Belief": 26,
+            "Knowledge": 25,
+            "Prestige": 24,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 26,
+            "Knowledge": 25,
+            "Prestige": 24,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 26,
+            "Knowledge": 25,
+            "Prestige": 24,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        }
+    },
+    "roman_29": {
+        "UID": 21132,
+        "Name": "Vast Monstropolis",
+        "Icon": "icon_2d_city_status_29_0",
+        "RequiredPopulation": 110000,
+        "AttributeEffectsRoman": {
+            "Belief": 27,
+            "Knowledge": 26,
+            "Prestige": 25,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 27,
+            "Knowledge": 26,
+            "Prestige": 25,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 27,
+            "Knowledge": 26,
+            "Prestige": 25,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        }
+    },
+    "roman_30": {
+        "UID": 21133,
+        "Name": "Omnipolis",
+        "Icon": "icon_2d_city_status_30_0",
+        "RequiredPopulation": 115000,
+        "AttributeEffectsRoman": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        }
+    },
+    "roman_31": {
+        "UID": 150661,
+        "Name": "Growing Omnipolis",
+        "Icon": "icon_2d_city_status_31_0",
+        "RequiredPopulation": 125000,
+        "AttributeEffectsRoman": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -8,
+            "Health": -13
+        }
+    },
+    "roman_32": {
+        "UID": 150662,
+        "Name": "Major Omnipolis",
+        "Icon": "icon_2d_city_status_32_0",
+        "RequiredPopulation": 135000,
+        "AttributeEffectsRoman": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -13
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -13
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -13
+        }
+    },
+    "roman_33": {
+        "UID": 150663,
+        "Name": "Vast Omnipolis",
+        "Icon": "icon_2d_city_status_33_0",
+        "RequiredPopulation": 145000,
+        "AttributeEffectsRoman": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_34": {
+        "UID": 150664,
+        "Name": "Minor Aureliopolis",
+        "Icon": "icon_2d_city_status_34_0",
+        "RequiredPopulation": 155000,
+        "AttributeEffectsRoman": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 26,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_35": {
+        "UID": 150666,
+        "Name": "Growing Aureliopolis",
+        "Icon": "icon_2d_city_status_35_0",
+        "RequiredPopulation": 170000,
+        "AttributeEffectsRoman": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_36": {
+        "UID": 150667,
+        "Name": "Major Aureliopolis",
+        "Icon": "icon_2d_city_status_36_0",
+        "RequiredPopulation": 185000,
+        "AttributeEffectsRoman": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_37": {
+        "UID": 150672,
+        "Name": "Vast Aureliopolis",
+        "Icon": "icon_2d_city_status_37_0",
+        "RequiredPopulation": 200000,
+        "AttributeEffectsRoman": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -17,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_38": {
+        "UID": 150673,
+        "Name": "Minor Titanopolis",
+        "Icon": "icon_2d_city_status_38_0",
+        "RequiredPopulation": 220000,
+        "AttributeEffectsRoman": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_39": {
+        "UID": 150674,
+        "Name": "Growing Titanopolis",
+        "Icon": "icon_2d_city_status_39_0",
+        "RequiredPopulation": 240000,
+        "AttributeEffectsRoman": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 29,
+            "Knowledge": 28,
+            "Prestige": 27,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_40": {
+        "UID": 150675,
+        "Name": "Major Titanopolis",
+        "Icon": "icon_2d_city_status_40_0",
+        "RequiredPopulation": 260000,
+        "AttributeEffectsRoman": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_41": {
+        "UID": 150676,
+        "Name": "Vast Titanopolis",
+        "Icon": "icon_2d_city_status_41_0",
+        "RequiredPopulation": 0,
+        "AttributeEffectsRoman": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -9,
+            "Health": -14
+        }
+    },
+    "roman_42": {
+        "UID": 150677,
+        "Name": "Minor Pantheopolis",
+        "Icon": "icon_2d_city_status_42_0",
+        "RequiredPopulation": 0,
+        "AttributeEffectsRoman": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -14
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -14
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -14
+        }
+    },
+    "roman_43": {
+        "UID": 150678,
+        "Name": "Growing Pantheopolis",
+        "Icon": "icon_2d_city_status_43_0",
+        "RequiredPopulation": 0,
+        "AttributeEffectsRoman": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        }
+    },
+    "roman_44": {
+        "UID": 150679,
+        "Name": "Major Pantheopolis",
+        "Icon": "icon_2d_city_status_44_0",
+        "RequiredPopulation": 0,
+        "AttributeEffectsRoman": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 30,
+            "Knowledge": 29,
+            "Prestige": 28,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        }
+    },
+    "roman_45": {
+        "UID": 150680,
+        "Name": "Vast Pantheopolis",
+        "Icon": "icon_2d_city_status_45_0",
+        "RequiredPopulation": 0,
+        "AttributeEffectsRoman": {
+            "Belief": 31,
+            "Knowledge": 30,
+            "Prestige": 29,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 31,
+            "Knowledge": 30,
+            "Prestige": 29,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 31,
+            "Knowledge": 30,
+            "Prestige": 29,
+            "Happiness": -18,
+            "FireSafety": -10,
+            "Health": -15
+        }
+    }
+}

@@ -1,0 +1,752 @@
+{
+    "celtic_01": {
+        "UID": 8503,
+        "Name": "Outpost",
+        "Icon": "icon_2d_city_status_01_0",
+        "RequiredPopulation": 0,
+        "AttributeEffectsRoman": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        }
+    },
+    "celtic_02": {
+        "UID": 8504,
+        "Name": "Small Vicus",
+        "Icon": "icon_2d_city_status_02_0",
+        "RequiredPopulation": 150,
+        "AttributeEffectsRoman": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 0,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": 0
+        }
+    },
+    "celtic_03": {
+        "UID": 8505,
+        "Name": "Large Vicus",
+        "Icon": "icon_2d_city_status_03_0",
+        "RequiredPopulation": 350,
+        "AttributeEffectsRoman": {
+            "Belief": 1,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": -1
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 1,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": -1
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 1,
+            "Knowledge": 0,
+            "Prestige": 0,
+            "Happiness": 0,
+            "FireSafety": 0,
+            "Health": -1
+        }
+    },
+    "celtic_04": {
+        "UID": 8506,
+        "Name": "Minor Town",
+        "Icon": "icon_2d_city_status_04_0",
+        "RequiredPopulation": 750,
+        "AttributeEffectsRoman": {
+            "Belief": 2,
+            "Knowledge": 1,
+            "Prestige": 0,
+            "Happiness": -1,
+            "FireSafety": 0,
+            "Health": -2
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 3,
+            "Knowledge": 1,
+            "Prestige": 0,
+            "Happiness": -1,
+            "FireSafety": 0,
+            "Health": -2
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 3,
+            "Knowledge": 1,
+            "Prestige": 0,
+            "Happiness": -1,
+            "FireSafety": 0,
+            "Health": -2
+        }
+    },
+    "celtic_05": {
+        "UID": 8507,
+        "Name": "Growing Town",
+        "Icon": "icon_2d_city_status_05_0",
+        "RequiredPopulation": 1250,
+        "AttributeEffectsRoman": {
+            "Belief": 3,
+            "Knowledge": 3,
+            "Prestige": 1,
+            "Happiness": -2,
+            "FireSafety": -1,
+            "Health": -3
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 4,
+            "Knowledge": 2,
+            "Prestige": 1,
+            "Happiness": -2,
+            "FireSafety": 0,
+            "Health": -3
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 4,
+            "Knowledge": 3,
+            "Prestige": 1,
+            "Happiness": -3,
+            "FireSafety": 0,
+            "Health": -3
+        }
+    },
+    "celtic_06": {
+        "UID": 8508,
+        "Name": "Large Town",
+        "Icon": "icon_2d_city_status_06_0",
+        "RequiredPopulation": 2500,
+        "AttributeEffectsRoman": {
+            "Belief": 4,
+            "Knowledge": 4,
+            "Prestige": 2,
+            "Happiness": -4,
+            "FireSafety": -2,
+            "Health": -5
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 6,
+            "Knowledge": 3,
+            "Prestige": 2,
+            "Happiness": -4,
+            "FireSafety": 0,
+            "Health": -4
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 6,
+            "Knowledge": 4,
+            "Prestige": 2,
+            "Happiness": -6,
+            "FireSafety": -1,
+            "Health": -4
+        }
+    },
+    "celtic_07": {
+        "UID": 8509,
+        "Name": "Minor City",
+        "Icon": "icon_2d_city_status_07_0",
+        "RequiredPopulation": 3500,
+        "AttributeEffectsRoman": {
+            "Belief": 5,
+            "Knowledge": 6,
+            "Prestige": 3,
+            "Happiness": -6,
+            "FireSafety": -3,
+            "Health": -6
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 7,
+            "Knowledge": 4,
+            "Prestige": 3,
+            "Happiness": -6,
+            "FireSafety": 0,
+            "Health": -4
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 7,
+            "Knowledge": 6,
+            "Prestige": 3,
+            "Happiness": -9,
+            "FireSafety": -1,
+            "Health": -5
+        }
+    },
+    "celtic_08": {
+        "UID": 8510,
+        "Name": "Growing City",
+        "Icon": "icon_2d_city_status_08_0",
+        "RequiredPopulation": 5000,
+        "AttributeEffectsRoman": {
+            "Belief": 6,
+            "Knowledge": 7,
+            "Prestige": 4,
+            "Happiness": -6,
+            "FireSafety": -4,
+            "Health": -7
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 9,
+            "Knowledge": 5,
+            "Prestige": 4,
+            "Happiness": -7,
+            "FireSafety": 0,
+            "Health": -4
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 9,
+            "Knowledge": 7,
+            "Prestige": 4,
+            "Happiness": -10,
+            "FireSafety": -2,
+            "Health": -5
+        }
+    },
+    "celtic_09": {
+        "UID": 8511,
+        "Name": "Major City",
+        "Icon": "icon_2d_city_status_09_0",
+        "RequiredPopulation": 7500,
+        "AttributeEffectsRoman": {
+            "Belief": 7,
+            "Knowledge": 9,
+            "Prestige": 5,
+            "Happiness": -7,
+            "FireSafety": -5,
+            "Health": -8
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 10,
+            "Knowledge": 6,
+            "Prestige": 5,
+            "Happiness": -8,
+            "FireSafety": -1,
+            "Health": -4
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 10,
+            "Knowledge": 9,
+            "Prestige": 5,
+            "Happiness": -11,
+            "FireSafety": -3,
+            "Health": -6
+        }
+    },
+    "celtic_10": {
+        "UID": 8512,
+        "Name": "Minor Colonia",
+        "Icon": "icon_2d_city_status_10_0",
+        "RequiredPopulation": 10000,
+        "AttributeEffectsRoman": {
+            "Belief": 8,
+            "Knowledge": 10,
+            "Prestige": 6,
+            "Happiness": -7,
+            "FireSafety": -5,
+            "Health": -9
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 12,
+            "Knowledge": 7,
+            "Prestige": 6,
+            "Happiness": -9,
+            "FireSafety": -1,
+            "Health": -4
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 12,
+            "Knowledge": 10,
+            "Prestige": 6,
+            "Happiness": -12,
+            "FireSafety": -3,
+            "Health": -6
+        }
+    },
+    "celtic_11": {
+        "UID": 8513,
+        "Name": "Growing Colonia",
+        "Icon": "icon_2d_city_status_11_0",
+        "RequiredPopulation": 12500,
+        "AttributeEffectsRoman": {
+            "Belief": 9,
+            "Knowledge": 12,
+            "Prestige": 7,
+            "Happiness": -8,
+            "FireSafety": -5,
+            "Health": -9
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 13,
+            "Knowledge": 8,
+            "Prestige": 7,
+            "Happiness": -10,
+            "FireSafety": -1,
+            "Health": -5
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 13,
+            "Knowledge": 12,
+            "Prestige": 7,
+            "Happiness": -13,
+            "FireSafety": -3,
+            "Health": -7
+        }
+    },
+    "celtic_12": {
+        "UID": 8514,
+        "Name": "Major Colonia",
+        "Icon": "icon_2d_city_status_12_0",
+        "RequiredPopulation": 15000,
+        "AttributeEffectsRoman": {
+            "Belief": 10,
+            "Knowledge": 13,
+            "Prestige": 8,
+            "Happiness": -8,
+            "FireSafety": -5,
+            "Health": -9
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 15,
+            "Knowledge": 9,
+            "Prestige": 8,
+            "Happiness": -10,
+            "FireSafety": -1,
+            "Health": -5
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 15,
+            "Knowledge": 13,
+            "Prestige": 8,
+            "Happiness": -13,
+            "FireSafety": -3,
+            "Health": -7
+        }
+    },
+    "celtic_13": {
+        "UID": 8515,
+        "Name": "Vast Colonia",
+        "Icon": "icon_2d_city_status_13_0",
+        "RequiredPopulation": 17500,
+        "AttributeEffectsRoman": {
+            "Belief": 11,
+            "Knowledge": 15,
+            "Prestige": 9,
+            "Happiness": -8,
+            "FireSafety": -5,
+            "Health": -9
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 16,
+            "Knowledge": 10,
+            "Prestige": 9,
+            "Happiness": -10,
+            "FireSafety": -1,
+            "Health": -5
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 16,
+            "Knowledge": 15,
+            "Prestige": 9,
+            "Happiness": -14,
+            "FireSafety": -3,
+            "Health": -7
+        }
+    },
+    "celtic_14": {
+        "UID": 8516,
+        "Name": "Minor Imperial City",
+        "Icon": "icon_2d_city_status_14_0",
+        "RequiredPopulation": 20000,
+        "AttributeEffectsRoman": {
+            "Belief": 12,
+            "Knowledge": 16,
+            "Prestige": 10,
+            "Happiness": -8,
+            "FireSafety": -6,
+            "Health": -9
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 18,
+            "Knowledge": 11,
+            "Prestige": 10,
+            "Happiness": -10,
+            "FireSafety": -1,
+            "Health": -5
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 18,
+            "Knowledge": 16,
+            "Prestige": 10,
+            "Happiness": -14,
+            "FireSafety": -3,
+            "Health": -7
+        }
+    },
+    "celtic_15": {
+        "UID": 8517,
+        "Name": "Growing Imperial City",
+        "Icon": "icon_2d_city_status_15_0",
+        "RequiredPopulation": 22500,
+        "AttributeEffectsRoman": {
+            "Belief": 13,
+            "Knowledge": 18,
+            "Prestige": 11,
+            "Happiness": -8,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 19,
+            "Knowledge": 12,
+            "Prestige": 11,
+            "Happiness": -10,
+            "FireSafety": -1,
+            "Health": -5
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 19,
+            "Knowledge": 18,
+            "Prestige": 11,
+            "Happiness": -14,
+            "FireSafety": -3,
+            "Health": -7
+        }
+    },
+    "celtic_16": {
+        "UID": 8518,
+        "Name": "Major Imperial City",
+        "Icon": "icon_2d_city_status_16_0",
+        "RequiredPopulation": 25000,
+        "AttributeEffectsRoman": {
+            "Belief": 14,
+            "Knowledge": 19,
+            "Prestige": 12,
+            "Happiness": -9,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 21,
+            "Knowledge": 13,
+            "Prestige": 12,
+            "Happiness": -11,
+            "FireSafety": -1,
+            "Health": -5
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 21,
+            "Knowledge": 19,
+            "Prestige": 12,
+            "Happiness": -15,
+            "FireSafety": -3,
+            "Health": -8
+        }
+    },
+    "celtic_17": {
+        "UID": 8519,
+        "Name": "Vast Imperial City",
+        "Icon": "icon_2d_city_status_17_0",
+        "RequiredPopulation": 27500,
+        "AttributeEffectsRoman": {
+            "Belief": 15,
+            "Knowledge": 21,
+            "Prestige": 13,
+            "Happiness": -9,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 22,
+            "Knowledge": 14,
+            "Prestige": 13,
+            "Happiness": -11,
+            "FireSafety": -1,
+            "Health": -5
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 22,
+            "Knowledge": 21,
+            "Prestige": 13,
+            "Happiness": -15,
+            "FireSafety": -4,
+            "Health": -8
+        }
+    },
+    "celtic_18": {
+        "UID": 8520,
+        "Name": "Minor Megalopolis",
+        "Icon": "icon_2d_city_status_18_0",
+        "RequiredPopulation": 30000,
+        "AttributeEffectsRoman": {
+            "Belief": 16,
+            "Knowledge": 22,
+            "Prestige": 14,
+            "Happiness": -9,
+            "FireSafety": -6,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 24,
+            "Knowledge": 15,
+            "Prestige": 14,
+            "Happiness": -11,
+            "FireSafety": -1,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 24,
+            "Knowledge": 22,
+            "Prestige": 14,
+            "Happiness": -15,
+            "FireSafety": -4,
+            "Health": -8
+        }
+    },
+    "celtic_19": {
+        "UID": 21115,
+        "Name": "Growing Megalopolis",
+        "Icon": "icon_2d_city_status_19_0",
+        "RequiredPopulation": 32500,
+        "AttributeEffectsRoman": {
+            "Belief": 17,
+            "Knowledge": 24,
+            "Prestige": 15,
+            "Happiness": -9,
+            "FireSafety": -7,
+            "Health": -10
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 25,
+            "Knowledge": 16,
+            "Prestige": 15,
+            "Happiness": -11,
+            "FireSafety": -1,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 25,
+            "Knowledge": 24,
+            "Prestige": 15,
+            "Happiness": -15,
+            "FireSafety": -4,
+            "Health": -8
+        }
+    },
+    "celtic_20": {
+        "UID": 21116,
+        "Name": "Major Megalopolis",
+        "Icon": "icon_2d_city_status_20_0",
+        "RequiredPopulation": 35000,
+        "AttributeEffectsRoman": {
+            "Belief": 18,
+            "Knowledge": 25,
+            "Prestige": 16,
+            "Happiness": -9,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 27,
+            "Knowledge": 17,
+            "Prestige": 16,
+            "Happiness": -11,
+            "FireSafety": -1,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 27,
+            "Knowledge": 25,
+            "Prestige": 16,
+            "Happiness": -16,
+            "FireSafety": -4,
+            "Health": -8
+        }
+    },
+    "celtic_21": {
+        "UID": 21117,
+        "Name": "Vast Megalopolis",
+        "Icon": "icon_2d_city_status_21_0",
+        "RequiredPopulation": 37500,
+        "AttributeEffectsRoman": {
+            "Belief": 19,
+            "Knowledge": 27,
+            "Prestige": 17,
+            "Happiness": -10,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 28,
+            "Knowledge": 18,
+            "Prestige": 17,
+            "Happiness": -12,
+            "FireSafety": -1,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 28,
+            "Knowledge": 27,
+            "Prestige": 17,
+            "Happiness": -16,
+            "FireSafety": -4,
+            "Health": -8
+        }
+    },
+    "celtic_22": {
+        "UID": 21118,
+        "Name": "Minor Cosmopolis",
+        "Icon": "icon_2d_city_status_22_0",
+        "RequiredPopulation": 40000,
+        "AttributeEffectsRoman": {
+            "Belief": 20,
+            "Knowledge": 28,
+            "Prestige": 18,
+            "Happiness": -10,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 30,
+            "Knowledge": 19,
+            "Prestige": 18,
+            "Happiness": -12,
+            "FireSafety": -1,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 30,
+            "Knowledge": 28,
+            "Prestige": 18,
+            "Happiness": -16,
+            "FireSafety": -4,
+            "Health": -8
+        }
+    },
+    "celtic_23": {
+        "UID": 21119,
+        "Name": "Growing Cosmopolis",
+        "Icon": "icon_2d_city_status_23_0",
+        "RequiredPopulation": 42500,
+        "AttributeEffectsRoman": {
+            "Belief": 21,
+            "Knowledge": 30,
+            "Prestige": 19,
+            "Happiness": -10,
+            "FireSafety": -7,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 31,
+            "Knowledge": 20,
+            "Prestige": 19,
+            "Happiness": -12,
+            "FireSafety": -1,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 31,
+            "Knowledge": 30,
+            "Prestige": 19,
+            "Happiness": -17,
+            "FireSafety": -4,
+            "Health": -9
+        }
+    },
+    "celtic_24": {
+        "UID": 21120,
+        "Name": "Major Cosmopolis",
+        "Icon": "icon_2d_city_status_24_0",
+        "RequiredPopulation": 45000,
+        "AttributeEffectsRoman": {
+            "Belief": 22,
+            "Knowledge": 31,
+            "Prestige": 20,
+            "Happiness": -10,
+            "FireSafety": -8,
+            "Health": -11
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 33,
+            "Knowledge": 21,
+            "Prestige": 20,
+            "Happiness": -12,
+            "FireSafety": -1,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 33,
+            "Knowledge": 31,
+            "Prestige": 20,
+            "Happiness": -17,
+            "FireSafety": -4,
+            "Health": -9
+        }
+    },
+    "celtic_25": {
+        "UID": 21121,
+        "Name": "Vast Cosmopolis",
+        "Icon": "icon_2d_city_status_25_0",
+        "RequiredPopulation": 47500,
+        "AttributeEffectsRoman": {
+            "Belief": 23,
+            "Knowledge": 33,
+            "Prestige": 21,
+            "Happiness": -10,
+            "FireSafety": -8,
+            "Health": -12
+        },
+        "AttributeEffectsRegional": {
+            "Belief": 34,
+            "Knowledge": 22,
+            "Prestige": 21,
+            "Happiness": -12,
+            "FireSafety": -1,
+            "Health": -6
+        },
+        "AttributeEffectsMixed": {
+            "Belief": 34,
+            "Knowledge": 33,
+            "Prestige": 21,
+            "Happiness": -17,
+            "FireSafety": -5,
+            "Health": -9
+        }
+    }
+}
