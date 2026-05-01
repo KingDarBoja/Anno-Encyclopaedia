@@ -1,0 +1,158 @@
+.status-table-container {
+  overflow-x: auto;
+  border-radius: 0.5rem;
+  border: 1px solid var(--background-accent-color);
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+
+  .status-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--background-color);
+    text-align: left;
+    color: var(--text-color);
+    font-size: 0.875rem;
+
+    thead {
+      background-color: var(--primary-color);
+      color: white;
+      text-transform: uppercase;
+      font-size: 0.75rem;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+
+      tr:first-child th {
+        padding: 1rem;
+        border-bottom: 1px solid var(--secondary-color);
+      }
+
+      // Main Attribute Headers (Roman, Regional, Mixed)
+      .attribute-group-header {
+        text-align: center;
+        // Stronger border to define the group start
+        border-left: 2px solid var(--secondary-color);
+
+        &--roman,
+        &--mixed {
+          background-color: color-mix(
+            in srgb,
+            var(--secondary-color),
+            transparent 70%
+          );
+        }
+        &--regional {
+          background-color: color-mix(
+            in srgb,
+            var(--secondary-color),
+            transparent 50%
+          );
+        }
+      }
+
+      // Sub-header Row (Belief, Knowledge, etc.)
+      .sub-header-row {
+        background-color: var(--secondary-color);
+        font-size: 0.625rem;
+
+        th {
+          padding: 0.5rem;
+          border-bottom: 1px solid var(--primary-color);
+          border-left: 1px solid
+            color-mix(in srgb, var(--primary-color), transparent 50%);
+
+          // Aligns the sub-header border with the thick group border
+          &.group-start {
+            border-left: 2px solid var(--secondary-color);
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        transition: background-color 0.2s;
+
+        &:nth-child(even) {
+          background-color: color-mix(
+            in srgb,
+            var(--background-accent-color),
+            transparent 70%
+          );
+        }
+
+        &:hover {
+          background-color: color-mix(
+            in srgb,
+            var(--background-accent-color),
+            transparent 40%
+          );
+        }
+      }
+
+      td {
+        padding: 1rem;
+        border-bottom: 1px solid
+          color-mix(in srgb, var(--background-accent-color), transparent 50%);
+
+        &.id-cell {
+          font-family: ui-monospace, monospace;
+          font-weight: 700;
+          color: var(--primary-color);
+        }
+
+        &.name-cell {
+          font-weight: 700;
+        }
+
+        .status-icon {
+          width: 2.5rem;
+          height: 2.5rem;
+          margin: 0 auto;
+          display: block;
+
+          // Mask settings
+          -webkit-mask-size: contain;
+          mask-size: contain;
+          -webkit-mask-repeat: no-repeat;
+          mask-repeat: no-repeat;
+          -webkit-mask-position: center;
+          mask-position: center;
+
+          // This fills the mask stencil with your burgundy theme color
+          background-color: var(--primary-color);
+
+          &.icon-primary {
+            background-color: var(--primary-color);
+          }
+
+          &.icon-secondary {
+            background-color: var(--secondary-color);
+          }
+        }
+
+        &.attribute-cell {
+          text-align: center;
+          padding: 0.5rem;
+          border-left: 1px solid
+            color-mix(in srgb, var(--background-accent-color), transparent 60%);
+
+          // Vertical separator for attribute groups in the body
+          &.group-start {
+            border-left: 2px solid
+              color-mix(in srgb, var(--secondary-color), transparent 80%);
+          }
+
+          &--negative {
+            color: #b91c1c; // red-700
+            font-weight: 600;
+          }
+
+          // &--health-neg {
+          //   color: #991b1b; // red-800
+          //   font-weight: 600;
+          // }
+        }
+      }
+    }
+  }
+}

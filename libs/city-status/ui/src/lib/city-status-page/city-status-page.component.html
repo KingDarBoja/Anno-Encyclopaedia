@@ -4,19 +4,25 @@
   <p class="mb-12 max-w-2xl text-center px-4">Description goes here</p>
 
   <!-- Content Wrapper -->
-  <div class="w-full max-w-[1600px] flex flex-row items-start px-6">
+  <div class="w-full max-w-[1600px] flex flex-col gap-12 px-6">
     <!-- <anno-toc [entries]="tocEntries()" /> -->
 
-    <div class="flex-grow min-w-0">
-      @for (level of levelSetsRoman(); track level.id) {
-        <span>{{ level | json }}</span>
-      }
+    <div>
+      <h3
+        class="text-xl font-bold mb-4 border-l-4 border-[var(--primary-color)] pl-2"
+      >
+        Roman Progression
+      </h3>
+      <anno-city-status-table [levels]="levelSetsRoman()" />
     </div>
 
-    <div class="flex-grow min-w-0">
-      @for (level of levelSetsCeltic(); track level.id) {
-        <span>{{ level | json }}</span>
-      }
+    <div>
+      <h3
+        class="text-xl font-bold mb-4 border-l-4 border-[var(--primary-color)] pl-2"
+      >
+        Celtic Progression
+      </h3>
+      <anno-city-status-table [levels]="levelSetsCeltic()" />
     </div>
   </div>
 </section>

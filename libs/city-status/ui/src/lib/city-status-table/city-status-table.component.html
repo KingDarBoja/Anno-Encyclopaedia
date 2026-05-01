@@ -1,0 +1,125 @@
+<div class="status-table-container">
+  <table class="status-table">
+    <thead>
+      <tr>
+        <th rowspan="2">Level</th>
+        <th rowspan="2" class="text-center">Icon</th>
+        <th rowspan="2">Name</th>
+        <th rowspan="2" class="text-center">Pop.</th>
+        <th
+          colspan="6"
+          class="attribute-group-header attribute-group-header--roman"
+        >
+          Roman Attributes
+        </th>
+        <th
+          colspan="6"
+          class="attribute-group-header attribute-group-header--regional"
+        >
+          Regional Attributes
+        </th>
+        <th
+          colspan="6"
+          class="attribute-group-header attribute-group-header--mixed"
+        >
+          Mixed Attributes
+        </th>
+      </tr>
+      <tr class="sub-header-row">
+        @for (set of [1, 2, 3]; track $index) {
+          <th>Belief</th>
+          <th>Knowledge</th>
+          <th>Prestige</th>
+          <th>Health</th>
+          <th>Fire Safety</th>
+          <th>Happiness</th>
+        }
+      </tr>
+    </thead>
+
+    <tbody>
+      @for (level of levels(); track level.id) {
+        <tr>
+          <td class="id-cell">{{ level.id }}</td>
+          <td class="p-2 text-center">
+            <!-- <img
+              class="status-icon"
+              [src]="level.image_url"
+              [alt]="level.name"
+              (error)="handleImgError($event)"
+            /> -->
+            <div
+              class="status-icon icon-primary"
+              [style.mask-image]="
+                'url(' + getSafeIconPath(level.image_url) + ')'
+              "
+              [style.-webkit-mask-image]="
+                'url(' + getSafeIconPath(level.image_url) + ')'
+              "
+            ></div>
+          </td>
+          <td class="name-cell">{{ level.name }}</td>
+          <td class="text-center">{{ level.required_pop | number }}</td>
+
+          <ng-container
+            *ngTemplateOutlet="
+              attrCols;
+              context: { $implicit: level.attributes.roman }
+            "
+          ></ng-container>
+          <ng-container
+            *ngTemplateOutlet="
+              attrCols;
+              context: { $implicit: level.attributes.regional }
+            "
+          ></ng-container>
+          <ng-container
+            *ngTemplateOutlet="
+              attrCols;
+              context: { $implicit: level.attributes.mixed }
+            "
+          ></ng-container>
+        </tr>
+      }
+    </tbody>
+  </table>
+</div>
+
+<ng-template #attrCols let-attr>
+  <td
+    class="attribute-cell group-start"
+    [class.attribute-cell--negative]="attr.belief < 0"
+  >
+    {{ attr.belief || '-' }}
+  </td>
+  <td
+    class="attribute-cell"
+    [class.attribute-cell--negative]="attr.knowledge < 0"
+  >
+    {{ attr.knowledge || '-' }}
+  </td>
+  <td
+    class="attribute-cell"
+    [class.attribute-cell--negative]="attr.prestige < 0"
+  >
+    {{ attr.prestige || '-' }}
+  </td>
+  <td
+    class="attribute-cell"
+    [class.attribute-cell--negative]="attr.health < 0"
+  >
+    {{ attr.health || '-' }}
+  </td>
+  <td
+    class="attribute-cell"
+    [class.attribute-cell--negative]="attr.fire_safety < 0"
+  >
+    {{ attr.fire_safety || '-' }}
+  </td>
+  <td
+    class="attribute-cell"
+    [class.attribute-cell--negative]="attr.happiness < 0"
+  >
+    {{ attr.happiness || '-' }}
+  </td>
+</ng-template>

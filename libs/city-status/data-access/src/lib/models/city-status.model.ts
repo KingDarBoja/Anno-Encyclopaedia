@@ -1,33 +1,4 @@
 export interface CityAttributeEffects {
-  readonly Belief: number;
-  readonly Knowledge: number;
-  readonly Prestige: number;
-  readonly Happiness: number;
-  readonly FireSafety: number;
-  readonly Health: number;
-}
-
-/**
- * Raw city status item from JSON.
- */
-interface CityStatus {
-  readonly UID: number;
-  readonly Name: string;
-  readonly Icon: string;
-  readonly RequiredPopulation: number;
-  readonly AttributeEffectsRoman: CityAttributeEffects;
-  readonly AttributeEffectsRegional: CityAttributeEffects;
-  readonly AttributeEffectsMixed: CityAttributeEffects;
-}
-
-/**
- * Raw city status data from JSON.
- */
-export interface CityStatusRawData {
-  [uid: string]: CityStatus;
-}
-
-export interface CityAttributeEffectsViewModel {
   readonly belief: number;
   readonly knowledge: number;
   readonly prestige: number;
@@ -36,11 +7,32 @@ export interface CityAttributeEffectsViewModel {
   readonly health: number;
 }
 
+/**
+ * Raw city status item from JSON.
+ */
+interface CityStatusEntry {
+  readonly uid: number;
+  readonly name: string;
+  readonly image_url: string;
+  readonly required_population: number;
+  readonly attribute_effects_roman: CityAttributeEffects;
+  readonly attribute_effects_regional: CityAttributeEffects;
+  readonly attribute_effects_mixed: CityAttributeEffects;
+}
+
+/**
+ * Raw city status data from JSON.
+ */
+export interface CityStatusRawData {
+  [uid: string]: CityStatusEntry;
+}
+
+export type CityAttributeEffectsViewModel = CityAttributeEffects;
+
 export interface CityStatusViewModel {
   readonly id: string;
   readonly slug: string;
   readonly name: string;
-  /** Comes from "Icon". Already formatted with the extension. */
   readonly image_url: string;
   readonly required_pop: number;
   readonly attributes: {

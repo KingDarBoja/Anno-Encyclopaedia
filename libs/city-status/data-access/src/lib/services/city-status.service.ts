@@ -2,8 +2,6 @@ import { Injectable, signal, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, forkJoin, map, of, tap } from 'rxjs';
 import {
-  CityAttributeEffects,
-  CityAttributeEffectsViewModel,
   CityStatusRawData,
   CityStatusViewModel,
 } from '../models/city-status.model';
@@ -82,32 +80,16 @@ export class CityStatusService {
       return {
         slug: this.slugify(label),
         id, // Set the ID from the object key
-        image_url: this.transformImageUrl(rawCityStatus.Icon),
-        name: rawCityStatus.Name,
-        required_pop: rawCityStatus.RequiredPopulation,
+        image_url: this.transformImageUrl(rawCityStatus.image_url),
+        name: rawCityStatus.name,
+        required_pop: rawCityStatus.required_population,
         attributes: {
-          roman: this.mapAttributes(rawCityStatus.AttributeEffectsRoman),
-          regional: this.mapAttributes(rawCityStatus.AttributeEffectsRegional),
-          mixed: this.mapAttributes(rawCityStatus.AttributeEffectsMixed),
+          roman: rawCityStatus.attribute_effects_roman,
+          regional: rawCityStatus.attribute_effects_regional,
+          mixed: rawCityStatus.attribute_effects_mixed,
         },
       };
     });
-  }
-
-  /**
-   * Maps PascalCase raw attributes to snake_case view model attributes.
-   */
-  private mapAttributes(
-    raw: CityAttributeEffects,
-  ): CityAttributeEffectsViewModel {
-    return {
-      belief: raw.Belief,
-      knowledge: raw.Knowledge,
-      prestige: raw.Prestige,
-      happiness: raw.Happiness,
-      fire_safety: raw.FireSafety,
-      health: raw.Health,
-    };
   }
 
   /**
