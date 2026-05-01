@@ -11,7 +11,7 @@
       "executor": "@angular/build:application",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/anno_encyclopaedia",
+        "outputPath": "dist/anno117_stats",
         "browser": "apps/anno117_stats/src/main.ts",
         "tsConfig": "apps/anno117_stats/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
@@ -90,8 +90,17 @@
       "options": {
         "buildTarget": "anno117_stats:build",
         "port": 4200,
-        "staticFilePath": "dist/anno_encyclopaedia/browser",
+        "staticFilePath": "dist/anno117_stats/browser",
         "spa": true
+      }
+    },
+    "deploy": {
+      "executor": "angular-cli-ghpages:deploy",
+      "options": {
+        "dir": "dist/anno117_stats/browser",
+        "repo": "https://github.com/KingDarBoja/anno117_stats.git",
+        "baseHref": "/anno117_stats/",
+        "nojekyll": true
       }
     }
   }
