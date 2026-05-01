@@ -1,49 +1,193 @@
+/* header.component.scss */
 header {
-  display: flex;
-  width: 100%;
-  padding: 1em;
-  justify-content: center;
+  position: relative;
+  z-index: 1000;
 
-  nav {
+  .main-nav {
     display: flex;
-    height: 3em;
-    border-radius: 10px;
-    overflow: hidden;
-    justify-content: space-between;
-    background-color: var(--primary-color);
+    align-items: center;
 
-    div {
+    @media (max-width: 768px) {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      width: 100%;
+      background: var(--primary-color);
+      flex-direction: column;
+      padding: 1rem 0;
+      border-top: 1px solid rgba(255, 255, 255, 0.1);
+      align-items: flex-start; // Fixes the centered mobile text
+
+      &.open {
+        display: flex;
+      }
+    }
+
+    .nav-group {
+      position: relative;
       height: 100%;
 
-      a {
-        display: flex;
-        height: 100%;
-        padding: 0 2em;
-        align-items: center;
-        color: white;
-        font-weight: 700;
-        text-decoration: none;
-        transition: background-color 0.2s;
+      &.active .group-label {
+        border-bottom: 2px solid white;
+        opacity: 1;
 
-        &:hover {
-          // #0005 in hex is roughly 33% opacity black
-          background-color: rgba(0, 0, 0, 0.33);
+        @media (max-width: 768px) {
+          border-bottom: none;
+          border-left: 4px solid white;
         }
       }
 
-      &.active {
-        position: relative;
+      .group-label {
+        display: flex;
+        padding: 0 1.5em;
+        height: 3em;
+        align-items: center;
+        color: white;
+        cursor: pointer;
+        white-space: nowrap; // Prevents text wrapping
+      }
 
+      .submenu {
+        position: absolute;
+        top: 100%;
+        right: 0; // FIXED: Align to right so it doesn't overflow the screen
+        background: var(--secondary-color);
+        min-width: 200px;
+        display: none;
+        flex-direction: column;
+        box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        z-index: 1100;
+
+        div {
+          width: 100%;
+
+          // Target the active state for the child link
+          &.sub-active {
+            background: rgba(255, 255, 255, 0.1); // Subtle highlight
+
+            a {
+              opacity: 1;
+              font-weight: 700;
+              border-left: 3px solid white; // Roman pillar-style indicator
+              padding-left: calc(
+                1.5em - 3px
+              ); // Offset padding so text doesn't jump
+            }
+          }
+
+          a {
+            padding: 1em 1.5em;
+            width: 100%;
+            display: flex;
+            color: white;
+            text-decoration: none;
+            transition: all 0.2s;
+
+            &:hover {
+              background: rgba(255, 255, 255, 0.1);
+              opacity: 1;
+            }
+          }
+        }
+      }
+
+      &:hover .submenu {
+        display: flex;
+      }
+
+      @media (max-width: 768px) {
+        width: 100%;
+
+        .group-label {
+          width: 100%;
+        }
+
+        .submenu {
+          position: static;
+          display: flex;
+          width: 100%;
+          background: rgba(0, 0, 0, 0.2);
+          box-shadow: none;
+          border: none;
+          padding-left: 1rem; // Indent children in mobile
+        }
+      }
+    }
+
+    // Individual top-level links (Home, About)
+    > div {
+      @media (max-width: 768px) {
+        width: 100%;
+      }
+
+      a {
+        display: flex;
+        padding: 0 1.5em;
+        height: 3em;
+        align-items: center;
+        color: white;
+        text-decoration: none;
+        transition: background 0.2s;
+
+        &:hover {
+          background: rgba(255, 255, 255, 0.1);
+        }
+      }
+
+      &.active > a {
+        background: rgba(255, 255, 255, 0.05);
+        border-bottom: 2px solid white;
+
+        @media (max-width: 768px) {
+          border-bottom: none;
+          border-left: 4px solid white;
+        }
+      }
+    }
+  }
+
+  .mobile-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0.5rem;
+
+    .hamburger {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: white;
+      position: relative;
+      transition: 0.3s;
+
+      &::before,
+      &::after {
+        content: '';
+        position: absolute;
+        width: 24px;
+        height: 2px;
+        background: white;
+        left: 0;
+        transition: 0.3s;
+      }
+      &::before {
+        top: -8px;
+      }
+      &::after {
+        top: 8px;
+      }
+
+      &.open {
+        background: transparent;
         &::before {
-          content: '';
-          display: block;
-          position: absolute;
-          bottom: 0.5em;
-          left: 20px;
-          right: 20px;
-          height: 2px;
-          border-radius: 1px;
-          background-color: white;
+          transform: rotate(45deg);
+          top: 0;
+        }
+        &::after {
+          transform: rotate(-45deg);
+          top: 0;
         }
       }
     }
