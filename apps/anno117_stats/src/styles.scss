@@ -1,20 +1,86 @@
 /* You can add global styles to this file, and also import other style files */
 
 :root {
-    --primary-color: #5f032e;
-    --secondary-color: #1d000e;
-    --text-color: #080808;
-    --accent-color: #5f032e;
-    --background-color: #ebd2b8;
-    --background-accent-color: #d4b89b;
+  --primary-color: #5f032e;
+  --secondary-color: #1d000e;
+  --text-color: #080808;
+  --accent-color: #5f032e;
+  --background-color: #ebd2b8;
+  --background-accent-color: #d4b89b;
+
+  // Define font variables for easy reuse
+  --font-primary: 'Marcellus', serif;
+  --font-secondary: 'Roboto', sans-serif;
 }
 
-html, body {
-    background-color: var(--background-color);
-    color: var(--text-color);
-    min-height: 100vh;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    font-family: "Roboto", sans-serif;
+html,
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  min-height: 100vh;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+  // Luxurious Roman as primary, Roboto as first fallback, then generic sans-serif
+  font-family: var(--font-primary), var(--font-secondary), sans-serif;
+
+  // Standardizing text rendering for serif fonts
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// Optional: Force headings to always use the Roman font
+// even if you decide to change the body font later.
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-primary);
+  text-transform: uppercase; // Optional: gives it a more "monumental" Roman feel
+  letter-spacing: 0.02em;
+}
+
+// Helper class for specific elements (like card titles)
+.font-roman {
+  font-family: var(--font-primary);
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+  background-color: color-mix(
+    in srgb,
+    var(--background-accent-color),
+    transparent 50%
+  );
+}
+
+// 2. The Scrollbar thumb (the draggable bit)
+::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+
+  // Reduced radius from 4px to 1px/2px for sharper "chiseled" corners
+  border-radius: 2px;
+
+  // Adding a slight border can make the thumb look "inset" into the track
+  border: 2px solid transparent;
+  background-clip: content-box;
+
+  &:hover {
+    background-color: var(--secondary-color);
+  }
+}
+
+// 3. The Corner (where horizontal and vertical meet)
+::-webkit-scrollbar-corner {
+  background: var(--background-accent-color);
+}
+
+/* Firefox Support (Standard properties) */
+* {
+  scrollbar-width: auto; // Default 'auto' is thicker than 'thin'
+  scrollbar-color: var(--primary-color) var(--background-accent-color);
 }
