@@ -1,0 +1,22 @@
+<section class="w-full flex flex-col items-center py-8">
+  <h2 class="mb-4 text-center text-3xl font-bold">City Status Levels</h2>
+
+  <p class="mb-12 max-w-2xl text-center px-4">Description goes here</p>
+
+  <!-- Content Wrapper -->
+  <div class="w-full max-w-[1600px] flex flex-row items-start px-6">
+    <!-- <anno-toc [entries]="tocEntries()" /> -->
+
+    <div class="flex-grow min-w-0">
+      @for (level of levelSetsRoman(); track level.id) {
+        <span>{{ level | json }}</span>
+      }
+    </div>
+
+    <div class="flex-grow min-w-0">
+      @for (level of levelSetsCeltic(); track level.id) {
+        <span>{{ level | json }}</span>
+      }
+    </div>
+  </div>
+</section>

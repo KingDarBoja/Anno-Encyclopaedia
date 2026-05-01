@@ -28,5 +28,6 @@ export class HeaderComponent {
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
     { label: 'Achievements', path: '/achievements' },
+    { label: 'City Status', path: '/city-status' },
   ];
 }

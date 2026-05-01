@@ -38,6 +38,7 @@ export interface CityAttributeEffectsViewModel {
 
 export interface CityStatusViewModel {
   readonly id: string;
+  readonly slug: string;
   readonly name: string;
   /** Comes from "Icon". Already formatted with the extension. */
   readonly image_url: string;

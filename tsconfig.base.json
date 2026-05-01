@@ -18,7 +18,8 @@
       "@anno/achievements-data": [
         "./libs/achievements/data-access/src/index.ts"
       ],
-      "@anno/city-status-data": ["./libs/city-status/data-access/src/index.ts"]
+      "@anno/city-status-data": ["./libs/city-status/data-access/src/index.ts"],
+      "@anno/city-status-ui": ["./libs/city-status/ui/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

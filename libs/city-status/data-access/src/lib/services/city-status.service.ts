@@ -1,4 +1,4 @@
-import { Injectable, signal, computed, inject } from '@angular/core';
+import { Injectable, signal, inject } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { catchError, finalize, forkJoin, map, of, tap } from 'rxjs';
 import {
@@ -42,7 +42,7 @@ export class CityStatusService {
    * - assets/data/city_status_roman.json
    * - assets/data/city_status_celtic.json
    */
-  fetchAchievements() {
+  fetchCityStatuses() {
     this._loading.set(true);
     this._error.set(null);
 

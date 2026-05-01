@@ -1,0 +1,1 @@
+export * from './lib/city-status-page/city-status-page.component';

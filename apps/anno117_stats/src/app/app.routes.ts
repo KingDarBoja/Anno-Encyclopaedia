@@ -18,6 +18,11 @@ export const appRoutes: Route[] = [
       import('@anno/achievements-ui').then((c) => c.AchievementPageComponent),
   },
   {
+    path: 'city-status',
+    loadComponent: () =>
+      import('@anno/city-status-ui').then((m) => m.CityStatusPageComponent),
+  },
+  {
     path: '**',
     redirectTo: '',
   },
