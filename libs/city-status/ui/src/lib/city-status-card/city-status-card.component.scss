@@ -1,0 +1,163 @@
+:host {
+  display: block;
+  width: 100%;
+}
+
+.city-status-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid color-mix(in srgb, var(--secondary-color), transparent 80%);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--background-color);
+
+  header {
+    padding: 0.5em;
+    background-color: var(--background-accent-color);
+    text-align: center;
+    font-weight: bold;
+
+    h3 {
+      margin: 0;
+      color: var(--primary-color);
+      font-size: 0.95em;
+      text-transform: uppercase;
+    }
+  }
+
+  .card-body-row {
+    display: flex;
+    flex-direction: column; // Mobile first
+    border-top: 1px solid
+      color-mix(in srgb, var(--secondary-color), transparent 80%);
+
+    @media (min-width: 768px) {
+      flex-direction: row;
+      height: auto;
+      min-height: 120px;
+    }
+
+    .card-image-container {
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: color-mix(
+        in srgb,
+        var(--secondary-color),
+        transparent 95%
+      );
+      border-bottom: 1px solid
+        color-mix(in srgb, var(--secondary-color), transparent 85%);
+
+      @media (min-width: 768px) {
+        width: 120px;
+        min-width: 120px;
+        height: auto;
+        border-bottom: 0;
+        border-right: 1px solid
+          color-mix(in srgb, var(--secondary-color), transparent 85%);
+      }
+
+      .status-mask-icon {
+        width: 64px;
+        height: 64px;
+        background-color: var(--primary-color);
+        -webkit-mask-size: contain;
+        mask-size: contain;
+        -webkit-mask-repeat: no-repeat;
+        mask-repeat: no-repeat;
+        mask-position: center;
+        -webkit-mask-position: center;
+      }
+    }
+
+    .card-content {
+      flex-grow: 1;
+      padding: 12px;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 12px;
+
+      .attr-column {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+
+        h4 {
+          font-size: 0.65em;
+          text-transform: uppercase;
+          color: var(--secondary-color);
+          border-bottom: 1px solid
+            color-mix(in srgb, var(--secondary-color), transparent 85%);
+          margin-bottom: 4px;
+          padding-bottom: 2px;
+        }
+      }
+    }
+  }
+
+  .attr-row {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.8em;
+    padding: 2px 0;
+
+    .attr-icon {
+      width: 16px;
+      height: 16px;
+
+      background-color: var(--secondary-color);
+      -webkit-mask-size: contain;
+      mask-size: contain;
+      -webkit-mask-repeat: no-repeat;
+      mask-repeat: no-repeat;
+
+      // Fixed classes for each attribute type
+      &.icon-belief {
+        -webkit-mask-image: url('/assets/icons/main/attributes/icon_religion_belief_0.webp');
+        mask-image: url('/assets/icons/main/attributes/icon_religion_belief_0.webp');
+      }
+
+      &.icon-knowledge {
+        -webkit-mask-image: url('/assets/icons/main/attributes/icon_techtree_knowledge_0.webp');
+        mask-image: url('/assets/icons/main/attributes/icon_techtree_knowledge_0.webp');
+      }
+
+      &.icon-prestige {
+        -webkit-mask-image: url('/assets/icons/main/attributes/icon_prestige_0.webp');
+        mask-image: url('/assets/icons/main/attributes/icon_prestige_0.webp');
+      }
+
+      &.icon-health {
+        -webkit-mask-image: url('/assets/icons/main/attributes/icon_health_0.webp');
+        mask-image: url('/assets/icons/main/attributes/icon_health_0.webp');
+      }
+
+      &.icon-fire {
+        -webkit-mask-image: url('/assets/icons/main/attributes/icon_fire_safety_0.webp');
+        mask-image: url('/assets/icons/main/attributes/icon_fire_safety_0.webp');
+      }
+
+      &.icon-happiness {
+        -webkit-mask-image: url('/assets/icons/main/attributes/icon_happiness_0.webp');
+        mask-image: url('/assets/icons/main/attributes/icon_happiness_0.webp');
+      }
+    }
+
+    .label {
+      flex-grow: 1;
+      color: color-mix(in srgb, var(--text-color), transparent 20%);
+    }
+
+    .value {
+      font-weight: bold;
+
+      &.neg {
+        color: #b91c1c;
+      } // Red for penalties
+    }
+  }
+}

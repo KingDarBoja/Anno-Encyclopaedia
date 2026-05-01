@@ -1,0 +1,31 @@
+section {
+  // Smoothly transition between states if necessary
+  transition: opacity 0.3s ease-in-out;
+}
+
+// Targets the container that has 'overflow-x: auto'
+:host ::ng-deep {
+  .status-table-container {
+    // 1. The Scrollbar track (the background)
+    &::-webkit-scrollbar {
+      height: 8px;
+      width: 8px;
+      background-color: color-mix(in srgb, var(--background-accent-color), transparent 80%);
+    }
+
+    // 2. The Scrollbar thumb (the draggable bit)
+    &::-webkit-scrollbar-thumb {
+      background-color: var(--primary-color);
+      border-radius: 4px;
+      
+      &:hover {
+        background-color: var(--secondary-color);
+      }
+    }
+
+    // 3. The Corner (where horizontal and vertical meet)
+    &::-webkit-scrollbar-corner {
+      background: transparent;
+    }
+  }
+}

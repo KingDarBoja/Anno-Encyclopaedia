@@ -1,28 +1,50 @@
 <section class="w-full flex flex-col items-center py-8">
   <h2 class="mb-4 text-center text-3xl font-bold">City Status Levels</h2>
 
-  <p class="mb-12 max-w-2xl text-center px-4">Description goes here</p>
+  <p class="mb-12 max-w-2xl text-center px-4">
+    Monitor your progression from an Outpost to a glorious Civitas.
+  </p>
 
   <!-- Content Wrapper -->
-  <div class="w-full max-w-[1600px] flex flex-col gap-12 px-6">
+  <div class="w-full max-w-[1600px] flex flex-col gap-16 px-6">
     <!-- <anno-toc [entries]="tocEntries()" /> -->
 
-    <div>
-      <h3
-        class="text-xl font-bold mb-4 border-l-4 border-[var(--primary-color)] pl-2"
-      >
+    <!-- Roman Progression Section -->
+    <div id="roman-progression">
+      <h3 class="text-xl font-bold mb-6 border-l-4 border-[var(--primary-color)] pl-2">
         Roman Progression
       </h3>
-      <anno-city-status-table [levels]="levelSetsRoman()" />
+      
+      <!-- Desktop: Table View -->
+      <div class="hidden md:block">
+        <anno-city-status-table [levels]="levelSetsRoman()" />
+      </div>
+
+      <!-- Mobile: Card Grid -->
+      <div class="grid grid-cols-1 gap-6 md:hidden">
+        @for (level of levelSetsRoman(); track level.id) {
+          <anno-city-status-card [data]="level" />
+        }
+      </div>
     </div>
 
-    <div>
-      <h3
-        class="text-xl font-bold mb-4 border-l-4 border-[var(--primary-color)] pl-2"
-      >
+    <!-- Celtic Progression Section -->
+    <div id="celtic-progression">
+      <h3 class="text-xl font-bold mb-6 border-l-4 border-[var(--primary-color)] pl-2">
         Celtic Progression
       </h3>
-      <anno-city-status-table [levels]="levelSetsCeltic()" />
+      
+      <!-- Desktop: Table View -->
+      <div class="hidden md:block">
+        <anno-city-status-table [levels]="levelSetsCeltic()" />
+      </div>
+
+      <!-- Mobile: Card Grid -->
+      <div class="grid grid-cols-1 gap-6 md:hidden">
+        @for (level of levelSetsCeltic(); track level.id) {
+          <anno-city-status-card [data]="level" />
+        }
+      </div>
     </div>
   </div>
 </section>
