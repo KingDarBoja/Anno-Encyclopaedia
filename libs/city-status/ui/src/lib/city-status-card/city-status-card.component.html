@@ -49,51 +49,36 @@
 </div>
 
 <ng-template #attrList let-set>
-  <div class="attr-row">
-    <div class="attr-icon icon-belief"></div>
-    <span class="label">Belief</span>
-    <span class="value" [class.neg]="set.belief < 0">{{
-      formatValue(set.belief)
-    }}</span>
-  </div>
-
-  <div class="attr-row">
-    <div class="attr-icon icon-knowledge"></div>
-    <span class="label">Knowledge</span>
-    <span class="value" [class.neg]="set.knowledge < 0">{{
-      formatValue(set.knowledge)
-    }}</span>
-  </div>
-
-  <div class="attr-row">
-    <div class="attr-icon icon-prestige"></div>
-    <span class="label">Prestige</span>
-    <span class="value" [class.neg]="set.prestige < 0">{{
-      formatValue(set.prestige)
-    }}</span>
-  </div>
-
-  <div class="attr-row">
-    <div class="attr-icon icon-health"></div>
-    <span class="label">Health</span>
-    <span class="value" [class.neg]="set.health < 0">{{
-      formatValue(set.health)
-    }}</span>
-  </div>
-
-  <div class="attr-row">
-    <div class="attr-icon icon-fire"></div>
-    <span class="label">Fire Safety</span>
-    <span class="value" [class.neg]="set.fire_safety < 0">{{
-      formatValue(set.fire_safety)
-    }}</span>
-  </div>
-
-  <div class="attr-row">
-    <div class="attr-icon icon-happiness"></div>
-    <span class="label">Happiness</span>
-    <span class="value" [class.neg]="set.happiness < 0">{{
-      formatValue(set.happiness)
-    }}</span>
-  </div>
+  <!-- Attribute Row Helper -->
+  @for (
+    attr of [
+      { key: 'belief', label: 'Belief', icon: 'icon_religion_belief_0.webp' },
+      {
+        key: 'knowledge',
+        label: 'Knowledge',
+        icon: 'icon_techtree_knowledge_0.webp',
+      },
+      { key: 'prestige', label: 'Prestige', icon: 'icon_prestige_0.webp' },
+      { key: 'health', label: 'Health', icon: 'icon_health_0.webp' },
+      {
+        key: 'fire_safety',
+        label: 'Fire Safety',
+        icon: 'icon_fire_safety_0.webp',
+      },
+      { key: 'happiness', label: 'Happiness', icon: 'icon_happiness_0.webp' },
+    ];
+    track attr.key
+  ) {
+    <div class="attr-row">
+      <div
+        class="attr-icon"
+        [style.mask-image]="'url(' + iconBase + + attr.icon + ')'"
+        [style.-webkit-mask-image]="'url(' + iconBase + attr.icon + ')'"
+      ></div>
+      <span class="label">{{ attr.label }}</span>
+      <span class="value" [class.neg]="set[attr.key] < 0">
+        {{ formatValue(set[attr.key]) }}
+      </span>
+    </div>
+  }
 </ng-template>

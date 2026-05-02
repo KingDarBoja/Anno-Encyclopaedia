@@ -114,37 +114,6 @@
       mask-size: contain;
       -webkit-mask-repeat: no-repeat;
       mask-repeat: no-repeat;
-
-      // Fixed classes for each attribute type
-      &.icon-belief {
-        -webkit-mask-image: url('/assets/icons/main/attributes/icon_religion_belief_0.webp');
-        mask-image: url('/assets/icons/main/attributes/icon_religion_belief_0.webp');
-      }
-
-      &.icon-knowledge {
-        -webkit-mask-image: url('/assets/icons/main/attributes/icon_techtree_knowledge_0.webp');
-        mask-image: url('/assets/icons/main/attributes/icon_techtree_knowledge_0.webp');
-      }
-
-      &.icon-prestige {
-        -webkit-mask-image: url('/assets/icons/main/attributes/icon_prestige_0.webp');
-        mask-image: url('/assets/icons/main/attributes/icon_prestige_0.webp');
-      }
-
-      &.icon-health {
-        -webkit-mask-image: url('/assets/icons/main/attributes/icon_health_0.webp');
-        mask-image: url('/assets/icons/main/attributes/icon_health_0.webp');
-      }
-
-      &.icon-fire {
-        -webkit-mask-image: url('/assets/icons/main/attributes/icon_fire_safety_0.webp');
-        mask-image: url('/assets/icons/main/attributes/icon_fire_safety_0.webp');
-      }
-
-      &.icon-happiness {
-        -webkit-mask-image: url('/assets/icons/main/attributes/icon_happiness_0.webp');
-        mask-image: url('/assets/icons/main/attributes/icon_happiness_0.webp');
-      }
     }
 
     .label {

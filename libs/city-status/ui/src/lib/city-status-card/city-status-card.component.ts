@@ -19,6 +19,7 @@ import { CityStatusService, CityStatusViewModel } from '@anno/city-status-data';
 export class CityStatusCardComponent {
   private readonly cityStatusService = inject(CityStatusService);
 
+  readonly iconBase = 'assets/icons/main/attributes/';
   readonly data = input.required<CityStatusViewModel>();
 
   readonly placeholderImage =
