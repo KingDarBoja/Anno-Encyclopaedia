@@ -76,57 +76,72 @@
     .card-content {
       flex-grow: 1;
       padding: 12px;
-      display: grid;
-      grid-template-columns: repeat(3, 1fr);
-      gap: 12px;
+      overflow-x: auto; // Enables scrollbar if content is too wide
+      // Ensures a smooth scrolling experience on mobile
+      -webkit-overflow-scrolling: touch;
 
-      .attr-column {
-        display: flex;
-        flex-direction: column;
-        gap: 4px;
+      &.grid-layout {
+        display: grid;
+        // Column 1 stays as small as possible for the icon+label
+        // Columns 2-4 share the remaining space equally
+        grid-template-columns: auto repeat(3, 1fr);
+        gap: 8px 6px;
+        align-items: center;
+        width: 100%;
+      }
 
+      .column-header {
         h4 {
           font-size: 0.65em;
           text-transform: uppercase;
           color: var(--secondary-color);
           border-bottom: 1px solid
             color-mix(in srgb, var(--secondary-color), transparent 85%);
-          margin-bottom: 4px;
-          padding-bottom: 2px;
+          margin: 0;
+          padding-bottom: 4px;
+          text-align: center;
         }
       }
-    }
-  }
 
-  .attr-row {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 0.8em;
-    padding: 2px 0;
+      .attr-label-cell {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        font-size: 0.8em;
+        // min-width: 0; // Required for ellipsis to work in flex
 
-    .attr-icon {
-      width: 16px;
-      height: 16px;
+        .attr-icon {
+          width: 16px;
+          height: 16px;
+          flex-shrink: 0;
+          background-color: var(--secondary-color);
+          -webkit-mask-size: contain;
+          mask-size: contain;
+          mask-repeat: no-repeat;
+        }
 
-      background-color: var(--secondary-color);
-      -webkit-mask-size: contain;
-      mask-size: contain;
-      -webkit-mask-repeat: no-repeat;
-      mask-repeat: no-repeat;
-    }
+        .label-text {
+          color: color-mix(in srgb, var(--text-color), transparent 20%);
+          white-space: nowrap;
+          overflow: hidden;
+          // text-overflow: ellipsis; // Truncates text with ... if too long
+        }
+      }
 
-    .label {
-      flex-grow: 1;
-      color: color-mix(in srgb, var(--text-color), transparent 20%);
-    }
+      .attr-value-cell {
+        text-align: center;
+        font-size: 0.8em;
 
-    .value {
-      font-weight: bold;
+        .value {
+          display: inline-block;
+          font-weight: bold;
+          min-width: 20px; // Keeps the numbers from being cut off
 
-      &.neg {
-        color: #b91c1c;
-      } // Red for penalties
+          &.neg {
+            color: #b91c1c;
+          }
+        }
+      }
     }
   }
 }
