@@ -1,0 +1,37 @@
+<section class="w-full flex flex-col items-center py-8">
+  <!-- Title and Subtitle adapted from Achievement structure[cite: 3] -->
+  <h2 class="text-3xl page-main-title">
+    Ornaments
+  </h2>
+
+  <p class="page-main-subtitle">
+    Explore the collection of decorative buildings to enhance your city's prestige and aesthetic appeal.
+  </p>
+
+  <!-- Content Wrapper[cite: 3] -->
+  <div class="w-full max-w-[1600px] flex flex-row items-start px-6">
+    <div class="flex-grow min-w-0">
+      @if (isLoading()) {
+        <div class="text-center py-20">
+          <p>Loading ornamental records...</p>
+        </div>
+      } @else {
+        <!-- Grid layout matching achievements page[cite: 3] -->
+        <div class="grid w-full gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 box-border justify-items-center">
+          @for (building of buildings(); track building.id) {
+            <anno-generic-card
+              [title]="building.name"
+              [description]="building.description"
+              [imageUrl]="building.image_url"
+              [placeholderImage]="ornamentalService.placeholderImage"
+              [footerItems]="[
+                { label: 'Prestige', value: building.prestige },
+                { label: 'Cost', value: building.cost }
+              ]"
+            />
+          }
+        </div>
+      }
+    </div>
+  </div>
+</section>

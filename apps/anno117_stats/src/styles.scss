@@ -9,8 +9,8 @@
   --background-accent-color: #d4b89b;
 
   // Define font variables for easy reuse
-  --font-primary: 'Marcellus', serif;
-  --font-secondary: 'Roboto', sans-serif;
+  --font-primary: "Marcellus", serif;
+  --font-secondary: "Roboto", sans-serif;
 }
 
 html,
@@ -51,11 +51,7 @@ h6 {
 ::-webkit-scrollbar {
   height: 12px;
   width: 12px;
-  background-color: color-mix(
-    in srgb,
-    var(--background-accent-color),
-    transparent 50%
-  );
+  background-color: color-mix(in srgb, var(--background-accent-color), transparent 50%);
 }
 
 // 2. The Scrollbar thumb (the draggable bit)
@@ -83,4 +79,23 @@ h6 {
 * {
   scrollbar-width: auto; // Default 'auto' is thicker than 'thin'
   scrollbar-color: var(--primary-color) var(--background-accent-color);
+}
+
+// Shared typography and layout for main page headers
+.page-main-title {
+  color: var(--primary-color);
+  text-align: center;
+  font-weight: 700;
+  margin-bottom: 1rem; // 4 * 0.25rem = mb-4
+}
+
+.page-main-subtitle {
+  text-align: center;
+  max-width: 42rem; // max-w-2xl
+  margin-bottom: 3rem; // 12 * 0.25rem = mb-12
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  // Using your established 0.7 opacity mix
+  color: color-mix(in srgb, var(--secondary-color), transparent 30%);
 }

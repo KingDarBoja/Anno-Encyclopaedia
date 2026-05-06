@@ -81,6 +81,7 @@ export class HeaderComponent {
       children: [
         { label: 'Achievements', path: '/achievements' },
         { label: 'City Status', path: '/city-status' },
+        { label: 'Ornaments', path: '/ornaments' },
       ],
     },
   ];

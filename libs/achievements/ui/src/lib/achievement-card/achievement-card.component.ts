@@ -12,7 +12,7 @@ import { Achievement, AchievementService } from '@anno/achievements-data';
   imports: [],
   changeDetection: ChangeDetectionStrategy.OnPush,
   template: `
-    <div class="achievement-card-alt">
+    <div class="achievement-card">
       @let title = data().title.english;
       @let desc = data().description.english;
       @let points = data().points;

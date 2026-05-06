@@ -9,7 +9,7 @@ export const appRoutes: Route[] = [
   // {
   //   path: 'about',
   //   // Replace with your actual AboutComponent
-  //   loadComponent: () => import('./pages/about/about.component').then(m => m.AboutComponent),
+  //   loadComponent: () => import('./pages/about/about.component').then(c => c.AboutComponent),
   //   title: 'About'
   // },
   {
@@ -21,6 +21,13 @@ export const appRoutes: Route[] = [
     path: 'city-status',
     loadComponent: () =>
       import('@anno/city-status-ui').then((m) => m.CityStatusPageComponent),
+  },
+  {
+    path: 'ornaments',
+    loadComponent: () =>
+      import('./pages/ornaments/ornaments.component').then(
+        (c) => c.OrnamentsPageComponent,
+      ),
   },
   {
     path: '**',
