@@ -1,29 +1,71 @@
 .status-table-container {
-  overflow-x: auto;
+  // Allows both horizontal and vertical scrolling
+  overflow: auto;
+
+  // We need a fixed height in order to maintain both overflow in this parent
+  // and position: sticky on the child th.
+  max-height: 50vh;
+
   border-radius: 0.5rem;
   border: 1px solid var(--background-accent-color);
   box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
 
   .status-table {
     width: 100%;
-    border-collapse: collapse;
+    // CRITICAL: Sticky positioning works best with 'separate'
+    border-collapse: separate;
+    border-spacing: 0;
+
     background-color: var(--background-color);
     text-align: left;
     color: var(--text-color);
     font-size: 0.875rem;
 
     thead {
-      background-color: var(--primary-color);
       color: white;
       text-transform: uppercase;
       font-size: 0.75rem;
-      position: sticky;
-      top: 0;
       z-index: 10;
 
-      tr:first-child th {
+      th {
+        position: sticky;
+        background-color: var(--primary-color); // Required so content doesn't bleed through
         padding: 1rem;
+        z-index: 10;
+        // Manual borders required due to border-collapse: separate
         border-bottom: 1px solid var(--secondary-color);
+        border-right: 1px solid color-mix(in srgb, var(--secondary-color), transparent 80%);
+
+        &:last-child {
+          border-right: none;
+        }
+      }
+
+      // First Header Row (The ones with rowspan="2" and Group Headers)
+      tr:first-child th {
+        top: 0;
+        z-index: 12;
+      }
+
+      // Sub-header Row (Belief, Knowledge, etc.)
+      .sub-header-row {
+        font-size: 0.625rem;
+
+        th {
+          // Ensure the second row of headers (sub-headers) also sticks
+          top: 51px; // Exact height of the first header row
+          z-index: 10;
+
+          padding: 0.5rem;
+          border-bottom: 1px solid var(--primary-color);
+          border-left: 1px solid color-mix(in srgb, var(--primary-color), transparent 50%);
+          background-color: color-mix(in srgb, var(--primary-color), black 10%);
+
+          // Aligns the sub-header border with the thick group border
+          &.group-start {
+            border-left: 2px solid var(--secondary-color);
+          }
+        }
       }
 
       // Main Attribute Headers (Roman, Regional, Mixed)
@@ -34,36 +76,10 @@
 
         &--roman,
         &--mixed {
-          background-color: color-mix(
-            in srgb,
-            var(--secondary-color),
-            transparent 70%
-          );
+          background-color: color-mix(in srgb, var(--secondary-color), black 20%);
         }
         &--regional {
-          background-color: color-mix(
-            in srgb,
-            var(--secondary-color),
-            transparent 50%
-          );
-        }
-      }
-
-      // Sub-header Row (Belief, Knowledge, etc.)
-      .sub-header-row {
-        background-color: var(--secondary-color);
-        font-size: 0.625rem;
-
-        th {
-          padding: 0.5rem;
-          border-bottom: 1px solid var(--primary-color);
-          border-left: 1px solid
-            color-mix(in srgb, var(--primary-color), transparent 50%);
-
-          // Aligns the sub-header border with the thick group border
-          &.group-start {
-            border-left: 2px solid var(--secondary-color);
-          }
+          background-color: color-mix(in srgb, var(--secondary-color), black 40%);
         }
       }
     }
@@ -73,26 +89,17 @@
         transition: background-color 0.2s;
 
         &:nth-child(even) {
-          background-color: color-mix(
-            in srgb,
-            var(--background-accent-color),
-            transparent 70%
-          );
+          background-color: color-mix(in srgb, var(--background-accent-color), transparent 70%);
         }
 
         &:hover {
-          background-color: color-mix(
-            in srgb,
-            var(--background-accent-color),
-            transparent 40%
-          );
+          background-color: color-mix(in srgb, var(--background-accent-color), transparent 40%);
         }
       }
 
       td {
         padding: 1rem;
-        border-bottom: 1px solid
-          color-mix(in srgb, var(--background-accent-color), transparent 50%);
+        border-bottom: 1px solid color-mix(in srgb, var(--background-accent-color), transparent 50%);
 
         &.id-cell {
           font-family: ui-monospace, monospace;
@@ -133,13 +140,11 @@
         &.attribute-cell {
           text-align: center;
           padding: 0.5rem;
-          border-left: 1px solid
-            color-mix(in srgb, var(--background-accent-color), transparent 60%);
+          border-left: 1px solid color-mix(in srgb, var(--background-accent-color), transparent 60%);
 
           // Vertical separator for attribute groups in the body
           &.group-start {
-            border-left: 2px solid
-              color-mix(in srgb, var(--secondary-color), transparent 80%);
+            border-left: 2px solid color-mix(in srgb, var(--secondary-color), transparent 80%);
           }
 
           &--negative {
