@@ -28,8 +28,7 @@
   .card-body-row {
     display: flex;
     flex-direction: column; // Mobile first
-    border-top: 1px solid
-      color-mix(in srgb, var(--secondary-color), transparent 80%);
+    border-top: 1px solid color-mix(in srgb, var(--secondary-color), transparent 80%);
 
     @media (min-width: 768px) {
       flex-direction: row;
@@ -43,21 +42,15 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      background-color: color-mix(
-        in srgb,
-        var(--secondary-color),
-        transparent 95%
-      );
-      border-bottom: 1px solid
-        color-mix(in srgb, var(--secondary-color), transparent 85%);
+      background-color: color-mix(in srgb, var(--secondary-color), transparent 95%);
+      border-bottom: 1px solid color-mix(in srgb, var(--secondary-color), transparent 85%);
 
       @media (min-width: 768px) {
         width: 120px;
         min-width: 120px;
         height: auto;
         border-bottom: 0;
-        border-right: 1px solid
-          color-mix(in srgb, var(--secondary-color), transparent 85%);
+        border-right: 1px solid color-mix(in srgb, var(--secondary-color), transparent 85%);
       }
 
       .status-mask-icon {
@@ -95,8 +88,7 @@
           font-size: 0.65em;
           text-transform: uppercase;
           color: var(--secondary-color);
-          border-bottom: 1px solid
-            color-mix(in srgb, var(--secondary-color), transparent 85%);
+          border-bottom: 1px solid color-mix(in srgb, var(--secondary-color), transparent 85%);
           margin: 0;
           padding-bottom: 4px;
           text-align: center;
@@ -140,6 +132,33 @@
           &.neg {
             color: #b91c1c;
           }
+        }
+      }
+    }
+
+    .card-footer {
+      display: flex;
+      border-top: 1px solid color-mix(in srgb, var(--secondary-color), transparent 80%);
+      background-color: color-mix(in srgb, var(--background-accent-color), transparent 50%);
+
+      .footer-col {
+        flex: 1;
+        padding: 0.5em 0.2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .label {
+          font-size: 0.6em;
+          color: var(--secondary-color);
+          text-transform: uppercase;
+          font-weight: 600;
+        }
+
+        .value {
+          font-size: 0.9em;
+          font-weight: bold;
+          color: var(--accent-color);
         }
       }
     }
