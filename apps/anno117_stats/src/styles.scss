@@ -99,3 +99,19 @@ h6 {
   // Using your established 0.7 opacity mix
   color: color-mix(in srgb, var(--secondary-color), transparent 30%);
 }
+
+.page-main-section-header {
+  // 0.3 opacity for the border
+  border-bottom: 2px solid color-mix(in srgb, var(--secondary-color), transparent 70%);
+  padding-bottom: 8px;
+  margin-bottom: 24px;
+
+  .section-title {
+    color: var(--primary-color);
+    margin: 0;
+  }
+
+  .section-subtitle {
+    color: color-mix(in srgb, var(--secondary-color), transparent 40%);
+  }
+}

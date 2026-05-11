@@ -6,40 +6,74 @@ import { catchError, finalize, map, tap } from 'rxjs/operators';
 /**
  * @TODO move to shared data-access library.
  */
-export interface LocalizedString {
-  english: string;
-  german?: string;
-  spanish?: string;
-  french?: string;
-  italian?: string;
-  japanese?: string;
-  korean?: string;
-  polish?: string;
-  brazilian?: string;
-  russian?: string;
-  simplified_chinese?: string;
-  traditional_chinese?: string;
-}
+// export interface LocalizedString {
+//   english: string;
+//   german?: string;
+//   spanish?: string;
+//   french?: string;
+//   italian?: string;
+//   japanese?: string;
+//   korean?: string;
+//   polish?: string;
+//   brazilian?: string;
+//   russian?: string;
+//   simplified_chinese?: string;
+//   traditional_chinese?: string;
+// }
 
 /**
- * @TODO move to shared data-access library.
+ * Represents the metadata for a construction category/tab.
  */
-interface OrnamentalBuildingRawEntry {
-  title: LocalizedString;
-  description: LocalizedString;
-  prestige: number;
-  cost: number;
-  image_url: string;
+export interface ConstructionCategoryMeta {
+  guid: string; // The unique ID of the category
+  name: string; // Internal technical name (e.g., "ConstructionCategory_Classic")
+  localized_name: string; // The translated title displayed in the UI (e.g., "Classic")
 }
 
 /**
- * Raw ornamental building data from JSON.
+ * The main interface for an ornament entry exported from the Anno 117 assets.
+ */
+export interface OrnamentalBuildingRawEntry {
+  /** The unique GUID of the asset */
+  uid: number;
+
+  /** Technical name of the asset */
+  name: string;
+
+  /** Localized display title */
+  title: string;
+
+  /** Localized in-game description */
+  description: string;
+
+  /** * Path to the processed .webp icon.
+   * Usually matches: .cache/data/ui/.../icon.webp
+   */
+  image_url: string;
+
+  /** Prestige points granted (0 for PolygonObjects) */
+  prestige: number;
+
+  /** Construction cost in Denarii (0 for PolygonObjects) */
+  cost: number;
+
+  /** * The immediate sub-menu category the ornament sits in.
+   * Example: "Trees" or "Benches"
+   */
+  construction_group: ConstructionCategoryMeta;
+
+  /** * The root-level menu tab the ornament belongs to.
+   * Example: "Classic" or "Social"
+   */
+  top_level_group: ConstructionCategoryMeta;
+}
+
+/**
+ * Type helper for the overall JSON file structure (Map of GUID -> Entry)
  *
  * @TODO move to shared data-access library.
  */
-export interface OrnamentalBuildingRawData {
-  [uid: string]: OrnamentalBuildingRawEntry;
-}
+export type OrnamentRegistry = Record<string, OrnamentalBuildingRawEntry>;
 
 export interface OrnamentalBuildingViewModel {
   readonly id: string;
@@ -49,6 +83,11 @@ export interface OrnamentalBuildingViewModel {
   readonly image_url: string;
   readonly cost: number;
   readonly prestige: number;
+  readonly groupName: string; // The technical name (e.g., Roman Infrastructure Harbor)
+  readonly groupDisplayName: string; // The localized name (e.g., Harbour Buildings)
+  readonly groupSlug: string; // group-level identification
+  readonly groupId: string; // construction_group.guid
+  readonly topGroupName: string; // top_level_group.localized_name
 }
 
 @Injectable({
@@ -58,7 +97,8 @@ export class OrnamentalBuildingService {
   private readonly http = inject(HttpClient);
 
   // Path to the placeholder image used when an asset fails to load
-  readonly placeholderImage = 'assets/icons/base/icon_content/ornaments/icon_3d_ground_romanpavement_0.webp';
+  readonly placeholderImage =
+    'assets/icons/base/icon_content/ornaments/icon_3d_ground_romanpavement_0.webp';
 
   /**
    * State management using Angular Signals.
@@ -74,12 +114,12 @@ export class OrnamentalBuildingService {
   /**
    * Fetches the ornamental buildings from the JSON archive.
    */
-  fetchOrnaments() {
+  fetchOrnaments(language = 'en') {
     this._loading.set(true);
     this._error.set(null);
 
     return this.http
-      .get<OrnamentalBuildingRawData>('assets/data/ornaments.json')
+      .get<OrnamentRegistry>(`assets/data/ornaments_${language}.json`)
       .pipe(
         map((rawData) => this.mapToViewModel(rawData)),
         tap((results) => {
@@ -99,17 +139,29 @@ export class OrnamentalBuildingService {
    * Converts the JSON object map into a formatted array of ornamental buildings.
    */
   private mapToViewModel(
-    rawMap: OrnamentalBuildingRawData,
+    rawMap: OrnamentRegistry,
   ): OrnamentalBuildingViewModel[] {
     return Object.entries(rawMap).map(([id, rawRow]) => {
+      // console.groupCollapsed(`${rawRow.title}`);
+      // console.log(`Image URL: ${rawRow.image_url}`);
+      // console.log(
+      //   `Transformed Image URL: ${this.transformImageUrl(rawRow.image_url)}`,
+      // );
+      // console.groupEnd();
+
       return {
-        slug: this.slugify(rawRow.title.english),
+        slug: this.slugify(rawRow.title),
         id, // Set the ID from the object key
         image_url: this.transformImageUrl(rawRow.image_url),
-        name: rawRow.title.english,
-        description: rawRow.description.english,
+        name: rawRow.title,
+        description: rawRow.description,
         prestige: rawRow.prestige,
         cost: rawRow.cost,
+        groupId: rawRow.construction_group.guid,
+        groupSlug: this.slugify(rawRow.construction_group.name),
+        groupName: rawRow.construction_group.name, // Technical Name
+        groupDisplayName: rawRow.construction_group.localized_name, // Localized Name
+        topGroupName: rawRow.top_level_group.localized_name,
       };
     });
   }
@@ -162,12 +214,12 @@ export class OrnamentalBuildingService {
     // 4. Construct final path
     let finalPath = `assets/icons/${subFolder}/${relativePath}`;
 
-    // 5. Ensure .webp extension[cite: 1]
+    // 5. Ensure .webp extension
     if (!finalPath.toLowerCase().endsWith('.webp')) {
       finalPath += '.webp';
     }
 
-    // 6. Clean up double slashes[cite: 1]
+    // 6. Clean up double slashes
     return finalPath.replace(/([^:]\/)\/+/g, '$1');
   }
 
