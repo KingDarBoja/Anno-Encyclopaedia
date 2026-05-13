@@ -98,7 +98,7 @@
       "executor": "angular-cli-ghpages:deploy",
       "options": {
         "dir": "dist/anno117_stats/browser",
-        "repo": "https://github.com/KingDarBoja/anno117_stats.git",
+        "repo": "git@github.com:KingDarBoja/anno117_stats.git",
         "baseHref": "/anno117_stats/",
         "nojekyll": true
       }
