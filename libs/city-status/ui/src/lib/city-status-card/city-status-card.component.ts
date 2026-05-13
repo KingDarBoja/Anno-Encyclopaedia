@@ -55,17 +55,17 @@ export class CityStatusCardComponent {
   getSafeIconPath(imageUrl: string | undefined): string {
     if (!imageUrl) return this.cityStatusService.placeholderImage;
 
-    // Regex to find the icon number (e.g., '31' from '...status_31_0.webp')
-    const match = imageUrl.match(/status_(\d+)_/);
-    if (match) {
-      const iconIndex = parseInt(match[1], 10);
+    // // Regex to find the icon number (e.g., '31' from '...status_31_0.webp')
+    // const match = imageUrl.match(/status_(\d+)_/);
+    // if (match) {
+    //   const iconIndex = parseInt(match[1], 10);
 
-      // ANNO 117 DATA CHECK:
-      // If the index is 31 or any other known missing file, return placeholder
-      if (iconIndex > 30) {
-        return this.cityStatusService.placeholderImage;
-      }
-    }
+    //   // ANNO 117 DATA CHECK:
+    //   // If the index is 31 or any other known missing file, return placeholder
+    //   if (iconIndex > 30) {
+    //     return this.cityStatusService.placeholderImage;
+    //   }
+    // }
 
     return imageUrl;
   }

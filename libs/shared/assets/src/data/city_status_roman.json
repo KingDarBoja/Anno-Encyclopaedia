@@ -902,7 +902,7 @@
     "roman_31": {
         "uid": 150661,
         "name": "Growing Omnipolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_31_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_31_0",
         "required_population": 125000,
         "attribute_effects_roman": {
             "belief": 28.2,
@@ -932,7 +932,7 @@
     "roman_32": {
         "uid": 150662,
         "name": "Major Omnipolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_32_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_32_0",
         "required_population": 135000,
         "attribute_effects_roman": {
             "belief": 28.4,
@@ -962,7 +962,7 @@
     "roman_33": {
         "uid": 150663,
         "name": "Vast Omnipolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_33_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_33_0",
         "required_population": 145000,
         "attribute_effects_roman": {
             "belief": 28.6,
@@ -992,7 +992,7 @@
     "roman_34": {
         "uid": 150664,
         "name": "Minor Aureliopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_34_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_34_0",
         "required_population": 155000,
         "attribute_effects_roman": {
             "belief": 28.8,
@@ -1022,7 +1022,7 @@
     "roman_35": {
         "uid": 150666,
         "name": "Growing Aureliopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_35_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_35_0",
         "required_population": 170000,
         "attribute_effects_roman": {
             "belief": 29.0,
@@ -1052,7 +1052,7 @@
     "roman_36": {
         "uid": 150667,
         "name": "Major Aureliopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_36_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_36_0",
         "required_population": 185000,
         "attribute_effects_roman": {
             "belief": 29.2,
@@ -1082,7 +1082,7 @@
     "roman_37": {
         "uid": 150672,
         "name": "Vast Aureliopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_37_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_37_0",
         "required_population": 200000,
         "attribute_effects_roman": {
             "belief": 29.4,
@@ -1112,7 +1112,7 @@
     "roman_38": {
         "uid": 150673,
         "name": "Minor Titanopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_38_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_38_0",
         "required_population": 220000,
         "attribute_effects_roman": {
             "belief": 29.6,
@@ -1142,7 +1142,7 @@
     "roman_39": {
         "uid": 150674,
         "name": "Growing Titanopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_39_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_39_0",
         "required_population": 240000,
         "attribute_effects_roman": {
             "belief": 29.8,
@@ -1172,7 +1172,7 @@
     "roman_40": {
         "uid": 150675,
         "name": "Major Titanopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_40_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_40_0",
         "required_population": 260000,
         "attribute_effects_roman": {
             "belief": 30.0,
@@ -1202,7 +1202,7 @@
     "roman_41": {
         "uid": 150676,
         "name": "Vast Titanopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_41_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_41_0",
         "required_population": 0,
         "attribute_effects_roman": {
             "belief": 30.2,
@@ -1232,7 +1232,7 @@
     "roman_42": {
         "uid": 150677,
         "name": "Minor Pantheopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_42_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_42_0",
         "required_population": 0,
         "attribute_effects_roman": {
             "belief": 30.4,
@@ -1262,7 +1262,7 @@
     "roman_43": {
         "uid": 150678,
         "name": "Growing Pantheopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_43_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_43_0",
         "required_population": 0,
         "attribute_effects_roman": {
             "belief": 30.6,
@@ -1292,7 +1292,7 @@
     "roman_44": {
         "uid": 150679,
         "name": "Major Pantheopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_44_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_44_0",
         "required_population": 0,
         "attribute_effects_roman": {
             "belief": 30.8,
@@ -1322,7 +1322,7 @@
     "roman_45": {
         "uid": 150680,
         "name": "Vast Pantheopolis",
-        "image_url": "\\data\\ui\\fhd\\base\\icon_content\\city_status\\icon_2d_city_status_45_0",
+        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_45_0",
         "required_population": 0,
         "attribute_effects_roman": {
             "belief": 31.0,
