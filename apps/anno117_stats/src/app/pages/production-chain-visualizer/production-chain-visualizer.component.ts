@@ -87,6 +87,9 @@ export class ProductionChainVisualizer
   private networkInstance: Network | null = null;
   private readonly nodeMetadataMap = new Map<number, SelectedNodeDetails>();
 
+  // 1. Keep an uninitialized tracking token state initially
+  activeChainId = signal<string>('');
+
   sortedChains = computed(() => {
     return [...this.service.chains()].sort((a, b) =>
       a.name
@@ -96,6 +99,7 @@ export class ProductionChainVisualizer
   });
 
   constructor() {
+    // Rebuilds graph layout whenever structural options or colors shift
     effect(() => {
       const primary = this.primaryColor();
       const secondary = this.secondaryColor();
@@ -107,10 +111,21 @@ export class ProductionChainVisualizer
       }
     });
 
+    // FIX: Intercepts the asynchronous chain payload arriving from the backend modding database
     effect(() => {
       const loadedChains = this.service.chains();
+
       if (loadedChains.length > 0 && !this.selectedChain()) {
-        this.selectedChain.set(loadedChains[0]);
+        const defaultId = '3222'; // Default Timber GUID
+
+        // Find the chain matching starting ID
+        const defaultChain =
+          loadedChains.find((c) => c.id === defaultId) || loadedChains[0];
+
+        if (defaultChain) {
+          this.activeChainId.set(defaultChain.id);
+          this.selectedChain.set(defaultChain);
+        }
       }
     });
   }
@@ -250,9 +265,9 @@ export class ProductionChainVisualizer
         },
       },
       interaction: {
-        dragView: false, // Disables panning the entire background canvas
-        zoomView: false, // Disables mouse scrollwheel / pinch zooming
-        hover: true, // Keeps hover/click interactions active for selection
+        dragView: false,
+        zoomView: false,
+        hover: true,
         dragNodes: true,
         selectable: true,
       },
@@ -290,47 +305,56 @@ export class ProductionChainVisualizer
   resetColors() {
     const rootStyles = getComputedStyle(document.documentElement);
 
-    // Update your signals back to default theme definitions
-    // (Swap these hexadecimal strings out if your native setup uses different variables!)
     this.bgColor.set(
       rootStyles.getPropertyValue('--background-accent-color').trim() ||
         rootStyles.getPropertyValue('--background-color').trim(),
-    ); // Your default warm Roman canvas background
+    );
     this.primaryColor.set(
       rootStyles.getPropertyValue('--primary-color').trim(),
-    ); // Your default deep purple node background
+    );
     this.secondaryColor.set(
       rootStyles.getPropertyValue('--secondary-color').trim(),
-    ); // Your default dark purple borders/labels
+    );
 
-    // Trigger vis.js options update if your network reference is running
     if (this.networkInstance) {
       this.networkInstance.setOptions({
         nodes: {
           color: {
-            background: '#54213d',
-            border: '#2c1120',
-            highlight: { background: '#54213d', border: '#2c1120' },
+            background: this.primaryColor(),
+            border: this.secondaryColor(),
+            highlight: {
+              background: this.primaryColor(),
+              border: this.secondaryColor(),
+            },
           },
-          font: { color: '#2c1120' },
+          font: { color: this.secondaryColor() },
         },
         edges: {
-          color: { color: '#2c1120', highlight: '#2c1120' },
+          color: {
+            color: this.secondaryColor(),
+            highlight: this.secondaryColor(),
+          },
         },
       });
     }
   }
 
   onChainChange(event: Event): void {
-    const select = event.target as HTMLSelectElement;
-    const targetChain = this.service
-      .chains()
-      .find((c) => c.id === select.value);
-    if (targetChain) {
-      this.selectedChain.set(targetChain);
+    const selectElement = event.target as HTMLSelectElement;
+    const nextId = selectElement.value;
+
+    if (nextId) {
+      this.activeChainId.set(nextId);
+
+      const targetChain = this.service.chains().find((c) => c.id === nextId);
+
+      if (targetChain) {
+        this.selectedChain.set(targetChain);
+      }
+
+      this.selectedNode.set(null);
+      this.resetView();
     }
-    this.selectedNode.set(null);
-    this.resetView();
   }
 
   updateColor(type: 'bg' | 'primary' | 'secondary', event: Event): void {
