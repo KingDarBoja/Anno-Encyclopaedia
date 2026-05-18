@@ -1,0 +1,204 @@
+<div
+  class="w-full flex flex-col min-h-0 overflow-hidden bg-transparent h-[calc(100vh-130px)]"
+>
+  <header
+    class="font-serif border-b-2 border-(--secondary-color) text-(--secondary-color) flex flex-col md:flex-row justify-between items-center px-8 py-4 gap-4 shrink-0"
+    style="background: rgba(0, 0, 0, 0.02)"
+  >
+    <div class="text-center md:text-left">
+      <h1 class="text-2xl md:text-3xl font-bold tracking-wider uppercase">
+        Anno 117 Production Networks
+      </h1>
+      <p class="text-xs italic opacity-80 mt-1">
+        Interactive Graph & Asset Visualizer
+      </p>
+    </div>
+
+    <div class="flex items-center gap-3">
+      @if (service.isLoading()) {
+        <span class="text-xs animate-pulse font-bold">Loading Chains...</span>
+      }
+
+      <label for="chain-template-selector" class="text-xs md:text-sm font-bold"
+        >Select Chain Template:</label
+      >
+      <select
+        id="chain-template-selector"
+        class="font-serif px-4 py-2 border-2 border-(--secondary-color) bg-(--background-color) text-(--secondary-color) rounded-md font-bold cursor-pointer outline-none transition-colors duration-200"
+        (change)="onChainChange($event)"
+      >
+        @for (chain of sortedChains(); track chain.id) {
+          <option
+            [value]="chain.id"
+            class="bg-(--background-color) text-(--secondary-color)"
+          >
+            {{ chain.name }}
+          </option>
+        } @empty {
+          <option
+            value=""
+            class="bg-(--background-color) text-(--secondary-color)"
+          >
+            No chains loaded
+          </option>
+        }
+      </select>
+    </div>
+  </header>
+
+  <main
+    class="flex-1 flex flex-col lg:flex-row min-h-0 overflow-hidden p-4 gap-4"
+  >
+    <section
+      class="w-full lg:w-80 border-2 border-(--secondary-color) text-(--secondary-color) rounded-lg p-4 flex flex-col gap-6 overflow-y-auto shrink-0"
+      style="background: rgba(0, 0, 0, 0.015)"
+    >
+      <div class="flex flex-col shrink-0">
+        <div
+          class="flex justify-between items-center border-b-2 border-(--secondary-color) pb-2 mb-4"
+        >
+          <h3
+            class="font-serif text-xs md:text-sm font-bold uppercase tracking-wider"
+          >
+            Palette Customizer
+          </h3>
+          <button
+            (click)="resetColors()"
+            class="text-[10px] font-bold uppercase tracking-wider underline opacity-70 hover:opacity-100 cursor-pointer transition-opacity"
+          >
+            Reset Colors
+          </button>
+        </div>
+        <div class="flex flex-col gap-3">
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold">Canvas Background</span>
+            <input
+              type="color"
+              [value]="bgColor()"
+              (input)="updateColor('bg', $event)"
+              class="border-none w-11 h-7 rounded cursor-pointer bg-none"
+            />
+          </div>
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold">Node Background</span>
+            <input
+              type="color"
+              [value]="primaryColor()"
+              (input)="updateColor('primary', $event)"
+              class="border-none w-11 h-7 rounded cursor-pointer bg-none"
+            />
+          </div>
+          <div class="flex justify-between items-center">
+            <span class="text-xs font-bold">Borders, Labels & Lines</span>
+            <input
+              type="color"
+              [value]="secondaryColor()"
+              (input)="updateColor('secondary', $event)"
+              class="border-none w-11 h-7 rounded cursor-pointer bg-none"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-col shrink-0">
+        <h3
+          class="font-serif text-xs md:text-sm font-bold uppercase tracking-wider border-b-2 border-(--secondary-color) pb-2 mb-4"
+        >
+          Actions
+        </h3>
+        <div class="flex gap-2">
+          <button
+            (click)="resetView()"
+            class="flex-1 py-2 bg-transparent border-2 border-(--secondary-color) text-(--secondary-color) rounded-md font-bold cursor-pointer text-xs transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md"
+          >
+            Reset View
+          </button>
+          <button
+            (click)="exportCanvas()"
+            class="flex-1 py-2 rounded-md font-bold cursor-pointer text-xs transition-all duration-200 hover:-translate-y-0.5 hover:shadow-md bg-(--secondary-color) text-(--background-color)"
+          >
+            Export PNG
+          </button>
+        </div>
+      </div>
+
+      <div class="flex-1 flex flex-col min-h-0">
+        <h3
+          class="font-serif text-xs md:text-sm font-bold uppercase tracking-wider border-b-2 border-(--secondary-color) pb-2 mb-4"
+        >
+          Node Inspector
+        </h3>
+
+        <div class="flex-1 overflow-y-auto min-h-0">
+          @if (selectedNode(); as node) {
+            <div class="flex flex-col gap-4 animate-fade-in pr-1">
+              <div class="flex items-center gap-3">
+                <div
+                  class="w-14 h-14 rounded-full border-2 border-(--secondary-color) bg-(--primary-color) flex items-center justify-center overflow-hidden shrink-0 shadow"
+                >
+                  <img
+                    [src]="node.iconUrl"
+                    alt="node icon"
+                    class="w-10 h-10 object-contain mx-auto"
+                    (error)="handleIconFallback($event)"
+                  />
+                </div>
+                <div>
+                  <h4 class="font-serif text-lg font-bold">{{ node.text }}</h4>
+                  <p class="text-xs opacity-75">GUID: {{ node.guid }}</p>
+                </div>
+              </div>
+
+              <table class="w-full text-xs border-collapse">
+                <tbody>
+                  <tr class="border-b border-black/10">
+                    <th class="py-2 text-left font-bold w-1/3">Tier Level</th>
+                    <td class="py-2 text-left">Tier {{ node.level }}</td>
+                  </tr>
+                  <tr class="border-b border-black/10">
+                    <th class="py-2 text-left font-bold">Internal ID</th>
+                    <td class="py-2 text-left">{{ node.stdName }}</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          } @else {
+            <div
+              class="flex items-center justify-center h-full py-4 text-center text-xs italic opacity-60"
+            >
+              Click any circular building node on the canvas to inspect its
+              parameters.
+            </div>
+          }
+        </div>
+      </div>
+    </section>
+
+    <section
+      class="flex-1 border-2 rounded-lg relative overflow-hidden shadow-inner"
+      [style.border-color]="secondaryColor()"
+      [style.background-color]="bgColor()"
+    >
+      @if (service.error()) {
+        <div
+          class="absolute inset-0 flex items-center justify-center text-center p-4 z-10"
+          [style.color]="secondaryColor()"
+        >
+          <p class="font-bold">{{ service.error() }}</p>
+        </div>
+      }
+
+      <div #visContainer class="absolute inset-0 w-full h-full"></div>
+
+      <div
+        class="font-serif absolute bottom-3 left-3 text-[10px] md:text-xs font-bold bg-(--background-color)/40 backdrop-blur-sm px-3 py-1.5 rounded-full pointer-events-none z-10 text-(--secondary-color)"
+      >
+        <!-- <span
+          >🖱️ Drag to pan &bull; Scroll to Zoom &bull; Click Node to
+          inspect</span
+        > -->
+        <span>🖱️ Click any Node to inspect parameters</span>
+      </div>
+    </section>
+  </main>
+</div>

@@ -30,6 +30,13 @@ export const appRoutes: Route[] = [
       ),
   },
   {
+    path: 'production-chains',
+    loadComponent: () =>
+      import(
+        './pages/production-chain-visualizer/production-chain-visualizer.component'
+      ).then((c) => c.ProductionChainVisualizer),
+  },
+  {
     path: '**',
     redirectTo: '',
   },

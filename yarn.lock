@@ -12508,6 +12508,16 @@ vary@^1, vary@^1.1.2, vary@~1.1.2:
   resolved "https://registry.yarnpkg.com/vary/-/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
   integrity sha512-BNGbWLfd0eUPabhkXUVm0j8uuvREyTh5ovRa/dyow/BqAbZJyC+5fU+IzQOzmAKzYqYRAISoRhdQr3eIZ/PXqg==
 
+vis-data@^8.0.4:
+  version "8.0.4"
+  resolved "https://registry.yarnpkg.com/vis-data/-/vis-data-8.0.4.tgz#11d2d004bbf71a1c35b1c6a67cb7b489976071e9"
+  integrity sha512-TsN0sMHqIRpdfg6TNPtfdINpkgxtnQP6JNWCaiSwvou5seXqKiP5eERkaBg+Y56wyJ4FZTeOEs/dEmWEPrpltQ==
+
+vis-network@^10.1.0:
+  version "10.1.0"
+  resolved "https://registry.yarnpkg.com/vis-network/-/vis-network-10.1.0.tgz#f42348b1472f0d1dd9d31c24b10467d0da522808"
+  integrity sha512-D7b5p/C6SwWv1BlH9EDdtP0Tje/PJzSBWKef9qy2DyTC14QB7KBcnAZxIyW2m7mFYyfoeR+k5GF747zDcIhaKA==
+
 vite@7.3.2:
   version "7.3.2"
   resolved "https://registry.yarnpkg.com/vite/-/vite-7.3.2.tgz#cb041794d4c1395e28baea98198fd6e8f4b96b5c"

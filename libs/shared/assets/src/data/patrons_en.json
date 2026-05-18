@@ -1,0 +1,1795 @@
+{
+    "27899": {
+        "uid": 27899,
+        "canon_name": "patron_neptune",
+        "title": "Neptune",
+        "description": "Lord of the waves, Neptune's wrath and favour ebb and flow like the tides. Devotees of Neptune fearlessly cruise the waves, exemplars of the sea god's courage.",
+        "icon_url": "base/icon_content/religion/icon_2d_deity_neptune_0.webp",
+        "canon_icon_name": "icon_patron_neptune",
+        "local_effects": [
+            {
+                "title": "Salacia's Fruit",
+                "description": "Increased production of Sardines, Cockles, Garum, Oysters with Caviar",
+                "milestones": [
+                    {
+                        "devotion": 50,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 100,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 800,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 2500,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 3500,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 6000,
+                        "buff_scaling": 70
+                    },
+                    {
+                        "devotion": 8000,
+                        "buff_scaling": 80
+                    },
+                    {
+                        "devotion": 15000,
+                        "buff_scaling": 90
+                    },
+                    {
+                        "devotion": 20000,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 37500,
+                        "buff_scaling": 110
+                    },
+                    {
+                        "devotion": 50000,
+                        "buff_scaling": 120
+                    },
+                    {
+                        "devotion": 150000,
+                        "buff_scaling": 130
+                    },
+                    {
+                        "devotion": 200000,
+                        "buff_scaling": 140
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 150
+                    }
+                ],
+                "affected_chains": {
+                    "3258": {
+                        "name": "Production Chain Roman Sardines",
+                        "text": "Sardines",
+                        "production_assets": [
+                            {
+                                "guid": 2955,
+                                "name": "Production Coast Roman Sardines",
+                                "text": "Fishing Hut"
+                            }
+                        ]
+                    },
+                    "6578": {
+                        "name": "Production Chain Roman Celtic Cockles",
+                        "text": "Cockles",
+                        "production_assets": [
+                            {
+                                "guid": 5278,
+                                "name": "Production Coast Celtic Cockles",
+                                "text": "Cockle Picker"
+                            }
+                        ]
+                    },
+                    "3262": {
+                        "name": "Production Chain Roman Garum",
+                        "text": "Garum",
+                        "production_assets": [
+                            {
+                                "guid": 2956,
+                                "name": "Production Coast Roman Mackerels",
+                                "text": "Scomber's Shack"
+                            },
+                            {
+                                "guid": 2957,
+                                "name": "Production Coast Roman Salt",
+                                "text": "Salt Ponds"
+                            },
+                            {
+                                "guid": 3185,
+                                "name": "Production Food Roman Garum",
+                                "text": "Garum Works"
+                            }
+                        ]
+                    },
+                    "3263": {
+                        "name": "Production Chain Roman Oysters with Caviar",
+                        "text": "Oysters with Caviar",
+                        "production_assets": [
+                            {
+                                "guid": 8586,
+                                "name": "Production Coast Roman Oysters",
+                                "text": "Oyster Bed"
+                            },
+                            {
+                                "guid": 2971,
+                                "name": "Production River Roman Sturgeon",
+                                "text": "Sturgeon Hatchery"
+                            },
+                            {
+                                "guid": 8893,
+                                "name": "Production Ingredient Roman Caviar",
+                                "text": "Fish Gutter"
+                            },
+                            {
+                                "guid": 3186,
+                                "name": "Production Food Roman Oysters with Caviar",
+                                "text": "Epicure of Water"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Essence of Hippocampus",
+                "description": "Newly-constructed ships are more durable and have reduced Money Upkeep.",
+                "milestones": [
+                    {
+                        "devotion": 250,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 1500,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 4500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 11000,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 25000,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 100000,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 70
+                    }
+                ],
+                "affected_chains": {}
+            }
+        ],
+        "veneration_effect": {
+            "title": "Venilia's Serenity",
+            "description": "Buildings near Cisterns will grant additional Belief."
+        },
+        "shrine_effect": {
+            "title": "Asset Pool All Neptune Shrines",
+            "guid": 82493,
+            "shrines": [
+                {
+                    "guid": 81068,
+                    "title": "Shrine of Neptune"
+                },
+                {
+                    "guid": 82488,
+                    "title": "Shrine of Neptune"
+                }
+            ]
+        },
+        "exaltation_effects": [
+            {
+                "title": "Triton's Conch",
+                "description": "All Ships are 10% faster."
+            }
+        ],
+        "portraits": {
+            "big": "base/features/religion/artwork_deity_neptune_1248_0.webp",
+            "small": "base/features/religion/artwork_deity_neptune_small_88_0.webp"
+        }
+    },
+    "27900": {
+        "uid": 27900,
+        "canon_name": "patron_minerva",
+        "title": "Minerva",
+        "description": "Minerva, divine avatar of wisdom, is master and patron of a thousand arts. Devotees of Minerva aim to live up to her lofty ideals of weaving, writing and winning.",
+        "icon_url": "base/icon_content/religion/icon_2d_deity_minerva_0.webp",
+        "canon_icon_name": "icon_patron_minerva",
+        "local_effects": [
+            {
+                "title": "Arachne's Spindle",
+                "description": "Increased production of Togas, Tunics, Trousers, Cloaks",
+                "milestones": [
+                    {
+                        "devotion": 50,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 100,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 800,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 2500,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 3500,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 6000,
+                        "buff_scaling": 70
+                    },
+                    {
+                        "devotion": 8000,
+                        "buff_scaling": 80
+                    },
+                    {
+                        "devotion": 15000,
+                        "buff_scaling": 90
+                    },
+                    {
+                        "devotion": 20000,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 37500,
+                        "buff_scaling": 110
+                    },
+                    {
+                        "devotion": 50000,
+                        "buff_scaling": 120
+                    },
+                    {
+                        "devotion": 150000,
+                        "buff_scaling": 130
+                    },
+                    {
+                        "devotion": 200000,
+                        "buff_scaling": 140
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 150
+                    }
+                ],
+                "affected_chains": {
+                    "3291": {
+                        "name": "Production Chain Roman Togas",
+                        "text": "Togas",
+                        "production_assets": [
+                            {
+                                "guid": 3191,
+                                "name": "Production Fashion Roman Togas",
+                                "text": "Loom Weavery"
+                            },
+                            {
+                                "guid": 3079,
+                                "name": "Production Crafts Roman Cloth",
+                                "text": "Weaver"
+                            },
+                            {
+                                "guid": 2669,
+                                "name": "Production Field Roman Flax",
+                                "text": "Flax Farm"
+                            },
+                            {
+                                "guid": 8580,
+                                "name": "Production Coast Roman Sea Snails",
+                                "text": "Snailery"
+                            },
+                            {
+                                "guid": 2999,
+                                "name": "Production Chemical Roman Tyrian Purple",
+                                "text": "Dye Works"
+                            }
+                        ]
+                    },
+                    "6672": {
+                        "name": "Production Chain Roman Celtic Togas",
+                        "text": "Togas",
+                        "production_assets": [
+                            {
+                                "guid": 3191,
+                                "name": "Production Fashion Roman Togas",
+                                "text": "Loom Weavery"
+                            },
+                            {
+                                "guid": 3079,
+                                "name": "Production Crafts Roman Cloth",
+                                "text": "Weaver"
+                            },
+                            {
+                                "guid": 5971,
+                                "name": "Production Field Roman Celtic Flax",
+                                "text": "Flax Farm"
+                            },
+                            {
+                                "guid": 8580,
+                                "name": "Production Coast Roman Sea Snails",
+                                "text": "Snailery"
+                            },
+                            {
+                                "guid": 2999,
+                                "name": "Production Chemical Roman Tyrian Purple",
+                                "text": "Dye Works"
+                            }
+                        ]
+                    },
+                    "3264": {
+                        "name": "Production Chain Roman Tunics",
+                        "text": "Tunics",
+                        "production_assets": [
+                            {
+                                "guid": 3187,
+                                "name": "Production Fashion Roman Tunics",
+                                "text": "Spinner"
+                            },
+                            {
+                                "guid": 31750,
+                                "name": "Production Field Roman Hemp",
+                                "text": "Hemp Farm"
+                            }
+                        ]
+                    },
+                    "6662": {
+                        "name": "Production Chain Roman Celtic Tunics",
+                        "text": "Tunics",
+                        "production_assets": [
+                            {
+                                "guid": 5958,
+                                "name": "Production Fashion Roman Celtic Tunics",
+                                "text": "Spinner"
+                            },
+                            {
+                                "guid": 31762,
+                                "name": "Production Field Roman Celtic Hemp",
+                                "text": "Hemp Farm"
+                            }
+                        ]
+                    },
+                    "6661": {
+                        "name": "Production Chain Celtic Trousers",
+                        "text": "Trousers",
+                        "production_assets": [
+                            {
+                                "guid": 5608,
+                                "name": "Production Fashion Celtic Trousers",
+                                "text": "Hosier"
+                            },
+                            {
+                                "guid": 5973,
+                                "name": "Production Pasture Celtic Sheep",
+                                "text": "Sheep Farm"
+                            },
+                            {
+                                "guid": 2800,
+                                "name": "Production Field Celtic Dye Plants",
+                                "text": "Weld Crop"
+                            }
+                        ]
+                    },
+                    "31808": {
+                        "name": "Production Chain Roman Cloaks",
+                        "text": "Cloaks",
+                        "production_assets": [
+                            {
+                                "guid": 5614,
+                                "name": "Production Fashion Celtic Cloak",
+                                "text": "Birrus Stitcher"
+                            },
+                            {
+                                "guid": 2786,
+                                "name": "Production Pasture Roman Sheep",
+                                "text": "Sheep Farm"
+                            },
+                            {
+                                "guid": 2800,
+                                "name": "Production Field Celtic Dye Plants",
+                                "text": "Weld Crop"
+                            },
+                            {
+                                "guid": 5290,
+                                "name": "Production Mountain Celtic Copper Ore",
+                                "text": "Copper Mine"
+                            },
+                            {
+                                "guid": 5469,
+                                "name": "Production Chemical Celtic Green",
+                                "text": "Greenhands"
+                            }
+                        ]
+                    },
+                    "6665": {
+                        "name": "Production Chain Celtic Cloaks",
+                        "text": "Cloaks",
+                        "production_assets": [
+                            {
+                                "guid": 5614,
+                                "name": "Production Fashion Celtic Cloak",
+                                "text": "Birrus Stitcher"
+                            },
+                            {
+                                "guid": 5973,
+                                "name": "Production Pasture Celtic Sheep",
+                                "text": "Sheep Farm"
+                            },
+                            {
+                                "guid": 2800,
+                                "name": "Production Field Celtic Dye Plants",
+                                "text": "Weld Crop"
+                            },
+                            {
+                                "guid": 5290,
+                                "name": "Production Mountain Celtic Copper Ore",
+                                "text": "Copper Mine"
+                            },
+                            {
+                                "guid": 5469,
+                                "name": "Production Chemical Celtic Green",
+                                "text": "Greenhands"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Divine Wisdom",
+                "description": "Additional Knowledge from all residences",
+                "milestones": [
+                    {
+                        "devotion": 250,
+                        "buff_scaling": 1
+                    },
+                    {
+                        "devotion": 1500,
+                        "buff_scaling": 3
+                    },
+                    {
+                        "devotion": 4500,
+                        "buff_scaling": 5
+                    },
+                    {
+                        "devotion": 11000,
+                        "buff_scaling": 7
+                    },
+                    {
+                        "devotion": 25000,
+                        "buff_scaling": 9
+                    },
+                    {
+                        "devotion": 100000,
+                        "buff_scaling": 11
+                    },
+                    {
+                        "devotion": 250000,
+                        "buff_scaling": 13
+                    }
+                ],
+                "affected_chains": {}
+            }
+        ],
+        "veneration_effect": {
+            "title": "Aegis-Gorgoneion",
+            "description": "Buildings near Stone Towers or Gates will grant additional Prestige."
+        },
+        "shrine_effect": {
+            "title": "Asset Pool All Minerva Shrines",
+            "guid": 82499,
+            "shrines": [
+                {
+                    "guid": 81069,
+                    "title": "Shrine of Minerva"
+                },
+                {
+                    "guid": 82489,
+                    "title": "Shrine of Minerva"
+                }
+            ]
+        },
+        "exaltation_effects": [
+            {
+                "title": "Olive Branch",
+                "description": "Improves diplomatic relationships with other Governors."
+            }
+        ],
+        "portraits": {
+            "big": "base/features/religion/artwork_deity_minerva_1248_0.webp",
+            "small": "base/features/religion/artwork_deity_minerva_small_88_0.webp"
+        }
+    },
+    "43594": {
+        "uid": 43594,
+        "canon_name": "patron_ceres",
+        "title": "Ceres",
+        "description": "Ceres, august mother of fields, extends her divine grace to farmers, mothers and marriages. Devotees of Ceres fervently till soil, bolstered by blessings from her divine helpers.",
+        "icon_url": "base/icon_content/religion/icon_2d_deity_ceres_0.webp",
+        "canon_icon_name": "icon_patron_ceres",
+        "local_effects": [
+            {
+                "title": "Ceres Augusta",
+                "description": "Increased production of Porridge, Bread, Wine, Olive Oil, Beer",
+                "milestones": [
+                    {
+                        "devotion": 50,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 100,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 800,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 2500,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 3500,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 6000,
+                        "buff_scaling": 70
+                    },
+                    {
+                        "devotion": 8000,
+                        "buff_scaling": 80
+                    },
+                    {
+                        "devotion": 15000,
+                        "buff_scaling": 90
+                    },
+                    {
+                        "devotion": 20000,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 37500,
+                        "buff_scaling": 110
+                    },
+                    {
+                        "devotion": 50000,
+                        "buff_scaling": 120
+                    },
+                    {
+                        "devotion": 150000,
+                        "buff_scaling": 130
+                    },
+                    {
+                        "devotion": 200000,
+                        "buff_scaling": 140
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 150
+                    }
+                ],
+                "affected_chains": {
+                    "3259": {
+                        "name": "Production Chain Roman Porridge",
+                        "text": "Porridge",
+                        "production_assets": [
+                            {
+                                "guid": 2200,
+                                "name": "Production Field Roman Oats",
+                                "text": "Oat Farm"
+                            },
+                            {
+                                "guid": 3171,
+                                "name": "Production Food Roman Porridge",
+                                "text": "Porridge Stand"
+                            }
+                        ]
+                    },
+                    "3260": {
+                        "name": "Production Chain Roman Bread",
+                        "text": "Bread",
+                        "production_assets": [
+                            {
+                                "guid": 2693,
+                                "name": "Production Field Roman Wheat",
+                                "text": "Wheat Farm"
+                            },
+                            {
+                                "guid": 3075,
+                                "name": "Production Ingredient Roman Flour",
+                                "text": "Grain Mill"
+                            },
+                            {
+                                "guid": 3174,
+                                "name": "Production Food Roman Bread",
+                                "text": "Bakery"
+                            }
+                        ]
+                    },
+                    "6582": {
+                        "name": "Production Chain Roman Celtic Bread",
+                        "text": "Bread",
+                        "production_assets": [
+                            {
+                                "guid": 5972,
+                                "name": "Production Field Roman Celtic Wheat",
+                                "text": "Wheat Farm"
+                            },
+                            {
+                                "guid": 5967,
+                                "name": "Production Ingredient Roman Celtic Flour",
+                                "text": "Donkey Mill"
+                            },
+                            {
+                                "guid": 5960,
+                                "name": "Production Food Roman Celtic Bread",
+                                "text": "Bakery"
+                            }
+                        ]
+                    },
+                    "3261": {
+                        "name": "Production Chain Roman Wine",
+                        "text": "Wine",
+                        "production_assets": [
+                            {
+                                "guid": 2694,
+                                "name": "Production Field Roman Grapes",
+                                "text": "Vineyard"
+                            },
+                            {
+                                "guid": 3177,
+                                "name": "Production Food Roman Wine",
+                                "text": "Vintner"
+                            },
+                            {
+                                "guid": 2795,
+                                "name": "Production Meadow Roman Honycombs",
+                                "text": "Apiary"
+                            }
+                        ]
+                    },
+                    "6668": {
+                        "name": "Production Chain Roman Celtic Wine",
+                        "text": "Wine",
+                        "production_assets": [
+                            {
+                                "guid": 23723,
+                                "name": "Production Field Roman Celtic Grapes",
+                                "text": "Vineyard"
+                            },
+                            {
+                                "guid": 23753,
+                                "name": "Production Food Roman Celtic Wine",
+                                "text": "Vintner"
+                            },
+                            {
+                                "guid": 8427,
+                                "name": "Production Meadow Roman Celtic Honycombs",
+                                "text": "Apiary"
+                            }
+                        ]
+                    },
+                    "31806": {
+                        "name": "Production Chain Roman Olive Oil",
+                        "text": "Olive Oil",
+                        "production_assets": [
+                            {
+                                "guid": 2699,
+                                "name": "Production Field Roman Olives",
+                                "text": "Olive Grower"
+                            },
+                            {
+                                "guid": 4831,
+                                "name": "Production Household Roman Olive Oil",
+                                "text": "Olive Press"
+                            }
+                        ]
+                    },
+                    "55972": {
+                        "name": "Production Chain Roman Celtic Olive Oil",
+                        "text": "Olive Oil",
+                        "production_assets": [
+                            {
+                                "guid": 2699,
+                                "name": "Production Field Roman Olives",
+                                "text": "Olive Grower"
+                            },
+                            {
+                                "guid": 4831,
+                                "name": "Production Household Roman Olive Oil",
+                                "text": "Olive Press"
+                            }
+                        ]
+                    },
+                    "6580": {
+                        "name": "Production Chain Celtic Beer",
+                        "text": "Beer",
+                        "production_assets": [
+                            {
+                                "guid": 2799,
+                                "name": "Production Field Celtic Barley",
+                                "text": "Barley Farm"
+                            },
+                            {
+                                "guid": 5474,
+                                "name": "Production Ingredient Celtic Malt",
+                                "text": "Malthouse"
+                            },
+                            {
+                                "guid": 5570,
+                                "name": "Production Food Celtic Beer",
+                                "text": "Brewery"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Confarreatio",
+                "description": "All residences provide additional Population.",
+                "milestones": [
+                    {
+                        "devotion": 250,
+                        "buff_scaling": 1
+                    },
+                    {
+                        "devotion": 1500,
+                        "buff_scaling": 2
+                    },
+                    {
+                        "devotion": 4500,
+                        "buff_scaling": 3
+                    },
+                    {
+                        "devotion": 11000,
+                        "buff_scaling": 4
+                    },
+                    {
+                        "devotion": 25000,
+                        "buff_scaling": 5
+                    },
+                    {
+                        "devotion": 100000,
+                        "buff_scaling": 6
+                    },
+                    {
+                        "devotion": 250000,
+                        "buff_scaling": 7
+                    }
+                ],
+                "affected_chains": {}
+            }
+        ],
+        "veneration_effect": {
+            "title": "Vervactor's Plough",
+            "description": "All Farms can support up to 50% more field modules, allowing an increase of up to 50% productivity."
+        },
+        "shrine_effect": {
+            "title": "Asset Pool All Ceres Shrines",
+            "guid": 82494,
+            "shrines": [
+                {
+                    "guid": 81021,
+                    "title": "Shrine of Ceres"
+                },
+                {
+                    "guid": 82487,
+                    "title": "Shrine of Ceres"
+                }
+            ]
+        },
+        "exaltation_effects": [
+            {
+                "title": "Conditor's Grace",
+                "description": "Increases the storage limit on all islands by 300t."
+            }
+        ],
+        "portraits": {
+            "big": "base/features/religion/artwork_deity_ceres_1248_0.webp",
+            "small": "base/features/religion/artwork_deity_ceres_small_88_0.webp"
+        }
+    },
+    "50242": {
+        "uid": 50242,
+        "canon_name": "patron_cernunnos",
+        "title": "Cernunnos",
+        "description": "Cernunnos, horned lord of the forest, sits on the boundary between the civil and the wild. Devotees of Cernunnos can work alongside anything - man, beast or deity - to spin harmony out of contradiction.",
+        "icon_url": "base/icon_content/religion/icon_2d_deity_cernunnos_0.webp",
+        "canon_icon_name": "icon_patron_cernunnos",
+        "local_effects": [
+            {
+                "title": "Wild Nature",
+                "description": "Increased production of Timber, Smoked Eels, Wattle & Daub",
+                "milestones": [
+                    {
+                        "devotion": 50,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 100,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 800,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 2500,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 3500,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 6000,
+                        "buff_scaling": 70
+                    },
+                    {
+                        "devotion": 8000,
+                        "buff_scaling": 80
+                    },
+                    {
+                        "devotion": 15000,
+                        "buff_scaling": 90
+                    },
+                    {
+                        "devotion": 20000,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 37500,
+                        "buff_scaling": 110
+                    },
+                    {
+                        "devotion": 50000,
+                        "buff_scaling": 120
+                    },
+                    {
+                        "devotion": 150000,
+                        "buff_scaling": 130
+                    },
+                    {
+                        "devotion": 200000,
+                        "buff_scaling": 140
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 150
+                    }
+                ],
+                "affected_chains": {
+                    "3222": {
+                        "name": "Production Chain Roman Timber",
+                        "text": "Timber",
+                        "production_assets": [
+                            {
+                                "guid": 2878,
+                                "name": "Production Forest Roman Wood",
+                                "text": "Woodcutter"
+                            },
+                            {
+                                "guid": 3089,
+                                "name": "Production Construction Roman Timber",
+                                "text": "Sawmill"
+                            }
+                        ]
+                    },
+                    "6534": {
+                        "name": "Production Chain Roman Celtic Timber",
+                        "text": "Timber",
+                        "production_assets": [
+                            {
+                                "guid": 5976,
+                                "name": "Production Forest Roman Celtic Wood",
+                                "text": "Woodcutter"
+                            },
+                            {
+                                "guid": 5945,
+                                "name": "Production Construction Roman Celtic Timber",
+                                "text": "Sawmill"
+                            }
+                        ]
+                    },
+                    "6579": {
+                        "name": "Production Chain Celtic Eels",
+                        "text": "Smoked Eels",
+                        "production_assets": [
+                            {
+                                "guid": 5299,
+                                "name": "Production Marsh Roman Celtic Eels",
+                                "text": "Eel Grabber"
+                            }
+                        ]
+                    },
+                    "6570": {
+                        "name": "Production Chain Celtic Wattle & Daub",
+                        "text": "Wattle & Daub",
+                        "production_assets": [
+                            {
+                                "guid": 5849,
+                                "name": "Production Marsh Celtic Reed",
+                                "text": "Reed Gatherer"
+                            },
+                            {
+                                "guid": 5848,
+                                "name": "Production Marsh Celtic Mud",
+                                "text": "Mud Drier"
+                            },
+                            {
+                                "guid": 5935,
+                                "name": "Production Construction Celtic Wattle and Daub",
+                                "text": "Labourer's Yard"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Natural Vigor",
+                "description": "Residences produce additional Health and Knowledge.",
+                "milestones": [
+                    {
+                        "devotion": 250,
+                        "buff_scaling": 1
+                    },
+                    {
+                        "devotion": 1500,
+                        "buff_scaling": 2
+                    },
+                    {
+                        "devotion": 4500,
+                        "buff_scaling": 3
+                    },
+                    {
+                        "devotion": 11000,
+                        "buff_scaling": 4
+                    },
+                    {
+                        "devotion": 25000,
+                        "buff_scaling": 5
+                    },
+                    {
+                        "devotion": 100000,
+                        "buff_scaling": 6
+                    },
+                    {
+                        "devotion": 250000,
+                        "buff_scaling": 7
+                    }
+                ],
+                "affected_chains": {}
+            }
+        ],
+        "veneration_effect": {
+            "title": "Arboreal Rhizome",
+            "description": "Forest production buildings generate all other Forest products, in addition to their usual output, every third cycle."
+        },
+        "shrine_effect": {
+            "title": "Asset Pool All Cernnunos Shrines",
+            "guid": 82498,
+            "shrines": [
+                {
+                    "guid": 81072,
+                    "title": "Shrine of Cernunnos"
+                },
+                {
+                    "guid": 82492,
+                    "title": "Shrine of Cernunnos"
+                }
+            ]
+        },
+        "exaltation_effects": [
+            {
+                "title": "Harmonious Interpretation",
+                "description": "Local Devotion effects on all islands are advanced by one stage."
+            }
+        ],
+        "portraits": {
+            "big": "base/features/religion/artwork_deity_cernunnos_1248_0.webp",
+            "small": "base/features/religion/artwork_deity_cernunnos_small_88_0.webp"
+        }
+    },
+    "50311": {
+        "uid": 50311,
+        "canon_name": "patron_mercury_lugus",
+        "title": "Mercury-Lugus",
+        "description": "Celtic adherents of Lugh found common ground with Roman Mercury, patron gods of crafts and trades alike. Devotees of Lugus and Mercury are dedicated to their work; to turning a profit, even more so.",
+        "icon_url": "base/icon_content/religion/icon_2d_deity_mercury_0.webp",
+        "canon_icon_name": "icon_patron_mercury_lugus",
+        "local_effects": [
+            {
+                "title": "Tradecraft",
+                "description": "Passive trade is more profitable.",
+                "milestones": [
+                    {
+                        "devotion": 50,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 100,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 800,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 2500,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 3500,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 6000,
+                        "buff_scaling": 70
+                    },
+                    {
+                        "devotion": 8000,
+                        "buff_scaling": 80
+                    },
+                    {
+                        "devotion": 15000,
+                        "buff_scaling": 90
+                    },
+                    {
+                        "devotion": 20000,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 37500,
+                        "buff_scaling": 110
+                    },
+                    {
+                        "devotion": 50000,
+                        "buff_scaling": 120
+                    },
+                    {
+                        "devotion": 150000,
+                        "buff_scaling": 130
+                    },
+                    {
+                        "devotion": 200000,
+                        "buff_scaling": 140
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 150
+                    }
+                ],
+                "affected_chains": {}
+            },
+            {
+                "title": "Statecraft",
+                "description": "Trading Posts, Depots and Trading Piers produce additional Prestige.",
+                "milestones": [
+                    {
+                        "devotion": 250,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 1500,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 4500,
+                        "buff_scaling": 150
+                    },
+                    {
+                        "devotion": 11000,
+                        "buff_scaling": 200
+                    },
+                    {
+                        "devotion": 25000,
+                        "buff_scaling": 250
+                    },
+                    {
+                        "devotion": 100000,
+                        "buff_scaling": 300
+                    },
+                    {
+                        "devotion": 250000,
+                        "buff_scaling": 350
+                    }
+                ],
+                "affected_chains": {}
+            }
+        ],
+        "veneration_effect": {
+            "title": "Gold Mine",
+            "description": "Unlocks the ability to construct Gold Mines."
+        },
+        "shrine_effect": {
+            "title": "Asset Pool All Mercury-Lugus Shrines",
+            "guid": 82496,
+            "shrines": [
+                {
+                    "guid": 81070,
+                    "title": "Shrine of Mercury-Lugus"
+                },
+                {
+                    "guid": 82490,
+                    "title": "Shrine of Mercury-Lugus"
+                }
+            ]
+        },
+        "exaltation_effects": [
+            {
+                "title": "Storecraft",
+                "description": "Loading/unloading of Ships and Wagons is 50% faster."
+            }
+        ],
+        "portraits": {
+            "big": "base/features/religion/artwork_deity_lugos_1248_0.webp",
+            "small": "base/features/religion/artwork_deity_lugos_small_88_0.webp"
+        }
+    },
+    "80562": {
+        "uid": 80562,
+        "canon_name": "patron_mars",
+        "title": "Mars",
+        "description": "Bloody-handed god of war, Mars presides over the violent art of warfare. Mars expects victory, and his devotees will do their utmost to make that happen.",
+        "icon_url": "base/icon_content/religion/icon_2d_deity_mars_0.webp",
+        "canon_icon_name": "icon_patron_mars",
+        "local_effects": [
+            {
+                "title": "Armamentum",
+                "description": "Increased production of Armour, Sandals, Weapons",
+                "milestones": [
+                    {
+                        "devotion": 50,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 100,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 800,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 2500,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 3500,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 6000,
+                        "buff_scaling": 70
+                    },
+                    {
+                        "devotion": 8000,
+                        "buff_scaling": 80
+                    },
+                    {
+                        "devotion": 15000,
+                        "buff_scaling": 90
+                    },
+                    {
+                        "devotion": 20000,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 37500,
+                        "buff_scaling": 110
+                    },
+                    {
+                        "devotion": 50000,
+                        "buff_scaling": 120
+                    },
+                    {
+                        "devotion": 150000,
+                        "buff_scaling": 130
+                    },
+                    {
+                        "devotion": 200000,
+                        "buff_scaling": 140
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 150
+                    }
+                ],
+                "affected_chains": {
+                    "13839": {
+                        "name": "Production Chain Roman Armor",
+                        "text": "Armour",
+                        "production_assets": [
+                            {
+                                "guid": 2793,
+                                "name": "Production Pasture Roman Pigs",
+                                "text": "Pig Farm"
+                            },
+                            {
+                                "guid": 2918,
+                                "name": "Production Mountain Roman Iron Ore",
+                                "text": "Iron Mine"
+                            },
+                            {
+                                "guid": 2957,
+                                "name": "Production Coast Roman Salt",
+                                "text": "Salt Ponds"
+                            },
+                            {
+                                "guid": 3070,
+                                "name": "Production Heavy Roman Iron",
+                                "text": "Furnace"
+                            },
+                            {
+                                "guid": 2994,
+                                "name": "Production Chemical Roman Leather",
+                                "text": "Tannery"
+                            },
+                            {
+                                "guid": 13808,
+                                "name": "Production Military Roman Armor",
+                                "text": "Armourer"
+                            }
+                        ]
+                    },
+                    "3290": {
+                        "name": "Production Chain Roman Sandals",
+                        "text": "Sandals",
+                        "production_assets": [
+                            {
+                                "guid": 2793,
+                                "name": "Production Pasture Roman Pigs",
+                                "text": "Pig Farm"
+                            },
+                            {
+                                "guid": 2957,
+                                "name": "Production Coast Roman Salt",
+                                "text": "Salt Ponds"
+                            },
+                            {
+                                "guid": 2994,
+                                "name": "Production Chemical Roman Leather",
+                                "text": "Tannery"
+                            },
+                            {
+                                "guid": 3190,
+                                "name": "Production Fashion Roman Sandals",
+                                "text": "Sandal Maker"
+                            }
+                        ]
+                    },
+                    "13889": {
+                        "name": "Production Chain Roman Celtic Weapons",
+                        "text": "Weapons",
+                        "production_assets": [
+                            {
+                                "guid": 5982,
+                                "name": "Production Mountain Roman Celtic Iron Ore",
+                                "text": "Iron Mine"
+                            },
+                            {
+                                "guid": 5969,
+                                "name": "Production Heavy Roman Celtic Iron",
+                                "text": "Furnace"
+                            },
+                            {
+                                "guid": 5954,
+                                "name": "Production Military Roman Celtic Weapons",
+                                "text": "Weaponsmith"
+                            }
+                        ]
+                    },
+                    "3253": {
+                        "name": "Production Chain Roman Weapons",
+                        "text": "Weapons",
+                        "production_assets": [
+                            {
+                                "guid": 2918,
+                                "name": "Production Mountain Roman Iron Ore",
+                                "text": "Iron Mine"
+                            },
+                            {
+                                "guid": 3070,
+                                "name": "Production Heavy Roman Iron",
+                                "text": "Furnace"
+                            },
+                            {
+                                "guid": 3170,
+                                "name": "Production Military Roman Weapons",
+                                "text": "Weaponsmith"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Quirinus",
+                "description": "Troops recruited on this island have higher Morale and reduced Workforce and Money Upkeep.",
+                "milestones": [
+                    {
+                        "devotion": 250,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 1500,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 4500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 11000,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 25000,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 100000,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 70
+                    }
+                ],
+                "affected_chains": {}
+            }
+        ],
+        "veneration_effect": {
+            "title": "Gladiators",
+            "description": "Allows the recruitment of the Murmillo Gladiator troop type in Latium."
+        },
+        "shrine_effect": {
+            "title": "Asset Pool All Mars Shrines",
+            "guid": 82495,
+            "shrines": [
+                {
+                    "guid": 80710,
+                    "title": "Shrine of Mars"
+                },
+                {
+                    "guid": 82486,
+                    "title": "Shrine of Mars"
+                }
+            ]
+        },
+        "exaltation_effects": [
+            {
+                "title": "Invictus",
+                "description": "+1 Offence and +1 Defence for all Troops."
+            }
+        ],
+        "portraits": {
+            "big": "base/features/religion/artwork_deity_mars_1248_0.webp",
+            "small": "base/features/religion/artwork_deity_mars_small_88_0.webp"
+        }
+    },
+    "80861": {
+        "uid": 80861,
+        "canon_name": "patron_epona",
+        "title": "Epona",
+        "description": "Epona captured the hearts of Rome's cavalry, galloping her way across the Empire from her home in Albion. Now Romans, Celts and many others turn to her for equine guidance. Her devotees embody the free, wild spirit of the Great Mare.",
+        "icon_url": "base/icon_content/religion/icon_2d_deity_epona_0.webp",
+        "canon_icon_name": "icon_patron_epona",
+        "local_effects": [
+            {
+                "title": "Potnia Theron",
+                "description": "Increased production of Stables, Horses",
+                "milestones": [
+                    {
+                        "devotion": 50,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 100,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 800,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 2500,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 3500,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 6000,
+                        "buff_scaling": 70
+                    },
+                    {
+                        "devotion": 8000,
+                        "buff_scaling": 80
+                    },
+                    {
+                        "devotion": 15000,
+                        "buff_scaling": 90
+                    },
+                    {
+                        "devotion": 20000,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 37500,
+                        "buff_scaling": 110
+                    },
+                    {
+                        "devotion": 50000,
+                        "buff_scaling": 120
+                    },
+                    {
+                        "devotion": 150000,
+                        "buff_scaling": 130
+                    },
+                    {
+                        "devotion": 200000,
+                        "buff_scaling": 140
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 150
+                    }
+                ],
+                "affected_chains": {
+                    "15510": {
+                        "name": "Production Chain Roman Horses",
+                        "text": "Stables",
+                        "production_assets": [
+                            {
+                                "guid": 2794,
+                                "name": "Production Pasture Roman Horses",
+                                "text": "Horse Breeder"
+                            }
+                        ]
+                    },
+                    "15512": {
+                        "name": "Production Chain Roman Celtic Horses",
+                        "text": "Horses",
+                        "production_assets": [
+                            {
+                                "guid": 15514,
+                                "name": "Production Pasture Roman Celtic Horses",
+                                "text": "Horse Breeder"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Reins of Prosperity",
+                "description": "Production buildings provide additional Population.",
+                "milestones": [
+                    {
+                        "devotion": 250,
+                        "buff_scaling": 1
+                    },
+                    {
+                        "devotion": 1500,
+                        "buff_scaling": 2
+                    },
+                    {
+                        "devotion": 4500,
+                        "buff_scaling": 3
+                    },
+                    {
+                        "devotion": 11000,
+                        "buff_scaling": 4
+                    },
+                    {
+                        "devotion": 25000,
+                        "buff_scaling": 5
+                    },
+                    {
+                        "devotion": 100000,
+                        "buff_scaling": 6
+                    },
+                    {
+                        "devotion": 250000,
+                        "buff_scaling": 7
+                    }
+                ],
+                "affected_chains": {}
+            }
+        ],
+        "veneration_effect": {
+            "title": "Silo",
+            "description": "Unlocks the ability to construct Silos."
+        },
+        "shrine_effect": {
+            "title": "Asset Pool All Epona Shrines",
+            "guid": 82497,
+            "shrines": [
+                {
+                    "guid": 81071,
+                    "title": "Shrine of Epona"
+                },
+                {
+                    "guid": 82491,
+                    "title": "Shrine of Epona"
+                }
+            ]
+        },
+        "exaltation_effects": [
+            {
+                "title": "Great Mare's Stride",
+                "description": "Logistic carts from Warehouses can travel 30% farther to collect or deliver goods."
+            }
+        ],
+        "portraits": {
+            "big": "base/features/religion/artwork_deity_epona_1248_0.webp",
+            "small": "base/features/religion/artwork_deity_epona_small_88_0.webp"
+        }
+    },
+    "144800": {
+        "uid": 144800,
+        "canon_name": "patron_vulcan",
+        "title": "Vulcan",
+        "description": "Down in the deep fires that built the world, Vulcan tends to his forge. His iconoclasts delve deep, and ever deeper, in hopes to hear the echoes of his divine hammer.",
+        "icon_url": "dlc01/icon_content/religion/icon_2d_deity_vulcanus_0.webp",
+        "canon_icon_name": "icon_patron_vulcan",
+        "local_effects": [
+            {
+                "title": "Lava Forge",
+                "description": "Increased production of Mines, Quarries",
+                "milestones": [
+                    {
+                        "devotion": 50,
+                        "buff_scaling": 10
+                    },
+                    {
+                        "devotion": 100,
+                        "buff_scaling": 20
+                    },
+                    {
+                        "devotion": 500,
+                        "buff_scaling": 30
+                    },
+                    {
+                        "devotion": 800,
+                        "buff_scaling": 40
+                    },
+                    {
+                        "devotion": 2500,
+                        "buff_scaling": 50
+                    },
+                    {
+                        "devotion": 3500,
+                        "buff_scaling": 60
+                    },
+                    {
+                        "devotion": 6000,
+                        "buff_scaling": 70
+                    },
+                    {
+                        "devotion": 8000,
+                        "buff_scaling": 80
+                    },
+                    {
+                        "devotion": 15000,
+                        "buff_scaling": 90
+                    },
+                    {
+                        "devotion": 20000,
+                        "buff_scaling": 100
+                    },
+                    {
+                        "devotion": 37500,
+                        "buff_scaling": 110
+                    },
+                    {
+                        "devotion": 50000,
+                        "buff_scaling": 120
+                    },
+                    {
+                        "devotion": 150000,
+                        "buff_scaling": 130
+                    },
+                    {
+                        "devotion": 200000,
+                        "buff_scaling": 140
+                    },
+                    {
+                        "devotion": 300000,
+                        "buff_scaling": 150
+                    }
+                ],
+                "affected_chains": {
+                    "50225": {
+                        "name": "Asset Pool Production All Mines",
+                        "text": "Mines",
+                        "production_assets": [
+                            {
+                                "guid": 5290,
+                                "name": "Production Mountain Celtic Copper Ore",
+                                "text": "Copper Mine"
+                            },
+                            {
+                                "guid": 5980,
+                                "name": "Production Mountain Roman Celtic Silver Ore",
+                                "text": "Silver Mine"
+                            },
+                            {
+                                "guid": 5291,
+                                "name": "Production Mountain Celtic Tin Ore",
+                                "text": "Tin Mine"
+                            },
+                            {
+                                "guid": 2918,
+                                "name": "Production Mountain Roman Iron Ore",
+                                "text": "Iron Mine"
+                            },
+                            {
+                                "guid": 5982,
+                                "name": "Production Mountain Roman Celtic Iron Ore",
+                                "text": "Iron Mine"
+                            },
+                            {
+                                "guid": 50280,
+                                "name": "Production Mountain Roman Gold Ore",
+                                "text": "Gold Mine"
+                            },
+                            {
+                                "guid": 144810,
+                                "name": "Production Mountain Roman Coal",
+                                "text": "Coal Mine"
+                            },
+                            {
+                                "guid": 144811,
+                                "name": "Production Mountain Roman Celtic Coal",
+                                "text": "Coal Mine"
+                            }
+                        ]
+                    },
+                    "50608": {
+                        "name": "Asset Pool Production All Quarries",
+                        "text": "Quarries",
+                        "production_assets": [
+                            {
+                                "guid": 5978,
+                                "name": "Production Mountain Roman Celtic Limestone Blocks",
+                                "text": "Limestone Quarry"
+                            },
+                            {
+                                "guid": 2916,
+                                "name": "Production Mountain Roman Limestone Blocks",
+                                "text": "Limestone Quarry"
+                            },
+                            {
+                                "guid": 5295,
+                                "name": "Production Mountain Celtic Granite Blocks",
+                                "text": "Granite Quarry"
+                            },
+                            {
+                                "guid": 2954,
+                                "name": "Production Mountain Roman Marble Blocks",
+                                "text": "Marble Quarry"
+                            },
+                            {
+                                "guid": 2920,
+                                "name": "Production Mountain Roman Minerals",
+                                "text": "Mineral Quarry"
+                            }
+                        ]
+                    }
+                }
+            },
+            {
+                "title": "Firebrand",
+                "description": "Residences grant more Workforce.",
+                "milestones": [
+                    {
+                        "devotion": 250,
+                        "buff_scaling": 1
+                    },
+                    {
+                        "devotion": 1500,
+                        "buff_scaling": 2
+                    },
+                    {
+                        "devotion": 4500,
+                        "buff_scaling": 3
+                    },
+                    {
+                        "devotion": 11000,
+                        "buff_scaling": 4
+                    },
+                    {
+                        "devotion": 25000,
+                        "buff_scaling": 5
+                    },
+                    {
+                        "devotion": 100000,
+                        "buff_scaling": 6
+                    },
+                    {
+                        "devotion": 250000,
+                        "buff_scaling": 7
+                    }
+                ],
+                "affected_chains": {}
+            }
+        ],
+        "veneration_effect": {
+            "title": "Coal Mine",
+            "description": "Allows the construction of Coal Mines on all Mountain Slots."
+        },
+        "shrine_effect": {
+            "title": "Asset Pool All Vulcanus Shrines",
+            "guid": 144814,
+            "shrines": [
+                {
+                    "guid": 144812,
+                    "title": "Shrine of Vulcan"
+                },
+                {
+                    "guid": 144813,
+                    "title": "Shrine of Vulcan"
+                }
+            ]
+        },
+        "exaltation_effects": [
+            {
+                "title": "Ignis Primigenii",
+                "description": "All Smelters gain the Area Effect: Fire Safety +2, Population +1, Knowledge +1, Prestige+1."
+            }
+        ],
+        "portraits": {
+            "big": "dlc01/features/religion/artwork_deity_vulkan_1248_0.webp",
+            "small": "base/features/religion/artwork_deity_vulcan_small_176_0.webp"
+        }
+    }
+}

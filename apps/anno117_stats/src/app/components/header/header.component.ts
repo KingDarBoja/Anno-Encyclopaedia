@@ -7,13 +7,13 @@ interface NavItem {
   children?: NavItem[]; // For the "Gameplay" submenu
 }
 @Component({
-  selector: 'app-header',
+  selector: 'anno-header',
   standalone: true,
   imports: [RouterModule],
   template: `
-    <header class="w-full bg-[var(--primary-color)]">
+    <header class="header-container">
       <div
-        class="container mx-auto flex items-center justify-between p-4 font-[var(--font-primary)]"
+        class="container mx-auto h-full flex items-center justify-between p-4 font-(--font-primary)"
       >
         <!-- Branding Section -->
         <div
@@ -79,6 +79,7 @@ export class HeaderComponent {
     {
       label: 'Gameplay',
       children: [
+        { label: 'Production Chains', path: '/production-chains' },
         { label: 'Achievements', path: '/achievements' },
         { label: 'City Status', path: '/city-status' },
         { label: 'Ornaments', path: '/ornaments' },

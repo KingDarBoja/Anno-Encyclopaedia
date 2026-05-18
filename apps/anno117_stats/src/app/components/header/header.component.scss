@@ -3,6 +3,12 @@ header {
   position: relative;
   z-index: 1000;
 
+  &.header-container {
+    background-color: var(--primary-color);
+    width: 100%;
+    height: 80px;
+  }
+
   .main-nav {
     display: flex;
     align-items: center;
@@ -41,7 +47,7 @@ header {
       .group-label {
         display: flex;
         padding: 0 1.5em;
-        height: 3em;
+        height: 100%;
         align-items: center;
         color: white;
         cursor: pointer;
@@ -102,6 +108,7 @@ header {
 
         .group-label {
           width: 100%;
+          height: 3em;
         }
 
         .submenu {
@@ -125,7 +132,7 @@ header {
       a {
         display: flex;
         padding: 0 1.5em;
-        height: 3em;
+        height: 100%;
         align-items: center;
         color: white;
         text-decoration: none;

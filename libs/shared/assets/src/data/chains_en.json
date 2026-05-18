@@ -1,0 +1,2626 @@
+{
+    "3222": {
+        "uid": 3222,
+        "canon_name": "production_timber",
+        "name": "Production Chain Roman Timber",
+        "description": "Sliced tree; the best thing before sliced bread.",
+        "output_building": {
+            "guid": 3089,
+            "std_name": "Production Construction Roman Timber",
+            "text": "Sawmill",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp",
+            "canon_name": "production_sawmill_latium",
+            "tier": [
+                {
+                    "guid": 2878,
+                    "std_name": "Production Forest Roman Wood",
+                    "text": "Woodcutter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp",
+                    "canon_name": "production_woodcutter_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3252": {
+        "uid": 3252,
+        "canon_name": "production_tiles",
+        "name": "Production Chain Roman Tiles",
+        "description": "Imbrex and his brother Tegula band together.",
+        "output_building": {
+            "guid": 3091,
+            "std_name": "Production Construction Roman Tiles",
+            "text": "Tiler",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tiles_goods_0.webp",
+            "canon_name": "production_tiler_latium",
+            "tier": [
+                {
+                    "guid": 2970,
+                    "std_name": "Production River Roman Clay",
+                    "text": "Clay Pit",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_clay_goods_0.webp",
+                    "canon_name": "production_clay_pit_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3253": {
+        "uid": 3253,
+        "canon_name": "production_weapons",
+        "name": "Production Chain Roman Weapons",
+        "description": "Pointy things, sharp things, and sharp pointy things.",
+        "output_building": {
+            "guid": 3170,
+            "std_name": "Production Military Roman Weapons",
+            "text": "Weaponsmith",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp",
+            "canon_name": "production_weaponsmith_latium",
+            "tier": [
+                {
+                    "guid": 3070,
+                    "std_name": "Production Heavy Roman Iron",
+                    "text": "Furnace",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp",
+                    "canon_name": "production_furnace_latium",
+                    "tier": [
+                        {
+                            "guid": 2918,
+                            "std_name": "Production Mountain Roman Iron Ore",
+                            "text": "Iron Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp",
+                            "canon_name": "production_iron_mine_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3254": {
+        "uid": 3254,
+        "canon_name": "production_concrete",
+        "name": "Production Chain Roman Concrete",
+        "description": "Fabled for its self-mending properties, it can withstand anything but time. ",
+        "output_building": {
+            "guid": 3129,
+            "std_name": "Production Construction Roman Concrete",
+            "text": "Concrete Mixer",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_concrete_goods_0.webp",
+            "canon_name": "production_concrete_mixer_latium",
+            "tier": [
+                {
+                    "guid": 2916,
+                    "std_name": "Production Mountain Roman Limestone Blocks",
+                    "text": "Limestone Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_limestone_goods_0.webp",
+                    "canon_name": "production_limestone_quarry_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 2958,
+                    "std_name": "Production Coast Roman Silica",
+                    "text": "Sand Refinery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                    "canon_name": "production_sand_refinery_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3256": {
+        "uid": 3256,
+        "canon_name": "production_marble",
+        "name": "Production Chain Roman Marble",
+        "description": "This marvel of masonry adds monumentality to the mundane. ",
+        "output_building": {
+            "guid": 3138,
+            "std_name": "Production Construction Roman Marble",
+            "text": "Marble Mason",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_blocks_goods_0.webp",
+            "canon_name": "production_marble_mason_latium",
+            "tier": [
+                {
+                    "guid": 2954,
+                    "std_name": "Production Mountain Roman Marble Blocks",
+                    "text": "Marble Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp",
+                    "canon_name": "production_marble_quarry_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3258": {
+        "uid": 3258,
+        "canon_name": "production_sardines",
+        "name": "Production Chain Roman Sardines",
+        "description": "A family picking at the bony Sardine, can still be fed and kept in health.",
+        "output_building": {
+            "guid": 2955,
+            "std_name": "Production Coast Roman Sardines",
+            "text": "Fishing Hut",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sardines_goods_0.webp",
+            "canon_name": "production_fishing_hut_latium",
+            "tier": []
+        }
+    },
+    "3259": {
+        "uid": 3259,
+        "canon_name": "production_porridge",
+        "name": "Production Chain Roman Porridge",
+        "description": "Porridge is a staple; easy to produce for the masses. No-one loves the taste though.",
+        "output_building": {
+            "guid": 3171,
+            "std_name": "Production Food Roman Porridge",
+            "text": "Porridge Stand",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_porridge_goods_0.webp",
+            "canon_name": "production_porridge_stand_latium",
+            "tier": [
+                {
+                    "guid": 2200,
+                    "std_name": "Production Field Roman Oats",
+                    "text": "Oat Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oats_goods_0.webp",
+                    "canon_name": "production_oat_farm_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3260": {
+        "uid": 3260,
+        "canon_name": "production_bread",
+        "name": "Production Chain Roman Bread",
+        "description": "Bread's immense popularity and convenience also make it highly lucrative to those in the trade.",
+        "output_building": {
+            "guid": 3174,
+            "std_name": "Production Food Roman Bread",
+            "text": "Bakery",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp",
+            "canon_name": "production_bakery_latium",
+            "tier": [
+                {
+                    "guid": 3075,
+                    "std_name": "Production Ingredient Roman Flour",
+                    "text": "Grain Mill",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp",
+                    "canon_name": "production_grain_mill_latium",
+                    "tier": [
+                        {
+                            "guid": 2693,
+                            "std_name": "Production Field Roman Wheat",
+                            "text": "Wheat Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp",
+                            "canon_name": "production_wheat_farm_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3261": {
+        "uid": 3261,
+        "canon_name": "production_wine",
+        "name": "Production Chain Roman Wine",
+        "description": "Romans prize wine for its power to lift the beleaguered spirit, taken in moderation, of course.",
+        "output_building": {
+            "guid": 3177,
+            "std_name": "Production Food Roman Wine",
+            "text": "Vintner",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp",
+            "canon_name": "production_vintner_latium",
+            "tier": [
+                {
+                    "guid": 2694,
+                    "std_name": "Production Field Roman Grapes",
+                    "text": "Vineyard",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp",
+                    "canon_name": "production_vineyard_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 2795,
+                    "std_name": "Production Meadow Roman Honycombs",
+                    "text": "Apiary",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                    "canon_name": "production_apiary_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3262": {
+        "uid": 3262,
+        "canon_name": "production_garum",
+        "name": "Production Chain Roman Garum",
+        "description": "A fishy condiment sure to put a smile on people's faces, Garum pairs with bread, porridge\u2014 anything!",
+        "output_building": {
+            "guid": 3185,
+            "std_name": "Production Food Roman Garum",
+            "text": "Garum Works",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_garum_goods_0.webp",
+            "canon_name": "production_garum_works_latium",
+            "tier": [
+                {
+                    "guid": 2956,
+                    "std_name": "Production Coast Roman Mackerels",
+                    "text": "Scomber's Shack",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp",
+                    "canon_name": "production_scomber_s_shack_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 2957,
+                    "std_name": "Production Coast Roman Salt",
+                    "text": "Salt Ponds",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_salt_goods_0.webp",
+                    "canon_name": "production_salt_ponds_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3263": {
+        "uid": 3263,
+        "canon_name": "production_oysters_with_caviar",
+        "name": "Production Chain Roman Oysters with Caviar",
+        "description": "This excessive abundance of sea jewels is thought by many to balance the humours and inflame the libido.",
+        "output_building": {
+            "guid": 3186,
+            "std_name": "Production Food Roman Oysters with Caviar",
+            "text": "Epicure of Water",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_and_caviar_goods_0.webp",
+            "canon_name": "production_epicure_of_water_latium",
+            "tier": [
+                {
+                    "guid": 8586,
+                    "std_name": "Production Coast Roman Oysters",
+                    "text": "Oyster Bed",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp",
+                    "canon_name": "production_oyster_bed_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 8893,
+                    "std_name": "Production Ingredient Roman Caviar",
+                    "text": "Fish Gutter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_caviar_goods_0.webp",
+                    "canon_name": "production_fish_gutter_latium",
+                    "tier": [
+                        {
+                            "guid": 2971,
+                            "std_name": "Production River Roman Sturgeon",
+                            "text": "Sturgeon Hatchery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp",
+                            "canon_name": "production_sturgeon_hatchery_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3264": {
+        "uid": 3264,
+        "canon_name": "production_tunics",
+        "name": "Production Chain Roman Tunics",
+        "description": "Even the liberti will open their purses for simple, well-made woolen tunics.",
+        "output_building": {
+            "guid": 3187,
+            "std_name": "Production Fashion Roman Tunics",
+            "text": "Spinner",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp",
+            "canon_name": "production_spinner_latium",
+            "tier": [
+                {
+                    "guid": 31750,
+                    "std_name": "Production Field Roman Hemp",
+                    "text": "Hemp Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp",
+                    "canon_name": "production_hemp_farm_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3286": {
+        "uid": 3286,
+        "canon_name": "production_pileus",
+        "name": "Production Chain Roman Hats",
+        "description": "A humble, comforting hat in the hellenic style, for the smiling sun and bucolic bliss.",
+        "output_building": {
+            "guid": 3188,
+            "std_name": "Production Fashion Roman Hats",
+            "text": "Pileus Felter",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_farmer_hat_goods_0.webp",
+            "canon_name": "production_pileus_felter_latium",
+            "tier": [
+                {
+                    "guid": 2786,
+                    "std_name": "Production Pasture Roman Sheep",
+                    "text": "Sheep Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                    "canon_name": "production_sheep_farm_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3289": {
+        "uid": 3289,
+        "canon_name": "production_soap",
+        "name": "Production Chain Roman Soap",
+        "description": "Who would have thought that fat drippings and ashes could produce such squeaky clean results?",
+        "output_building": {
+            "guid": 3189,
+            "std_name": "Production Fashion Roman Soap",
+            "text": "Soap Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_soap_goods_0.webp",
+            "canon_name": "production_soap_maker_latium",
+            "tier": [
+                {
+                    "guid": 2698,
+                    "std_name": "Production Field Roman Lavender",
+                    "text": "Lavender Grower",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp",
+                    "canon_name": "production_lavender_grower_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 31756,
+                    "std_name": "Production Chemical Roman Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_latium",
+                    "tier": [
+                        {
+                            "guid": 2793,
+                            "std_name": "Production Pasture Roman Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3290": {
+        "uid": 3290,
+        "canon_name": "production_sandals",
+        "name": "Production Chain Roman Sandals",
+        "description": "Shapely footwear for romans of all ranks and sizes, well-suited for warm weather.",
+        "output_building": {
+            "guid": 3190,
+            "std_name": "Production Fashion Roman Sandals",
+            "text": "Sandal Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sandals_goods_0.webp",
+            "canon_name": "production_sandal_maker_latium",
+            "tier": [
+                {
+                    "guid": 2994,
+                    "std_name": "Production Chemical Roman Leather",
+                    "text": "Tannery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp",
+                    "canon_name": "production_tannery_latium",
+                    "tier": [
+                        {
+                            "guid": 2793,
+                            "std_name": "Production Pasture Roman Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_latium",
+                            "tier": []
+                        },
+                        {
+                            "guid": 2957,
+                            "std_name": "Production Coast Roman Salt",
+                            "text": "Salt Ponds",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_salt_goods_0.webp",
+                            "canon_name": "production_salt_ponds_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3291": {
+        "uid": 3291,
+        "canon_name": "production_togas",
+        "name": "Production Chain Roman Togas",
+        "description": "The one garment by which Romans are identified. Even the slenderest strip of Tyrian purple will draw a crowd\u2014 and a flame.",
+        "output_building": {
+            "guid": 3191,
+            "std_name": "Production Fashion Roman Togas",
+            "text": "Loom Weavery",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_togas_goods_0.webp",
+            "canon_name": "production_loom_weavery_latium",
+            "tier": [
+                {
+                    "guid": 3079,
+                    "std_name": "Production Crafts Roman Cloth",
+                    "text": "Weaver",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloth_goods_0.webp",
+                    "canon_name": "production_weaver_latium",
+                    "tier": [
+                        {
+                            "guid": 2669,
+                            "std_name": "Production Field Roman Flax",
+                            "text": "Flax Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp",
+                            "canon_name": "production_flax_farm_latium",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 2999,
+                    "std_name": "Production Chemical Roman Tyrian Purple",
+                    "text": "Dye Works",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tyrian_purple_goods_0.webp",
+                    "canon_name": "production_dye_works_latium",
+                    "tier": [
+                        {
+                            "guid": 8580,
+                            "std_name": "Production Coast Roman Sea Snails",
+                            "text": "Snailery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp",
+                            "canon_name": "production_snailery_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3298": {
+        "uid": 3298,
+        "canon_name": "production_necklaces",
+        "name": "Production Chain Roman Necklaces",
+        "description": "Necklaces are both sophisticated, and expensive.",
+        "output_building": {
+            "guid": 3192,
+            "std_name": "Production Fashion Roman Necklace",
+            "text": "Jeweller",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_necklaces_goods_0.webp",
+            "canon_name": "production_jeweller_latium",
+            "tier": [
+                {
+                    "guid": 2920,
+                    "std_name": "Production Mountain Roman Minerals",
+                    "text": "Mineral Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                    "canon_name": "production_mineral_quarry_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 31755,
+                    "std_name": "Production Heavy Roman Gold",
+                    "text": "Goldsmith",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp",
+                    "canon_name": "production_goldsmith_latium",
+                    "tier": [
+                        {
+                            "guid": 31753,
+                            "std_name": "Production River Roman Gold Ore",
+                            "text": "Gold Washer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp",
+                            "canon_name": "production_gold_washer_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3299": {
+        "uid": 3299,
+        "canon_name": "production_loungers",
+        "name": "Production Chain Roman Loungers",
+        "description": "Give the appearance of a laid-back, authentically Roman lifestyle with expensive lecti, provided they don't catch light, of course...",
+        "output_building": {
+            "guid": 3198,
+            "std_name": "Production Household Roman Loungers",
+            "text": "Chair Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lounger_goods_0.webp",
+            "canon_name": "production_chair_maker_latium",
+            "tier": [
+                {
+                    "guid": 8579,
+                    "std_name": "Production Field Roman Sandarac Wood",
+                    "text": "Sandarac Nursery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp",
+                    "canon_name": "production_sandarac_nursery_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 8887,
+                    "std_name": "Production Crafts Roman Cushions",
+                    "text": "Cushion Stuffer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cushion_goods_0.webp",
+                    "canon_name": "production_cushion_stuffer_latium",
+                    "tier": [
+                        {
+                            "guid": 2669,
+                            "std_name": "Production Field Roman Flax",
+                            "text": "Flax Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp",
+                            "canon_name": "production_flax_farm_latium",
+                            "tier": []
+                        },
+                        {
+                            "guid": 2999,
+                            "std_name": "Production Chemical Roman Tyrian Purple",
+                            "text": "Dye Works",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tyrian_purple_goods_0.webp",
+                            "canon_name": "production_dye_works_latium",
+                            "tier": [
+                                {
+                                    "guid": 8580,
+                                    "std_name": "Production Coast Roman Sea Snails",
+                                    "text": "Snailery",
+                                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp",
+                                    "canon_name": "production_snailery_latium",
+                                    "tier": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3300": {
+        "uid": 3300,
+        "canon_name": "production_amphorae",
+        "name": "Production Chain Roman Amphorae",
+        "description": "An elegant neck and richly decorated terracocta to show off your wealth\u2014 and your wine. ",
+        "output_building": {
+            "guid": 3199,
+            "std_name": "Production Household Roman Amphorae",
+            "text": "Potter",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_amphorae_goods_0.webp",
+            "canon_name": "production_potter_latium",
+            "tier": [
+                {
+                    "guid": 2970,
+                    "std_name": "Production River Roman Clay",
+                    "text": "Clay Pit",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_clay_goods_0.webp",
+                    "canon_name": "production_clay_pit_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 31752,
+                    "std_name": "Production Forest Roman Resin",
+                    "text": "Resin Tapper",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp",
+                    "canon_name": "production_resin_tapper_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3302": {
+        "uid": 3302,
+        "canon_name": "production_writing_tablets",
+        "name": "Production Chain Roman Wax Tablets",
+        "description": "The world seems so much more straightforward when you have every little detail scored in wax.",
+        "output_building": {
+            "guid": 3201,
+            "std_name": "Production Household Roman Wax Tablets",
+            "text": "Tabulus",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wax_tablets_goods_0.webp",
+            "canon_name": "production_tabulus_latium",
+            "tier": [
+                {
+                    "guid": 8579,
+                    "std_name": "Production Field Roman Sandarac Wood",
+                    "text": "Sandarac Nursery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp",
+                    "canon_name": "production_sandarac_nursery_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 2795,
+                    "std_name": "Production Meadow Roman Honycombs",
+                    "text": "Apiary",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                    "canon_name": "production_apiary_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "3303": {
+        "uid": 3303,
+        "canon_name": "production_fine_glass",
+        "name": "Production Chain Roman Fine Glass",
+        "description": "To offer a house guest a cup formed of precious glass, is not something just any Roman can do. ",
+        "output_building": {
+            "guid": 3202,
+            "std_name": "Production Household Roman Fine Glass",
+            "text": "Glassblower",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_fine_glass_goods_0.webp",
+            "canon_name": "production_glassblower_latium",
+            "tier": [
+                {
+                    "guid": 3082,
+                    "std_name": "Production Heavy Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_latium",
+                    "tier": [
+                        {
+                            "guid": 2920,
+                            "std_name": "Production Mountain Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_latium",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 3074,
+                    "std_name": "Production Heavy Roman Glass",
+                    "text": "Glass Smelter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_glass_goods_0.webp",
+                    "canon_name": "production_glass_smelter_latium",
+                    "tier": [
+                        {
+                            "guid": 2958,
+                            "std_name": "Production Coast Roman Silica",
+                            "text": "Sand Refinery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                            "canon_name": "production_sand_refinery_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "3304": {
+        "uid": 3304,
+        "canon_name": "production_mosaic",
+        "name": "Production Chain Roman Mosaics",
+        "description": "A colourful piece of tessera complements the bolts of Jupiter just like the arse of Apollo.",
+        "output_building": {
+            "guid": 3203,
+            "std_name": "Production Construction Roman Mosaics",
+            "text": "Tessera Works",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mosaics_goods_0.webp",
+            "canon_name": "production_tessera_works_latium",
+            "tier": [
+                {
+                    "guid": 2970,
+                    "std_name": "Production River Roman Clay",
+                    "text": "Clay Pit",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_clay_goods_0.webp",
+                    "canon_name": "production_clay_pit_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 3082,
+                    "std_name": "Production Heavy Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_latium",
+                    "tier": [
+                        {
+                            "guid": 2920,
+                            "std_name": "Production Mountain Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "6534": {
+        "uid": 6534,
+        "canon_name": "production_timber",
+        "name": "Production Chain Roman Celtic Timber",
+        "description": "Sliced tree; the best thing before sliced bread.",
+        "output_building": {
+            "guid": 5945,
+            "std_name": "Production Construction Roman Celtic Timber",
+            "text": "Sawmill",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp",
+            "canon_name": "production_sawmill_albion",
+            "tier": [
+                {
+                    "guid": 5976,
+                    "std_name": "Production Forest Roman Celtic Wood",
+                    "text": "Woodcutter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp",
+                    "canon_name": "production_woodcutter_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6563": {
+        "uid": 6563,
+        "canon_name": "production_concrete",
+        "name": "Production Chain Roman Celtic Concrete",
+        "description": "Fabled for its self-mending properties, it can withstand anything but time. ",
+        "output_building": {
+            "guid": 5946,
+            "std_name": "Production Construction Roman Celtic Concrete",
+            "text": "Concrete Mixer",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_concrete_goods_0.webp",
+            "canon_name": "production_concrete_mixer_albion",
+            "tier": [
+                {
+                    "guid": 5978,
+                    "std_name": "Production Mountain Roman Celtic Limestone Blocks",
+                    "text": "Limestone Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_limestone_goods_0.webp",
+                    "canon_name": "production_limestone_quarry_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 10929,
+                    "std_name": "Production Coast Roman Celtic Silica",
+                    "text": "Sand Refinery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                    "canon_name": "production_sand_refinery_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6570": {
+        "uid": 6570,
+        "canon_name": "production_wattle_daub",
+        "name": "Production Chain Celtic Wattle & Daub",
+        "description": "Sticks and mud may build a hut, and rain will never hurt thee.",
+        "output_building": {
+            "guid": 5935,
+            "std_name": "Production Construction Celtic Wattle and Daub",
+            "text": "Labourer's Yard",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wattle_daub_goods_0.webp",
+            "canon_name": "production_labourer_s_yard_albion",
+            "tier": [
+                {
+                    "guid": 5849,
+                    "std_name": "Production Marsh Celtic Reed",
+                    "text": "Reed Gatherer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp",
+                    "canon_name": "production_reed_gatherer_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 5848,
+                    "std_name": "Production Marsh Celtic Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6573": {
+        "uid": 6573,
+        "canon_name": "production_tiles",
+        "name": "Production Chain Roman Celtic Tiles",
+        "description": "Imbrex and his brother Tegula band together.",
+        "output_building": {
+            "guid": 5947,
+            "std_name": "Production Construction Roman Celtic Tiles",
+            "text": "Tiler",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tiles_goods_0.webp",
+            "canon_name": "production_tiler_albion",
+            "tier": [
+                {
+                    "guid": 5848,
+                    "std_name": "Production Marsh Celtic Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6576": {
+        "uid": 6576,
+        "canon_name": "production_granite",
+        "name": "Production Chain Celtic Granite",
+        "description": "Chipped from ancient celtic rock, hard to mine and harder to destroy.",
+        "output_building": {
+            "guid": 41811,
+            "std_name": "Production Construction Celtic Granite",
+            "text": "Granite Cutter",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_block_goods_0.webp",
+            "canon_name": "production_granite_cutter_albion",
+            "tier": [
+                {
+                    "guid": 5295,
+                    "std_name": "Production Mountain Celtic Granite Blocks",
+                    "text": "Granite Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp",
+                    "canon_name": "production_granite_quarry_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6578": {
+        "uid": 6578,
+        "canon_name": "production_cockles",
+        "name": "Production Chain Roman Celtic Cockles",
+        "description": "The sweet delicate taste of the humble cockle is enough to bring anyone out of their shell.",
+        "output_building": {
+            "guid": 5278,
+            "std_name": "Production Coast Celtic Cockles",
+            "text": "Cockle Picker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cockles_goods_0.webp",
+            "canon_name": "production_cockle_picker_albion",
+            "tier": []
+        }
+    },
+    "6579": {
+        "uid": 6579,
+        "canon_name": "production_smoked_eels",
+        "name": "Production Chain Celtic Eels",
+        "description": "Thick-bodied and more nourishing than cockles, Eels are worth more to the Roman who doesn't mind a bit of gristle.",
+        "output_building": {
+            "guid": 5299,
+            "std_name": "Production Marsh Roman Celtic Eels",
+            "text": "Eel Grabber",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_eels_goods_0.webp",
+            "canon_name": "production_eel_grabber_albion",
+            "tier": []
+        }
+    },
+    "6580": {
+        "uid": 6580,
+        "canon_name": "production_beer",
+        "name": "Production Chain Celtic Beer",
+        "description": "A keg of authentic Celtic Beer can wash away sorrows, fires, and all memory of the previous day.",
+        "output_building": {
+            "guid": 5570,
+            "std_name": "Production Food Celtic Beer",
+            "text": "Brewery",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beer_goods_0.webp",
+            "canon_name": "production_brewery_albion",
+            "tier": [
+                {
+                    "guid": 5474,
+                    "std_name": "Production Ingredient Celtic Malt",
+                    "text": "Malthouse",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_malt_goods_0.webp",
+                    "canon_name": "production_malthouse_albion",
+                    "tier": [
+                        {
+                            "guid": 2799,
+                            "std_name": "Production Field Celtic Barley",
+                            "text": "Barley Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp",
+                            "canon_name": "production_barley_farm_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "6581": {
+        "uid": 6581,
+        "canon_name": "production_roast_beef",
+        "name": "Production Chain Celtic Roast Beef",
+        "description": "The slow-cooked meat falls right off the bone, the springy saltwort adding a juicy, briny note. ",
+        "output_building": {
+            "guid": 31767,
+            "std_name": "Production Food Celtic Roast Beef",
+            "text": "Earth Oven",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_roast_goods_0.webp",
+            "canon_name": "production_earth_oven_albion",
+            "tier": [
+                {
+                    "guid": 5847,
+                    "std_name": "Production Marsh Celtic Aurochs",
+                    "text": "Ochs Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
+                    "canon_name": "production_ochs_farm_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 2796,
+                    "std_name": "Production Coast Celtic Samphire",
+                    "text": "Saltwort Picker",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp",
+                    "canon_name": "production_saltwort_picker_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6582": {
+        "uid": 6582,
+        "canon_name": "production_bread",
+        "name": "Production Chain Roman Celtic Bread",
+        "description": "Bread's immense popularity and convenience also make it highly lucrative to those in the trade.",
+        "output_building": {
+            "guid": 5960,
+            "std_name": "Production Food Roman Celtic Bread",
+            "text": "Bakery",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp",
+            "canon_name": "production_bakery_albion",
+            "tier": [
+                {
+                    "guid": 5967,
+                    "std_name": "Production Ingredient Roman Celtic Flour",
+                    "text": "Donkey Mill",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp",
+                    "canon_name": "production_donkey_mill_albion",
+                    "tier": [
+                        {
+                            "guid": 5972,
+                            "std_name": "Production Field Roman Celtic Wheat",
+                            "text": "Wheat Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp",
+                            "canon_name": "production_wheat_farm_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "6583": {
+        "uid": 6583,
+        "canon_name": "production_bird_tongues_in_aspic",
+        "name": "Production Chain Roman Celtic Birds Tongues in Aspic",
+        "description": "If in doubt, a Noble must do as Romans do, even if it means paying through the nose to quaff repulsive bird tongues. ",
+        "output_building": {
+            "guid": 5604,
+            "std_name": "Production Food Roman Celtic Bird Tongues in Aspic",
+            "text": "Epicure of Air",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tongue_in_aspic_goods_0.webp",
+            "canon_name": "production_epicure_of_air_albion",
+            "tier": [
+                {
+                    "guid": 5477,
+                    "std_name": "Production Ingredient Roman Celtic Bird Tongues",
+                    "text": "Tongue Plucker",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bird_tongue_goods_0.webp",
+                    "canon_name": "production_tongue_plucker_albion",
+                    "tier": [
+                        {
+                            "guid": 5851,
+                            "std_name": "Production Marsh Roman Celtic Birds",
+                            "text": "Bird Charmer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp",
+                            "canon_name": "production_bird_charmer_albion",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 5475,
+                    "std_name": "Production Chemical Roman Celtic Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_albion",
+                    "tier": [
+                        {
+                            "guid": 5974,
+                            "std_name": "Production Pasture Roman Celtic Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "6587": {
+        "uid": 6587,
+        "canon_name": "production_cheese",
+        "name": "Production Chain Celtic Cheese",
+        "description": "Featuring great downhill speeds and exceptional longevity, this rugged cheese is loved not only by those that admit it.",
+        "output_building": {
+            "guid": 6586,
+            "std_name": "Production Food Celtic Cheese",
+            "text": "Dairy",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cheese_goods_0.webp",
+            "canon_name": "production_dairy_albion",
+            "tier": [
+                {
+                    "guid": 5847,
+                    "std_name": "Production Marsh Celtic Aurochs",
+                    "text": "Ochs Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
+                    "canon_name": "production_ochs_farm_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6661": {
+        "uid": 6661,
+        "canon_name": "production_trousers",
+        "name": "Production Chain Celtic Trousers",
+        "description": "If a true Celt wears anything at all, it'll be a pair of pants to keep out the sheep ticks and the chill.",
+        "output_building": {
+            "guid": 5608,
+            "std_name": "Production Fashion Celtic Trousers",
+            "text": "Hosier",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_trouser_goods_0.webp",
+            "canon_name": "production_hosier_albion",
+            "tier": [
+                {
+                    "guid": 5973,
+                    "std_name": "Production Pasture Celtic Sheep",
+                    "text": "Sheep Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                    "canon_name": "production_sheep_farm_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 2800,
+                    "std_name": "Production Field Celtic Dye Plants",
+                    "text": "Weld Crop",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp",
+                    "canon_name": "production_weld_crop_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6662": {
+        "uid": 6662,
+        "canon_name": "production_tunics",
+        "name": "Production Chain Roman Celtic Tunics",
+        "description": "A tunic in Rome is a tunic in far-flung Albion: its value as a covering is plain to all.",
+        "output_building": {
+            "guid": 5958,
+            "std_name": "Production Fashion Roman Celtic Tunics",
+            "text": "Spinner",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp",
+            "canon_name": "production_spinner_albion",
+            "tier": [
+                {
+                    "guid": 31762,
+                    "std_name": "Production Field Roman Celtic Hemp",
+                    "text": "Hemp Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp",
+                    "canon_name": "production_hemp_farm_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6663": {
+        "uid": 6663,
+        "canon_name": "production_reed_shoes",
+        "name": "Production Chain Celtic Reed Shoes",
+        "description": "Painstakingly woven from the straighter stalks, these shoes keep most of the foot rot away.",
+        "output_building": {
+            "guid": 5609,
+            "std_name": "Production Fashion Celtic Reed Shoes",
+            "text": "Shoe Weaver",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_shoes_goods_0.webp",
+            "canon_name": "production_shoe_weaver_albion",
+            "tier": [
+                {
+                    "guid": 5849,
+                    "std_name": "Production Marsh Celtic Reed",
+                    "text": "Reed Gatherer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp",
+                    "canon_name": "production_reed_gatherer_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6665": {
+        "uid": 6665,
+        "canon_name": "production_cloaks",
+        "name": "Production Chain Celtic Cloaks",
+        "description": "The Celts are famed for their cloaks, producing a fine weave that keeps out the cold, side-sweeping rain.",
+        "output_building": {
+            "guid": 5614,
+            "std_name": "Production Fashion Celtic Cloak",
+            "text": "Birrus Stitcher",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloak_goods_0.webp",
+            "canon_name": "production_birrus_stitcher_albion",
+            "tier": [
+                {
+                    "guid": 5973,
+                    "std_name": "Production Pasture Celtic Sheep",
+                    "text": "Sheep Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                    "canon_name": "production_sheep_farm_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 5469,
+                    "std_name": "Production Chemical Celtic Green",
+                    "text": "Greenhands",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_celtic_green_goods_0.webp",
+                    "canon_name": "production_greenhands_albion",
+                    "tier": [
+                        {
+                            "guid": 2800,
+                            "std_name": "Production Field Celtic Dye Plants",
+                            "text": "Weld Crop",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp",
+                            "canon_name": "production_weld_crop_albion",
+                            "tier": []
+                        },
+                        {
+                            "guid": 5290,
+                            "std_name": "Production Mountain Celtic Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "6666": {
+        "uid": 6666,
+        "canon_name": "production_torcs",
+        "name": "Production Chain Celtic Torcs",
+        "description": "Often mistaken by Romans for having spiritual importance, Torcs are in fact worn as symbols of status among Celts.",
+        "output_building": {
+            "guid": 5606,
+            "std_name": "Production Fashion Celtic Torcs",
+            "text": "Wire-Twister",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_torcs_goods_0.webp",
+            "canon_name": "production_wire_twister_albion",
+            "tier": [
+                {
+                    "guid": 5290,
+                    "std_name": "Production Mountain Celtic Copper Ore",
+                    "text": "Copper Mine",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                    "canon_name": "production_copper_mine_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6667": {
+        "uid": 6667,
+        "canon_name": "production_brooches",
+        "name": "Production Chain Roman Celtic Brooches",
+        "description": "Celtic craftsmanship, but with the face of a Roman god. A trinket for toga-wearing locals and for export.",
+        "output_building": {
+            "guid": 5605,
+            "std_name": "Production Fashion Roman Celtic Brooches",
+            "text": "Fibularium",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_brooch_goods_0.webp",
+            "canon_name": "production_fibularium_albion",
+            "tier": [
+                {
+                    "guid": 5472,
+                    "std_name": "Production Heavy Roman Celtic Silver",
+                    "text": "Silver Forge",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_goods_0.webp",
+                    "canon_name": "production_silver_forge_albion",
+                    "tier": [
+                        {
+                            "guid": 5980,
+                            "std_name": "Production Mountain Roman Celtic Silver Ore",
+                            "text": "Silver Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp",
+                            "canon_name": "production_silver_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "6668": {
+        "uid": 6668,
+        "canon_name": "production_wine",
+        "name": "Production Chain Roman Celtic Wine",
+        "description": "Even the most curmudgeonly of Aldermen believes a steady supply of Roman wine to be culturally acceptable.",
+        "output_building": {
+            "guid": 23753,
+            "std_name": "Production Food Roman Celtic Wine",
+            "text": "Vintner",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp",
+            "canon_name": "production_vintner_albion",
+            "tier": [
+                {
+                    "guid": 23723,
+                    "std_name": "Production Field Roman Celtic Grapes",
+                    "text": "Vineyard",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp",
+                    "canon_name": "production_vineyard_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 8427,
+                    "std_name": "Production Meadow Roman Celtic Honycombs",
+                    "text": "Apiary",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                    "canon_name": "production_apiary_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "6672": {
+        "uid": 6672,
+        "canon_name": "production_togas",
+        "name": "Production Chain Roman Celtic Togas",
+        "description": "The one garment by which Romans are identified. Even the slenderest strip of Tyrian purple will draw a crowd\u2014 and a flame.",
+        "output_building": {
+            "guid": 3191,
+            "std_name": "Production Fashion Roman Togas",
+            "text": "Loom Weavery",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_togas_goods_0.webp",
+            "canon_name": "production_loom_weavery_latium",
+            "tier": [
+                {
+                    "guid": 3079,
+                    "std_name": "Production Crafts Roman Cloth",
+                    "text": "Weaver",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloth_goods_0.webp",
+                    "canon_name": "production_weaver_latium",
+                    "tier": [
+                        {
+                            "guid": 5971,
+                            "std_name": "Production Field Roman Celtic Flax",
+                            "text": "Flax Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp",
+                            "canon_name": "production_flax_farm_albion",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 2999,
+                    "std_name": "Production Chemical Roman Tyrian Purple",
+                    "text": "Dye Works",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tyrian_purple_goods_0.webp",
+                    "canon_name": "production_dye_works_latium",
+                    "tier": [
+                        {
+                            "guid": 8580,
+                            "std_name": "Production Coast Roman Sea Snails",
+                            "text": "Snailery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp",
+                            "canon_name": "production_snailery_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "6675": {
+        "uid": 6675,
+        "canon_name": "production_chariots",
+        "name": "Production Chain Celtic Chariots",
+        "description": "Celtic Charioteers will pay for sprightly ponies and well-oiled axles, so as to glide through the mud with a stately air.",
+        "output_building": {
+            "guid": 5616,
+            "std_name": "Production Culture Celtic Chariots",
+            "text": "Chariot Workshop",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_chariot_goods_0.webp",
+            "canon_name": "production_chariot_workshop_albion",
+            "tier": [
+                {
+                    "guid": 5975,
+                    "std_name": "Production Meadow Celtic Dartmoor Ponies",
+                    "text": "Horsecatcher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp",
+                    "canon_name": "production_horsecatcher_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 5611,
+                    "std_name": "Production Craft Celtic Chassis",
+                    "text": "Chassis Builder",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_chassis_goods_0.webp",
+                    "canon_name": "production_chassis_builder_albion",
+                    "tier": [
+                        {
+                            "guid": 5976,
+                            "std_name": "Production Forest Roman Celtic Wood",
+                            "text": "Woodcutter",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp",
+                            "canon_name": "production_woodcutter_albion",
+                            "tier": []
+                        },
+                        {
+                            "guid": 5849,
+                            "std_name": "Production Marsh Celtic Reed",
+                            "text": "Reed Gatherer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp",
+                            "canon_name": "production_reed_gatherer_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "8436": {
+        "uid": 8436,
+        "canon_name": "production_sausages",
+        "name": "Production Chain Roman Celtic Sausages",
+        "description": "Sausage is the type of tasty Roman convenience sure to bring cheer to the masses.",
+        "output_building": {
+            "guid": 5959,
+            "std_name": "Production Food Roman Celtic Sausages",
+            "text": "Salsicium",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sausages_goods_0.webp",
+            "canon_name": "production_salsicium_albion",
+            "tier": [
+                {
+                    "guid": 5974,
+                    "std_name": "Production Pasture Roman Celtic Pigs",
+                    "text": "Pig Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                    "canon_name": "production_pig_farm_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 31764,
+                    "std_name": "Production Field Roman Celtic Herbs",
+                    "text": "Herb Garden",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_herbs_goods_0.webp",
+                    "canon_name": "production_herb_garden_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "8437": {
+        "uid": 8437,
+        "canon_name": "production_fine_glass",
+        "name": "Production Chain Roman Celtic Fine Glass",
+        "description": "To offer a house guest a cup formed of precious glass, is not something just any Roman can do. ",
+        "output_building": {
+            "guid": 3202,
+            "std_name": "Production Household Roman Fine Glass",
+            "text": "Glassblower",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_fine_glass_goods_0.webp",
+            "canon_name": "production_glassblower_latium",
+            "tier": [
+                {
+                    "guid": 3082,
+                    "std_name": "Production Heavy Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_latium",
+                    "tier": [
+                        {
+                            "guid": 2920,
+                            "std_name": "Production Mountain Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_latium",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 3074,
+                    "std_name": "Production Heavy Roman Glass",
+                    "text": "Glass Smelter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_glass_goods_0.webp",
+                    "canon_name": "production_glass_smelter_latium",
+                    "tier": [
+                        {
+                            "guid": 10929,
+                            "std_name": "Production Coast Roman Celtic Silica",
+                            "text": "Sand Refinery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                            "canon_name": "production_sand_refinery_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "8894": {
+        "uid": 8894,
+        "canon_name": "production_cheese",
+        "name": "Production Chain Roman Cheese",
+        "description": "Cheese is among the heartiest delicacies paraded at parties. That it is barbarian-made adds a premium.",
+        "output_building": {
+            "guid": 6586,
+            "std_name": "Production Food Celtic Cheese",
+            "text": "Dairy",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cheese_goods_0.webp",
+            "canon_name": "production_dairy_albion",
+            "tier": [
+                {
+                    "guid": 5847,
+                    "std_name": "Production Marsh Celtic Aurochs",
+                    "text": "Ochs Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
+                    "canon_name": "production_ochs_farm_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "8895": {
+        "uid": 8895,
+        "canon_name": "production_bird_tongues_in_aspic",
+        "name": "Production Chain Roman Birds Tongues in Aspic",
+        "description": "None will admit how unpleasant Jellied Tongues are to eat, for their value lies entirely in the illusion.",
+        "output_building": {
+            "guid": 5604,
+            "std_name": "Production Food Roman Celtic Bird Tongues in Aspic",
+            "text": "Epicure of Air",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tongue_in_aspic_goods_0.webp",
+            "canon_name": "production_epicure_of_air_albion",
+            "tier": [
+                {
+                    "guid": 5477,
+                    "std_name": "Production Ingredient Roman Celtic Bird Tongues",
+                    "text": "Tongue Plucker",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bird_tongue_goods_0.webp",
+                    "canon_name": "production_tongue_plucker_albion",
+                    "tier": [
+                        {
+                            "guid": 5851,
+                            "std_name": "Production Marsh Roman Celtic Birds",
+                            "text": "Bird Charmer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp",
+                            "canon_name": "production_bird_charmer_albion",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 31756,
+                    "std_name": "Production Chemical Roman Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_latium",
+                    "tier": [
+                        {
+                            "guid": 2793,
+                            "std_name": "Production Pasture Roman Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "8896": {
+        "uid": 8896,
+        "canon_name": "production_brooches",
+        "name": "Production Chain Roman Brooches",
+        "description": "If a Roman must pay import duties for Brooches, so be it, anything to hold that toga in place!",
+        "output_building": {
+            "guid": 5605,
+            "std_name": "Production Fashion Roman Celtic Brooches",
+            "text": "Fibularium",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_brooch_goods_0.webp",
+            "canon_name": "production_fibularium_albion",
+            "tier": [
+                {
+                    "guid": 5472,
+                    "std_name": "Production Heavy Roman Celtic Silver",
+                    "text": "Silver Forge",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_goods_0.webp",
+                    "canon_name": "production_silver_forge_albion",
+                    "tier": [
+                        {
+                            "guid": 5980,
+                            "std_name": "Production Mountain Roman Celtic Silver Ore",
+                            "text": "Silver Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp",
+                            "canon_name": "production_silver_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "8898": {
+        "uid": 8898,
+        "canon_name": "production_chariots",
+        "name": "Production Chain Roman Chariots",
+        "description": "An expensive toy for thrill seekers of a certain age, racing through uneven streets on one of these is asking for trouble.",
+        "output_building": {
+            "guid": 5616,
+            "std_name": "Production Culture Celtic Chariots",
+            "text": "Chariot Workshop",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_chariot_goods_0.webp",
+            "canon_name": "production_chariot_workshop_albion",
+            "tier": [
+                {
+                    "guid": 5975,
+                    "std_name": "Production Meadow Celtic Dartmoor Ponies",
+                    "text": "Horsecatcher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp",
+                    "canon_name": "production_horsecatcher_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 5611,
+                    "std_name": "Production Craft Celtic Chassis",
+                    "text": "Chassis Builder",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_chassis_goods_0.webp",
+                    "canon_name": "production_chassis_builder_albion",
+                    "tier": [
+                        {
+                            "guid": 2878,
+                            "std_name": "Production Forest Roman Wood",
+                            "text": "Woodcutter",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp",
+                            "canon_name": "production_woodcutter_latium",
+                            "tier": []
+                        },
+                        {
+                            "guid": 5849,
+                            "std_name": "Production Marsh Celtic Reed",
+                            "text": "Reed Gatherer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp",
+                            "canon_name": "production_reed_gatherer_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "8900": {
+        "uid": 8900,
+        "canon_name": "production_lyres",
+        "name": "Production Chain Roman Lyres",
+        "description": "The wisdom of any culture may be passed down in spoken verse\u2014 also intended to please the ear.",
+        "output_building": {
+            "guid": 4832,
+            "std_name": "Production Culture Roman Lyres",
+            "text": "Lythier",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_string_instrument_goods_0.webp",
+            "canon_name": "production_lythier_latium",
+            "tier": [
+                {
+                    "guid": 5481,
+                    "std_name": "Production Craft Roman Strings",
+                    "text": "Stringer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_strings_goods_0.webp",
+                    "canon_name": "production_stringer_latium",
+                    "tier": [
+                        {
+                            "guid": 2786,
+                            "std_name": "Production Pasture Roman Sheep",
+                            "text": "Sheep Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                            "canon_name": "production_sheep_farm_latium",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 3081,
+                    "std_name": "Production Crafts Roman Ornate Wood",
+                    "text": "Gilder",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ornamented_wood_goods_0.webp",
+                    "canon_name": "production_gilder_latium",
+                    "tier": [
+                        {
+                            "guid": 8579,
+                            "std_name": "Production Field Roman Sandarac Wood",
+                            "text": "Sandarac Nursery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp",
+                            "canon_name": "production_sandarac_nursery_latium",
+                            "tier": []
+                        },
+                        {
+                            "guid": 31755,
+                            "std_name": "Production Heavy Roman Gold",
+                            "text": "Goldsmith",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp",
+                            "canon_name": "production_goldsmith_latium",
+                            "tier": [
+                                {
+                                    "guid": 31753,
+                                    "std_name": "Production River Roman Gold Ore",
+                                    "text": "Gold Washer",
+                                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp",
+                                    "canon_name": "production_gold_washer_latium",
+                                    "tier": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "13839": {
+        "uid": 13839,
+        "canon_name": "production_armour",
+        "name": "Production Chain Roman Armor",
+        "description": "Increases the odds for those who gamble with their lives.",
+        "output_building": {
+            "guid": 13808,
+            "std_name": "Production Military Roman Armor",
+            "text": "Armourer",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp",
+            "canon_name": "production_armourer_latium",
+            "tier": [
+                {
+                    "guid": 2994,
+                    "std_name": "Production Chemical Roman Leather",
+                    "text": "Tannery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp",
+                    "canon_name": "production_tannery_latium",
+                    "tier": [
+                        {
+                            "guid": 2793,
+                            "std_name": "Production Pasture Roman Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_latium",
+                            "tier": []
+                        },
+                        {
+                            "guid": 2957,
+                            "std_name": "Production Coast Roman Salt",
+                            "text": "Salt Ponds",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_salt_goods_0.webp",
+                            "canon_name": "production_salt_ponds_latium",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 3070,
+                    "std_name": "Production Heavy Roman Iron",
+                    "text": "Furnace",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp",
+                    "canon_name": "production_furnace_latium",
+                    "tier": [
+                        {
+                            "guid": 2918,
+                            "std_name": "Production Mountain Roman Iron Ore",
+                            "text": "Iron Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp",
+                            "canon_name": "production_iron_mine_latium",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "13863": {
+        "uid": 13863,
+        "canon_name": "production_sails",
+        "name": "Production Chain Roman Sails",
+        "description": "Hair of the land has become wings of the sea.",
+        "output_building": {
+            "guid": 3169,
+            "std_name": "Production Military Roman Sails",
+            "text": "Sailmaker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sails_goods_0.webp",
+            "canon_name": "production_sailmaker_latium",
+            "tier": [
+                {
+                    "guid": 2786,
+                    "std_name": "Production Pasture Roman Sheep",
+                    "text": "Sheep Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                    "canon_name": "production_sheep_farm_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "13878": {
+        "uid": 13878,
+        "canon_name": "production_ropes",
+        "name": "Production Chain Roman Ropes",
+        "description": "Skeins entwined into a vine.",
+        "output_building": {
+            "guid": 3168,
+            "std_name": "Production Military Roman Ropes",
+            "text": "Ropemaker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ropes_goods_0.webp",
+            "canon_name": "production_ropemaker_latium",
+            "tier": [
+                {
+                    "guid": 31750,
+                    "std_name": "Production Field Roman Hemp",
+                    "text": "Hemp Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp",
+                    "canon_name": "production_hemp_farm_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "13887": {
+        "uid": 13887,
+        "canon_name": "production_sails",
+        "name": "Production Chain Roman Celtic Sails",
+        "description": "Hair of the land has become wings of the sea.",
+        "output_building": {
+            "guid": 5955,
+            "std_name": "Production Military Roman Celtic Sails",
+            "text": "Sailmaker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sails_goods_0.webp",
+            "canon_name": "production_sailmaker_albion",
+            "tier": [
+                {
+                    "guid": 5973,
+                    "std_name": "Production Pasture Celtic Sheep",
+                    "text": "Sheep Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                    "canon_name": "production_sheep_farm_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "13888": {
+        "uid": 13888,
+        "canon_name": "production_ropes",
+        "name": "Production Chain Roman Celtic Ropes",
+        "description": "Skeins entwined into a vine.",
+        "output_building": {
+            "guid": 5956,
+            "std_name": "Production Military Roman Celtic Ropes",
+            "text": "Ropemaker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ropes_goods_0.webp",
+            "canon_name": "production_ropemaker_albion",
+            "tier": [
+                {
+                    "guid": 31762,
+                    "std_name": "Production Field Roman Celtic Hemp",
+                    "text": "Hemp Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp",
+                    "canon_name": "production_hemp_farm_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "13889": {
+        "uid": 13889,
+        "canon_name": "production_weapons",
+        "name": "Production Chain Roman Celtic Weapons",
+        "description": "Pointy things, sharp things, and sharp pointy things.",
+        "output_building": {
+            "guid": 5954,
+            "std_name": "Production Military Roman Celtic Weapons",
+            "text": "Weaponsmith",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp",
+            "canon_name": "production_weaponsmith_albion",
+            "tier": [
+                {
+                    "guid": 5969,
+                    "std_name": "Production Heavy Roman Celtic Iron",
+                    "text": "Furnace",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp",
+                    "canon_name": "production_furnace_albion",
+                    "tier": [
+                        {
+                            "guid": 5982,
+                            "std_name": "Production Mountain Roman Celtic Iron Ore",
+                            "text": "Iron Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp",
+                            "canon_name": "production_iron_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "15510": {
+        "uid": 15510,
+        "canon_name": "production_stables",
+        "name": "Production Chain Roman Horses",
+        "description": "Sacred to Epona, horses have earned their place in war, stories and song.  ",
+        "output_building": {
+            "guid": 2794,
+            "std_name": "Production Pasture Roman Horses",
+            "text": "Horse Breeder",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp",
+            "canon_name": "production_horse_breeder_latium",
+            "tier": []
+        }
+    },
+    "15512": {
+        "uid": 15512,
+        "canon_name": "production_horses",
+        "name": "Production Chain Roman Celtic Horses",
+        "description": "Sacred to Epona, horses have earned their place in war, stories and song.  ",
+        "output_building": {
+            "guid": 15514,
+            "std_name": "Production Pasture Roman Celtic Horses",
+            "text": "Horse Breeder",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp",
+            "canon_name": "production_horse_breeder_albion",
+            "tier": []
+        }
+    },
+    "18534": {
+        "uid": 18534,
+        "canon_name": "production_aqueduct_cistern",
+        "name": "Production Chain Roman Cistern",
+        "description": "Aqueducts transport water from the mountains into the cities and can supply water to buildings with nearby cisterns.",
+        "output_building": {
+            "guid": 19753,
+            "std_name": "Aqueduct Roman Distribution",
+            "text": "Aqueduct Cistern",
+            "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_cistern_0.webp",
+            "canon_name": "aqueduct_cistern",
+            "tier": [
+                {
+                    "guid": 19723,
+                    "std_name": "Aqueduct Roman Aqueduct MinGround Main",
+                    "text": "Aqueduct",
+                    "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_segment_0.webp",
+                    "canon_name": "aqueduct",
+                    "tier": [
+                        {
+                            "guid": 19691,
+                            "std_name": "Aqueduct Roman Basin",
+                            "text": "Aqueduct Source",
+                            "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_source_0.webp",
+                            "canon_name": "aqueduct_source",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "29529": {
+        "uid": 29529,
+        "canon_name": "production_aqueduct_cistern",
+        "name": "Production Chain Roman Celtic Cistern",
+        "description": "Aqueducts transport water from the mountains into the cities and can supply water to buildings with nearby cisterns.",
+        "output_building": {
+            "guid": 29526,
+            "std_name": "Aqueduct Roman Celtic Distribution",
+            "text": "Aqueduct Cistern",
+            "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_cistern_0.webp",
+            "canon_name": "aqueduct_cistern",
+            "tier": [
+                {
+                    "guid": 29525,
+                    "std_name": "Aqueduct Roman Celtic Aqueduct MinGround Main",
+                    "text": "Aqueduct",
+                    "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_segment_0.webp",
+                    "canon_name": "aqueduct",
+                    "tier": [
+                        {
+                            "guid": 29524,
+                            "std_name": "Aqueduct Roman Celtic Basin",
+                            "text": "Aqueduct Source",
+                            "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_source_0.webp",
+                            "canon_name": "aqueduct_source",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "29661": {
+        "uid": 29661,
+        "canon_name": "production_mosaic",
+        "name": "Production Chain Roman Celtic Mosaics",
+        "description": "A colourful piece of tessera complements the bolts of Jupiter just like the arse of Apollo.",
+        "output_building": {
+            "guid": 3203,
+            "std_name": "Production Construction Roman Mosaics",
+            "text": "Tessera Works",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mosaics_goods_0.webp",
+            "canon_name": "production_tessera_works_latium",
+            "tier": [
+                {
+                    "guid": 2970,
+                    "std_name": "Production River Roman Clay",
+                    "text": "Clay Pit",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_clay_goods_0.webp",
+                    "canon_name": "production_clay_pit_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 3082,
+                    "std_name": "Production Heavy Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_latium",
+                    "tier": [
+                        {
+                            "guid": 2920,
+                            "std_name": "Production Mountain Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_latium",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 5977,
+                    "std_name": "Production Forest Roman Celtic Charcoal",
+                    "text": "Charcoal Burner",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp",
+                    "canon_name": "production_charcoal_burner_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "31804": {
+        "uid": 31804,
+        "canon_name": "production_handmirrors",
+        "name": "Production Chain Roman Celtic Mirrors",
+        "description": "Mirrors are first and foremost for self-knowledge, but those who own them often see echoes of a future to come.",
+        "output_building": {
+            "guid": 5615,
+            "std_name": "Production Household Roman Celtic Mirrors",
+            "text": "Narcissium",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_handmirros_goods_0.webp",
+            "canon_name": "production_narcissium_albion",
+            "tier": [
+                {
+                    "guid": 8431,
+                    "std_name": "Production Coast Roman Celtic Sea Shells",
+                    "text": "Shell Gatherer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp",
+                    "canon_name": "production_shell_gatherer_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 5472,
+                    "std_name": "Production Heavy Roman Celtic Silver",
+                    "text": "Silver Forge",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_goods_0.webp",
+                    "canon_name": "production_silver_forge_albion",
+                    "tier": [
+                        {
+                            "guid": 5980,
+                            "std_name": "Production Mountain Roman Celtic Silver Ore",
+                            "text": "Silver Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp",
+                            "canon_name": "production_silver_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "31805": {
+        "uid": 31805,
+        "canon_name": "production_handmirrors",
+        "name": "Production Chain Roman Roman Mirrors",
+        "description": "Mirrors are first and foremost for self-knowledge, but those who own them often see echoes of a future to come.",
+        "output_building": {
+            "guid": 5615,
+            "std_name": "Production Household Roman Celtic Mirrors",
+            "text": "Narcissium",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_handmirros_goods_0.webp",
+            "canon_name": "production_narcissium_albion",
+            "tier": [
+                {
+                    "guid": 8431,
+                    "std_name": "Production Coast Roman Celtic Sea Shells",
+                    "text": "Shell Gatherer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp",
+                    "canon_name": "production_shell_gatherer_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 5472,
+                    "std_name": "Production Heavy Roman Celtic Silver",
+                    "text": "Silver Forge",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_goods_0.webp",
+                    "canon_name": "production_silver_forge_albion",
+                    "tier": [
+                        {
+                            "guid": 5980,
+                            "std_name": "Production Mountain Roman Celtic Silver Ore",
+                            "text": "Silver Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp",
+                            "canon_name": "production_silver_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "31806": {
+        "uid": 31806,
+        "canon_name": "production_olive_oil",
+        "name": "Production Chain Roman Olive Oil",
+        "description": "This staple of the empire not only serves as a healthy condiment, but keeps wrestling athletes from sticking together.",
+        "output_building": {
+            "guid": 4831,
+            "std_name": "Production Household Roman Olive Oil",
+            "text": "Olive Press",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olive_oil_goods_0.webp",
+            "canon_name": "production_olive_press_latium",
+            "tier": [
+                {
+                    "guid": 2699,
+                    "std_name": "Production Field Roman Olives",
+                    "text": "Olive Grower",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp",
+                    "canon_name": "production_olive_grower_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "31808": {
+        "uid": 31808,
+        "canon_name": "production_cloaks",
+        "name": "Production Chain Roman Cloaks",
+        "description": "The Celts are famed for their cloaks, producing a fine weave that keeps out the cold, side-sweeping rain.",
+        "output_building": {
+            "guid": 5614,
+            "std_name": "Production Fashion Celtic Cloak",
+            "text": "Birrus Stitcher",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloak_goods_0.webp",
+            "canon_name": "production_birrus_stitcher_albion",
+            "tier": [
+                {
+                    "guid": 2786,
+                    "std_name": "Production Pasture Roman Sheep",
+                    "text": "Sheep Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                    "canon_name": "production_sheep_farm_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 5469,
+                    "std_name": "Production Chemical Celtic Green",
+                    "text": "Greenhands",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_celtic_green_goods_0.webp",
+                    "canon_name": "production_greenhands_albion",
+                    "tier": [
+                        {
+                            "guid": 2800,
+                            "std_name": "Production Field Celtic Dye Plants",
+                            "text": "Weld Crop",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp",
+                            "canon_name": "production_weld_crop_albion",
+                            "tier": []
+                        },
+                        {
+                            "guid": 5290,
+                            "std_name": "Production Mountain Celtic Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "31810": {
+        "uid": 31810,
+        "canon_name": "production_ceremonial_shields",
+        "name": "Production Chain Celtic Clan Shields",
+        "description": "The shields with their swirling patterns look great on any chieftain, or below him. ",
+        "output_building": {
+            "guid": 31773,
+            "std_name": "Production Culture Celtic Clan Shield",
+            "text": "Shieldbeater",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_clan_shields_goods_0.webp",
+            "canon_name": "production_shieldbeater_albion",
+            "tier": [
+                {
+                    "guid": 2800,
+                    "std_name": "Production Field Celtic Dye Plants",
+                    "text": "Weld Crop",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp",
+                    "canon_name": "production_weld_crop_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 5470,
+                    "std_name": "Production Heavy Celtic Bronze",
+                    "text": "Bronze Smelter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bronze_goods_0.webp",
+                    "canon_name": "production_bronze_smelter_albion",
+                    "tier": [
+                        {
+                            "guid": 5291,
+                            "std_name": "Production Mountain Celtic Tin Ore",
+                            "text": "Tin Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp",
+                            "canon_name": "production_tin_mine_albion",
+                            "tier": []
+                        },
+                        {
+                            "guid": 5290,
+                            "std_name": "Production Mountain Celtic Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "31811": {
+        "uid": 31811,
+        "canon_name": "production_fur_hats",
+        "name": "Production Chain Celtic Pelt Hats",
+        "description": "With its thick, water-repellent fur, the beaver is practically born to be worn. ",
+        "output_building": {
+            "guid": 31770,
+            "std_name": "Production Fashion Celtic Pelt Hats",
+            "text": "Beaver Hatter",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pelt_hat_goods_0.webp",
+            "canon_name": "production_beaver_hatter_albion",
+            "tier": [
+                {
+                    "guid": 31759,
+                    "std_name": "Production Marsh Celtic Beaver",
+                    "text": "Beaver Trapper",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp",
+                    "canon_name": "production_beaver_trapper_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 31772,
+                    "std_name": "Production Chemical Celtic Lye",
+                    "text": "Saltwort Burner",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lye_goods_0.webp",
+                    "canon_name": "production_saltwort_burner_albion",
+                    "tier": [
+                        {
+                            "guid": 2796,
+                            "std_name": "Production Coast Celtic Samphire",
+                            "text": "Saltwort Picker",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp",
+                            "canon_name": "production_saltwort_picker_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "31812": {
+        "uid": 31812,
+        "canon_name": "production_soap",
+        "name": "Production Chain Roman Celtic Soap",
+        "description": "Who would have thought that fat drippings and ashes could produce such squeaky clean results?",
+        "output_building": {
+            "guid": 3189,
+            "std_name": "Production Fashion Roman Soap",
+            "text": "Soap Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_soap_goods_0.webp",
+            "canon_name": "production_soap_maker_latium",
+            "tier": [
+                {
+                    "guid": 2698,
+                    "std_name": "Production Field Roman Lavender",
+                    "text": "Lavender Grower",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp",
+                    "canon_name": "production_lavender_grower_latium",
+                    "tier": []
+                },
+                {
+                    "guid": 5475,
+                    "std_name": "Production Chemical Roman Celtic Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_albion",
+                    "tier": [
+                        {
+                            "guid": 5974,
+                            "std_name": "Production Pasture Roman Celtic Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "31813": {
+        "uid": 31813,
+        "canon_name": "production_wigs",
+        "name": "Production Chain Roman Celtic Wigs",
+        "description": "Money can buy magnificent manes and a tall, towering look.",
+        "output_building": {
+            "guid": 31769,
+            "std_name": "Production Fashion Roman Celtic Wigs",
+            "text": "Wig Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wig_goods_0.webp",
+            "canon_name": "production_wig_maker_albion",
+            "tier": [
+                {
+                    "guid": 15514,
+                    "std_name": "Production Pasture Roman Celtic Horses",
+                    "text": "Horse Breeder",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp",
+                    "canon_name": "production_horse_breeder_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 31766,
+                    "std_name": "Production Craft Roman Celtic Wig Base",
+                    "text": "Headpiece Maker",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wig_base_goods_0.webp",
+                    "canon_name": "production_headpiece_maker_albion",
+                    "tier": [
+                        {
+                            "guid": 5971,
+                            "std_name": "Production Field Roman Celtic Flax",
+                            "text": "Flax Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp",
+                            "canon_name": "production_flax_farm_albion",
+                            "tier": []
+                        },
+                        {
+                            "guid": 31761,
+                            "std_name": "Production Forest Roman Celtic Resin",
+                            "text": "Resin Tapper",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp",
+                            "canon_name": "production_resin_tapper_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "55971": {
+        "uid": 55971,
+        "canon_name": "production_amphorae",
+        "name": "Production Chain Roman Celtic Amphorae",
+        "description": "An elegant neck and richly decorated terracocta to show off your wealth\u2014 and your wine. ",
+        "output_building": {
+            "guid": 55962,
+            "std_name": "Production Household Roman Celtic Amphorae",
+            "text": "Potter",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_amphorae_goods_0.webp",
+            "canon_name": "production_potter_albion",
+            "tier": [
+                {
+                    "guid": 5848,
+                    "std_name": "Production Marsh Celtic Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 31761,
+                    "std_name": "Production Forest Roman Celtic Resin",
+                    "text": "Resin Tapper",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp",
+                    "canon_name": "production_resin_tapper_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "55972": {
+        "uid": 55972,
+        "canon_name": "production_olive_oil",
+        "name": "Production Chain Roman Celtic Olive Oil",
+        "description": "This staple of the empire not only serves as a healthy condiment, but keeps wrestling athletes from sticking together.",
+        "output_building": {
+            "guid": 4831,
+            "std_name": "Production Household Roman Olive Oil",
+            "text": "Olive Press",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olive_oil_goods_0.webp",
+            "canon_name": "production_olive_press_latium",
+            "tier": [
+                {
+                    "guid": 2699,
+                    "std_name": "Production Field Roman Olives",
+                    "text": "Olive Grower",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp",
+                    "canon_name": "production_olive_grower_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "55974": {
+        "uid": 55974,
+        "canon_name": "production_drinking_horns",
+        "name": "Production Chain Celtic Drinking Horns",
+        "description": "Expertly hollowed out, soon to be filled with liquid joy.",
+        "output_building": {
+            "guid": 55963,
+            "std_name": "Production Culture Celtic Drinking Horns",
+            "text": "Horner",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_drinkhorns_goods_0.webp",
+            "canon_name": "production_horner_albion",
+            "tier": [
+                {
+                    "guid": 5847,
+                    "std_name": "Production Marsh Celtic Aurochs",
+                    "text": "Ochs Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
+                    "canon_name": "production_ochs_farm_albion",
+                    "tier": []
+                },
+                {
+                    "guid": 5291,
+                    "std_name": "Production Mountain Celtic Tin Ore",
+                    "text": "Tin Mine",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp",
+                    "canon_name": "production_tin_mine_albion",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "80613": {
+        "uid": 80613,
+        "canon_name": "production_armour",
+        "name": "Production Chain Roman Celtic Armor",
+        "description": "Increases the odds for those who gamble with their lives.",
+        "output_building": {
+            "guid": 55945,
+            "std_name": "Production Military Roman Celtic Armor",
+            "text": "Armourer",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp",
+            "canon_name": "production_armourer_albion",
+            "tier": [
+                {
+                    "guid": 80612,
+                    "std_name": "Production Chemical Roman Celtic Leather",
+                    "text": "Tannery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp",
+                    "canon_name": "production_tannery_albion",
+                    "tier": [
+                        {
+                            "guid": 5974,
+                            "std_name": "Production Pasture Roman Celtic Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_albion",
+                            "tier": []
+                        },
+                        {
+                            "guid": 5976,
+                            "std_name": "Production Forest Roman Celtic Wood",
+                            "text": "Woodcutter",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp",
+                            "canon_name": "production_woodcutter_albion",
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 5969,
+                    "std_name": "Production Heavy Roman Celtic Iron",
+                    "text": "Furnace",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp",
+                    "canon_name": "production_furnace_albion",
+                    "tier": [
+                        {
+                            "guid": 5982,
+                            "std_name": "Production Mountain Roman Celtic Iron Ore",
+                            "text": "Iron Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp",
+                            "canon_name": "production_iron_mine_albion",
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "145231": {
+        "uid": 145231,
+        "canon_name": "production_statuettes",
+        "name": "Production Chain Roman Idols",
+        "description": "These small gods add a touch of luxury to the ensemble at any household shrine. ",
+        "output_building": {
+            "guid": 145229,
+            "std_name": "Production Household Roman Idols",
+            "text": "Caelator",
+            "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_idol_goods_0.webp",
+            "canon_name": "production_caelator_latium",
+            "tier": [
+                {
+                    "guid": 145102,
+                    "std_name": "Good Obsidian",
+                    "text": "Obsidian",
+                    "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_obsidian_goods_0.webp",
+                    "canon_name": "product_obsidian",
+                    "tier": []
+                },
+                {
+                    "guid": 2954,
+                    "std_name": "Production Mountain Roman Marble Blocks",
+                    "text": "Marble Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp",
+                    "canon_name": "production_marble_quarry_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "145232": {
+        "uid": 145232,
+        "canon_name": "production_latrunculi_sets",
+        "name": "Production Chain Roman Boardgames",
+        "description": "Latrunculi, the game of soldiers, teaches capture and command from the comfort of a folding chair. ",
+        "output_building": {
+            "guid": 145230,
+            "std_name": "Production Culture Roman Boardgames",
+            "text": "Latrunculi Workshop",
+            "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_boardgame_goods_0.webp",
+            "canon_name": "production_latrunculi_workshop_latium",
+            "tier": [
+                {
+                    "guid": 145102,
+                    "std_name": "Good Obsidian",
+                    "text": "Obsidian",
+                    "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_obsidian_goods_0.webp",
+                    "canon_name": "product_obsidian",
+                    "tier": []
+                },
+                {
+                    "guid": 3081,
+                    "std_name": "Production Crafts Roman Ornate Wood",
+                    "text": "Gilder",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ornamented_wood_goods_0.webp",
+                    "canon_name": "production_gilder_latium",
+                    "tier": [
+                        {
+                            "guid": 8579,
+                            "std_name": "Production Field Roman Sandarac Wood",
+                            "text": "Sandarac Nursery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp",
+                            "canon_name": "production_sandarac_nursery_latium",
+                            "tier": []
+                        },
+                        {
+                            "guid": 31755,
+                            "std_name": "Production Heavy Roman Gold",
+                            "text": "Goldsmith",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp",
+                            "canon_name": "production_goldsmith_latium",
+                            "tier": [
+                                {
+                                    "guid": 31753,
+                                    "std_name": "Production River Roman Gold Ore",
+                                    "text": "Gold Washer",
+                                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp",
+                                    "canon_name": "production_gold_washer_latium",
+                                    "tier": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "154952": {
+        "uid": 154952,
+        "canon_name": "production_statuettes",
+        "name": "Production Chain Roman Celtic Idols",
+        "description": "These small gods add a touch of luxury to the ensemble at any household shrine. ",
+        "output_building": {
+            "guid": 145229,
+            "std_name": "Production Household Roman Idols",
+            "text": "Caelator",
+            "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_idol_goods_0.webp",
+            "canon_name": "production_caelator_latium",
+            "tier": [
+                {
+                    "guid": 145102,
+                    "std_name": "Good Obsidian",
+                    "text": "Obsidian",
+                    "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_obsidian_goods_0.webp",
+                    "canon_name": "product_obsidian",
+                    "tier": []
+                },
+                {
+                    "guid": 2954,
+                    "std_name": "Production Mountain Roman Marble Blocks",
+                    "text": "Marble Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp",
+                    "canon_name": "production_marble_quarry_latium",
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "154953": {
+        "uid": 154953,
+        "canon_name": "production_latrunculi_sets",
+        "name": "Production Chain Roman Celtic Boardgames",
+        "description": "Latrunculi, the game of soldiers, teaches capture and command from the comfort of a folding chair. ",
+        "output_building": {
+            "guid": 145230,
+            "std_name": "Production Culture Roman Boardgames",
+            "text": "Latrunculi Workshop",
+            "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_boardgame_goods_0.webp",
+            "canon_name": "production_latrunculi_workshop_latium",
+            "tier": [
+                {
+                    "guid": 145102,
+                    "std_name": "Good Obsidian",
+                    "text": "Obsidian",
+                    "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_obsidian_goods_0.webp",
+                    "canon_name": "product_obsidian",
+                    "tier": []
+                },
+                {
+                    "guid": 3081,
+                    "std_name": "Production Crafts Roman Ornate Wood",
+                    "text": "Gilder",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ornamented_wood_goods_0.webp",
+                    "canon_name": "production_gilder_latium",
+                    "tier": [
+                        {
+                            "guid": 8579,
+                            "std_name": "Production Field Roman Sandarac Wood",
+                            "text": "Sandarac Nursery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp",
+                            "canon_name": "production_sandarac_nursery_latium",
+                            "tier": []
+                        },
+                        {
+                            "guid": 31755,
+                            "std_name": "Production Heavy Roman Gold",
+                            "text": "Goldsmith",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp",
+                            "canon_name": "production_goldsmith_latium",
+                            "tier": [
+                                {
+                                    "guid": 31753,
+                                    "std_name": "Production River Roman Gold Ore",
+                                    "text": "Gold Washer",
+                                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp",
+                                    "canon_name": "production_gold_washer_latium",
+                                    "tier": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
