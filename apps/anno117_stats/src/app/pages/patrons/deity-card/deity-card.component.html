@@ -73,166 +73,91 @@
             aria-labelledby="local-tab-btn"
             class="space-y-6"
           >
-            @for (
-              effect of patron().local_effects;
-              track effect.title;
-              let first = $first
-            ) {
-              @if (first) {
-                <div>
-                  <div class="milestone-box">
-                    <div class="flex justify-between items-center mb-1">
-                      <span class="milestone-title">✦ {{ effect.title }}</span>
-                      <span class="milestone-badge"
-                        >+{{ activeLocalValue() }}%</span
+            <div class="mb-8">
+              <div class="progression-timeline">
+                <div class="timeline-track">
+                  <div
+                    class="timeline-bar-filled"
+                    [style.width.%]="progressPercentage()"
+                  ></div>
+                </div>
+                <div
+                  class="timeline-points"
+                  role="group"
+                  aria-label="Devotion Milestone Points"
+                >
+                  @for (
+                    m of patron().local_effects[0].milestones;
+                    track m.devotion;
+                    let idx = $index
+                  ) {
+                    <button
+                      class="timeline-node"
+                      [class.node-completed]="selectedDevotion() >= m.devotion"
+                      [class.node-active]="selectedDevotion() === m.devotion"
+                      (click)="selectMilestone(m)"
+                      [style.left.%]="
+                        (idx /
+                          (patron().local_effects[0].milestones.length - 1)) *
+                        100
+                      "
+                    >
+                      <span class="node-tooltip"
+                        >{{ m.devotion | number }} Devotion</span
                       >
-                    </div>
-                    <p class="milestone-desc">{{ effect.description }}</p>
-                  </div>
-
-                  <!-- Deviant Progression Timeline Slider -->
-                  <div class="progression-timeline mt-8">
-                    <div class="timeline-track">
-                      <div
-                        class="timeline-bar-filled"
-                        [style.width.%]="progressPercentage()"
-                      ></div>
-                    </div>
-                    <div
-                      class="timeline-points"
-                      role="group"
-                      aria-label="Devotion Milestone Points"
-                    >
-                      @for (
-                        m of effect.milestones;
-                        track m.devotion;
-                        let i = $index
-                      ) {
-                        <button
-                          class="timeline-node"
-                          [class.node-completed]="
-                            selectedDevotion() >= m.devotion
-                          "
-                          [class.node-active]="
-                            selectedDevotion() === m.devotion
-                          "
-                          (click)="selectMilestone(m)"
-                          (keydown.enter)="selectMilestone(m)"
-                          (keydown.space)="
-                            $event.preventDefault(); selectMilestone(m)
-                          "
-                          [style.left.%]="
-                            (i / (effect.milestones.length - 1)) * 100
-                          "
-                          tabindex="0"
-                          type="button"
-                          [attr.aria-label]="
-                            (m.devotion | number) + ' devotion milestone point'
-                          "
-                          [attr.aria-pressed]="
-                            selectedDevotion() === m.devotion
-                          "
-                        >
-                          <span class="node-tooltip" aria-hidden="true"
-                            >{{ m.devotion | number }} Devotion</span
-                          >
-                        </button>
-                      }
-                    </div>
-                  </div>
-
-                  <div class="devotion-selector-card">
-                    <label
-                      [for]="'simulated-range-' + patron().uid"
-                      class="devotion-label"
-                      >Select Simulated Devotion Level:</label
-                    >
-                    <div class="flex items-center space-x-3 mt-2">
-                      <input
-                        [id]="'simulated-range-' + patron().uid"
-                        type="range"
-                        [min]="0"
-                        [max]="maxDevotion()"
-                        [value]="selectedDevotion()"
-                        (input)="updateSimulatedDevotion($event)"
-                        class="roman-range"
-                      />
-                      <span class="devotion-value" aria-live="polite">{{
-                        selectedDevotion() | number
-                      }}</span>
-                    </div>
-                  </div>
-
-                  <!-- Production Chains Dynamic Mapping Segment -->
-                  @if (hasChains(effect.affected_chains)) {
-                    <div class="mt-6">
-                      <h4 class="sub-section-title">
-                        Affected Production Chains
-                      </h4>
-                      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
-                        @for (
-                          item of effect.affected_chains | keyvalue;
-                          track item.key
-                        ) {
-                          <div class="chain-box">
-                            <span class="chain-label">{{
-                              item.value.text
-                            }}</span>
-                            <span class="chain-name-meta">{{
-                              item.value.name
-                            }}</span>
-                            <div class="flex flex-wrap gap-1 mt-2">
-                              @for (
-                                building of item.value.production_assets;
-                                track building.guid
-                              ) {
-                                <span
-                                  class="building-chip"
-                                  [title]="building.name"
-                                >
-                                  🏛️ {{ building.text }}
-                                </span>
-                              }
-                            </div>
-                          </div>
-                        }
-                      </div>
-                    </div>
+                    </button>
                   }
                 </div>
-              }
+              </div>
+
+              <div class="devotion-selector-card mt-4">
+                <label
+                  [for]="'simulated-range-' + patron().uid"
+                  class="devotion-label"
+                  >Select Simulated Devotion Level:</label
+                >
+                <div class="flex items-center space-x-3 mt-2">
+                  <input
+                    [id]="'simulated-range-' + patron().uid"
+                    type="range"
+                    [min]="0"
+                    [max]="maxDevotion()"
+                    [value]="selectedDevotion()"
+                    (input)="updateSimulatedDevotion($event)"
+                    class="roman-range"
+                  />
+
+                  <input
+                    type="number"
+                    [min]="0"
+                    [max]="maxDevotion()"
+                    [value]="selectedDevotion()"
+                    (input)="updateSimulatedDevotion($event)"
+                    class="devotion-value-input"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <ng-container
+              [ngTemplateOutlet]="primaryEffectTpl"
+              [ngTemplateOutletContext]="{
+                $implicit: patron().local_effects[0],
+                patron: patron(),
+              }"
+            ></ng-container>
+
+            @for (
+              effect of patron().local_effects.slice(1);
+              track effect.title;
+              let i = $index
+            ) {
+              <ng-container
+                [ngTemplateOutlet]="standardEffectTpl"
+                [ngTemplateOutletContext]="{ $implicit: effect, index: i + 1 }"
+              ></ng-container>
             }
           </div>
-
-          <!-- Bottom: Passive Secondary Effects -->
-          @if (patron().local_effects.length > 1) {
-            <div
-              class="passive-secondary-bar pt-4 border-t border-(--background-color)/22 flex flex-col md:flex-row md:items-center justify-between gap-4"
-            >
-              <div>
-                <span class="roman-meta-badge">Secondary Blessing</span>
-                <h4 class="passive-title">
-                  {{ patron().local_effects[1].title }}
-                </h4>
-                <p class="passive-desc">
-                  {{ patron().local_effects[1].description }}
-                </p>
-              </div>
-              @if (patron().local_effects[1].milestones.length > 0) {
-                <div
-                  class="flex items-center space-x-2 self-start md:self-center px-3 py-1.5 rounded bg-(--primary-color)/20 border border-(--primary-color)/30"
-                >
-                  <span
-                    class="text-[0.68rem] uppercase tracking-wider text-rgba(235,210,184,0.6)"
-                    >Current Modifier:</span
-                  >
-                  <span class="font-roman text-sm font-bold text-[#ffcc00]"
-                    >+{{ activeSecondaryLocalValue() }}</span
-                  >
-                </div>
-              }
-            </div>
-          }
         }
 
         <!-- Tab View: Global Shrine & Exaltation Blessings -->
@@ -278,7 +203,14 @@
                 ) {
                   <div class="shrine-item-chip">
                     <span class="shrine-id">GUID: {{ shrine.guid }}</span>
-                    <span class="shrine-title">🏛️ {{ shrine.title }}</span>
+                    <span class="shrine-title"
+                      ><img
+                        [src]="shrine.icon_url"
+                        class="inline w-4 h-4 mr-1"
+                        [alt]="shrine.title"
+                      />
+                      {{ shrine.title }}</span
+                    >
                   </div>
                 }
               </div>
@@ -305,3 +237,70 @@
     </div>
   </div>
 </div>
+
+<ng-template #primaryEffectTpl let-effect let-patron="patron">
+  <div class="milestone-box">
+    <div class="flex justify-between items-center mb-1">
+      <span class="milestone-title">✦ {{ effect.title }}</span>
+      <span class="milestone-badge">+{{ activeLocalValue() }}%</span>
+    </div>
+    <p class="milestone-desc">{{ effect.description }}</p>
+  </div>
+
+  @if (hasChains(effect.affected_chains)) {
+    <div class="mt-6">
+      <h4 class="sub-section-title">Affected Production Chains</h4>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-3">
+        @for (item of effect.affected_chains | keyvalue; track item.key) {
+          <div class="chain-box">
+            <span class="chain-label">{{ item.value.text }}</span>
+            <div class="flex flex-wrap gap-1 mt-2">
+              @for (
+                building of item.value.production_assets;
+                track building.guid
+              ) {
+                <span class="building-chip">
+                  <img
+                    [src]="building.icon_url"
+                    class="inline w-4 h-4 mr-1"
+                    [alt]="building.name"
+                  />
+                  {{ building.text }}
+                </span>
+              }
+            </div>
+          </div>
+        }
+      </div>
+    </div>
+  }
+</ng-template>
+
+<ng-template #standardEffectTpl let-effect let-i="index">
+  <div
+    class="passive-secondary-bar pt-4 border-t border-(--background-color)/22 flex flex-col md:flex-row md:items-center justify-between gap-4"
+  >
+    <div>
+      <span class="roman-meta-badge">Secondary Blessing</span>
+      <h4 class="passive-title">
+        {{ effect.title }}
+      </h4>
+      <p class="passive-desc">
+        {{ effect.description }}
+      </p>
+    </div>
+    @if (effect.milestones.length > 0) {
+      <div
+        class="flex items-center space-x-2 self-start md:self-center px-3 py-1.5 rounded bg-(--primary-color)/20 border border-(--primary-color)/30"
+      >
+        <span
+          class="text-[0.68rem] uppercase tracking-wider text-rgba(235,210,184,0.6)"
+          >Current Modifier:</span
+        >
+        <span class="font-roman text-sm font-bold text-[#ffcc00]"
+          >+{{ activeSecondaryLocalValue() }}</span
+        >
+      </div>
+    }
+  </div>
+</ng-template>

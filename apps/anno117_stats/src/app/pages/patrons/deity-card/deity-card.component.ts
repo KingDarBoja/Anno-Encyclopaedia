@@ -5,7 +5,7 @@ import {
   computed,
   ChangeDetectionStrategy,
 } from '@angular/core';
-import { DecimalPipe, KeyValuePipe } from '@angular/common';
+import { DecimalPipe, KeyValuePipe, NgTemplateOutlet } from '@angular/common';
 import {
   AffectedChainInfo,
   MilestoneJSON,
@@ -15,9 +15,9 @@ import {
 @Component({
   selector: 'anno-deity-card',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  imports: [DecimalPipe, KeyValuePipe],
+  imports: [DecimalPipe, KeyValuePipe, NgTemplateOutlet],
   templateUrl: './deity-card.component.html',
-  styleUrl: './deity-card.component.scss'
+  styleUrl: './deity-card.component.scss',
 })
 export class DeityCardComponent {
   patron = input.required<PatronViewModel>();
@@ -53,23 +53,23 @@ export class DeityCardComponent {
   });
 
   activeSecondaryLocalValue = computed(() => {
-  const secondaryEffect = this.patron().local_effects[1];
-  if (!secondaryEffect || !secondaryEffect.milestones.length) return 0;
+    const secondaryEffect = this.patron().local_effects[1];
+    if (!secondaryEffect || !secondaryEffect.milestones.length) return 0;
 
-  const devotion = this.selectedDevotion();
-  const milestones = secondaryEffect.milestones;
+    const devotion = this.selectedDevotion();
+    const milestones = secondaryEffect.milestones;
 
-  // Find closest lower or equal milestone
-  let activeBonus = 0;
-  for (const step of milestones) {
-    if (devotion >= step.devotion) {
-      activeBonus = step.buff_scaling;
-    } else {
-      break;
+    // Find closest lower or equal milestone
+    let activeBonus = 0;
+    for (const step of milestones) {
+      if (devotion >= step.devotion) {
+        activeBonus = step.buff_scaling;
+      } else {
+        break;
+      }
     }
-  }
-  return activeBonus;
-});
+    return activeBonus;
+  });
 
   // Timeline bar filled calculated ratio representation
   progressPercentage = computed(() => {
@@ -86,8 +86,14 @@ export class DeityCardComponent {
     this.selectedDevotion.set(m.devotion);
   }
 
-  updateSimulatedDevotion(event: Event) {
-    const val = (event.target as HTMLInputElement).value;
-    this.selectedDevotion.set(Number(val));
-  }
+updateSimulatedDevotion(event: Event) {
+  const input = event.target as HTMLInputElement;
+  let val = Number(input.value);
+  
+  // Clamp values
+  if (val > this.maxDevotion()) val = this.maxDevotion();
+  if (val < 0) val = 0;
+  
+  this.selectedDevotion.set(val);
+}
 }

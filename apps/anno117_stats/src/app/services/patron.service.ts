@@ -17,6 +17,7 @@ export interface MilestoneJSON {
 export interface ProductionAssetInfo {
   guid: number;
   name: string;
+  icon_url: string;
   text: string;
 }
 
@@ -53,6 +54,7 @@ export interface VenerationEffectJSON {
 export interface ShrineItemJSON {
   guid: number;
   title: string;
+  icon_url: string;
 }
 
 /**

@@ -1,11 +1,11 @@
 .deity-monument-container {
     position: relative;
     background-color: var(--secondary-color);
-    color: #ebd2b8;
+    color: var(--background-color);
     border-radius: 6px;
     margin-bottom: 4rem;
     overflow: hidden;
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 20px 40px color-mix(in srgb, black, transparent 60%); // 0.4 opacity
 }
 
 .roman-border-frame {
@@ -14,7 +14,7 @@
     left: 12px;
     right: 12px;
     bottom: 12px;
-    border: 1px solid rgba(235, 210, 184, 0.15);
+    border: 1px solid color-mix(in srgb, var(--background-color), transparent 85%);
     pointer-events: none;
     border-radius: 4px;
     z-index: 2;
@@ -26,7 +26,7 @@
         left: 4px;
         right: 4px;
         bottom: 4px;
-        border: 1px solid rgba(235, 210, 184, 0.05);
+        border: 1px solid color-mix(in srgb, var(--background-color), transparent 95%);
         border-radius: 2px;
     }
 }
@@ -91,7 +91,7 @@
 }
 
 .milestone-box {
-    background: rgba(95, 3, 46, 0.25);
+    background: color-mix(in srgb, var(--primary-color), transparent 75%);
     border-left: 3px solid var(--primary-color);
     padding: 1rem;
     border-radius: 0 4px 4px 0;
@@ -233,6 +233,30 @@
     text-align: right;
 }
 
+.devotion-value-input {
+    background: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(235, 210, 184, 0.2);
+    color: #ebd2b8;
+    font-family: var(--font-primary);
+    font-size: 0.9rem;
+    padding: 0.25rem 0.5rem;
+    width: 80px;
+    border-radius: 3px;
+    text-align: center;
+    
+    // Remove arrows
+    &::-webkit-inner-spin-button, 
+    &::-webkit-outer-spin-button { 
+        appearance: none;
+        margin: 0; 
+    }
+
+    &:focus {
+        outline: 1px solid var(--accent-color);
+        border-color: var(--accent-color);
+    }
+}
+
 .roman-range {
     flex: 1;
     accent-color: var(--primary-color);
@@ -272,13 +296,18 @@
 }
 
 .building-chip {
-    display: inline-block;
+    display: inline-flex; // Changed to flex for alignment
+    align-items: center; // Centers the icon vertically
     font-size: 0.72rem;
     padding: 1px 6px;
-    background: rgba(95, 3, 46, 0.35);
-    border: 1px solid rgba(95, 3, 46, 0.6);
-    color: rgba(235, 210, 184, 0.8);
+background: color-mix(in srgb, var(--primary-color), transparent 65%);
+    border: 1px solid color-mix(in srgb, var(--primary-color), transparent 40%);
+    color: color-mix(in srgb, var(--background-color), transparent 20%);
     border-radius: 2px;
+
+    img {
+        filter: drop-shadow(0 1px 1px color-mix(in srgb, black, transparent 50%));
+    }
 }
 
 .blessing-card {
@@ -343,6 +372,8 @@
 }
 
 .shrine-title {
+    display: flex;
+    align-items: center;
     font-size: 0.85rem;
     color: #ebd2b8;
 }
@@ -370,23 +401,23 @@
 }
 
 .passive-secondary-bar {
-  // Uses synchronized global opacity token mapping
-  border-top: 1px solid color-mix(in srgb, var(--background-color), transparent 78%);
-  
-  .passive-title {
-    font-family: var(--font-primary);
-    font-size: 1.05rem;
-    color: #ebd2b8;
-    margin: 0.1rem 0 0.2rem 0;
-  }
+    // Uses synchronized global opacity token mapping
+    border-top: 1px solid color-mix(in srgb, var(--background-color), transparent 78%);
 
-  .passive-desc {
-    font-family: var(--font-secondary);
-    font-size: 0.82rem;
-    line-height: 1.5;
-    color: rgba(235, 210, 184, 0.7);
-    margin: 0;
-  }
+    .passive-title {
+        font-family: var(--font-primary);
+        font-size: 1.05rem;
+        color: #ebd2b8;
+        margin: 0.1rem 0 0.2rem 0;
+    }
+
+    .passive-desc {
+        font-family: var(--font-secondary);
+        font-size: 0.82rem;
+        line-height: 1.5;
+        color: rgba(235, 210, 184, 0.7);
+        margin: 0;
+    }
 }
 
 .portrait-vignette-wrapper {
