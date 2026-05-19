@@ -203,6 +203,36 @@
               }
             }
           </div>
+
+          <!-- Bottom: Passive Secondary Effects -->
+          @if (patron().local_effects.length > 1) {
+            <div
+              class="passive-secondary-bar pt-4 border-t border-(--background-color)/22 flex flex-col md:flex-row md:items-center justify-between gap-4"
+            >
+              <div>
+                <span class="roman-meta-badge">Secondary Blessing</span>
+                <h4 class="passive-title">
+                  {{ patron().local_effects[1].title }}
+                </h4>
+                <p class="passive-desc">
+                  {{ patron().local_effects[1].description }}
+                </p>
+              </div>
+              @if (patron().local_effects[1].milestones.length > 0) {
+                <div
+                  class="flex items-center space-x-2 self-start md:self-center px-3 py-1.5 rounded bg-(--primary-color)/20 border border-(--primary-color)/30"
+                >
+                  <span
+                    class="text-[0.68rem] uppercase tracking-wider text-rgba(235,210,184,0.6)"
+                    >Current Modifier:</span
+                  >
+                  <span class="font-roman text-sm font-bold text-[#ffcc00]"
+                    >+{{ activeSecondaryLocalValue() }}</span
+                  >
+                </div>
+              }
+            </div>
+          }
         }
 
         <!-- Tab View: Global Shrine & Exaltation Blessings -->
@@ -256,34 +286,6 @@
           </div>
         }
       </div>
-
-      <!-- Bottom: Passive Secondary Effects -->
-      @if (patron().local_effects.length > 1) {
-        <div
-          class="passive-secondary-bar pt-4 border-t border-(--background-color)/22 flex flex-col md:flex-row md:items-center justify-between gap-4"
-        >
-          <div>
-            <span class="roman-meta-badge">Secondary Blessing</span>
-            <h4 class="passive-title">{{ patron().local_effects[1].title }}</h4>
-            <p class="passive-desc">
-              {{ patron().local_effects[1].description }}
-            </p>
-          </div>
-          @if (patron().local_effects[1].milestones.length > 0) {
-            <div
-              class="flex items-center space-x-2 self-start md:self-center px-3 py-1.5 rounded bg-(--primary-color)/20 border border-(--primary-color)/30"
-            >
-              <span
-                class="text-[0.68rem] uppercase tracking-wider text-rgba(235,210,184,0.6)"
-                >Current Modifier:</span
-              >
-              <span class="font-roman text-sm font-bold text-[#ffcc00]"
-                >+{{ activeSecondaryLocalValue() }}</span
-              >
-            </div>
-          }
-        </div>
-      }
     </div>
 
     <!-- Right Side: Majestic Artwork Vignette -->
