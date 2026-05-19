@@ -6,6 +6,7 @@ import {
 } from '@angular/core';
 import { DeityCardComponent } from './deity-card/deity-card.component';
 import { PatronsService } from '../../services/patron.service';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'anno-patrons-page',
@@ -17,6 +18,7 @@ import { PatronsService } from '../../services/patron.service';
 })
 export class PatronsPageComponent implements OnInit {
   readonly service = inject(PatronsService);
+  private readonly router = inject(Router);
 
   ngOnInit() {
     this.loadData();
@@ -32,6 +34,14 @@ export class PatronsPageComponent implements OnInit {
    */
   scrollToPatron(uid: number, event: Event) {
     event.preventDefault();
+    
+    // Update the URL fragment without reloading the page
+    this.router.navigate([], {
+      fragment: `patron-${uid}`,
+      replaceUrl: true
+    });
+
+    // Scroll to the element
     const targetElement = document.getElementById(`patron-${uid}`);
     if (targetElement) {
       targetElement.scrollIntoView({

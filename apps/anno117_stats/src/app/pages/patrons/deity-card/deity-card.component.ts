@@ -4,8 +4,16 @@ import {
   signal,
   computed,
   ChangeDetectionStrategy,
+  inject, OnInit,
 } from '@angular/core';
-import { DecimalPipe, KeyValuePipe, NgTemplateOutlet } from '@angular/common';
+import {
+  DecimalPipe,
+  KeyValuePipe,
+  NgTemplateOutlet,
+  ViewportScroller,
+} from '@angular/common';
+import { ActivatedRoute } from '@angular/router';
+
 import {
   AffectedChainInfo,
   MilestoneJSON,
@@ -19,7 +27,10 @@ import {
   templateUrl: './deity-card.component.html',
   styleUrl: './deity-card.component.scss',
 })
-export class DeityCardComponent {
+export class DeityCardComponent implements OnInit {
+  private route = inject(ActivatedRoute);
+  private scroller = inject(ViewportScroller);
+
   patron = input.required<PatronViewModel>();
 
   activeTab = signal<'local' | 'global'>('local');
@@ -71,6 +82,17 @@ export class DeityCardComponent {
     return activeBonus;
   });
 
+  ngOnInit() {
+    this.route.fragment.subscribe(fragment => {
+      // Check if this card's ID matches the fragment
+      if (fragment === `patron-${this.patron().uid}`) {
+        setTimeout(() => {
+          this.scroller.scrollToAnchor(fragment);
+        }, 100); // Small delay to ensure DOM is rendered
+      }
+    });
+  }
+
   // Timeline bar filled calculated ratio representation
   progressPercentage = computed(() => {
     const dev = this.selectedDevotion();
@@ -86,14 +108,14 @@ export class DeityCardComponent {
     this.selectedDevotion.set(m.devotion);
   }
 
-updateSimulatedDevotion(event: Event) {
-  const input = event.target as HTMLInputElement;
-  let val = Number(input.value);
-  
-  // Clamp values
-  if (val > this.maxDevotion()) val = this.maxDevotion();
-  if (val < 0) val = 0;
-  
-  this.selectedDevotion.set(val);
-}
+  updateSimulatedDevotion(event: Event) {
+    const input = event.target as HTMLInputElement;
+    let val = Number(input.value);
+
+    // Clamp values
+    if (val > this.maxDevotion()) val = this.maxDevotion();
+    if (val < 0) val = 0;
+
+    this.selectedDevotion.set(val);
+  }
 }
