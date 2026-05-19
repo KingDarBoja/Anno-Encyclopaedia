@@ -4,12 +4,12 @@
         "canon_name": "patron_neptune",
         "title": "Neptune",
         "description": "Lord of the waves, Neptune's wrath and favour ebb and flow like the tides. Devotees of Neptune fearlessly cruise the waves, exemplars of the sea god's courage.",
-        "icon_url": "base/icon_content/religion/icon_2d_deity_neptune_0.webp",
+        "icon_url": "assets/icons/base/icon_content/religion/icon_2d_deity_neptune_0.webp",
         "canon_icon_name": "icon_patron_neptune",
         "local_effects": [
             {
                 "title": "Salacia's Fruit",
-                "description": "Increased production of Sardines, Cockles, Garum, Oysters with Caviar",
+                "description": "Increased production of Sardines, Cockles, Garum, Oysters with Caviar, Shell Gatherer",
                 "milestones": [
                     {
                         "devotion": 50,
@@ -141,6 +141,17 @@
                                 "text": "Epicure of Water"
                             }
                         ]
+                    },
+                    "8431": {
+                        "name": "Production Coast Roman Celtic Sea Shells",
+                        "text": "Shell Gatherer",
+                        "production_assets": [
+                            {
+                                "guid": 8431,
+                                "name": "Production Coast Roman Celtic Sea Shells",
+                                "text": "Shell Gatherer"
+                            }
+                        ]
                     }
                 }
             },
@@ -205,8 +216,8 @@
             }
         ],
         "portraits": {
-            "big": "base/features/religion/artwork_deity_neptune_1248_0.webp",
-            "small": "base/features/religion/artwork_deity_neptune_small_88_0.webp"
+            "big": "assets/icons/base/features/religion/artwork_deity_neptune_1248_0.webp",
+            "small": "assets/icons/base/features/religion/artwork_deity_neptune_small_88_0.webp"
         }
     },
     "27900": {
@@ -214,7 +225,7 @@
         "canon_name": "patron_minerva",
         "title": "Minerva",
         "description": "Minerva, divine avatar of wisdom, is master and patron of a thousand arts. Devotees of Minerva aim to live up to her lofty ideals of weaving, writing and winning.",
-        "icon_url": "base/icon_content/religion/icon_2d_deity_minerva_0.webp",
+        "icon_url": "assets/icons/base/icon_content/religion/icon_2d_deity_minerva_0.webp",
         "canon_icon_name": "icon_patron_minerva",
         "local_effects": [
             {
@@ -311,6 +322,11 @@
                                 "guid": 2999,
                                 "name": "Production Chemical Roman Tyrian Purple",
                                 "text": "Dye Works"
+                            },
+                            {
+                                "guid": 5971,
+                                "name": "Production Field Roman Celtic Flax",
+                                "text": "Flax Farm"
                             }
                         ]
                     },
@@ -342,6 +358,11 @@
                                 "guid": 2999,
                                 "name": "Production Chemical Roman Tyrian Purple",
                                 "text": "Dye Works"
+                            },
+                            {
+                                "guid": 2669,
+                                "name": "Production Field Roman Flax",
+                                "text": "Flax Farm"
                             }
                         ]
                     },
@@ -358,6 +379,16 @@
                                 "guid": 31750,
                                 "name": "Production Field Roman Hemp",
                                 "text": "Hemp Farm"
+                            },
+                            {
+                                "guid": 5958,
+                                "name": "Production Fashion Roman Celtic Tunics",
+                                "text": "Spinner"
+                            },
+                            {
+                                "guid": 31762,
+                                "name": "Production Field Roman Celtic Hemp",
+                                "text": "Hemp Farm"
                             }
                         ]
                     },
@@ -373,6 +404,16 @@
                             {
                                 "guid": 31762,
                                 "name": "Production Field Roman Celtic Hemp",
+                                "text": "Hemp Farm"
+                            },
+                            {
+                                "guid": 3187,
+                                "name": "Production Fashion Roman Tunics",
+                                "text": "Spinner"
+                            },
+                            {
+                                "guid": 31750,
+                                "name": "Production Field Roman Hemp",
                                 "text": "Hemp Farm"
                             }
                         ]
@@ -395,6 +436,11 @@
                                 "guid": 2800,
                                 "name": "Production Field Celtic Dye Plants",
                                 "text": "Weld Crop"
+                            },
+                            {
+                                "guid": 2786,
+                                "name": "Production Pasture Roman Sheep",
+                                "text": "Sheep Farm"
                             }
                         ]
                     },
@@ -426,6 +472,11 @@
                                 "guid": 5469,
                                 "name": "Production Chemical Celtic Green",
                                 "text": "Greenhands"
+                            },
+                            {
+                                "guid": 5973,
+                                "name": "Production Pasture Celtic Sheep",
+                                "text": "Sheep Farm"
                             }
                         ]
                     },
@@ -457,6 +508,11 @@
                                 "guid": 5469,
                                 "name": "Production Chemical Celtic Green",
                                 "text": "Greenhands"
+                            },
+                            {
+                                "guid": 2786,
+                                "name": "Production Pasture Roman Sheep",
+                                "text": "Sheep Farm"
                             }
                         ]
                     }
@@ -523,8 +579,8 @@
             }
         ],
         "portraits": {
-            "big": "base/features/religion/artwork_deity_minerva_1248_0.webp",
-            "small": "base/features/religion/artwork_deity_minerva_small_88_0.webp"
+            "big": "assets/icons/base/features/religion/artwork_deity_minerva_1248_0.webp",
+            "small": "assets/icons/base/features/religion/artwork_deity_minerva_small_88_0.webp"
         }
     },
     "43594": {
@@ -532,7 +588,7 @@
         "canon_name": "patron_ceres",
         "title": "Ceres",
         "description": "Ceres, august mother of fields, extends her divine grace to farmers, mothers and marriages. Devotees of Ceres fervently till soil, bolstered by blessings from her divine helpers.",
-        "icon_url": "base/icon_content/religion/icon_2d_deity_ceres_0.webp",
+        "icon_url": "assets/icons/base/icon_content/religion/icon_2d_deity_ceres_0.webp",
         "canon_icon_name": "icon_patron_ceres",
         "local_effects": [
             {
@@ -635,6 +691,21 @@
                                 "guid": 3174,
                                 "name": "Production Food Roman Bread",
                                 "text": "Bakery"
+                            },
+                            {
+                                "guid": 5972,
+                                "name": "Production Field Roman Celtic Wheat",
+                                "text": "Wheat Farm"
+                            },
+                            {
+                                "guid": 5967,
+                                "name": "Production Ingredient Roman Celtic Flour",
+                                "text": "Donkey Mill"
+                            },
+                            {
+                                "guid": 5960,
+                                "name": "Production Food Roman Celtic Bread",
+                                "text": "Bakery"
                             }
                         ]
                     },
@@ -655,6 +726,21 @@
                             {
                                 "guid": 5960,
                                 "name": "Production Food Roman Celtic Bread",
+                                "text": "Bakery"
+                            },
+                            {
+                                "guid": 2693,
+                                "name": "Production Field Roman Wheat",
+                                "text": "Wheat Farm"
+                            },
+                            {
+                                "guid": 3075,
+                                "name": "Production Ingredient Roman Flour",
+                                "text": "Grain Mill"
+                            },
+                            {
+                                "guid": 3174,
+                                "name": "Production Food Roman Bread",
                                 "text": "Bakery"
                             }
                         ]
@@ -677,6 +763,21 @@
                                 "guid": 2795,
                                 "name": "Production Meadow Roman Honycombs",
                                 "text": "Apiary"
+                            },
+                            {
+                                "guid": 23723,
+                                "name": "Production Field Roman Celtic Grapes",
+                                "text": "Vineyard"
+                            },
+                            {
+                                "guid": 23753,
+                                "name": "Production Food Roman Celtic Wine",
+                                "text": "Vintner"
+                            },
+                            {
+                                "guid": 8427,
+                                "name": "Production Meadow Roman Celtic Honycombs",
+                                "text": "Apiary"
                             }
                         ]
                     },
@@ -697,6 +798,21 @@
                             {
                                 "guid": 8427,
                                 "name": "Production Meadow Roman Celtic Honycombs",
+                                "text": "Apiary"
+                            },
+                            {
+                                "guid": 2694,
+                                "name": "Production Field Roman Grapes",
+                                "text": "Vineyard"
+                            },
+                            {
+                                "guid": 3177,
+                                "name": "Production Food Roman Wine",
+                                "text": "Vintner"
+                            },
+                            {
+                                "guid": 2795,
+                                "name": "Production Meadow Roman Honycombs",
                                 "text": "Apiary"
                             }
                         ]
@@ -817,8 +933,8 @@
             }
         ],
         "portraits": {
-            "big": "base/features/religion/artwork_deity_ceres_1248_0.webp",
-            "small": "base/features/religion/artwork_deity_ceres_small_88_0.webp"
+            "big": "assets/icons/base/features/religion/artwork_deity_ceres_1248_0.webp",
+            "small": "assets/icons/base/features/religion/artwork_deity_ceres_small_88_0.webp"
         }
     },
     "50242": {
@@ -826,12 +942,12 @@
         "canon_name": "patron_cernunnos",
         "title": "Cernunnos",
         "description": "Cernunnos, horned lord of the forest, sits on the boundary between the civil and the wild. Devotees of Cernunnos can work alongside anything - man, beast or deity - to spin harmony out of contradiction.",
-        "icon_url": "base/icon_content/religion/icon_2d_deity_cernunnos_0.webp",
+        "icon_url": "assets/icons/base/icon_content/religion/icon_2d_deity_cernunnos_0.webp",
         "canon_icon_name": "icon_patron_cernunnos",
         "local_effects": [
             {
                 "title": "Wild Nature",
-                "description": "Increased production of Timber, Smoked Eels, Wattle & Daub",
+                "description": "Increased production of Timber, Smoked Eels, Wattle & Daub, Resin Tapper, Bird Charmer, Beaver Trapper",
                 "milestones": [
                     {
                         "devotion": 50,
@@ -908,6 +1024,16 @@
                                 "guid": 3089,
                                 "name": "Production Construction Roman Timber",
                                 "text": "Sawmill"
+                            },
+                            {
+                                "guid": 5976,
+                                "name": "Production Forest Roman Celtic Wood",
+                                "text": "Woodcutter"
+                            },
+                            {
+                                "guid": 5945,
+                                "name": "Production Construction Roman Celtic Timber",
+                                "text": "Sawmill"
                             }
                         ]
                     },
@@ -923,6 +1049,16 @@
                             {
                                 "guid": 5945,
                                 "name": "Production Construction Roman Celtic Timber",
+                                "text": "Sawmill"
+                            },
+                            {
+                                "guid": 2878,
+                                "name": "Production Forest Roman Wood",
+                                "text": "Woodcutter"
+                            },
+                            {
+                                "guid": 3089,
+                                "name": "Production Construction Roman Timber",
                                 "text": "Sawmill"
                             }
                         ]
@@ -956,6 +1092,50 @@
                                 "guid": 5935,
                                 "name": "Production Construction Celtic Wattle and Daub",
                                 "text": "Labourer's Yard"
+                            }
+                        ]
+                    },
+                    "31752": {
+                        "name": "Production Forest Roman Resin",
+                        "text": "Resin Tapper",
+                        "production_assets": [
+                            {
+                                "guid": 31752,
+                                "name": "Production Forest Roman Resin",
+                                "text": "Resin Tapper"
+                            }
+                        ]
+                    },
+                    "31761": {
+                        "name": "Production Forest Roman Celtic Resin",
+                        "text": "Resin Tapper",
+                        "production_assets": [
+                            {
+                                "guid": 31761,
+                                "name": "Production Forest Roman Celtic Resin",
+                                "text": "Resin Tapper"
+                            }
+                        ]
+                    },
+                    "5851": {
+                        "name": "Production Marsh Roman Celtic Birds",
+                        "text": "Bird Charmer",
+                        "production_assets": [
+                            {
+                                "guid": 5851,
+                                "name": "Production Marsh Roman Celtic Birds",
+                                "text": "Bird Charmer"
+                            }
+                        ]
+                    },
+                    "31759": {
+                        "name": "Production Marsh Celtic Beaver",
+                        "text": "Beaver Trapper",
+                        "production_assets": [
+                            {
+                                "guid": 31759,
+                                "name": "Production Marsh Celtic Beaver",
+                                "text": "Beaver Trapper"
                             }
                         ]
                     }
@@ -1022,8 +1202,8 @@
             }
         ],
         "portraits": {
-            "big": "base/features/religion/artwork_deity_cernunnos_1248_0.webp",
-            "small": "base/features/religion/artwork_deity_cernunnos_small_88_0.webp"
+            "big": "assets/icons/base/features/religion/artwork_deity_cernunnos_1248_0.webp",
+            "small": "assets/icons/base/features/religion/artwork_deity_cernunnos_small_88_0.webp"
         }
     },
     "50311": {
@@ -1031,7 +1211,7 @@
         "canon_name": "patron_mercury_lugus",
         "title": "Mercury-Lugus",
         "description": "Celtic adherents of Lugh found common ground with Roman Mercury, patron gods of crafts and trades alike. Devotees of Lugus and Mercury are dedicated to their work; to turning a profit, even more so.",
-        "icon_url": "base/icon_content/religion/icon_2d_deity_mercury_0.webp",
+        "icon_url": "assets/icons/base/icon_content/religion/icon_2d_deity_mercury_0.webp",
         "canon_icon_name": "icon_patron_mercury_lugus",
         "local_effects": [
             {
@@ -1162,8 +1342,8 @@
             }
         ],
         "portraits": {
-            "big": "base/features/religion/artwork_deity_lugos_1248_0.webp",
-            "small": "base/features/religion/artwork_deity_lugos_small_88_0.webp"
+            "big": "assets/icons/base/features/religion/artwork_deity_lugos_1248_0.webp",
+            "small": "assets/icons/base/features/religion/artwork_deity_lugos_small_88_0.webp"
         }
     },
     "80562": {
@@ -1171,12 +1351,12 @@
         "canon_name": "patron_mars",
         "title": "Mars",
         "description": "Bloody-handed god of war, Mars presides over the violent art of warfare. Mars expects victory, and his devotees will do their utmost to make that happen.",
-        "icon_url": "base/icon_content/religion/icon_2d_deity_mars_0.webp",
+        "icon_url": "assets/icons/base/icon_content/religion/icon_2d_deity_mars_0.webp",
         "canon_icon_name": "icon_patron_mars",
         "local_effects": [
             {
                 "title": "Armamentum",
-                "description": "Increased production of Armour, Sandals, Weapons",
+                "description": "Increased production of Armour, Sandals, Weapons, Charcoal Burner",
                 "milestones": [
                     {
                         "devotion": 50,
@@ -1273,6 +1453,26 @@
                                 "guid": 13808,
                                 "name": "Production Military Roman Armor",
                                 "text": "Armourer"
+                            },
+                            {
+                                "guid": 5974,
+                                "name": "Production Pasture Roman Celtic Pigs",
+                                "text": "Pig Farm"
+                            },
+                            {
+                                "guid": 5982,
+                                "name": "Production Mountain Roman Celtic Iron Ore",
+                                "text": "Iron Mine"
+                            },
+                            {
+                                "guid": 5969,
+                                "name": "Production Heavy Roman Celtic Iron",
+                                "text": "Furnace"
+                            },
+                            {
+                                "guid": 55945,
+                                "name": "Production Military Roman Celtic Armor",
+                                "text": "Armourer"
                             }
                         ]
                     },
@@ -1299,6 +1499,11 @@
                                 "guid": 3190,
                                 "name": "Production Fashion Roman Sandals",
                                 "text": "Sandal Maker"
+                            },
+                            {
+                                "guid": 5974,
+                                "name": "Production Pasture Roman Celtic Pigs",
+                                "text": "Pig Farm"
                             }
                         ]
                     },
@@ -1319,6 +1524,21 @@
                             {
                                 "guid": 5954,
                                 "name": "Production Military Roman Celtic Weapons",
+                                "text": "Weaponsmith"
+                            },
+                            {
+                                "guid": 2918,
+                                "name": "Production Mountain Roman Iron Ore",
+                                "text": "Iron Mine"
+                            },
+                            {
+                                "guid": 3070,
+                                "name": "Production Heavy Roman Iron",
+                                "text": "Furnace"
+                            },
+                            {
+                                "guid": 3170,
+                                "name": "Production Military Roman Weapons",
                                 "text": "Weaponsmith"
                             }
                         ]
@@ -1341,6 +1561,43 @@
                                 "guid": 3170,
                                 "name": "Production Military Roman Weapons",
                                 "text": "Weaponsmith"
+                            },
+                            {
+                                "guid": 5982,
+                                "name": "Production Mountain Roman Celtic Iron Ore",
+                                "text": "Iron Mine"
+                            },
+                            {
+                                "guid": 5969,
+                                "name": "Production Heavy Roman Celtic Iron",
+                                "text": "Furnace"
+                            },
+                            {
+                                "guid": 5954,
+                                "name": "Production Military Roman Celtic Weapons",
+                                "text": "Weaponsmith"
+                            }
+                        ]
+                    },
+                    "2880": {
+                        "name": "Production Forest Roman Charcoal",
+                        "text": "Charcoal Burner",
+                        "production_assets": [
+                            {
+                                "guid": 2880,
+                                "name": "Production Forest Roman Charcoal",
+                                "text": "Charcoal Burner"
+                            }
+                        ]
+                    },
+                    "5977": {
+                        "name": "Production Forest Roman Celtic Charcoal",
+                        "text": "Charcoal Burner",
+                        "production_assets": [
+                            {
+                                "guid": 5977,
+                                "name": "Production Forest Roman Celtic Charcoal",
+                                "text": "Charcoal Burner"
                             }
                         ]
                     }
@@ -1407,8 +1664,8 @@
             }
         ],
         "portraits": {
-            "big": "base/features/religion/artwork_deity_mars_1248_0.webp",
-            "small": "base/features/religion/artwork_deity_mars_small_88_0.webp"
+            "big": "assets/icons/base/features/religion/artwork_deity_mars_1248_0.webp",
+            "small": "assets/icons/base/features/religion/artwork_deity_mars_small_88_0.webp"
         }
     },
     "80861": {
@@ -1416,12 +1673,12 @@
         "canon_name": "patron_epona",
         "title": "Epona",
         "description": "Epona captured the hearts of Rome's cavalry, galloping her way across the Empire from her home in Albion. Now Romans, Celts and many others turn to her for equine guidance. Her devotees embody the free, wild spirit of the Great Mare.",
-        "icon_url": "base/icon_content/religion/icon_2d_deity_epona_0.webp",
+        "icon_url": "assets/icons/base/icon_content/religion/icon_2d_deity_epona_0.webp",
         "canon_icon_name": "icon_patron_epona",
         "local_effects": [
             {
                 "title": "Potnia Theron",
-                "description": "Increased production of Stables, Horses",
+                "description": "Increased production of Stables, Horses, Sheep Farm, Pig Farm, Horsecatcher, Ochs Farm",
                 "milestones": [
                     {
                         "devotion": 50,
@@ -1493,6 +1750,11 @@
                                 "guid": 2794,
                                 "name": "Production Pasture Roman Horses",
                                 "text": "Horse Breeder"
+                            },
+                            {
+                                "guid": 15514,
+                                "name": "Production Pasture Roman Celtic Horses",
+                                "text": "Horse Breeder"
                             }
                         ]
                     },
@@ -1504,6 +1766,77 @@
                                 "guid": 15514,
                                 "name": "Production Pasture Roman Celtic Horses",
                                 "text": "Horse Breeder"
+                            },
+                            {
+                                "guid": 2794,
+                                "name": "Production Pasture Roman Horses",
+                                "text": "Horse Breeder"
+                            }
+                        ]
+                    },
+                    "2786": {
+                        "name": "Production Pasture Roman Sheep",
+                        "text": "Sheep Farm",
+                        "production_assets": [
+                            {
+                                "guid": 2786,
+                                "name": "Production Pasture Roman Sheep",
+                                "text": "Sheep Farm"
+                            }
+                        ]
+                    },
+                    "2793": {
+                        "name": "Production Pasture Roman Pigs",
+                        "text": "Pig Farm",
+                        "production_assets": [
+                            {
+                                "guid": 2793,
+                                "name": "Production Pasture Roman Pigs",
+                                "text": "Pig Farm"
+                            }
+                        ]
+                    },
+                    "5973": {
+                        "name": "Production Pasture Celtic Sheep",
+                        "text": "Sheep Farm",
+                        "production_assets": [
+                            {
+                                "guid": 5973,
+                                "name": "Production Pasture Celtic Sheep",
+                                "text": "Sheep Farm"
+                            }
+                        ]
+                    },
+                    "5974": {
+                        "name": "Production Pasture Roman Celtic Pigs",
+                        "text": "Pig Farm",
+                        "production_assets": [
+                            {
+                                "guid": 5974,
+                                "name": "Production Pasture Roman Celtic Pigs",
+                                "text": "Pig Farm"
+                            }
+                        ]
+                    },
+                    "5975": {
+                        "name": "Production Meadow Celtic Dartmoor Ponies",
+                        "text": "Horsecatcher",
+                        "production_assets": [
+                            {
+                                "guid": 5975,
+                                "name": "Production Meadow Celtic Dartmoor Ponies",
+                                "text": "Horsecatcher"
+                            }
+                        ]
+                    },
+                    "5847": {
+                        "name": "Production Marsh Celtic Aurochs",
+                        "text": "Ochs Farm",
+                        "production_assets": [
+                            {
+                                "guid": 5847,
+                                "name": "Production Marsh Celtic Aurochs",
+                                "text": "Ochs Farm"
                             }
                         ]
                     }
@@ -1570,8 +1903,8 @@
             }
         ],
         "portraits": {
-            "big": "base/features/religion/artwork_deity_epona_1248_0.webp",
-            "small": "base/features/religion/artwork_deity_epona_small_88_0.webp"
+            "big": "assets/icons/base/features/religion/artwork_deity_epona_1248_0.webp",
+            "small": "assets/icons/base/features/religion/artwork_deity_epona_small_88_0.webp"
         }
     },
     "144800": {
@@ -1579,7 +1912,7 @@
         "canon_name": "patron_vulcan",
         "title": "Vulcan",
         "description": "Down in the deep fires that built the world, Vulcan tends to his forge. His iconoclasts delve deep, and ever deeper, in hopes to hear the echoes of his divine hammer.",
-        "icon_url": "dlc01/icon_content/religion/icon_2d_deity_vulcanus_0.webp",
+        "icon_url": "assets/icons/dlc01/icon_content/religion/icon_2d_deity_vulcanus_0.webp",
         "canon_icon_name": "icon_patron_vulcan",
         "local_effects": [
             {
@@ -1788,8 +2121,8 @@
             }
         ],
         "portraits": {
-            "big": "dlc01/features/religion/artwork_deity_vulkan_1248_0.webp",
-            "small": "base/features/religion/artwork_deity_vulcan_small_176_0.webp"
+            "big": "assets/icons/dlc01/features/religion/artwork_deity_vulkan_1248_0.webp",
+            "small": "assets/icons/base/features/religion/artwork_deity_vulcan_small_176_0.webp"
         }
     }
 }

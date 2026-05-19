@@ -37,6 +37,13 @@ export const appRoutes: Route[] = [
       ).then((c) => c.ProductionChainVisualizer),
   },
   {
+    path: 'patrons',
+    loadComponent: () =>
+      import('./pages/patrons/patrons.component').then(
+        (c) => c.PatronsPageComponent,
+      ),
+  },
+  {
     path: '**',
     redirectTo: '',
   },

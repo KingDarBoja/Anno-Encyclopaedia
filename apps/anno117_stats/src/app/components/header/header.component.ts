@@ -77,12 +77,18 @@ export class HeaderComponent {
     { label: 'Home', path: '/' },
     { label: 'About', path: '/about' },
     {
+      label: 'Miscellaneous',
+      children: [
+        { label: 'Achievements', path: '/achievements' },
+        { label: 'Ornaments', path: '/ornaments' },
+      ],
+    },
+    {
       label: 'Gameplay',
       children: [
         { label: 'Production Chains', path: '/production-chains' },
-        { label: 'Achievements', path: '/achievements' },
         { label: 'City Status', path: '/city-status' },
-        { label: 'Ornaments', path: '/ornaments' },
+        { label: 'Patrons', path: '/patrons' },
       ],
     },
   ];

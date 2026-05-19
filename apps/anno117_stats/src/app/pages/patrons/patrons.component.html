@@ -1,0 +1,81 @@
+<div class="patrons-workspace min-h-screen pb-16">
+  <!-- Premium Title Banner Section -->
+  <div
+    class="relative pt-16 pb-4 flex flex-col items-center justify-center overflow-hidden"
+  >
+    <div class="absolute inset-0 pattern-overlay opacity-5"></div>
+    <div class="text-center z-10 px-4">
+      <h1 class="page-main-title select-none">Patrons</h1>
+      <p class="page-main-subtitle mx-auto">
+        Sacrifice devotion to gain powerful blessings from Roman and Celtic
+        patrons. Under Neptune's waves, Ceres' grain fields, or Mars' iron
+        blades, lead Albion and Latium to divine glory.
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Layout Structure: Sticky Index & Cards Loop -->
+  <div
+    class="max-w-7xl mx-auto px-4 md:px-8 mt-8 grid grid-cols-1 xl:grid-cols-12 gap-8"
+  >
+    <!-- Left Side: Sticky Navigation Index Pillar -->
+    <div class="xl:col-span-3 hidden xl:block">
+      <div class="sticky top-6 sticky-pillar-index">
+        <h4 class="pillar-header">Pantheons</h4>
+        <nav class="mt-4" aria-label="Pantheons navigation">
+          <ul class="space-y-2">
+            @for (p of service.patrons(); track p.uid) {
+              <li>
+                <button
+                  (click)="scrollToPatron(p.uid, $event)"
+                  (keydown.enter)="scrollToPatron(p.uid, $event)"
+                  (keydown.space)="scrollToPatron(p.uid, $event)"
+                  class="pillar-nav-link flex items-center space-x-3 w-full text-left"
+                  type="button"
+                  [attr.aria-label]="'Go to ' + p.title + ' details'"
+                >
+                  @if (p.icon_url) {
+                    <img
+                      [src]="p.icon_url"
+                      [alt]="p.title + ' small icon'"
+                      class="w-5 h-5 object-contain"
+                    />
+                  }
+                  <span class="pillar-name">{{ p.title }}</span>
+                </button>
+              </li>
+            }
+          </ul>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Right Side: Content Deities Cards Loop -->
+    <div class="xl:col-span-9 space-y-12">
+      @if (service.isLoading()) {
+        <div class="flex flex-col items-center justify-center py-20 space-y-4">
+          <div class="roman-loader animate-spin"></div>
+          <!-- Using Tailwind's direct reference to CSS Custom Properties variable definition -->
+          <span
+            class="font-roman text-(--primary-color) tracking-widest text-sm uppercase"
+            >Loading Oracle Records...</span
+          >
+        </div>
+      } @else if (service.error()) {
+        <div
+          class="error-panel p-8 text-center rounded bg-(--primary-color)/10 border border-(--primary-color)/30"
+        >
+          <h3 class="text-red-800 font-roman mb-2">Oracle Disconnected</h3>
+          <p class="text-sm opacity-80 mb-4">{{ service.error() }}</p>
+          <button (click)="loadData()" class="btn-classic">
+            Retry Invocation
+          </button>
+        </div>
+      } @else {
+        @for (patron of service.patrons(); track patron.uid) {
+          <anno-deity-card [patron]="patron" />
+        }
+      }
+    </div>
+  </div>
+</div>
