@@ -3,6 +3,10 @@
 }
 
 .patron-tabs {
+  ::ng-deep .mat-mdc-tab-header-pagination-chevron {
+    border-color: var(--background-color) !important;
+  }
+
   ::ng-deep .mat-mdc-tab-label-container {
     border-width: 0 !important;
   }
