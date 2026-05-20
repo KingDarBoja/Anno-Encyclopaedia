@@ -143,16 +143,51 @@ export class PatronsService {
           console.error('Patrons Service Error: ', err);
           return of([]);
         }),
-        finalize(() => this._loading.set(false))
+        finalize(() => this._loading.set(false)),
       )
       .subscribe();
   }
 
   private mapToViewModel(rawMap: PatronRegistry): PatronViewModel[] {
-    return Object.entries(rawMap).map(([id, rawRow]) => ({
-      ...rawRow,
-      id,
-      slug: rawRow.title.toLowerCase().replace(/\s+/g, '-'),
-    }));
+    return Object.entries(rawMap).map(([id, rawRow]) => {
+      // Process local_effects
+      const processedEffects = rawRow.local_effects.map((effect) => {
+        const updatedChains: Record<string, AffectedChainInfo> = {};
+        const seenChainTexts = new Set<string>(); // Tracker for unique chains
+
+        Object.entries(effect.affected_chains).forEach(([key, chain]) => {
+          // 1. Deduplicate by chain text
+          const chainText = chain.text.trim().toLowerCase();
+          if (seenChainTexts.has(chainText)) return; // Skip this chain if text exists
+          seenChainTexts.add(chainText);
+
+          // 2. Deduplicate assets within THIS specific chain
+          const seenAssetNames = new Set<string>();
+          const uniqueAssets = chain.production_assets.filter((asset) => {
+            const text = asset.text.trim().toLowerCase();
+            if (seenAssetNames.has(text)) return false;
+            seenAssetNames.add(text);
+            return true;
+          });
+
+          updatedChains[key] = {
+            ...chain,
+            production_assets: uniqueAssets,
+          };
+        });
+
+        return {
+          ...effect,
+          affected_chains: updatedChains,
+        };
+      });
+
+      return {
+        ...rawRow,
+        id,
+        local_effects: processedEffects,
+        slug: rawRow.title.toLowerCase().replace(/\s+/g, '-'),
+      };
+    });
   }
 }
