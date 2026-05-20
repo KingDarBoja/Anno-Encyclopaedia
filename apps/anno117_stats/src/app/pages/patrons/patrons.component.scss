@@ -1,77 +1,119 @@
 .patrons-workspace {
-    background-color: var(--background-color);
+  background-color: var(--background-color);
+}
+
+.patron-tabs {
+  ::ng-deep .mat-mdc-tab-label-container {
+    border-width: 0 !important;
+  }
+
+  ::ng-deep .mat-mdc-tab-header {
+    background-color: var(--secondary-color);
+    // border-bottom: 2px solid color-mix(in srgb, var(--primary-color), transparent 50%);
+  }
+
+  ::ng-deep .mat-mdc-tab {
+    opacity: 0.6;
+    text-transform: uppercase;
+    font-family: var(--font-primary);
+
+    &.mdc-tab--active {
+      color: var(--background-color);
+      font-weight: bold;
+      opacity: 1;
+    }
+  }
+
+  ::ng-deep .mat-mdc-tab .mdc-tab__text-label {
+    color: var(--background-color) !important;
+    font-weight: 600;
+  }
+
+  ::ng-deep .mat-mdc-tab .mdc-tab-indicator__content--underline {
+    border-color: var(--accent-color) !important;
+    border-top-width: 4px !important; // Thicker for better visibility
+  }
 }
 
 /* Sticky Pillar Side Navigation Panel */
 .sticky-pillar-index {
-    background-color: var(--secondary-color);
-    border: 1px solid rgba(95, 3, 46, 0.15);
-    border-radius: 4px;
-    padding: 1.5rem;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  background-color: var(--secondary-color);
+  border: 1px solid rgba(95, 3, 46, 0.15);
+  border-radius: 4px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
 }
 
 .pillar-header {
-    font-family: var(--font-primary);
-    text-transform: uppercase;
-    font-size: 0.9rem;
-    letter-spacing: 0.08em;
-    color: var(--background-color);
-    border-bottom: 2px solid color-mix(in srgb, var(--background-color), transparent 80%);
-    padding-bottom: 8px;
-    margin: 0;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  letter-spacing: 0.08em;
+  color: var(--background-color);
+  border-bottom: 2px solid color-mix(in srgb, var(--background-color), transparent 80%);
+  padding-bottom: 8px;
+  margin: 0;
 }
 
 .pillar-nav-link {
-    padding: 0.6rem 0.8rem;
-    border-radius: 3px;
-    color: rgba(235, 210, 184, 0.6);
-    transition: all 0.25s ease;
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-family: var(--font-primary);
-    text-transform: uppercase;
-    font-size: 0.82rem;
-    letter-spacing: 0.05em;
+  padding: 0.6rem 0.8rem;
+  border-radius: 3px;
+  color: rgba(235, 210, 184, 0.6);
+  transition: all 0.25s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-primary);
+  text-transform: uppercase;
+  font-size: 0.82rem;
+  letter-spacing: 0.05em;
 
-    &:hover,
-    &:focus {
-        background: rgba(95, 3, 46, 0.25);
-        color: var(--background-color);
-        transform: translateX(4px);
-        outline: none;
-    }
+  &:hover,
+  &:focus {
+    background: rgba(95, 3, 46, 0.25);
+    color: var(--background-color);
+    transform: translateX(4px);
+    outline: none;
+  }
 
-    &:focus-visible {
-        outline: 2px solid var(--accent-color);
-        outline-offset: -2px;
-    }
+  &:focus-visible {
+    outline: 2px solid var(--accent-color);
+    outline-offset: -2px;
+  }
 }
 
 /* Roman Spinner Loader */
 .roman-loader {
-    width: 48px;
-    height: 48px;
-    border: 4px solid var(--primary-color);
-    border-bottom-color: transparent;
-    border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  border: 4px solid var(--primary-color);
+  border-bottom-color: transparent;
+  border-radius: 50%;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .btn-classic {
-    background-color: var(--primary-color);
-    color: var(--background-color);
-    border: none;
-    padding: 0.5rem 1.5rem;
-    border-radius: 2px;
-    font-family: var(--font-primary);
-    font-size: 0.8rem;
-    text-transform: uppercase;
-    cursor: pointer;
-    letter-spacing: 0.05em;
-    transition: background-color 0.2s;
+  background-color: var(--primary-color);
+  color: var(--background-color);
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 2px;
+  font-family: var(--font-primary);
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  cursor: pointer;
+  letter-spacing: 0.05em;
+  transition: background-color 0.2s;
 
-    &:hover {
-        background-color: var(--secondary-color);
-    }
+  &:hover {
+    background-color: var(--secondary-color);
+  }
 }

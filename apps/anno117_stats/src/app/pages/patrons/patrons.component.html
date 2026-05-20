@@ -1,8 +1,6 @@
 <div class="patrons-workspace min-h-screen pb-16">
   <!-- Premium Title Banner Section -->
-  <div
-    class="relative pt-16 pb-4 flex flex-col items-center justify-center overflow-hidden"
-  >
+  <div class="relative pt-16 pb-4 text-center">
     <div class="absolute inset-0 pattern-overlay opacity-5"></div>
     <div class="text-center z-10 px-4">
       <h1 class="page-main-title select-none">Patrons</h1>
@@ -15,11 +13,10 @@
   </div>
 
   <!-- Main Layout Structure: Sticky Index & Cards Loop -->
-  <div
-    class="max-w-7xl mx-auto px-4 md:px-8 mt-8 grid grid-cols-1 xl:grid-cols-12 gap-8"
-  >
+  <div class="max-w-7xl mx-auto px-4 md:px-8 mt-8">
     <!-- Left Side: Sticky Navigation Index Pillar -->
-    <div class="xl:col-span-3 hidden xl:block">
+
+    <!-- <div class="xl:col-span-3 hidden xl:block">
       <div class="sticky top-6 sticky-pillar-index">
         <h4 class="pillar-header">Pantheons</h4>
         <nav class="mt-4" aria-label="Pantheons navigation">
@@ -48,14 +45,13 @@
           </ul>
         </nav>
       </div>
-    </div>
+    </div> -->
 
     <!-- Right Side: Content Deities Cards Loop -->
     <div class="xl:col-span-9 space-y-12">
       @if (service.isLoading()) {
         <div class="flex flex-col items-center justify-center py-20 space-y-4">
           <div class="roman-loader animate-spin"></div>
-          <!-- Using Tailwind's direct reference to CSS Custom Properties variable definition -->
           <span
             class="font-roman text-(--primary-color) tracking-widest text-sm uppercase"
             >Loading Oracle Records...</span
@@ -72,9 +68,32 @@
           </button>
         </div>
       } @else {
-        @for (patron of service.patrons(); track patron.uid) {
-          <anno-deity-card [patron]="patron" />
-        }
+        <mat-tab-group
+          [selectedIndex]="activeTabIndex()"
+          (selectedIndexChange)="onTabChange($event)"
+          class="patron-tabs"
+        >
+          @for (p of service.patrons(); track p.uid) {
+            <mat-tab>
+              <ng-template mat-tab-label>
+                <div class="flex items-center gap-2">
+                  @if (p.icon_url) {
+                    <img
+                      [src]="p.icon_url"
+                      class="w-5 h-5 object-contain"
+                      [alt]="p.title"
+                    />
+                  }
+                  <span class="hidden md:inline">{{ p.title }}</span>
+                </div>
+              </ng-template>
+
+              <div class="mt-8">
+                <anno-deity-card [patron]="p"></anno-deity-card>
+              </div>
+            </mat-tab>
+          }
+        </mat-tab-group>
       }
     </div>
   </div>

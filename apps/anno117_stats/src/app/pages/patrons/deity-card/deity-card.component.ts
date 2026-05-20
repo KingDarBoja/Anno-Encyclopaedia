@@ -4,15 +4,16 @@ import {
   signal,
   computed,
   ChangeDetectionStrategy,
-  inject, OnInit,
+  // inject,
+  // OnInit,
 } from '@angular/core';
 import {
   DecimalPipe,
   KeyValuePipe,
   NgTemplateOutlet,
-  ViewportScroller,
+  // ViewportScroller,
 } from '@angular/common';
-import { ActivatedRoute } from '@angular/router';
+// import { ActivatedRoute } from '@angular/router';
 
 import {
   AffectedChainInfo,
@@ -27,9 +28,9 @@ import {
   templateUrl: './deity-card.component.html',
   styleUrl: './deity-card.component.scss',
 })
-export class DeityCardComponent implements OnInit {
-  private route = inject(ActivatedRoute);
-  private scroller = inject(ViewportScroller);
+export class DeityCardComponent {
+  // private route = inject(ActivatedRoute);
+  // private scroller = inject(ViewportScroller);
 
   patron = input.required<PatronViewModel>();
 
@@ -82,16 +83,16 @@ export class DeityCardComponent implements OnInit {
     return activeBonus;
   });
 
-  ngOnInit() {
-    this.route.fragment.subscribe(fragment => {
-      // Check if this card's ID matches the fragment
-      if (fragment === `patron-${this.patron().uid}`) {
-        setTimeout(() => {
-          this.scroller.scrollToAnchor(fragment);
-        }, 100); // Small delay to ensure DOM is rendered
-      }
-    });
-  }
+  // ngOnInit() {
+  //   this.route.fragment.subscribe(fragment => {
+  //     // Check if this card's ID matches the fragment
+  //     if (fragment === `patron-${this.patron().uid}`) {
+  //       setTimeout(() => {
+  //         this.scroller.scrollToAnchor(fragment);
+  //       }, 100); // Small delay to ensure DOM is rendered
+  //     }
+  //   });
+  // }
 
   // Timeline bar filled calculated ratio representation
   progressPercentage = computed(() => {

@@ -76,80 +76,95 @@
                     "3258": {
                         "name": "Production Chain Roman Sardines",
                         "text": "Sardines",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sardines_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2955,
                                 "name": "Production Coast Roman Sardines",
-                                "text": "Fishing Hut"
+                                "text": "Fishing Hut",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sardines_goods_0.webp"
                             }
                         ]
                     },
                     "6578": {
                         "name": "Production Chain Roman Celtic Cockles",
                         "text": "Cockles",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cockles_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5278,
                                 "name": "Production Coast Celtic Cockles",
-                                "text": "Cockle Picker"
+                                "text": "Cockle Picker",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cockles_goods_0.webp"
                             }
                         ]
                     },
                     "3262": {
                         "name": "Production Chain Roman Garum",
                         "text": "Garum",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_garum_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2956,
                                 "name": "Production Coast Roman Mackerels",
-                                "text": "Scomber's Shack"
+                                "text": "Scomber's Shack",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
                             },
                             {
                                 "guid": 2957,
                                 "name": "Production Coast Roman Salt",
-                                "text": "Salt Ponds"
+                                "text": "Salt Ponds",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_salt_goods_0.webp"
                             },
                             {
                                 "guid": 3185,
                                 "name": "Production Food Roman Garum",
-                                "text": "Garum Works"
+                                "text": "Garum Works",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_garum_goods_0.webp"
                             }
                         ]
                     },
                     "3263": {
                         "name": "Production Chain Roman Oysters with Caviar",
                         "text": "Oysters with Caviar",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_and_caviar_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 8586,
                                 "name": "Production Coast Roman Oysters",
-                                "text": "Oyster Bed"
+                                "text": "Oyster Bed",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
                             },
                             {
                                 "guid": 2971,
                                 "name": "Production River Roman Sturgeon",
-                                "text": "Sturgeon Hatchery"
+                                "text": "Sturgeon Hatchery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
                             },
                             {
                                 "guid": 8893,
                                 "name": "Production Ingredient Roman Caviar",
-                                "text": "Fish Gutter"
+                                "text": "Fish Gutter",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_caviar_goods_0.webp"
                             },
                             {
                                 "guid": 3186,
                                 "name": "Production Food Roman Oysters with Caviar",
-                                "text": "Epicure of Water"
+                                "text": "Epicure of Water",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_and_caviar_goods_0.webp"
                             }
                         ]
                     },
                     "8431": {
                         "name": "Production Coast Roman Celtic Sea Shells",
                         "text": "Shell Gatherer",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 8431,
                                 "name": "Production Coast Roman Celtic Sea Shells",
-                                "text": "Shell Gatherer"
+                                "text": "Shell Gatherer",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
                             }
                         ]
                     }
@@ -201,11 +216,13 @@
             "shrines": [
                 {
                     "guid": 81068,
-                    "title": "Shrine of Neptune"
+                    "title": "Shrine of Neptune",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_neptune_0.webp"
                 },
                 {
                     "guid": 82488,
-                    "title": "Shrine of Neptune"
+                    "title": "Shrine of Neptune",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_neptune_0.webp"
                 }
             ]
         },
@@ -297,222 +314,265 @@
                     "3291": {
                         "name": "Production Chain Roman Togas",
                         "text": "Togas",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_togas_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 3191,
                                 "name": "Production Fashion Roman Togas",
-                                "text": "Loom Weavery"
+                                "text": "Loom Weavery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_togas_goods_0.webp"
                             },
                             {
                                 "guid": 3079,
                                 "name": "Production Crafts Roman Cloth",
-                                "text": "Weaver"
+                                "text": "Weaver",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloth_goods_0.webp"
                             },
                             {
                                 "guid": 2669,
                                 "name": "Production Field Roman Flax",
-                                "text": "Flax Farm"
+                                "text": "Flax Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
                             },
                             {
                                 "guid": 8580,
                                 "name": "Production Coast Roman Sea Snails",
-                                "text": "Snailery"
+                                "text": "Snailery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
                             },
                             {
                                 "guid": 2999,
                                 "name": "Production Chemical Roman Tyrian Purple",
-                                "text": "Dye Works"
+                                "text": "Dye Works",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tyrian_purple_goods_0.webp"
                             },
                             {
                                 "guid": 5971,
                                 "name": "Production Field Roman Celtic Flax",
-                                "text": "Flax Farm"
+                                "text": "Flax Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
                             }
                         ]
                     },
                     "6672": {
                         "name": "Production Chain Roman Celtic Togas",
                         "text": "Togas",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_togas_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 3191,
                                 "name": "Production Fashion Roman Togas",
-                                "text": "Loom Weavery"
+                                "text": "Loom Weavery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_togas_goods_0.webp"
                             },
                             {
                                 "guid": 3079,
                                 "name": "Production Crafts Roman Cloth",
-                                "text": "Weaver"
+                                "text": "Weaver",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloth_goods_0.webp"
                             },
                             {
                                 "guid": 5971,
                                 "name": "Production Field Roman Celtic Flax",
-                                "text": "Flax Farm"
+                                "text": "Flax Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
                             },
                             {
                                 "guid": 8580,
                                 "name": "Production Coast Roman Sea Snails",
-                                "text": "Snailery"
+                                "text": "Snailery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
                             },
                             {
                                 "guid": 2999,
                                 "name": "Production Chemical Roman Tyrian Purple",
-                                "text": "Dye Works"
+                                "text": "Dye Works",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tyrian_purple_goods_0.webp"
                             },
                             {
                                 "guid": 2669,
                                 "name": "Production Field Roman Flax",
-                                "text": "Flax Farm"
+                                "text": "Flax Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
                             }
                         ]
                     },
                     "3264": {
                         "name": "Production Chain Roman Tunics",
                         "text": "Tunics",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 3187,
                                 "name": "Production Fashion Roman Tunics",
-                                "text": "Spinner"
+                                "text": "Spinner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp"
                             },
                             {
                                 "guid": 31750,
                                 "name": "Production Field Roman Hemp",
-                                "text": "Hemp Farm"
+                                "text": "Hemp Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp"
                             },
                             {
                                 "guid": 5958,
                                 "name": "Production Fashion Roman Celtic Tunics",
-                                "text": "Spinner"
+                                "text": "Spinner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp"
                             },
                             {
                                 "guid": 31762,
                                 "name": "Production Field Roman Celtic Hemp",
-                                "text": "Hemp Farm"
+                                "text": "Hemp Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp"
                             }
                         ]
                     },
                     "6662": {
                         "name": "Production Chain Roman Celtic Tunics",
                         "text": "Tunics",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5958,
                                 "name": "Production Fashion Roman Celtic Tunics",
-                                "text": "Spinner"
+                                "text": "Spinner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp"
                             },
                             {
                                 "guid": 31762,
                                 "name": "Production Field Roman Celtic Hemp",
-                                "text": "Hemp Farm"
+                                "text": "Hemp Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp"
                             },
                             {
                                 "guid": 3187,
                                 "name": "Production Fashion Roman Tunics",
-                                "text": "Spinner"
+                                "text": "Spinner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp"
                             },
                             {
                                 "guid": 31750,
                                 "name": "Production Field Roman Hemp",
-                                "text": "Hemp Farm"
+                                "text": "Hemp Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp"
                             }
                         ]
                     },
                     "6661": {
                         "name": "Production Chain Celtic Trousers",
                         "text": "Trousers",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_trouser_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5608,
                                 "name": "Production Fashion Celtic Trousers",
-                                "text": "Hosier"
+                                "text": "Hosier",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_trouser_goods_0.webp"
                             },
                             {
                                 "guid": 5973,
                                 "name": "Production Pasture Celtic Sheep",
-                                "text": "Sheep Farm"
+                                "text": "Sheep Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
                             },
                             {
                                 "guid": 2800,
                                 "name": "Production Field Celtic Dye Plants",
-                                "text": "Weld Crop"
+                                "text": "Weld Crop",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
                             },
                             {
                                 "guid": 2786,
                                 "name": "Production Pasture Roman Sheep",
-                                "text": "Sheep Farm"
+                                "text": "Sheep Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
                             }
                         ]
                     },
                     "31808": {
                         "name": "Production Chain Roman Cloaks",
                         "text": "Cloaks",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloak_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5614,
                                 "name": "Production Fashion Celtic Cloak",
-                                "text": "Birrus Stitcher"
+                                "text": "Birrus Stitcher",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloak_goods_0.webp"
                             },
                             {
                                 "guid": 2786,
                                 "name": "Production Pasture Roman Sheep",
-                                "text": "Sheep Farm"
+                                "text": "Sheep Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
                             },
                             {
                                 "guid": 2800,
                                 "name": "Production Field Celtic Dye Plants",
-                                "text": "Weld Crop"
+                                "text": "Weld Crop",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
                             },
                             {
                                 "guid": 5290,
                                 "name": "Production Mountain Celtic Copper Ore",
-                                "text": "Copper Mine"
+                                "text": "Copper Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
                             },
                             {
                                 "guid": 5469,
                                 "name": "Production Chemical Celtic Green",
-                                "text": "Greenhands"
+                                "text": "Greenhands",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_celtic_green_goods_0.webp"
                             },
                             {
                                 "guid": 5973,
                                 "name": "Production Pasture Celtic Sheep",
-                                "text": "Sheep Farm"
+                                "text": "Sheep Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
                             }
                         ]
                     },
                     "6665": {
                         "name": "Production Chain Celtic Cloaks",
                         "text": "Cloaks",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloak_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5614,
                                 "name": "Production Fashion Celtic Cloak",
-                                "text": "Birrus Stitcher"
+                                "text": "Birrus Stitcher",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloak_goods_0.webp"
                             },
                             {
                                 "guid": 5973,
                                 "name": "Production Pasture Celtic Sheep",
-                                "text": "Sheep Farm"
+                                "text": "Sheep Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
                             },
                             {
                                 "guid": 2800,
                                 "name": "Production Field Celtic Dye Plants",
-                                "text": "Weld Crop"
+                                "text": "Weld Crop",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
                             },
                             {
                                 "guid": 5290,
                                 "name": "Production Mountain Celtic Copper Ore",
-                                "text": "Copper Mine"
+                                "text": "Copper Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
                             },
                             {
                                 "guid": 5469,
                                 "name": "Production Chemical Celtic Green",
-                                "text": "Greenhands"
+                                "text": "Greenhands",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_celtic_green_goods_0.webp"
                             },
                             {
                                 "guid": 2786,
                                 "name": "Production Pasture Roman Sheep",
-                                "text": "Sheep Farm"
+                                "text": "Sheep Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
                             }
                         ]
                     }
@@ -564,11 +624,13 @@
             "shrines": [
                 {
                     "guid": 81069,
-                    "title": "Shrine of Minerva"
+                    "title": "Shrine of Minerva",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_minerva_0.webp"
                 },
                 {
                     "guid": 82489,
-                    "title": "Shrine of Minerva"
+                    "title": "Shrine of Minerva",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_minerva_0.webp"
                 }
             ]
         },
@@ -660,213 +722,254 @@
                     "3259": {
                         "name": "Production Chain Roman Porridge",
                         "text": "Porridge",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_porridge_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2200,
                                 "name": "Production Field Roman Oats",
-                                "text": "Oat Farm"
+                                "text": "Oat Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oats_goods_0.webp"
                             },
                             {
                                 "guid": 3171,
                                 "name": "Production Food Roman Porridge",
-                                "text": "Porridge Stand"
+                                "text": "Porridge Stand",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_porridge_goods_0.webp"
                             }
                         ]
                     },
                     "3260": {
                         "name": "Production Chain Roman Bread",
                         "text": "Bread",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2693,
                                 "name": "Production Field Roman Wheat",
-                                "text": "Wheat Farm"
+                                "text": "Wheat Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp"
                             },
                             {
                                 "guid": 3075,
                                 "name": "Production Ingredient Roman Flour",
-                                "text": "Grain Mill"
+                                "text": "Grain Mill",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp"
                             },
                             {
                                 "guid": 3174,
                                 "name": "Production Food Roman Bread",
-                                "text": "Bakery"
+                                "text": "Bakery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp"
                             },
                             {
                                 "guid": 5972,
                                 "name": "Production Field Roman Celtic Wheat",
-                                "text": "Wheat Farm"
+                                "text": "Wheat Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp"
                             },
                             {
                                 "guid": 5967,
                                 "name": "Production Ingredient Roman Celtic Flour",
-                                "text": "Donkey Mill"
+                                "text": "Donkey Mill",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp"
                             },
                             {
                                 "guid": 5960,
                                 "name": "Production Food Roman Celtic Bread",
-                                "text": "Bakery"
+                                "text": "Bakery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp"
                             }
                         ]
                     },
                     "6582": {
                         "name": "Production Chain Roman Celtic Bread",
                         "text": "Bread",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5972,
                                 "name": "Production Field Roman Celtic Wheat",
-                                "text": "Wheat Farm"
+                                "text": "Wheat Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp"
                             },
                             {
                                 "guid": 5967,
                                 "name": "Production Ingredient Roman Celtic Flour",
-                                "text": "Donkey Mill"
+                                "text": "Donkey Mill",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp"
                             },
                             {
                                 "guid": 5960,
                                 "name": "Production Food Roman Celtic Bread",
-                                "text": "Bakery"
+                                "text": "Bakery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp"
                             },
                             {
                                 "guid": 2693,
                                 "name": "Production Field Roman Wheat",
-                                "text": "Wheat Farm"
+                                "text": "Wheat Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp"
                             },
                             {
                                 "guid": 3075,
                                 "name": "Production Ingredient Roman Flour",
-                                "text": "Grain Mill"
+                                "text": "Grain Mill",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp"
                             },
                             {
                                 "guid": 3174,
                                 "name": "Production Food Roman Bread",
-                                "text": "Bakery"
+                                "text": "Bakery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp"
                             }
                         ]
                     },
                     "3261": {
                         "name": "Production Chain Roman Wine",
                         "text": "Wine",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2694,
                                 "name": "Production Field Roman Grapes",
-                                "text": "Vineyard"
+                                "text": "Vineyard",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
                             },
                             {
                                 "guid": 3177,
                                 "name": "Production Food Roman Wine",
-                                "text": "Vintner"
+                                "text": "Vintner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp"
                             },
                             {
                                 "guid": 2795,
                                 "name": "Production Meadow Roman Honycombs",
-                                "text": "Apiary"
+                                "text": "Apiary",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp"
                             },
                             {
                                 "guid": 23723,
                                 "name": "Production Field Roman Celtic Grapes",
-                                "text": "Vineyard"
+                                "text": "Vineyard",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
                             },
                             {
                                 "guid": 23753,
                                 "name": "Production Food Roman Celtic Wine",
-                                "text": "Vintner"
+                                "text": "Vintner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp"
                             },
                             {
                                 "guid": 8427,
                                 "name": "Production Meadow Roman Celtic Honycombs",
-                                "text": "Apiary"
+                                "text": "Apiary",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp"
                             }
                         ]
                     },
                     "6668": {
                         "name": "Production Chain Roman Celtic Wine",
                         "text": "Wine",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 23723,
                                 "name": "Production Field Roman Celtic Grapes",
-                                "text": "Vineyard"
+                                "text": "Vineyard",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
                             },
                             {
                                 "guid": 23753,
                                 "name": "Production Food Roman Celtic Wine",
-                                "text": "Vintner"
+                                "text": "Vintner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp"
                             },
                             {
                                 "guid": 8427,
                                 "name": "Production Meadow Roman Celtic Honycombs",
-                                "text": "Apiary"
+                                "text": "Apiary",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp"
                             },
                             {
                                 "guid": 2694,
                                 "name": "Production Field Roman Grapes",
-                                "text": "Vineyard"
+                                "text": "Vineyard",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
                             },
                             {
                                 "guid": 3177,
                                 "name": "Production Food Roman Wine",
-                                "text": "Vintner"
+                                "text": "Vintner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp"
                             },
                             {
                                 "guid": 2795,
                                 "name": "Production Meadow Roman Honycombs",
-                                "text": "Apiary"
+                                "text": "Apiary",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp"
                             }
                         ]
                     },
                     "31806": {
                         "name": "Production Chain Roman Olive Oil",
                         "text": "Olive Oil",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olive_oil_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2699,
                                 "name": "Production Field Roman Olives",
-                                "text": "Olive Grower"
+                                "text": "Olive Grower",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
                             },
                             {
                                 "guid": 4831,
                                 "name": "Production Household Roman Olive Oil",
-                                "text": "Olive Press"
+                                "text": "Olive Press",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olive_oil_goods_0.webp"
                             }
                         ]
                     },
                     "55972": {
                         "name": "Production Chain Roman Celtic Olive Oil",
                         "text": "Olive Oil",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olive_oil_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2699,
                                 "name": "Production Field Roman Olives",
-                                "text": "Olive Grower"
+                                "text": "Olive Grower",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
                             },
                             {
                                 "guid": 4831,
                                 "name": "Production Household Roman Olive Oil",
-                                "text": "Olive Press"
+                                "text": "Olive Press",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olive_oil_goods_0.webp"
                             }
                         ]
                     },
                     "6580": {
                         "name": "Production Chain Celtic Beer",
                         "text": "Beer",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beer_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2799,
                                 "name": "Production Field Celtic Barley",
-                                "text": "Barley Farm"
+                                "text": "Barley Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
                             },
                             {
                                 "guid": 5474,
                                 "name": "Production Ingredient Celtic Malt",
-                                "text": "Malthouse"
+                                "text": "Malthouse",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_malt_goods_0.webp"
                             },
                             {
                                 "guid": 5570,
                                 "name": "Production Food Celtic Beer",
-                                "text": "Brewery"
+                                "text": "Brewery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beer_goods_0.webp"
                             }
                         ]
                     }
@@ -918,11 +1021,13 @@
             "shrines": [
                 {
                     "guid": 81021,
-                    "title": "Shrine of Ceres"
+                    "title": "Shrine of Ceres",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_ceres_0.webp"
                 },
                 {
                     "guid": 82487,
-                    "title": "Shrine of Ceres"
+                    "title": "Shrine of Ceres",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_ceres_0.webp"
                 }
             ]
         },
@@ -1014,128 +1119,152 @@
                     "3222": {
                         "name": "Production Chain Roman Timber",
                         "text": "Timber",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2878,
                                 "name": "Production Forest Roman Wood",
-                                "text": "Woodcutter"
+                                "text": "Woodcutter",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp"
                             },
                             {
                                 "guid": 3089,
                                 "name": "Production Construction Roman Timber",
-                                "text": "Sawmill"
+                                "text": "Sawmill",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp"
                             },
                             {
                                 "guid": 5976,
                                 "name": "Production Forest Roman Celtic Wood",
-                                "text": "Woodcutter"
+                                "text": "Woodcutter",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp"
                             },
                             {
                                 "guid": 5945,
                                 "name": "Production Construction Roman Celtic Timber",
-                                "text": "Sawmill"
+                                "text": "Sawmill",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp"
                             }
                         ]
                     },
                     "6534": {
                         "name": "Production Chain Roman Celtic Timber",
                         "text": "Timber",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5976,
                                 "name": "Production Forest Roman Celtic Wood",
-                                "text": "Woodcutter"
+                                "text": "Woodcutter",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp"
                             },
                             {
                                 "guid": 5945,
                                 "name": "Production Construction Roman Celtic Timber",
-                                "text": "Sawmill"
+                                "text": "Sawmill",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp"
                             },
                             {
                                 "guid": 2878,
                                 "name": "Production Forest Roman Wood",
-                                "text": "Woodcutter"
+                                "text": "Woodcutter",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp"
                             },
                             {
                                 "guid": 3089,
                                 "name": "Production Construction Roman Timber",
-                                "text": "Sawmill"
+                                "text": "Sawmill",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp"
                             }
                         ]
                     },
                     "6579": {
                         "name": "Production Chain Celtic Eels",
                         "text": "Smoked Eels",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_eels_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5299,
                                 "name": "Production Marsh Roman Celtic Eels",
-                                "text": "Eel Grabber"
+                                "text": "Eel Grabber",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_eels_goods_0.webp"
                             }
                         ]
                     },
                     "6570": {
                         "name": "Production Chain Celtic Wattle & Daub",
                         "text": "Wattle & Daub",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wattle_daub_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5849,
                                 "name": "Production Marsh Celtic Reed",
-                                "text": "Reed Gatherer"
+                                "text": "Reed Gatherer",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp"
                             },
                             {
                                 "guid": 5848,
                                 "name": "Production Marsh Celtic Mud",
-                                "text": "Mud Drier"
+                                "text": "Mud Drier",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp"
                             },
                             {
                                 "guid": 5935,
                                 "name": "Production Construction Celtic Wattle and Daub",
-                                "text": "Labourer's Yard"
+                                "text": "Labourer's Yard",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wattle_daub_goods_0.webp"
                             }
                         ]
                     },
                     "31752": {
                         "name": "Production Forest Roman Resin",
                         "text": "Resin Tapper",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 31752,
                                 "name": "Production Forest Roman Resin",
-                                "text": "Resin Tapper"
+                                "text": "Resin Tapper",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
                             }
                         ]
                     },
                     "31761": {
                         "name": "Production Forest Roman Celtic Resin",
                         "text": "Resin Tapper",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 31761,
                                 "name": "Production Forest Roman Celtic Resin",
-                                "text": "Resin Tapper"
+                                "text": "Resin Tapper",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
                             }
                         ]
                     },
                     "5851": {
                         "name": "Production Marsh Roman Celtic Birds",
                         "text": "Bird Charmer",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5851,
                                 "name": "Production Marsh Roman Celtic Birds",
-                                "text": "Bird Charmer"
+                                "text": "Bird Charmer",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
                             }
                         ]
                     },
                     "31759": {
                         "name": "Production Marsh Celtic Beaver",
                         "text": "Beaver Trapper",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 31759,
                                 "name": "Production Marsh Celtic Beaver",
-                                "text": "Beaver Trapper"
+                                "text": "Beaver Trapper",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
                             }
                         ]
                     }
@@ -1187,11 +1316,13 @@
             "shrines": [
                 {
                     "guid": 81072,
-                    "title": "Shrine of Cernunnos"
+                    "title": "Shrine of Cernunnos",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_cernunnos_0.webp"
                 },
                 {
                     "guid": 82492,
-                    "title": "Shrine of Cernunnos"
+                    "title": "Shrine of Cernunnos",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_cernunnos_0.webp"
                 }
             ]
         },
@@ -1327,11 +1458,13 @@
             "shrines": [
                 {
                     "guid": 81070,
-                    "title": "Shrine of Mercury-Lugus"
+                    "title": "Shrine of Mercury-Lugus",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_mercury_0.webp"
                 },
                 {
                     "guid": 82490,
-                    "title": "Shrine of Mercury-Lugus"
+                    "title": "Shrine of Mercury-Lugus",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_mercury_0.webp"
                 }
             ]
         },
@@ -1423,181 +1556,216 @@
                     "13839": {
                         "name": "Production Chain Roman Armor",
                         "text": "Armour",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2793,
                                 "name": "Production Pasture Roman Pigs",
-                                "text": "Pig Farm"
+                                "text": "Pig Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp"
                             },
                             {
                                 "guid": 2918,
                                 "name": "Production Mountain Roman Iron Ore",
-                                "text": "Iron Mine"
+                                "text": "Iron Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
                             },
                             {
                                 "guid": 2957,
                                 "name": "Production Coast Roman Salt",
-                                "text": "Salt Ponds"
+                                "text": "Salt Ponds",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_salt_goods_0.webp"
                             },
                             {
                                 "guid": 3070,
                                 "name": "Production Heavy Roman Iron",
-                                "text": "Furnace"
+                                "text": "Furnace",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp"
                             },
                             {
                                 "guid": 2994,
                                 "name": "Production Chemical Roman Leather",
-                                "text": "Tannery"
+                                "text": "Tannery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp"
                             },
                             {
                                 "guid": 13808,
                                 "name": "Production Military Roman Armor",
-                                "text": "Armourer"
+                                "text": "Armourer",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp"
                             },
                             {
                                 "guid": 5974,
                                 "name": "Production Pasture Roman Celtic Pigs",
-                                "text": "Pig Farm"
+                                "text": "Pig Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp"
                             },
                             {
                                 "guid": 5982,
                                 "name": "Production Mountain Roman Celtic Iron Ore",
-                                "text": "Iron Mine"
+                                "text": "Iron Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
                             },
                             {
                                 "guid": 5969,
                                 "name": "Production Heavy Roman Celtic Iron",
-                                "text": "Furnace"
+                                "text": "Furnace",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp"
                             },
                             {
                                 "guid": 55945,
                                 "name": "Production Military Roman Celtic Armor",
-                                "text": "Armourer"
+                                "text": "Armourer",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp"
                             }
                         ]
                     },
                     "3290": {
                         "name": "Production Chain Roman Sandals",
                         "text": "Sandals",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sandals_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2793,
                                 "name": "Production Pasture Roman Pigs",
-                                "text": "Pig Farm"
+                                "text": "Pig Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp"
                             },
                             {
                                 "guid": 2957,
                                 "name": "Production Coast Roman Salt",
-                                "text": "Salt Ponds"
+                                "text": "Salt Ponds",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_salt_goods_0.webp"
                             },
                             {
                                 "guid": 2994,
                                 "name": "Production Chemical Roman Leather",
-                                "text": "Tannery"
+                                "text": "Tannery",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp"
                             },
                             {
                                 "guid": 3190,
                                 "name": "Production Fashion Roman Sandals",
-                                "text": "Sandal Maker"
+                                "text": "Sandal Maker",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sandals_goods_0.webp"
                             },
                             {
                                 "guid": 5974,
                                 "name": "Production Pasture Roman Celtic Pigs",
-                                "text": "Pig Farm"
+                                "text": "Pig Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp"
                             }
                         ]
                     },
                     "13889": {
                         "name": "Production Chain Roman Celtic Weapons",
                         "text": "Weapons",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5982,
                                 "name": "Production Mountain Roman Celtic Iron Ore",
-                                "text": "Iron Mine"
+                                "text": "Iron Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
                             },
                             {
                                 "guid": 5969,
                                 "name": "Production Heavy Roman Celtic Iron",
-                                "text": "Furnace"
+                                "text": "Furnace",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp"
                             },
                             {
                                 "guid": 5954,
                                 "name": "Production Military Roman Celtic Weapons",
-                                "text": "Weaponsmith"
+                                "text": "Weaponsmith",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp"
                             },
                             {
                                 "guid": 2918,
                                 "name": "Production Mountain Roman Iron Ore",
-                                "text": "Iron Mine"
+                                "text": "Iron Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
                             },
                             {
                                 "guid": 3070,
                                 "name": "Production Heavy Roman Iron",
-                                "text": "Furnace"
+                                "text": "Furnace",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp"
                             },
                             {
                                 "guid": 3170,
                                 "name": "Production Military Roman Weapons",
-                                "text": "Weaponsmith"
+                                "text": "Weaponsmith",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp"
                             }
                         ]
                     },
                     "3253": {
                         "name": "Production Chain Roman Weapons",
                         "text": "Weapons",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2918,
                                 "name": "Production Mountain Roman Iron Ore",
-                                "text": "Iron Mine"
+                                "text": "Iron Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
                             },
                             {
                                 "guid": 3070,
                                 "name": "Production Heavy Roman Iron",
-                                "text": "Furnace"
+                                "text": "Furnace",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp"
                             },
                             {
                                 "guid": 3170,
                                 "name": "Production Military Roman Weapons",
-                                "text": "Weaponsmith"
+                                "text": "Weaponsmith",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp"
                             },
                             {
                                 "guid": 5982,
                                 "name": "Production Mountain Roman Celtic Iron Ore",
-                                "text": "Iron Mine"
+                                "text": "Iron Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
                             },
                             {
                                 "guid": 5969,
                                 "name": "Production Heavy Roman Celtic Iron",
-                                "text": "Furnace"
+                                "text": "Furnace",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp"
                             },
                             {
                                 "guid": 5954,
                                 "name": "Production Military Roman Celtic Weapons",
-                                "text": "Weaponsmith"
+                                "text": "Weaponsmith",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp"
                             }
                         ]
                     },
                     "2880": {
                         "name": "Production Forest Roman Charcoal",
                         "text": "Charcoal Burner",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2880,
                                 "name": "Production Forest Roman Charcoal",
-                                "text": "Charcoal Burner"
+                                "text": "Charcoal Burner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp"
                             }
                         ]
                     },
                     "5977": {
                         "name": "Production Forest Roman Celtic Charcoal",
                         "text": "Charcoal Burner",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5977,
                                 "name": "Production Forest Roman Celtic Charcoal",
-                                "text": "Charcoal Burner"
+                                "text": "Charcoal Burner",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp"
                             }
                         ]
                     }
@@ -1649,11 +1817,13 @@
             "shrines": [
                 {
                     "guid": 80710,
-                    "title": "Shrine of Mars"
+                    "title": "Shrine of Mars",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_mars_0.webp"
                 },
                 {
                     "guid": 82486,
-                    "title": "Shrine of Mars"
+                    "title": "Shrine of Mars",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_mars_0.webp"
                 }
             ]
         },
@@ -1745,98 +1915,116 @@
                     "15510": {
                         "name": "Production Chain Roman Horses",
                         "text": "Stables",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2794,
                                 "name": "Production Pasture Roman Horses",
-                                "text": "Horse Breeder"
+                                "text": "Horse Breeder",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp"
                             },
                             {
                                 "guid": 15514,
                                 "name": "Production Pasture Roman Celtic Horses",
-                                "text": "Horse Breeder"
+                                "text": "Horse Breeder",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp"
                             }
                         ]
                     },
                     "15512": {
                         "name": "Production Chain Roman Celtic Horses",
                         "text": "Horses",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 15514,
                                 "name": "Production Pasture Roman Celtic Horses",
-                                "text": "Horse Breeder"
+                                "text": "Horse Breeder",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp"
                             },
                             {
                                 "guid": 2794,
                                 "name": "Production Pasture Roman Horses",
-                                "text": "Horse Breeder"
+                                "text": "Horse Breeder",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp"
                             }
                         ]
                     },
                     "2786": {
                         "name": "Production Pasture Roman Sheep",
                         "text": "Sheep Farm",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2786,
                                 "name": "Production Pasture Roman Sheep",
-                                "text": "Sheep Farm"
+                                "text": "Sheep Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
                             }
                         ]
                     },
                     "2793": {
                         "name": "Production Pasture Roman Pigs",
                         "text": "Pig Farm",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 2793,
                                 "name": "Production Pasture Roman Pigs",
-                                "text": "Pig Farm"
+                                "text": "Pig Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp"
                             }
                         ]
                     },
                     "5973": {
                         "name": "Production Pasture Celtic Sheep",
                         "text": "Sheep Farm",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5973,
                                 "name": "Production Pasture Celtic Sheep",
-                                "text": "Sheep Farm"
+                                "text": "Sheep Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
                             }
                         ]
                     },
                     "5974": {
                         "name": "Production Pasture Roman Celtic Pigs",
                         "text": "Pig Farm",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5974,
                                 "name": "Production Pasture Roman Celtic Pigs",
-                                "text": "Pig Farm"
+                                "text": "Pig Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp"
                             }
                         ]
                     },
                     "5975": {
                         "name": "Production Meadow Celtic Dartmoor Ponies",
                         "text": "Horsecatcher",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5975,
                                 "name": "Production Meadow Celtic Dartmoor Ponies",
-                                "text": "Horsecatcher"
+                                "text": "Horsecatcher",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
                             }
                         ]
                     },
                     "5847": {
                         "name": "Production Marsh Celtic Aurochs",
                         "text": "Ochs Farm",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5847,
                                 "name": "Production Marsh Celtic Aurochs",
-                                "text": "Ochs Farm"
+                                "text": "Ochs Farm",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp"
                             }
                         ]
                     }
@@ -1888,11 +2076,13 @@
             "shrines": [
                 {
                     "guid": 81071,
-                    "title": "Shrine of Epona"
+                    "title": "Shrine of Epona",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_epona_0.webp"
                 },
                 {
                     "guid": 82491,
-                    "title": "Shrine of Epona"
+                    "title": "Shrine of Epona",
+                    "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_epona_0.webp"
                 }
             ]
         },
@@ -1984,77 +2174,92 @@
                     "50225": {
                         "name": "Asset Pool Production All Mines",
                         "text": "Mines",
+                        "icon_url": "",
                         "production_assets": [
                             {
                                 "guid": 5290,
                                 "name": "Production Mountain Celtic Copper Ore",
-                                "text": "Copper Mine"
+                                "text": "Copper Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
                             },
                             {
                                 "guid": 5980,
                                 "name": "Production Mountain Roman Celtic Silver Ore",
-                                "text": "Silver Mine"
+                                "text": "Silver Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
                             },
                             {
                                 "guid": 5291,
                                 "name": "Production Mountain Celtic Tin Ore",
-                                "text": "Tin Mine"
+                                "text": "Tin Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
                             },
                             {
                                 "guid": 2918,
                                 "name": "Production Mountain Roman Iron Ore",
-                                "text": "Iron Mine"
+                                "text": "Iron Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
                             },
                             {
                                 "guid": 5982,
                                 "name": "Production Mountain Roman Celtic Iron Ore",
-                                "text": "Iron Mine"
+                                "text": "Iron Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
                             },
                             {
                                 "guid": 50280,
                                 "name": "Production Mountain Roman Gold Ore",
-                                "text": "Gold Mine"
+                                "text": "Gold Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_mine_goods_0.webp"
                             },
                             {
                                 "guid": 144810,
                                 "name": "Production Mountain Roman Coal",
-                                "text": "Coal Mine"
+                                "text": "Coal Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_mine_goods_0.webp"
                             },
                             {
                                 "guid": 144811,
                                 "name": "Production Mountain Roman Celtic Coal",
-                                "text": "Coal Mine"
+                                "text": "Coal Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_mine_goods_0.webp"
                             }
                         ]
                     },
                     "50608": {
                         "name": "Asset Pool Production All Quarries",
                         "text": "Quarries",
+                        "icon_url": "",
                         "production_assets": [
                             {
                                 "guid": 5978,
                                 "name": "Production Mountain Roman Celtic Limestone Blocks",
-                                "text": "Limestone Quarry"
+                                "text": "Limestone Quarry",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_limestone_goods_0.webp"
                             },
                             {
                                 "guid": 2916,
                                 "name": "Production Mountain Roman Limestone Blocks",
-                                "text": "Limestone Quarry"
+                                "text": "Limestone Quarry",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_limestone_goods_0.webp"
                             },
                             {
                                 "guid": 5295,
                                 "name": "Production Mountain Celtic Granite Blocks",
-                                "text": "Granite Quarry"
+                                "text": "Granite Quarry",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
                             },
                             {
                                 "guid": 2954,
                                 "name": "Production Mountain Roman Marble Blocks",
-                                "text": "Marble Quarry"
+                                "text": "Marble Quarry",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
                             },
                             {
                                 "guid": 2920,
                                 "name": "Production Mountain Roman Minerals",
-                                "text": "Mineral Quarry"
+                                "text": "Mineral Quarry",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
                             }
                         ]
                     }
@@ -2106,11 +2311,13 @@
             "shrines": [
                 {
                     "guid": 144812,
-                    "title": "Shrine of Vulcan"
+                    "title": "Shrine of Vulcan",
+                    "icon_url": "assets/icons/dlc01/icon_content/ornament/icon_3d_shrine_vulcanus_0.webp"
                 },
                 {
                     "guid": 144813,
-                    "title": "Shrine of Vulcan"
+                    "title": "Shrine of Vulcan",
+                    "icon_url": "assets/icons/dlc01/icon_content/ornament/icon_3d_shrine_vulcanus_0.webp"
                 }
             ]
         },
