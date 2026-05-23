@@ -48,29 +48,6 @@ export class PatronsPageComponent implements OnInit {
     this.service.fetchPatrons();
   }
 
-  /**
-   * Programmatic, smooth scrolling to classical deity monuments.
-   * Prevents router fragmentation in SPA environments.
-   */
-  // scrollToPatron(uid: number, event: Event) {
-  //   event.preventDefault();
-
-  //   // Update the URL fragment without reloading the page
-  //   this.router.navigate([], {
-  //     fragment: `patron-${uid}`,
-  //     replaceUrl: true,
-  //   });
-
-  //   // Scroll to the element
-  //   const targetElement = document.getElementById(`patron-${uid}`);
-  //   if (targetElement) {
-  //     targetElement.scrollIntoView({
-  //       behavior: 'smooth',
-  //       block: 'start',
-  //     });
-  //   }
-  // }
-
   /** Sync the URL fragment with the tab index if needed */
   onTabChange(index: number) {
     const patron = this.service.patrons()[index];

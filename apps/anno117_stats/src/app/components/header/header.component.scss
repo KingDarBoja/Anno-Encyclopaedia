@@ -9,6 +9,44 @@ header {
     height: 80px;
   }
 
+  .theme-toggle-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.5rem;
+    border-radius: 50%;
+    transition:
+      background-color 0.2s ease,
+      transform 0.2s ease;
+    z-index: 1010;
+
+    &:hover,
+    &:focus-visible {
+      background-color: rgba(255, 255, 255, 0.1);
+      outline: none;
+    }
+
+    &:active {
+      transform: scale(0.92);
+    }
+
+    mat-icon {
+      font-size: 24px;
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .theme-toggle-btn {
+      margin-left: 0.5rem;
+    }
+  }
+
   .main-nav {
     display: flex;
     align-items: center;
@@ -77,9 +115,7 @@ header {
               opacity: 1;
               font-weight: 700;
               border-left: 3px solid white; // Roman pillar-style indicator
-              padding-left: calc(
-                1.5em - 3px
-              ); // Offset padding so text doesn't jump
+              padding-left: calc(1.5em - 3px); // Offset padding so text doesn't jump
             }
           }
 
@@ -171,7 +207,7 @@ header {
 
       &::before,
       &::after {
-        content: '';
+        content: "";
         position: absolute;
         width: 24px;
         height: 2px;

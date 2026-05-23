@@ -37,6 +37,8 @@ export class DeityCardComponent {
   activeTab = signal<'local' | 'global'>('local');
   selectedDevotion = signal<number>(2500);
 
+  isLightMode = signal(false);
+
   // Computes the maximum milestone devotion assigned to simulated range inputs
   maxDevotion = computed(() => {
     const localEffect = this.patron().local_effects[0];

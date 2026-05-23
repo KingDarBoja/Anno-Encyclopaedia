@@ -1,10 +1,61 @@
 .patrons-workspace {
-  background-color: var(--background-color);
+  // ==========================================
+  // 1. LOCAL THEME TOKENS (Dark Mode / Default)
+  // ==========================================
+  --workspace-bg: var(--background-color);
+  --title-color:  var(--primary-color);
+  --subtitle-color: var(--text-color);
+  
+  --tab-header-bg: var(--secondary-color);
+  --tab-text-color: rgba(235, 210, 184, 0.6);
+  --tab-text-active: var(--background-color);
+  --tab-underline: var(--accent-color);
+  
+  --loader-color: var(--primary-color);
+  --error-bg: rgba(95, 3, 46, 0.1);
+  --error-border: rgba(95, 3, 46, 0.3);
+  --error-text: #ff6b6b;
+
+  // ==========================================
+  // 2. LOCAL THEME TOKENS (Light Mode Overrides)
+  // ==========================================
+  :host-context(.light-mode) & {
+    --workspace-bg: var(--background-color);
+    --title-color: var(--primary-color);
+    --subtitle-color: var(--text-color);
+    
+    --tab-header-bg: color-mix(in srgb, var(--background-color), var(--background-accent-color) 35%);
+    --tab-text-color: color-mix(in srgb, var(--text-color), transparent 35%);
+    --tab-text-active: var(--primary-color);
+    --tab-underline: var(--primary-color);
+    
+    --loader-color: var(--primary-color);
+    --error-bg: color-mix(in srgb, var(--primary-color), transparent 92%);
+    --error-border: color-mix(in srgb, var(--primary-color), transparent 80%);
+    --error-text: var(--primary-color);
+  }
+
+  // ==========================================
+  // 3. ARCHITECTURE APPLICATION
+  // ==========================================
+  background-color: var(--workspace-bg);
+  transition: background-color 0.3s ease;
+
+  .page-main-title {
+    color: var(--title-color);
+    transition: color 0.3s ease;
+  }
+
+  .page-main-subtitle {
+    color: var(--subtitle-color);
+    transition: color 0.3s ease;
+  }
 }
 
+/* Material Layout Selection Tabs Redesign */
 .patron-tabs {
   ::ng-deep .mat-mdc-tab-header-pagination-chevron {
-    border-color: var(--background-color) !important;
+    border-color: var(--tab-text-color) !important;
   }
 
   ::ng-deep .mat-mdc-tab-label-container {
@@ -12,101 +63,81 @@
   }
 
   ::ng-deep .mat-mdc-tab-header {
-    background-color: var(--secondary-color);
-    // border-bottom: 2px solid color-mix(in srgb, var(--primary-color), transparent 50%);
+    background-color: var(--tab-header-bg) !important;
+    border-radius: 4px 4px 0 0;
+    transition: background-color 0.3s ease;
   }
 
   ::ng-deep .mat-mdc-tab {
-    opacity: 0.6;
-    text-transform: uppercase;
     font-family: var(--font-primary);
+    text-transform: uppercase;
+    transition: opacity 0.2s ease;
+
+    .mdc-tab__text-label {
+      color: var(--tab-text-color) !important;
+      font-weight: 600;
+      transition: color 0.2s ease;
+    }
 
     &.mdc-tab--active {
-      color: var(--background-color);
-      font-weight: bold;
       opacity: 1;
+      
+      .mdc-tab__text-label {
+        color: var(--tab-text-active) !important;
+        font-weight: 700;
+      }
     }
   }
 
-  ::ng-deep .mat-mdc-tab .mdc-tab__text-label {
-    color: var(--background-color) !important;
-    font-weight: 600;
-  }
-
-  ::ng-deep .mat-mdc-tab .mdc-tab-indicator__content--underline {
-    border-color: var(--accent-color) !important;
-    border-top-width: 4px !important; // Thicker for better visibility
+  ::ng-deep .mat-mdc-tab-indicator__content--underline {
+    border-color: var(--tab-underline) !important;
+    border-top-width: 4px !important;
+    transition: border-color 0.3s ease;
   }
 }
 
-/* Sticky Pillar Side Navigation Panel */
-.sticky-pillar-index {
-  background-color: var(--secondary-color);
-  border: 1px solid rgba(95, 3, 46, 0.15);
-  border-radius: 4px;
-  padding: 1.5rem;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+/* Tab Mask Icon Silhouette Implementation */
+.patron-tab-icon {
+  // Uses currentColor to inherit exactly from the active/inactive tab color rules!
+  background-color: currentColor;
+  
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+  transition: background-color 0.2s ease;
 }
 
-.pillar-header {
-  font-family: var(--font-primary);
-  text-transform: uppercase;
-  font-size: 0.9rem;
-  letter-spacing: 0.08em;
-  color: var(--background-color);
-  border-bottom: 2px solid color-mix(in srgb, var(--background-color), transparent 80%);
-  padding-bottom: 8px;
-  margin: 0;
-}
-
-.pillar-nav-link {
-  padding: 0.6rem 0.8rem;
-  border-radius: 3px;
-  color: rgba(235, 210, 184, 0.6);
-  transition: all 0.25s ease;
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-family: var(--font-primary);
-  text-transform: uppercase;
-  font-size: 0.82rem;
-  letter-spacing: 0.05em;
-
-  &:hover,
-  &:focus {
-    background: rgba(95, 3, 46, 0.25);
-    color: var(--background-color);
-    transform: translateX(4px);
-    outline: none;
-  }
-
-  &:focus-visible {
-    outline: 2px solid var(--accent-color);
-    outline-offset: -2px;
-  }
-}
-
-/* Roman Spinner Loader */
+/* System Loader & Auxiliary Messaging Panels */
 .roman-loader {
   width: 48px;
   height: 48px;
-  border: 4px solid var(--primary-color);
+  border: 4px solid var(--loader-color);
   border-bottom-color: transparent;
   border-radius: 50%;
+  transition: border-color 0.3s ease;
 }
 
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
+.loader-text {
+  color: var(--loader-color);
+  transition: color 0.3s ease;
+}
+
+.error-panel {
+  background-color: var(--error-bg);
+  border: 1px solid var(--error-border);
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+
+  .text-error-title {
+    color: var(--error-text);
   }
 }
 
 .btn-classic {
-  background-color: var(--primary-color);
-  color: var(--background-color);
+  background-color: var(--loader-color);
+  color: var(--workspace-bg);
   border: none;
   padding: 0.5rem 1.5rem;
   border-radius: 2px;
@@ -115,9 +146,10 @@
   text-transform: uppercase;
   cursor: pointer;
   letter-spacing: 0.05em;
-  transition: background-color 0.2s;
+  transition: background-color 0.2s, color 0.2s;
 
   &:hover {
-    background-color: var(--secondary-color);
+    background-color: var(--tab-header-bg);
+    color: var(--tab-text-active);
   }
 }

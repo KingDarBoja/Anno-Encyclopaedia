@@ -16,53 +16,23 @@
   <div class="max-w-7xl mx-auto px-4 md:px-8 mt-8">
     <!-- Left Side: Sticky Navigation Index Pillar -->
 
-    <!-- <div class="xl:col-span-3 hidden xl:block">
-      <div class="sticky top-6 sticky-pillar-index">
-        <h4 class="pillar-header">Pantheons</h4>
-        <nav class="mt-4" aria-label="Pantheons navigation">
-          <ul class="space-y-2">
-            @for (p of service.patrons(); track p.uid) {
-              <li>
-                <button
-                  (click)="scrollToPatron(p.uid, $event)"
-                  (keydown.enter)="scrollToPatron(p.uid, $event)"
-                  (keydown.space)="scrollToPatron(p.uid, $event)"
-                  class="pillar-nav-link flex items-center space-x-3 w-full text-left"
-                  type="button"
-                  [attr.aria-label]="'Go to ' + p.title + ' details'"
-                >
-                  @if (p.icon_url) {
-                    <img
-                      [src]="p.icon_url"
-                      [alt]="p.title + ' small icon'"
-                      class="w-5 h-5 object-contain"
-                    />
-                  }
-                  <span class="pillar-name">{{ p.title }}</span>
-                </button>
-              </li>
-            }
-          </ul>
-        </nav>
-      </div>
-    </div> -->
-
     <!-- Right Side: Content Deities Cards Loop -->
     <div class="xl:col-span-9 space-y-12">
       @if (service.isLoading()) {
         <div class="flex flex-col items-center justify-center py-20 space-y-4">
           <div class="roman-loader animate-spin"></div>
           <span
-            class="font-roman text-(--primary-color) tracking-widest text-sm uppercase"
-            >Loading Oracle Records...</span
+            class="font-roman loader-text tracking-widest text-sm uppercase"
           >
+            Loading Oracle Records...
+          </span>
         </div>
       } @else if (service.error()) {
-        <div
-          class="error-panel p-8 text-center rounded bg-(--primary-color)/10 border border-(--primary-color)/30"
-        >
-          <h3 class="text-red-800 font-roman mb-2">Oracle Disconnected</h3>
-          <p class="text-sm opacity-80 mb-4">{{ service.error() }}</p>
+        <div class="error-panel p-8 text-center rounded">
+          <h3 class="font-roman mb-2 text-error-title">Oracle Disconnected</h3>
+          <p class="text-sm opacity-80 mb-4 text-error-desc">
+            {{ service.error() }}
+          </p>
           <button (click)="loadData()" class="btn-classic">
             Retry Invocation
           </button>
@@ -78,11 +48,14 @@
               <ng-template mat-tab-label>
                 <div class="flex items-center gap-2">
                   @if (p.icon_url) {
-                    <img
-                      [src]="p.icon_url"
-                      class="w-5 h-5 object-contain"
-                      [alt]="p.title"
-                    />
+                    <!-- Dynamic Silhouette Theme-Aware Masked Icon -->
+                    <div
+                      class="w-5 h-5 patron-tab-icon"
+                      [style.mask-image]="'url(' + p.icon_url + ')'"
+                      [style.-webkit-mask-image]="'url(' + p.icon_url + ')'"
+                      role="img"
+                      [attr.aria-label]="p.title + ' Tab Icon'"
+                    ></div>
                   }
                   <span class="hidden md:inline">{{ p.title }}</span>
                 </div>

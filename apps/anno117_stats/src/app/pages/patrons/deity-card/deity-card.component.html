@@ -17,14 +17,15 @@
         <!-- Deity Title and Description Header -->
         <div class="flex items-center space-x-4 mb-4">
           @if (patron().icon_url) {
-            <img
-              [src]="patron().icon_url"
-              [alt]="patron().title"
-              class="w-14 h-14 object-contain deity-icon-brand"
-            />
+            <div
+              class="w-14 h-14 deity-icon-brand"
+              [style.mask-image]="'url(' + patron().icon_url + ')'"
+              [style.-webkit-mask-image]="'url(' + patron().icon_url + ')'"
+              role="img"
+              [attr.aria-label]="patron().title + ' Icon'"
+            ></div>
           }
-          <div class="">
-            <!-- <span class="roman-subtitle">Divine Guardian</span> -->
+          <div>
             <h2 class="deity-title">{{ patron().title }}</h2>
           </div>
         </div>
@@ -33,7 +34,7 @@
 
         <!-- Dynamic Tab Switcher for Deity Attributes -->
         <div
-          class="flex space-x-2 border-b border-(--background-color) pb-2 mb-6"
+          class="flex space-x-2 border-b pb-2 mb-6"
           role="tablist"
           [attr.aria-label]="patron().title + ' attributes'"
         >
@@ -187,25 +188,6 @@
                   </h4>
                 </div>
               </div>
-
-              <!-- <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
-                @for (
-                  shrine of patron().shrine_effect.shrines;
-                  track shrine.guid
-                ) {
-                  <div class="shrine-item-chip">
-                    <span class="shrine-id">GUID: {{ shrine.guid }}</span>
-                    <span class="shrine-title"
-                      ><img
-                        [src]="shrine.icon_url"
-                        class="inline w-8 h-8 mr-1"
-                        [alt]="shrine.title"
-                      />
-                      {{ shrine.title }}</span
-                    >
-                  </div>
-                }
-              </div> -->
               <span class="blessing-desc">
                 {{ 'Shrines celebrate the deity and provide benefits nearby' }}
               </span>
@@ -257,6 +239,7 @@
   </div>
 </div>
 
+<!-- Template: Primary Effect Setup -->
 <ng-template #primaryEffectTpl let-effect let-patron="patron">
   <div class="milestone-box">
     <div class="flex justify-between items-center mb-1">
@@ -295,9 +278,10 @@
   }
 </ng-template>
 
+<!-- Template: Secondary Blessing Setup -->
 <ng-template #standardEffectTpl let-effect let-i="index">
   <div
-    class="passive-secondary-bar pt-4 border-t border-(--background-color)/22 flex flex-col md:flex-row md:items-center justify-between gap-4"
+    class="passive-secondary-bar border-t flex flex-col md:flex-row md:items-center justify-between gap-4"
   >
     <div>
       <span class="roman-meta-badge">Secondary Blessing</span>
@@ -310,13 +294,12 @@
     </div>
     @if (effect.milestones.length > 0) {
       <div
-        class="flex items-center space-x-2 self-start md:self-center px-3 py-1.5 rounded bg-(--primary-color)/20 border border-(--primary-color)/30"
+        class="flex items-center space-x-2 self-start md:self-center px-3 py-1.5 rounded border"
       >
-        <span
-          class="text-[0.68rem] uppercase tracking-wider text-rgba(235,210,184,0.6)"
+        <span class="text-[0.68rem] uppercase tracking-wider"
           >Current Modifier:</span
         >
-        <span class="font-roman text-sm font-bold text-[#ffcc00]"
+        <span class="font-roman text-sm font-bold"
           >+{{ activeSecondaryLocalValue() }}</span
         >
       </div>

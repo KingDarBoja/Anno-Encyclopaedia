@@ -1,6 +1,6 @@
-import { Component, signal } from '@angular/core';
+import { Component, effect, signal } from '@angular/core';
 import { RouterModule } from '@angular/router';
-
+import { MatIcon } from '@angular/material/icon';
 interface NavItem {
   label: string;
   path?: string; // Optional because group parents don't need a path
@@ -9,7 +9,7 @@ interface NavItem {
 @Component({
   selector: 'anno-header',
   standalone: true,
-  imports: [RouterModule],
+  imports: [MatIcon, RouterModule],
   template: `
     <header class="header-container">
       <div
@@ -26,7 +26,8 @@ interface NavItem {
           >
         </div>
 
-        <div class="flex items-center">
+        <div class="flex items-center gap-2">
+          
           <!-- Mobile Toggle Button -->
           <button class="mobile-toggle md:hidden" (click)="toggleMenu()">
             <span class="hamburger" [class.open]="isMenuOpen()"></span>
@@ -64,6 +65,15 @@ interface NavItem {
               }
             }
           </nav>
+
+          <!-- Theme Switcher Button -->
+          <button 
+            class="theme-toggle-btn" 
+            (click)="toggleTheme()" 
+            [attr.aria-label]="isLightMode() ? 'Switch to Dark Mode' : 'Switch to Light Mode'"
+          >
+            <mat-icon>{{ isLightMode() ? 'dark_mode' : 'light_mode' }}</mat-icon>
+          </button>
         </div>
       </div>
     </header>
@@ -72,6 +82,21 @@ interface NavItem {
 })
 export class HeaderComponent {
   isMenuOpen = signal(false);
+  isLightMode = signal<boolean>(localStorage.getItem('theme') === 'light');
+
+constructor() {
+    effect(() => {
+      const lightModeActive = this.isLightMode();
+      
+      if (lightModeActive) {
+        document.documentElement.classList.add('light-mode');
+        localStorage.setItem('theme', 'light');
+      } else {
+        document.documentElement.classList.remove('light-mode');
+        localStorage.setItem('theme', 'dark');
+      }
+    });
+  }
 
   readonly navItems: NavItem[] = [
     { label: 'Home', path: '/' },
@@ -95,5 +120,9 @@ export class HeaderComponent {
 
   toggleMenu() {
     this.isMenuOpen.update((state) => !state);
+  }
+
+  toggleTheme() {
+    this.isLightMode.update((mode) => !mode);
   }
 }
