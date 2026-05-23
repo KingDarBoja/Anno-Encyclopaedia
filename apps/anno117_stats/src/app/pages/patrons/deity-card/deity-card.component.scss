@@ -240,15 +240,20 @@
     font-family: var(--font-primary);
     font-size: 0.9rem;
     padding: 0.25rem 0.5rem;
-    width: 80px;
+    width: 100px;
     border-radius: 3px;
     text-align: center;
-    
-    // Remove arrows
-    &::-webkit-inner-spin-button, 
-    &::-webkit-outer-spin-button { 
+
+    /* Hide Firefox spin buttons */
+    -moz-appearance: textfield;
+    appearance: textfield;
+
+    /* Hide Chrome/Safari/Edge spin buttons */
+    &::-webkit-inner-spin-button,
+    &::-webkit-outer-spin-button {
+        -webkit-appearance: none;
         appearance: none;
-        margin: 0; 
+        margin: 0;
     }
 
     &:focus {
@@ -300,7 +305,7 @@
     align-items: center; // Centers the icon vertically
     font-size: 0.72rem;
     padding: 1px 6px;
-background: color-mix(in srgb, var(--primary-color), transparent 65%);
+    background: color-mix(in srgb, var(--primary-color), transparent 65%);
     border: 1px solid color-mix(in srgb, var(--primary-color), transparent 40%);
     color: color-mix(in srgb, var(--background-color), transparent 20%);
     border-radius: 2px;
@@ -317,14 +322,19 @@ background: color-mix(in srgb, var(--primary-color), transparent 65%);
     border-radius: 0 4px 4px 0;
 }
 
-.card-gold {
-    border-left-color: #cca300;
+.card {
     background: rgba(204, 163, 0, 0.04);
-}
+    &-gold {
+        border-left-color: #cca300;
+    }
 
-.card-silver {
-    border-left-color: #cccccc;
-    background: rgba(204, 204, 204, 0.04);
+    &-silver {
+        border-left-color: #cccccc;
+    }
+
+    &-bronze {
+        border-left-color: #cd7f32;
+    }
 }
 
 .blessing-badge {

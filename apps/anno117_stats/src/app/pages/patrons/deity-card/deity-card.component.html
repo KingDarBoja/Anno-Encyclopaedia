@@ -168,16 +168,48 @@
             aria-labelledby="global-tab-btn"
             class="space-y-6"
           >
-            <!-- Exaltation Card -->
-            @for (exalt of patron().exaltation_effects; track exalt.title) {
-              <div class="blessing-card card-gold">
-                <span class="blessing-badge"
-                  >Exaltation Reward (7K Global Devotion)</span
-                >
-                <h4 class="blessing-title">{{ exalt.title }}</h4>
-                <p class="blessing-desc">{{ exalt.description }}</p>
+            <!-- Shrines Pool Component -->
+            <div class="blessing-card card-bronze">
+              @let shrineItem = patron().shrine_effect.shrines[0];
+
+              <div class="flex flex-row">
+                <img
+                  [src]="shrineItem.icon_url"
+                  class="inline w-10 h-10 mr-4"
+                  [alt]="shrineItem.title"
+                />
+                <div class="flex flex-col">
+                  <span class="blessing-badge"
+                    >Shrine (1K Global Devotion)</span
+                  >
+                  <h4 class="blessing-title">
+                    {{ shrineItem.title }}
+                  </h4>
+                </div>
               </div>
-            }
+
+              <!-- <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
+                @for (
+                  shrine of patron().shrine_effect.shrines;
+                  track shrine.guid
+                ) {
+                  <div class="shrine-item-chip">
+                    <span class="shrine-id">GUID: {{ shrine.guid }}</span>
+                    <span class="shrine-title"
+                      ><img
+                        [src]="shrine.icon_url"
+                        class="inline w-8 h-8 mr-1"
+                        [alt]="shrine.title"
+                      />
+                      {{ shrine.title }}</span
+                    >
+                  </div>
+                }
+              </div> -->
+              <span class="blessing-desc">
+                {{ 'Shrines celebrate the deity and provide benefits nearby' }}
+              </span>
+            </div>
 
             <!-- Veneration Card -->
             <div class="blessing-card card-silver">
@@ -192,29 +224,16 @@
               </p>
             </div>
 
-            <!-- Shrines Pool Component -->
-            <div class="shrine-card">
-              <span class="blessing-badge">Deity's Shrines</span>
-              <h4 class="blessing-title">{{ patron().shrine_effect.title }}</h4>
-              <div class="grid grid-cols-1 sm:grid-cols-2 gap-2 mt-3">
-                @for (
-                  shrine of patron().shrine_effect.shrines;
-                  track shrine.guid
-                ) {
-                  <div class="shrine-item-chip">
-                    <span class="shrine-id">GUID: {{ shrine.guid }}</span>
-                    <span class="shrine-title"
-                      ><img
-                        [src]="shrine.icon_url"
-                        class="inline w-4 h-4 mr-1"
-                        [alt]="shrine.title"
-                      />
-                      {{ shrine.title }}</span
-                    >
-                  </div>
-                }
+            <!-- Exaltation Card -->
+            @for (exalt of patron().exaltation_effects; track exalt.title) {
+              <div class="blessing-card card-gold">
+                <span class="blessing-badge"
+                  >Exaltation Reward (7K Global Devotion)</span
+                >
+                <h4 class="blessing-title">{{ exalt.title }}</h4>
+                <p class="blessing-desc">{{ exalt.description }}</p>
               </div>
-            </div>
+            }
           </div>
         }
       </div>
