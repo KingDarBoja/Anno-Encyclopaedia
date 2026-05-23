@@ -6,7 +6,7 @@
   --title-color:  var(--primary-color);
   --subtitle-color: var(--text-color);
   
-  --tab-header-bg: var(--secondary-color);
+  --tab-header-bg: color-mix(in srgb, var(--secondary-color), var(--primary-color) 40%);
   --tab-text-color: rgba(235, 210, 184, 0.6);
   --tab-text-active: var(--background-color);
   --tab-underline: var(--accent-color);
@@ -24,7 +24,7 @@
     --title-color: var(--primary-color);
     --subtitle-color: var(--text-color);
     
-    --tab-header-bg: color-mix(in srgb, var(--background-color), var(--background-accent-color) 35%);
+    --tab-header-bg: color-mix(in srgb, var(--background-color), var(--background-accent-color) 60%);
     --tab-text-color: color-mix(in srgb, var(--text-color), transparent 35%);
     --tab-text-active: var(--primary-color);
     --tab-underline: var(--primary-color);

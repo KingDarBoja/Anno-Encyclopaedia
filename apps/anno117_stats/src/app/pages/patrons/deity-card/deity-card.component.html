@@ -129,6 +129,7 @@
                   />
 
                   <input
+                    [id]="'simulated-range-number' + patron().uid"
                     type="number"
                     [min]="0"
                     [max]="maxDevotion()"
@@ -294,7 +295,7 @@
     </div>
     @if (effect.milestones.length > 0) {
       <div
-        class="passive-modifier flex items-center space-x-2 self-start md:self-center px-3 py-1.5 rounded border"
+        class="passive-modifier flex items-center justify-between space-x-2 self-start md:self-center px-4 py-1.5 rounded border"
       >
         <span class="text-[0.7rem] uppercase tracking-wider"
           >Current Modifier:</span

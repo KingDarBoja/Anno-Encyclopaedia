@@ -2,30 +2,32 @@
     // ==========================================
     // 1. SEMANTIC THEME TOKENS (Dark Mode / Default) - Reference: image_ceba45.jpg
     // ==========================================
-    --card-bg: var(--secondary-color);
-    --card-text: var(--background-color);
-    --card-text-muted: color-mix(in srgb, var(--background-color), transparent 20%);
+    --card-bg: color-mix(in srgb, var(--secondary-color), var(--primary-color) 40%);
+    --card-text: var(--background-color); // High-contrast classical cream text
+    --card-text-muted: color-mix(in srgb, var(--background-color), var(--secondary-color) 25%);
     --card-title-color: var(--background-accent-color);
     --card-subtitle-color: var(--background-accent-color);
-    --box-bg: rgba(0, 0, 0, 0.25);
-    --box-border: rgba(235, 210, 184, 0.08);
-    --input-bg: rgba(0, 0, 0, 0.2);
+
+    --box-bg: color-mix(in srgb, var(--primary-color), black 50%);
+    --box-border: color-mix(in srgb, var(--card-text), transparent 90%);
+    --input-bg: color-mix(in srgb, var(--primary-color), black 50%);
+    --milestone-bg: color-mix(in srgb, var(--primary-color), black 20%);
+
     --shadow-color: color-mix(in srgb, black, transparent 60%);
     --vignette-gradient: radial-gradient(circle, rgba(95, 3, 46, 0.4) 0%, rgba(0, 0, 0, 0.85) 80%);
     --tab-border: color-mix(in srgb, var(--primary-color), transparent 40%);
     --tab-border-active: var(--background-color);
 
     // Chips, Dividers & Timeline Nodes
-    --chip-bg: color-mix(in srgb, var(--primary-color), transparent 50%);
-    --chip-border: color-mix(in srgb, var(--primary-color), transparent 40%);
+    --chip-bg: color-mix(in srgb, var(--primary-color), var(--secondary-color) 40%);
+    --chip-border: color-mix(in srgb, var(--primary-color), black 15%);
     --chip-text: color-mix(in srgb, var(--background-color), transparent 10%);
-    --milestone-bg: color-mix(in srgb, var(--primary-color), transparent 75%);
     --timeline-node-bg: var(--primary-color);
     --timeline-node-border: var(--background-accent-color);
     --timeline-track-bg: color-mix(in srgb, var(--card-text), transparent 85%);
-    --timeline-node-uncompleted-bg: var(--secondary-color); // Matches card background
-    --timeline-node-uncompleted-border: rgba(235, 210, 184, 0.4);
-    --timeline-node-completed-bg: var(--background-accent-color); // Fills with bright cream
+    --timeline-node-uncompleted-bg: var(--secondary-color);
+    --timeline-node-uncompleted-border: color-mix(in srgb, var(--background-color), var(--secondary-color) 60%);
+    --timeline-node-completed-bg: var(--background-accent-color);
 
     // Icon Mask Fill (Cream/Off-White for Dark Canvas)
     --icon-mask-color: var(--background-color);
@@ -44,12 +46,15 @@
     :host-context(.light-mode) & {
         --card-bg: color-mix(in srgb, var(--background-color), var(--background-accent-color) 60%);
         --card-text: var(--text-color);
-        --card-text-muted: color-mix(in srgb, var(--text-color), transparent 35%);
+        --card-text-muted: color-mix(in srgb, var(--text-color), var(--background-color) 30%);
         --card-title-color: var(--primary-color);
-        --card-subtitle-color: color-mix(in srgb, var(--primary-color), transparent 20%);
-        --box-bg: color-mix(in srgb, var(--background-color), transparent 50%);
-        --box-border: color-mix(in srgb, var(--primary-color), transparent 82%);
-        --input-bg: color-mix(in srgb, var(--background-color), black 6%);
+        --card-subtitle-color: color-mix(in srgb, var(--primary-color), var(--background-color) 20%);
+
+        --box-bg: color-mix(in srgb, var(--card-bg), black 4%);
+        --box-border: color-mix(in srgb, var(--primary-color), var(--card-bg) 85%);
+        --input-bg: color-mix(in srgb, var(--card-bg), black 8%);
+        --milestone-bg: color-mix(in srgb, var(--card-bg), black 5%);
+
         --shadow-color: rgba(95, 3, 46, 0.12);
         --vignette-gradient: radial-gradient(
             circle,
@@ -60,28 +65,27 @@
         --tab-border-active: var(--primary-color);
 
         // Custom Light Mode Asset Chips
-        --chip-bg: color-mix(in srgb, var(--primary-color), transparent 50%);
-        --chip-border: color-mix(in srgb, var(--primary-color), transparent 30%);
-        --chip-text: var(--background-color);
+        --chip-bg: color-mix(in srgb, var(--primary-color), var(--card-bg) 90%);
+        --chip-border: color-mix(in srgb, var(--primary-color), var(--card-bg) 50%);
+        --chip-text: var(--text-color);
 
         // Milestone & Timeline Overrides
-        --milestone-bg: color-mix(in srgb, var(--primary-color), transparent 70%);
         --timeline-node-bg: var(--text-color);
         --timeline-node-border: color-mix(in srgb, var(--text-color), transparent 50%);
         --timeline-track-bg: color-mix(in srgb, var(--primary-color), transparent 82%);
-        --timeline-node-uncompleted-bg: #f4edd9; // Tints slightly darker than parchment background
-        --timeline-node-uncompleted-border: color-mix(in srgb, var(--primary-color), transparent 70%);
-        --timeline-node-completed-bg: var(--primary-color); // Fills with deep imperial wine
+        --timeline-node-uncompleted-bg: color-mix(in srgb, var(--card-bg), black 3%);
+        --timeline-node-uncompleted-border: color-mix(in srgb, var(--primary-color), var(--card-bg) 60%);
+        --timeline-node-completed-bg: var(--primary-color);
 
         // Icon Mask Fill switches to Primary Theme Tint for Light Canvas
         --icon-mask-color: var(--primary-color);
 
         // Injected elements from layout templates
-        --tab-container-border: color-mix(in srgb, var(--text-color), transparent 85%);
-        --section-divider: color-mix(in srgb, var(--text-color), transparent 78%);
-        --modifier-badge-bg: color-mix(in srgb, var(--primary-color), transparent 82%);
-        --modifier-badge-border: color-mix(in srgb, var(--primary-color), transparent 75%);
-        --modifier-badge-label: color-mix(in srgb, var(--text-color), transparent 20%);
+        --tab-container-border: color-mix(in srgb, var(--text-color), var(--card-bg) 80%);
+        --section-divider: color-mix(in srgb, var(--text-color), var(--card-bg) 75%);
+        --modifier-badge-bg: color-mix(in srgb, var(--primary-color), var(--card-bg) 90%);
+        --modifier-badge-border: color-mix(in srgb, var(--primary-color), var(--card-bg) 65%);
+        --modifier-badge-label: color-mix(in srgb, var(--text-color), var(--card-bg) 20%);
         --modifier-badge-val: var(--primary-color);
     }
 
@@ -353,7 +357,7 @@
 }
 
 .sub-section-title {
-    font-size: 0.9rem;
+    font-size: 1rem;
     text-transform: uppercase;
     letter-spacing: 0.1em;
     color: var(--card-subtitle-color);
@@ -378,7 +382,8 @@
 .building-chip {
     display: inline-flex;
     align-items: center;
-    font-size: 0.72rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.6px;
     padding: 1px 6px;
     background: var(--chip-bg);
     border: 1px solid var(--chip-border);
@@ -471,6 +476,7 @@
     .passive-modifier {
         background-color: var(--modifier-badge-bg) !important;
         border: 1px solid var(--modifier-badge-border) !important;
+        width: 200px;
 
         span:first-child {
             color: var(--modifier-badge-label) !important;
