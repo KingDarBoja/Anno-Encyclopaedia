@@ -4,8 +4,8 @@
     // ==========================================
     --card-bg: var(--secondary-color);
     --card-text: var(--background-color);
-    --card-text-muted: rgba(235, 210, 184, 0.7);
-    --card-title-color: #f7e1ca;
+    --card-text-muted: color-mix(in srgb, var(--background-color), transparent 20%);
+    --card-title-color: var(--background-accent-color);
     --card-subtitle-color: var(--background-accent-color);
     --box-bg: rgba(0, 0, 0, 0.25);
     --box-border: rgba(235, 210, 184, 0.08);
@@ -14,22 +14,26 @@
     --vignette-gradient: radial-gradient(circle, rgba(95, 3, 46, 0.4) 0%, rgba(0, 0, 0, 0.85) 80%);
 
     // Chips, Dividers & Timeline Nodes
-    --chip-bg: color-mix(in srgb, var(--primary-color), transparent 65%);
+    --chip-bg: color-mix(in srgb, var(--primary-color), transparent 50%);
     --chip-border: color-mix(in srgb, var(--primary-color), transparent 40%);
-    --chip-text: color-mix(in srgb, var(--background-color), transparent 20%);
+    --chip-text: color-mix(in srgb, var(--background-color), transparent 10%);
     --milestone-bg: color-mix(in srgb, var(--primary-color), transparent 75%);
-    --timeline-node-bg: #5f032e;
-    --timeline-node-border: #ebd2b8;
+    --timeline-node-bg: var(--primary-color);
+    --timeline-node-border: var(--background-accent-color);
+    --timeline-track-bg: color-mix(in srgb, var(--card-text), transparent 85%);
+    --timeline-node-uncompleted-bg: var(--secondary-color); // Matches card background
+    --timeline-node-uncompleted-border: rgba(235, 210, 184, 0.4);
+    --timeline-node-completed-bg: var(--background-accent-color); // Fills with bright cream
 
     // Icon Mask Fill (Cream/Off-White for Dark Canvas)
-    --icon-mask-color: #ebd2b8;
+    --icon-mask-color: var(--background-color);
 
     // Injected elements from layout templates
     --tab-container-border: color-mix(in srgb, var(--background-color), transparent 80%);
     --section-divider: rgba(235, 210, 184, 0.22);
-    --modifier-badge-bg: rgba(95, 3, 46, 0.2);
-    --modifier-badge-border: rgba(95, 3, 46, 0.3);
-    --modifier-badge-label: rgba(235, 210, 184, 0.6);
+    --modifier-badge-bg: color-mix(in srgb, var(--primary-color), transparent 80%);
+    --modifier-badge-border: color-mix(in srgb, var(--primary-color), transparent 40%);
+    --modifier-badge-label: color-mix(in srgb, var(--background-color), transparent 10%);
     --modifier-badge-val: #ffcc00;
 
     // ==========================================
@@ -60,6 +64,10 @@
         --milestone-bg: color-mix(in srgb, var(--primary-color), transparent 70%);
         --timeline-node-bg: var(--text-color);
         --timeline-node-border: color-mix(in srgb, var(--text-color), transparent 50%);
+        --timeline-track-bg: color-mix(in srgb, var(--primary-color), transparent 82%);
+        --timeline-node-uncompleted-bg: #f4edd9; // Tints slightly darker than parchment background
+        --timeline-node-uncompleted-border: color-mix(in srgb, var(--primary-color), transparent 70%);
+        --timeline-node-completed-bg: var(--primary-color); // Fills with deep imperial wine
 
         // Icon Mask Fill switches to Primary Theme Tint for Light Canvas
         --icon-mask-color: var(--primary-color);
@@ -123,7 +131,7 @@
 
 .deity-icon-brand {
     background-color: var(--icon-mask-color);
-    
+
     // Mask sizing settings to guarantee clean containment boundaries
     -webkit-mask-size: contain;
     mask-size: contain;
@@ -131,7 +139,7 @@
     mask-repeat: no-repeat;
     -webkit-mask-position: center;
     mask-position: center;
-    
+
     transition: background-color 0.3s ease;
 }
 
@@ -184,6 +192,7 @@
 .milestone-title {
     font-family: var(--font-primary);
     font-size: 1.1rem;
+    font-weight: bold;
     color: var(--card-title-color);
     letter-spacing: 0.03em;
 }
@@ -211,15 +220,16 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: color-mix(in srgb, var(--card-text), transparent 85%);
+    background: var(--timeline-track-bg);
     border-radius: 3px;
 }
 
 .timeline-bar-filled {
     height: 100%;
-    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    background: linear-gradient(90deg, var(--accent-color), #ffcc00);
     border-radius: 3px;
     transition: width 0.4s ease;
+    box-shadow: 0 0 8px color-mix(in srgb, var(--accent-color), transparent 30%);
 }
 
 .timeline-points {
@@ -237,8 +247,8 @@
     width: 16px;
     height: 16px;
     border-radius: 50%;
-    background: var(--timeline-node-bg);
-    border: 2px solid var(--timeline-node-border);
+    background: var(--timeline-node-uncompleted-bg);
+    border: 2px solid var(--timeline-node-uncompleted-border);
     cursor: pointer;
     transition: all 0.2s ease;
     z-index: 3;
@@ -253,8 +263,8 @@
 }
 
 .node-completed {
-    background: var(--card-text);
-    box-shadow: 0 0 10px color-mix(in srgb, var(--card-text), transparent 40%);
+    background: var(--timeline-node-completed-bg);
+    border-color: var(--timeline-node-completed-bg);
 }
 
 .node-active {
@@ -300,7 +310,7 @@
     font-size: 0.8rem;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    color: color-mix(in srgb, var(--card-text), transparent 40%);
+    color: color-mix(in srgb, var(--card-text), transparent 20%);
 }
 
 .devotion-value-input {
@@ -400,10 +410,11 @@
 }
 
 .blessing-badge {
+    font-family: var(--font-secondary);
     display: inline-block;
     font-size: 0.65rem;
     text-transform: uppercase;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.12em;
     color: var(--card-subtitle-color);
     margin-bottom: 4px;
 }
@@ -411,6 +422,8 @@
 .blessing-title {
     font-family: var(--font-primary);
     font-size: 1.15rem;
+    letter-spacing: 0.12rem;
+    font-weight: bold;
     color: var(--card-text);
     margin: 0 0 0.25rem 0;
 }
@@ -451,7 +464,7 @@
     }
 
     // Dynamic Modifier Badge Container
-    .flex.items-center.rounded {
+    .passive-modifier {
         background-color: var(--modifier-badge-bg) !important;
         border: 1px solid var(--modifier-badge-border) !important;
 
@@ -487,7 +500,7 @@
     left: 0;
     width: 100%;
     height: 100%;
-    background: var(--vignette-gradient);
+    // background: var(--vignette-gradient);
     z-index: 1;
     pointer-events: none;
 }

@@ -85,22 +85,27 @@ export class DeityCardComponent {
     return activeBonus;
   });
 
-  // ngOnInit() {
-  //   this.route.fragment.subscribe(fragment => {
-  //     // Check if this card's ID matches the fragment
-  //     if (fragment === `patron-${this.patron().uid}`) {
-  //       setTimeout(() => {
-  //         this.scroller.scrollToAnchor(fragment);
-  //       }, 100); // Small delay to ensure DOM is rendered
-  //     }
-  //   });
-  // }
+  // Find the active or closest completed milestone index based on current devotion
+  currentMilestoneIndex = computed(() => {
+    const milestones = this.patron().local_effects[0]?.milestones || [];
+    const devotion = this.selectedDevotion();
+    let activeIdx = 0;
 
-  // Timeline bar filled calculated ratio representation
+    for (let i = 0; i < milestones.length; i++) {
+      if (devotion >= milestones[i].devotion) {
+        activeIdx = i;
+      } else {
+        break;
+      }
+    }
+    return activeIdx;
+  });
+
+  // Fix: Progress line width now matches the physical node positions perfectly
   progressPercentage = computed(() => {
-    const dev = this.selectedDevotion();
-    const maxDev = this.maxDevotion();
-    return Math.min((dev / maxDev) * 100, 100);
+    const milestones = this.patron().local_effects[0]?.milestones || [];
+    if (!milestones.length) return 0;
+    return (this.currentMilestoneIndex() / (milestones.length - 1)) * 100;
   });
 
   hasChains(chains: Record<string, AffectedChainInfo>): boolean {
@@ -109,6 +114,17 @@ export class DeityCardComponent {
 
   selectMilestone(m: MilestoneJSON) {
     this.selectedDevotion.set(m.devotion);
+  }
+
+  // Handle snapping via discrete slider increments
+  updateMilestoneByStep(event: Event) {
+    const input = event.target as HTMLInputElement;
+    const idx = Number(input.value);
+    const milestones = this.patron().local_effects[0]?.milestones || [];
+
+    if (milestones[idx]) {
+      this.selectedDevotion.set(milestones[idx].devotion);
+    }
   }
 
   updateSimulatedDevotion(event: Event) {
