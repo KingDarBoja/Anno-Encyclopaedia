@@ -111,6 +111,7 @@ constructor() {
     {
       label: 'Gameplay',
       children: [
+        { label: 'Specialists', path: '/specialists' },
         { label: 'Production Chains', path: '/production-chains' },
         { label: 'City Status', path: '/city-status' },
         { label: 'Patrons', path: '/patrons' },

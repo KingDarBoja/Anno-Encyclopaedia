@@ -1,0 +1,204 @@
+<div class="roman-card-container p-6 flex flex-col h-full" role="region">
+  <div class="roman-border-frame"></div>
+
+  <!-- Header Section -->
+  <header class="relative z-10 mb-6">
+    <div class="flex items-center gap-4 mb-4">
+      <!-- Portrait Avatar with Error Handling -->
+      <div
+        class="specialist-avatar-box w-14 h-14 shrink-0 p-1 flex items-center justify-center overflow-hidden"
+      >
+        @if (specialist().icon_url) {
+          <img
+            [src]="specialist().icon_url"
+            [alt]="specialist().title"
+            class="w-full h-full object-cover rounded-sm"
+            (error)="onImageError($event)"
+          />
+        } @else {
+          <svg
+            class="w-8 h-8 text-[#ebd2b8]/75"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="1.2"
+              d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+            ></path>
+          </svg>
+        }
+      </div>
+
+      <div>
+        <span
+          class="text-[10px] uppercase tracking-widest text-[#d4b89b] font-semibold mb-0.5"
+        >
+          {{ specialist().rarity }} • {{ specialist().niche }}
+        </span>
+        <h2
+          class="font-roman text-md sm:text-lg font-bold text-[#f7e1ca] leading-tight tracking-wide"
+        >
+          {{ specialist().title }}
+        </h2>
+        <div
+          class="text-[10px] uppercase tracking-wider text-[#ebd2b8]/60 mt-1"
+        >
+          {{ specialist().allocation }}
+        </div>
+      </div>
+    </div>
+
+    <blockquote
+      class="italic text-xs text-[#f7e1ca]/80 mt-4 border-l-2 border-[#5f032e] pl-4 py-1"
+    >
+      "{{ specialist().description }}"
+    </blockquote>
+  </header>
+
+  <!-- IMPROVES Section - Now utilizing flex-1 to fill card height -->
+  <div class="relative z-10 buff-content-wrapper">
+    @for (buff of groupedBuffs(); track $index) {
+      <div class="buff-block">
+        <!-- Section Header -->
+        <div
+          class="flex items-center justify-between border-b border-[#ebd2b8]/10 pb-2 mb-3"
+        >
+          <h3
+            class="font-roman text-[#d4b89b] text-[10px] uppercase tracking-widest font-bold"
+          >
+            Improves
+          </h3>
+          <span class="badge-radius">{{ specialist().effect.scope }}</span>
+        </div>
+
+        <!-- Targets Grid -->
+        <div class="flex flex-wrap gap-2 mb-3">
+          @for (target of specialist().effect.targets; track $index) {
+            @for (item of target.affected_items; track item.guid) {
+              <div
+                class="chip flex items-center gap-1.5 px-2 py-1 bg-[#2d0418] border border-[#ebd2b8]/10 rounded text-xs text-[#f7e1ca]"
+              >
+                <img
+                  [src]="item.icon_url"
+                  class="w-4 h-4 rounded-sm"
+                  alt=""
+                  (error)="onImageError($event)"
+                />
+                <span>{{ item.name }}</span>
+              </div>
+            }
+          }
+        </div>
+
+        <!-- General Attributes & Product Groups -->
+        <div class="grow space-y-3">
+          <!-- General Attributes -->
+          <div class="space-y-1.5">
+            @for (attr of buff.generalAttributes; track attr.key) {
+              <div
+                class="flex items-center justify-between text-xs py-1.5 px-3 bg-[#2d0418] rounded border border-[#ebd2b8]/5"
+              >
+                <span class="capitalize text-[#ebd2b8]/80">{{
+                  getLabel(attr.key)
+                }}</span>
+                <span class="font-bold text-[#f7e1ca]">{{ attr.value }}</span>
+              </div>
+            }
+          </div>
+
+          <!-- Product Needs -->
+          @for (group of buff.productNeedGroups; track group.product.guid) {
+            <div class="space-y-1.5">
+              <div
+                class="flex items-center gap-1.5 px-1 text-[10px] font-roman uppercase tracking-wider text-[#d4b89b]"
+              >
+                <img
+                  [src]="group.product.icon_url"
+                  class="w-4 h-4 rounded-sm border border-[#ebd2b8]/10 shrink-0"
+                  alt="Need Icon"
+                  (error)="onImageError($event)"
+                />
+                <span>Provided from {{ group.product.name }}:</span>
+              </div>
+              <div class="space-y-1 pl-3 border-l border-[#5f032e]/60">
+                @for (attr of group.attributes; track attr.key) {
+                  <div
+                    class="flex items-center justify-between text-xs py-1 px-2.5 bg-[#2d0418]/55 rounded border border-[#ebd2b8]/5"
+                  >
+                    <span class="capitalize text-[#ebd2b8]/75">{{
+                      getLabel(attr.key)
+                    }}</span>
+                    <span class="font-bold text-[#f7e1ca]">{{
+                      attr.value
+                    }}</span>
+                  </div>
+                }
+              </div>
+            </div>
+          }
+        </div>
+
+        <!-- Workforce & Fertility Modifiers (Bottom Aligned) -->
+        <div class="mt-auto pt-3 space-y-2">
+          <!-- Workforce Modifier Case -->
+          @if (buff.workforceModifierInPercent) {
+            <div
+              class="bg-[#2d0418] p-2 rounded border border-[#ebd2b8]/10 flex justify-between items-center"
+            >
+              <span
+                class="text-[10px] text-[#ebd2b8]/60 uppercase tracking-wide"
+                >Extra Workforce</span
+              >
+              <span class="text-sm font-bold text-[#ffcc00]">{{
+                buff.workforceModifierInPercent
+              }}</span>
+            </div>
+          }
+          <!-- Additional Workforces -->
+          @if (buff.additionalWorkforces.length > 0) {
+            <div class="flex flex-wrap gap-1">
+              @for (wf of buff.additionalWorkforces; track wf.guid) {
+                <div
+                  class="px-2 py-0.5 bg-[#2d0418] border border-[#ebd2b8]/5 rounded text-[10px] text-[#ebd2b8]/90"
+                >
+                  {{ wf.name }}
+                </div>
+              }
+            </div>
+          }
+
+          <!-- ADDS RESOURCE FERTILITY Section -->
+          @if (buff.addedFertility) {
+            @let addedFertility = buff.addedFertility;
+            <div class="bg-[#2a0418] border border-[#ebd2b8]/15 rounded p-3">
+              <div
+                class="text-[9px] uppercase tracking-widest text-[#d4b89b] font-bold mb-2"
+              >
+                ADDS RESOURCE FERTILITY:
+              </div>
+              <div class="flex items-center justify-between">
+                <div class="flex items-center gap-2">
+                  <img
+                    [src]="addedFertility.icon_url"
+                    class="w-6 h-6 rounded border border-[#ebd2b8]/10 shrink-0"
+                    alt="Fertility"
+                    (error)="onImageError($event)"
+                  />
+                  <span class="text-xs font-roman font-bold text-[#f7e1ca]">{{
+                    addedFertility.name
+                  }}</span>
+                </div>
+                <span class="text-sm font-bold text-[#ffcc00]"
+                  >+{{ addedFertility.percent }}%</span
+                >
+              </div>
+            </div>
+          }
+        </div>
+      </div>
+    }
+  </div>
+</div>

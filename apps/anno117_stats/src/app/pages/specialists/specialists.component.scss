@@ -1,0 +1,87 @@
+.specialists-workspace {
+    background-color: var(--background-color);
+    transition: background-color 0.3s ease;
+}
+
+/* Material Tab Custom Overrides matching Deity card style sheet */
+.specialist-tabs {
+    ::ng-deep .mat-mdc-tab-header-pagination-chevron {
+        border-color: var(--background-color) !important;
+    }
+
+    ::ng-deep .mat-mdc-tab-label-container {
+        border-width: 0 !important;
+    }
+
+    ::ng-deep .mat-mdc-tab-header {
+        background-color: var(--secondary-color);
+        border-radius: 4px;
+    }
+
+    ::ng-deep .mat-mdc-tab {
+        opacity: 0.6;
+        text-transform: uppercase;
+        font-family: var(--font-primary);
+        transition: opacity 0.2s ease;
+
+        &.mdc-tab--active {
+            color: var(--background-color);
+            font-weight: bold;
+            opacity: 1;
+        }
+    }
+
+    ::ng-deep .mat-mdc-tab .mdc-tab__text-label {
+        color: var(--background-color) !important;
+        font-weight: 600;
+    }
+
+    ::ng-deep .mat-mdc-tab .mdc-tab-indicator__content--underline {
+        border-color: var(--accent-color) !important;
+        border-top-width: 4px !important; // Thicker underline styling
+    }
+}
+
+/* Classic Roman Ring Loader */
+.roman-loader {
+    width: 48px;
+    height: 48px;
+    border: 4px solid var(--primary-color);
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+/* Fallback Error Panel and Reinvocation Button */
+.error-panel {
+    background-color: color-mix(in srgb, var(--primary-color), transparent 90%);
+    border-color: color-mix(in srgb, var(--primary-color), transparent 70%);
+    color: var(--text-color);
+}
+
+.btn-classic {
+    background-color: var(--primary-color);
+    color: var(--background-color);
+    border: none;
+    padding: 0.5rem 1.5rem;
+    border-radius: 2px;
+    font-family: var(--font-primary);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    letter-spacing: 0.05em;
+    transition: background-color 0.2s;
+
+    &:hover {
+        background-color: var(--secondary-color);
+    }
+}

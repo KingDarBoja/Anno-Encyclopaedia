@@ -1,0 +1,190 @@
+<div class="specialists-workspace min-h-screen pb-24">
+  <!-- Premium Header Title Section matching Ornaments context -->
+  <div class="relative pt-16 pb-4 text-center">
+    <div class="absolute inset-0 pattern-overlay opacity-5"></div>
+    <div class="text-center z-10 px-4">
+      <h1 class="page-main-title select-none">Specialists</h1>
+      <p class="page-main-subtitle mx-auto">
+        Filter and inspect legendary administrators, captains, and master
+        architects. Socket their individual modifiers to alter your city's
+        production, unlock raw fertilities, or command the seas.
+      </p>
+    </div>
+  </div>
+
+  <!-- Main Split Canvas: Filter Form on Left, Reactive Grid on Right -->
+  <div
+    class="w-full max-w-400 mx-auto flex flex-col lg:flex-row items-start gap-8 px-6 mt-4"
+  >
+    <!-- Left Column: Theming Filter Sidebar -->
+    <aside
+      class="w-full lg:w-80 shrink-0 specialist-filter-panel p-6 rounded border relative"
+    >
+      <div class="roman-filter-inner relative z-10 space-y-6">
+        <!-- Header -->
+        <div class="border-b border-(--section-divider) pb-3">
+          <h3
+            class="font-roman text-sm font-bold tracking-widest text-(--primary-color) uppercase m-0"
+          >
+            Filter Items
+          </h3>
+        </div>
+
+        <!-- 1. Rarity Filter -->
+        <div class="space-y-2">
+          <label
+            for="rarity-select"
+            class="filter-label text-[10px] uppercase tracking-widest font-bold font-roman block"
+          >
+            Rarity
+          </label>
+          <select
+            id="rarity-select"
+            [ngModel]="selectedRarity()"
+            (ngModelChange)="selectedRarity.set($event)"
+            class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
+          >
+            <option value="">-- All Rarities --</option>
+            @for (rarity of raritiesList(); track rarity) {
+              <option [value]="rarity">{{ rarity }}</option>
+            }
+          </select>
+        </div>
+
+        <!-- 2. Attributes Filter -->
+        <div class="space-y-2">
+          <label
+            for="attribute-select"
+            class="filter-label text-[10px] uppercase tracking-widest font-bold font-roman block"
+          >
+            Modifier Attributes
+          </label>
+          <select
+            id="attribute-select"
+            [ngModel]="selectedAttribute()"
+            (ngModelChange)="selectedAttribute.set($event)"
+            class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
+          >
+            <option value="">-- All Attributes --</option>
+            @for (attr of attributeFilters; track attr.value) {
+              <option [value]="attr.value">{{ attr.label }}</option>
+            }
+          </select>
+        </div>
+
+        <!-- 3. Category/Niche Filter -->
+        <div class="space-y-2">
+          <label
+            for="niche-select"
+            class="filter-label text-[10px] uppercase tracking-widest font-bold font-roman block"
+          >
+            Niche Category
+          </label>
+          <select
+            id="niche-select"
+            [ngModel]="selectedNiche()"
+            (ngModelChange)="selectedNiche.set($event)"
+            class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
+          >
+            <option value="">-- All Categories --</option>
+            @for (niche of nichesList; track niche) {
+              <option [value]="niche">{{ niche }}</option>
+            }
+          </select>
+        </div>
+
+        <!-- 4. Special Upgrades Filter -->
+        <div class="space-y-2">
+          <label
+            for="upgrade-select"
+            class="filter-label text-[10px] uppercase tracking-widest font-bold font-roman block"
+          >
+            Special Upgrades
+          </label>
+          <select
+            id="upgrade-select"
+            [ngModel]="selectedUpgrade()"
+            (ngModelChange)="selectedUpgrade.set($event)"
+            class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
+          >
+            <option value="">-- All Upgrades --</option>
+            @for (upg of upgradeFilters; track upg.value) {
+              <option [value]="upg.value">{{ upg.label }}</option>
+            }
+          </select>
+        </div>
+
+        <!-- Reset Button -->
+        <div class="pt-4 border-t border-(--section-divider)">
+          <button
+            type="button"
+            (click)="resetFilters()"
+            class="btn-classic w-full text-center py-2.5 rounded text-xs uppercase tracking-wider font-bold font-roman transition duration-200"
+          >
+            Reset Filters
+          </button>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Right Column: Specialist Cards Grid Container -->
+    <main class="grow min-w-0 w-full">
+      <!-- Loader State -->
+      @if (service.isLoading()) {
+        <div class="flex flex-col items-center justify-center py-24 space-y-4">
+          <div class="roman-loader"></div>
+          <span
+            class="font-roman text-(--primary-color) tracking-widest text-sm uppercase"
+          >
+            Sifting Classical Records...
+          </span>
+        </div>
+      }
+
+      <!-- Error Panel -->
+      @else if (service.error()) {
+        <div
+          class="error-panel p-8 text-center rounded border border-red-900/30"
+        >
+          <h3 class="text-red-800 font-roman mb-2">Registry Inaccessible</h3>
+          <p class="text-sm opacity-80 mb-4">{{ service.error() }}</p>
+          <button (click)="loadData()" class="btn-classic">
+            Retry Invocation
+          </button>
+        </div>
+      }
+
+      <!-- Empty Search State -->
+      @else if (filteredSpecialists().length === 0) {
+        <div
+          class="no-results-panel text-center py-20 px-6 rounded border border-dashed"
+        >
+          <h3 class="font-roman text-xl text-(--primary-color) mb-2">
+            No Archives Match Search
+          </h3>
+          <p class="text-sm opacity-70 mb-4 max-w-md mx-auto">
+            No specialists were found matching these filter definitions. Try
+            clearing active inputs.
+          </p>
+          <button (click)="resetFilters()" class="btn-classic">
+            Clear Active Parameters
+          </button>
+        </div>
+      }
+
+      <!-- Grid Output -->
+      @else {
+        <div
+          class="grid w-full gap-6 grid-cols-1 md:grid-cols-2 xl:grid-cols-3 box-border justify-items-center items-start"
+        >
+          @for (s of filteredSpecialists(); track s.id) {
+            <anno-117-specialist-card
+              [specialist]="s"
+              class="w-full h-full flex flex-col justify-between"
+            />
+          }
+        </div>
+      }
+    </main>
+  </div>
+</div>

@@ -43,6 +43,13 @@ export const appRoutes: Route[] = [
         (c) => c.PatronsPageComponent,
       ),
   },
+    {
+    path: 'specialists',
+    loadComponent: () =>
+      import('./pages/specialists/specialists.component').then(
+        (c) => c.SpecialistsPageComponent,
+      ),
+  },
   {
     path: '**',
     redirectTo: '',
