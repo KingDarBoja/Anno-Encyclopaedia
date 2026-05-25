@@ -6,7 +6,7 @@
     <div class="flex items-center gap-4 mb-4">
       <!-- Portrait Avatar with Error Handling -->
       <div
-        class="specialist-avatar-box w-14 h-14 shrink-0 p-1 flex items-center justify-center overflow-hidden"
+        class="specialist-avatar-box w-16 h-16 shrink-0 p-1 flex items-center justify-center overflow-hidden"
       >
         @if (specialist().icon_url) {
           <img
@@ -32,22 +32,21 @@
         }
       </div>
 
-      <div>
+      <div class="">
         <span
           class="text-[10px] uppercase tracking-widest text-[#d4b89b] font-semibold mb-0.5"
         >
-          {{ specialist().rarity }} • {{ specialist().niche }}
+          {{ specialist().rarity }} • {{ specialist().niche }} •
+          {{ specialist().allocation }}
         </span>
         <h2
           class="font-roman text-md sm:text-lg font-bold text-[#f7e1ca] leading-tight tracking-wide"
         >
           {{ specialist().title }}
         </h2>
-        <div
-          class="text-[10px] uppercase tracking-wider text-[#ebd2b8]/60 mt-1"
-        >
-          {{ specialist().allocation }}
-        </div>
+        <!-- <span class="text-[8px] bg-[#5f032e]/20 text-[#ebd2b8]/60 px-1.5 py-0.5 rounded border border-[#5f032e]/30 font-mono tracking-tight">
+          ID: {{ specialist().id }}
+        </span> -->
       </div>
     </div>
 
@@ -94,7 +93,7 @@
         </div>
 
         <!-- General Attributes & Product Groups -->
-        <div class="grow space-y-3">
+        <div class="space-y-3">
           <!-- General Attributes -->
           <div class="space-y-1.5">
             @for (attr of buff.generalAttributes; track attr.key) {
@@ -142,7 +141,7 @@
         </div>
 
         <!-- Workforce & Fertility Modifiers (Bottom Aligned) -->
-        <div class="mt-auto pt-3 space-y-2">
+        <div class="pt-3 space-y-2">
           <!-- Workforce Modifier Case -->
           @if (buff.workforceModifierInPercent) {
             <div
@@ -157,16 +156,54 @@
               }}</span>
             </div>
           }
+          
           <!-- Additional Workforces -->
           @if (buff.additionalWorkforces.length > 0) {
-            <div class="flex flex-wrap gap-1">
-              @for (wf of buff.additionalWorkforces; track wf.guid) {
-                <div
-                  class="px-2 py-0.5 bg-[#2d0418] border border-[#ebd2b8]/5 rounded text-[10px] text-[#ebd2b8]/90"
-                >
-                  {{ wf.name }}
-                </div>
-              }
+            <div class="mt-2 pt-3 border-t border-[#ebd2b8]/5">
+              <div
+                class="text-[9px] uppercase tracking-wider text-[#d4b89b]/50 mb-1.5"
+              >
+                Provides Additional Workforces:
+              </div>
+              <div class="flex flex-wrap gap-1">
+                @for (wf of buff.additionalWorkforces; track wf.guid) {
+                  <div
+                    class="flex items-center gap-1.5 bg-[#2d0418] px-2.5 py-1 rounded border border-[#ebd2b8]/5 text-xs text-[#ebd2b8]/90"
+                  >
+                    <img
+                      [src]="wf.icon_url"
+                      class="w-4 h-4 rounded-sm border border-[#ebd2b8]/10 shrink-0"
+                      alt="Workforce Icon"
+                      (error)="onImageError($event)"
+                    />
+                    <div class="">
+                      {{ wf.name }}
+                    </div>
+                  </div>
+                }
+              </div>
+            </div>
+          }
+
+          <!-- Workforce Replacement Logic -->
+          @if (buff.workforceReplacement) {
+            <div
+              class="mt-3 bg-[#2d0418] p-2 rounded border border-[#ebd2b8]/10 text-xs"
+            >
+              <div
+                class="text-[9px] uppercase tracking-wider text-[#d4b89b]/50 mb-1"
+              >
+                Workforce Replacement:
+              </div>
+              <div class="flex items-center justify-between gap-2">
+                <span class="opacity-60">{{
+                  buff.workforceReplacement.old_workforce_title
+                }}</span>
+                <span class="text-[#d4b89b] font-bold">➔</span>
+                <span class="text-[#ffcc00] font-bold">{{
+                  buff.workforceReplacement.new_workforce_title
+                }}</span>
+              </div>
             </div>
           }
 
