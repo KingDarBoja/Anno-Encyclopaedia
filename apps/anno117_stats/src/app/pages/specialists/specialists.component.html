@@ -30,6 +30,27 @@
           </h3>
         </div>
 
+        <!-- 0. Allocation Filter -->
+        <div class="space-y-2">
+          <label
+            for="allocation-select"
+            class="filter-label text-[10px] uppercase tracking-widest font-bold font-roman block"
+          >
+            Allocation
+          </label>
+          <select
+            id="allocation-select"
+            [ngModel]="selectedAllocation()"
+            (ngModelChange)="selectedAllocation.set($event)"
+            class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
+          >
+            <option value="">-- All Allocations --</option>
+            @for (allocation of allocationList(); track allocation) {
+              <option [value]="allocation">{{ allocation }}</option>
+            }
+          </select>
+        </div>
+
         <!-- 1. Rarity Filter -->
         <div class="space-y-2">
           <label

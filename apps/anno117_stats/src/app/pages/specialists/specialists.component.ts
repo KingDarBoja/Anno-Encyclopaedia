@@ -26,6 +26,7 @@ export class SpecialistsPageComponent implements OnInit {
   readonly service = inject(SpecialistService);
 
   // Core filter parameters mapped to Angular Signals
+  selectedAllocation = signal<string>('');
   selectedRarity = signal<string>('');
   selectedAttribute = signal<string>('');
   selectedNiche = signal<string>('');
@@ -76,13 +77,25 @@ export class SpecialistsPageComponent implements OnInit {
     return Array.from(new Set(list)).sort();
   });
 
+  allocationList = computed<string[]>(() => {
+    const list = this.service.hydratedSpecialists().map((s) => s.allocation);
+    return Array.from(new Set(list)).sort();
+  });
+
   // Dynamic filter matching logic mapped in computed signal for performance
   filteredSpecialists = computed<HydratedSpecialistViewModel[]>(() => {
     let list = this.service.hydratedSpecialists();
+    const allocation = this.selectedAllocation();
     const rarity = this.selectedRarity();
     const niche = this.selectedNiche();
     const attribute = this.selectedAttribute();
     const upgrade = this.selectedUpgrade();
+
+    if (allocation) {
+      list = list.filter(
+        (s) => s.allocation.toLowerCase() === allocation.toLowerCase(),
+      );
+    }
 
     if (rarity) {
       list = list.filter(
@@ -143,6 +156,7 @@ export class SpecialistsPageComponent implements OnInit {
   });
 
   resetFilters() {
+    this.selectedAllocation.set('');
     this.selectedRarity.set('');
     this.selectedAttribute.set('');
     this.selectedNiche.set('');
