@@ -64,13 +64,28 @@
   margin: 1rem 0;
 }
 
-// Avatar Box: Enhanced depth and responsiveness
+// Avatar Box: Enhanced depth, responsiveness, and encapsulated layout rules
 .specialist-avatar-box {
+  position: relative;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
   background-color: color-mix(in srgb, var(--primary-color), black 30%);
   border: 1px solid color-mix(in srgb, var(--primary-color), transparent 50%);
   border-radius: 6px;
-  box-shadow: inset 0 2px 8px rgba(0, 0, 0, 0.4), 0 1px 2px rgba(0, 0, 0, 0.2);
-  transition: transform 0.2s ease, border-color 0.2s ease;
+  box-shadow:
+    inset 0 2px 8px rgba(0, 0, 0, 0.4),
+    0 1px 2px rgba(0, 0, 0, 0.2);
+
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
 
   img {
     object-fit: cover;
@@ -80,9 +95,60 @@
   }
 
   &:hover {
-    border-color: var(--primary-color);
-    transform: translateY(-1px);
+    // border-color: var(--primary-color);
+    transform: scale(1.05) translateY(-2px);
+
+    // Optional: brighten the border on hover
+    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.4);
   }
+}
+
+// Narrative -> #b20a0a
+// Common -> #f0f0f0
+// Uncommon -> #659e2d
+// Rare -> #3e5496
+// Epic -> #a563a7
+// Legendary -> #c76937
+// Unique -> #d4d406
+// Quest -> #4a3860
+
+// .rarity-uncommon {
+//   background: radial-gradient(circle, #f0f0f0 0%, #b0b0b0 100%);
+//   border-color: rgba(240, 240, 240, 0.4);
+// }
+.rarity-common {
+  background: radial-gradient(circle, #659e2d 0%, #456c1f 100%);
+  border-color: rgba(101, 158, 45, 0.5);
+}
+.rarity-rare {
+  background: radial-gradient(circle, #3e5496 0%, #283762 100%);
+  border-color: rgba(62, 84, 150, 0.5);
+}
+.rarity-epic {
+  background: radial-gradient(circle, #a563a7 0%, #6e4170 100%);
+  border-color: rgba(165, 99, 167, 0.5);
+}
+.rarity-unique {
+  background: radial-gradient(circle, #c76937 0%, #8d4a26 100%);
+  border-color: rgba(199, 105, 55, 0.6);
+  box-shadow:
+    inset 0 2px 8px rgba(0, 0, 0, 0.4),
+    0 0 8px rgba(199, 105, 55, 0.2);
+}
+// .rarity-narrative {
+//   background: radial-gradient(circle, #b20a0a 0%, #6c0606 100%);
+//   border-color: rgba(178, 10, 10, 0.4);
+// }
+// .rarity-quest {
+//   background: radial-gradient(circle, #4a3860 0%, #2d223a 100%);
+//   border-color: rgba(74, 56, 96, 0.5);
+// }
+.rarity-legendary {
+  background: radial-gradient(circle, #d4d406 0%, #919104 100%);
+  border-color: rgba(212, 212, 6, 0.6);
+  box-shadow:
+    inset 0 2px 8px rgba(0, 0, 0, 0.4),
+    0 0 8px rgba(212, 212, 6, 0.2);
 }
 
 // Card Content Boxes

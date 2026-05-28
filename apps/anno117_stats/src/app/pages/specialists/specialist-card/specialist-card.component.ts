@@ -19,6 +19,7 @@ interface GroupedProductNeed {
 }
 
 interface GroupedBuff {
+  guid: number;
   generalAttributes: HydratedSpecialistAttribute[];
   productNeedGroups: GroupedProductNeed[];
   additionalWorkforces: HydratedAsset[];
@@ -47,6 +48,15 @@ export class SpecialistCardComponent {
     buff_base_speed_upgrade: 'Navigation Speed',
     loading_speed_upgrade: 'Cargo Loading Speed',
   };
+
+  /**
+   * Computes a localized CSS class based on the specialist's rarity,
+   * enabling premium Roman-themed gradients to display behind the avatar.
+   */
+  readonly rarityClass = computed<string>(() => {
+    const rarity = this.specialist()?.rarity;
+    return rarity ? `rarity-${rarity.toLowerCase()}` : 'rarity-common';
+  });
 
   /**
    * Computed state to segment raw attributes dynamically based on associated product requirements
@@ -82,6 +92,7 @@ export class SpecialistCardComponent {
       });
 
       return {
+        guid: buff.guid,
         generalAttributes,
         productNeedGroups: Array.from(productGroupsMap.values()),
         additionalWorkforces: buff.additional_workforces || [],

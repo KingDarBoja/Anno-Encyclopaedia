@@ -3,11 +3,50 @@ import { HttpClient } from '@angular/common/http';
 import { forkJoin, of } from 'rxjs';
 import { catchError, finalize, tap } from 'rxjs/operators';
 
-// --- Referential Asset Interface ---
-export interface HydratedAsset {
-  readonly guid: number;
-  readonly name: string;
-  readonly icon_url: string;
+// --- Enums ---
+export enum ItemAllocation {
+  // NONE = 'None',
+  SHIP = 'Ship',
+  VILLA = 'Villa',
+}
+
+export enum RarityVisualization {
+  // NARRATIVE = 'Narrative',
+  COMMON = 'Common',
+  // UNCOMMON = 'Uncommon',
+  RARE = 'Rare',
+  EPIC = 'Epic',
+  LEGENDARY = 'Legendary',
+  // QUEST = 'Quest',
+  UNIQUE = 'Unique',
+}
+
+export enum NicheVisualization {
+  NONE = 'None',
+  FINANCE = 'Finance',
+  RELIGION = 'Religion',
+  RESEARCH = 'Research',
+  CULTURE = 'Culture',
+  ECONOMY = 'Economy',
+  AGRICULTURE = 'Agriculture',
+  DIPLOMACY = 'Diplomacy',
+  MILITARY = 'Military',
+  NAUTICS = 'Nautics',
+}
+
+export enum ScopeVisualization {
+  LOCAL = 'Local',
+  MODULE_OWNER = 'ModuleOwner',
+  STREET_DISTANCE = 'StreetDistance',
+  RADIUS = 'Radius',
+  OBJECTS_IN_AREA = 'ObjectsInArea',
+  AREA = 'Area',
+  OBJECTS_IN_SESSION = 'ObjectsInSession',
+  SESSION = 'Session',
+  OBJECTS_IN_META = 'ObjectsInMeta',
+  META = 'Meta',
+  AREAS_IN_META = 'AreasInMeta',
+  AREAS_IN_SESSION = 'AreasInSession',
 }
 
 // --- Raw Specialist Interfaces (Incoming JSON) ---
@@ -32,31 +71,54 @@ interface SpecialistAttribute {
 }
 
 interface SpecialistBuff {
+  /** The buff GUID. */
+  readonly guid: number;
+  /** List of "targets" GUIDs this buff applies. */
+  readonly target_guids: number[];
   readonly attributes: SpecialistAttribute[];
   readonly additional_workforces: number[];
   readonly added_fertility: SpecialistAddedFertility | null;
   readonly workforce_replacement: SpecialistWorkforceReplacement | null;
+  /** Formatted workforce modifier (e.g: "25%"). */
   readonly workforce_modifier_in_percent: string | null;
 }
 
 interface SpecialistEffectTarget {
+  /** Target GUID. Used to link the applied buffs to this target. */
+  readonly guid: number;
+  /** GUID of the target if it's an "AssetPoolNamed". This is the same as the
+   * guid but used to differentiate from raw production items. */
+  readonly asset_pool_guid: number | null;
+  /** Localized title of the target if it's an "AssetPoolNamed". */
+  readonly asset_pool_title: string | null;
   readonly affected_items: number[];
 }
 
 interface SpecialistEffect {
-  readonly scope: string;
+  readonly scope: ScopeVisualization;
   readonly category: string;
   readonly targets: SpecialistEffectTarget[];
   readonly buffs: SpecialistBuff[];
+}
+
+interface SpecialistBoost {
+  /** Localized description of the boost condition trigger. */
+  condition: string;
+  /** Localized hint to unlock this boost. */
+  hint: string;
+  /** The buffs applied after unlocking this boost. */
+  buffs: SpecialistBuff[];
 }
 
 interface SpecialistJSON {
   readonly title: string;
   readonly description: string;
   readonly icon_url: string;
-  readonly rarity: string;
-  readonly niche: string;
-  readonly allocation: string;
+  readonly rarity: RarityVisualization;
+  readonly niche: NicheVisualization;
+  readonly allocation: ItemAllocation;
+  readonly has_boost: boolean;
+  readonly boost_details: SpecialistBoost;
   readonly effect: SpecialistEffect;
 }
 
@@ -76,6 +138,14 @@ export interface AssetRefRecord {
 export type AssetsIndexRegistry = Record<string, AssetRefRecord>;
 
 // --- Hydrated UI ViewModels (Joined State) ---
+
+/** --- Referential Asset Interface --- */
+export interface HydratedAsset {
+  readonly guid: number;
+  readonly name: string;
+  readonly icon_url: string;
+}
+
 export interface HydratedSpecialistAttribute {
   readonly key: string;
   readonly value: string;
@@ -94,6 +164,7 @@ export interface HydratedSpecialistWorkforceReplacement
 }
 
 export interface HydratedSpecialistBuff {
+  readonly guid: number;
   readonly attributes: HydratedSpecialistAttribute[];
   readonly additional_workforces: HydratedAsset[];
   readonly added_fertility: HydratedSpecialistAddedFertility | null;
@@ -102,6 +173,12 @@ export interface HydratedSpecialistBuff {
 }
 
 export interface HydratedSpecialistEffectTarget {
+  readonly guid: number;
+  /** GUID of the target if it's an "AssetPoolNamed". This is the same as the
+   * guid but used to differentiate from raw production items. */
+  readonly asset_pool_guid: number | null;
+  /** Localized title of the target if it's an "AssetPoolNamed". */
+  readonly asset_pool_title: string | null;
   readonly affected_items: HydratedAsset[];
 }
 
@@ -216,9 +293,25 @@ export class SpecialistService {
       scope: spec.effect.scope,
       category: spec.effect.category,
       // Map targets list
-      targets: spec.effect.targets.map((tgt) => ({
-        affected_items: tgt.affected_items.map((guid) => resolveAsset(guid)),
-      })),
+      targets: spec.effect.targets.map((tgt) => {
+        // 1. Resolve all assets to HydratedAsset objects
+        const allAssets = tgt.affected_items.map((guid) => resolveAsset(guid));
+
+        // 2. Filter by unique name using a Map
+        const uniqueAssetsMap = new Map<string, HydratedAsset>();
+        allAssets.forEach((asset) => {
+          if (!uniqueAssetsMap.has(asset.name)) {
+            uniqueAssetsMap.set(asset.name, asset);
+          }
+        });
+
+        return {
+          guid: tgt.guid,
+          asset_pool_guid: tgt.asset_pool_guid,
+          asset_pool_title: tgt.asset_pool_title,
+          affected_items: Array.from(uniqueAssetsMap.values()),
+        };
+      }),
       // Map buffs list
       buffs: spec.effect.buffs.map((buff) => {
         // Hydrate product requirements inside this buff's attributes
@@ -263,6 +356,7 @@ export class SpecialistService {
         }
 
         return {
+          guid: buff.guid,
           attributes: hydratedAttributes,
           additional_workforces: hydratedWorkforces,
           added_fertility: hydratedFertility,

@@ -45,7 +45,7 @@
             class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
           >
             <option value="">-- All Allocations --</option>
-            @for (allocation of allocationList(); track allocation) {
+            @for (allocation of allocationList; track allocation) {
               <option [value]="allocation">{{ allocation }}</option>
             }
           </select>
@@ -66,7 +66,7 @@
             class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
           >
             <option value="">-- All Rarities --</option>
-            @for (rarity of raritiesList(); track rarity) {
+            @for (rarity of raritiesList; track rarity) {
               <option [value]="rarity">{{ rarity }}</option>
             }
           </select>

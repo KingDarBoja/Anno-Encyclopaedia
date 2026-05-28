@@ -12,6 +12,9 @@ import { SpecialistCardComponent } from './specialist-card/specialist-card.compo
 import {
   SpecialistService,
   HydratedSpecialistViewModel,
+  NicheVisualization,
+  RarityVisualization,
+  ItemAllocation,
 } from '../../services/specialist.service';
 
 @Component({
@@ -44,18 +47,14 @@ export class SpecialistsPageComponent implements OnInit {
     { value: 'prestige', label: 'Prestige' },
   ];
 
-  // Designated category Niches mapping exactly to the game's dataset
-  readonly nichesList = [
-    'Finance',
-    'Religion',
-    'Research',
-    'Culture',
-    'Economy',
-    'Agriculture',
-    'Diplomacy',
-    'Military',
-    'Nautics',
-  ];
+  /**
+   * Mappings of niche, allocation & rarities according to game data.
+   *
+   * @TODO Support translation labels.
+   */
+  readonly nichesList = Object.values(NicheVisualization);
+  readonly raritiesList = Object.values(RarityVisualization);
+  readonly allocationList = Object.values(ItemAllocation);
 
   // Specific modifier updates mapped to separate selector category
   readonly upgradeFilters = [
@@ -70,17 +69,6 @@ export class SpecialistsPageComponent implements OnInit {
   loadData() {
     this.service.fetchSpecialists();
   }
-
-  // Unique lists computed dynamically for selector values
-  raritiesList = computed<string[]>(() => {
-    const list = this.service.hydratedSpecialists().map((s) => s.rarity);
-    return Array.from(new Set(list)).sort();
-  });
-
-  allocationList = computed<string[]>(() => {
-    const list = this.service.hydratedSpecialists().map((s) => s.allocation);
-    return Array.from(new Set(list)).sort();
-  });
 
   // Dynamic filter matching logic mapped in computed signal for performance
   filteredSpecialists = computed<HydratedSpecialistViewModel[]>(() => {
