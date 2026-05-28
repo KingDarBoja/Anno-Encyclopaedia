@@ -163,6 +163,12 @@ export interface HydratedSpecialistWorkforceReplacement
   readonly new_workforce_icon_url: string;
 }
 
+export interface HydratedSpecialistBoost {
+  readonly condition: string;
+  readonly hint: string;
+  readonly buffs: HydratedSpecialistBuff[];
+}
+
 export interface HydratedSpecialistBuff {
   readonly guid: number;
   readonly target_guids: number[];
@@ -191,8 +197,9 @@ export interface HydratedSpecialistEffect {
 }
 
 export interface HydratedSpecialistViewModel
-  extends Omit<SpecialistViewModel, 'effect'> {
+  extends Omit<SpecialistViewModel, 'effect' | 'boost_details'> {
   readonly effect: HydratedSpecialistEffect;
+  readonly boost_details: HydratedSpecialistBoost | null;
 }
 
 @Injectable({
@@ -272,15 +279,10 @@ export class SpecialistService {
     }));
   }
 
-  /**
-   * Helper algorithm to structurally map individual raw view model objects
-   * into clean, fully-hydrated items using the assets lookup table.
-   */
-  private hydrateSpecialist(
-    spec: SpecialistViewModel,
+  private hydrateBuff(
+    buff: SpecialistBuff,
     index: AssetsIndexRegistry,
-  ): HydratedSpecialistViewModel {
-    // Internal helper to look up a GUID in our mapping index
+  ): HydratedSpecialistBuff {
     const resolveAsset = (guid: number): HydratedAsset => {
       const match = index[guid.toString()];
       return {
@@ -290,22 +292,86 @@ export class SpecialistService {
       };
     };
 
+    // Hydrate attributes
+    const hydratedAttributes = buff.attributes.map((attr) => ({
+      key: attr.key,
+      value: attr.value,
+      product_needs: attr.product_needs.map((guid) => resolveAsset(guid)),
+    }));
+
+    // Hydrate additional workforces
+    const hydratedWorkforces = buff.additional_workforces.map((guid) =>
+      resolveAsset(guid),
+    );
+
+    // Hydrate fertility
+    let hydratedFertility: HydratedSpecialistAddedFertility | null = null;
+    if (buff.added_fertility) {
+      const match = index[buff.added_fertility.guid.toString()];
+      hydratedFertility = {
+        ...buff.added_fertility,
+        icon_url: match ? match.icon_url : this._placeholder,
+      };
+    }
+
+    // Hydrate workforce replacements
+    let hydratedReplacement: HydratedSpecialistWorkforceReplacement | null =
+      null;
+    if (buff.workforce_replacement) {
+      const oldMatch =
+        index[buff.workforce_replacement.old_workforce_guid.toString()];
+      const newMatch =
+        index[buff.workforce_replacement.new_workforce_guid.toString()];
+      hydratedReplacement = {
+        ...buff.workforce_replacement,
+        old_workforce_icon_url: oldMatch
+          ? oldMatch.icon_url
+          : this._placeholder,
+        new_workforce_icon_url: newMatch
+          ? newMatch.icon_url
+          : this._placeholder,
+      };
+    }
+
+    return {
+      guid: buff.guid,
+      target_guids: buff.target_guids,
+      attributes: hydratedAttributes,
+      additional_workforces: hydratedWorkforces,
+      added_fertility: hydratedFertility,
+      workforce_replacement: hydratedReplacement,
+      workforce_modifier_in_percent: buff.workforce_modifier_in_percent,
+    };
+  }
+
+  /**
+   * Helper algorithm to structurally map individual raw view model objects
+   * into clean, fully-hydrated items using the assets lookup table.
+   */
+  private hydrateSpecialist(
+    spec: SpecialistViewModel,
+    index: AssetsIndexRegistry,
+  ): HydratedSpecialistViewModel {
+    const resolveAsset = (guid: number): HydratedAsset => {
+      const match = index[guid.toString()];
+      return {
+        guid,
+        name: match ? match.name : `Unknown Asset (${guid})`,
+        icon_url: match ? match.icon_url : this._placeholder,
+      };
+    };
+
+    // 1. Hydrate Effect
     const hydratedEffect: HydratedSpecialistEffect = {
       scope: spec.effect.scope,
       category: spec.effect.category,
-      // Map targets list
       targets: spec.effect.targets.map((tgt) => {
-        // 1. Resolve all assets to HydratedAsset objects
         const allAssets = tgt.affected_items.map((guid) => resolveAsset(guid));
-
-        // 2. Filter by unique name using a Map
         const uniqueAssetsMap = new Map<string, HydratedAsset>();
         allAssets.forEach((asset) => {
-          if (!uniqueAssetsMap.has(asset.name)) {
+          if (!uniqueAssetsMap.has(asset.name))
             uniqueAssetsMap.set(asset.name, asset);
-          }
         });
-
         return {
           guid: tgt.guid,
           asset_pool_guid: tgt.asset_pool_guid,
@@ -313,64 +379,24 @@ export class SpecialistService {
           affected_items: Array.from(uniqueAssetsMap.values()),
         };
       }),
-      // Map buffs list
-      buffs: spec.effect.buffs.map((buff) => {
-        // Hydrate product requirements inside this buff's attributes
-        const hydratedAttributes = buff.attributes.map((attr) => ({
-          key: attr.key,
-          value: attr.value,
-          product_needs: attr.product_needs.map((guid) => resolveAsset(guid)),
-        }));
-
-        // Hydrate additional workforces
-        const hydratedWorkforces = buff.additional_workforces.map((guid) =>
-          resolveAsset(guid),
-        );
-
-        // Hydrate added fertility seeder metadata
-        let hydratedFertility: HydratedSpecialistAddedFertility | null = null;
-        if (buff.added_fertility) {
-          const match = index[buff.added_fertility.guid.toString()];
-          hydratedFertility = {
-            ...buff.added_fertility,
-            icon_url: match ? match.icon_url : this._placeholder,
-          };
-        }
-
-        // Hydrate comparative workforce replacements
-        let hydratedReplacement: HydratedSpecialistWorkforceReplacement | null =
-          null;
-        if (buff.workforce_replacement) {
-          const oldMatch =
-            index[buff.workforce_replacement.old_workforce_guid.toString()];
-          const newMatch =
-            index[buff.workforce_replacement.new_workforce_guid.toString()];
-          hydratedReplacement = {
-            ...buff.workforce_replacement,
-            old_workforce_icon_url: oldMatch
-              ? oldMatch.icon_url
-              : this._placeholder,
-            new_workforce_icon_url: newMatch
-              ? newMatch.icon_url
-              : this._placeholder,
-          };
-        }
-
-        return {
-          guid: buff.guid,
-          target_guids: buff.target_guids,
-          attributes: hydratedAttributes,
-          additional_workforces: hydratedWorkforces,
-          added_fertility: hydratedFertility,
-          workforce_replacement: hydratedReplacement,
-          workforce_modifier_in_percent: buff.workforce_modifier_in_percent,
-        };
-      }),
+      buffs: spec.effect.buffs.map((buff) => this.hydrateBuff(buff, index)),
     };
+
+    // 2. Hydrate Boost (if exists)
+    let hydratedBoost: HydratedSpecialistBoost | null = null;
+    if (spec.has_boost && spec.boost_details) {
+      hydratedBoost = {
+        ...spec.boost_details,
+        buffs: spec.boost_details.buffs.map((buff) =>
+          this.hydrateBuff(buff, index),
+        ),
+      };
+    }
 
     return {
       ...spec,
       effect: hydratedEffect,
+      boost_details: hydratedBoost,
     };
   }
 }

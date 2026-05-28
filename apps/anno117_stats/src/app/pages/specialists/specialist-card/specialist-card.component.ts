@@ -5,14 +5,18 @@ import {
   ChangeDetectionStrategy,
 } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
+import { MatDivider } from '@angular/material/divider';
+
 import {
   HydratedAsset,
   HydratedSpecialistAddedFertility,
   HydratedSpecialistAttribute,
+  HydratedSpecialistBuff,
   HydratedSpecialistEffectTarget,
   HydratedSpecialistViewModel,
   HydratedSpecialistWorkforceReplacement,
 } from '../../../services/specialist.service';
+import { NgTemplateOutlet } from '@angular/common';
 
 interface GroupedProductNeed {
   product: HydratedAsset;
@@ -34,7 +38,7 @@ interface GroupedBuff {
 @Component({
   selector: 'anno-117-specialist-card',
   standalone: true,
-  imports: [MatExpansionModule],
+  imports: [MatExpansionModule, MatDivider, NgTemplateOutlet],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './specialist-card.component.html',
   styleUrls: ['./specialist-card.component.scss'],
@@ -66,49 +70,62 @@ export class SpecialistCardComponent {
    */
   groupedBuffs = computed<GroupedBuff[]>(() => {
     const spec = this.specialist();
-    const allTargets = spec.effect?.targets || [];
-    const buffs = spec.effect?.buffs || [];
-
-    if (!spec || !spec.effect) return [];
-
-    return buffs.map((buff) => {
-      const generalAttributes: HydratedSpecialistAttribute[] = [];
-      const productGroupsMap = new Map<
-        number,
-        { product: HydratedAsset; attributes: HydratedSpecialistAttribute[] }
-      >();
-
-      buff.attributes.forEach((attr) => {
-        if (!attr.product_needs || attr.product_needs.length === 0) {
-          generalAttributes.push(attr);
-        } else {
-          attr.product_needs.forEach((prod) => {
-            if (!productGroupsMap.has(prod.guid)) {
-              productGroupsMap.set(prod.guid, {
-                product: prod,
-                attributes: [],
-              });
-            }
-            const group = productGroupsMap.get(prod.guid);
-            if (group && !group.attributes.includes(attr)) {
-              group.attributes.push(attr);
-            }
-          });
-        }
-      });
-
-      return {
-        guid: buff.guid,
-        generalAttributes,
-        targets: allTargets.filter((t) => buff.target_guids.includes(t.guid)),
-        productNeedGroups: Array.from(productGroupsMap.values()),
-        additionalWorkforces: buff.additional_workforces || [],
-        addedFertility: buff.added_fertility,
-        workforceReplacement: buff.workforce_replacement,
-        workforceModifierInPercent: buff.workforce_modifier_in_percent,
-      };
-    });
+    if (!spec.effect) return [];
+    return spec.effect.buffs.map((b) =>
+      this.mapToGroupedBuff(b, spec.effect.targets),
+    );
   });
+
+  // Refactor boostDetails to use the helper
+  boostDetails = computed(() => {
+    const spec = this.specialist();
+    if (!spec.has_boost || !spec.boost_details) return null;
+
+    return {
+      ...spec.boost_details,
+      buffs: spec.boost_details.buffs.map((b) =>
+        this.mapToGroupedBuff(b, spec.effect?.targets || []),
+      ),
+    };
+  });
+
+  private mapToGroupedBuff(
+    buff: HydratedSpecialistBuff,
+    allTargets: HydratedSpecialistEffectTarget[],
+  ): GroupedBuff {
+    const generalAttributes: HydratedSpecialistAttribute[] = [];
+    const productGroupsMap = new Map<
+      number,
+      { product: HydratedAsset; attributes: HydratedSpecialistAttribute[] }
+    >();
+
+    buff.attributes.forEach((attr: any) => {
+      if (!attr.product_needs || attr.product_needs.length === 0) {
+        generalAttributes.push(attr);
+      } else {
+        attr.product_needs.forEach((prod: any) => {
+          if (!productGroupsMap.has(prod.guid)) {
+            productGroupsMap.set(prod.guid, { product: prod, attributes: [] });
+          }
+          const group = productGroupsMap.get(prod.guid);
+          if (group && !group.attributes.includes(attr)) {
+            group.attributes.push(attr);
+          }
+        });
+      }
+    });
+
+    return {
+      guid: buff.guid,
+      generalAttributes,
+      productNeedGroups: Array.from(productGroupsMap.values()),
+      additionalWorkforces: buff.additional_workforces || [],
+      addedFertility: buff.added_fertility,
+      workforceReplacement: buff.workforce_replacement,
+      workforceModifierInPercent: buff.workforce_modifier_in_percent,
+      targets: allTargets.filter((t) => buff.target_guids.includes(t.guid)),
+    };
+  }
 
   getLabel(key: string): string {
     return this.keyLabels[key] || key.replace(/_/g, ' ');
