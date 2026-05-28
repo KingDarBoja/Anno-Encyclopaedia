@@ -123,7 +123,7 @@ export class SpecialistCardComponent {
       addedFertility: buff.added_fertility,
       workforceReplacement: buff.workforce_replacement,
       workforceModifierInPercent: buff.workforce_modifier_in_percent,
-      targets: allTargets.filter((t) => buff.target_guids.includes(t.guid)),
+      targets: allTargets.filter((t) => (buff.target_guids || []).includes(t.guid)),
     };
   }
 
