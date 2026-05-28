@@ -165,6 +165,7 @@ export interface HydratedSpecialistWorkforceReplacement
 
 export interface HydratedSpecialistBuff {
   readonly guid: number;
+  readonly target_guids: number[];
   readonly attributes: HydratedSpecialistAttribute[];
   readonly additional_workforces: HydratedAsset[];
   readonly added_fertility: HydratedSpecialistAddedFertility | null;
@@ -357,6 +358,7 @@ export class SpecialistService {
 
         return {
           guid: buff.guid,
+          target_guids: buff.target_guids,
           attributes: hydratedAttributes,
           additional_workforces: hydratedWorkforces,
           added_fertility: hydratedFertility,

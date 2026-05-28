@@ -73,6 +73,11 @@ html {
   --mat-sys-surface: var(--background-color);
   --mat-sys-on-surface: var(--text-color);
   --mat-sys-outline: var(--background-accent-color);
+
+  // Custom overrides for mat-expansion-panel
+  --mat-expansion-container-text-font: var(--font-primary);
+  --mat-expansion-header-expanded-state-height: 48px;
+  --mat-expansion-header-collapsed-state-height: 48px;
 }
 
 html,
@@ -108,6 +113,25 @@ h6 {
 // Helper class for specific elements (like card titles)
 .font-roman {
   font-family: var(--font-primary);
+}
+
+.custom-roman-panel {
+  &.mat-expansion-panel {
+    background-color: var(--card-bg);
+    border: 1px solid var(--primary-color);
+    width: 100%;
+  }
+
+  .mat-expansion-panel-header-title {
+    color: var(--card-text);
+    letter-spacing: 0.02em;
+    font-size: 10px;
+    text-transform: uppercase;
+  }
+
+  .mat-expansion-panel-header-description {
+    color: var(--card-text);
+  }
 }
 
 ::-webkit-scrollbar {

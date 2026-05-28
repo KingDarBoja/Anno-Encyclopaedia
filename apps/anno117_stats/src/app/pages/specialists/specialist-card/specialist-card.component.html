@@ -52,7 +52,7 @@
           class="flex items-center justify-between border-b border-[#ebd2b8]/10 pb-2 mb-3"
         >
           <h3
-            class="font-roman text-[#d4b89b] text-[10px] uppercase tracking-widest font-bold"
+            class="font-roman text-[#d4b89b] text-[12px] uppercase tracking-widest font-bold"
           >
             Improves
           </h3>
@@ -61,19 +61,45 @@
 
         <!-- Targets Grid -->
         <div class="flex flex-wrap gap-2 mb-3">
-          @for (target of spec.effect.targets; track target.guid) {
-            @for (item of target.affected_items; track item.guid) {
-              <div
-                class="chip flex items-center gap-1.5 px-2 py-1 bg-[#2d0418] border border-[#ebd2b8]/10 rounded text-xs text-[#f7e1ca]"
-              >
-                <img
-                  [src]="item.icon_url"
-                  class="w-4 h-4 rounded-sm"
-                  alt=""
-                  (error)="onImageError($event)"
-                />
-                <span>{{ item.name }}</span>
-              </div>
+          @for (target of buff.targets; track target.guid) {
+            @if (target.asset_pool_title) {
+              <mat-expansion-panel class="custom-roman-panel">
+                <mat-expansion-panel-header>
+                  <mat-panel-title class="text-[#f7e1ca] font-bold">
+                    {{ target.asset_pool_title }}
+                  </mat-panel-title>
+                </mat-expansion-panel-header>
+
+                <div class="flex flex-wrap gap-2 mb-3">
+                  @for (item of target.affected_items; track item.guid) {
+                    <div
+                      class="chip flex items-center gap-1.5 px-2 py-1 bg-(--box-bg) border border-[#ebd2b8]/10 rounded text-xs text-[#f7e1ca]"
+                    >
+                      <img
+                        [src]="item.icon_url"
+                        class="w-4 h-4 rounded-sm"
+                        alt=""
+                        (error)="onImageError($event)"
+                      />
+                      <span>{{ item.name }}</span>
+                    </div>
+                  }
+                </div>
+              </mat-expansion-panel>
+            } @else {
+              @for (item of target.affected_items; track item.guid) {
+                <div
+                  class="chip flex items-center gap-1.5 px-2 py-1 bg-(--box-bg) border border-[#ebd2b8]/10 rounded text-xs text-[#f7e1ca]"
+                >
+                  <img
+                    [src]="item.icon_url"
+                    class="w-4 h-4 rounded-sm"
+                    alt=""
+                    (error)="onImageError($event)"
+                  />
+                  <span>{{ item.name }}</span>
+                </div>
+              }
             }
           }
         </div>
@@ -84,7 +110,7 @@
           <div class="space-y-1.5">
             @for (attr of buff.generalAttributes; track attr.key) {
               <div
-                class="flex items-center justify-between text-xs py-1.5 px-3 bg-[#2d0418] rounded border border-[#ebd2b8]/5"
+                class="flex items-center justify-between text-xs py-1.5 px-3 bg-(--box-bg) rounded border border-[#ebd2b8]/5"
               >
                 <span class="capitalize text-[#ebd2b8]/80">{{
                   getLabel(attr.key)
@@ -111,7 +137,7 @@
               <div class="space-y-1 pl-3 border-l border-[#5f032e]/60">
                 @for (attr of group.attributes; track attr.key) {
                   <div
-                    class="flex items-center justify-between text-xs py-1 px-2.5 bg-[#2d0418]/55 rounded border border-[#ebd2b8]/5"
+                    class="flex items-center justify-between text-xs py-1 px-2.5 bg-(--box-bg)/55 rounded border border-[#ebd2b8]/5"
                   >
                     <span class="capitalize text-[#ebd2b8]/75">{{
                       getLabel(attr.key)
@@ -131,7 +157,7 @@
           <!-- Workforce Modifier Case -->
           @if (buff.workforceModifierInPercent) {
             <div
-              class="bg-[#2d0418] p-2 rounded border border-[#ebd2b8]/10 flex justify-between items-center"
+              class="bg-(--box-bg) p-2 rounded border border-[#ebd2b8]/10 flex justify-between items-center"
             >
               <span
                 class="text-[10px] text-[#ebd2b8]/60 uppercase tracking-wide"
@@ -154,7 +180,7 @@
               <div class="flex flex-wrap gap-1">
                 @for (wf of buff.additionalWorkforces; track wf.guid) {
                   <div
-                    class="flex items-center gap-1.5 bg-[#2d0418] px-2.5 py-1 rounded border border-[#ebd2b8]/5 text-xs text-[#ebd2b8]/90"
+                    class="flex items-center gap-1.5 bg-(--box-bg) px-2.5 py-1 rounded border border-[#ebd2b8]/5 text-xs text-[#ebd2b8]/90"
                   >
                     <img
                       [src]="wf.icon_url"
@@ -174,7 +200,7 @@
           <!-- Workforce Replacement Logic -->
           @if (buff.workforceReplacement) {
             <div
-              class="mt-3 bg-[#2d0418] p-2 rounded border border-[#ebd2b8]/10 text-xs"
+              class="mt-3 bg-(--box-bg) p-2 rounded border border-[#ebd2b8]/10 text-xs"
             >
               <div
                 class="text-[9px] uppercase tracking-wider text-[#d4b89b]/50 mb-1"

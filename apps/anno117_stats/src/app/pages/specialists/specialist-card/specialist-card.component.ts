@@ -4,11 +4,12 @@ import {
   computed,
   ChangeDetectionStrategy,
 } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { MatExpansionModule } from '@angular/material/expansion';
 import {
   HydratedAsset,
   HydratedSpecialistAddedFertility,
   HydratedSpecialistAttribute,
+  HydratedSpecialistEffectTarget,
   HydratedSpecialistViewModel,
   HydratedSpecialistWorkforceReplacement,
 } from '../../../services/specialist.service';
@@ -19,19 +20,21 @@ interface GroupedProductNeed {
 }
 
 interface GroupedBuff {
-  guid: number;
-  generalAttributes: HydratedSpecialistAttribute[];
-  productNeedGroups: GroupedProductNeed[];
-  additionalWorkforces: HydratedAsset[];
-  addedFertility: HydratedSpecialistAddedFertility | null;
-  workforceReplacement: HydratedSpecialistWorkforceReplacement | null;
-  workforceModifierInPercent: string | null;
+  readonly guid: number;
+  readonly generalAttributes: HydratedSpecialistAttribute[];
+  readonly productNeedGroups: GroupedProductNeed[];
+  readonly additionalWorkforces: HydratedAsset[];
+  readonly addedFertility: HydratedSpecialistAddedFertility | null;
+  readonly workforceReplacement: HydratedSpecialistWorkforceReplacement | null;
+  readonly workforceModifierInPercent: string | null;
+  /** Linked targets to this buff. */
+  readonly targets: HydratedSpecialistEffectTarget[];
 }
 
 @Component({
   selector: 'anno-117-specialist-card',
   standalone: true,
-  imports: [CommonModule],
+  imports: [MatExpansionModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './specialist-card.component.html',
   styleUrls: ['./specialist-card.component.scss'],
@@ -63,9 +66,12 @@ export class SpecialistCardComponent {
    */
   groupedBuffs = computed<GroupedBuff[]>(() => {
     const spec = this.specialist();
+    const allTargets = spec.effect?.targets || [];
+    const buffs = spec.effect?.buffs || [];
+
     if (!spec || !spec.effect) return [];
 
-    return spec.effect.buffs.map((buff) => {
+    return buffs.map((buff) => {
       const generalAttributes: HydratedSpecialistAttribute[] = [];
       const productGroupsMap = new Map<
         number,
@@ -94,6 +100,7 @@ export class SpecialistCardComponent {
       return {
         guid: buff.guid,
         generalAttributes,
+        targets: allTargets.filter((t) => buff.target_guids.includes(t.guid)),
         productNeedGroups: Array.from(productGroupsMap.values()),
         additionalWorkforces: buff.additional_workforces || [],
         addedFertility: buff.added_fertility,
