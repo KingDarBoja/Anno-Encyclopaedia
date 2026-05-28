@@ -3131,7 +3131,8 @@
                         2786,
                         8579,
                         50280,
-                        31753
+                        31753,
+                        31755
                     ]
                 }
             ],
@@ -4003,7 +4004,10 @@
                         3198,
                         8579,
                         8887,
-                        2786
+                        2669,
+                        5971,
+                        2999,
+                        8580
                     ]
                 }
             ],
@@ -4266,70 +4270,6 @@
             ]
         }
     },
-    "44701": {
-        "icon_url": "assets/icons/base/icon_content/items_specialist/unique/icon_3d_specialist_hooded_01_0.webp",
-        "title": "Elephant Handler",
-        "description": "A Tripolitanian experienced with big grey ones could save the Procurator further exasperation.",
-        "rarity": "Quest",
-        "niche": "Finance",
-        "allocation": "Villa",
-        "has_boost": false,
-        "boost_details": null,
-        "effect": {
-            "scope": "Radius",
-            "category": "Item",
-            "targets": [],
-            "buffs": [
-                {
-                    "guid": 44703,
-                    "target_guids": [],
-                    "attributes": [
-                        {
-                            "key": "productivity_upgrade",
-                            "value": "+25%",
-                            "product_needs": []
-                        }
-                    ],
-                    "additional_workforces": [],
-                    "added_fertility": null,
-                    "workforce_replacement": null,
-                    "workforce_modifier_in_percent": null
-                }
-            ]
-        }
-    },
-    "44702": {
-        "icon_url": "assets/icons/base/icon_content/items_specialist/unique/icon_3d_specialist_hooded_01_0.webp",
-        "title": "Elephant Handler",
-        "description": "A Tripolitanian experienced with big grey ones could save the Procurator further exasperation.",
-        "rarity": "Quest",
-        "niche": "Agriculture",
-        "allocation": "Villa",
-        "has_boost": false,
-        "boost_details": null,
-        "effect": {
-            "scope": "Radius",
-            "category": "Item",
-            "targets": [],
-            "buffs": [
-                {
-                    "guid": 44704,
-                    "target_guids": [],
-                    "attributes": [
-                        {
-                            "key": "productivity_upgrade",
-                            "value": "+25%",
-                            "product_needs": []
-                        }
-                    ],
-                    "additional_workforces": [],
-                    "added_fertility": null,
-                    "workforce_replacement": null,
-                    "workforce_modifier_in_percent": null
-                }
-            ]
-        }
-    },
     "50287": {
         "icon_url": "assets/icons/base/icon_content/items_specialist/roman_male/icon_3d_roman_male_024_0.webp",
         "title": "Xeno of Phillipopolis, Hipparchon",
@@ -4515,130 +4455,6 @@
                         {
                             "key": "productivity_upgrade",
                             "value": "+20%",
-                            "product_needs": []
-                        }
-                    ],
-                    "additional_workforces": [],
-                    "added_fertility": null,
-                    "workforce_replacement": null,
-                    "workforce_modifier_in_percent": null
-                }
-            ]
-        }
-    },
-    "50900": {
-        "icon_url": "",
-        "title": "No title",
-        "description": "No Description",
-        "rarity": "Quest",
-        "niche": "Economy",
-        "allocation": "Villa",
-        "has_boost": false,
-        "boost_details": null,
-        "effect": {
-            "scope": "Radius",
-            "category": "Item",
-            "targets": [
-                {
-                    "guid": 50571,
-                    "asset_pool_guid": 50571,
-                    "asset_pool_title": "Cheese Chain",
-                    "affected_items": [
-                        6586,
-                        5847
-                    ]
-                }
-            ],
-            "buffs": [
-                {
-                    "guid": 50901,
-                    "target_guids": [
-                        50571
-                    ],
-                    "attributes": [
-                        {
-                            "key": "productivity_upgrade",
-                            "value": "+25%",
-                            "product_needs": []
-                        }
-                    ],
-                    "additional_workforces": [],
-                    "added_fertility": null,
-                    "workforce_replacement": null,
-                    "workforce_modifier_in_percent": null
-                }
-            ]
-        }
-    },
-    "50977": {
-        "icon_url": "assets/icons/base/icon_content/items_specialist/unique/icon_3d_specialist_hooded_01_0.webp",
-        "title": "No title",
-        "description": "No Description",
-        "rarity": "Quest",
-        "niche": "Religion",
-        "allocation": "Villa",
-        "has_boost": false,
-        "boost_details": null,
-        "effect": {
-            "scope": "Area",
-            "category": "Item",
-            "targets": [],
-            "buffs": [
-                {
-                    "guid": 50981,
-                    "target_guids": [],
-                    "attributes": [
-                        {
-                            "key": "belief",
-                            "value": "+100%",
-                            "product_needs": []
-                        }
-                    ],
-                    "additional_workforces": [],
-                    "added_fertility": null,
-                    "workforce_replacement": null,
-                    "workforce_modifier_in_percent": null
-                }
-            ]
-        }
-    },
-    "51012": {
-        "icon_url": "",
-        "title": "No title",
-        "description": "No Description",
-        "rarity": "Quest",
-        "niche": "Economy",
-        "allocation": "Villa",
-        "has_boost": false,
-        "boost_details": null,
-        "effect": {
-            "scope": "Radius",
-            "category": "Item",
-            "targets": [
-                {
-                    "guid": 50569,
-                    "asset_pool_guid": 50569,
-                    "asset_pool_title": "Bread Chain",
-                    "affected_items": [
-                        3174,
-                        3075,
-                        2693,
-                        5960,
-                        5967,
-                        5972
-                    ]
-                }
-            ],
-            "buffs": [
-                {
-                    "guid": 51013,
-                    "target_guids": [
-                        50569
-                    ],
-                    "attributes": [
-                        {
-                            "key": "productivity_upgrade",
-                            "value": "+50%",
                             "product_needs": []
                         }
                     ],
@@ -5592,38 +5408,6 @@
                             "product_needs": [
                                 30724
                             ]
-                        }
-                    ],
-                    "additional_workforces": [],
-                    "added_fertility": null,
-                    "workforce_replacement": null,
-                    "workforce_modifier_in_percent": null
-                }
-            ]
-        }
-    },
-    "51361": {
-        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sandals_goods_0.webp",
-        "title": "Stranded Sandal",
-        "description": "This once adorned the swift foot of Favillus, fighter supreme. ",
-        "rarity": "Quest",
-        "niche": "Culture",
-        "allocation": "Villa",
-        "has_boost": false,
-        "boost_details": null,
-        "effect": {
-            "scope": "Area",
-            "category": "Item",
-            "targets": [],
-            "buffs": [
-                {
-                    "guid": 51439,
-                    "target_guids": [],
-                    "attributes": [
-                        {
-                            "key": "prestige",
-                            "value": "+1",
-                            "product_needs": []
                         }
                     ],
                     "additional_workforces": [],
@@ -27529,38 +27313,6 @@
                         {
                             "key": "happiness",
                             "value": "+1.8",
-                            "product_needs": []
-                        }
-                    ],
-                    "additional_workforces": [],
-                    "added_fertility": null,
-                    "workforce_replacement": null,
-                    "workforce_modifier_in_percent": null
-                }
-            ]
-        }
-    },
-    "68050": {
-        "icon_url": "assets/icons/base/icon_content/items_specialist/unique/icon_3d_specialist_hooded_01_0.webp",
-        "title": "No title",
-        "description": "No Description",
-        "rarity": "Uncommon",
-        "niche": "Agriculture",
-        "allocation": "Villa",
-        "has_boost": false,
-        "boost_details": null,
-        "effect": {
-            "scope": "Radius",
-            "category": "Item",
-            "targets": [],
-            "buffs": [
-                {
-                    "guid": 68053,
-                    "target_guids": [],
-                    "attributes": [
-                        {
-                            "key": "productivity_upgrade",
-                            "value": "+25%",
                             "product_needs": []
                         }
                     ],

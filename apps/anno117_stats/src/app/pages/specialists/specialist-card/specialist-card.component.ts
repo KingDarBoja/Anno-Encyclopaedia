@@ -99,11 +99,11 @@ export class SpecialistCardComponent {
       { product: HydratedAsset; attributes: HydratedSpecialistAttribute[] }
     >();
 
-    buff.attributes.forEach((attr: any) => {
+    buff.attributes.forEach((attr) => {
       if (!attr.product_needs || attr.product_needs.length === 0) {
         generalAttributes.push(attr);
       } else {
-        attr.product_needs.forEach((prod: any) => {
+        attr.product_needs.forEach((prod) => {
           if (!productGroupsMap.has(prod.guid)) {
             productGroupsMap.set(prod.guid, { product: prod, attributes: [] });
           }
