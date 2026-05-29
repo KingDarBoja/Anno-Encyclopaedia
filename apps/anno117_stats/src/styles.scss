@@ -123,9 +123,10 @@ h6 {
   }
 
   .mat-expansion-panel-header-title {
+    font-family: var(--font-primary);
     color: var(--card-text);
     letter-spacing: 0.02em;
-    font-size: 10px;
+    font-size: 11px;
     text-transform: uppercase;
   }
 

@@ -49,11 +49,28 @@ export class SpecialistCardComponent {
   readonly keyLabels: Record<string, string> = {
     health: 'Health',
     fire_safety: 'Fire Safety',
+    population: 'Population',
+    money: 'Money',
+    happiness: 'Happiness',
+    belief: 'Belief',
+    knowledge: 'Knowledge',
+    prestige: 'Prestige',
     maintenance_factor: 'Maintenance Cost',
     workforce_maintenance_factor: 'Workforce Required',
     productivity_upgrade: 'Productivity',
     buff_base_speed_upgrade: 'Navigation Speed',
     loading_speed_upgrade: 'Cargo Loading Speed',
+  };
+
+  readonly keyIcons: Record<string, string> = {
+    population: 'icon_population_0.webp',
+    money: 'icon_income_0.webp', // Maps perfectly to asset file tree
+    happiness: 'icon_happiness_0.webp',
+    health: 'icon_health_0.webp',
+    fire_safety: 'icon_fire_safety_0.webp',
+    belief: 'icon_religion_belief_0.webp',
+    knowledge: 'icon_techtree_knowledge_0.webp',
+    prestige: 'icon_prestige_0.webp',
   };
 
   /**
@@ -72,7 +89,7 @@ export class SpecialistCardComponent {
         ? 'item_ship_socket.webp'
         : 'item_villa_socket.webp';
 
-    return `url(/assets/icons/${fileName})`;
+    return `url(assets/icons/${fileName})`;
   });
 
   /**
