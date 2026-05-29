@@ -65,6 +65,16 @@ export class SpecialistCardComponent {
     return rarity ? `rarity-${rarity.toLowerCase()}` : 'rarity-common';
   });
 
+  socketMaskUrl = computed(() => {
+    const allocation = this.specialist()?.allocation?.toLowerCase();
+    const fileName =
+      allocation === 'ship'
+        ? 'item_ship_socket.webp'
+        : 'item_villa_socket.webp';
+
+    return `url(/assets/icons/${fileName})`;
+  });
+
   /**
    * Computed state to segment raw attributes dynamically based on associated product requirements
    */
@@ -123,7 +133,9 @@ export class SpecialistCardComponent {
       addedFertility: buff.added_fertility,
       workforceReplacement: buff.workforce_replacement,
       workforceModifierInPercent: buff.workforce_modifier_in_percent,
-      targets: allTargets.filter((t) => (buff.target_guids || []).includes(t.guid)),
+      targets: allTargets.filter((t) =>
+        (buff.target_guids || []).includes(t.guid),
+      ),
     };
   }
 

@@ -1,3 +1,5 @@
+@use "sass:map";
+
 :host {
   display: block;
   height: 100%;
@@ -75,8 +77,9 @@
   justify-content: center;
   overflow: hidden;
 
-  background-color: color-mix(in srgb, var(--primary-color), black 30%);
-  border: 1px solid color-mix(in srgb, var(--primary-color), transparent 50%);
+  // background-color: color-mix(in srgb, var(--primary-color), black 30%);
+  // border: 1px solid color-mix(in srgb, var(--primary-color), transparent 50%);
+
   border-radius: 6px;
   box-shadow:
     inset 0 2px 8px rgba(0, 0, 0, 0.4),
@@ -92,6 +95,7 @@
     width: 100%;
     height: 100%;
     border-radius: 2px;
+    z-index: 50;
   }
 
   &:hover {
@@ -100,6 +104,33 @@
 
     // Optional: brighten the border on hover
     box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.4);
+  }
+
+  // 🛠️ Structural properties for the explicit frame element
+  .avatar-frame {
+    position: absolute;
+    inset: 0;
+    pointer-events: none; // Allows mouse events to pass straight through to the parent hover states
+
+    /* 🎭 THE CRITICAL FIX: Mask the element so the background gradient ONLY
+    exists on the frame lines */
+    -webkit-mask-image: var(--mask-url);
+    mask-image: var(--mask-url);
+
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* Replicates Photoshop's Curves/Exposure values for the metallic shine */
+    mix-blend-mode: color-dodge;
+    filter: brightness(1.15) contrast(1.3);
   }
 }
 
@@ -112,44 +143,110 @@
 // Unique -> #d4d406
 // Quest -> #4a3860
 
+$rarities: (
+  // "common":    (base: #ffffff, dark: #cbd5e1, alpha: 0.5),
+  "common": (
+      base: #659e2d,
+      dark: #456c1f,
+      alpha: 0.5,
+      blend: darken
+    ),
+  "rare": (
+    base: #3e5496,
+    dark: #283762,
+    alpha: 0.5,
+    blend: darken
+  ),
+  "epic": (
+    base: #a563a7,
+    dark: #6e4170,
+    alpha: 0.5,
+    blend: darken
+  ),
+  "legendary": (
+    base: #c76937,
+    dark: #8d4a26,
+    alpha: 0.5,
+    blend: overlay
+  ),
+  "quest": (
+    base: #4a3860,
+    dark: #2e223c,
+    alpha: 0.5,
+    blend: overlay
+  ),
+  "unique": (
+    base: #d4d406,
+    dark: #8a8a04,
+    alpha: 0.5,
+    blend: darken
+  )
+);
+
+@each $key, $colors in $rarities {
+  .rarity-#{$key} {
+    // background: linear-gradient(to bottom, map.get($colors, dark) 0%, map.get($colors, base) 50%, map.get($colors, dark) 100%);
+    border-color: rgba(map.get($colors, base), map.get($colors, alpha));
+
+    // Target the embedded frame to apply the dynamic texture overlay mix
+    .avatar-frame {
+      background-image:
+        var(--mask-url),
+        linear-gradient(to bottom, map.get($colors, dark) 0%, map.get($colors, base) 50%, map.get($colors, dark) 100%);
+
+      background-blend-mode: map.get($colors, blend);
+    }
+  }
+}
+
+// /* --- COMMON --- */
 // .rarity-uncommon {
-//   background: radial-gradient(circle, #f0f0f0 0%, #b0b0b0 100%);
-//   border-color: rgba(240, 240, 240, 0.4);
+//   background: linear-gradient(to bottom, #cbd5e1 0%, #ffffff 50%, #cbd5e1 100%);
+//   border-color: rgba(255, 255, 255, 0.5);
+//   mix-blend-mode: plus-lighter;
 // }
-.rarity-common {
-  background: radial-gradient(circle, #659e2d 0%, #456c1f 100%);
-  border-color: rgba(101, 158, 45, 0.5);
-}
-.rarity-rare {
-  background: radial-gradient(circle, #3e5496 0%, #283762 100%);
-  border-color: rgba(62, 84, 150, 0.5);
-}
-.rarity-epic {
-  background: radial-gradient(circle, #a563a7 0%, #6e4170 100%);
-  border-color: rgba(165, 99, 167, 0.5);
-}
-.rarity-unique {
-  background: radial-gradient(circle, #c76937 0%, #8d4a26 100%);
-  border-color: rgba(199, 105, 55, 0.6);
-  box-shadow:
-    inset 0 2px 8px rgba(0, 0, 0, 0.4),
-    0 0 8px rgba(199, 105, 55, 0.2);
-}
-// .rarity-narrative {
-//   background: radial-gradient(circle, #b20a0a 0%, #6c0606 100%);
-//   border-color: rgba(178, 10, 10, 0.4);
+
+// /* --- UNCOMMON --- */
+// .rarity-common {
+//   background: linear-gradient(to bottom, #456c1f 0%, #659e2d 50%, #456c1f 100%);
+//   border-color: rgba(101, 158, 45, 0.5);
+//   mix-blend-mode: plus-lighter;
 // }
+
+// /* --- RARE --- */
+// .rarity-rare {
+//   background: linear-gradient(to bottom, #283762 0%, #3e5496 50%, #283762 100%);
+//   border-color: rgba(62, 84, 150, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- EPIC --- */
+// .rarity-epic {
+//   background: linear-gradient(to bottom, #6e4170 0%, #a563a7 50%, #6e4170 100%);
+//   border-color: rgba(165, 99, 167, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- LEGENDARY --- */
+// .rarity-legendary {
+//   background: linear-gradient(to bottom, #8d4a26 0%, #c76937 50%, #8d4a26 100%);
+//   border-color: rgba(199, 105, 55, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- QUEST --- */
 // .rarity-quest {
-//   background: radial-gradient(circle, #4a3860 0%, #2d223a 100%);
+//   background: linear-gradient(to bottom, #2e223c 0%, #4a3860 50%, #2e223c 100%);
 //   border-color: rgba(74, 56, 96, 0.5);
+//   mix-blend-mode: plus-lighter;
 // }
-.rarity-legendary {
-  background: radial-gradient(circle, #d4d406 0%, #919104 100%);
-  border-color: rgba(212, 212, 6, 0.6);
-  box-shadow:
-    inset 0 2px 8px rgba(0, 0, 0, 0.4),
-    0 0 8px rgba(212, 212, 6, 0.2);
-}
+
+// /* --- UNIQUE --- */
+// .rarity-unique {
+//   background: linear-gradient(to bottom, #8a8a04 0%, #d4d406 50%, #8a8a04 100%);
+//   border-color: rgba(212, 212, 6, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
 
 // Card Content Boxes
 .roman-card-box {
