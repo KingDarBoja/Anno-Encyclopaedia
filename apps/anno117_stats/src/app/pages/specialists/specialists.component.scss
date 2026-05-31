@@ -3,42 +3,102 @@
     transition: background-color 0.3s ease;
 }
 
-/* Material Tab Custom Overrides matching Deity card style sheet */
-.specialist-tabs {
-    ::ng-deep .mat-mdc-tab-header-pagination-chevron {
-        border-color: var(--background-color) !important;
+/* Structural Theme Variables for the Specialist Sidebar Layout */
+.specialist-filter-panel {
+    // ==========================================================================
+    // 1. SEMANTIC THEME TOKENS (Dark Mode / Default)
+    // ==========================================================================
+    --panel-bg: color-mix(in srgb, var(--secondary-color), black 25%);
+    --panel-border: color-mix(in srgb, var(--background-color), transparent 85%);
+    --label-color: color-mix(in srgb, var(--background-color), transparent 30%);
+    --divider-color: color-mix(in srgb, var(--background-color), transparent 85%);
+
+    --field-bg: color-mix(in srgb, var(--primary-color), black 40%);
+    --field-text: var(--background-color);
+    --field-border: color-mix(in srgb, var(--background-color), transparent 80%);
+
+    background-color: var(--panel-bg);
+    border-color: var(--panel-border);
+    transition:
+        background-color 0.3s ease,
+        border-color 0.3s ease;
+
+    // ==========================================================================
+    // 2. SEMANTIC THEME TOKENS (Light Mode Overrides)
+    // ==========================================================================
+    :host-context(.light-mode) & {
+        --panel-bg: color-mix(in srgb, var(--background-accent-color), transparent 40%);
+        --panel-border: color-mix(in srgb, var(--primary-color), transparent 85%);
+        --label-color: var(--primary-color);
+        --divider-color: color-mix(in srgb, var(--primary-color), transparent 85%);
+
+        --field-bg: color-mix(in srgb, var(--background-accent-color), white 40%);
+        --field-text: var(--text-color);
+        --field-border: color-mix(in srgb, var(--primary-color), transparent 70%);
     }
 
-    ::ng-deep .mat-mdc-tab-label-container {
-        border-width: 0 !important;
+    // Secondary UI Components Cascades
+    .filter-label {
+        color: var(--label-color);
+        transition: color 0.3s ease;
     }
 
-    ::ng-deep .mat-mdc-tab-header {
-        background-color: var(--secondary-color);
-        border-radius: 4px;
+    .border-b,
+    .border-t {
+        border-color: var(--divider-color) !important;
+        transition: border-color 0.3s ease;
     }
 
-    ::ng-deep .mat-mdc-tab {
-        opacity: 0.6;
-        text-transform: uppercase;
-        font-family: var(--font-primary);
-        transition: opacity 0.2s ease;
+    // Shared Select and Input Text Boxes Styling
+    .roman-select-field,
+    .roman-input-field {
+        background-color: var(--field-bg);
+        color: var(--field-text);
+        border-color: var(--field-border);
+        transition:
+            background-color 0.3s ease,
+            color 0.3s ease,
+            border-color 0.3s ease;
 
-        &.mdc-tab--active {
-            color: var(--background-color);
-            font-weight: bold;
-            opacity: 1;
+        option {
+            background-color: var(--field-bg);
+            color: var(--field-text);
+        }
+
+        &::placeholder {
+            color: var(--field-text);
+            opacity: 0.5;
+        }
+
+        &:focus {
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 1px var(--primary-color);
         }
     }
 
-    ::ng-deep .mat-mdc-tab .mdc-tab__text-label {
-        color: var(--background-color) !important;
-        font-weight: 600;
+    button {
+        color: var(--field-text);
     }
+}
 
-    ::ng-deep .mat-mdc-tab .mdc-tab-indicator__content--underline {
-        border-color: var(--accent-color) !important;
-        border-top-width: 4px !important; // Thicker underline styling
+.filter-panel-header {
+    // Uses your layout's fluid divider lines (compatible with light/dark mutations)
+    border-bottom: 1px solid var(--divider-color, color-mix(in srgb, var(--background-color), transparent 85%));
+    padding-bottom: 0.75rem;
+
+    // Guarantees clean visual blending when hitting the theme toggle
+    transition: border-color 0.3s ease;
+
+    .header-title {
+        font-family: var(--font-roman);
+        font-size: 0.875rem;
+        font-weight: 700;
+        letter-spacing: 0.15em;
+        text-transform: uppercase;
+        margin: 0;
+        color: var(--field-text);
+
+        transition: color 0.3s ease;
     }
 }
 

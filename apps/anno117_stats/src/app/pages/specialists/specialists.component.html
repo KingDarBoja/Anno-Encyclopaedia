@@ -22,13 +22,11 @@
     >
       <div class="roman-filter-inner relative z-10 space-y-6">
         <!-- Header -->
-        <div class="border-b pb-3">
-          <h3
-            class="font-roman text-sm font-bold tracking-widest text-(--primary-color) uppercase m-0"
-          >
-            Filter Items
-          </h3>
-        </div>
+        <div class="filter-panel-header">
+  <h3 class="header-title">
+    Filter Items
+  </h3>
+</div>
 
         <div class="space-y-2">
           <label
@@ -165,7 +163,7 @@
         </div>
 
         <!-- Reset Button -->
-        <div class="pt-4 border-t border-(--section-divider)">
+        <div class="pt-4 border-t">
           <button
             type="button"
             (click)="resetFilters()"
