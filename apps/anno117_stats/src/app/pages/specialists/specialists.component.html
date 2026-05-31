@@ -22,12 +22,41 @@
     >
       <div class="roman-filter-inner relative z-10 space-y-6">
         <!-- Header -->
-        <div class="border-b border-(--section-divider) pb-3">
+        <div class="border-b pb-3">
           <h3
             class="font-roman text-sm font-bold tracking-widest text-(--primary-color) uppercase m-0"
           >
             Filter Items
           </h3>
+        </div>
+
+        <div class="space-y-2">
+          <label
+            for="title-search-input"
+            class="filter-label text-[10px] uppercase tracking-widest font-bold font-roman block"
+          >
+            Search Specialist
+          </label>
+          <div class="relative flex items-center">
+            <input
+              id="title-search-input"
+              type="text"
+              [ngModel]="searchQuery()"
+              (ngModelChange)="searchQuery.set($event)"
+              placeholder="Enter title name..."
+              class="roman-input-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1"
+            />
+            @if (searchQuery()) {
+              <button
+                type="button"
+                (click)="searchQuery.set('')"
+                class="absolute right-3 text-xs opacity-40 hover:opacity-100 transition-opacity"
+                aria-label="Clear Search Input"
+              >
+                ✕
+              </button>
+            }
+          </div>
         </div>
 
         <!-- 0. Allocation Filter -->
