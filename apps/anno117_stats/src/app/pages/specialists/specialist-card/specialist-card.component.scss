@@ -143,6 +143,7 @@
 // Unique -> #d4d406
 // Quest -> #4a3860
 
+/* Swapped "unique" original color with the "legendary" one. */
 $rarities: (
   // "common":    (base: #ffffff, dark: #cbd5e1, alpha: 0.5),
   "common": (
@@ -176,11 +177,17 @@ $rarities: (
     blend: overlay
   ),
   "unique": (
-    base: #d4d406,
-    dark: #8a8a04,
+    base: #c76937,
+    dark: #8d4a26,
     alpha: 0.5,
     blend: darken
-  )
+  ),
+  // "unique": (
+  //   base: #d4d406,
+  //   dark: #8a8a04,
+  //   alpha: 0.5,
+  //   blend: darken
+   // )
 );
 
 @each $key, $colors in $rarities {

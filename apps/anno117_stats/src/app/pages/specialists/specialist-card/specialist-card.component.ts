@@ -64,7 +64,7 @@ export class SpecialistCardComponent {
 
   readonly keyIcons: Record<string, string> = {
     population: 'icon_population_0.webp',
-    money: 'icon_income_0.webp', // Maps perfectly to asset file tree
+    money: 'icon_income_0.webp',
     happiness: 'icon_happiness_0.webp',
     health: 'icon_health_0.webp',
     fire_safety: 'icon_fire_safety_0.webp',

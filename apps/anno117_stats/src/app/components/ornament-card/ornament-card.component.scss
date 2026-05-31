@@ -1,33 +1,92 @@
 .ornament-card {
+  // ==========================================================================
+  // 1. SEMANTIC THEME TOKENS (Dark Mode / Default)
+  // ==========================================================================
+  --meta-bg: color-mix(in srgb, var(--secondary-color), var(--primary-color) 40%);
+  --meta-border: color-mix(in srgb, var(--background-color), transparent 90%);
+  --meta-label: color-mix(in srgb, var(--background-color), transparent 30%);
+  --meta-value: var(--background-accent-color);
+
+  --btn-bg: color-mix(in srgb, var(--primary-color), black 10%);
+  --btn-text: var(--background-accent-color);
+  --btn-border: color-mix(in srgb, var(--background-accent-color), transparent 50%);
+  --btn-hover-bg: var(--background-accent-color);
+  --btn-hover-text: var(--secondary-color);
+
+  // ==========================================================================
+  // 2. SEMANTIC THEME TOKENS (Light Mode Overrides)
+  // ==========================================================================
+  :host-context(.light-mode) & {
+    --meta-bg: color-mix(in srgb, var(--background-accent-color), transparent 40%);
+    --meta-border: color-mix(in srgb, var(--secondary-color), transparent 80%);
+    --meta-label: color-mix(in srgb, var(--text-color), transparent 20%);
+    --meta-value: var(--text-color);
+
+    --btn-bg: color-mix(in srgb, var(--primary-color), transparent 90%);
+    --btn-text: var(--primary-color);
+    --btn-border: color-mix(in srgb, var(--primary-color), transparent 50%);
+    --btn-hover-bg: var(--primary-color);
+    --btn-hover-text: #ffffff;
+  }
+
+  // ==========================================================================
+  // 3. CORE LAYOUT STYLES & TRANSITIONS
+  // ==========================================================================
   .sub-meta {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.6em 0.8em;
-    background-color: color-mix(in srgb, var(--background-accent-color), transparent 20%);
-    border-top: 1px dashed color-mix(in srgb, var(--secondary-color), transparent 85%);
+    background-color: var(--meta-bg);
+    border-top: 1px solid var(--meta-border);
     font-size: 0.75em;
+    
+    // Smooth color blending when swapping modes
+    transition: 
+      background-color 0.3s ease, 
+      border-color 0.3s ease;
 
     .origin-tag {
       display: flex;
       gap: 4px;
-      .label { color: var(--secondary-color); font-weight: 600; }
-      .origin-value { color: var(--text-color); font-weight: 500; }
+      
+      .label { 
+        color: var(--meta-label); 
+        font-weight: 600; 
+        transition: color 0.3s ease;
+      }
+      
+      .origin-value { 
+        color: var(--meta-value); 
+        font-weight: 500; 
+        transition: color 0.3s ease;
+      }
     }
 
     .placement-btn {
-      background: color-mix(in srgb, var(--primary-color), transparent 90%);
-      color: var(--primary-color);
-      border: 1px solid color-mix(in srgb, var(--primary-color), transparent 60%);
+      background-color: var(--btn-bg);
+      color: var(--btn-text);
+      border: 1px solid var(--btn-border);
       padding: 3px 8px;
       border-radius: 4px;
       font-weight: 600;
       cursor: pointer;
-      transition: all 0.2s ease;
+      
+      // Handle color, scale transitions, and shadow simultaneously
+      transition: 
+        background-color 0.2s ease, 
+        color 0.2s ease, 
+        border-color 0.2s ease,
+        transform 0.1s ease;
 
       &:hover {
-        background: var(--primary-color);
-        color: white;
+        background-color: var(--btn-hover-bg);
+        color: var(--btn-hover-text);
+        border-color: transparent;
+      }
+
+      &:active {
+        transform: scale(0.97);
       }
     }
   }

@@ -1,39 +1,5 @@
-// Include theming for Angular Material with `mat.theme()`.
-// This Sass mixin will define CSS variables that are used for styling Angular Material
-// components according to the Material 3 design spec.
-// Learn more about theming and how to use it for your application's
-// custom components at https://material.angular.dev/guide/theming
 @use "@angular/material" as mat;
-
-// html {
-//   height: 100%;
-//   @include mat.theme((
-//     color: (
-//       primary: mat.$rose-palette,
-//       tertiary: mat.$red-palette,
-//     ),
-//     typography: Roboto,
-//     density: 0,
-//   ));
-// }
-
-// body {
-//   // Default the application to a light color theme. This can be changed to
-//   // `dark` to enable the dark color theme, or to `light dark` to defer to the
-//   // user's system settings.
-//   color-scheme: light;
-
-//   // Set a default background, font and text colors for the application using
-//   // Angular Material's system-level CSS variables. Learn more about these
-//   // variables at https://material.angular.dev/guide/system-variables
-//   background-color: var(--mat-sys-surface);
-//   color: var(--mat-sys-on-surface);
-//   font: var(--mat-sys-body-medium);
-
-//   // Reset the user agent margin.
-//   margin: 0;
-//   height: 100%;
-// }
+@use 'generic_card';
 
 /* You can add global styles to this file, and also import other style files */
 
@@ -203,12 +169,90 @@ h6 {
   }
 }
 
+/* --------- ICON MASKING ------------ */
+.icon-brand {
+  // 1. Core mask configuration for clean containment boundaries[cite: 1]
+  -webkit-mask-size: contain;
+  mask-size: contain;
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+  -webkit-mask-position: center;
+  mask-position: center;
+
+  // 2. Default Theme Tint (Dark Mode)
+  // Uses the cream background color to stand out on dark containers
+  background-color: var(--background-color);
+
+  // Smooth color morphing on transition toggle
+  transition: background-color 0.3s ease;
+
+  // 3. Light Mode Theme Tint Override
+  // Flips to the rich primary wine color on light cream containers[cite: 3]
+  .light-mode & {
+    background-color: var(--primary-color);
+  }
+}
+
 /* --------- DIALOGS ------------ */
+
+/* Dialog Overlay Mask */
+.cdk-overlay-popover .cdk-overlay-backdrop {
+  background-color: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(4px);
+}
+
+/* Modal Frame */
+.anno-dialog-container {
+  width: 100%;
+  max-width: 550px;
+  background-color: var(--background-color);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.5);
+  overflow: hidden;
+  animation: scaleUp 0.15s cubic-bezier(0, 0, 0.2, 1);
+
+  .anno-dialog-header {
+    background-color: var(--background-accent-color);
+    padding: 12px 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid color-mix(in srgb, var(--secondary-color), transparent 70%);
+
+    h3 {
+      margin: 0;
+      font-size: 1em;
+      color: var(--primary-color);
+      font-weight: bold;
+    }
+    .anno-close-btn {
+      background: none;
+      border: none;
+      color: var(--secondary-color);
+      font-size: 1.2em;
+      cursor: pointer;
+    }
+  }
+
+  .anno-dialog-body {
+    padding: 16px 0px;
+
+    > * {
+      padding-left: 16px;
+      padding-right: 16px;
+    }
+
+    .anno-dialog-intro {
+      font-size: 0.85em;
+      margin-bottom: 12px;
+      color: color-mix(in srgb, var(--text-color), transparent 20%);
+    }
+  }
+}
 
 // Target the custom panel class passed to your MatDialog config
 .roman-dialog-panel {
   // Overrides the modern Angular Material (MDC) internal structural frame
   .mat-mdc-dialog-container .mdc-dialog__surface {
-    border-radius: 4px !important; 
+    border-radius: 8px !important;
   }
 }

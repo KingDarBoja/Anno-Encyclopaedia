@@ -13,14 +13,14 @@ export interface OrnamentDialogData {
   standalone: true,
   template: `
     <div
-      class="dialog-container"
+      class="anno-dialog-container"
       role="dialog"
       [attr.aria-label]="data.title + ' Menu Placements'"
     >
-      <header class="dialog-header">
+      <header class="anno-dialog-header">
         <h3>{{ data.title }} — Menu Placements</h3>
         <button
-          class="close-btn"
+          class="anno-close-btn"
           (click)="dialogRef.close()"
           aria-label="Close dialog"
         >
@@ -28,10 +28,10 @@ export interface OrnamentDialogData {
         </button>
       </header>
 
-      <div class="dialog-body">
-        <p class="dialog-intro">
+      <div class="anno-dialog-body">
+        <p class="anno-dialog-intro">
           This decorative asset appears across the following construction
-          pathways:
+          menus:
         </p>
         <div class="placements-list">
           @for (p of data.placements; track p.subCategoryGuid) {

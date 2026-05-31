@@ -14,10 +14,12 @@ export interface CardFooterItem {
 }
 
 @Component({
-  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'anno-generic-card',
   standalone: true,
   changeDetection: ChangeDetectionStrategy.OnPush,
+  host: {
+    style: 'display: block; width: 100%;'
+  },
   template: `
     <div class="generic-card">
       <header>
@@ -47,7 +49,6 @@ export interface CardFooterItem {
       </footer>
     </div>
   `,
-  styleUrl: './generic-card.component.scss',
 })
 export class GenericCardComponent {
   readonly title = input.required<string>();

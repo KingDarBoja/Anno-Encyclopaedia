@@ -9,10 +9,10 @@
   </p>
 
   <!-- Content Wrapper -->
-  <div class="w-full max-w-[1600px] flex flex-row items-start px-6">
+  <div class="w-full max-w-400 flex flex-row items-start px-6">
     <!-- <anno-toc [entries]="tocEntries()" /> -->
 
-    <div class="flex-grow min-w-0">
+    <div class="grow min-w-0">
       @for (set of achievementSets(); track set.categoryLabel) {
         <div [id]="set.slug" class="w-full mb-16">
           <div
@@ -30,7 +30,7 @@
             class="grid w-full gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 box-border justify-items-center"
           >
             @for (achievement of set.achievements; track achievement.id) {
-              <anno-achievement-card [data]="achievement" />
+              <anno-achievement-card [achievement]="achievement" />
             }
           </div>
         </div>

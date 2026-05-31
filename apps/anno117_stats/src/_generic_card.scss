@@ -1,0 +1,151 @@
+.generic-card {
+  // ==========================================================================
+  // 1. SEMANTIC THEME TOKENS (Default Dark Mode - Based on deity-card theme)
+  // ==========================================================================
+  --gcard-bg: color-mix(in srgb, var(--secondary-color), var(--primary-color) 40%);
+  --gcard-border: color-mix(in srgb, var(--background-color), transparent 90%);
+  --gcard-text: var(--background-color);
+
+  --gcard-header-bg: color-mix(in srgb, var(--primary-color), black 50%);
+  --gcard-header-title: var(--background-accent-color);
+
+  --gcard-body-bg: rgba(255, 255, 255, 0.03);
+
+  --gcard-footer-bg: color-mix(in srgb, var(--primary-color), black 30%);
+  --gcard-footer-label: color-mix(in srgb, var(--background-color), var(--secondary-color) 25%);
+  --gcard-footer-value: var(--background-accent-color);
+
+  // ==========================================================================
+  // 2. SEMANTIC THEME TOKENS (Light Mode Overrides - Based on :root variables)
+  // ==========================================================================
+  .light-mode & {
+    --gcard-bg: var(--background-color);
+    --gcard-border: color-mix(in srgb, var(--secondary-color), transparent 80%);
+    --gcard-text: var(--text-color);
+
+    --gcard-header-bg: var(--background-accent-color);
+    --gcard-header-title: var(--primary-color);
+
+    --gcard-body-bg: rgba(255, 255, 255, 0.05);
+
+    --gcard-footer-bg: color-mix(in srgb, var(--background-accent-color), transparent 50%);
+    --gcard-footer-label: var(--secondary-color);
+    --gcard-footer-value: var(--accent-color);
+  }
+
+  // ==========================================================================
+  // 3. CORE ARCHITECTURE & LAYOUT STYLES
+  // ==========================================================================
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--gcard-border);
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--gcard-bg);
+  margin: auto;
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease;
+
+  header {
+    padding: 0.5em;
+    background-color: var(--gcard-header-bg);
+    text-align: center;
+    height: 1.7em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+
+    h3 {
+      margin: 0;
+      color: var(--gcard-header-title);
+      font-size: 0.9em;
+      line-height: 1.2;
+      overflow: hidden;
+      transition: color 0.3s ease;
+    }
+  }
+
+  .card-body-row {
+    display: flex;
+    flex-direction: row;
+    height: 88px;
+    background-color: var(--gcard-body-bg);
+    border-top: 1px solid var(--gcard-border);
+    transition:
+      background-color 0.3s ease,
+      border-top-color 0.3s ease;
+
+    .card-image {
+      width: 88px;
+      min-width: 88px;
+      height: 88px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+      border-right: 1px solid var(--gcard-border);
+      transition: border-right-color 0.3s ease;
+
+      img {
+        height: 100%;
+        width: auto;
+        display: block;
+      }
+    }
+
+    .card-content {
+      flex-grow: 1;
+      padding: 12px;
+      color: var(--gcard-text);
+      font-size: 0.8em;
+      text-align: left;
+      line-height: 1.4;
+      display: flex;
+      align-items: center;
+      transition: color 0.3s ease;
+    }
+  }
+
+  .card-footer {
+    display: flex;
+    border-top: 1px solid var(--gcard-border);
+    background-color: var(--gcard-footer-bg);
+    transition:
+      background-color 0.3s ease,
+      border-top-color 0.3s ease;
+
+    .footer-col {
+      flex: 1;
+      padding: 0.5em 0.2em;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      &:first-child {
+        border-right: 1px solid var(--gcard-border);
+        transition: border-right-color 0.3s ease;
+      }
+
+      .label {
+        font-size: 0.6em;
+        color: var(--gcard-footer-label);
+        text-transform: uppercase;
+        font-weight: 600;
+        transition: color 0.3s ease;
+      }
+
+      .value {
+        display: inline-flex;
+        align-items: center;
+        gap: 4px;
+        font-size: 0.9em;
+        font-weight: bold;
+        color: var(--gcard-footer-value);
+        transition: color 0.3s ease;
+      }
+    }
+  }
+}

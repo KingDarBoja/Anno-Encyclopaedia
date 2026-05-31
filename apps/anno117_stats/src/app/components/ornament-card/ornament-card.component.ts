@@ -21,6 +21,9 @@ import {
   standalone: true,
   imports: [CommonModule, MatDialogModule],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  host: {
+    style: 'display: block; width: 100%;',
+  },
   template: `
     <div class="generic-card ornament-card">
       <header>
@@ -43,13 +46,31 @@ import {
       <footer class="card-footer main-stats">
         <div class="footer-col">
           <span class="label">Prestige</span>
-          <span class="value">{{ prestige() }}</span>
+          <span class="value">
+            <span
+              class="inline-block w-4 h-4 icon-brand"
+              [style.mask-image]="
+                'url(assets/icons/main/attributes/icon_prestige_0.webp)'
+              "
+              [style.-webkit-mask-image]="
+                'url(assets/icons/main/attributes/icon_prestige_0.webp)'
+              "
+              role="img"
+              [attr.aria-label]="'Prestige Icon'"
+            ></span>
+            {{ prestige() }}
+          </span>
         </div>
         <div class="footer-col">
           <span class="label">Cost</span>
-          <span class="value">{{
-            cost() > 0 ? (cost() | number) + ' 𐌿' : 'Free'
-          }}</span>
+          <span class="value">
+            <img
+              class="w-4 h-4"
+              src="assets/icons/main/attributes/icon_income_0.webp"
+              alt="prestige icon"
+            />
+            {{ cost() > 0 ? (cost() | number) : 'Free' }}
+          </span>
         </div>
       </footer>
 
@@ -68,10 +89,7 @@ import {
       </footer>
     </div>
   `,
-  styleUrls: [
-    './ornament-card.component.scss',
-    '../generic-card/generic-card.component.scss',
-  ],
+  styleUrl: './ornament-card.component.scss',
 })
 export class OrnamentCardComponent {
   readonly title = input.required<string>();

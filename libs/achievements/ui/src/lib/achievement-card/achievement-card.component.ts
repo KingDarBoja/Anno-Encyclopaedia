@@ -3,29 +3,34 @@ import {
   input,
   ChangeDetectionStrategy,
   inject,
+  computed,
 } from '@angular/core';
 import { Achievement, AchievementService } from '@anno/achievements-data';
 
 @Component({
   selector: 'anno-achievement-card',
   standalone: true,
-  imports: [],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  host: {
+    style: 'display: block; width: 100%;',
+  },
   template: `
-    <div class="achievement-card">
-      @let title = data().title.english;
-      @let desc = data().description.english;
-      @let points = data().points;
-      @let diff = data().difficulty;
+    <div class="generic-card">
+      @let cheevo = achievement();
+      @let title = cheevo.title.english;
+      @let desc = cheevo.description.english;
+      @let points = cheevo.points;
+      @let diff = cheevo.difficulty;
 
       <header>
         <h3>{{ title }}</h3>
       </header>
 
       <div class="card-body-row">
+        <div [class]="'difficulty-spacer ' + difficultyClass()"></div>
         <div class="card-image">
           <img
-            [src]="data().image_url"
+            [src]="cheevo.image_url"
             (error)="handleImgError($event)"
             [alt]="title"
           />
@@ -52,7 +57,12 @@ import { Achievement, AchievementService } from '@anno/achievements-data';
 export class AchievementCardComponent {
   private readonly achievementService = inject(AchievementService);
 
-  data = input.required<Achievement>();
+  readonly achievement = input.required<Achievement>();
+
+  readonly difficultyClass = computed<string>(() => {
+    const diff = this.achievement().difficulty;
+    return diff ? `difficulty-${diff.toLowerCase()}` : 'difficulty-bronze';
+  });
 
   handleImgError(event: ErrorEvent) {
     const imgElement = event.target as HTMLImageElement;
