@@ -202,3 +202,13 @@ h6 {
     color: color-mix(in srgb, var(--secondary-color), transparent 40%);
   }
 }
+
+/* --------- DIALOGS ------------ */
+
+// Target the custom panel class passed to your MatDialog config
+.roman-dialog-panel {
+  // Overrides the modern Angular Material (MDC) internal structural frame
+  .mat-mdc-dialog-container .mdc-dialog__surface {
+    border-radius: 4px !important; 
+  }
+}

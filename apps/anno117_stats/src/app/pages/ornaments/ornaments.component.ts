@@ -1,28 +1,25 @@
 import { Component, inject, effect, computed } from '@angular/core';
-import { GenericCardComponent } from '../../components/generic-card/generic-card.component';
+import { CommonModule } from '@angular/common';
+
+import { OrnamentCardComponent } from '../../components/ornament-card/ornament-card.component';
 import {
   OrnamentalBuildingService,
   OrnamentalBuildingViewModel,
 } from '../../services/ornamental-building.service';
 
 @Component({
-  // eslint-disable-next-line @angular-eslint/component-selector
   selector: 'anno-ornaments-page',
   standalone: true,
-  imports: [GenericCardComponent],
+  imports: [CommonModule, OrnamentCardComponent],
   templateUrl: './ornaments.component.html',
-  styleUrl: './ornaments.component.scss',
 })
 export class OrnamentsPageComponent {
-  // Inject the new service
   public readonly ornamentalService = inject(OrnamentalBuildingService);
 
-  // Expose signals for template consumption
   buildings = this.ornamentalService.buildings;
   isLoading = this.ornamentalService.isLoading;
 
   constructor() {
-    // Automatically trigger fetch when component initializes
     effect(() => {
       this.ornamentalService.fetchOrnaments();
     });
@@ -30,38 +27,32 @@ export class OrnamentsPageComponent {
 
   readonly groupedBuildings = computed(() => {
     const data = this.buildings();
+    const groupsMap = new Map<string, OrnamentalBuildingViewModel[]>();
 
-    // Use a Map where the key is the GUID (string)
-    const groupsMap = new Map<
-      string,
-      { title: string; subtitle: string; slug: string; items: OrnamentalBuildingViewModel[] }
-    >();
-
+    // Shift operational anchor to grouping directly by asset origin
     data.forEach((building) => {
-      const id = building.groupId;
+      const sourceGroup = building.origin;
 
-      if (!groupsMap.has(id)) {
-        groupsMap.set(id, {
-          title: building.groupName, // Store the display name once for the header.
-          subtitle: building.groupDisplayName,
-          slug: building.groupSlug, // Capture the slug.
-          items: [],
-        });
+      if (!groupsMap.has(sourceGroup)) {
+        groupsMap.set(sourceGroup, []);
       }
-
-      const group = groupsMap.get(id);
-      if (group) {
-        group.items.push(building);
+      const sourceGroupItem = groupsMap.get(sourceGroup);
+      if (sourceGroupItem) {
+        sourceGroupItem.push(building);
       }
     });
 
-    // Convert to an array for the template @for loop
-    return Array.from(groupsMap.entries()).map(([guid, group]) => ({
-      guid,
-      title: group.title,
-      subtitle: group.subtitle,
-      slug: group.slug,
-      items: group.items,
+    return Array.from(groupsMap.entries()).map(([originName, items]) => ({
+      title: originName,
+      slug: this.slugify(originName),
+      items: items,
     }));
   });
+
+  private slugify(text: string): string {
+    return text
+      .toLowerCase()
+      .replace(/[^a-z0-9]+/g, '-')
+      .replace(/^-+|-+$/g, '');
+  }
 }

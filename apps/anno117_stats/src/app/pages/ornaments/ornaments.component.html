@@ -1,5 +1,4 @@
 <section class="w-full flex flex-col items-center py-8">
-  <!-- Title and Subtitle adapted from Achievement structure -->
   <h2 class="text-3xl page-main-title">Ornaments</h2>
 
   <p class="page-main-subtitle">
@@ -7,40 +6,35 @@
     prestige and aesthetic appeal.
   </p>
 
-  <!-- Content Wrapper -->
-  <div class="w-full max-w-[1600px] flex flex-row items-start px-6">
-    <div class="flex-grow min-w-0">
+  <div class="w-full max-w-400 flex flex-row items-start px-6">
+    <div class="grow min-w-0">
       @if (isLoading()) {
         <div class="text-center py-20">
           <p>Loading ornamental records...</p>
         </div>
       } @else {
-        @for (group of groupedBuildings(); track group.guid) {
-          <div [id]="'group-' + group.slug" class="w-full mb-16">
-            <div
-              class="flex flex-col md:flex-row md:items-end justify-between page-main-section-header"
-            >
+        @for (group of groupedBuildings(); track group.slug) {
+          <div [id]="'origin-' + group.slug" class="w-full mb-16">
+            <div class="flex flex-col md:flex-row md:items-end justify-between page-main-section-header">
               <h3 class="section-title text-lg font-bold">
                 {{ group.title }}
               </h3>
               <span class="section-subtitle text-sm italic">
-                <strong>{{ group.subtitle }}</strong>
+                Total Ornaments: <strong>{{ group.items.length }}</strong>
               </span>
             </div>
 
-            <div
-              class="grid w-full gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 box-border justify-items-center"
-            >
+            <div class="grid w-full gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 box-border justify-items-center">
               @for (building of group.items; track building.id) {
-                <anno-generic-card
+                <anno-ornament-card
                   [title]="building.name"
                   [description]="building.description"
                   [imageUrl]="building.image_url"
                   [placeholderImage]="ornamentalService.placeholderImage"
-                  [footerItems]="[
-                    { label: 'Prestige', value: building.prestige },
-                    { label: 'Cost', value: building.cost },
-                  ]"
+                  [prestige]="building.prestige"
+                  [cost]="building.cost"
+                  [origin]="building.origin"
+                  [placements]="building.placements"
                 />
               }
             </div>
