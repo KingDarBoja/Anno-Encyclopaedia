@@ -1,31 +1,74 @@
 @use "sass:map";
 
-:host {
-  display: block;
-  height: 100%;
-}
+.specialist-card {
+  // Clean cross-fading transition when user hits the theme toggle
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    color 0.3s ease;
 
-// Variables integrated with local component context
-:host {
-  --primary-color: #5f032e;
-  --secondary-color: #1d000e;
-  --card-bg: color-mix(in srgb, var(--secondary-color), black 20%);
-  --card-text: #ebd2b8;
-  --card-text-muted: rgba(235, 210, 184, 0.7);
-  --section-divider: rgba(95, 3, 46, 0.3);
-  --box-bg: #2d0418;
-  --box-border: rgba(235, 210, 184, 0.1);
+  // ==========================================
+  // 🏛️ DESIGN TOKENS: DEFAULT / DARK MODE
+  // ==========================================
+  --card-bg: color-mix(in srgb, var(--secondary-color), var(--primary-color) 40%);
+  --card-border: color-mix(in srgb, var(--primary-color), transparent 20%);
+  --card-frame-border: color-mix(in srgb, var(--primary-color), black 15%);
+
+  --text-main: var(--background-color);
+  --text-muted: color-mix(in srgb, var(--background-color), var(--secondary-color) 25%);
+  --text-sub-label: color-mix(in srgb, var(--background-color), transparent 10%);
+  --text-highlight: var(--background-accent-color);
+  --text-blockquote: color-mix(in srgb, var(--background-color), transparent 10%);
+
+  --section-divider: color-mix(in srgb, var(--primary-color), transparent 20%);
+  --border-subtle: color-mix(in srgb, var(--primary-color), transparent 40%);
+
+  --box-bg: color-mix(in oklab, var(--color-black) 20%, transparent);
+  --box-border: color-mix(in srgb, var(--background-color), transparent 90%);
   --gold-val: #ffcc00;
+
+  // ==========================================
+  // ☀️ DESIGN TOKENS: LIGHT MODE OVERRIDES
+  // ==========================================
+  :host-context(.light-mode) & {
+    --card-bg: color-mix(in srgb, var(--background-color), var(--background-accent-color) 60%);
+    --card-border: #d4b89b;
+    --card-frame-border: rgba(140, 29, 64, 0.2);
+
+    --text-main: var(--text-color);
+    --text-muted: color-mix(in srgb, var(--text-color), var(--background-color) 30%);
+    --text-sub-label: color-mix(in srgb, var(--primary-color), var(--background-color) 20%);
+    --text-highlight: var(--text-color);
+    --text-blockquote: color-mix(in srgb, var(--primary-color), var(--card-bg) 50%);
+
+    --section-divider: rgba(140, 29, 64, 0.2);
+    --border-subtle: rgba(140, 29, 64, 0.15);
+
+    --box-bg: color-mix(in srgb, var(--card-bg), black 4%);
+    --box-border: color-mix(in srgb, var(--primary-color), var(--card-bg) 85%);
+    --gold-val: var(--primary-color);
+  }
 }
 
+// ==========================================
+// 🎨 CORE ELEMENT SELECTORS
+// ==========================================
 .roman-card-container {
   background-color: var(--card-bg);
-  color: var(--card-text);
+  color: var(--text-main);
   border-radius: 6px;
   position: relative;
   overflow: hidden;
-  border: 1px solid var(--primary-color);
+  border: 1px solid var(--card-border);
   height: 100%;
+}
+
+.roman-card-box {
+  background-color: var(--box-bg);
+  border: 1px solid var(--box-border);
+  display: flex;
+  flex-direction: column;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
 }
 
 .roman-border-frame {
@@ -34,39 +77,127 @@
   left: 12px;
   right: 12px;
   bottom: 12px;
-  border: 1px solid rgba(235, 210, 184, 0.15);
+  border: 1px solid var(--card-frame-border);
   pointer-events: none;
   border-radius: 4px;
 }
 
-.roman-card-title {
-  font-family: var(--font-primary);
-  color: var(--card-text);
+.spec-meta-tag {
+  color: var(--text-sub-label);
 }
 
-.roman-card-subtitle {
-  color: #d4b89b;
+.spec-title {
+  color: var(--text-highlight);
 }
 
-.roman-card-gold-val {
+.spec-quote {
+  color: var(--text-blockquote);
+  border-left: 2px solid var(--primary-color);
+  background-color: color-mix(in srgb, var(--primary-color), transparent 96%);
+}
+
+.spec-section-header {
+  border-bottom: 1px solid var(--border-subtle);
+
+  h3 {
+    color: var(--text-sub-label);
+  }
+}
+
+.buff-content-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.badge-radius {
+  background: var(--box-bg);
+  color: var(--text-main);
+  font-size: 0.65rem;
+  padding: 0.1rem 0.5rem;
+  border-radius: 2px;
+  border: 1px solid var(--border-subtle);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+// Chip Layouts
+.chip {
+  background-color: var(--box-bg);
+  border: 1px solid var(--box-border);
+  color: var(--text-highlight);
+}
+
+// Attributes Layouts
+.attribute-row {
+  background-color: var(--box-bg);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-highlight);
+
+  .attribute-label {
+    color: var(--text-muted);
+  }
+}
+
+.product-group-title {
+  color: var(--text-sub-label);
+
+  .product-icon {
+    border: 1px solid var(--box-border);
+  }
+}
+
+.product-sub-attributes {
+  border-left: 1px solid var(--section-divider);
+}
+
+// Special Buff Panels
+.workforce-modifier-panel {
+  background-color: var(--box-bg);
+  border: 1px solid var(--box-border);
+
+  span:first-child {
+    color: var(--text-muted);
+  }
+}
+
+.workforce-replacement-panel,
+.fertility-panel {
+  background-color: var(--box-bg);
+  border: 1px solid var(--box-border);
+
+  .panel-sub-label {
+    color: var(--text-sub-label);
+  }
+  .indicator-arrow {
+    color: var(--text-sub-label);
+  }
+  .fertility-icon {
+    border: 1px solid var(--border-subtle);
+  }
+}
+
+.gold-metric {
   color: var(--gold-val);
 }
 
-// Scholarly Blockquote
-.specialist-blockquote {
-  color: var(--card-text-muted);
-  border-left: 3px solid var(--primary-color);
-  font-family: var(--font-primary);
-  font-style: italic;
-  font-size: 0.85rem;
-  line-height: 1.6;
-  background: color-mix(in srgb, var(--primary-color), transparent 95%);
-  padding: 0.75rem 1rem;
-  border-radius: 0 4px 4px 0;
-  margin: 1rem 0;
+// .boost-condition-panel {
+//   background-color: var(--box-bg-alt);
+//   border: 1px dashed var(--gold-val);
+//   box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.15);
+//   transition: background-color 0.3s ease, border-color 0.3s ease;
+// }
+
+// Custom Expansion Styling Override
+::ng-deep .custom-roman-panel {
+  background: var(--box-bg) !important;
+  border: 1px solid var(--box-border) !important;
+
+  .mat-expansion-panel-header-title {
+    color: var(--text-highlight) !important;
+  }
 }
 
-// Avatar Box: Enhanced depth, responsiveness, and encapsulated layout rules
+// Hardware-Accelerated Avatar Frames
 .specialist-avatar-box {
   position: relative;
   inset: 0;
@@ -76,19 +207,12 @@
   align-items: center;
   justify-content: center;
   overflow: hidden;
-
-  // background-color: color-mix(in srgb, var(--primary-color), black 30%);
-  // border: 1px solid color-mix(in srgb, var(--primary-color), transparent 50%);
-
   border-radius: 6px;
-  box-shadow:
-    inset 0 2px 8px rgba(0, 0, 0, 0.4),
-    0 1px 2px rgba(0, 0, 0, 0.2);
 
   transition:
-    transform 0.2s ease,
-    border-color 0.2s ease,
-    box-shadow 0.2s ease;
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    border-color 0.3s ease;
 
   img {
     object-fit: cover;
@@ -99,24 +223,16 @@
   }
 
   &:hover {
-    // border-color: var(--primary-color);
     transform: scale(1.05) translateY(-2px);
-
-    // Optional: brighten the border on hover
-    box-shadow: inset 0 0 0 2px rgba(255, 255, 255, 0.4);
   }
 
-  // 🛠️ Structural properties for the explicit frame element
   .avatar-frame {
     position: absolute;
     inset: 0;
-    pointer-events: none; // Allows mouse events to pass straight through to the parent hover states
-
-    /* 🎭 THE CRITICAL FIX: Mask the element so the background gradient ONLY
-    exists on the frame lines */
+    pointer-events: none;
+    z-index: 3;
     -webkit-mask-image: var(--mask-url);
     mask-image: var(--mask-url);
-
     -webkit-mask-size: contain;
     mask-size: contain;
     -webkit-mask-repeat: no-repeat;
@@ -254,48 +370,3 @@ $rarities: (
 //   border-color: rgba(212, 212, 6, 0.5);
 //   mix-blend-mode: plus-lighter;
 // }
-
-// Card Content Boxes
-.roman-card-box {
-  background-color: var(--box-bg);
-  border: 1px solid var(--box-border);
-  display: flex;
-  flex-direction: column;
-}
-
-// Buff Content Wrapper class to enforce height filling
-.buff-content-wrapper {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  overflow-y: auto;
-  gap: 1rem;
-}
-
-// Ensure the buff block itself can grow
-.buff-block {
-  display: flex;
-  flex-direction: column;
-  // flex: 1;
-  background-color: #1f0212;
-  border: 1px solid #48122d;
-  border-radius: 0.5rem;
-  padding: 1rem;
-  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
-}
-
-.badge-radius {
-  background: #2a0418;
-  color: #ebd2b8;
-  font-size: 0.65rem;
-  font-family: var(--font-secondary);
-  padding: 0.1rem 0.5rem;
-  border-radius: 2px;
-  border: 1px solid rgba(235, 210, 184, 0.1);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.roman-item-chip {
-  background: rgba(0, 0, 0, 0.2);
-}

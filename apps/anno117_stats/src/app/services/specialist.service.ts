@@ -281,6 +281,7 @@ export class SpecialistService {
 
   private hydrateBuff(
     buff: SpecialistBuff,
+    targets: SpecialistEffectTarget[],
     index: AssetsIndexRegistry,
   ): HydratedSpecialistBuff {
     const resolveAsset = (guid: number): HydratedAsset => {
@@ -307,7 +308,14 @@ export class SpecialistService {
     // Hydrate fertility
     let hydratedFertility: HydratedSpecialistAddedFertility | null = null;
     if (buff.added_fertility) {
-      const match = index[buff.added_fertility.guid.toString()];
+      const targetFertility = targets.find(
+        (x) => x.guid === buff.target_guids[0],
+      );
+      const validItemId = targetFertility?.affected_items?.find(
+        (id) => !!index[id.toString()],
+      );
+      const match = validItemId ? index[validItemId.toString()] : null;
+
       hydratedFertility = {
         ...buff.added_fertility,
         icon_url: match ? match.icon_url : this._placeholder,
@@ -379,7 +387,9 @@ export class SpecialistService {
           affected_items: Array.from(uniqueAssetsMap.values()),
         };
       }),
-      buffs: spec.effect.buffs.map((buff) => this.hydrateBuff(buff, index)),
+      buffs: spec.effect.buffs.map((buff) =>
+        this.hydrateBuff(buff, spec.effect.targets, index),
+      ),
     };
 
     // 2. Hydrate Boost (if exists)
@@ -388,7 +398,7 @@ export class SpecialistService {
       hydratedBoost = {
         ...spec.boost_details,
         buffs: spec.boost_details.buffs.map((buff) =>
-          this.hydrateBuff(buff, index),
+          this.hydrateBuff(buff, spec.effect.targets, index),
         ),
       };
     }

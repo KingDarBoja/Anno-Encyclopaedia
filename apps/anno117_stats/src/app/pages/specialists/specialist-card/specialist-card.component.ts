@@ -40,6 +40,9 @@ interface GroupedBuff {
   standalone: true,
   imports: [MatExpansionModule, MatDivider, NgTemplateOutlet],
   changeDetection: ChangeDetectionStrategy.OnPush,
+  host: {
+    style: 'display: block; width: 100%;',
+  },
   templateUrl: './specialist-card.component.html',
   styleUrls: ['./specialist-card.component.scss'],
 })
