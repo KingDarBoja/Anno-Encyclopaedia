@@ -93,6 +93,10 @@ h6 {
     }
   }
 
+  &.mat-expansion-panel:not([class*=mat-elevation-z]) {
+    box-shadow: none;
+  }
+
   .mat-expansion-panel-header.mat-expanded:focus, .mat-expansion-panel-header.mat-expanded:hover {
     background-color: var(--gcard-bg);
   }

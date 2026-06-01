@@ -30,6 +30,7 @@ export class SpecialistsPageComponent implements OnInit {
 
   // Core filter parameters mapped to Angular Signals
   searchQuery = signal<string>(''); // Dynamic text search input
+  targetItemQuery = signal<string>(''); // Text search input for affected items/buildings
   selectedAllocation = signal<string>('');
   selectedRarity = signal<string>('');
   selectedAttribute = signal<string>('');
@@ -75,6 +76,7 @@ export class SpecialistsPageComponent implements OnInit {
   filteredSpecialists = computed<HydratedSpecialistViewModel[]>(() => {
     let list = this.service.hydratedSpecialists();
     const search = this.searchQuery().trim().toLowerCase();
+    const itemSearch = this.targetItemQuery().trim().toLowerCase();
     const allocation = this.selectedAllocation();
     const rarity = this.selectedRarity();
     const niche = this.selectedNiche();
@@ -85,6 +87,17 @@ export class SpecialistsPageComponent implements OnInit {
     if (search) {
       list = list.filter((s) => {
         return (s.title || '').toLowerCase().includes(search);
+      });
+    }
+
+    // Target Item Text Search
+    if (itemSearch) {
+      list = list.filter((s) => {
+        return s.effect.targets.some((tgt) =>
+          tgt.affected_items.some((item) =>
+            (item.name || '').toLowerCase().includes(itemSearch)
+          )
+        );
       });
     }
 
@@ -154,6 +167,7 @@ export class SpecialistsPageComponent implements OnInit {
 
   resetFilters() {
     this.searchQuery.set('');
+    this.targetItemQuery.set('');
     this.selectedAllocation.set('');
     this.selectedRarity.set('');
     this.selectedAttribute.set('');

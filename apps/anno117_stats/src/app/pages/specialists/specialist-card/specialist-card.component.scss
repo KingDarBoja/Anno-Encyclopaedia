@@ -23,7 +23,7 @@
   --section-divider: color-mix(in srgb, var(--primary-color), transparent 20%);
   --border-subtle: color-mix(in srgb, var(--primary-color), transparent 40%);
 
-  --box-bg: color-mix(in oklab, var(--color-black) 20%, transparent);
+  --box-bg: color-mix(in srgb, var(--primary-color), black 50%);
   --box-border: color-mix(in srgb, var(--background-color), transparent 90%);
   --gold-val: #ffcc00;
 

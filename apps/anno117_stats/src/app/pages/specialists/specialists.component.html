@@ -23,17 +23,15 @@
       <div class="roman-filter-inner relative z-10 space-y-6">
         <!-- Header -->
         <div class="filter-panel-header">
-  <h3 class="header-title">
-    Filter Items
-  </h3>
-</div>
+          <h3 class="header-title">Filter Items</h3>
+        </div>
 
         <div class="space-y-2">
           <label
             for="title-search-input"
             class="filter-label text-[10px] uppercase tracking-widest font-bold font-roman block"
           >
-            Search Specialist
+            Search by Specialist name
           </label>
           <div class="relative flex items-center">
             <input
@@ -41,7 +39,7 @@
               type="text"
               [ngModel]="searchQuery()"
               (ngModelChange)="searchQuery.set($event)"
-              placeholder="Enter title name..."
+              placeholder="Enter specialist name..."
               class="roman-input-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1"
             />
             @if (searchQuery()) {
@@ -50,6 +48,35 @@
                 (click)="searchQuery.set('')"
                 class="absolute right-3 text-xs opacity-40 hover:opacity-100 transition-opacity"
                 aria-label="Clear Search Input"
+              >
+                ✕
+              </button>
+            }
+          </div>
+        </div>
+
+        <div class="space-y-2">
+          <label
+            for="target-item-input"
+            class="filter-label text-[10px] uppercase tracking-widest font-bold font-roman block"
+          >
+            Search by Affected Building
+          </label>
+          <div class="relative flex items-center">
+            <input
+              id="target-item-input"
+              type="text"
+              [ngModel]="targetItemQuery()"
+              (ngModelChange)="targetItemQuery.set($event)"
+              placeholder="Enter building or item name..."
+              class="roman-input-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1"
+            />
+            @if (targetItemQuery()) {
+              <button
+                type="button"
+                (click)="targetItemQuery.set('')"
+                class="absolute right-3 text-xs opacity-40 hover:opacity-100 transition-opacity"
+                aria-label="Clear Item Search Input"
               >
                 ✕
               </button>
