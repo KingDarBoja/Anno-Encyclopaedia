@@ -1,5 +1,5 @@
 @use "@angular/material" as mat;
-@use 'generic_card';
+@use "generic_card";
 
 /* You can add global styles to this file, and also import other style files */
 
@@ -83,21 +83,31 @@ h6 {
 
 .custom-roman-panel {
   &.mat-expansion-panel {
-    background-color: var(--card-bg);
+    background-color: var(--gcard-bg);
     border: 1px solid var(--primary-color);
     width: 100%;
+
+    &:not(.mat-expanded) .mat-expansion-panel-header:not([aria-disabled="true"]):hover {
+      background-color: var(--gcard-bg);
+      border: 1px solid var(--primary-color);
+    }
   }
+
+  .mat-expansion-panel-header.mat-expanded:focus, .mat-expansion-panel-header.mat-expanded:hover {
+    background-color: var(--gcard-bg);
+  }
+
 
   .mat-expansion-panel-header-title {
     font-family: var(--font-primary);
-    color: var(--card-text);
+    color: var(--gcard-text);
     letter-spacing: 0.02em;
     font-size: 11px;
     text-transform: uppercase;
   }
 
   .mat-expansion-panel-header-description {
-    color: var(--card-text);
+    color: var(--gcard-text);
   }
 }
 
