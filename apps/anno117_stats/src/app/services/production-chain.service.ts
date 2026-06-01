@@ -4,6 +4,17 @@ import { of } from 'rxjs';
 import { catchError, finalize, map, tap } from 'rxjs/operators';
 
 /**
+ * Define the dataset 'Region' that must contain 4 values.
+ */
+export const Region = {
+  META: 'Meta',
+  ROMAN: 'Roman',
+  CELTIC: 'Celtic',
+  EGYPTIAN: 'Egyptian',
+} as const;
+export type RegionType = (typeof Region)[keyof typeof Region];
+
+/**
  * Represents a single building node inside the production hierarchy tree.
  */
 export interface BuildingNodeJSON {
@@ -12,6 +23,7 @@ export interface BuildingNodeJSON {
   text: string;
   icon_url: string;
   canon_name: string;
+  region: RegionType[]
   tier: BuildingNodeJSON[];
 }
 
@@ -92,12 +104,13 @@ export class ProductionChainService {
   }
 
   /**
-   * Converts the raw JSON payload map into a formatted array of production chains.
+   * Converts, strictly deduplicates by structure, and sorts raw data into the ViewModel format.
    */
   private mapToViewModel(
     rawMap: ProductionChainRegistry,
   ): ProductionChainViewModel[] {
-    return Object.entries(rawMap).map(([id, rawRow]) => {
+    // 1. Map raw key/value entries into basic view model shapes
+    const mappedChains = Object.entries(rawMap).map(([id, rawRow]) => {
       return {
         id,
         uid: rawRow.uid,
@@ -105,9 +118,49 @@ export class ProductionChainService {
         canonName: rawRow.canon_name,
         name: rawRow.name,
         description: rawRow.description,
-        outputBuilding: rawRow.output_building, // Assigned directly since paths are pre-resolved
+        outputBuilding: rawRow.output_building,
       };
     });
+
+    const seenSignatures = new Set<string>();
+
+    // Helper to recursively gather all dependency tree building GUIDs
+    const collectTierGuids = (node: BuildingNodeJSON): number[] => {
+      const guids: number[] = [];
+      const traverse = (current: BuildingNodeJSON) => {
+        if (current.tier) {
+          current.tier.forEach((child) => {
+            guids.push(child.guid);
+            traverse(child);
+          });
+        }
+      };
+      traverse(node);
+      return guids;
+    };
+
+    // 2. Filter out structural duplicates and sort alphabetically by outputBuilding.text
+    return mappedChains
+      .filter((chain) => {
+        const rootBuilding = chain.outputBuilding;
+        if (!rootBuilding) return false;
+
+        // Gather and sort child tiers to generate an order-independent signature
+        const tierGuids = collectTierGuids(rootBuilding).sort((a, b) => a - b);
+        
+        // Structural unique fingerprint hash format: "rootGuid:childGuid1,childGuid2..."
+        const signature = `${rootBuilding.guid}:${tierGuids.join(',')}`;
+
+        if (seenSignatures.has(signature)) {
+          return false; // Skip exact structural duplicate
+        }
+
+        seenSignatures.add(signature);
+        return true;
+      })
+      .sort((a, b) =>
+        a.outputBuilding.text.localeCompare(b.outputBuilding.text),
+      );
   }
 
   /**

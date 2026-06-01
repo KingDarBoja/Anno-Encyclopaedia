@@ -111,6 +111,18 @@ h6 {
   }
 }
 
+.mat-mdc-select {
+  font-family: var(--font-primary) !important;
+}
+
+.mat-mdc-select-panel {
+  font-family: var(--font-primary) !important;
+
+  .mat-mdc-option {
+    font-family: var(--font-primary) !important;
+  }
+}
+
 ::-webkit-scrollbar {
   height: 12px;
   width: 12px;

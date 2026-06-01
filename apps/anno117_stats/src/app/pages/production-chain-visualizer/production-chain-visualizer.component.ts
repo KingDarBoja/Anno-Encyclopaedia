@@ -11,7 +11,12 @@ import {
   inject,
   computed,
 } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import {
+  MatOption,
+  MatSelect,
+  MatSelectChange,
+  MatSelectTrigger,
+} from '@angular/material/select';
 import { Network, Options } from 'vis-network';
 import { DataSet } from 'vis-data';
 
@@ -45,26 +50,10 @@ interface GraphEdge {
 @Component({
   selector: 'anno-production-chain-visualizer',
   standalone: true,
-  imports: [CommonModule],
+  imports: [MatSelect, MatOption, MatSelectTrigger],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './production-chain-visualizer.component.html',
-  styles: [
-    `
-      @keyframes fadeIn {
-        from {
-          opacity: 0;
-          transform: translateY(4px);
-        }
-        to {
-          opacity: 1;
-          transform: translateY(0);
-        }
-      }
-      .animate-fade-in {
-        animation: fadeIn 0.3s ease forwards;
-      }
-    `,
-  ],
+  styleUrl: './production-chain-visualizer.component.scss',
 })
 export class ProductionChainVisualizer
   implements OnInit, AfterViewInit, OnDestroy
@@ -90,12 +79,67 @@ export class ProductionChainVisualizer
   // 1. Keep an uninitialized tracking token state initially
   activeChainId = signal<string>('');
 
-  sortedChains = computed(() => {
-    return [...this.service.chains()].sort((a, b) =>
-      a.name
-        .replace('Production Chain ', '')
-        .localeCompare(b.name.replace('Production Chain ', '')),
-    );
+  // chains = this.service.chains
+
+  /**
+   * Groups chains by region classification: Exclusively Roman, Exclusively Celtic, or Both.
+   * Deduplicates entries by chain name to prevent redundant selection options.
+   */
+  groupedChains = computed(() => {
+    const rawChains = this.service.chains();
+
+    const romanChains: ProductionChainViewModel[] = [];
+    const celticChains: ProductionChainViewModel[] = [];
+    const sharedChains: ProductionChainViewModel[] = [];
+
+    // 1. Distribute chains into their respective regional buckets based on root building assignment
+    rawChains.forEach((chain) => {
+      const rootBuilding = chain.outputBuilding;
+      if (!rootBuilding) return;
+
+      const regions = rootBuilding.region || [];
+      const hasRoman = regions.includes('Roman');
+      const hasCeltic = regions.includes('Celtic');
+
+      if (hasRoman && hasCeltic) {
+        sharedChains.push(chain);
+      } else if (hasRoman) {
+        romanChains.push(chain);
+      } else if (hasCeltic) {
+        celticChains.push(chain);
+      }
+    });
+
+    // 2. Local helper to prune duplicate chain names within each group and sort alphabetically
+    const processGroup = (chains: ProductionChainViewModel[]) => {
+      const seenNames = new Set<string>();
+      return chains
+        .filter((chain) => {
+          if (seenNames.has(chain.name)) {
+            return false; // Skip duplicate names localized within this specific category
+          }
+          seenNames.add(chain.name);
+          return true;
+        })
+        .sort((a, b) => a.name.localeCompare(b.name));
+    };
+    return [
+      {
+        label: 'Latium',
+        icon: 'assets/icons/main/regions/icon_2d_region_heartlands_0.webp',
+        chains: processGroup(romanChains),
+      },
+      {
+        label: 'Albion',
+        icon: 'assets/icons/main/regions/icon_2d_region_wetlands_0.webp',
+        chains: processGroup(celticChains),
+      },
+      {
+        label: 'Shared',
+        icon: 'assets/icons/main/regions/icon_2d_region_global_0.webp',
+        chains: processGroup(sharedChains),
+      },
+    ].filter((group) => group.chains.length > 0);
   });
 
   constructor() {
@@ -339,9 +383,8 @@ export class ProductionChainVisualizer
     }
   }
 
-  onChainChange(event: Event): void {
-    const selectElement = event.target as HTMLSelectElement;
-    const nextId = selectElement.value;
+  onChainChange(event: MatSelectChange): void {
+    const nextId = event.value;
 
     if (nextId) {
       this.activeChainId.set(nextId);
