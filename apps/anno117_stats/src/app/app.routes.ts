@@ -34,7 +34,7 @@ export const appRoutes: Route[] = [
     loadComponent: () =>
       import(
         './pages/production-chain-visualizer/production-chain-visualizer.component'
-      ).then((c) => c.ProductionChainVisualizer),
+      ).then((c) => c.ProductionChainVisualizerComponent),
   },
   {
     path: 'patrons',

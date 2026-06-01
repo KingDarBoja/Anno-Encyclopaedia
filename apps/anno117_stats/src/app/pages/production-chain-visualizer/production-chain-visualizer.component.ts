@@ -25,6 +25,8 @@ import {
   ProductionChainViewModel,
   BuildingNodeJSON,
 } from '../../services/production-chain.service';
+import { SpecialistService } from '../../services/specialist.service';
+import { MiniSpecialistCardComponent } from '../specialists/mini-specialist-card/mini-specialist-card.component';
 
 interface SelectedNodeDetails {
   guid: number;
@@ -50,24 +52,27 @@ interface GraphEdge {
 @Component({
   selector: 'anno-production-chain-visualizer',
   standalone: true,
-  imports: [MatSelect, MatOption, MatSelectTrigger],
+  imports: [
+    MatSelect,
+    MatOption,
+    MatSelectTrigger,
+    MiniSpecialistCardComponent,
+  ],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './production-chain-visualizer.component.html',
   styleUrl: './production-chain-visualizer.component.scss',
 })
-export class ProductionChainVisualizer
+export class ProductionChainVisualizerComponent
   implements OnInit, AfterViewInit, OnDestroy
 {
   readonly service = inject(ProductionChainService);
+  readonly specialistService = inject(SpecialistService);
 
   visContainer = viewChild<ElementRef<HTMLDivElement>>('visContainer');
 
-  // Localized visualizer customizer states
   primaryColor = signal<string>('');
   secondaryColor = signal<string>('');
   bgColor = signal<string>('');
-
-  // Styles.scss typography hook
   fontPrimary = signal<string>('serif');
 
   selectedChain = signal<ProductionChainViewModel | null>(null);
@@ -76,23 +81,22 @@ export class ProductionChainVisualizer
   private networkInstance: Network | null = null;
   private readonly nodeMetadataMap = new Map<number, SelectedNodeDetails>();
 
-  // 1. Keep an uninitialized tracking token state initially
   activeChainId = signal<string>('');
 
-  // chains = this.service.chains
-
   /**
-   * Groups chains by region classification: Exclusively Roman, Exclusively Celtic, or Both.
-   * Deduplicates entries by chain name to prevent redundant selection options.
+   * Retrieves the assigned specialists modifying the selected node context.
    */
+  applicableSpecialists = computed(() => {
+    const node = this.selectedNode();
+    return this.service.getSpecialistsForBuilding(node?.guid);
+  });
+
   groupedChains = computed(() => {
     const rawChains = this.service.chains();
-
     const romanChains: ProductionChainViewModel[] = [];
     const celticChains: ProductionChainViewModel[] = [];
     const sharedChains: ProductionChainViewModel[] = [];
 
-    // 1. Distribute chains into their respective regional buckets based on root building assignment
     rawChains.forEach((chain) => {
       const rootBuilding = chain.outputBuilding;
       if (!rootBuilding) return;
@@ -110,19 +114,17 @@ export class ProductionChainVisualizer
       }
     });
 
-    // 2. Local helper to prune duplicate chain names within each group and sort alphabetically
     const processGroup = (chains: ProductionChainViewModel[]) => {
       const seenNames = new Set<string>();
       return chains
         .filter((chain) => {
-          if (seenNames.has(chain.name)) {
-            return false; // Skip duplicate names localized within this specific category
-          }
+          if (seenNames.has(chain.name)) return false;
           seenNames.add(chain.name);
           return true;
         })
         .sort((a, b) => a.name.localeCompare(b.name));
     };
+
     return [
       {
         label: 'Latium',
@@ -143,7 +145,6 @@ export class ProductionChainVisualizer
   });
 
   constructor() {
-    // Rebuilds graph layout whenever structural options or colors shift
     effect(() => {
       const primary = this.primaryColor();
       const secondary = this.secondaryColor();
@@ -155,14 +156,10 @@ export class ProductionChainVisualizer
       }
     });
 
-    // FIX: Intercepts the asynchronous chain payload arriving from the backend modding database
     effect(() => {
       const loadedChains = this.service.chains();
-
       if (loadedChains.length > 0 && !this.selectedChain()) {
-        const defaultId = '3222'; // Default Timber GUID
-
-        // Find the chain matching starting ID
+        const defaultId = '3222';
         const defaultChain =
           loadedChains.find((c) => c.id === defaultId) || loadedChains[0];
 
@@ -177,7 +174,6 @@ export class ProductionChainVisualizer
   ngOnInit(): void {
     const rootStyles = getComputedStyle(document.documentElement);
 
-    // Seed signals with global stylesheet design token values initial states
     this.primaryColor.set(
       rootStyles.getPropertyValue('--primary-color').trim(),
     );
@@ -194,6 +190,7 @@ export class ProductionChainVisualizer
     );
 
     this.service.fetchChains('en');
+    this.specialistService.fetchSpecialists(); // Fetches and caches specialists
   }
 
   ngAfterViewInit(): void {
@@ -277,27 +274,14 @@ export class ProductionChainVisualizer
         },
       },
       edges: {
-        font: {
-          strokeWidth: 0,
-          strokeColor: 'none',
-        },
+        font: { strokeWidth: 0, strokeColor: 'none' },
         width: 2.2,
         color: {
           color: this.secondaryColor(),
           highlight: this.secondaryColor(),
         },
-        arrows: {
-          to: {
-            enabled: true,
-            scaleFactor: 1.1,
-            type: 'arrow',
-          },
-        },
-        smooth: {
-          enabled: true,
-          type: 'cubicBezier',
-          roundness: 0.5,
-        },
+        arrows: { to: { enabled: true, scaleFactor: 1.1, type: 'arrow' } },
+        smooth: { enabled: true, type: 'cubicBezier', roundness: 0.5 },
       },
       layout: {
         hierarchical: {
@@ -315,9 +299,7 @@ export class ProductionChainVisualizer
         dragNodes: true,
         selectable: true,
       },
-      physics: {
-        enabled: false,
-      },
+      physics: { enabled: false },
     };
 
     if (this.networkInstance) {
@@ -333,9 +315,10 @@ export class ProductionChainVisualizer
     this.networkInstance.on(
       'click',
       (params: { nodes: (string | number)[] }) => {
-        if (params.nodes.length > 0) {
-          const selectedGuid = Number(params.nodes[0]);
-          const meta = this.nodeMetadataMap.get(selectedGuid);
+        if (params.nodes && params.nodes.length > 0) {
+          const clickedNodeId = Number(params.nodes[0]);
+          const meta = this.nodeMetadataMap.get(Number(clickedNodeId));
+
           if (meta) {
             this.selectedNode.set(meta);
           }
@@ -348,7 +331,6 @@ export class ProductionChainVisualizer
 
   resetColors() {
     const rootStyles = getComputedStyle(document.documentElement);
-
     this.bgColor.set(
       rootStyles.getPropertyValue('--background-accent-color').trim() ||
         rootStyles.getPropertyValue('--background-color').trim(),
@@ -385,16 +367,10 @@ export class ProductionChainVisualizer
 
   onChainChange(event: MatSelectChange): void {
     const nextId = event.value;
-
     if (nextId) {
       this.activeChainId.set(nextId);
-
       const targetChain = this.service.chains().find((c) => c.id === nextId);
-
-      if (targetChain) {
-        this.selectedChain.set(targetChain);
-      }
-
+      if (targetChain) this.selectedChain.set(targetChain);
       this.selectedNode.set(null);
       this.resetView();
     }
@@ -413,17 +389,13 @@ export class ProductionChainVisualizer
   }
 
   resetView(): void {
-    if (this.networkInstance) {
-      this.networkInstance.fit();
-    }
+    if (this.networkInstance) this.networkInstance.fit();
   }
 
   exportCanvas(): void {
     if (!this.networkInstance) return;
-    const container = this.visContainer()?.nativeElement;
-    const canvasElement = container?.querySelector(
-      'canvas',
-    ) as HTMLCanvasElement;
+    const canvasElement =
+      this.visContainer()?.nativeElement.querySelector('canvas');
     if (canvasElement) {
       const dataUrl = canvasElement.toDataURL('image/png');
       const link = document.createElement('a');

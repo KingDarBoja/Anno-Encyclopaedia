@@ -1,0 +1,208 @@
+// ==========================================
+// 🎴 MINI SPECIALIST CARD STYLES
+// ==========================================
+
+.spec-card {
+	font-family: var(--font-primary);
+	position: relative;
+	overflow: hidden;
+	isolation: isolate;
+	border-radius: 4px;
+	box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+
+	// Clean cross-fading transition when user hits the theme toggle
+	transition:
+		background-color 0.3s ease,
+		border-color 0.3s ease,
+		color 0.3s ease;
+
+	// ==========================================
+	// 🏛️ DESIGN TOKENS: DEFAULT / DARK MODE
+	// ==========================================
+	--card-bg: color-mix(in srgb, var(--secondary-color), var(--primary-color) 40%);
+	--card-border: color-mix(in srgb, var(--primary-color), transparent 20%);
+
+	--text-main: var(--background-color);
+	--text-muted: color-mix(in srgb, var(--background-color), var(--secondary-color) 25%);
+	--text-sub-label: color-mix(in srgb, var(--background-color), transparent 10%);
+	--text-highlight: var(--background-accent-color);
+	--text-blockquote: color-mix(in srgb, var(--background-color), transparent 10%);
+
+	--section-divider: color-mix(in srgb, var(--primary-color), transparent 20%);
+	--border-subtle: color-mix(in srgb, var(--primary-color), transparent 40%);
+
+	--box-bg: color-mix(in srgb, var(--primary-color), black 50%);
+	--box-border: color-mix(in srgb, var(--background-color), transparent 90%);
+
+	// ==========================================
+	// ☀️ DESIGN TOKENS: LIGHT MODE OVERRIDES
+	// ==========================================
+	:host-context(.light-mode) & {
+		--card-bg: color-mix(in srgb, var(--background-color), var(--background-accent-color) 60%);
+		--card-border: #d4b89b;
+
+		--text-main: var(--text-color);
+		--text-muted: color-mix(in srgb, var(--text-color), var(--background-color) 30%);
+		--text-sub-label: color-mix(in srgb, var(--primary-color), var(--background-color) 20%);
+		--text-highlight: var(--text-color);
+		--text-blockquote: color-mix(in srgb, var(--primary-color), var(--card-bg) 50%);
+
+		--section-divider: rgba(140, 29, 64, 0.2);
+		--border-subtle: rgba(140, 29, 64, 0.15);
+
+		--box-bg: color-mix(in srgb, var(--card-bg), black 4%);
+		--box-border: color-mix(in srgb, var(--primary-color), var(--card-bg) 85%);
+	}
+
+	// Apply root variables to card shell
+	border: 1px solid var(--card-border);
+	color: var(--text-main);
+
+	// Left Rarity Accent Bar
+	&::before {
+		content: "";
+		position: absolute;
+		inset: 0;
+		top: 0;
+		left: 0;
+		bottom: 0;
+		width: 4px;
+		background-color: white; // Replaced by _specialist_frame.scss if using the loop
+		filter: brightness(1.15) contrast(1.3);
+	}
+
+	.spec-card-wrapper {
+		padding: 1rem;
+		background-color: var(--card-bg);
+		transition: background-color 0.3s ease;
+	}
+}
+
+.spec-header {
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+	margin-bottom: 0.75rem;
+}
+
+.spec-title-wrapper {
+	flex: 1;
+	min-width: 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+
+	.spec-tags {
+		font-size: 0.5rem;
+		font-weight: 800;
+		letter-spacing: 0.1em;
+		text-transform: uppercase;
+		color: var(--text-sub-label);
+		margin-bottom: 0.25rem;
+		white-space: nowrap;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		transition: color 0.3s ease;
+	}
+
+	.spec-name {
+		font-size: 0.85rem;
+		font-weight: 800;
+		margin: 0;
+		color: var(--text-highlight);
+		line-height: 1.2;
+		text-transform: uppercase;
+		transition: color 0.3s ease;
+	}
+}
+
+.spec-flavor {
+	font-size: 0.65rem;
+	font-style: italic;
+	color: var(--text-blockquote);
+	margin-bottom: 1rem;
+	padding-left: 0.5rem;
+	border-left: 2px solid var(--border-subtle);
+	transition:
+		color 0.3s ease,
+		border-color 0.3s ease;
+}
+
+// ==========================================
+// 📊 EFFECTS AND BUFFS SECTION
+// ==========================================
+.spec-effects-container {
+	background-color: var(--box-bg);
+	border: 1px solid var(--box-border);
+	border-radius: 4px;
+	transition:
+		background-color 0.3s ease,
+		border-color 0.3s ease;
+}
+
+.spec-effects-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.5rem 0.75rem;
+	border-bottom: 1px solid var(--box-border);
+	transition: border-color 0.3s ease;
+
+	.effects-title {
+		font-size: 0.65rem;
+		font-weight: 800;
+		letter-spacing: 0.05em;
+		color: var(--text-sub-label);
+		transition: color 0.3s ease;
+	}
+
+	.scope-badge {
+		font-size: 0.5rem;
+		font-weight: 700;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		padding: 0.15rem 0.35rem;
+		border: 1px solid var(--border-subtle);
+		color: var(--text-main);
+		border-radius: 3px;
+		transition:
+			border-color 0.3s ease,
+			color 0.3s ease;
+	}
+}
+
+.spec-targets-block {
+	padding: 0.5rem 0.75rem;
+
+	.buff-group {
+		display: flex;
+		flex-direction: column;
+		gap: 0.35rem;
+
+		&:not(:last-child) {
+			margin-bottom: 0.5rem;
+			padding-bottom: 0.5rem;
+			border-bottom: 1px dashed var(--section-divider);
+			transition: border-color 0.3s ease;
+		}
+	}
+
+	.buff-row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		font-size: 0.75rem;
+
+		.buff-key {
+			font-weight: 600;
+			color: var(--text-muted);
+			transition: color 0.3s ease;
+		}
+
+		.buff-value {
+			font-weight: 800;
+			color: var(--text-highlight);
+			transition: color 0.3s ease;
+		}
+	}
+}

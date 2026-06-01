@@ -1,0 +1,66 @@
+@let spec = specialist();
+
+<div class="spec-card" [attr.data-rarity]="spec.rarity.toLowerCase()">
+  <div class="spec-card-wrapper">
+    <div class="spec-header">
+      <div class="w-14 h-14 shrink-0">
+        <div [class]="'specialist-avatar-box ' + rarityClass()">
+          <img
+            [src]="spec.icon_url"
+            [attr.alt]="spec.title"
+            class="relative"
+            (error)="handleIconFallback($event)"
+          />
+          <div
+            class="avatar-frame"
+            [style.--mask-url]="socketMaskUrl()"
+          ></div>
+        </div>
+      </div>
+      
+      <div class="spec-title-wrapper">
+        <div class="spec-tags">
+          <span>{{ spec.rarity }}</span> • <span>{{ spec.niche }}</span> •
+          <span>{{ spec.allocation }}</span>
+        </div>
+        <h4 class="spec-name">{{ spec.title }}</h4>
+      </div>
+    </div>
+
+    <div class="spec-flavor">"{{ spec.description }}"</div>
+
+    <div class="spec-effects-container">
+      <div class="spec-effects-header">
+        <span class="effects-title">IMPROVES</span>
+        <span class="scope-badge">{{ spec.effect.scope }}</span>
+      </div>
+      
+      <div class="spec-targets-block">
+        @for (buff of filteredBuffs(); track buff.guid) {
+          @if (buff.attributes.length > 0) {
+            <div class="buff-group">
+              @for (attr of buff.attributes; track attr.key) {
+                <div class="buff-row">
+                  <div class="flex items-center gap-1.5 capitalize buff-key">
+                    @if (keyIcons[attr.key]; as iconName) {
+                      <span
+                        class="inline-block w-3.5 h-3.5 icon-brand"
+                        [style.mask-image]="'url(assets/icons/main/attributes/' + iconName + ')'"
+                        [style.-webkit-mask-image]="'url(assets/icons/main/attributes/' + iconName + ')'"
+                        role="img"
+                        [attr.aria-label]="getLabel(attr.key) + ' icon'"
+                      ></span>
+                    }
+                    <span>{{ getLabel(attr.key) }}</span>
+                  </div>
+                  
+                  <span class="buff-value">{{ attr.value }}</span>
+                </div>
+              }
+            </div>
+          }
+        }
+      </div>
+    </div>
+  </div>
+</div>

@@ -2,6 +2,7 @@ import { inject, Injectable, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { of } from 'rxjs';
 import { catchError, finalize, map, tap } from 'rxjs/operators';
+import { SpecialistService, HydratedSpecialistViewModel } from './specialist.service';
 
 /**
  * Define the dataset 'Region' that must contain 4 values.
@@ -38,22 +39,16 @@ export interface ProductionChainJSON {
   output_building: BuildingNodeJSON;
 }
 
-/**
- * Map dictionary representing the overall JSON archive structure.
- */
 export type ProductionChainRegistry = Record<string, ProductionChainJSON>;
 
-/**
- * Frontend ViewModel for selecting and displaying production chains.
- */
 export interface ProductionChainViewModel {
-  readonly id: string; // The GUID key from the object map
-  readonly uid: number; // The unique integer ID
-  readonly slug: string; // URL-safe identifier
+  readonly id: string; 
+  readonly uid: number; 
+  readonly slug: string; 
   readonly canonName: string;
   readonly name: string;
   readonly description: string;
-  readonly outputBuilding: BuildingNodeJSON; // Tree-structure mapping directly
+  readonly outputBuilding: BuildingNodeJSON;
 }
 
 @Injectable({
@@ -61,14 +56,10 @@ export interface ProductionChainViewModel {
 })
 export class ProductionChainService {
   private readonly http = inject(HttpClient);
+  private readonly specialistService = inject(SpecialistService);
 
-  // Path to the placeholder image used when an asset fails to load
-  readonly placeholderImage =
-    'assets/icons/base/icon_content/buildings/building_icon_default.webp';
+  readonly placeholderImage = 'assets/icons/base/icon_content/buildings/building_icon_default.webp';
 
-  /**
-   * State management using reactive Angular Signals.
-   */
   private readonly _chains = signal<ProductionChainViewModel[]>([]);
   private readonly _loading = signal<boolean>(false);
   private readonly _error = signal<string | null>(null);
@@ -78,10 +69,22 @@ export class ProductionChainService {
   readonly error = this._error.asReadonly();
 
   /**
-   * Fetches the production chains from the JSON data asset archive.
-   *
-   * @param language The target localization key (e.g., 'en', 'ger')
+   * Evaluates the active specialist registry and assigns the specialists 
+   * that directly affect the provided building node GUID.
    */
+  public getSpecialistsForBuilding(guid: number | undefined): HydratedSpecialistViewModel[] {
+    if (!guid) return [];
+    
+    const allSpecialists = this.specialistService.hydratedSpecialists();
+    
+    return allSpecialists.filter((spec) =>
+      spec.effect?.targets?.some(
+        (tgt) =>
+          tgt.guid === guid || tgt.affected_items?.some((item) => item.guid === guid)
+      )
+    );
+  }
+
   fetchChains(language = 'en') {
     this._loading.set(true);
     this._error.set(null);
@@ -103,13 +106,7 @@ export class ProductionChainService {
       .subscribe();
   }
 
-  /**
-   * Converts, strictly deduplicates by structure, and sorts raw data into the ViewModel format.
-   */
-  private mapToViewModel(
-    rawMap: ProductionChainRegistry,
-  ): ProductionChainViewModel[] {
-    // 1. Map raw key/value entries into basic view model shapes
+  private mapToViewModel(rawMap: ProductionChainRegistry): ProductionChainViewModel[] {
     const mappedChains = Object.entries(rawMap).map(([id, rawRow]) => {
       return {
         id,
@@ -124,7 +121,6 @@ export class ProductionChainService {
 
     const seenSignatures = new Set<string>();
 
-    // Helper to recursively gather all dependency tree building GUIDs
     const collectTierGuids = (node: BuildingNodeJSON): number[] => {
       const guids: number[] = [];
       const traverse = (current: BuildingNodeJSON) => {
@@ -139,37 +135,23 @@ export class ProductionChainService {
       return guids;
     };
 
-    // 2. Filter out structural duplicates and sort alphabetically by outputBuilding.text
     return mappedChains
       .filter((chain) => {
         const rootBuilding = chain.outputBuilding;
         if (!rootBuilding) return false;
 
-        // Gather and sort child tiers to generate an order-independent signature
         const tierGuids = collectTierGuids(rootBuilding).sort((a, b) => a - b);
-        
-        // Structural unique fingerprint hash format: "rootGuid:childGuid1,childGuid2..."
         const signature = `${rootBuilding.guid}:${tierGuids.join(',')}`;
 
-        if (seenSignatures.has(signature)) {
-          return false; // Skip exact structural duplicate
-        }
-
+        if (seenSignatures.has(signature)) return false;
+        
         seenSignatures.add(signature);
         return true;
       })
-      .sort((a, b) =>
-        a.outputBuilding.text.localeCompare(b.outputBuilding.text),
-      );
+      .sort((a, b) => a.outputBuilding.text.localeCompare(b.outputBuilding.text));
   }
 
-  /**
-   * Helper to slugify text string keys.
-   */
   private slugify(text: string): string {
-    return text
-      .toLowerCase()
-      .replace(/[^a-z0-9]+/g, '-')
-      .replace(/^-+|-+$/g, '');
+    return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
   }
 }

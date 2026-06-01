@@ -1,0 +1,194 @@
+@use "sass:map";
+
+// Hardware-Accelerated Avatar Frames
+.specialist-avatar-box {
+  isolation: isolate;
+  position: relative;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  border-radius: 6px;
+
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease,
+    border-color 0.3s ease;
+
+  img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    border-radius: 2px;
+    z-index: 50;
+  }
+
+  &:hover {
+    transform: scale(1.05) translateY(-2px);
+  }
+
+  .avatar-frame {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 3;
+    -webkit-mask-image: var(--mask-url);
+    mask-image: var(--mask-url);
+    -webkit-mask-size: contain;
+    mask-size: contain;
+    -webkit-mask-repeat: no-repeat;
+    mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    mask-position: center;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* Replicates Photoshop's Curves/Exposure values for the metallic shine */
+    mix-blend-mode: color-dodge;
+    filter: brightness(1.15) contrast(1.3);
+  }
+}
+
+// Narrative -> #b20a0a
+// Common -> #f0f0f0
+// Uncommon -> #659e2d
+// Rare -> #3e5496
+// Epic -> #a563a7
+// Legendary -> #c76937
+// Unique -> #d4d406
+// Quest -> #4a3860
+
+/* Swapped "unique" original color with the "legendary" one. */
+$rarities: (
+  // "common":    (base: #ffffff, dark: #cbd5e1, alpha: 0.5),
+  "common": (
+      base: #659e2d,
+      dark: #456c1f,
+      alpha: 0.5,
+      blend_before: normal,
+      blend_frame: darken
+    ),
+  "rare": (
+    base: #3e5496,
+    dark: #283762,
+    alpha: 0.5,
+    blend_before: normal,
+    blend_frame: darken
+  ),
+  "epic": (
+    base: #a563a7,
+    dark: #6e4170,
+    alpha: 0.5,
+    blend_before: normal,
+    blend_frame: darken
+  ),
+  "legendary": (
+    base: #c76937,
+    dark: #8d4a26,
+    alpha: 0.5,
+    blend_before: hard-light,
+    blend_frame: overlay
+  ),
+  "quest": (
+    base: #4a3860,
+    dark: #2e223c,
+    alpha: 0.5,
+    blend_before: normal,
+    blend_frame: overlay
+  ),
+  "unique": (
+    base: #c76937,
+    dark: #8d4a26,
+    alpha: 0.5,
+    blend_before: normal,
+    blend_frame: darken
+  ),
+  // "unique": (
+  //   base: #d4d406,
+  //   dark: #8a8a04,
+  //   alpha: 0.5,
+  //   blend: darken
+   // )
+);
+
+@each $key, $colors in $rarities {
+  .rarity-#{$key},
+  [data-rarity="#{$key}"] {
+    // background: linear-gradient(to bottom, map.get($colors, dark) 0%, map.get($colors, base) 50%, map.get($colors, dark) 100%);
+    border-color: rgba(map.get($colors, base), map.get($colors, alpha));
+
+    // Only set background colors/images
+    &::before {
+      background: linear-gradient(
+        to bottom,
+        map.get($colors, dark) 0%,
+        map.get($colors, base) 50%,
+        map.get($colors, dark) 100%
+      );
+      background-blend-mode: map.get($colors, blend_before);
+    }
+
+    // Target the embedded frame to apply the dynamic texture overlay mix
+    .avatar-frame {
+      background-image:
+        var(--mask-url),
+        linear-gradient(to bottom, map.get($colors, dark) 0%, map.get($colors, base) 50%, map.get($colors, dark) 100%);
+
+      background-blend-mode: map.get($colors, blend_frame);
+    }
+  }
+}
+
+// /* --- COMMON --- */
+// .rarity-uncommon {
+//   background: linear-gradient(to bottom, #cbd5e1 0%, #ffffff 50%, #cbd5e1 100%);
+//   border-color: rgba(255, 255, 255, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- UNCOMMON --- */
+// .rarity-common {
+//   background: linear-gradient(to bottom, #456c1f 0%, #659e2d 50%, #456c1f 100%);
+//   border-color: rgba(101, 158, 45, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- RARE --- */
+// .rarity-rare {
+//   background: linear-gradient(to bottom, #283762 0%, #3e5496 50%, #283762 100%);
+//   border-color: rgba(62, 84, 150, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- EPIC --- */
+// .rarity-epic {
+//   background: linear-gradient(to bottom, #6e4170 0%, #a563a7 50%, #6e4170 100%);
+//   border-color: rgba(165, 99, 167, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- LEGENDARY --- */
+// .rarity-legendary {
+//   background: linear-gradient(to bottom, #8d4a26 0%, #c76937 50%, #8d4a26 100%);
+//   border-color: rgba(199, 105, 55, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- QUEST --- */
+// .rarity-quest {
+//   background: linear-gradient(to bottom, #2e223c 0%, #4a3860 50%, #2e223c 100%);
+//   border-color: rgba(74, 56, 96, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }
+
+// /* --- UNIQUE --- */
+// .rarity-unique {
+//   background: linear-gradient(to bottom, #8a8a04 0%, #d4d406 50%, #8a8a04 100%);
+//   border-color: rgba(212, 212, 6, 0.5);
+//   mix-blend-mode: plus-lighter;
+// }

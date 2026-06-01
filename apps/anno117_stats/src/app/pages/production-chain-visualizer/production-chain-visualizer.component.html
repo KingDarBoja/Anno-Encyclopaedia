@@ -1,6 +1,7 @@
 <div class="visualizer-container">
   <header class="visualizer-header">
     <div class="header-title-group">
+      <h4 class="text-anno-roman-red">THIS IS A WORK IN PROGRESS</h4>
       <h1 class="main-title">Anno 117 Production Networks</h1>
       <p class="subtitle">Interactive Graph & Asset Visualizer</p>
     </div>
@@ -11,7 +12,7 @@
       }
 
       <label for="chain-template-selector" class="selector-label">
-        Select Production Chain:
+        Select Chain Template:
       </label>
 
       <mat-select
@@ -45,9 +46,7 @@
                 role="img"
                 [attr.aria-label]="group.label + ' icon'"
               ></span>
-              <span
-                class="text-xs font-bold uppercase tracking-widest"
-              >
+              <span class="text-xs font-bold uppercase tracking-widest">
                 {{ group.label }}
               </span>
             </div>
@@ -64,9 +63,7 @@
                   class="w-6 h-6 rounded-sm shrink-0 object-contain"
                   [attr.alt]="chain.name"
                 />
-                <span class="font-bold text-sm">{{
-                  chain.name
-                }}</span>
+                <span class="font-bold text-sm">{{ chain.name }}</span>
               </div>
             </mat-option>
           }
@@ -75,24 +72,6 @@
             <span class="text-xs opacity-60">No chains loaded</span>
           </mat-option>
         }
-
-        <!-- 
-        @for (chain of chains(); track chain.id) {
-          <mat-option [value]="chain.id" class="custom-select-option">
-            <div class="option-content-wrapper">
-              <img
-                [src]="chain.outputBuilding.icon_url"
-                class="option-icon"
-                [attr.alt]="chain.name"
-              />
-              <span class="option-text">{{ chain.name }}</span>
-            </div>
-          </mat-option>
-        } @empty {
-          <mat-option value="" disabled>
-            <span class="empty-option-text">No chains loaded</span>
-          </mat-option>
-        } -->
       </mat-select>
     </div>
   </header>
@@ -212,6 +191,31 @@
 
       <div class="canvas-tooltip">
         <span>🖱️ Click any Node to inspect parameters</span>
+      </div>
+    </section>
+
+    <!-- RIGHT HAND SIDE: Applicable Specialists Block -->
+    <section class="specialists-sidebar">
+      <div class="specialists-scroll-container">
+        @if (!selectedNode()) {
+          <div class="sidebar-empty-state">
+            Select a building node to view the specialists that affect its
+            productivity.
+          </div>
+        } @else if (applicableSpecialists().length === 0) {
+          <div class="sidebar-empty-state">
+            No registered specialists affect {{ selectedNode()?.text }}.
+          </div>
+        } @else {
+          <div class="specialists-list animate-fade-in">
+            @for (spec of applicableSpecialists(); track spec.id) {
+              <anno-mini-specialist-card
+                [specialist]="spec"
+                [targetGuid]="selectedNode()?.guid"
+              />
+            }
+          </div>
+        }
       </div>
     </section>
   </main>
