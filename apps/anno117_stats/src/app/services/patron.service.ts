@@ -4,6 +4,18 @@ import { of } from 'rxjs';
 import { catchError, finalize, map, tap } from 'rxjs/operators';
 
 /**
+ * Represents the formatted ingame attributes (e.g., '+50', '+25%', '-10').
+ *
+ * @TODO Move into shared definitions library.
+ */
+export interface UpgradeAttributeJSON {
+  key: string; // e.g., "maintenance_factor_upgrade", "offense_melee_upgrade"
+  label: string; // e.g., "Maintenance Factor", "Melee Offense"
+  value: string; // e.g., "-15%", "+20"
+  raw: number; // e.g., -0.15, 20.0
+}
+
+/**
  * Localized milestone structures tracking devotion milestones
  */
 export interface MilestoneJSON {
@@ -63,6 +75,9 @@ export interface ShrineItemJSON {
 export interface ShrineEffectJSON {
   title: string;
   guid: number;
+  /** Store the formatted attributes info per functional effect within this
+   * shrine. The record key is the functional effect ("Effect" asset). */
+  attributes: Record<string, UpgradeAttributeJSON[]>;
   shrines: ShrineItemJSON[];
 }
 

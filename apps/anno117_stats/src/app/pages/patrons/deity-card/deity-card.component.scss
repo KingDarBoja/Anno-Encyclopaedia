@@ -444,6 +444,32 @@
     margin: 0;
 }
 
+.shrine-attributes-container {
+    border-top: 1px solid var(--section-divider) !important;
+    padding-top: 4px;
+    margin-top: 4px;
+
+    .attribute-modifier {
+        background-color: var(--modifier-badge-bg) !important;
+        border: 1px solid var(--modifier-badge-border) !important;
+        font-family: var(--font-secondary);
+        font-size: 0.85rem;
+        display: inline-flex;
+        padding-inline: calc(var(--spacing) * 2) /* 0.5rem = 8px */;
+        padding-block: calc(var(--spacing) * 1) /* 0.25rem = 4px */;
+        gap: calc(var(--spacing) * 8) /* 2rem = 32px */;
+
+        .attribute-label {
+            color: var(--modifier-badge-label) !important;
+        }
+
+        .attribute-value {
+            color: var(--modifier-badge-val) !important;
+            font-weight: bold;
+        }
+    }
+}
+
 // Secondary Blessing Layout Components
 .passive-secondary-bar {
     border-top: 1px solid var(--section-divider) !important;

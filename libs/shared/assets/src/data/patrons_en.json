@@ -213,6 +213,22 @@
         "shrine_effect": {
             "title": "Asset Pool All Neptune Shrines",
             "guid": 82493,
+            "attributes": {
+                "99059": [
+                    {
+                        "key": "money",
+                        "label": "Money",
+                        "value": "+1",
+                        "raw": 1.0
+                    },
+                    {
+                        "key": "fire_safety",
+                        "label": "Fire Safety",
+                        "value": "+1",
+                        "raw": 1.0
+                    }
+                ]
+            },
             "shrines": [
                 {
                     "guid": 81068,
@@ -621,6 +637,22 @@
         "shrine_effect": {
             "title": "Asset Pool All Minerva Shrines",
             "guid": 82499,
+            "attributes": {
+                "99060": [
+                    {
+                        "key": "knowledge",
+                        "label": "Knowledge",
+                        "value": "+1",
+                        "raw": 1.0
+                    },
+                    {
+                        "key": "prestige",
+                        "label": "Prestige",
+                        "value": "+1",
+                        "raw": 1.0
+                    }
+                ]
+            },
             "shrines": [
                 {
                     "guid": 81069,
@@ -1018,6 +1050,22 @@
         "shrine_effect": {
             "title": "Asset Pool All Ceres Shrines",
             "guid": 82494,
+            "attributes": {
+                "99058": [
+                    {
+                        "key": "population",
+                        "label": "Population",
+                        "value": "+1",
+                        "raw": 1.0
+                    },
+                    {
+                        "key": "health",
+                        "label": "Health",
+                        "value": "+1",
+                        "raw": 1.0
+                    }
+                ]
+            },
             "shrines": [
                 {
                     "guid": 81021,
@@ -1313,6 +1361,22 @@
         "shrine_effect": {
             "title": "Asset Pool All Cernnunos Shrines",
             "guid": 82498,
+            "attributes": {
+                "99063": [
+                    {
+                        "key": "health",
+                        "label": "Health",
+                        "value": "+1",
+                        "raw": 1.0
+                    },
+                    {
+                        "key": "belief",
+                        "label": "Belief",
+                        "value": "+1",
+                        "raw": 1.0
+                    }
+                ]
+            },
             "shrines": [
                 {
                     "guid": 81072,
@@ -1455,6 +1519,16 @@
         "shrine_effect": {
             "title": "Asset Pool All Mercury-Lugus Shrines",
             "guid": 82496,
+            "attributes": {
+                "99061": [
+                    {
+                        "key": "money",
+                        "label": "Money",
+                        "value": "+2",
+                        "raw": 2.0
+                    }
+                ]
+            },
             "shrines": [
                 {
                     "guid": 81070,
@@ -1814,6 +1888,22 @@
         "shrine_effect": {
             "title": "Asset Pool All Mars Shrines",
             "guid": 82495,
+            "attributes": {
+                "99057": [
+                    {
+                        "key": "population",
+                        "label": "Population",
+                        "value": "+1",
+                        "raw": 1.0
+                    },
+                    {
+                        "key": "prestige",
+                        "label": "Prestige",
+                        "value": "+1",
+                        "raw": 1.0
+                    }
+                ]
+            },
             "shrines": [
                 {
                     "guid": 80710,
@@ -2073,6 +2163,22 @@
         "shrine_effect": {
             "title": "Asset Pool All Epona Shrines",
             "guid": 82497,
+            "attributes": {
+                "99062": [
+                    {
+                        "key": "population",
+                        "label": "Population",
+                        "value": "+1",
+                        "raw": 1.0
+                    },
+                    {
+                        "key": "happiness",
+                        "label": "Happiness",
+                        "value": "+1",
+                        "raw": 1.0
+                    }
+                ]
+            },
             "shrines": [
                 {
                     "guid": 81071,
@@ -2308,6 +2414,16 @@
         "shrine_effect": {
             "title": "Asset Pool All Vulcanus Shrines",
             "guid": 144814,
+            "attributes": {
+                "144816": [
+                    {
+                        "key": "fire_safety",
+                        "label": "Fire Safety",
+                        "value": "+2",
+                        "raw": 2.0
+                    }
+                ]
+            },
             "shrines": [
                 {
                     "guid": 144812,

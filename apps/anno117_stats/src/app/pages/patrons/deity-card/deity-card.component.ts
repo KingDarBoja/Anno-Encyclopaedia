@@ -29,8 +29,21 @@ import {
   styleUrl: './deity-card.component.scss',
 })
 export class DeityCardComponent {
-  // private route = inject(ActivatedRoute);
-  // private scroller = inject(ViewportScroller);
+  readonly keyIcons: Record<string, string> = {
+    population:
+      'assets/icons/base/icon_content/attributes/icon_population_0.webp',
+    money: 'assets/icons/base/icon_content/attributes/icon_income_0.webp',
+    happiness:
+      'assets/icons/base/icon_content/attributes/icon_happiness_0.webp',
+    health: 'assets/icons/base/icon_content/attributes/icon_health_0.webp',
+    fire_safety:
+      'assets/icons/base/icon_content/attributes/icon_fire_safety_0.webp',
+    belief:
+      'assets/icons/base/icon_content/attributes/icon_religion_belief_0.webp',
+    knowledge:
+      'assets/icons/base/icon_content/attributes/icon_techtree_knowledge_0.webp',
+    prestige: 'assets/icons/base/icon_content/attributes/icon_prestige_0.webp',
+  };
 
   patron = input.required<PatronViewModel>();
 

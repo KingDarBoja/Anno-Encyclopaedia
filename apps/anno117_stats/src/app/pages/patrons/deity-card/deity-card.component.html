@@ -1,8 +1,10 @@
+@let deity = patron();
+
 <div
   class="deity-monument-container"
-  [id]="'patron-' + patron().uid"
+  [id]="'patron-' + deity.uid"
   role="region"
-  [attr.aria-label]="patron().title + ' Details'"
+  [attr.aria-label]="deity.title + ' Details'"
 >
   <!-- Outer Decorative Roman Frame border -->
   <div class="roman-border-frame"></div>
@@ -16,27 +18,27 @@
       <div>
         <!-- Deity Title and Description Header -->
         <div class="flex items-center space-x-4 mb-4">
-          @if (patron().icon_url) {
+          @if (deity.icon_url) {
             <div
               class="w-14 h-14 deity-icon-brand"
-              [style.mask-image]="'url(' + patron().icon_url + ')'"
-              [style.-webkit-mask-image]="'url(' + patron().icon_url + ')'"
+              [style.mask-image]="'url(' + deity.icon_url + ')'"
+              [style.-webkit-mask-image]="'url(' + deity.icon_url + ')'"
               role="img"
-              [attr.aria-label]="patron().title + ' Icon'"
+              [attr.aria-label]="deity.title + ' Icon'"
             ></div>
           }
           <div>
-            <h2 class="deity-title">{{ patron().title }}</h2>
+            <h2 class="deity-title">{{ deity.title }}</h2>
           </div>
         </div>
 
-        <p class="deity-desc-long">{{ patron().description }}</p>
+        <p class="deity-desc-long">{{ deity.description }}</p>
 
         <!-- Dynamic Tab Switcher for Deity Attributes -->
         <div
           class="flex space-x-2 border-b pb-2 mb-6"
           role="tablist"
-          [attr.aria-label]="patron().title + ' attributes'"
+          [attr.aria-label]="deity.title + ' attributes'"
         >
           <button
             (click)="activeTab.set('local')"
@@ -46,7 +48,7 @@
             class="tab-btn"
             role="tab"
             [attr.aria-selected]="activeTab() === 'local'"
-            [attr.aria-controls]="'local-tab-' + patron().uid"
+            [attr.aria-controls]="'local-tab-' + deity.uid"
             id="local-tab-btn"
           >
             Local Favour
@@ -59,7 +61,7 @@
             class="tab-btn"
             role="tab"
             [attr.aria-selected]="activeTab() === 'global'"
-            [attr.aria-controls]="'global-tab-' + patron().uid"
+            [attr.aria-controls]="'global-tab-' + deity.uid"
             id="global-tab-btn"
           >
             Global Blessings
@@ -69,7 +71,7 @@
         <!-- Tab View: Local Favour and Milestones -->
         @if (activeTab() === 'local') {
           <div
-            [id]="'local-tab-' + patron().uid"
+            [id]="'local-tab-' + deity.uid"
             role="tabpanel"
             aria-labelledby="local-tab-btn"
             class="space-y-6"
@@ -88,7 +90,7 @@
                   aria-label="Devotion Milestone Points"
                 >
                   @for (
-                    m of patron().local_effects[0].milestones;
+                    m of deity.local_effects[0].milestones;
                     track m.devotion;
                     let idx = $index
                   ) {
@@ -98,8 +100,7 @@
                       [class.node-active]="selectedDevotion() === m.devotion"
                       (click)="selectMilestone(m)"
                       [style.left.%]="
-                        (idx /
-                          (patron().local_effects[0].milestones.length - 1)) *
+                        (idx / (deity.local_effects[0].milestones.length - 1)) *
                         100
                       "
                     >
@@ -113,13 +114,13 @@
 
               <div class="devotion-selector-card mt-4">
                 <label
-                  [for]="'simulated-range-' + patron().uid"
+                  [for]="'simulated-range-' + deity.uid"
                   class="devotion-label"
                   >Select Simulated Devotion Level:</label
                 >
                 <div class="flex items-center space-x-3 mt-2">
                   <input
-                    [id]="'simulated-range-' + patron().uid"
+                    [id]="'simulated-range-' + deity.uid"
                     type="range"
                     [min]="0"
                     [max]="maxDevotion()"
@@ -129,7 +130,7 @@
                   />
 
                   <input
-                    [id]="'simulated-range-number' + patron().uid"
+                    [id]="'simulated-range-number' + deity.uid"
                     type="number"
                     [min]="0"
                     [max]="maxDevotion()"
@@ -144,13 +145,13 @@
             <ng-container
               [ngTemplateOutlet]="primaryEffectTpl"
               [ngTemplateOutletContext]="{
-                $implicit: patron().local_effects[0],
-                patron: patron(),
+                $implicit: deity.local_effects[0],
+                patron: deity,
               }"
             ></ng-container>
 
             @for (
-              effect of patron().local_effects.slice(1);
+              effect of deity.local_effects.slice(1);
               track effect.title;
               let i = $index
             ) {
@@ -165,14 +166,15 @@
         <!-- Tab View: Global Shrine & Exaltation Blessings -->
         @if (activeTab() === 'global') {
           <div
-            [id]="'global-tab-' + patron().uid"
+            [id]="'global-tab-' + deity.uid"
             role="tabpanel"
             aria-labelledby="global-tab-btn"
             class="space-y-6"
           >
             <!-- Shrines Pool Component -->
             <div class="blessing-card card-bronze">
-              @let shrineItem = patron().shrine_effect.shrines[0];
+              @let shrineAttrs = deity.shrine_effect.attributes;
+              @let shrineItem = deity.shrine_effect.shrines[0];
 
               <div class="flex flex-row">
                 <img
@@ -189,9 +191,36 @@
                   </h4>
                 </div>
               </div>
-              <span class="blessing-desc">
-                {{ 'Shrines celebrate the deity and provide benefits nearby' }}
-              </span>
+              <div class="shrine-attributes-container">
+                @for (
+                  effectGroup of shrineAttrs | keyvalue;
+                  track effectGroup.key
+                ) {
+                  <div class="flex flex-wrap gap-2 mt-2">
+                    @for (attr of effectGroup.value; track attr.key) {
+                      <span class="attribute-modifier">
+                        <div class="flex items-center gap-1">
+                          @if (keyIcons[attr.key]; as iconPath) {
+                            <span
+                              class="inline-block w-4 h-4 icon-brand"
+                              [style.mask-image]="'url(' + iconPath + ')'"
+                              [style.-webkit-mask-image]="
+                                'url(' + iconPath + ')'
+                              "
+                              role="img"
+                              [attr.aria-label]="attr.label + ' icon'"
+                            ></span>
+                          }
+                          <span class="tracking-wider attribute-label">{{
+                            attr.label
+                          }}</span>
+                        </div>
+                        <span class="attribute-value">{{ attr.value }}</span>
+                      </span>
+                    }
+                  </div>
+                }
+              </div>
             </div>
 
             <!-- Veneration Card -->
@@ -200,15 +229,15 @@
                 >Veneration Blessing (4K Global Devotion)</span
               >
               <h4 class="blessing-title">
-                {{ patron().veneration_effect.title }}
+                {{ deity.veneration_effect.title }}
               </h4>
               <p class="blessing-desc">
-                {{ patron().veneration_effect.description }}
+                {{ deity.veneration_effect.description }}
               </p>
             </div>
 
             <!-- Exaltation Card -->
-            @for (exalt of patron().exaltation_effects; track exalt.title) {
+            @for (exalt of deity.exaltation_effects; track exalt.title) {
               <div class="blessing-card card-gold">
                 <span class="blessing-badge"
                   >Exaltation Reward (7K Global Devotion)</span
@@ -228,10 +257,10 @@
     >
       <div class="portrait-vignette-wrapper">
         <div class="vignette-glow-radial"></div>
-        @if (patron().portraits.big) {
+        @if (deity.portraits.big) {
           <img
-            [src]="patron().portraits.big"
-            [alt]="patron().title + ' Big Portrait Artwork'"
+            [src]="deity.portraits.big"
+            [alt]="deity.title + ' Big Portrait Artwork'"
             class="portrait-artwork"
           />
         }
@@ -257,7 +286,7 @@
         @for (item of effect.affected_chains | keyvalue; track item.key) {
           <div class="chain-box">
             <span class="chain-label">{{ item.value.text }}</span>
-            <div class="flex flex-wrap gap-1 mt-2">
+            <div class="flex flex-wrap gap-2 mt-2">
               @for (
                 building of item.value.production_assets;
                 track building.guid
