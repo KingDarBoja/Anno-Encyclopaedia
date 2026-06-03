@@ -3,7 +3,7 @@
         "uid": 41342,
         "name": "Quay Roman",
         "title": "Quay",
-        "description": "No Description",
+        "description": "Decorates the harbour area.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_quay_0.webp",
         "prestige": 0,
@@ -55,7 +55,7 @@
         "uid": 80575,
         "name": "Ornament Roman Shrub 1x1 01",
         "title": "Small Shrub",
-        "description": "No Description",
+        "description": "Comforting balls of vegetation.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_shrub_small_0.webp",
         "prestige": 1,
@@ -87,7 +87,7 @@
         "uid": 80614,
         "name": "Ornament Roman Shrub 1x1 02",
         "title": "Lush Shrub",
-        "description": "No Description",
+        "description": "A thicket you wouldn't mind falling into.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_shrub_lush_0.webp",
         "prestige": 1,
@@ -119,7 +119,7 @@
         "uid": 80573,
         "name": "Ornament Roman Tree 1x1 Cypress",
         "title": "Lone Cypress",
-        "description": "No Description",
+        "description": "Quiet custodians of cemeteries.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_cypress_0.webp",
         "prestige": 1,
@@ -151,7 +151,7 @@
         "uid": 80602,
         "name": "Ornament Roman Tree 1x1 Stout",
         "title": "Stout Tree",
-        "description": "No Description",
+        "description": "Takes on a variety of hardy shapes.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_stout_0.webp",
         "prestige": 1,
@@ -183,7 +183,7 @@
         "uid": 80603,
         "name": "Ornament Roman Tree 1x1 Lush",
         "title": "Squat Tree",
-        "description": "No Description",
+        "description": "Makes up for its size in resolve.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_lush_0.webp",
         "prestige": 1,
@@ -215,7 +215,7 @@
         "uid": 80604,
         "name": "Ornament Roman Tree 1x1 Coniferous",
         "title": "Conifer",
-        "description": "No Description",
+        "description": "Confers a little something. ",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_coniferous_0.webp",
         "prestige": 1,
@@ -247,7 +247,7 @@
         "uid": 80605,
         "name": "Ornament Roman Tree 1x1 Trimmed",
         "title": "Trimmed Tree",
-        "description": "No Description",
+        "description": "Romans appreciate good grooming.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_trimmed_0.webp",
         "prestige": 1,
@@ -279,7 +279,7 @@
         "uid": 80610,
         "name": "Ornament Roman Tree 1x1 Olive",
         "title": "Olive Tree",
-        "description": "No Description",
+        "description": "Gives up its own figure to benefit its sublime fruit.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_olive_0.webp",
         "prestige": 1,
@@ -311,7 +311,7 @@
         "uid": 92734,
         "name": "Ornament Celtic Tree 1x1 Coniferous",
         "title": "Teutonic Pine",
-        "description": "No Description",
+        "description": "Climb it and the legion won't see you coming.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_celtic_coniferous_0.webp",
         "prestige": 1,
@@ -343,7 +343,7 @@
         "uid": 92735,
         "name": "Ornament Celtic Tree 1x1 Lush",
         "title": "Albionic Oak",
-        "description": "No Description",
+        "description": "Offers leafy concealment for communing druids.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_celtic_lush_0.webp",
         "prestige": 1,
@@ -375,7 +375,7 @@
         "uid": 92744,
         "name": "Ornament Celtic Tree 1x1 Tall",
         "title": "Albionic Pine",
-        "description": "No Description",
+        "description": "<i>Pict</i>-uresque.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_celtic_tall_0.webp",
         "prestige": 1,
@@ -459,7 +459,7 @@
         "uid": 80579,
         "name": "Ornament Roman Planter 1x1 Flowers",
         "title": "Flower Bed (White)",
-        "description": "No Description",
+        "description": "Every colour a different signifier.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_flowerplanter_white_0.webp",
         "prestige": 1,
@@ -491,7 +491,7 @@
         "uid": 81330,
         "name": "Ornament Roman Planter 1x1 Olive Tree",
         "title": "Olive Tree (Planted)",
-        "description": "No Description",
+        "description": "Gives up its own figure to benefit its sublime fruit.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_roman_olive_0.webp",
         "prestige": 1,
@@ -523,7 +523,7 @@
         "uid": 81331,
         "name": "Ornament Roman Planter 1x1 Stout Tree",
         "title": "Stout Tree (Planted)",
-        "description": "No Description",
+        "description": "Takes on a variety of hardy shapes.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_roman_stout_0.webp",
         "prestige": 1,
@@ -555,7 +555,7 @@
         "uid": 81332,
         "name": "Ornament Roman Planter 1x1 Lush Tree",
         "title": "Squat Tree (Planted)",
-        "description": "No Description",
+        "description": "Makes up for its size in resolve.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_roman_lush_0.webp",
         "prestige": 1,
@@ -587,7 +587,7 @@
         "uid": 81333,
         "name": "Ornament Roman Planter 1x1 Coniferous Tree",
         "title": "Conifer (Planted)",
-        "description": "No Description",
+        "description": "Confers a little something.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_roman_coniferous_0.webp",
         "prestige": 1,
@@ -619,7 +619,7 @@
         "uid": 81334,
         "name": "Ornament Roman Planter 1x1 Trimmed Tree",
         "title": "Trimmed Tree (Planted)",
-        "description": "No Description",
+        "description": "Romans appreciate good grooming.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_roman_trimmed_0.webp",
         "prestige": 1,
@@ -651,7 +651,7 @@
         "uid": 81337,
         "name": "Ornament Roman Planter 1x1 Cypress Tree",
         "title": "Cypress (Planted)",
-        "description": "No Description",
+        "description": "Quiet custodians of cemeteries.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_roman_cypress_0.webp",
         "prestige": 1,
@@ -683,7 +683,7 @@
         "uid": 92746,
         "name": "Ornament Celtic Planter 1x1 Coniferous",
         "title": "Teutonic Pine (Planted)",
-        "description": "No Description",
+        "description": "Climb it and the legion won't see you coming.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_celtic_coniferous_0.webp",
         "prestige": 1,
@@ -715,7 +715,7 @@
         "uid": 92747,
         "name": "Ornament Celtic Planter 1x1 Lush",
         "title": "Albionic Oak (Planted)",
-        "description": "No Description",
+        "description": "Offers leafy concealment for communing druids.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_celtic_lush_0.webp",
         "prestige": 1,
@@ -747,7 +747,7 @@
         "uid": 92748,
         "name": "Ornament Celtic Planter 1x1 Tall",
         "title": "Albionic Pine (Planted)",
-        "description": "No Description",
+        "description": "<i>Pict</i>-uresque.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_celtic_tall_0.webp",
         "prestige": 1,
@@ -2603,6 +2603,250 @@
             }
         ]
     },
+    "92804": {
+        "uid": 92804,
+        "name": "Ornament Roman Meshgraph Hedge 01",
+        "title": "Trimmed Hedge",
+        "description": "Ageless in its division of privacy.",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_hedge_0.webp",
+        "prestige": 0,
+        "cost": 1,
+        "construction_groups": [
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            }
+        ]
+    },
+    "92805": {
+        "uid": 92805,
+        "name": "Ornament Roman HoF Meshgraph Colonnade 01",
+        "title": "Slender Colonnade",
+        "description": "Thin and prim like the lips of the snobs beneath it.",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_colonnade_slender_0.webp",
+        "prestige": 0,
+        "cost": 5,
+        "construction_groups": [
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            }
+        ]
+    },
+    "92813": {
+        "uid": 92813,
+        "name": "Ornament Roman HoF Meshgraph Colonnade 02",
+        "title": "Broad Colonnade",
+        "description": "A caterpillar of cool from the Latium sun.",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_colonnade_roofed_0.webp",
+        "prestige": 0,
+        "cost": 5,
+        "construction_groups": [
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            }
+        ]
+    },
+    "92827": {
+        "uid": 92827,
+        "name": "HoF Ornament Celtic Meshgraph Colonnade",
+        "title": "Wooden Colonnade",
+        "description": "Perfect for frigid strolls through Albion's marshland.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_colonnade_celtic_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "92829": {
+        "uid": 92829,
+        "name": "Ornament Celtic Meshgraph Stone Wall Low",
+        "title": "Dry-Stone Wall",
+        "description": "Held together by a promise, just like the limes of empire.",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_wall_celtic_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            }
+        ]
+    },
+    "92815": {
+        "uid": 92815,
+        "name": "Ornament Roman Wall",
+        "title": "Roman Wall",
+        "description": "Walls are a two-way thing.",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_wall_roman_0.webp",
+        "prestige": 0,
+        "cost": 5,
+        "construction_groups": [
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            }
+        ]
+    },
+    "92817": {
+        "uid": 92817,
+        "name": "Ornament Roman Wall Gate",
+        "title": "Roman Gateway",
+        "description": "The way to and from the obligations of the day.",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_wall_roman_gate_0.webp",
+        "prestige": 0,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            }
+        ]
+    },
     "80827": {
         "uid": 80827,
         "name": "Ornament Roman Brazier 1x1 03",
@@ -2995,7 +3239,7 @@
         "uid": 82636,
         "name": "Ornament Roman Grass 01",
         "title": "Short Grass",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_ground_shortgrass_0.webp",
         "prestige": 0,
@@ -3027,7 +3271,7 @@
         "uid": 95309,
         "name": "Ornament Roman Sand 01",
         "title": "Hard Earth",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_ground_dirt_0.webp",
         "prestige": 0,
@@ -3059,7 +3303,7 @@
         "uid": 114212,
         "name": "Ornament Celtic Sand 02",
         "title": "Muddy Ground",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_ground_dirt_celtic_0.webp",
         "prestige": 0,
@@ -3091,7 +3335,7 @@
         "uid": 81091,
         "name": "Ornament Roman Tileset 01",
         "title": "Flagstone",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_ground_romanpavement_0.webp",
         "prestige": 0,
@@ -3123,7 +3367,7 @@
         "uid": 95242,
         "name": "Connect Ornament Tileset Geometric Plus",
         "title": "Fading Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_geometric_0.webp",
         "prestige": 0,
@@ -3155,7 +3399,7 @@
         "uid": 95243,
         "name": "Connect Ornament Tileset Solar",
         "title": "Solar Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_solar_0.webp",
         "prestige": 0,
@@ -3187,7 +3431,7 @@
         "uid": 95241,
         "name": "HoF Ornament Roman Tileset Floral",
         "title": "Ruby Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_floral_0.webp",
         "prestige": 0,
@@ -3239,7 +3483,7 @@
         "uid": 80590,
         "name": "HoF Ornament Roman Tileset Circles",
         "title": "Cobbled Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_circles_0.webp",
         "prestige": 0,
@@ -3291,7 +3535,7 @@
         "uid": 80591,
         "name": "HoF Ornament Roman Tileset Eye",
         "title": "Chequered Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_eyes_0.webp",
         "prestige": 0,
@@ -3343,7 +3587,7 @@
         "uid": 80592,
         "name": "HoF Ornament Celtic Tileset Roots",
         "title": "Knotty Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_roots_0.webp",
         "prestige": 0,
@@ -3395,7 +3639,7 @@
         "uid": 80593,
         "name": "HoF Ornament Celtic Tileset Tribal",
         "title": "Ancient Stone",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_tribal_0.webp",
         "prestige": 0,
@@ -3447,7 +3691,7 @@
         "uid": 149830,
         "name": "HoF Ornament Roman Tileset Obsidian",
         "title": "Obsidian Tiles",
-        "description": "No Description",
+        "description": "Opulent, black glass cut to perfection.",
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_black_tiles_0.webp",
         "prestige": 0,
@@ -3499,7 +3743,7 @@
         "uid": 151217,
         "name": "HoF Ornament Shrubbery Plaza",
         "title": "Shrubbery",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_shrubbery_0.webp",
         "prestige": 0,
@@ -3551,7 +3795,7 @@
         "uid": 144819,
         "name": "cDLC01 Ornament Tileset 01",
         "title": "Papyrus Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_01_01_0.webp",
         "prestige": 0,
@@ -3591,7 +3835,7 @@
         "uid": 144925,
         "name": "cDLC01 Ornament Tileset 02",
         "title": "Purple Papyrus Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_01_02_0.webp",
         "prestige": 0,
@@ -3631,7 +3875,7 @@
         "uid": 144926,
         "name": "cDLC01 Ornament Tileset 03",
         "title": "Purple Florals",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_02_01_0.webp",
         "prestige": 0,
@@ -3671,7 +3915,7 @@
         "uid": 144927,
         "name": "cDLC01 Ornament Tileset 04",
         "title": "Russet Florals",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_02_02_0.webp",
         "prestige": 0,
@@ -3711,7 +3955,7 @@
         "uid": 144928,
         "name": "cDLC01 Ornament Tileset 05",
         "title": "Russet Fan Pattern",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_03_01_0.webp",
         "prestige": 0,
@@ -3751,7 +3995,7 @@
         "uid": 144929,
         "name": "cDLC01 Ornament Tileset 06",
         "title": "Purple Fan Pattern",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_03_03_0.webp",
         "prestige": 0,
@@ -3791,7 +4035,7 @@
         "uid": 145862,
         "name": "cDLC01 Ornament Tileset 09",
         "title": "Sandstone",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_03_0.webp",
         "prestige": 0,
@@ -3831,7 +4075,7 @@
         "uid": 144930,
         "name": "cDLC01 Ornament Tileset 07",
         "title": "Irregular Sandstone",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_01_0.webp",
         "prestige": 0,
@@ -3871,7 +4115,7 @@
         "uid": 145869,
         "name": "cDLC01 Ornament Tileset 13",
         "title": "Sunkissed Stone",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_07_0.webp",
         "prestige": 0,
@@ -3911,7 +4155,7 @@
         "uid": 145864,
         "name": "cDLC01 Ornament Tileset 11",
         "title": "Marble Tiles",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_05_0.webp",
         "prestige": 0,
@@ -3951,7 +4195,7 @@
         "uid": 145865,
         "name": "cDLC01 Ornament Tileset 12",
         "title": "Irregular Marble Tiles",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_06_0.webp",
         "prestige": 0,
@@ -3991,7 +4235,7 @@
         "uid": 145867,
         "name": "cDLC01 Ornament Tileset 14",
         "title": "Ornate Verdant Square",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_01_01_0.webp",
         "prestige": 0,
@@ -4031,7 +4275,7 @@
         "uid": 145977,
         "name": "cDLC01 Ornament Tileset 15",
         "title": "Ornate Russet Square",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_01_02_0.webp",
         "prestige": 0,
@@ -4071,7 +4315,7 @@
         "uid": 147026,
         "name": "cDLC01 Ornament Tileset 16",
         "title": "Entwined Russet Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_02_01_0.webp",
         "prestige": 0,
@@ -4111,7 +4355,7 @@
         "uid": 147027,
         "name": "cDLC01 Ornament Tileset 17",
         "title": "Entwined Verdant Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_02_02_0.webp",
         "prestige": 0,
@@ -4151,7 +4395,7 @@
         "uid": 147028,
         "name": "cDLC01 Ornament Tileset 18",
         "title": "Four Winds Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_03_01_0.webp",
         "prestige": 0,
@@ -4191,7 +4435,7 @@
         "uid": 147288,
         "name": "cDLC01 Ornament Tileset 19",
         "title": "Verdant Winds Mosaic",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_03_02_0.webp",
         "prestige": 0,
@@ -4231,7 +4475,7 @@
         "uid": 147289,
         "name": "cDLC01 Ornament Tileset 20",
         "title": "Aureum Pattern",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_04_01_0.webp",
         "prestige": 0,
@@ -4271,7 +4515,7 @@
         "uid": 147292,
         "name": "cDLC01 Ornament Tileset 24",
         "title": "Grassy Pavement",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_stone_plaza_stone_plaza_03_0.webp",
         "prestige": 0,
@@ -4311,7 +4555,7 @@
         "uid": 145861,
         "name": "cDLC01 Ornament Tileset 08",
         "title": "Granite",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_02_0.webp",
         "prestige": 0,
@@ -4351,7 +4595,7 @@
         "uid": 147291,
         "name": "cDLC01 Ornament Tileset 22",
         "title": "Light Granite",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_stone_plaza_stone_plaza_01_0.webp",
         "prestige": 0,
@@ -4391,7 +4635,7 @@
         "uid": 145863,
         "name": "cDLC01 Ornament Tileset 10",
         "title": "Rustic Stone",
-        "description": "No Description",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
         "origin": "Marvellous Mosaic Pack",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_04_0.webp",
         "prestige": 0,
@@ -4587,11 +4831,171 @@
             }
         ]
     },
+    "144984": {
+        "uid": 144984,
+        "name": "cDLC01 Ornament Wall Roman",
+        "title": "Hortical Wall",
+        "description": "What could be more deserving of protection than this inner sanctum, Hortus, the garden of the mind?",
+        "origin": "Marvellous Mosaic Pack",
+        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_roman_01_0.webp",
+        "prestige": 0,
+        "cost": 5,
+        "construction_groups": [
+            {
+                "top_level_guid": "150269",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "144823",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "144821",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "145581",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "150273",
+                "construction_group_guid": "150269"
+            }
+        ]
+    },
+    "144985": {
+        "uid": 144985,
+        "name": "cDLC01 Ornament Wall Roman Gate",
+        "title": "Gate of Heroes",
+        "description": "In times of need, trumpets blare for the brave to join their phalanx. ",
+        "origin": "Marvellous Mosaic Pack",
+        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_gate_roman_01_0.webp",
+        "prestige": 0,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "150269",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "144823",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "144821",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "145581",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "150273",
+                "construction_group_guid": "150269"
+            }
+        ]
+    },
+    "144986": {
+        "uid": 144986,
+        "name": "cDLC01 Ornament Wall Celtic",
+        "title": "Oppidum Wall",
+        "description": "Its strength lies in the stones, the mortar and the ivy, and the nests of bees that swarm out in springtime. ",
+        "origin": "Marvellous Mosaic Pack",
+        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_celtic_01_0.webp",
+        "prestige": 0,
+        "cost": 5,
+        "construction_groups": [
+            {
+                "top_level_guid": "150269",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "144823",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "144821",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "145581",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "150273",
+                "construction_group_guid": "150269"
+            }
+        ]
+    },
+    "144987": {
+        "uid": 144987,
+        "name": "cDLC01 Ornament Wall Celtic Gate",
+        "title": "Druwid's Gate",
+        "description": "Speak Gaul, and enter.",
+        "origin": "Marvellous Mosaic Pack",
+        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_gate_celtic_01_0.webp",
+        "prestige": 0,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "150269",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "144823",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "144821",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "145581",
+                "construction_group_guid": "150269"
+            },
+            {
+                "top_level_guid": "150273",
+                "construction_group_guid": "150269"
+            }
+        ]
+    },
     "42436": {
         "uid": 42436,
         "name": "Quay Roman Celtic",
         "title": "Quay",
-        "description": "No Description",
+        "description": "Decorates the harbour area.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_quay_0.webp",
         "prestige": 0,

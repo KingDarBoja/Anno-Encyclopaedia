@@ -83,6 +83,12 @@
         "localized_name": "Structures and Buildings",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_arch_column_0.webp"
     },
+    "80618": {
+        "guid": "80618",
+        "name": "Global Ornaments Subcategory Base Walls",
+        "localized_name": "Walls and Hedges",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_colonnade_slender_0.webp"
+    },
     "80582": {
         "guid": "80582",
         "name": "Global Ornaments Subcategory Base Light Sources",
@@ -130,6 +136,12 @@
         "name": "cDLC01 Subcategory Structures",
         "localized_name": "Structures and Buildings",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_3x3_01_0.webp"
+    },
+    "150269": {
+        "guid": "150269",
+        "name": "cDLC01 Subcategory Walls",
+        "localized_name": "Walls and Hedges",
+        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_roman_01_0.webp"
     },
     "41339": {
         "guid": "41339",
