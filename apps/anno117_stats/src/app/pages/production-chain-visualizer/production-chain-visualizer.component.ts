@@ -128,17 +128,17 @@ export class ProductionChainVisualizerComponent
     return [
       {
         label: 'Latium',
-        icon: 'assets/icons/main/regions/icon_2d_region_heartlands_0.webp',
+        icon: 'assets/icons/base/icon_content/generic/icon_2d_region_heartlands_0.webp',
         chains: processGroup(romanChains),
       },
       {
         label: 'Albion',
-        icon: 'assets/icons/main/regions/icon_2d_region_wetlands_0.webp',
+        icon: 'assets/icons/base/icon_content/generic/icon_2d_region_wetlands_0.webp',
         chains: processGroup(celticChains),
       },
       {
         label: 'Shared',
-        icon: 'assets/icons/main/regions/icon_2d_region_global_0.webp',
+        icon: 'assets/icons/base/icon_content/generic/icon_2d_region_global_0.webp',
         chains: processGroup(sharedChains),
       },
     ].filter((group) => group.chains.length > 0);

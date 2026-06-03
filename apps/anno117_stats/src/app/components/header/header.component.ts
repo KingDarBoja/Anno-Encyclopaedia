@@ -27,7 +27,6 @@ interface NavItem {
         </div>
 
         <div class="flex items-center gap-2">
-          
           <!-- Mobile Toggle Button -->
           <button class="mobile-toggle md:hidden" (click)="toggleMenu()">
             <span class="hamburger" [class.open]="isMenuOpen()"></span>
@@ -55,10 +54,11 @@ interface NavItem {
                 </div>
               } @else {
                 <div
+                  class="nav-group"
                   routerLinkActive="active"
                   [routerLinkActiveOptions]="{ exact: item.path === '/' }"
                 >
-                  <a [routerLink]="item.path" (click)="isMenuOpen.set(false)">
+                  <a class="group-label" [routerLink]="item.path" (click)="isMenuOpen.set(false)">
                     {{ item.label }}
                   </a>
                 </div>
@@ -67,12 +67,16 @@ interface NavItem {
           </nav>
 
           <!-- Theme Switcher Button -->
-          <button 
-            class="theme-toggle-btn" 
-            (click)="toggleTheme()" 
-            [attr.aria-label]="isLightMode() ? 'Switch to Dark Mode' : 'Switch to Light Mode'"
+          <button
+            class="theme-toggle-btn"
+            (click)="toggleTheme()"
+            [attr.aria-label]="
+              isLightMode() ? 'Switch to Dark Mode' : 'Switch to Light Mode'
+            "
           >
-            <mat-icon>{{ isLightMode() ? 'dark_mode' : 'light_mode' }}</mat-icon>
+            <mat-icon>{{
+              isLightMode() ? 'dark_mode' : 'light_mode'
+            }}</mat-icon>
           </button>
         </div>
       </div>
@@ -84,10 +88,10 @@ export class HeaderComponent {
   isMenuOpen = signal(false);
   isLightMode = signal<boolean>(localStorage.getItem('theme') === 'light');
 
-constructor() {
+  constructor() {
     effect(() => {
       const lightModeActive = this.isLightMode();
-      
+
       if (lightModeActive) {
         document.documentElement.classList.add('light-mode');
         localStorage.setItem('theme', 'light');

@@ -184,15 +184,11 @@
           class="attribute-row flex items-center justify-between text-xs py-1.5 px-3 rounded"
         >
           <div class="flex items-center gap-1.5 capitalize attribute-label">
-            @if (keyIcons[attr.key]; as iconName) {
+            @if (keyIcons[attr.key]; as iconPath) {
               <span
                 class="inline-block w-4 h-4 icon-brand"
-                [style.mask-image]="
-                  'url(' + 'assets/icons/main/attributes/' + iconName + ')'
-                "
-                [style.-webkit-mask-image]="
-                  'url(' + 'assets/icons/main/attributes/' + iconName + ')'
-                "
+                [style.mask-image]="'url(' + iconPath + ')'"
+                [style.-webkit-mask-image]="'url(' + iconPath + ')'"
                 role="img"
                 [attr.aria-label]="getLabel(attr.key) + ' icon'"
               ></span>
@@ -224,15 +220,11 @@
               class="attribute-row flex items-center justify-between text-xs py-1 px-2.5 rounded"
             >
               <div class="flex items-center gap-1.5 capitalize attribute-label">
-                @if (keyIcons[attr.key]; as iconName) {
+                @if (keyIcons[attr.key]; as iconPath) {
                   <span
                     class="inline-block w-4 h-4 icon-brand"
-                    [style.mask-image]="
-                      'url(' + 'assets/icons/main/attributes/' + iconName + ')'
-                    "
-                    [style.-webkit-mask-image]="
-                      'url(' + 'assets/icons/main/attributes/' + iconName + ')'
-                    "
+                    [style.mask-image]="'url(' + iconPath + ')'"
+                    [style.-webkit-mask-image]="'url(' + iconPath + ')'"
                     role="img"
                     [attr.aria-label]="getLabel(attr.key) + ' icon'"
                   ></span>

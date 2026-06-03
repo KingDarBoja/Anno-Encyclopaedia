@@ -23,29 +23,44 @@ import {
 export class CityStatusCardComponent {
   private readonly cityStatusService = inject(CityStatusService);
 
-  readonly iconBase = 'assets/icons/main/attributes/';
   readonly data = input.required<CityStatusViewModel>();
 
   // Cast the array so 'key' matches the keys of CityAttributeEffects
   readonly attributes = [
-    { key: 'belief', label: 'Belief', icon: 'icon_religion_belief_0.webp' },
+    {
+      key: 'belief',
+      label: 'Belief',
+      iconPath: 'assets/icons/base/icon_content/attributes/icon_religion_belief_0.webp',
+    },
     {
       key: 'knowledge',
       label: 'Knowledge',
-      icon: 'icon_techtree_knowledge_0.webp',
+      iconPath: 'assets/icons/base/icon_content/attributes/icon_techtree_knowledge_0.webp',
     },
-    { key: 'prestige', label: 'Prestige', icon: 'icon_prestige_0.webp' },
-    { key: 'health', label: 'Health', icon: 'icon_health_0.webp' },
+    {
+      key: 'prestige',
+      label: 'Prestige',
+      iconPath: 'assets/icons/base/icon_content/attributes/icon_prestige_0.webp',
+    },
+    {
+      key: 'health',
+      label: 'Health',
+      iconPath: 'assets/icons/base/icon_content/attributes/icon_health_0.webp',
+    },
     {
       key: 'fire_safety',
       label: 'Fire Safety',
-      icon: 'icon_fire_safety_0.webp',
+      iconPath: 'assets/icons/base/icon_content/attributes/icon_fire_safety_0.webp',
     },
-    { key: 'happiness', label: 'Happiness', icon: 'icon_happiness_0.webp' },
+    {
+      key: 'happiness',
+      label: 'Happiness',
+      iconPath: 'assets/icons/base/icon_content/attributes/icon_happiness_0.webp',
+    },
   ] as const satisfies {
     key: keyof CityAttributeEffects;
     label: string;
-    icon: string;
+    iconPath: string;
   }[];
 
   readonly placeholderImage =

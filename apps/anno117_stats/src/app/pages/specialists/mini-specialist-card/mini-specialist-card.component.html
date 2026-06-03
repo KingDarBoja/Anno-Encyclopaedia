@@ -42,11 +42,11 @@
               @for (attr of buff.attributes; track attr.key) {
                 <div class="buff-row">
                   <div class="flex items-center gap-1.5 capitalize buff-key">
-                    @if (keyIcons[attr.key]; as iconName) {
+                    @if (keyIcons[attr.key]; as iconPath) {
                       <span
                         class="inline-block w-3.5 h-3.5 icon-brand"
-                        [style.mask-image]="'url(assets/icons/main/attributes/' + iconName + ')'"
-                        [style.-webkit-mask-image]="'url(assets/icons/main/attributes/' + iconName + ')'"
+                        [style.mask-image]="'url(' + iconPath + ')'"
+                        [style.-webkit-mask-image]="'url(' + iconPath + ')'"
                         role="img"
                         [attr.aria-label]="getLabel(attr.key) + ' icon'"
                       ></span>

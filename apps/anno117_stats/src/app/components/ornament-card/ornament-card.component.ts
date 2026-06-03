@@ -49,12 +49,8 @@ import {
           <span class="value">
             <span
               class="inline-block w-4 h-4 icon-brand"
-              [style.mask-image]="
-                'url(assets/icons/main/attributes/icon_prestige_0.webp)'
-              "
-              [style.-webkit-mask-image]="
-                'url(assets/icons/main/attributes/icon_prestige_0.webp)'
-              "
+              [style.mask-image]="'url(' + keyIcons.prestige + ')'"
+              [style.-webkit-mask-image]="'url(' + keyIcons.prestige + ')'"
               role="img"
               [attr.aria-label]="'Prestige Icon'"
             ></span>
@@ -64,11 +60,13 @@ import {
         <div class="footer-col">
           <span class="label">Cost</span>
           <span class="value">
-            <img
-              class="w-4 h-4"
-              src="assets/icons/main/attributes/icon_income_0.webp"
-              alt="prestige icon"
-            />
+            <span
+              class="inline-block w-4 h-4 icon-brand"
+              [style.mask-image]="'url(' + keyIcons.money + ')'"
+              [style.-webkit-mask-image]="'url(' + keyIcons.money + ')'"
+              role="img"
+              [attr.aria-label]="'Money Icon'"
+            ></span>
             {{ cost() > 0 ? (cost() | number) : 'Free' }}
           </span>
         </div>
@@ -84,7 +82,7 @@ import {
           (click)="openDialog()"
           title="View Construction Menu Placements"
         >
-          𐎎 Placements ({{ placements().length }})
+          𐎎 Construction Menu ({{ placements().length }})
         </button>
       </footer>
     </div>
@@ -100,6 +98,11 @@ export class OrnamentCardComponent {
   readonly cost = input.required<number>();
   readonly origin = input.required<string>();
   readonly placements = input.required<ResolvedPlacement[]>();
+
+  readonly keyIcons = {
+    money: 'assets/icons/base/icon_content/attributes/icon_income_0.webp',
+    prestige: 'assets/icons/base/icon_content/attributes/icon_prestige_0.webp',
+  } as const;
 
   private readonly dialog = inject(MatDialog);
   hasError = signal(false);
