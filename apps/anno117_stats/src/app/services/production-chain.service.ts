@@ -3,17 +3,7 @@ import { HttpClient } from '@angular/common/http';
 import { of } from 'rxjs';
 import { catchError, finalize, map, tap } from 'rxjs/operators';
 import { SpecialistService, HydratedSpecialistViewModel } from './specialist.service';
-
-/**
- * Define the dataset 'Region' that must contain 4 values.
- */
-export const Region = {
-  META: 'Meta',
-  ROMAN: 'Roman',
-  CELTIC: 'Celtic',
-  EGYPTIAN: 'Egyptian',
-} as const;
-export type RegionType = (typeof Region)[keyof typeof Region];
+import { RegionValue } from '../models/enums';
 
 /**
  * Represents a single building node inside the production hierarchy tree.
@@ -24,7 +14,7 @@ export interface BuildingNodeJSON {
   text: string;
   icon_url: string;
   canon_name: string;
-  region: RegionType[]
+  region: RegionValue[]
   tier: BuildingNodeJSON[];
 }
 

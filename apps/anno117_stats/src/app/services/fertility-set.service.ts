@@ -2,11 +2,13 @@ import { inject, Injectable, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { of } from 'rxjs';
 import { catchError, finalize, map, tap } from 'rxjs/operators';
+import { translateArray, TRANSLATIONS_EN } from '../models/translations_mapping';
+import { RegionValue } from '../models/enums';
 
 // --- EXPORT JSON INTERFACES ---
 
 export interface ResourceSetConditionJSON {
-  region: string[];
+  region: RegionValue[];
   island_type: string[];
   island_diff: string[];
   res_amounts: string[];
@@ -41,10 +43,20 @@ export type FertilitySetRegistry = Record<string, FertilitySetJSON>;
 export interface FertilitySetViewModel {
   readonly id: string;
   readonly name: string;
-  readonly regions: string;
-  readonly difficulties: string;
-  readonly islandTypes: string;
+  readonly rawRegions: RegionValue[]; // Kept for logic/grouping
+  readonly regions: string;      // Translated display string
+  readonly difficulties: string; // Translated display string
+  readonly islandTypes: string;  // Translated display string
   readonly slots: FertilitySlotJSON[];
+}
+
+export interface FertilitySetRegionGroup {
+  regionKey: string;
+  regionName: string;
+  regionIcon: string;
+  sets: FertilitySetViewModel[];
+  dynamicSlotColumns: number[];
+  displayedColumns: string[];
 }
 
 @Injectable({
@@ -93,9 +105,10 @@ export class FertilitySetService {
     return Object.values(rawRegistry).map((rawRow) => ({
       id: rawRow.guid,
       name: rawRow.name,
-      regions: rawRow.condition.region.join(', '),
-      difficulties: rawRow.condition.island_diff.join(', '),
-      islandTypes: rawRow.condition.island_type.join(', '),
+      rawRegions: rawRow.condition.region,
+      regions: translateArray(rawRow.condition.region, TRANSLATIONS_EN.Region),
+      difficulties: translateArray(rawRow.condition.island_diff, TRANSLATIONS_EN.IslandDifficulty),
+      islandTypes: translateArray(rawRow.condition.island_type, TRANSLATIONS_EN.IslandType),
       slots: rawRow.slots.sort((a, b) => a.index - b.index),
     }));
   }

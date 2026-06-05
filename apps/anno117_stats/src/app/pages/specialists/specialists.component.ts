@@ -6,21 +6,18 @@ import {
   signal,
   computed,
 } from '@angular/core';
-import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { SpecialistCardComponent } from './specialist-card/specialist-card.component';
 import {
   SpecialistService,
   HydratedSpecialistViewModel,
-  NicheVisualization,
-  RarityVisualization,
-  ItemAllocation,
 } from '../../services/specialist.service';
+import { NicheVisualization, RarityVisualization, ItemAllocation } from '../../models/enums';
 
 @Component({
   selector: 'anno-specialists-page',
   standalone: true,
-  imports: [CommonModule, FormsModule, SpecialistCardComponent],
+  imports: [FormsModule, SpecialistCardComponent],
   changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './specialists.component.html',
   styleUrl: './specialists.component.scss',

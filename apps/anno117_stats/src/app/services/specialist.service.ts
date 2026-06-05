@@ -2,52 +2,12 @@ import { inject, Injectable, signal, computed } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { forkJoin, of } from 'rxjs';
 import { catchError, finalize, tap } from 'rxjs/operators';
-
-// --- Enums ---
-export enum ItemAllocation {
-  // NONE = 'None',
-  SHIP = 'Ship',
-  VILLA = 'Villa',
-}
-
-export enum RarityVisualization {
-  // NARRATIVE = 'Narrative',
-  COMMON = 'Common',
-  // UNCOMMON = 'Uncommon',
-  RARE = 'Rare',
-  EPIC = 'Epic',
-  LEGENDARY = 'Legendary',
-  // QUEST = 'Quest',
-  UNIQUE = 'Unique',
-}
-
-export enum NicheVisualization {
-  NONE = 'None',
-  FINANCE = 'Finance',
-  RELIGION = 'Religion',
-  RESEARCH = 'Research',
-  CULTURE = 'Culture',
-  ECONOMY = 'Economy',
-  AGRICULTURE = 'Agriculture',
-  DIPLOMACY = 'Diplomacy',
-  MILITARY = 'Military',
-  NAUTICS = 'Nautics',
-}
-
-export enum ScopeVisualization {
-  LOCAL = 'Local',
-  MODULE_OWNER = 'ModuleOwner',
-  STREET_DISTANCE = 'StreetDistance',
-  RADIUS = 'Radius',
-  OBJECTS_IN_AREA = 'ObjectsInArea',
-  AREA = 'Area',
-  OBJECTS_IN_SESSION = 'ObjectsInSession',
-  SESSION = 'Session',
-  OBJECTS_IN_META = 'ObjectsInMeta',
-  META = 'Meta',
-  AREAS_IN_META = 'AreasInMeta',
-  AREAS_IN_SESSION = 'AreasInSession',
-}
+import {
+  ItemAllocation,
+  NicheVisualization,
+  RarityVisualization,
+  ScopeVisualization,
+} from '../models/enums';
 
 // --- Raw Specialist Interfaces (Incoming JSON) ---
 interface SpecialistAddedFertility {
