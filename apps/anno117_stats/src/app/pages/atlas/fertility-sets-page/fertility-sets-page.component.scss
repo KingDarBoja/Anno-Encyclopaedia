@@ -1,46 +1,45 @@
-/* Structural Theme Variables for the Fertility Data Layout */
 .fertility-workspace {
     transition:
         background-color 0.3s ease,
         border-color 0.3s ease,
         color 0.3s ease;
 
-    // ==========================================================================
-    // 1. SEMANTIC THEME TOKENS (Dark Mode / Default)
-    // ==========================================================================
-    --panel-bg: color-mix(in srgb, var(--secondary-color), var(--primary-color) 40%);
+    --panel-bg: color-mix(in srgb, var(--primary-color), black 30%);
     --panel-border: color-mix(in srgb, var(--background-color), transparent 85%);
-
+    --card-bg: color-mix(in srgb, var(--secondary-color), var(--primary-color) 40%);
+    --card-text: var(--background-color);
     --header-bg: color-mix(in srgb, var(--primary-color), black 50%);
     --header-text: var(--background-accent-color);
-
     --cell-text: var(--background-color);
     --cell-hover-bg: rgba(255, 255, 255, 0.03);
-
-    --chip-bg: color-mix(in srgb, var(--panel-bg), black 20%);
+    --box-bg: color-mix(in srgb, var(--primary-color), black 50%);
+    --box-border: color-mix(in srgb, var(--card-text), transparent 90%);
+    --chip-bg: color-mix(in srgb, var(--primary-color), var(--secondary-color) 40%);
     --chip-border: color-mix(in srgb, var(--background-color), transparent 85%);
-
     --icon-border: var(--panel-border);
     --icon-border-hover: var(--background-accent-color);
 
-    // ==========================================================================
-    // 2. SEMANTIC THEME TOKENS (Light Mode Overrides via host-context)
-    // ==========================================================================
     :host-context(.light-mode) & {
         --panel-bg: color-mix(in srgb, var(--background-color), var(--background-accent-color) 60%);
         --panel-border: color-mix(in srgb, var(--primary-color), transparent 80%);
-
+        --card-bg: color-mix(in srgb, var(--background-color), var(--background-accent-color) 60%);
+        --card-text: var(--text-color);
         --header-bg: var(--background-accent-color);
         --header-text: var(--primary-color);
-
         --cell-text: var(--text-color);
         --cell-hover-bg: rgba(0, 0, 0, 0.03);
-
-        --chip-bg: color-mix(in srgb, var(--panel-bg), black 4%);
+        --box-bg: color-mix(in srgb, var(--card-bg), black 4%);
+        --box-border: color-mix(in srgb, var(--primary-color), var(--card-bg) 85%);
+        --chip-bg: color-mix(in srgb, var(--primary-color), var(--panel-bg) 90%);
         --chip-border: color-mix(in srgb, var(--primary-color), transparent 85%);
-
         --icon-border: var(--panel-border);
         --icon-border-hover: var(--primary-color);
+    }
+
+    .fertility-data-panel-container {
+        background-color: var(--panel-bg);
+        border-color: var(--panel-border);
+        padding: calc(var(--spacing) * 1);
     }
 
     // Override the .icon-brand bg color.
@@ -48,125 +47,6 @@
         background-color: var(--primary-color);
     }
 
-    .fertility-data-panel-container {
-        background-color: var(--panel-bg);
-        border-color: var(--panel-border);
-        padding: calc(var(--spacing) * 1) /* 0.25rem = 4px */;
-    }
-
-    .fertility-data-panel {
-        background-color: var(--panel-bg);
-        border-color: var(--panel-border);
-        overflow-x: auto;
-    }
-
-    // ==========================================================================
-    // 3. MATERIAL TABLE OVERRIDES
-    // ==========================================================================
-    .custom-roman-table {
-        background-color: var(--header-bg) !important;
-        // border: 1px solid var(--panel-border);
-
-        th.mat-mdc-header-cell {
-            font-family: var(--font-secondary);
-            background-color: var(--header-bg) !important;
-            color: var(--header-text) !important;
-            border-bottom-color: var(--panel-border) !important;
-            font-size: 0.85rem;
-            letter-spacing: 0.05em;
-            text-transform: uppercase;
-            padding: 12px 16px;
-            transition:
-                background-color 0.3s ease,
-                color 0.3s ease,
-                border-color 0.3s ease;
-        }
-
-        td.mat-mdc-table-sticky {
-            background-color: var(--header-bg) !important;
-        }
-
-        td.mat-mdc-cell {
-            font-family: var(--font-primary);
-            color: var(--cell-text) !important;
-            border-bottom: 1px solid var(--panel-border) !important;
-            padding: 16px 8px;
-
-            transition:
-                color 0.3s ease,
-                border-color 0.3s ease;
-        }
-
-        // Custom columns widths & styles
-        .mat-column-set_info {
-            width: 200px;
-        }
-
-        .mat-column-slots {
-            min-width: 9rem;
-            text-align: center;
-            background-color: var(--panel-bg) !important;
-        }
-
-        .custom-border {
-            border-right: 1px solid var(--panel-border);
-        }
-
-        .hover-row:hover td {
-            background-color: var(--cell-hover-bg);
-        }
-    }
-
-    // ==========================================================================
-    // 4. UI COMPONENTS (Chips, Icons, Loaders)
-    // ==========================================================================
-    .condition-chips .chip {
-        font-family: var(--font-primary);
-        font-size: 0.6rem;
-        padding: 2px 6px;
-        border-radius: 4px;
-        font-weight: 600;
-        letter-spacing: 0.02em;
-        text-transform: uppercase;
-        background-color: var(--chip-bg);
-        color: var(--header-text);
-        border: 1px solid var(--chip-border);
-        transition:
-            background-color 0.3s ease,
-            border-color 0.3s ease;
-    }
-
-    .fertility-option {
-        display: inline-flex;
-        align-items: center;
-        background-color: var(--chip-bg);
-        color: var(--header-text);
-        border: 1px solid var(--icon-border);
-        flex-grow: 1;
-        font-size: 12px;
-        border-radius: 4px;
-        padding: 4px 8px;
-        cursor: help;
-        transition:
-            transform 0.2s ease,
-            border-color 0.3s ease,
-            background-color 0.3s ease;
-
-        &:hover {
-            transform: scale(1.05);
-            border-color: var(--icon-border-hover);
-        }
-
-        .fertility-option-desc {
-            margin-left: 8px;
-            text-align: left;
-            display: flex;
-            font-size: var(--text-xs);
-            line-height: var(--tw-leading, var(--text-xs--line-height));
-        }
-    }
-
-    /* Shared Loader from the layout */
     .roman-loader {
         width: 48px;
         height: 48px;

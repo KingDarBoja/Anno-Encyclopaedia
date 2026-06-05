@@ -1,0 +1,63 @@
+.fertility-card {
+  header {
+    height: 4em;
+  }
+
+  // Use generic card variables
+  .card-body-bg {
+    background-color: var(--card-bg);
+    color: var(--card-text);
+    transition: background-color 0.3s ease;
+  }
+
+  .sub-meta {
+    padding: 0.5em;
+  }
+
+  .slot-box {
+    background-color: var(--box-bg);
+    border: 1px solid var(--box-border);
+    color: var(--card-text);
+    transition:
+      background-color 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .condition-chips .chip {
+    font-family: var(--font-primary);
+    font-size: 0.6rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background-color: var(--chip-bg);
+    color: var(--card-text);
+    border: 1px solid var(--gcard-border);
+    transition:
+      background-color 0.3s ease,
+      border-color 0.3s ease;
+  }
+
+  .fertility-option {
+    display: inline-flex;
+    align-items: center;
+    background-color: var(--chip-bg);
+    color: var(--card-text);
+    border: 1px solid var(--gcard-border);
+    flex-grow: 1;
+    border-radius: 4px;
+    padding: 3px 6px;
+    transition:
+      transform 0.2s ease,
+      border-color 0.3s ease,
+      background-color 0.3s ease;
+
+    .fertility-option-desc {
+      margin-left: 6px;
+      text-align: left;
+      display: flex;
+      font-size: 0.8rem;
+    }
+  }
+}

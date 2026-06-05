@@ -1,0 +1,65 @@
+<div class="generic-card fertility-card h-full">
+  <header>
+    <h3 [matTooltip]="set().name">{{ set().name }}</h3>
+  </header>
+
+  <div class="card-content grow p-4 card-body-bg flex flex-col">
+    <div
+      class="text-[0.7rem] uppercase tracking-widest mb-3 font-bold text-center"
+    >
+      Configured Slots
+    </div>
+
+    <div class="flex flex-col gap-3">
+      @for (slot of set().slots; track slot.index) {
+        <div class="slot-box p-2 rounded">
+          <div
+            class="text-[0.7rem] font-bold uppercase tracking-wider mb-1.5 leading-tight line-clamp-2"
+            [matTooltip]="slot.name"
+          >
+            Slot {{ slot.index + 1 }}
+          </div>
+          <div class="flex flex-wrap gap-1.5">
+            @for (opt of slot.options; track opt.guid) {
+              <div
+                class="fertility-option"
+                [matTooltip]="opt.title || opt.name"
+              >
+                <img
+                  [src]="opt.icon_url"
+                  [alt]="opt.title || opt.name"
+                  class="w-6 h-6 object-contain"
+                />
+                <span class="fertility-option-desc">{{
+                  opt.title || opt.name
+                }}</span>
+              </div>
+            }
+          </div>
+        </div>
+      }
+
+      @if (set().slots.length === 0) {
+        <div class="opacity-40 italic text-xs text-center py-6">
+          - Empty Configuration -
+        </div>
+      }
+    </div>
+  </div>
+
+  <footer class="card-footer sub-meta">
+    <div
+      class="flex flex-wrap gap-1 condition-chips w-full justify-center py-1"
+    >
+      <span class="chip region-chip" [matTooltip]="'Allowed Regions'">{{
+        set().regions
+      }}</span>
+      <span class="chip type-chip" [matTooltip]="'Island Types'">{{
+        set().islandTypes
+      }}</span>
+      <span class="chip diff-chip" [matTooltip]="'Difficulty Levels'">{{
+        set().difficulties
+      }}</span>
+    </div>
+  </footer>
+</div>
