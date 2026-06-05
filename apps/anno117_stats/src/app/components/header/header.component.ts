@@ -58,7 +58,11 @@ interface NavItem {
                   routerLinkActive="active"
                   [routerLinkActiveOptions]="{ exact: item.path === '/' }"
                 >
-                  <a class="group-label" [routerLink]="item.path" (click)="isMenuOpen.set(false)">
+                  <a
+                    class="group-label"
+                    [routerLink]="item.path"
+                    (click)="isMenuOpen.set(false)"
+                  >
                     {{ item.label }}
                   </a>
                 </div>
@@ -111,6 +115,10 @@ export class HeaderComponent {
         { label: 'Achievements', path: '/achievements' },
         { label: 'Ornaments', path: '/ornaments' },
       ],
+    },
+    {
+      label: 'Atlas',
+      children: [{ label: 'Fertility Sets', path: '/atlas/fertility-sets' }],
     },
     {
       label: 'Gameplay',

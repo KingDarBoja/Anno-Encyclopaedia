@@ -43,7 +43,19 @@ export const appRoutes: Route[] = [
         (c) => c.PatronsPageComponent,
       ),
   },
-    {
+  {
+    path: 'atlas',
+    children: [
+      {
+        path: 'fertility-sets',
+        loadComponent: () =>
+          import(
+            './pages/atlas/fertility-sets-page/fertility-sets-page.component'
+          ).then((c) => c.FertilitySetsPageComponent),
+      },
+    ],
+  },
+  {
     path: 'specialists',
     loadComponent: () =>
       import('./pages/specialists/specialists.component').then(

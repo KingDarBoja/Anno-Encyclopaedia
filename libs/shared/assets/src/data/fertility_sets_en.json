@@ -1,0 +1,3611 @@
+{
+    "3656": {
+        "guid": "3656",
+        "name": "Fertility Set Roman 2nd Island Easy",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Olives Resin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "51212",
+                        "name": "Fertility Resin",
+                        "title": "Resin Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Olives Resin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "51212",
+                        "name": "Fertility Resin",
+                        "title": "Resin Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "8174": {
+        "guid": "8174",
+        "name": "Fertility Set Celtic 1st Island Easy",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Barley Herbs",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2214",
+                        "name": "Fertility Celtic Herbs",
+                        "title": "Herbs Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_herbs_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Celtic Dye Plants Copper",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2217",
+                        "name": "Fertility Celtic Dye Plant",
+                        "title": "Dye Plant Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
+                    },
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Deposit Celtic Silver",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "8487",
+                        "name": "Deposit Celtic Silver",
+                        "title": "Silver Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Deposit Iron",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "8179": {
+        "guid": "8179",
+        "name": "Fertility Set Celtic 2nd Island Easy",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Barley Herbs",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2214",
+                        "name": "Fertility Celtic Herbs",
+                        "title": "Herbs Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_herbs_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Celtic Dye Plants Copper Silver",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2217",
+                        "name": "Fertility Celtic Dye Plant",
+                        "title": "Dye Plant Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
+                    },
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "8487",
+                        "name": "Deposit Celtic Silver",
+                        "title": "Silver Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Celtic Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Deposit Celtic Tin",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "8181": {
+        "guid": "8181",
+        "name": "Fertility Set Celtic 3rd Island Easy",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Barley Herbs",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2214",
+                        "name": "Fertility Celtic Herbs",
+                        "title": "Herbs Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_herbs_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Celtic Dye Plants Copper Silver",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2217",
+                        "name": "Fertility Celtic Dye Plant",
+                        "title": "Dye Plant Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
+                    },
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "8487",
+                        "name": "Deposit Celtic Silver",
+                        "title": "Silver Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Celtic Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Resin",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "51212",
+                        "name": "Fertility Resin",
+                        "title": "Resin Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "14198": {
+        "guid": "14198",
+        "name": "Fertility Set Roman 3rd Island Easy",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Sandarac Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4052",
+                        "name": "Fertility Roman Sandarac",
+                        "title": "Sandarac Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Roman Sandarac Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4052",
+                        "name": "Fertility Roman Sandarac",
+                        "title": "Sandarac Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "31312": {
+        "guid": "31312",
+        "name": "Fertility Set Roman 1st Island Easy",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Deposit Iron",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41833": {
+        "guid": "41833",
+        "name": "Fertility Set Roman 1st Island Medium",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Deposit Iron",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41834": {
+        "guid": "41834",
+        "name": "Fertility Set Roman 2nd Island Medium",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Olives Resin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "51212",
+                        "name": "Fertility Resin",
+                        "title": "Resin Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Olives Resin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "51212",
+                        "name": "Fertility Resin",
+                        "title": "Resin Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41835": {
+        "guid": "41835",
+        "name": "Fertility Set Roman 3rd Island Medium",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Sandarac Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4052",
+                        "name": "Fertility Roman Sandarac",
+                        "title": "Sandarac Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Sandarac Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4052",
+                        "name": "Fertility Roman Sandarac",
+                        "title": "Sandarac Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41837": {
+        "guid": "41837",
+        "name": "Fertility Set Roman 1st Island Hard",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Sandarac Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4052",
+                        "name": "Fertility Roman Sandarac",
+                        "title": "Sandarac Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41838": {
+        "guid": "41838",
+        "name": "Fertility Set Roman 2nd Island Hard",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Olives Resin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "51212",
+                        "name": "Fertility Resin",
+                        "title": "Resin Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41839": {
+        "guid": "41839",
+        "name": "Fertility Set Roman 3rd Island Hard",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Sandarac Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4052",
+                        "name": "Fertility Roman Sandarac",
+                        "title": "Sandarac Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41852": {
+        "guid": "41852",
+        "name": "Fertility Set Celtic 1st Island Medium",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Barley Herbs",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2214",
+                        "name": "Fertility Celtic Herbs",
+                        "title": "Herbs Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_herbs_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Celtic Dye Plants Copper Silver",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2217",
+                        "name": "Fertility Celtic Dye Plant",
+                        "title": "Dye Plant Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
+                    },
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "8487",
+                        "name": "Deposit Celtic Silver",
+                        "title": "Silver Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Celtic Dye Plants Copper Silver",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2217",
+                        "name": "Fertility Celtic Dye Plant",
+                        "title": "Dye Plant Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
+                    },
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "8487",
+                        "name": "Deposit Celtic Silver",
+                        "title": "Silver Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Deposit Iron",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41853": {
+        "guid": "41853",
+        "name": "Fertility Set Celtic 2nd Island Medium",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Dye Plants Copper Silver",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2217",
+                        "name": "Fertility Celtic Dye Plant",
+                        "title": "Dye Plant Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
+                    },
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "8487",
+                        "name": "Deposit Celtic Silver",
+                        "title": "Silver Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Deposit Celtic Tin",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Deposit Celtic Granite",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41854": {
+        "guid": "41854",
+        "name": "Fertility Set Celtic 3rd Island Medium",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Barley Herbs",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2214",
+                        "name": "Fertility Celtic Herbs",
+                        "title": "Herbs Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_herbs_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Celtic Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Resin",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "51212",
+                        "name": "Fertility Resin",
+                        "title": "Resin Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41856": {
+        "guid": "41856",
+        "name": "Fertility Set Celtic 1st Island Hard",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Barley Herbs",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2214",
+                        "name": "Fertility Celtic Herbs",
+                        "title": "Herbs Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_herbs_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Celtic Dye Plants Copper Silver",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2217",
+                        "name": "Fertility Celtic Dye Plant",
+                        "title": "Dye Plant Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
+                    },
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "8487",
+                        "name": "Deposit Celtic Silver",
+                        "title": "Silver Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41857": {
+        "guid": "41857",
+        "name": "Fertility Set Celtic 2nd Island Hard",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Dye Plants Copper Silver",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2217",
+                        "name": "Fertility Celtic Dye Plant",
+                        "title": "Dye Plant Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp"
+                    },
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "8487",
+                        "name": "Deposit Celtic Silver",
+                        "title": "Silver Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Celtic Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Deposit Celtic Tin",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "41858": {
+        "guid": "41858",
+        "name": "Fertility Set Celtic 3rd Island Hard",
+        "condition": {
+            "region": [
+                "Celtic"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Celtic Barley Herbs",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2214",
+                        "name": "Fertility Celtic Herbs",
+                        "title": "Herbs Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_herbs_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Celtic Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Resin",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "51212",
+                        "name": "Fertility Resin",
+                        "title": "Resin Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Celtic Samphire Beavers Ponies Flax Birds Sea Shells",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2218",
+                        "name": "Fertility Celtic Samphire",
+                        "title": "Saltwort Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_samphire_goods_0.webp"
+                    },
+                    {
+                        "guid": "4082",
+                        "name": "Fertility Celtic Beavers",
+                        "title": "Beaver Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beaver_goods_0.webp"
+                    },
+                    {
+                        "guid": "2211",
+                        "name": "Fertility Celtic Dartmoor Ponies",
+                        "title": "Pony Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ponies_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2219",
+                        "name": "Fertility Celtic Birds",
+                        "title": "Small Bird Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp"
+                    },
+                    {
+                        "guid": "8432",
+                        "name": "Fertility Celtic Sea Shells",
+                        "title": "Sea Shell Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "144793": {
+        "guid": "144793",
+        "name": "Fertility Set Roman Continental Easy",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 6,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "145109": {
+        "guid": "145109",
+        "name": "Fertility Set Roman Continental Hard",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Deposit Iron",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "145110": {
+        "guid": "145110",
+        "name": "Fertility Set Roman Continental Medium",
+        "condition": {
+            "region": [
+                "Roman"
+            ],
+            "island_type": [
+                "Normal",
+                "VolcanicIsland"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Roman Mackerel Lavender",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2206",
+                        "name": "Fertility Roman Mackerel",
+                        "title": "Mackerel Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mackerels_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Roman Iron Marble",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4062",
+                        "name": "Deposit Roman Marble",
+                        "title": "Marble Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Roman Grapes Flax Sea Snails Oysters Sturgeon Gold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4051",
+                        "name": "Fertility Roman Sea Snails",
+                        "title": "Murex Snail Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp"
+                    },
+                    {
+                        "guid": "2208",
+                        "name": "Fertility Roman Oysters",
+                        "title": "Oyster Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oysters_goods_0.webp"
+                    },
+                    {
+                        "guid": "8577",
+                        "name": "Fertility Roman Sturgeon",
+                        "title": "Sturgeon Population",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sturgeons_goods_0.webp"
+                    },
+                    {
+                        "guid": "32027",
+                        "name": "Deposit Roman Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    }
+}
