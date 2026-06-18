@@ -1,4 +1,5 @@
-import { Component, effect, signal } from '@angular/core';
+import { Component, effect, signal, inject, PLATFORM_ID } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { MatIcon } from '@angular/material/icon';
 interface NavItem {
@@ -90,11 +91,16 @@ interface NavItem {
 })
 export class HeaderComponent {
   isMenuOpen = signal(false);
-  isLightMode = signal<boolean>(localStorage.getItem('theme') === 'light');
+  platformId = inject(PLATFORM_ID);
+  
+  isLightMode = signal<boolean>(
+    isPlatformBrowser(this.platformId) && localStorage.getItem('theme') === 'light'
+  );
 
   constructor() {
     effect(() => {
       const lightModeActive = this.isLightMode();
+      if (!isPlatformBrowser(this.platformId)) return;
 
       if (lightModeActive) {
         document.documentElement.classList.add('light-mode');

@@ -15,7 +15,12 @@
         "browser": "apps/anno117_stats/src/main.ts",
         "tsConfig": "apps/anno117_stats/tsconfig.app.json",
         "inlineStyleLanguage": "scss",
+        "styles": [
+          "apps/anno117_stats/src/styles.scss",
+          "apps/anno117_stats/src/tailwind.css"
+        ],
         "assets": [
+          "apps/anno117_stats/src/site.webmanifest",
           {
             "glob": "**/*",
             "input": "libs/shared/assets/src/favicon",
@@ -31,10 +36,6 @@
             "input": "libs/shared/assets/src/data",
             "output": "assets/data"
           }
-        ],
-        "styles": [
-          "apps/anno117_stats/src/styles.scss",
-          "apps/anno117_stats/src/tailwind.css"
         ]
       },
       "configurations": {
