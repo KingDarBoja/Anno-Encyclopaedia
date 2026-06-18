@@ -10,15 +10,16 @@ import {
   effect,
   inject,
   computed,
+  PLATFORM_ID,
 } from '@angular/core';
+import { isPlatformBrowser } from '@angular/common';
 import {
   MatOption,
   MatSelect,
   MatSelectChange,
   MatSelectTrigger,
 } from '@angular/material/select';
-import { Network, Options } from 'vis-network';
-import { DataSet } from 'vis-data';
+import type { Options } from 'vis-network';
 
 import {
   ProductionChainService,
@@ -67,6 +68,7 @@ export class ProductionChainVisualizerComponent
 {
   readonly service = inject(ProductionChainService);
   readonly specialistService = inject(SpecialistService);
+  private platformId = inject(PLATFORM_ID);
 
   visContainer = viewChild<ElementRef<HTMLDivElement>>('visContainer');
 
@@ -78,7 +80,7 @@ export class ProductionChainVisualizerComponent
   selectedChain = signal<ProductionChainViewModel | null>(null);
   selectedNode = signal<SelectedNodeDetails | null>(null);
 
-  private networkInstance: Network | null = null;
+  private networkInstance: any | null = null;
   private readonly nodeMetadataMap = new Map<number, SelectedNodeDetails>();
 
   activeChainId = signal<string>('');
@@ -172,22 +174,24 @@ export class ProductionChainVisualizerComponent
   }
 
   ngOnInit(): void {
-    const rootStyles = getComputedStyle(document.documentElement);
+    if (isPlatformBrowser(this.platformId)) {
+      const rootStyles = getComputedStyle(document.documentElement);
 
-    this.primaryColor.set(
-      rootStyles.getPropertyValue('--primary-color').trim(),
-    );
-    this.secondaryColor.set(
-      rootStyles.getPropertyValue('--secondary-color').trim(),
-    );
-    this.bgColor.set(
-      rootStyles.getPropertyValue('--background-accent-color').trim() ||
-        rootStyles.getPropertyValue('--background-color').trim(),
-    );
-    this.fontPrimary.set(
-      rootStyles.getPropertyValue('--font-primary').trim() ||
-        'Marcellus, Roboto, serif',
-    );
+      this.primaryColor.set(
+        rootStyles.getPropertyValue('--primary-color').trim(),
+      );
+      this.secondaryColor.set(
+        rootStyles.getPropertyValue('--secondary-color').trim(),
+      );
+      this.bgColor.set(
+        rootStyles.getPropertyValue('--background-accent-color').trim() ||
+          rootStyles.getPropertyValue('--background-color').trim(),
+      );
+      this.fontPrimary.set(
+        rootStyles.getPropertyValue('--font-primary').trim() ||
+          'Marcellus, Roboto, serif',
+      );
+    }
 
     this.service.fetchChains('en');
     this.specialistService.fetchSpecialists(); // Fetches and caches specialists
@@ -206,10 +210,15 @@ export class ProductionChainVisualizerComponent
     }
   }
 
-  private rebuildGraph(): void {
+  private async rebuildGraph(): Promise<void> {
+    if (!isPlatformBrowser(this.platformId)) return;
     const container = this.visContainer()?.nativeElement;
     const chain = this.selectedChain();
     if (!container || !chain) return;
+
+    // Dynamically import vis libraries to avoid SSR crash
+    const { Network } = await import('vis-network');
+    const { DataSet } = await import('vis-data');
 
     const rawNodes: GraphNode[] = [];
     const rawEdges: GraphEdge[] = [];
@@ -330,6 +339,7 @@ export class ProductionChainVisualizerComponent
   }
 
   resetColors() {
+    if (!isPlatformBrowser(this.platformId)) return;
     const rootStyles = getComputedStyle(document.documentElement);
     this.bgColor.set(
       rootStyles.getPropertyValue('--background-accent-color').trim() ||

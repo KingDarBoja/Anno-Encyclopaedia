@@ -36,7 +36,13 @@
             "input": "libs/shared/assets/src/data",
             "output": "assets/data"
           }
-        ]
+        ],
+        "server": "apps/anno117_stats/src/main.server.ts",
+        "ssr": {
+          "entry": "apps/anno117_stats/src/server.ts"
+        },
+        "prerender": true,
+        "outputMode": "static"
       },
       "configurations": {
         "production": {
@@ -102,6 +108,16 @@
         "repo": "git@github.com:KingDarBoja/anno117_stats.git",
         "baseHref": "/anno117_stats/",
         "nojekyll": true
+      }
+    },
+    "deploy-staging": {
+      "executor": "angular-cli-ghpages:deploy",
+      "options": {
+        "dir": "dist/anno117_stats/browser",
+        "repo": "git@github.com:KingDarBoja/anno117_stats.git",
+        "baseHref": "/anno117_stats/",
+        "nojekyll": true,
+        "branch": "gh-pages-staging"
       }
     }
   }
