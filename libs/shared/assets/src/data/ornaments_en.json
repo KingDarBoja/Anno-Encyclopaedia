@@ -1,4 +1,768 @@
 {
+    "152339": {
+        "uid": 152339,
+        "name": "cDLC02 Plaza Flower 01",
+        "title": "Wild Poppies",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_01_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152330",
+                "construction_group_guid": "152330"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152340": {
+        "uid": 152340,
+        "name": "cDLC02 Plaza Flower 02",
+        "title": "Sunny Alkanet",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_02_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152330",
+                "construction_group_guid": "152330"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152341": {
+        "uid": 152341,
+        "name": "cDLC02 Plaza Flower 03",
+        "title": "Dandelion Patch",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_03_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152330",
+                "construction_group_guid": "152330"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152342": {
+        "uid": 152342,
+        "name": "cDLC02 Plaza Flower 04",
+        "title": "Overgrowth",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_04_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152330",
+                "construction_group_guid": "152330"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152343": {
+        "uid": 152343,
+        "name": "cDLC02 Plaza Flower 05",
+        "title": "Lilac Wildflowers",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_05_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152330",
+                "construction_group_guid": "152330"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152344": {
+        "uid": 152344,
+        "name": "cDLC02 Plaza Flower Mix 01",
+        "title": "Blooming Shrubs",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_mix_01_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152330",
+                "construction_group_guid": "152330"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152345": {
+        "uid": 152345,
+        "name": "cDLC02 Plaza Flower Mix 02",
+        "title": "Field of Lilies",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_mix_02_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152330",
+                "construction_group_guid": "152330"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152346": {
+        "uid": 152346,
+        "name": "cDLC02 Plaza Garden 01",
+        "title": "Exotic Garden",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_01_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152347": {
+        "uid": 152347,
+        "name": "cDLC02 Plaza Garden 02",
+        "title": "Springtime Garden",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_02_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152348": {
+        "uid": 152348,
+        "name": "cDLC02 Plaza Garden 03",
+        "title": "Cypress Garden",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_03_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152349": {
+        "uid": 152349,
+        "name": "cDLC02 Plaza Garden 04",
+        "title": "Pine Garden",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_04_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152350": {
+        "uid": 152350,
+        "name": "cDLC02 Plaza Garden 05",
+        "title": "Exotic Fern Garden",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_05_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "158414",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158414"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "158414"
+            }
+        ]
+    },
+    "152321": {
+        "uid": 152321,
+        "name": "cDLC02 Ornament Plant_Arrangement 01 1x1",
+        "title": "Oleander",
+        "description": "Truth seeps from its leaves and drips from the lips of oracles. To the careless, it spells only death. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_plant_01_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152328",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152328"
+            }
+        ]
+    },
+    "152322": {
+        "uid": 152322,
+        "name": "cDLC02 Ornament Plant_Arrangement 02 1x1",
+        "title": "Fig Tree",
+        "description": "Soft purple petals ripen into heavy, layered sweetness.",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_plant_02_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152328",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152328"
+            }
+        ]
+    },
+    "152323": {
+        "uid": 152323,
+        "name": "cDLC02 Ornament Plant_Arrangement 03 1x1",
+        "title": "Palm Tree",
+        "description": "Victory is in your palm. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_plant_03_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152328",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152328"
+            }
+        ]
+    },
+    "152324": {
+        "uid": 152324,
+        "name": "cDLC02 Ornament Plant_Arrangement 04 1x1",
+        "title": "Gum Tree",
+        "description": "Physicians and embalmers swear by its restorative properties.",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_plant_04_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152328",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152328"
+            }
+        ]
+    },
+    "152325": {
+        "uid": 152325,
+        "name": "cDLC02 Ornament Plant_Arrangement 05 1x1",
+        "title": "Pomegranate",
+        "description": "Carthaga has fallen, but its apple will keep.",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_plant_05_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152328",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152328"
+            }
+        ]
+    },
+    "152326": {
+        "uid": 152326,
+        "name": "cDLC02 Ornament Plant_Arrangement 06 1x1",
+        "title": "Stone Pine",
+        "description": "Where one sees a perfect mast, the other sees a stalwart witness: for who else can outlive half a dozen emperors? ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_plant_06_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152328",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152328"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152328"
+            }
+        ]
+    },
+    "152316": {
+        "uid": 152316,
+        "name": "cDLC02 Ornament Pond Round 2x2",
+        "title": "Pool of Virtue",
+        "description": "It is a virtue to be clean. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_pond_round_0.webp",
+        "prestige": 4,
+        "cost": 600,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "152329",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152329"
+            }
+        ]
+    },
+    "152317": {
+        "uid": 152317,
+        "name": "cDLC02 Ornament Pond Square 3x3",
+        "title": "Basin of Virtue",
+        "description": "It is a virtue to be clean. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_pond_square_0.webp",
+        "prestige": 9,
+        "cost": 1000,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "152329",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152329"
+            }
+        ]
+    },
+    "152320": {
+        "uid": 152320,
+        "name": "cDLC02 Ornament Lamassu 1x1",
+        "title": "Mason's Sphinx",
+        "description": "And why should it bear the likeness of some lost Macedon, says the master, when my wife Claudia has such fine features?",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_sphinx_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "152329",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152329"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152329"
+            }
+        ]
+    },
+    "152981": {
+        "uid": 152981,
+        "name": "cDLC02 Ornament Wall Greenery",
+        "title": "Wall of the Domus",
+        "description": "You have to be someone, if they call your palace a \"home\". ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_wall_0.webp",
+        "prestige": 0,
+        "cost": 5,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152987"
+            },
+            {
+                "top_level_guid": "152987",
+                "construction_group_guid": "152987"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152987"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152987"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152987"
+            }
+        ]
+    },
+    "152982": {
+        "uid": 152982,
+        "name": "cDLC02 Ornament Wall Greenery Gate",
+        "title": "Gate of the Domus",
+        "description": "Lapis lazuli and friezes seem to freeze the past in place. ",
+        "origin": "Blooming Cities",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_wall_gate_0.webp",
+        "prestige": 0,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "152312",
+                "construction_group_guid": "152987"
+            },
+            {
+                "top_level_guid": "152987",
+                "construction_group_guid": "152987"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "152987"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "152987"
+            },
+            {
+                "top_level_guid": "152315",
+                "construction_group_guid": "152987"
+            }
+        ]
+    },
     "41342": {
         "uid": 41342,
         "name": "Quay Roman",
@@ -1316,7 +2080,7 @@
         "name": "Connect Ornament Statue 1x1 Lion Plus",
         "title": "Golden Lion",
         "description": "The sculptor got up close to the subject and made a few hasty sketches. Now comes in gold.",
-        "origin": "Base",
+        "origin": "Ubisoft Connect",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_statue_lion_gold_0.webp",
         "prestige": 1,
         "cost": 100,
@@ -1524,7 +2288,7 @@
         "name": "Connect Ornament 1x1 Harmony Statue",
         "title": "Harmonia",
         "description": "<i>A Greek piece</i>. She is much more serene than her descendants were ever destined to be.",
-        "origin": "Base",
+        "origin": "Ubisoft Connect",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_statue_lyrist_0.webp",
         "prestige": 1,
         "cost": 200,
@@ -2192,7 +2956,7 @@
         "name": "Connect Ornament 3x3 Pavilon Plus",
         "title": "Tholos",
         "description": "The aperture in the roof gives spirits, and choking great clouds of smoke, release.",
-        "origin": "Base",
+        "origin": "Ubisoft Connect",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_pavilion_small_0.webp",
         "prestige": 9,
         "cost": 1000,
@@ -2556,7 +3320,7 @@
         "name": "Twitch Ornament Town Crier",
         "title": "Town Crier",
         "description": "His voice echoes across the empire, beckoning to all of its great builders.",
-        "origin": "Base",
+        "origin": "Twitch Drop",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_towncrier_0.webp",
         "prestige": 1,
         "cost": 100,
@@ -2980,7 +3744,7 @@
         "name": "Twitch Ornament 1x1 Banner China",
         "title": "\u7a1a\u5ae9\u7684\u9b54\u6cd5\u5e08",
         "description": "An eclectic piece of many influences.",
-        "origin": "Base",
+        "origin": "Twitch Drop",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_banner_twitch_china_0.webp",
         "prestige": 1,
         "cost": 100,
@@ -3032,7 +3796,7 @@
         "name": "Twitch Ornament 1x1 Banner German",
         "title": "Gronkh",
         "description": "The fallen raise your flag above the ancient battlefield.",
-        "origin": "Base",
+        "origin": "Twitch Drop",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_banner_twitch_germany_0.webp",
         "prestige": 1,
         "cost": 100,
@@ -3084,7 +3848,7 @@
         "name": "Twitch Ornament 1x1 Banner US",
         "title": "Cringer",
         "description": "The two faithful hounds will guard your banner for eternity.",
-        "origin": "Base",
+        "origin": "Twitch Drop",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_banner_twitch_usa_0.webp",
         "prestige": 1,
         "cost": 100,
@@ -3368,7 +4132,7 @@
         "name": "Connect Ornament Tileset Geometric Plus",
         "title": "Fading Mosaic",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Base",
+        "origin": "Ubisoft Connect",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_geometric_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -3400,7 +4164,7 @@
         "name": "Connect Ornament Tileset Solar",
         "title": "Solar Mosaic",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Base",
+        "origin": "Ubisoft Connect",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_ground_solar_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -3791,12 +4555,76 @@
             }
         ]
     },
+    "158417": {
+        "uid": 158417,
+        "name": "Garden Plaza 01",
+        "title": "Ambrosian Forest",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/ornaments/landscaping/icon_3d_landscaping_forest_latium_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "158413",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "158413"
+            }
+        ]
+    },
+    "158418": {
+        "uid": 158418,
+        "name": "Garden Plaza 02",
+        "title": "Celtic Forest",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/ornaments/landscaping/icon_3d_landscaping_forest_albion_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "158413",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "158413"
+            }
+        ]
+    },
     "144819": {
         "uid": 144819,
         "name": "cDLC01 Ornament Tileset 01",
         "title": "Papyrus Mosaic",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_01_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -3836,7 +4664,7 @@
         "name": "cDLC01 Ornament Tileset 02",
         "title": "Purple Papyrus Mosaic",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_01_02_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -3876,7 +4704,7 @@
         "name": "cDLC01 Ornament Tileset 03",
         "title": "Purple Florals",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_02_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -3916,7 +4744,7 @@
         "name": "cDLC01 Ornament Tileset 04",
         "title": "Russet Florals",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_02_02_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -3956,7 +4784,7 @@
         "name": "cDLC01 Ornament Tileset 05",
         "title": "Russet Fan Pattern",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_03_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -3996,7 +4824,7 @@
         "name": "cDLC01 Ornament Tileset 06",
         "title": "Purple Fan Pattern",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_03_03_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4036,7 +4864,7 @@
         "name": "cDLC01 Ornament Tileset 09",
         "title": "Sandstone",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_03_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4076,7 +4904,7 @@
         "name": "cDLC01 Ornament Tileset 07",
         "title": "Irregular Sandstone",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4116,7 +4944,7 @@
         "name": "cDLC01 Ornament Tileset 13",
         "title": "Sunkissed Stone",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_07_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4156,7 +4984,7 @@
         "name": "cDLC01 Ornament Tileset 11",
         "title": "Marble Tiles",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_05_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4196,7 +5024,7 @@
         "name": "cDLC01 Ornament Tileset 12",
         "title": "Irregular Marble Tiles",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_06_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4236,7 +5064,7 @@
         "name": "cDLC01 Ornament Tileset 14",
         "title": "Ornate Verdant Square",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_01_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4276,7 +5104,7 @@
         "name": "cDLC01 Ornament Tileset 15",
         "title": "Ornate Russet Square",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_01_02_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4316,7 +5144,7 @@
         "name": "cDLC01 Ornament Tileset 16",
         "title": "Entwined Russet Mosaic",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_02_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4356,7 +5184,7 @@
         "name": "cDLC01 Ornament Tileset 17",
         "title": "Entwined Verdant Mosaic",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_02_02_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4396,7 +5224,7 @@
         "name": "cDLC01 Ornament Tileset 18",
         "title": "Four Winds Mosaic",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_03_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4436,7 +5264,7 @@
         "name": "cDLC01 Ornament Tileset 19",
         "title": "Verdant Winds Mosaic",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_03_02_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4476,7 +5304,7 @@
         "name": "cDLC01 Ornament Tileset 20",
         "title": "Aureum Pattern",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_04_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4516,7 +5344,7 @@
         "name": "cDLC01 Ornament Tileset 24",
         "title": "Grassy Pavement",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_stone_plaza_stone_plaza_03_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4556,7 +5384,7 @@
         "name": "cDLC01 Ornament Tileset 08",
         "title": "Granite",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_02_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4596,7 +5424,7 @@
         "name": "cDLC01 Ornament Tileset 22",
         "title": "Light Granite",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_stone_plaza_stone_plaza_01_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4636,7 +5464,7 @@
         "name": "cDLC01 Ornament Tileset 10",
         "title": "Rustic Stone",
         "description": "Ground patterns can be placed below most ornaments and buildings.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_plaza_stone_04_0.webp",
         "prestige": 0,
         "cost": 0,
@@ -4676,7 +5504,7 @@
         "name": "cDLC01 Ornament Large Mosaic 3x3 A Roman",
         "title": "Lavish Garden Mosaic",
         "description": "Attracts songbirds and supplicants. ",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_3x3_01_0.webp",
         "prestige": 4,
         "cost": 400,
@@ -4716,7 +5544,7 @@
         "name": "cDLC01 Ornament Large Mosaic 3x3 B Roman",
         "title": "Latium Mosaic",
         "description": "The lavender-scented fields, the proud cypress, and lone Occasus, by an unknown artist.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_3x3_02_0.webp",
         "prestige": 4,
         "cost": 400,
@@ -4756,7 +5584,7 @@
         "name": "cDLC01 Ornament Large Mosaic 3x3 A Celtic",
         "title": "Sol Magnificus Mosaic",
         "description": "Taste and decorum, culture and art, that too is a form of conquest. ",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_3x3_01_0.webp",
         "prestige": 4,
         "cost": 400,
@@ -4796,7 +5624,7 @@
         "name": "cDLC01 Ornament Large Mosaic 3x3 B Celtic",
         "title": "Sacred Tree Mosaic",
         "description": "Celtic roots meet roman tesserae.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_celtic_mosaic_3x3_02_0.webp",
         "prestige": 4,
         "cost": 400,
@@ -4836,7 +5664,7 @@
         "name": "cDLC01 Ornament Wall Roman",
         "title": "Hortical Wall",
         "description": "What could be more deserving of protection than this inner sanctum, Hortus, the garden of the mind?",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_roman_01_0.webp",
         "prestige": 0,
         "cost": 5,
@@ -4876,7 +5704,7 @@
         "name": "cDLC01 Ornament Wall Roman Gate",
         "title": "Gate of Heroes",
         "description": "In times of need, trumpets blare for the brave to join their phalanx. ",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_gate_roman_01_0.webp",
         "prestige": 0,
         "cost": 100,
@@ -4916,7 +5744,7 @@
         "name": "cDLC01 Ornament Wall Celtic",
         "title": "Oppidum Wall",
         "description": "Its strength lies in the stones, the mortar and the ivy, and the nests of bees that swarm out in springtime. ",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_celtic_01_0.webp",
         "prestige": 0,
         "cost": 5,
@@ -4956,7 +5784,7 @@
         "name": "cDLC01 Ornament Wall Celtic Gate",
         "title": "Druwid's Gate",
         "description": "Speak Gaul, and enter.",
-        "origin": "Marvellous Mosaic Pack",
+        "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_gate_celtic_01_0.webp",
         "prestige": 0,
         "cost": 100,

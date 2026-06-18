@@ -1,4 +1,58 @@
 {
+    "152312": {
+        "guid": "152312",
+        "name": "Ornaments Source Container cDLC02",
+        "localized_name": "Blooming Cities",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_02_0.webp"
+    },
+    "158414": {
+        "guid": "158414",
+        "name": "cDLC02 Subcategory Landscape",
+        "localized_name": "Landscaping Patterns",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_01_0.webp"
+    },
+    "152330": {
+        "guid": "152330",
+        "name": "cDLC02 Subcategory Plazas DEPRECATED",
+        "localized_name": "Ground Patterns",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_01_0.webp"
+    },
+    "14194": {
+        "guid": "14194",
+        "name": "Default Tab",
+        "localized_name": "Source",
+        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
+    },
+    "96841": {
+        "guid": "96841",
+        "name": "Default Tab Celtic",
+        "localized_name": "Source",
+        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
+    },
+    "152315": {
+        "guid": "152315",
+        "name": "Ornaments Source Container cDLC02 Celtic",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_02_0.webp"
+    },
+    "152328": {
+        "guid": "152328",
+        "name": "cDLC02 Subcategory Planters",
+        "localized_name": "Horticultural Displays",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_plant_01_0.webp"
+    },
+    "152329": {
+        "guid": "152329",
+        "name": "cDLC02 Subcategory Structures",
+        "localized_name": "Structures and Buildings",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_temple_0.webp"
+    },
+    "152987": {
+        "guid": "152987",
+        "name": "cDLC02 Subcategory Walls",
+        "localized_name": "Walls and Hedges",
+        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_wall_0.webp"
+    },
     "41369": {
         "guid": "41369",
         "name": "Roman Infrastructure Harbor",
@@ -17,29 +71,17 @@
         "localized_name": "Natural Foliage",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_olive_0.webp"
     },
-    "14194": {
-        "guid": "14194",
-        "name": "Default Tab",
-        "localized_name": "Source",
-        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
-    },
     "80961": {
         "guid": "80961",
         "name": "Ornaments Source Container All",
         "localized_name": "Classic",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_ornament_0.webp"
     },
-    "96841": {
-        "guid": "96841",
-        "name": "Default Tab Celtic",
-        "localized_name": "Source",
-        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
-    },
     "96842": {
         "guid": "96842",
         "name": "Ornaments Source Container Celtic All",
         "localized_name": "Classic",
-        "icon_url": ""
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_ornament_0.webp"
     },
     "87448": {
         "guid": "87448",
@@ -101,6 +143,12 @@
         "localized_name": "Ground Patterns",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_ground_romanpavement_cover_0.webp"
     },
+    "158413": {
+        "guid": "158413",
+        "name": "Global Ornaments Subcategory Base Landscape",
+        "localized_name": "Landscaping Patterns",
+        "icon_url": "assets/icons/base/icon_content/ornaments/landscaping/icon_3d_landscaping_forest_latium_0.webp"
+    },
     "150268": {
         "guid": "150268",
         "name": "cDLC01 Subcategory Plazas",
@@ -117,7 +165,7 @@
         "guid": "144821",
         "name": "Ornaments Source Container cDLC01",
         "localized_name": "Marvellous Mosaics",
-        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_category_01_mosaic__0.webp"
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_01_0.webp"
     },
     "145581": {
         "guid": "145581",
@@ -129,7 +177,7 @@
         "guid": "150273",
         "name": "Ornaments Source Container cDLC01 Celtic",
         "localized_name": "Marvellous Mosaics",
-        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_category_01_mosaic__0.webp"
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_01_0.webp"
     },
     "150271": {
         "guid": "150271",
