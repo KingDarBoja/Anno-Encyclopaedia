@@ -1,5 +1,5 @@
 <div
-  class="roman-card-container p-6 flex flex-col h-full specialist-card"
+  class="roman-card-container p-6 flex flex-col h-full specialist-card font-roman-secondary"
   role="region"
 >
   <div class="roman-border-frame"></div>
@@ -23,21 +23,21 @@
         </div>
       </div>
 
-      <div>
+      <div class="font-roman">
         <span
           class="text-[10px] uppercase tracking-widest font-semibold mb-0.5 spec-meta-tag"
         >
           {{ spec.rarity }} • {{ spec.niche }} • {{ spec.allocation }}
         </span>
         <h2
-          class="font-roman text-md sm:text-lg font-bold leading-tight tracking-wide spec-title"
+          class="text-md sm:text-lg font-bold leading-tight tracking-wide spec-title"
         >
           {{ spec.title }}
         </h2>
       </div>
     </div>
 
-    <blockquote class="italic text-xs mt-4 pl-4 py-1 spec-quote">
+    <blockquote class="font-roman italic text-xs mt-4 pl-4 py-1 spec-quote">
       "{{ spec.description }}"
     </blockquote>
   </header>
@@ -49,11 +49,11 @@
         <div
           class="flex items-center justify-between pb-2 mb-3 spec-section-header"
         >
-          <h3
-            class="font-roman text-xs uppercase tracking-widest font-bold text-(--text-sub-label)"
+          <span
+            class="text-xs uppercase tracking-widest font-bold text-(--text-sub-label)"
           >
             Improves
-          </h3>
+          </span>
           <span class="badge-radius">{{ spec.effect.scope }}</span>
         </div>
 
@@ -69,18 +69,18 @@
       <mat-divider
         class="specialist-divider"
         [style.border-color]="'var(--section-divider)'"
-      ></mat-divider>
+      />
 
       <div
         class="roman-card-box p-4 rounded-md border-dashed border-(--gold-val)/40"
       >
         <div class="flex flex-col gap-1 mb-4">
           <div class="mb-3 border-b border-(--border-subtle) pb-2">
-            <h3
-              class="font-roman text-xs uppercase tracking-widest font-bold text-(--text-sub-label)"
+            <span
+              class="text-xs uppercase tracking-widest font-bold text-(--text-sub-label)"
             >
               Boost Requirements
-            </h3>
+            </span>
           </div>
 
           <div class="text-xs">
@@ -108,11 +108,11 @@
             <div
               class="flex items-center justify-between pb-2 mb-3 spec-section-header"
             >
-              <h3
-                class="font-roman text-xs uppercase tracking-widest font-bold text-(--gold-val)"
+              <span
+                class="text-xs uppercase tracking-widest font-bold text-(--gold-val)"
               >
                 Improves (Boosted)
-              </h3>
+              </span>
               <span
                 class="badge-radius"
                 style="color: var(--gold-val); border-color: var(--gold-val)"
@@ -193,7 +193,7 @@
                 [attr.aria-label]="getLabel(attr.key) + ' icon'"
               ></span>
             }
-            <span>{{ getLabel(attr.key) }}</span>
+            <span class="">{{ getLabel(attr.key) }}</span>
           </div>
           <span class="font-bold attr-value">{{ attr.value }}</span>
         </div>
@@ -204,7 +204,7 @@
     @for (group of buff.productNeedGroups; track group.product.guid) {
       <div class="space-y-1.5">
         <div
-          class="product-group-title flex items-center gap-1.5 px-1 text-[10px] font-roman uppercase tracking-wider"
+          class="product-group-title flex items-center gap-1.5 px-1 text-[10px] uppercase tracking-wider"
         >
           <img
             [src]="group.product.icon_url"
@@ -229,7 +229,7 @@
                     [attr.aria-label]="getLabel(attr.key) + ' icon'"
                   ></span>
                 }
-                <span>{{ getLabel(attr.key) }}</span>
+                <span class="">{{ getLabel(attr.key) }}</span>
               </div>
               <span class="font-bold attr-value">{{ attr.value }}</span>
             </div>
@@ -312,7 +312,7 @@
               alt="Fertility"
               (error)="onImageError($event)"
             />
-            <span class="text-xs font-roman font-bold spec-title">{{
+            <span class="text-xs font-bold spec-title">{{
               addedFertility.name
             }}</span>
           </div>

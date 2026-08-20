@@ -15,6 +15,7 @@
   // Define font variables for easy reuse
   --font-primary: "Marcellus", serif;
   --font-secondary: "Roboto", sans-serif;
+  --font-terciary: "Source Sans 3", sans-serif;
 }
 
 html {
@@ -77,9 +78,36 @@ h6 {
   letter-spacing: 0.02em;
 }
 
+// .marcellus-regular {
+//   font-family: "Marcellus", serif;
+//   font-weight: 400;
+//   font-style: normal;
+// }
+
+// .source-sans-3-<uniquifier> {
+//   font-family: "Source Sans 3", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: <weight>;
+//   font-style: normal;
+// }
+
+// .roboto-<uniquifier> {
+//   font-family: "Roboto", sans-serif;
+//   font-optical-sizing: auto;
+//   font-weight: <weight>;
+//   font-style: normal;
+//   font-variation-settings:
+//     "wdth" 100;
+// }
+
+
 // Helper class for specific elements (like card titles)
 .font-roman {
   font-family: var(--font-primary);
+}
+
+.font-roman-secondary {
+  font-family: var(--font-terciary);
 }
 
 .custom-roman-panel {
@@ -163,13 +191,16 @@ h6 {
 
 // Shared typography and layout for main page headers
 .page-main-title {
+  font-family: var(--font-primary);
   color: var(--primary-color);
   text-align: center;
   font-weight: 700;
   margin-bottom: 1rem; // 4 * 0.25rem = mb-4
+  font-size: 24px;
 }
 
 .page-main-subtitle {
+  font-family: var(--font-terciary);
   text-align: center;
   max-width: 42rem; // max-w-2xl
   margin-bottom: 3rem; // 12 * 0.25rem = mb-12
