@@ -576,7 +576,7 @@
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp"
     },
     "5847": {
-        "name": "Ochs Farm",
+        "name": "Auroch Farm",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp"
     },
     "31759": {
@@ -734,6 +734,10 @@
     "31368": {
         "name": "Library",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_library_0.webp"
+    },
+    "152714": {
+        "name": "Hippodrome",
+        "icon_url": "assets/icons/dlc02/icon_content/hippodrome/icon_3d_construction_category_hippodrome_0.webp"
     },
     "6724": {
         "name": "Market",
@@ -1211,6 +1215,18 @@
         "name": "Latrunculi Sets",
         "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_boardgame_goods_0.webp"
     },
+    "153874": {
+        "name": "Hippodrome",
+        "icon_url": ""
+    },
+    "81072": {
+        "name": "Shrine of Cernunnos",
+        "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_cernunnos_0.webp"
+    },
+    "82492": {
+        "name": "Shrine of Cernunnos",
+        "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_cernunnos_0.webp"
+    },
     "2679": {
         "name": "Sanctuary",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_sanctuary_0.webp"
@@ -1327,14 +1343,6 @@
         "name": "Shrine of Epona",
         "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_epona_0.webp"
     },
-    "81072": {
-        "name": "Shrine of Cernunnos",
-        "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_cernunnos_0.webp"
-    },
-    "82492": {
-        "name": "Shrine of Cernunnos",
-        "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_cernunnos_0.webp"
-    },
     "81069": {
         "name": "Shrine of Minerva",
         "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_minerva_0.webp"
@@ -1350,18 +1358,6 @@
     "144813": {
         "name": "Shrine of Vulcan",
         "icon_url": "assets/icons/dlc01/icon_content/ornament/icon_3d_shrine_vulcanus_0.webp"
-    },
-    "36908": {
-        "name": "Amphitheatre: Foundation",
-        "icon_url": "assets/icons/base/icon_content/colosseum/icon_3d_colosseum_0.webp"
-    },
-    "36911": {
-        "name": "Amphitheatre: Outer Walls",
-        "icon_url": "assets/icons/base/icon_content/colosseum/icon_3d_colosseum_0.webp"
-    },
-    "36912": {
-        "name": "Amphitheatre: Arena",
-        "icon_url": "assets/icons/base/icon_content/colosseum/icon_3d_colosseum_0.webp"
     },
     "32606": {
         "name": "Infantry Camp",

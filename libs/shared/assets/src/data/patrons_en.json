@@ -1045,7 +1045,7 @@
         ],
         "veneration_effect": {
             "title": "Vervactor's Plough",
-            "description": "All Farms can support up to 50% more field modules, allowing an increase of up to 50% productivity."
+            "description": "All farms and plantations can support up to 50% more field modules, allowing an increase of up to 50% productivity."
         },
         "shrine_effect": {
             "title": "Asset Pool All Ceres Shrines",
@@ -1563,7 +1563,7 @@
         "local_effects": [
             {
                 "title": "Armamentum",
-                "description": "Increased production of Armour, Sandals, Weapons, Charcoal Burner",
+                "description": "Increased production of Armour, Sandals, Weapons, Charcoal Burner, Coal Mine",
                 "milestones": [
                     {
                         "devotion": 50,
@@ -1842,6 +1842,32 @@
                                 "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp"
                             }
                         ]
+                    },
+                    "144810": {
+                        "name": "Production Mountain Roman Coal",
+                        "text": "Coal Mine",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_mine_goods_0.webp",
+                        "production_assets": [
+                            {
+                                "guid": 144810,
+                                "name": "Production Mountain Roman Coal",
+                                "text": "Coal Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_mine_goods_0.webp"
+                            }
+                        ]
+                    },
+                    "144811": {
+                        "name": "Production Mountain Roman Celtic Coal",
+                        "text": "Coal Mine",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_mine_goods_0.webp",
+                        "production_assets": [
+                            {
+                                "guid": 144811,
+                                "name": "Production Mountain Roman Celtic Coal",
+                                "text": "Coal Mine",
+                                "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_mine_goods_0.webp"
+                            }
+                        ]
                     }
                 }
             },
@@ -1938,7 +1964,7 @@
         "local_effects": [
             {
                 "title": "Potnia Theron",
-                "description": "Increased production of Stables, Horses, Sheep Farm, Pig Farm, Horsecatcher, Ochs Farm",
+                "description": "Increased production of Stables, Horses, Sheep Farm, Pig Farm, Horsecatcher, Auroch Farm",
                 "milestones": [
                     {
                         "devotion": 50,
@@ -2107,13 +2133,13 @@
                     },
                     "5847": {
                         "name": "Production Marsh Celtic Aurochs",
-                        "text": "Ochs Farm",
+                        "text": "Auroch Farm",
                         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
                         "production_assets": [
                             {
                                 "guid": 5847,
                                 "name": "Production Marsh Celtic Aurochs",
-                                "text": "Ochs Farm",
+                                "text": "Auroch Farm",
                                 "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp"
                             }
                         ]

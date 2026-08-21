@@ -1,4 +1,76 @@
 {
+    "144821": {
+        "guid": "144821",
+        "name": "Ornaments Source Container cDLC01",
+        "localized_name": "Marvellous Mosaics",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_01_0.webp"
+    },
+    "150268": {
+        "guid": "150268",
+        "name": "cDLC01 Subcategory Plazas",
+        "localized_name": "Ground Patterns",
+        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_01_01_cover_0.webp"
+    },
+    "144823": {
+        "guid": "144823",
+        "name": "Ornaments Source Container cDLCs",
+        "localized_name": "Cosmetic",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_generic_cdlc_0.webp"
+    },
+    "14194": {
+        "guid": "14194",
+        "name": "Default Tab",
+        "localized_name": "Source",
+        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
+    },
+    "96841": {
+        "guid": "96841",
+        "name": "Default Tab Celtic",
+        "localized_name": "Source",
+        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
+    },
+    "145581": {
+        "guid": "145581",
+        "name": "Ornaments Source Container cDLCs Celtic",
+        "localized_name": "Cosmetic",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_generic_cdlc_0.webp"
+    },
+    "150273": {
+        "guid": "150273",
+        "name": "Ornaments Source Container cDLC01 Celtic",
+        "localized_name": "Marvellous Mosaics",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_01_0.webp"
+    },
+    "153558": {
+        "guid": "153558",
+        "name": "Default Tab Egyptian",
+        "localized_name": "Source",
+        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
+    },
+    "153560": {
+        "guid": "153560",
+        "name": "Ornaments Source Container cDLCs Egyptian ",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_generic_cdlc_0.webp"
+    },
+    "153562": {
+        "guid": "153562",
+        "name": "Ornaments Source Container cDLC01 Egyptian ",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_01_0.webp"
+    },
+    "150271": {
+        "guid": "150271",
+        "name": "cDLC01 Subcategory Structures",
+        "localized_name": "Structures and Buildings",
+        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_3x3_01_0.webp"
+    },
+    "150269": {
+        "guid": "150269",
+        "name": "cDLC01 Subcategory Walls",
+        "localized_name": "Walls and Hedges",
+        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_roman_01_0.webp"
+    },
     "152312": {
         "guid": "152312",
         "name": "Ornaments Source Container cDLC02",
@@ -17,21 +89,15 @@
         "localized_name": "Ground Patterns",
         "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_01_0.webp"
     },
-    "14194": {
-        "guid": "14194",
-        "name": "Default Tab",
-        "localized_name": "Source",
-        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
-    },
-    "96841": {
-        "guid": "96841",
-        "name": "Default Tab Celtic",
-        "localized_name": "Source",
-        "icon_url": "assets/icons/base/icon_content/generic/icon_2d_generic_item_0.webp"
-    },
     "152315": {
         "guid": "152315",
         "name": "Ornaments Source Container cDLC02 Celtic",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_02_0.webp"
+    },
+    "153563": {
+        "guid": "153563",
+        "name": "Ornaments Source Container cDLC02 Egyptian ",
         "localized_name": "No Title",
         "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_02_0.webp"
     },
@@ -53,29 +119,17 @@
         "localized_name": "Walls and Hedges",
         "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_wall_0.webp"
     },
-    "41369": {
-        "guid": "41369",
-        "name": "Roman Infrastructure Harbor",
-        "localized_name": "Harbour Buildings",
-        "icon_url": "assets/icons/base/icon_content/building/icon_3d_construction_category_harbour_0.webp"
-    },
-    "41252": {
-        "guid": "41252",
-        "name": "Roman Infrastructure List",
-        "localized_name": "Construction",
-        "icon_url": ""
-    },
-    "80597": {
-        "guid": "80597",
-        "name": "Global Ornaments Subcategory Base Foliage",
-        "localized_name": "Natural Foliage",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_olive_0.webp"
-    },
     "80961": {
         "guid": "80961",
         "name": "Ornaments Source Container All",
         "localized_name": "Classic",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_ornament_0.webp"
+    },
+    "80581": {
+        "guid": "80581",
+        "name": "Global Ornaments Subcategory Base Plazas",
+        "localized_name": "Ground Patterns",
+        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_ground_romanpavement_cover_0.webp"
     },
     "96842": {
         "guid": "96842",
@@ -83,11 +137,11 @@
         "localized_name": "Classic",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_ornament_0.webp"
     },
-    "87448": {
-        "guid": "87448",
-        "name": "Rewards Subcategory Hall of Fame",
-        "localized_name": "Hall Of Fame",
-        "icon_url": "assets/icons/base/icon_content/currency/icon_3d_currency_fame_0.webp"
+    "153559": {
+        "guid": "153559",
+        "name": "Ornaments Source Container All Egyptian ",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_ornament_0.webp"
     },
     "80966": {
         "guid": "80966",
@@ -95,11 +149,35 @@
         "localized_name": "Special",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_ornament_special_0.webp"
     },
+    "87448": {
+        "guid": "87448",
+        "name": "Rewards Subcategory Hall of Fame",
+        "localized_name": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/currency/icon_3d_currency_fame_0.webp"
+    },
     "96843": {
         "guid": "96843",
         "name": "Ornaments Source Container Celtic Special",
         "localized_name": "Special",
-        "icon_url": ""
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_ornament_special_0.webp"
+    },
+    "153561": {
+        "guid": "153561",
+        "name": "Ornaments Source Container Special Egyptian ",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_ornament_special_0.webp"
+    },
+    "158413": {
+        "guid": "158413",
+        "name": "Global Ornaments Subcategory Base Landscape",
+        "localized_name": "Landscaping Patterns",
+        "icon_url": "assets/icons/base/icon_content/ornaments/landscaping/icon_3d_landscaping_forest_latium_0.webp"
+    },
+    "80597": {
+        "guid": "80597",
+        "name": "Global Ornaments Subcategory Base Foliage",
+        "localized_name": "Natural Foliage",
+        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_olive_0.webp"
     },
     "80595": {
         "guid": "80595",
@@ -137,59 +215,17 @@
         "localized_name": "Miscellaneous",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_brazier_medium_0.webp"
     },
-    "80581": {
-        "guid": "80581",
-        "name": "Global Ornaments Subcategory Base Plazas",
-        "localized_name": "Ground Patterns",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_ground_romanpavement_cover_0.webp"
+    "41369": {
+        "guid": "41369",
+        "name": "Roman Infrastructure Harbor",
+        "localized_name": "Harbour Buildings",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_construction_category_harbour_0.webp"
     },
-    "158413": {
-        "guid": "158413",
-        "name": "Global Ornaments Subcategory Base Landscape",
-        "localized_name": "Landscaping Patterns",
-        "icon_url": "assets/icons/base/icon_content/ornaments/landscaping/icon_3d_landscaping_forest_latium_0.webp"
-    },
-    "150268": {
-        "guid": "150268",
-        "name": "cDLC01 Subcategory Plazas",
-        "localized_name": "Ground Patterns",
-        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_01_01_cover_0.webp"
-    },
-    "144823": {
-        "guid": "144823",
-        "name": "Ornaments Source Container cDLCs",
-        "localized_name": "Cosmetic",
-        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_construction_category_generic_cdlc_0.webp"
-    },
-    "144821": {
-        "guid": "144821",
-        "name": "Ornaments Source Container cDLC01",
-        "localized_name": "Marvellous Mosaics",
-        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_01_0.webp"
-    },
-    "145581": {
-        "guid": "145581",
-        "name": "Ornaments Source Container cDLCs Celtic",
-        "localized_name": "Cosmetic",
-        "icon_url": "assets/icons/base/icon_content/building/icon_3d_construction_main_group_ornaments_0.webp"
-    },
-    "150273": {
-        "guid": "150273",
-        "name": "Ornaments Source Container cDLC01 Celtic",
-        "localized_name": "Marvellous Mosaics",
-        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_01_0.webp"
-    },
-    "150271": {
-        "guid": "150271",
-        "name": "cDLC01 Subcategory Structures",
-        "localized_name": "Structures and Buildings",
-        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_3x3_01_0.webp"
-    },
-    "150269": {
-        "guid": "150269",
-        "name": "cDLC01 Subcategory Walls",
-        "localized_name": "Walls and Hedges",
-        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_roman_01_0.webp"
+    "41252": {
+        "guid": "41252",
+        "name": "Roman Infrastructure List",
+        "localized_name": "Construction",
+        "icon_url": ""
     },
     "41339": {
         "guid": "41339",
