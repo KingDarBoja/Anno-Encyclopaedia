@@ -12,9 +12,9 @@ import { AchievementCardComponent } from '../achievement-card/achievement-card.c
 export class AchievementPageComponent {
   private readonly achievementService = inject(AchievementService);
 
-  achievementSets = this.achievementService.achievementSets;
+  readonly achievementSets = this.achievementService.achievementSets;
 
-  tocEntries = computed(() =>
+  readonly tocEntries = computed(() =>
     this.achievementSets().map((set) => ({
       slug: set.slug,
       title: set.categoryLabel,

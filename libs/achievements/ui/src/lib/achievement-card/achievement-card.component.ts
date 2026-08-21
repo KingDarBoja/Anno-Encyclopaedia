@@ -17,8 +17,8 @@ import { Achievement, AchievementService } from '@anno/achievements-data';
   template: `
     <div class="generic-card">
       @let cheevo = achievement();
-      @let title = cheevo.title.english;
-      @let desc = cheevo.description.english;
+      @let title = cheevo.title;
+      @let desc = cheevo.description;
       @let points = cheevo.points;
       @let diff = cheevo.difficulty;
 
@@ -30,7 +30,7 @@ import { Achievement, AchievementService } from '@anno/achievements-data';
         <div [class]="'difficulty-spacer ' + difficultyClass()"></div>
         <div class="card-image">
           <img
-            [src]="cheevo.image_url"
+            [src]="cheevo.icon_url"
             (error)="handleImgError($event)"
             [alt]="title"
           />

@@ -29,7 +29,7 @@
           <div
             class="grid w-full gap-6 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 box-border justify-items-center"
           >
-            @for (achievement of set.achievements; track achievement.id) {
+            @for (achievement of set.achievements; track achievement.guid) {
               <anno-achievement-card [achievement]="achievement" />
             }
           </div>

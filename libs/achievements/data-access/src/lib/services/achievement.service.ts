@@ -67,64 +67,18 @@ export class AchievementService {
     rawMap: Record<string, AchievementSet>,
   ): AchievementSetViewModel[] {
     return Object.entries(rawMap).map(([, rawSet]) => {
-      const categoryLabel = this.formatCategory(rawSet.category);
-      const processedAchievements = Object.entries(rawSet.achievements)
-        .map(([uid, ach]) => ({
-          ...ach,
-          id: uid, // Set the ID from the object key
-          image_url: this.transformImageUrl(ach.image_url),
-        }))
+      const categoryLabel = this.formatCategory(rawSet.name);
+      const processedAchievements = Object.values(rawSet.achievements)
         .sort((a, b) => b.points - a.points);
 
       return {
         slug: this.slugify(categoryLabel),
         categoryLabel,
-        reward: rawSet.reward.english,
+        reward: rawSet.reward,
         // TRANSFORM: Object Record -> Sorted List
         achievements: processedAchievements,
       };
     });
-  }
-
-  /**
-   * Transforms internal path structure to public asset path.
-   * From: \\data\\ui\\4k\\base\\icon_content\\achievements\\achievement_set01_01_0
-   * To: assets\icons\base\icon_content\achievements\achievement_set01_01_0
-   */
-  public transformImageUrl(rawPath: string): string {
-    if (!rawPath) return '';
-
-    // 1. Normalize slashes
-    let path = rawPath.replace(/\\/g, '/');
-
-    // 2. Identify the core marker
-    const marker = 'icon_content/';
-    const markerIndex = path.indexOf(marker);
-
-    if (markerIndex !== -1) {
-      // Extract everything from 'icon_content/' onwards
-      const relativePath = path.substring(markerIndex);
-
-      // 3. Check for DLC markers in the original path
-      // We look for 'dlc' followed by numbers, or specific folder names
-      const dlcMatch = path.match(/dlc\d+/i);
-      const subFolder = dlcMatch ? dlcMatch[0].toLowerCase() : 'base';
-
-      // 4. Construct the path: assets/icons/[base|dlc01]/icon_content/...
-      path = `assets/icons/${subFolder}/${relativePath}`;
-    } else {
-      // Fallback for simple filenames
-      if (path.startsWith('/')) path = path.substring(1);
-      path = `assets/icons/base/icon_content/${path}`;
-    }
-
-    // 5. Ensure .webp extension
-    if (!path.toLowerCase().endsWith('.webp')) {
-      path += '.webp';
-    }
-
-    // 6. Final sanitization (remove double slashes except after protocol)
-    return path.replace(/([^:]\/)\/+/g, '$1');
   }
 
   /**
