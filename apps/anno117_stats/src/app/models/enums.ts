@@ -14,6 +14,7 @@ export enum RarityVisualization {
   LEGENDARY = 'Legendary',
   // QUEST = 'Quest',
   UNIQUE = 'Unique',
+  MYTHIC = 'Mythic',
 }
 
 export enum NicheVisualization {

@@ -62,6 +62,7 @@
 // Legendary -> #c76937
 // Unique -> #d4d406
 // Quest -> #4a3860
+// Mythic -> #f0a418
 
 /* Swapped "unique" original color with the "legendary" one. */
 $rarities: (
@@ -108,12 +109,19 @@ $rarities: (
     blend_before: normal,
     blend_frame: darken
   ),
+  "mythic": (
+    base: #f0a418,
+    dark: #b47b11,
+    alpha: 0.8,
+    blend_before: normal,
+    blend_frame: darken
+  )
   // "unique": (
   //   base: #d4d406,
   //   dark: #8a8a04,
   //   alpha: 0.5,
   //   blend: darken
-   // )
+  // )
 );
 
 @each $key, $colors in $rarities {
