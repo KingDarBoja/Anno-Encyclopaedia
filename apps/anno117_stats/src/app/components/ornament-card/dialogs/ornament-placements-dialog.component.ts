@@ -1,4 +1,4 @@
-import { Component, inject, ChangeDetectionStrategy } from '@angular/core';
+import { Component, inject } from '@angular/core';
 import { MAT_DIALOG_DATA, MatDialogRef } from '@angular/material/dialog';
 import { ResolvedPlacement } from '../../../services/ornamental-building.service';
 
@@ -10,7 +10,6 @@ export interface OrnamentDialogData {
 
 @Component({
   selector: 'anno-ornament-placements-dialog',
-  standalone: true,
   template: `
     <div
       class="anno-dialog-container"
@@ -66,7 +65,6 @@ export interface OrnamentDialogData {
     </div>
   `,
   styleUrl: './ornament-placements-dialog.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class OrnamentPlacementsDialogComponent {
   // Inject the overlay utilities natively

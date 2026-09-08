@@ -5,7 +5,6 @@ import {
   computed,
   effect,
   untracked,
-  ChangeDetectionStrategy,
   signal,
 } from '@angular/core';
 import { CommonModule } from '@angular/common';
@@ -18,9 +17,7 @@ import {
 
 @Component({
   selector: 'anno-ornament-card',
-  standalone: true,
   imports: [CommonModule, MatDialogModule],
-  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     style: 'display: block; width: 100%;',
   },

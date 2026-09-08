@@ -3,7 +3,6 @@ import {
   input,
   signal,
   computed,
-  ChangeDetectionStrategy,
   // inject,
   // OnInit,
 } from '@angular/core';
@@ -23,7 +22,6 @@ import {
 
 @Component({
   selector: 'anno-deity-card',
-  changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [DecimalPipe, KeyValuePipe, NgTemplateOutlet],
   templateUrl: './deity-card.component.html',
   styleUrl: './deity-card.component.scss',

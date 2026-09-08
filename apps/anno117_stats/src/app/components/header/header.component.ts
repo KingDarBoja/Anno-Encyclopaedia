@@ -1,4 +1,4 @@
-import { Component, effect, signal, inject, PLATFORM_ID, ChangeDetectionStrategy } from '@angular/core';
+import { Component, effect, signal, inject, PLATFORM_ID } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 import { RouterModule } from '@angular/router';
 import { MatIcon } from '@angular/material/icon';
@@ -9,7 +9,6 @@ interface NavItem {
 }
 @Component({
   selector: 'anno-header',
-  standalone: true,
   imports: [MatIcon, RouterModule],
   template: `
     <header class="header-container">
@@ -87,7 +86,6 @@ interface NavItem {
       </div>
     </header>
   `,
-  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrls: ['./header.component.scss'],
 })
 export class HeaderComponent {

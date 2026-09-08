@@ -1,7 +1,6 @@
 import {
   Component,
   input,
-  ChangeDetectionStrategy,
   inject,
   computed,
 } from '@angular/core';
@@ -9,8 +8,6 @@ import { Achievement, AchievementService } from '@anno/achievements-data';
 
 @Component({
   selector: 'anno-achievement-card',
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     style: 'display: block; width: 100%;',
   },

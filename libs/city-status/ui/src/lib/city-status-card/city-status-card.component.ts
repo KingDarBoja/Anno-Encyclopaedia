@@ -2,7 +2,6 @@ import { DecimalPipe } from '@angular/common';
 import {
   Component,
   input,
-  ChangeDetectionStrategy,
   inject,
 } from '@angular/core';
 
@@ -14,9 +13,7 @@ import {
 
 @Component({
   selector: 'anno-city-status-card',
-  standalone: true,
   imports: [DecimalPipe],
-  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './city-status-card.component.html',
   styleUrl: './city-status-card.component.scss',
 })
