@@ -3,20 +3,23 @@ import {
   provideBrowserGlobalErrorListeners,
 } from '@angular/core';
 import { provideRouter } from '@angular/router';
-import { provideAnimationsAsync } from '@angular/platform-browser/animations/async';
 import { appRoutes } from './app.routes';
 import { provideHttpClient, withFetch } from '@angular/common/http';
 import {
   provideClientHydration,
   withEventReplay,
-  withNoIncrementalHydration
+  withNoIncrementalHydration,
 } from '@angular/platform-browser';
+import { MATERIAL_ANIMATIONS } from '@angular/material/core';
 
 export const appConfig: ApplicationConfig = {
   providers: [
     provideClientHydration(withEventReplay(), withNoIncrementalHydration()),
     provideBrowserGlobalErrorListeners(),
-    provideAnimationsAsync('noop'),
+    {
+      provide: MATERIAL_ANIMATIONS,
+      useValue: { animationsDisabled: true },
+    },
     provideRouter(appRoutes),
     provideHttpClient(withFetch()),
   ],
