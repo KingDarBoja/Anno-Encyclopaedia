@@ -1,4 +1,4 @@
-import { Component, inject, input } from '@angular/core';
+import { Component, inject, input, ChangeDetectionStrategy } from '@angular/core';
 import { DecimalPipe, NgTemplateOutlet } from '@angular/common';
 import { CityStatusService, CityStatusViewModel } from '@anno/city-status-data';
 
@@ -7,6 +7,7 @@ import { CityStatusService, CityStatusViewModel } from '@anno/city-status-data';
   standalone: true,
   imports: [DecimalPipe, NgTemplateOutlet],
   templateUrl: './city-status-table.component.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './city-status-table.component.scss',
 })
 export class CityStatusTableComponent {

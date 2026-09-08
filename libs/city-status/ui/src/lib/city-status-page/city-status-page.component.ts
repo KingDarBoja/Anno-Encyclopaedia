@@ -1,4 +1,4 @@
-import { Component, computed, effect, inject } from '@angular/core';
+import { Component, computed, effect, inject, ChangeDetectionStrategy } from '@angular/core';
 
 import { CityStatusService } from '@anno/city-status-data';
 import { CityStatusTableComponent } from '../city-status-table/city-status-table.component';
@@ -9,6 +9,7 @@ import { CityStatusCardComponent } from '../city-status-card/city-status-card.co
   standalone: true,
   imports: [CityStatusTableComponent, CityStatusCardComponent],
   templateUrl: './city-status-page.component.html',
+  changeDetection: ChangeDetectionStrategy.Eager,
   styleUrl: './city-status-page.component.scss',
 })
 export class CityStatusPageComponent {

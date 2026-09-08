@@ -1,4 +1,4 @@
-import { Component, inject, effect, computed } from '@angular/core';
+import { Component, inject, effect, computed, ChangeDetectionStrategy } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 import { OrnamentCardComponent } from '../../components/ornament-card/ornament-card.component';
@@ -11,6 +11,7 @@ import {
   selector: 'anno-ornaments-page',
   standalone: true,
   imports: [CommonModule, OrnamentCardComponent],
+  changeDetection: ChangeDetectionStrategy.Eager,
   templateUrl: './ornaments.component.html',
 })
 export class OrnamentsPageComponent {
