@@ -4,7 +4,7 @@ import {
 } from '@angular/core';
 import { provideRouter } from '@angular/router';
 import { appRoutes } from './app.routes';
-import { provideHttpClient, withFetch } from '@angular/common/http';
+import { provideHttpClient } from '@angular/common/http';
 import {
   provideClientHydration,
   withEventReplay,
@@ -21,6 +21,6 @@ export const appConfig: ApplicationConfig = {
       useValue: { animationsDisabled: true },
     },
     provideRouter(appRoutes),
-    provideHttpClient(withFetch()),
+    provideHttpClient(),
   ],
 };
