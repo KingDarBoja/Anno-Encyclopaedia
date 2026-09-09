@@ -2,7 +2,6 @@ import {
   Component,
   inject,
   OnInit,
-  ChangeDetectionStrategy,
   signal,
   effect,
 } from '@angular/core';
@@ -15,9 +14,7 @@ import { PatronsService } from '../../services/patron.service';
 
 @Component({
   selector: 'anno-patrons-page',
-  standalone: true,
   imports: [DeityCardComponent, MatTabsModule],
-  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './patrons.component.html',
   styleUrl: './patrons.component.scss',
 })

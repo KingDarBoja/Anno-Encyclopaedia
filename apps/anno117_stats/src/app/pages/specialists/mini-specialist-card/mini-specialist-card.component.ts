@@ -1,6 +1,5 @@
 import {
   Component,
-  ChangeDetectionStrategy,
   input,
   computed,
 } from '@angular/core';
@@ -8,11 +7,9 @@ import { HydratedSpecialistViewModel } from '../../../services/specialist.servic
 
 @Component({
   selector: 'anno-mini-specialist-card',
-  standalone: true,
   imports: [],
   templateUrl: './mini-specialist-card.component.html',
   styleUrl: './mini-specialist-card.component.scss',
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class MiniSpecialistCardComponent {
   readonly specialist = input.required<HydratedSpecialistViewModel>();

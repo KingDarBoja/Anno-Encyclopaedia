@@ -1,8 +1,7 @@
-import { Component, ChangeDetectionStrategy } from '@angular/core';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-home',
-  standalone: true,
   imports: [],
   template: `
     <main
@@ -16,7 +15,6 @@ import { Component, ChangeDetectionStrategy } from '@angular/core';
     </main>
   `,
   styleUrls: ['./home.component.scss'],
-  changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class HomeComponent {
   // You can add logic here later, like "Latest Achievements" or "Player Stats"

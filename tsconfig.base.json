@@ -20,7 +20,12 @@
       ],
       "@anno/city-status-data": ["./libs/city-status/data-access/src/index.ts"],
       "@anno/city-status-ui": ["./libs/city-status/ui/src/index.ts"]
-    }
+    },
+    "strict": false,
+    "noUncheckedSideEffectImports": false,
+    "types": ["*"],
+    "esModuleInterop": false,
+    "ignoreDeprecations": "6.0"
   },
   "exclude": ["node_modules", "tmp"]
 }

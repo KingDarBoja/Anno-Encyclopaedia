@@ -9,7 +9,6 @@ interface NavItem {
 }
 @Component({
   selector: 'anno-header',
-  standalone: true,
   imports: [MatIcon, RouterModule],
   template: `
     <header class="header-container">

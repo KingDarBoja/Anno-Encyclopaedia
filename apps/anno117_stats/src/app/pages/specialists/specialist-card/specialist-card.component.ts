@@ -2,7 +2,6 @@ import {
   Component,
   input,
   computed,
-  ChangeDetectionStrategy,
 } from '@angular/core';
 import { MatExpansionModule } from '@angular/material/expansion';
 import { MatDivider } from '@angular/material/divider';
@@ -37,9 +36,7 @@ interface GroupedBuff {
 
 @Component({
   selector: 'anno-117-specialist-card',
-  standalone: true,
   imports: [MatExpansionModule, MatDivider, NgTemplateOutlet],
-  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     style: 'display: block; width: 100%;',
   },

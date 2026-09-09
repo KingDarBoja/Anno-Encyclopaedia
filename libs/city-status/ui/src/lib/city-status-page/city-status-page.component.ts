@@ -6,7 +6,6 @@ import { CityStatusCardComponent } from '../city-status-card/city-status-card.co
 
 @Component({
   selector: 'anno-city-status-page',
-  standalone: true,
   imports: [CityStatusTableComponent, CityStatusCardComponent],
   templateUrl: './city-status-page.component.html',
   styleUrl: './city-status-page.component.scss',

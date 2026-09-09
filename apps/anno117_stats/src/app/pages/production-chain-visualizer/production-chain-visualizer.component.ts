@@ -5,7 +5,6 @@ import {
   OnDestroy,
   viewChild,
   ElementRef,
-  ChangeDetectionStrategy,
   signal,
   effect,
   inject,
@@ -19,7 +18,7 @@ import {
   MatSelectChange,
   MatSelectTrigger,
 } from '@angular/material/select';
-import type { Options } from 'vis-network';
+import type { Network, Options } from 'vis-network';
 
 import {
   ProductionChainService,
@@ -52,14 +51,12 @@ interface GraphEdge {
 
 @Component({
   selector: 'anno-production-chain-visualizer',
-  standalone: true,
   imports: [
     MatSelect,
     MatOption,
     MatSelectTrigger,
     MiniSpecialistCardComponent,
   ],
-  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './production-chain-visualizer.component.html',
   styleUrl: './production-chain-visualizer.component.scss',
 })
@@ -80,7 +77,7 @@ export class ProductionChainVisualizerComponent
   selectedChain = signal<ProductionChainViewModel | null>(null);
   selectedNode = signal<SelectedNodeDetails | null>(null);
 
-  private networkInstance: any | null = null;
+  private networkInstance: Network | null = null;
   private readonly nodeMetadataMap = new Map<number, SelectedNodeDetails>();
 
   activeChainId = signal<string>('');

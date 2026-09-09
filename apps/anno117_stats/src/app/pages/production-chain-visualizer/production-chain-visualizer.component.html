@@ -211,7 +211,7 @@
             @for (spec of applicableSpecialists(); track spec.id) {
               <anno-mini-specialist-card
                 [specialist]="spec"
-                [targetGuid]="selectedNode()?.guid"
+                [targetGuid]="$safeNavigationMigration(selectedNode()?.guid)"
               />
             }
           </div>

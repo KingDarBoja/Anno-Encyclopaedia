@@ -9,7 +9,6 @@ import {
 
 @Component({
   selector: 'anno-ornaments-page',
-  standalone: true,
   imports: [CommonModule, OrnamentCardComponent],
   templateUrl: './ornaments.component.html',
 })

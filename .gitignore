@@ -19,6 +19,7 @@ node_modules
 
 # IDE - VSCode
 .vscode/*
+!.vscode/mcp.json
 !.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
@@ -46,3 +47,5 @@ Thumbs.db
 .angular
 
 __screenshots__/
+
+.nx/migrate-runs

@@ -1,7 +1,6 @@
 import {
   Component,
   input,
-  ChangeDetectionStrategy,
   signal,
   computed,
   effect,
@@ -15,8 +14,6 @@ export interface CardFooterItem {
 
 @Component({
   selector: 'anno-generic-card',
-  standalone: true,
-  changeDetection: ChangeDetectionStrategy.OnPush,
   host: {
     style: 'display: block; width: 100%;'
   },

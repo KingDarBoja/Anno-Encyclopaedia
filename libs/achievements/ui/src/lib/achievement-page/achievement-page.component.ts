@@ -4,7 +4,6 @@ import { AchievementCardComponent } from '../achievement-card/achievement-card.c
 
 @Component({
   selector: 'anno-achievement-page',
-  standalone: true,
   imports: [AchievementCardComponent],
   templateUrl: './achievement-page.component.html',
   styleUrl: './achievement-page.component.scss',

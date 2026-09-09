@@ -4,7 +4,6 @@ import { CityStatusService, CityStatusViewModel } from '@anno/city-status-data';
 
 @Component({
   selector: 'anno-city-status-table',
-  standalone: true,
   imports: [DecimalPipe, NgTemplateOutlet],
   templateUrl: './city-status-table.component.html',
   styleUrl: './city-status-table.component.scss',

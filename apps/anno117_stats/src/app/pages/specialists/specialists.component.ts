@@ -2,7 +2,6 @@ import {
   Component,
   inject,
   OnInit,
-  ChangeDetectionStrategy,
   signal,
   computed,
 } from '@angular/core';
@@ -16,9 +15,7 @@ import { NicheVisualization, RarityVisualization, ItemAllocation } from '../../m
 
 @Component({
   selector: 'anno-specialists-page',
-  standalone: true,
   imports: [FormsModule, SpecialistCardComponent],
-  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './specialists.component.html',
   styleUrl: './specialists.component.scss',
 })

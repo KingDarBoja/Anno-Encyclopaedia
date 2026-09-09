@@ -2,7 +2,6 @@ import {
   Component,
   inject,
   OnInit,
-  ChangeDetectionStrategy,
   computed,
 } from '@angular/core';
 
@@ -19,9 +18,7 @@ import { TRANSLATIONS_EN } from '../../../models/translations_mapping';
 
 @Component({
   selector: 'anno-fertility-sets-page',
-  standalone: true,
   imports: [FertilitySetTableComponent, FertilitySetCardComponent],
-  changeDetection: ChangeDetectionStrategy.OnPush,
   templateUrl: './fertility-sets-page.component.html',
   styleUrl: './fertility-sets-page.component.scss',
 })
