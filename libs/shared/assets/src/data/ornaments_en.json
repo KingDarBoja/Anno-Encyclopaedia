@@ -2507,6 +2507,510 @@
             }
         ]
     },
+    "174703": {
+        "uid": 174703,
+        "name": "cDLC03 Ornament Statue 2x2 Apollo",
+        "title": "Python and Apollo",
+        "description": "Hera's wrath pursued the divine twins even before their birth: It was Apollo who decided to put an end to it.",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_apollo_0.webp",
+        "prestige": 4,
+        "cost": 400,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174708": {
+        "uid": 174708,
+        "name": "cDLC03 Ornament Statue 2x2 Kore",
+        "title": "Statue of Kore",
+        "description": "There is death in life, and life in death: Spring, however fleeting, always returns.",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_kore_0.webp",
+        "prestige": 4,
+        "cost": 400,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174709": {
+        "uid": 174709,
+        "name": "cDLC03 Ornament Statue 2x3 Boxer",
+        "title": "Weary Boxer",
+        "description": "Hollow-eyed after the fight, he remains tense, ready to spring.",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_boxer_0.webp",
+        "prestige": 6,
+        "cost": 600,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174710": {
+        "uid": 174710,
+        "name": "cDLC03 Ornament Statue 2x3 Asclepios",
+        "title": "Statue of Asclepios",
+        "description": "Bless you.",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_asclepios_0.webp",
+        "prestige": 6,
+        "cost": 600,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174711": {
+        "uid": 174711,
+        "name": "cDLC03 Ornament Statue 2x2 GreekWoman",
+        "title": "Statue of Penelope",
+        "description": "The beauty and wit of the wife of Odysseus was legendary: though no two sources can agree on what she looked like. ",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_penelope_0.webp",
+        "prestige": 4,
+        "cost": 400,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174712": {
+        "uid": 174712,
+        "name": "cDLC03 Ornament Statue 2x3 Athena",
+        "title": "Pallas Athena",
+        "description": "Born from a splitting headache and a sculptor's hand, Athena has led many a city to greatness.",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_athena_0.webp",
+        "prestige": 6,
+        "cost": 600,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174713": {
+        "uid": 174713,
+        "name": "cDLC03 Ornament Statue 2x2 Artemis",
+        "title": "Statue of Artemis Kalliste",
+        "description": "All who caught a glimpse of her slender silhouette in the moonlight were transformed... oh deer.",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_artemis_0.webp",
+        "prestige": 4,
+        "cost": 400,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174714": {
+        "uid": 174714,
+        "name": "cDLC03 Ornament Statue 3x3 Leonidas",
+        "title": "Statue of Leonidas",
+        "description": "As long as his bloodline continues, the phalanx still stands. ",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_leonidas_0.webp",
+        "prestige": 9,
+        "cost": 900,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174718": {
+        "uid": 174718,
+        "name": "cDLC03 Ornament Statue Kassandra",
+        "title": "Statue of Kassandra",
+        "description": "Blood of Sparta, daughter of Pythagoras, mother of Elpidios. ",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_kassandra_0.webp",
+        "prestige": 9,
+        "cost": 1000,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172239",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "172239"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "172239"
+            }
+        ]
+    },
+    "174715": {
+        "uid": 174715,
+        "name": "cDLC03 Ornament HarborArea WaterColumn",
+        "title": "Pillar of Pharos",
+        "description": "Its light disperses the fog in which sirens like to sulk.",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_column_pharos_0.webp",
+        "prestige": 4,
+        "cost": 1000,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "180466",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "181008"
+            },
+            {
+                "top_level_guid": "180467",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "181008",
+                "construction_group_guid": "181008"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "181008"
+            }
+        ]
+    },
+    "174716": {
+        "uid": 174716,
+        "name": "cDLC03 Ornament HarborArea WaterStatue",
+        "title": "Statue of Zeus Ombrios",
+        "description": "May the father of gods grant clear skies to all who entrust their fate to the waves.",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_zeus_0.webp",
+        "prestige": 4,
+        "cost": 1000,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "180466",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "181008"
+            },
+            {
+                "top_level_guid": "180467",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "181008",
+                "construction_group_guid": "181008"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "181008"
+            }
+        ]
+    },
+    "174719": {
+        "uid": 174719,
+        "name": "cDLC03 Ornament Special MusicHall",
+        "title": "Hall of Echoes",
+        "description": "Songs and legends never die: they come to life with every recital. ",
+        "origin": "Echoes of Kassandra",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_hall_of_echoes_0.webp",
+        "prestige": 9,
+        "cost": 2000,
+        "construction_groups": [
+            {
+                "top_level_guid": "172238",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "180466",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "180466"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "181008"
+            },
+            {
+                "top_level_guid": "180467",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "172240",
+                "construction_group_guid": "180467"
+            },
+            {
+                "top_level_guid": "181008",
+                "construction_group_guid": "181008"
+            },
+            {
+                "top_level_guid": "172241",
+                "construction_group_guid": "181008"
+            }
+        ]
+    },
     "82636": {
         "uid": 82636,
         "name": "Ornament Roman Grass 01",
@@ -6827,74 +7331,6 @@
             }
         ]
     },
-    "174502": {
-        "uid": 174502,
-        "name": "Twitch Ornament Obelisk",
-        "title": "Builder's Obelisk",
-        "description": "Carved almost exclusively from red granite, it proclaims the past grandeur of the builders of the pyramids and the promise of future builders yet to come.",
-        "origin": "Twitch Drop",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_towncrier_0.webp",
-        "prestige": 1,
-        "cost": 100,
-        "construction_groups": [
-            {
-                "top_level_guid": "80961",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "80966",
-                "construction_group_guid": "80954"
-            },
-            {
-                "top_level_guid": "80617",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "80954",
-                "construction_group_guid": "80954"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "80954"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "80954"
-            },
-            {
-                "top_level_guid": "96842",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96843",
-                "construction_group_guid": "80954"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "80954"
-            },
-            {
-                "top_level_guid": "153559",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153561",
-                "construction_group_guid": "80954"
-            }
-        ]
-    },
     "92804": {
         "uid": 92804,
         "name": "Ornament Roman Meshgraph Hedge 01",
@@ -7700,6 +8136,74 @@
             {
                 "top_level_guid": "153561",
                 "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "174502": {
+        "uid": 174502,
+        "name": "Twitch Ornament Obelisk",
+        "title": "Builder's Obelisk",
+        "description": "Carved almost exclusively from red granite, it proclaims the past grandeur of the builders of the pyramids and the promise of future builders yet to come.",
+        "origin": "Twitch Drop",
+        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_obelisk_builders_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "80954"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80954",
+                "construction_group_guid": "80954"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80954"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80954"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "80954"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80954"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "80954"
             }
         ]
     },

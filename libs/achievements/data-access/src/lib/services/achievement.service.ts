@@ -39,14 +39,14 @@ export class AchievementService {
 
   /**
    * Fetches the categorized achievement sets from the JSON archive.
-   * Path: assets/data/achievements.json
+   * Path: assets/data/achievements_en.json
    */
   fetchAchievements() {
     this._loading.set(true);
     this._error.set(null);
 
     return this.http
-      .get<Record<string, AchievementSet>>('assets/data/achievements.json')
+      .get<Record<string, AchievementSet>>('assets/data/achievements_en.json')
       .pipe(
         map((rawMap) => this.mapToViewModel(rawMap)),
         tap((data) => this._sets.set(data)),

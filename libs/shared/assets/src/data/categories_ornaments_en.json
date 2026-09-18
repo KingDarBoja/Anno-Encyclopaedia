@@ -119,6 +119,48 @@
         "localized_name": "Walls and Hedges",
         "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_wall_0.webp"
     },
+    "172238": {
+        "guid": "172238",
+        "name": "Ornaments Source Container cDLC03",
+        "localized_name": "Echoes of Kassandra",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_03_0.webp"
+    },
+    "172239": {
+        "guid": "172239",
+        "name": "cDLC03 Subcategory Statues",
+        "localized_name": "Sculpture and Statuary",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_apollo_0.webp"
+    },
+    "172240": {
+        "guid": "172240",
+        "name": "Ornaments Source Container cDLC03 Celtic",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_03_0.webp"
+    },
+    "172241": {
+        "guid": "172241",
+        "name": "Ornaments Source Container cDLC03 Egyptian",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/base/icon_content/cdlc/icon_3d_cdlc_03_0.webp"
+    },
+    "180466": {
+        "guid": "180466",
+        "name": "cDLC03 Subcategory Structures",
+        "localized_name": "Structures and Buildings",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_gorgo_latium_0.webp"
+    },
+    "180467": {
+        "guid": "180467",
+        "name": "cDLC03 Subcategory Structures Celtic",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_gorgo_albion_0.webp"
+    },
+    "181008": {
+        "guid": "181008",
+        "name": "cDLC03 Subcategory Structures Egyptian",
+        "localized_name": "No Title",
+        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_gorgo_egypt_0.webp"
+    },
     "80961": {
         "guid": "80961",
         "name": "Ornaments Source Container All",
@@ -211,7 +253,7 @@
     },
     "80582": {
         "guid": "80582",
-        "name": "Global Ornaments Subcategory Base Light Sources",
+        "name": "Global Ornaments Subcategory Base Misc",
         "localized_name": "Miscellaneous",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_brazier_medium_0.webp"
     },
