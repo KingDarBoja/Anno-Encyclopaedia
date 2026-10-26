@@ -1,6 +1,7 @@
 import {
   Component,
   inject,
+  linkedSignal,
   OnInit,
   signal,
   computed,
@@ -157,6 +158,19 @@ export class SpecialistsPageComponent implements OnInit {
     }
 
     return list;
+  });
+
+  readonly pageSize = 24;
+  readonly pageIndex = linkedSignal({
+    source: this.filteredSpecialists,
+    computation: () => 0,
+  });
+  readonly pageCount = computed(() =>
+    Math.ceil(this.filteredSpecialists().length / this.pageSize),
+  );
+  readonly visibleSpecialists = computed(() => {
+    const start = this.pageIndex() * this.pageSize;
+    return this.filteredSpecialists().slice(start, start + this.pageSize);
   });
 
   resetFilters() {

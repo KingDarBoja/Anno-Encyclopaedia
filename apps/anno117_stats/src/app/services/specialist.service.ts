@@ -1,7 +1,7 @@
 import { inject, Injectable, signal, computed } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { forkJoin, of } from 'rxjs';
-import { catchError, finalize, tap } from 'rxjs/operators';
+import { EMPTY, forkJoin, Observable, Subscription } from 'rxjs';
+import { catchError, finalize, shareReplay, tap } from 'rxjs/operators';
 import {
   ItemAllocation,
   NicheVisualization,
@@ -173,6 +173,11 @@ export class SpecialistService {
   // Raw states
   private readonly _specialists = signal<SpecialistViewModel[]>([]);
   private readonly _assetsIndex = signal<AssetsIndexRegistry>({});
+  private _specialistsLoaded = false;
+  private _specialistsRequest: Observable<{
+    specs: SpecialistRegistry;
+    index: AssetsIndexRegistry;
+  }> | null = null;
 
   // Loading & error trackers
   private readonly _loading = signal<boolean>(false);
@@ -201,14 +206,22 @@ export class SpecialistService {
   });
 
   /**
-   * Fetches the raw specialists data and referenced icons/names concurrently,
-   * then updates raw state values.
+   * Fetches the specialist data once, sharing concurrent requests and caching
+   * successful results for later consumers.
    */
   fetchSpecialists() {
+    if (this._specialistsLoaded) {
+      return Subscription.EMPTY;
+    }
+
+    if (this._specialistsRequest) {
+      return this._specialistsRequest.subscribe();
+    }
+
     this._loading.set(true);
     this._error.set(null);
 
-    return forkJoin({
+    const request = forkJoin({
       specs: this.http.get<SpecialistRegistry>(
         'assets/data/specialists_en.json',
       ),
@@ -220,15 +233,22 @@ export class SpecialistService {
         tap(({ specs, index }) => {
           this._assetsIndex.set(index);
           this._specialists.set(this.mapToViewModel(specs));
+          this._specialistsLoaded = true;
         }),
         catchError((err) => {
           this._error.set('Could not retrieve specialist archives.');
           console.error('Specialist Hydration Service Error: ', err);
-          return of({ specs: {}, index: {} });
+          return EMPTY;
         }),
-        finalize(() => this._loading.set(false)),
-      )
-      .subscribe();
+        finalize(() => {
+          this._loading.set(false);
+          this._specialistsRequest = null;
+        }),
+        shareReplay({ bufferSize: 1, refCount: false }),
+      );
+
+    this._specialistsRequest = request;
+    return request.subscribe();
   }
 
   private mapToViewModel(rawMap: SpecialistRegistry): SpecialistViewModel[] {
