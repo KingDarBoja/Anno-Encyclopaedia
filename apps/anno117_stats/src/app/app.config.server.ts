@@ -4,7 +4,12 @@ import { appConfig } from './app.config';
 import { serverRoutes } from './app.routes.server';
 
 const serverConfig: ApplicationConfig = {
-  providers: [provideServerRendering(withRoutes(serverRoutes))],
+  providers: [
+    provideServerRendering(
+      { maxResponseBodySize: 3 * 1024 * 1024 },
+      withRoutes(serverRoutes),
+    ),
+  ],
 };
 
 export const config = mergeApplicationConfig(appConfig, serverConfig);
