@@ -2,7 +2,7 @@
     "chat.disableAIFeatures": false,
     "github.copilot.chat.commitMessageGeneration.instructions": [
         {
-            "file": ".copilot-commit-message-instructions.md"
+            "file": ".github/instructions/commit-format.instructions.md"
         }
     ]
 }

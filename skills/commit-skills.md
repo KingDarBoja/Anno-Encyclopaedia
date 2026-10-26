@@ -16,7 +16,7 @@ Analyze the changes in a Git repository's working directory or staging area and 
 ## Formatting Rules
 
 - Format: `<intention> <type>(<optional-scope>): <short description in imperative mood>`
-  - `intention`: The visual representation of the commit intention, using a Gitmoji shortcode (e.g., `:sparkles:`) or raw Unicode symbol (e.g., `✨`).
+  - `intention`: The visual representation of the commit intention, using a Gitmoji raw Unicode symbol (e.g., `✨`).
   - `type`: The Conventional Commit type classification (lowercase).
   - `scope`: An optional noun enclosed in parentheses providing context on the module, component, or domain modified (e.g., `(auth)`, `(ui)`, `(deps)`).
   - `short description`: A concise summary of the change in lower case.
