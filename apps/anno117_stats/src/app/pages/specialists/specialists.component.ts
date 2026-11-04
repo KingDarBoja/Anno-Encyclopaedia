@@ -14,6 +14,25 @@ import {
 } from '../../services/specialist.service';
 import { NicheVisualization, RarityVisualization, ItemAllocation } from '../../models/enums';
 
+const ATTRIBUTE_FILTERS = [
+  { value: 'population', label: 'Population' },
+  { value: 'money', label: 'Money & Maintenance' },
+  { value: 'happiness', label: 'Happiness' },
+  { value: 'health', label: 'Health' },
+  { value: 'fire_safety', label: 'Fire Safety' },
+  { value: 'belief', label: 'Belief' },
+  { value: 'knowledge', label: 'Knowledge' },
+  { value: 'prestige', label: 'Prestige' },
+] as const;
+
+const UPGRADE_FILTERS = [
+  { value: 'fertility', label: 'Fertility Seeders' },
+  { value: 'workforce', label: 'Workforce Upgrades' },
+] as const;
+
+type AttributeFilterValue = (typeof ATTRIBUTE_FILTERS)[number]['value'];
+type UpgradeFilterValue = (typeof UPGRADE_FILTERS)[number]['value'];
+
 @Component({
   selector: 'anno-specialists-page',
   imports: [FormsModule, SpecialistCardComponent],
@@ -28,21 +47,12 @@ export class SpecialistsPageComponent implements OnInit {
   targetItemQuery = signal<string>(''); // Text search input for affected items/buildings
   selectedAllocation = signal<string>('');
   selectedRarity = signal<string>('');
-  selectedAttribute = signal<string>('');
+  selectedAttribute = signal<AttributeFilterValue | ''>('');
   selectedNiche = signal<string>('');
-  selectedUpgrade = signal<string>('');
+  selectedUpgrade = signal<UpgradeFilterValue | ''>('');
 
   // Static list of attribute categories mapping keys for filters
-  readonly attributeFilters = [
-    { value: 'population', label: 'Population' },
-    { value: 'money', label: 'Money & Maintenance' },
-    { value: 'happiness', label: 'Happiness' },
-    { value: 'health', label: 'Health' },
-    { value: 'fire_safety', label: 'Fire Safety' },
-    { value: 'belief', label: 'Belief' },
-    { value: 'knowledge', label: 'Knowledge' },
-    { value: 'prestige', label: 'Prestige' },
-  ];
+  readonly attributeFilters = ATTRIBUTE_FILTERS;
 
   /**
    * Mappings of niche, allocation & rarities according to game data.
@@ -54,10 +64,7 @@ export class SpecialistsPageComponent implements OnInit {
   readonly allocationList = Object.values(ItemAllocation);
 
   // Specific modifier updates mapped to separate selector category
-  readonly upgradeFilters = [
-    { value: 'fertility', label: 'Fertility Seeders' },
-    { value: 'workforce', label: 'Workforce Upgrades' },
-  ];
+  readonly upgradeFilters = UPGRADE_FILTERS;
 
   ngOnInit() {
     this.loadData();
@@ -139,11 +146,11 @@ export class SpecialistsPageComponent implements OnInit {
     if (upgrade) {
       list = list.filter((s) => {
         return s.effect.buffs.some((buff) => {
-          if (upgrade === 'fertility') {
-            return buff.added_fertility !== null;
-          }
-          if (upgrade === 'workforce') {
-            return (
+          switch (upgrade) {
+            case 'fertility':
+              return buff.added_fertility !== null;
+            case 'workforce':
+              return (
               buff.workforce_replacement !== null ||
               (buff.workforce_modifier_in_percent !== null &&
                 buff.workforce_modifier_in_percent !== '0' &&
@@ -151,8 +158,9 @@ export class SpecialistsPageComponent implements OnInit {
               (buff.additional_workforces &&
                 buff.additional_workforces.length > 0)
             );
+            default:
+              return false;
           }
-          return false;
         });
       });
     }
