@@ -37,8 +37,8 @@
             <input
               id="title-search-input"
               type="text"
-              [ngModel]="searchQuery()"
-              (ngModelChange)="searchQuery.set($event)"
+              [value]="searchQuery()"
+              (input)="searchQuery.set($any($event.target).value)"
               placeholder="Enter specialist name..."
               class="roman-input-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1"
             />
@@ -66,8 +66,8 @@
             <input
               id="target-item-input"
               type="text"
-              [ngModel]="targetItemQuery()"
-              (ngModelChange)="targetItemQuery.set($event)"
+              [value]="targetItemQuery()"
+              (input)="targetItemQuery.set($any($event.target).value)"
               placeholder="Enter building or item name..."
               class="roman-input-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1"
             />
@@ -94,8 +94,8 @@
           </label>
           <select
             id="allocation-select"
-            [ngModel]="selectedAllocation()"
-            (ngModelChange)="selectedAllocation.set($event)"
+            [value]="selectedAllocation()"
+            (change)="selectedAllocation.set($any($event.target).value)"
             class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
           >
             <option value="">-- All Allocations --</option>
@@ -115,8 +115,8 @@
           </label>
           <select
             id="rarity-select"
-            [ngModel]="selectedRarity()"
-            (ngModelChange)="selectedRarity.set($event)"
+            [value]="selectedRarity()"
+            (change)="selectedRarity.set($any($event.target).value)"
             class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
           >
             <option value="">-- All Rarities --</option>
@@ -136,8 +136,8 @@
           </label>
           <select
             id="attribute-select"
-            [ngModel]="selectedAttribute()"
-            (ngModelChange)="selectedAttribute.set($event)"
+            [value]="selectedAttribute()"
+            (change)="selectedAttribute.set($any($event.target).value)"
             class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
           >
             <option value="">-- All Attributes --</option>
@@ -157,8 +157,8 @@
           </label>
           <select
             id="niche-select"
-            [ngModel]="selectedNiche()"
-            (ngModelChange)="selectedNiche.set($event)"
+            [value]="selectedNiche()"
+            (change)="selectedNiche.set($any($event.target).value)"
             class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
           >
             <option value="">-- All Categories --</option>
@@ -178,8 +178,8 @@
           </label>
           <select
             id="upgrade-select"
-            [ngModel]="selectedUpgrade()"
-            (ngModelChange)="selectedUpgrade.set($event)"
+            [value]="selectedUpgrade()"
+            (change)="selectedUpgrade.set($any($event.target).value)"
             class="roman-select-field w-full px-3 py-2 text-sm rounded border focus:outline-none focus:ring-1 cursor-pointer"
           >
             <option value="">-- All Upgrades --</option>

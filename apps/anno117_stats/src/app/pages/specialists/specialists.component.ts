@@ -1,12 +1,11 @@
 import {
   Component,
+  computed,
   inject,
   linkedSignal,
+  model,
   OnInit,
-  signal,
-  computed,
 } from '@angular/core';
-import { FormsModule } from '@angular/forms';
 import { SpecialistCardComponent } from './specialist-card/specialist-card.component';
 import {
   SpecialistService,
@@ -35,21 +34,21 @@ type UpgradeFilterValue = (typeof UPGRADE_FILTERS)[number]['value'];
 
 @Component({
   selector: 'anno-specialists-page',
-  imports: [FormsModule, SpecialistCardComponent],
+  imports: [SpecialistCardComponent],
   templateUrl: './specialists.component.html',
   styleUrl: './specialists.component.scss',
 })
 export class SpecialistsPageComponent implements OnInit {
   readonly service = inject(SpecialistService);
 
-  // Core filter parameters mapped to Angular Signals
-  searchQuery = signal<string>(''); // Dynamic text search input
-  targetItemQuery = signal<string>(''); // Text search input for affected items/buildings
-  selectedAllocation = signal<string>('');
-  selectedRarity = signal<string>('');
-  selectedAttribute = signal<AttributeFilterValue | ''>('');
-  selectedNiche = signal<string>('');
-  selectedUpgrade = signal<UpgradeFilterValue | ''>('');
+  // Core filter parameters mapped to Angular signal models
+  readonly searchQuery = model<string>('');
+  readonly targetItemQuery = model<string>('');
+  readonly selectedAllocation = model<string>('');
+  readonly selectedRarity = model<string>('');
+  readonly selectedAttribute = model<AttributeFilterValue | ''>('');
+  readonly selectedNiche = model<string>('');
+  readonly selectedUpgrade = model<UpgradeFilterValue | ''>('');
 
   // Static list of attribute categories mapping keys for filters
   readonly attributeFilters = ATTRIBUTE_FILTERS;
