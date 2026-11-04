@@ -8,6 +8,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -293,6 +294,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -346,6 +348,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -399,6 +402,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -683,6 +687,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -962,6 +967,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -1241,6 +1247,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -1294,6 +1301,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -1347,6 +1355,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -1398,6 +1407,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -1456,6 +1466,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -1750,6 +1761,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -1811,6 +1823,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2093,6 +2106,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2136,6 +2150,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2180,6 +2195,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2223,6 +2239,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2278,6 +2295,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2333,6 +2351,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2381,6 +2400,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2426,6 +2446,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2470,6 +2491,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2516,6 +2538,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2799,6 +2822,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2844,6 +2868,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2891,6 +2916,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2937,6 +2963,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -2985,6 +3012,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3032,6 +3060,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3089,6 +3118,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3134,6 +3164,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3184,6 +3215,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3229,6 +3261,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3275,6 +3308,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3319,6 +3353,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3367,6 +3402,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3417,6 +3453,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3465,6 +3502,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3512,6 +3550,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3561,6 +3600,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3609,6 +3649,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3653,6 +3694,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3697,6 +3739,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3745,6 +3788,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3791,6 +3835,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3836,6 +3881,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3879,6 +3925,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3924,6 +3971,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -3970,6 +4018,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4016,6 +4065,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4065,6 +4115,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -4126,6 +4177,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -4187,6 +4239,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -4248,6 +4301,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4303,6 +4357,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4347,6 +4402,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4395,6 +4451,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4451,6 +4508,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4499,6 +4557,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4555,6 +4614,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4618,6 +4678,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4671,6 +4732,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4726,6 +4788,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4781,6 +4844,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4849,6 +4913,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4905,6 +4970,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -4963,6 +5029,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5018,6 +5085,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5071,6 +5139,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5126,6 +5195,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5180,6 +5250,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5234,6 +5305,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5291,6 +5363,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5348,6 +5421,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5399,6 +5473,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5452,6 +5527,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -5731,6 +5807,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -6010,6 +6087,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -6288,6 +6366,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -6566,6 +6645,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -6844,6 +6924,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -7122,6 +7203,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -7400,6 +7482,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -7678,6 +7761,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -7956,6 +8040,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -8234,6 +8319,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -8512,6 +8598,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -8790,6 +8877,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -9068,6 +9156,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -9346,6 +9435,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -9624,6 +9714,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -9902,6 +9993,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -10180,6 +10272,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -10458,6 +10551,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -10736,6 +10830,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -11015,6 +11110,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -11294,6 +11390,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -11573,6 +11670,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -11851,6 +11949,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -12129,6 +12228,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -12407,6 +12507,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -12686,6 +12787,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -12964,6 +13066,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -13242,6 +13345,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -13521,6 +13625,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -13800,6 +13905,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -14079,6 +14185,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -14357,6 +14464,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -14635,6 +14743,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -14913,6 +15022,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -15191,6 +15301,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -15469,6 +15580,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -15747,6 +15859,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -16025,6 +16138,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -16304,6 +16418,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -16582,6 +16697,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -16860,6 +16976,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -17138,6 +17255,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -17416,6 +17534,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -17694,6 +17813,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -17972,6 +18092,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -18250,6 +18371,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -18529,6 +18651,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -18808,6 +18931,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -19086,6 +19210,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -19365,6 +19490,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -19644,6 +19770,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -19922,6 +20049,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -20201,6 +20329,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -20479,6 +20608,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -20757,6 +20887,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -21035,6 +21166,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -21313,6 +21445,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -21591,6 +21724,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -21869,6 +22003,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -22147,6 +22282,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -22425,6 +22561,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -22704,6 +22841,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -22982,6 +23120,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -23260,6 +23399,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -23538,6 +23678,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -23816,6 +23957,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24095,6 +24237,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24374,6 +24517,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24427,6 +24571,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24480,6 +24625,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24533,6 +24679,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24586,6 +24733,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24639,6 +24787,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24692,6 +24841,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24745,6 +24895,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24798,6 +24949,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24851,6 +25003,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24904,6 +25057,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -24957,6 +25111,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25010,6 +25165,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25063,6 +25219,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25116,6 +25273,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25169,6 +25327,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25222,6 +25381,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25275,6 +25435,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25328,6 +25489,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25381,6 +25543,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25434,6 +25597,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25487,6 +25651,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25540,6 +25705,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25593,6 +25759,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25646,6 +25813,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25699,6 +25867,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25752,6 +25921,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25805,6 +25975,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25858,6 +26029,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25911,6 +26083,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -25964,6 +26137,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26017,6 +26191,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26070,6 +26245,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26123,6 +26299,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26176,6 +26353,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26214,6 +26392,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26258,6 +26437,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26296,6 +26476,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26340,6 +26521,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26378,6 +26560,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26422,6 +26605,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26464,6 +26648,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26506,6 +26691,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26548,6 +26734,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26590,6 +26777,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26632,6 +26820,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26674,6 +26863,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26716,6 +26906,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26748,6 +26939,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26780,6 +26972,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26831,6 +27024,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26882,6 +27076,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26933,6 +27128,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -26984,6 +27180,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27035,6 +27232,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27086,6 +27284,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27137,6 +27336,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27188,6 +27388,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27239,6 +27440,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27290,6 +27492,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27341,6 +27544,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27392,6 +27596,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27443,6 +27648,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27494,6 +27700,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27550,6 +27757,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27829,6 +28037,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -27874,6 +28083,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -27935,6 +28145,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28001,6 +28212,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28057,6 +28269,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28118,6 +28331,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28179,6 +28393,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28240,6 +28455,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28306,6 +28522,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28367,6 +28584,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28428,6 +28646,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28489,6 +28708,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28550,6 +28770,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28616,6 +28837,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28672,6 +28894,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28733,6 +28956,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28789,6 +29013,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28850,6 +29075,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28911,6 +29137,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -28977,6 +29204,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29043,6 +29271,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29104,6 +29333,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29160,6 +29390,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29221,6 +29452,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29282,6 +29514,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29343,6 +29576,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29404,6 +29638,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29470,6 +29705,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29536,6 +29772,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29597,6 +29834,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29653,6 +29891,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29714,6 +29953,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -29770,6 +30010,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30049,6 +30290,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30328,6 +30570,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30395,6 +30638,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -30456,6 +30700,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30499,6 +30744,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30559,6 +30805,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30596,6 +30843,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30633,6 +30881,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30670,6 +30919,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30707,6 +30957,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30744,6 +30995,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30781,6 +31033,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30818,6 +31071,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30855,6 +31109,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30892,6 +31147,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -30952,6 +31208,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -31012,6 +31269,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -31305,6 +31563,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -31371,6 +31630,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -31662,6 +31922,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -31724,6 +31985,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32013,6 +32275,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32051,6 +32314,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32095,6 +32359,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32138,6 +32403,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32182,6 +32448,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32235,6 +32502,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32283,6 +32551,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32341,6 +32610,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32392,6 +32662,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32448,6 +32719,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32526,6 +32798,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32570,6 +32843,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32627,6 +32901,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32684,6 +32959,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32741,6 +33017,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32798,6 +33075,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32861,6 +33139,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32924,6 +33203,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -32979,6 +33259,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33034,6 +33315,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33089,6 +33371,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33144,6 +33427,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33199,6 +33483,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33254,6 +33539,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -33315,6 +33601,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -33376,6 +33663,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -33447,6 +33735,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -33503,6 +33792,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -33569,6 +33859,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -33635,6 +33926,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -33701,6 +33993,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33743,6 +34036,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33781,6 +34075,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33819,6 +34114,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33857,6 +34153,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -33905,6 +34202,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -33971,6 +34269,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34020,6 +34319,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34080,6 +34380,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -34146,6 +34447,7 @@
         "allocation": "Ship",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -34212,6 +34514,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34491,6 +34794,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34542,6 +34846,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34593,6 +34898,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34644,6 +34950,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34695,6 +35002,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34746,6 +35054,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34797,6 +35106,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34848,6 +35158,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34890,6 +35201,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34933,6 +35245,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -34976,6 +35289,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35019,6 +35333,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35062,6 +35377,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35104,6 +35420,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35146,6 +35463,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35189,6 +35507,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35232,6 +35551,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35274,6 +35594,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35317,6 +35638,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35359,6 +35681,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35401,6 +35724,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35443,6 +35767,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35485,6 +35810,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35527,6 +35853,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35569,6 +35896,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "153948",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35611,6 +35939,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35653,6 +35982,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35695,6 +36025,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35737,6 +36068,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35779,6 +36111,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35821,6 +36154,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35863,6 +36197,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35905,6 +36240,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35947,6 +36283,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -35989,6 +36326,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36031,6 +36369,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36075,6 +36414,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36123,6 +36463,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36176,6 +36517,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36229,6 +36571,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159870",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36277,6 +36620,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159870",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36315,6 +36659,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159870",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36368,6 +36713,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159870",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36424,6 +36770,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159870",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36710,6 +37057,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159871",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36768,6 +37116,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159871",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36812,6 +37161,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159871",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -36860,6 +37210,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159871",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36914,6 +37265,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159871",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -36974,6 +37326,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159872",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -37036,6 +37389,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159872",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -37079,6 +37433,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159872",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -37122,6 +37477,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159872",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -37174,6 +37530,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159872",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -37234,6 +37591,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "157301",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -37277,6 +37635,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "157302",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -37325,6 +37684,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "157303",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -37378,6 +37738,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "157301",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -37421,6 +37782,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "157302",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -37469,6 +37831,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "157303",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -37522,6 +37885,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159870",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -37801,6 +38165,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159871",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -37839,6 +38204,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159872",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38123,6 +38489,7 @@
         "allocation": "Villa",
         "has_boost": false,
         "boost_details": null,
+        "racer": "159267",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -38214,6 +38581,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38311,6 +38679,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38408,6 +38777,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38505,6 +38875,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38602,6 +38973,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38700,6 +39072,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38807,6 +39180,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38902,6 +39276,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -38976,6 +39351,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -39054,6 +39430,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -39384,6 +39761,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -39700,6 +40078,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -39766,6 +40145,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -39847,6 +40227,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -39945,6 +40326,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -40043,6 +40425,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -40146,6 +40529,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -40257,6 +40641,7 @@
                 }
             ]
         },
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -40585,6 +40970,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -40680,6 +41066,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -41008,6 +41395,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -41123,6 +41511,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -41435,6 +41824,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -41507,6 +41897,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -41819,6 +42210,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -42131,6 +42523,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -42447,6 +42840,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -42555,6 +42949,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -42663,6 +43058,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -42766,6 +43162,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -42869,6 +43266,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -42972,6 +43370,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -43070,6 +43469,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -43173,6 +43573,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -43281,6 +43682,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -43384,6 +43786,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -43487,6 +43890,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -43591,6 +43995,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -43897,6 +44302,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -43980,6 +44386,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -44089,6 +44496,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -44428,6 +44836,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -44557,6 +44966,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -44887,6 +45297,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -44962,6 +45373,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -45065,6 +45477,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -45315,6 +45728,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -45643,6 +46057,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -45741,6 +46156,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -46053,6 +46469,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -46142,6 +46559,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -46462,6 +46880,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -46556,6 +46975,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -46888,6 +47308,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -46984,6 +47405,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47073,6 +47495,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47151,6 +47574,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47217,6 +47641,7 @@
                 }
             ]
         },
+        "racer": "155516",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47298,6 +47723,7 @@
                 }
             ]
         },
+        "racer": "155516",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -47396,6 +47822,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47493,6 +47920,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47598,6 +48026,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -47707,6 +48136,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47807,6 +48237,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47885,6 +48316,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -47970,6 +48402,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -48073,6 +48506,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -48161,6 +48595,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -48271,6 +48706,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -48607,6 +49043,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -48928,6 +49365,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49011,6 +49449,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49086,6 +49525,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49161,6 +49601,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49236,6 +49677,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49311,6 +49753,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49386,6 +49829,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49461,6 +49905,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49536,6 +49981,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49618,6 +50064,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49741,6 +50188,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Local",
             "category": "Item",
@@ -49839,6 +50287,7 @@
                 }
             ]
         },
+        "racer": "155539",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49917,6 +50366,7 @@
                 }
             ]
         },
+        "racer": "159873",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -49983,6 +50433,7 @@
                 }
             ]
         },
+        "racer": "159873",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -50073,6 +50524,7 @@
                 }
             ]
         },
+        "racer": "159873",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -50166,6 +50618,7 @@
                 }
             ]
         },
+        "racer": "159873",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -50251,6 +50704,7 @@
                 }
             ]
         },
+        "racer": "159873",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -50341,6 +50795,7 @@
                 }
             ]
         },
+        "racer": "157304",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -50437,6 +50892,7 @@
                 }
             ]
         },
+        "racer": "159873",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -50537,6 +50993,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -50843,6 +51300,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -50923,6 +51381,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -51002,6 +51461,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -51061,6 +51521,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -51149,6 +51610,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -51492,6 +51954,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -51797,6 +52260,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -51890,6 +52354,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -52225,6 +52690,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -52541,6 +53007,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -52841,6 +53308,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -52919,6 +53387,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -53236,6 +53705,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -53553,6 +54023,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -53859,6 +54330,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -53957,6 +54429,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -54262,6 +54735,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -54345,6 +54819,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "ObjectsInArea",
             "category": "Item",
@@ -54668,6 +55143,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -54996,6 +55472,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -55324,6 +55801,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -55636,6 +56114,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -55722,6 +56201,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -56044,6 +56524,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -56376,6 +56857,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -56710,6 +57192,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -57024,6 +57507,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -57117,6 +57601,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -57207,6 +57692,7 @@
                 }
             ]
         },
+        "racer": "155517",
         "effect": {
             "scope": "Radius",
             "category": "Item",
@@ -57494,6 +57980,7 @@
             "hint": "No hint",
             "buffs": []
         },
+        "racer": "180673",
         "effect": {
             "scope": "Radius",
             "category": "Item",

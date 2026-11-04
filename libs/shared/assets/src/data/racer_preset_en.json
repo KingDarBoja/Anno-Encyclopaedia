@@ -1,0 +1,548 @@
+{
+    "153948": {
+        "guid": 153948,
+        "name": "Racer Preset Common",
+        "title": "Racer Preset Common",
+        "min_additional_training_levels": 2,
+        "max_additional_training_levels": 5,
+        "additional_training_increase_chances": [
+            30.0,
+            6.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 1,
+                "max_initial_value": 3,
+                "min_added_potential": 3,
+                "max_added_potential": 7
+            },
+            "stamina": {
+                "min_initial_value": 1,
+                "max_initial_value": 3,
+                "min_added_potential": 3,
+                "max_added_potential": 7
+            },
+            "boost": {
+                "min_initial_value": 1,
+                "max_initial_value": 3,
+                "min_added_potential": 3,
+                "max_added_potential": 7
+            },
+            "consistency": {
+                "min_initial_value": 1,
+                "max_initial_value": 3,
+                "min_added_potential": 3,
+                "max_added_potential": 7
+            }
+        },
+        "is_hero_racer": false
+    },
+    "155516": {
+        "guid": 155516,
+        "name": "Racer Preset Rare",
+        "title": "Racer Preset Rare",
+        "min_additional_training_levels": 4,
+        "max_additional_training_levels": 8,
+        "additional_training_increase_chances": [
+            25.0,
+            5.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 1,
+                "max_initial_value": 4,
+                "min_added_potential": 2,
+                "max_added_potential": 6
+            },
+            "stamina": {
+                "min_initial_value": 1,
+                "max_initial_value": 4,
+                "min_added_potential": 2,
+                "max_added_potential": 6
+            },
+            "boost": {
+                "min_initial_value": 1,
+                "max_initial_value": 4,
+                "min_added_potential": 2,
+                "max_added_potential": 6
+            },
+            "consistency": {
+                "min_initial_value": 1,
+                "max_initial_value": 4,
+                "min_added_potential": 2,
+                "max_added_potential": 6
+            }
+        },
+        "is_hero_racer": false
+    },
+    "155517": {
+        "guid": 155517,
+        "name": "Racer Preset Epic",
+        "title": "Racer Preset Epic",
+        "min_additional_training_levels": 6,
+        "max_additional_training_levels": 12,
+        "additional_training_increase_chances": [
+            20.0,
+            4.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 2,
+                "max_initial_value": 4,
+                "min_added_potential": 2,
+                "max_added_potential": 6
+            },
+            "stamina": {
+                "min_initial_value": 2,
+                "max_initial_value": 4,
+                "min_added_potential": 2,
+                "max_added_potential": 6
+            },
+            "boost": {
+                "min_initial_value": 2,
+                "max_initial_value": 4,
+                "min_added_potential": 2,
+                "max_added_potential": 6
+            },
+            "consistency": {
+                "min_initial_value": 2,
+                "max_initial_value": 4,
+                "min_added_potential": 2,
+                "max_added_potential": 6
+            }
+        },
+        "is_hero_racer": false
+    },
+    "155539": {
+        "guid": 155539,
+        "name": "Racer Preset Legendary",
+        "title": "Racer Preset Legendary",
+        "min_additional_training_levels": 8,
+        "max_additional_training_levels": 15,
+        "additional_training_increase_chances": [
+            15.0,
+            3.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 2,
+                "max_initial_value": 5,
+                "min_added_potential": 1,
+                "max_added_potential": 5
+            },
+            "stamina": {
+                "min_initial_value": 2,
+                "max_initial_value": 5,
+                "min_added_potential": 1,
+                "max_added_potential": 5
+            },
+            "boost": {
+                "min_initial_value": 2,
+                "max_initial_value": 5,
+                "min_added_potential": 1,
+                "max_added_potential": 5
+            },
+            "consistency": {
+                "min_initial_value": 2,
+                "max_initial_value": 5,
+                "min_added_potential": 1,
+                "max_added_potential": 5
+            }
+        },
+        "is_hero_racer": false
+    },
+    "157301": {
+        "guid": 157301,
+        "name": "Story Preset Talent Start",
+        "title": "Story Preset Talent Start",
+        "min_additional_training_levels": 0,
+        "max_additional_training_levels": 0,
+        "additional_training_increase_chances": [
+            25.0,
+            5.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            },
+            "stamina": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            },
+            "boost": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            },
+            "consistency": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            }
+        },
+        "is_hero_racer": false
+    },
+    "157302": {
+        "guid": 157302,
+        "name": "Story Preset Talent FirstUpgrade",
+        "title": "Story Preset Talent FirstUpgrade",
+        "min_additional_training_levels": 0,
+        "max_additional_training_levels": 0,
+        "additional_training_increase_chances": [
+            25.0,
+            5.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 4,
+                "max_initial_value": 4,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "stamina": {
+                "min_initial_value": 2,
+                "max_initial_value": 2,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "boost": {
+                "min_initial_value": 4,
+                "max_initial_value": 4,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "consistency": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            }
+        },
+        "is_hero_racer": false
+    },
+    "157303": {
+        "guid": 157303,
+        "name": "Story Preset Talent SecondUpgrade",
+        "title": "Story Preset Talent SecondUpgrade",
+        "min_additional_training_levels": 0,
+        "max_additional_training_levels": 0,
+        "additional_training_increase_chances": [
+            25.0,
+            5.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 5,
+                "max_initial_value": 5,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "stamina": {
+                "min_initial_value": 3,
+                "max_initial_value": 3,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "boost": {
+                "min_initial_value": 4,
+                "max_initial_value": 4,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "consistency": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            }
+        },
+        "is_hero_racer": false
+    },
+    "157304": {
+        "guid": 157304,
+        "name": "Story Preset Talent FinalUpgrade",
+        "title": "Story Preset Talent FinalUpgrade",
+        "min_additional_training_levels": 0,
+        "max_additional_training_levels": 0,
+        "additional_training_increase_chances": [
+            25.0,
+            5.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 6,
+                "max_initial_value": 6,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "stamina": {
+                "min_initial_value": 3,
+                "max_initial_value": 3,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "boost": {
+                "min_initial_value": 4,
+                "max_initial_value": 4,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            },
+            "consistency": {
+                "min_initial_value": 2,
+                "max_initial_value": 2,
+                "min_added_potential": 3,
+                "max_added_potential": 3
+            }
+        },
+        "is_hero_racer": false
+    },
+    "159267": {
+        "guid": 159267,
+        "name": "Story Preset Talent Debuffed",
+        "title": "Story Preset Talent Debuffed",
+        "min_additional_training_levels": 0,
+        "max_additional_training_levels": 0,
+        "additional_training_increase_chances": [
+            25.0,
+            5.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            },
+            "stamina": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            },
+            "boost": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            },
+            "consistency": {
+                "min_initial_value": 1,
+                "max_initial_value": 1,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            }
+        },
+        "is_hero_racer": false
+    },
+    "159870": {
+        "guid": 159870,
+        "name": "Racer Preset Talent Common",
+        "title": "Racer Preset Talent Common",
+        "min_additional_training_levels": 4,
+        "max_additional_training_levels": 6,
+        "additional_training_increase_chances": [
+            30.0,
+            6.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 1,
+                "max_initial_value": 3,
+                "min_added_potential": 4,
+                "max_added_potential": 7
+            },
+            "stamina": {
+                "min_initial_value": 1,
+                "max_initial_value": 3,
+                "min_added_potential": 4,
+                "max_added_potential": 7
+            },
+            "boost": {
+                "min_initial_value": 1,
+                "max_initial_value": 3,
+                "min_added_potential": 4,
+                "max_added_potential": 7
+            },
+            "consistency": {
+                "min_initial_value": 1,
+                "max_initial_value": 3,
+                "min_added_potential": 4,
+                "max_added_potential": 7
+            }
+        },
+        "is_hero_racer": false
+    },
+    "159871": {
+        "guid": 159871,
+        "name": "Racer Preset Talent Rare",
+        "title": "Racer Preset Talent Rare",
+        "min_additional_training_levels": 6,
+        "max_additional_training_levels": 10,
+        "additional_training_increase_chances": [
+            25.0,
+            5.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 1,
+                "max_initial_value": 4,
+                "min_added_potential": 4,
+                "max_added_potential": 6
+            },
+            "stamina": {
+                "min_initial_value": 1,
+                "max_initial_value": 4,
+                "min_added_potential": 4,
+                "max_added_potential": 6
+            },
+            "boost": {
+                "min_initial_value": 1,
+                "max_initial_value": 4,
+                "min_added_potential": 4,
+                "max_added_potential": 6
+            },
+            "consistency": {
+                "min_initial_value": 1,
+                "max_initial_value": 4,
+                "min_added_potential": 4,
+                "max_added_potential": 6
+            }
+        },
+        "is_hero_racer": false
+    },
+    "159872": {
+        "guid": 159872,
+        "name": "Racer Preset Talent Epic",
+        "title": "Racer Preset Talent Epic",
+        "min_additional_training_levels": 8,
+        "max_additional_training_levels": 14,
+        "additional_training_increase_chances": [
+            20.0,
+            4.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 2,
+                "max_initial_value": 4,
+                "min_added_potential": 4,
+                "max_added_potential": 6
+            },
+            "stamina": {
+                "min_initial_value": 2,
+                "max_initial_value": 4,
+                "min_added_potential": 4,
+                "max_added_potential": 6
+            },
+            "boost": {
+                "min_initial_value": 2,
+                "max_initial_value": 4,
+                "min_added_potential": 4,
+                "max_added_potential": 6
+            },
+            "consistency": {
+                "min_initial_value": 2,
+                "max_initial_value": 4,
+                "min_added_potential": 4,
+                "max_added_potential": 6
+            }
+        },
+        "is_hero_racer": false
+    },
+    "159873": {
+        "guid": 159873,
+        "name": "Racer Preset Talent Legendary",
+        "title": "Racer Preset Talent Legendary",
+        "min_additional_training_levels": 10,
+        "max_additional_training_levels": 18,
+        "additional_training_increase_chances": [
+            15.0,
+            3.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 2,
+                "max_initial_value": 5,
+                "min_added_potential": 3,
+                "max_added_potential": 5
+            },
+            "stamina": {
+                "min_initial_value": 2,
+                "max_initial_value": 5,
+                "min_added_potential": 3,
+                "max_added_potential": 5
+            },
+            "boost": {
+                "min_initial_value": 2,
+                "max_initial_value": 5,
+                "min_added_potential": 3,
+                "max_added_potential": 5
+            },
+            "consistency": {
+                "min_initial_value": 2,
+                "max_initial_value": 5,
+                "min_added_potential": 3,
+                "max_added_potential": 5
+            }
+        },
+        "is_hero_racer": false
+    },
+    "180673": {
+        "guid": 180673,
+        "name": "Cheat Racer Preset High+Potential",
+        "title": "Cheat Racer Preset High+Potential",
+        "min_additional_training_levels": 0,
+        "max_additional_training_levels": 0,
+        "additional_training_increase_chances": [
+            25.0,
+            5.0,
+            1.0
+        ],
+        "attribute_overwrites": {
+            "speed": {
+                "min_initial_value": 9,
+                "max_initial_value": 9,
+                "min_added_potential": 1,
+                "max_added_potential": 1
+            },
+            "stamina": {
+                "min_initial_value": 9,
+                "max_initial_value": 9,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            },
+            "boost": {
+                "min_initial_value": 9,
+                "max_initial_value": 9,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            },
+            "consistency": {
+                "min_initial_value": 9,
+                "max_initial_value": 9,
+                "min_added_potential": 0,
+                "max_added_potential": 0
+            }
+        },
+        "is_hero_racer": false
+    }
+}
