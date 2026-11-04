@@ -27,6 +27,7 @@ const ATTRIBUTE_FILTERS = [
 const UPGRADE_FILTERS = [
   { value: 'fertility', label: 'Fertility Seeders' },
   { value: 'workforce', label: 'Workforce Upgrades' },
+  // { value: 'none', label: 'No Upgrade' },
 ] as const;
 
 type AttributeFilterValue = (typeof ATTRIBUTE_FILTERS)[number]['value'];
@@ -58,7 +59,7 @@ export class SpecialistsPageComponent implements OnInit {
    *
    * @TODO Support translation labels.
    */
-  readonly nichesList = Object.values(NicheVisualization);
+  readonly nichesList = Object.values(NicheVisualization).filter(x => x === 'None' ? false : true);
   readonly raritiesList = Object.values(RarityVisualization);
   readonly allocationList = Object.values(ItemAllocation);
 
