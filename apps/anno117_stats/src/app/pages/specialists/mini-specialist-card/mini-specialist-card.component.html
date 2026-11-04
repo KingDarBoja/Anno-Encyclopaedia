@@ -29,6 +29,39 @@
 
     <div class="spec-flavor">"{{ spec.description }}"</div>
 
+    @if (racerPresetInfo(); as racer) {
+      <div class="spec-racer-block">
+        <div class="spec-racer-header">
+          <span>Racer Preset</span>
+          @if (racer.hero) {
+            <span class="spec-racer-hero">Hero</span>
+          }
+        </div>
+
+        <div class="spec-racer-name">{{ racer.title }}</div>
+
+        <div class="spec-racer-stats">
+          <div class="spec-racer-line">
+            <span>Training</span>
+            <strong>{{ racer.training }} levels</strong>
+          </div>
+          <div class="spec-racer-line">
+            <span>Increase chance</span>
+            <strong>{{ racer.chances }}</strong>
+          </div>
+        </div>
+
+        <div class="spec-racer-attributes">
+          @for (attribute of racer.attributes; track attribute.key) {
+            <div class="spec-racer-attribute">
+              <span>{{ attribute.label }}</span>
+              <strong>{{ attribute.initial }} / +{{ attribute.potential }}</strong>
+            </div>
+          }
+        </div>
+      </div>
+    }
+
     <div class="spec-effects-container">
       <div class="spec-effects-header">
         <span class="effects-title">IMPROVES</span>

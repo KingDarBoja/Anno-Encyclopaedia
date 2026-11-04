@@ -44,6 +44,41 @@ export class MiniSpecialistCardComponent {
     prestige: 'assets/icons/base/icon_content/attributes/icon_prestige_0.webp',
   };
 
+  readonly racerAttributeLabels: Record<string, string> = {
+    speed: 'Speed',
+    stamina: 'Stamina',
+    boost: 'Boost',
+    consistency: 'Consistency',
+  };
+
+  readonly racerPresetInfo = computed(() => {
+    const preset = this.specialist()?.racer_preset;
+    if (!preset) {
+      return null;
+    }
+
+    return {
+      title: preset.title || preset.name,
+      training:
+        preset.min_additional_training_levels ===
+        preset.max_additional_training_levels
+          ? `${preset.min_additional_training_levels}`
+          : `${preset.min_additional_training_levels}–${preset.max_additional_training_levels}`,
+      chances: preset.additional_training_increase_chances
+        ?.map((value) => `${value}%`)
+        .join(' / '),
+      hero: preset.is_hero_racer,
+      attributes: Object.entries(preset.attribute_overwrites ?? {}).map(
+        ([key, value]) => ({
+          key,
+          label: this.racerAttributeLabels[key] ?? key.replace(/_/g, ' '),
+          initial: `${value.min_initial_value}–${value.max_initial_value}`,
+          potential: `${value.min_added_potential}–${value.max_added_potential}`,
+        }),
+      ),
+    };
+  });
+
   /**
    * Isolates the specific buffs that apply to the currently targeted building node.
    */

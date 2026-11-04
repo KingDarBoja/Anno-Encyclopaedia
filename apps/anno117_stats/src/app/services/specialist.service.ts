@@ -70,6 +70,29 @@ interface SpecialistBoost {
   buffs: SpecialistBuff[];
 }
 
+interface RacerPresetAttributeOverwrite {
+  readonly min_initial_value: number;
+  readonly max_initial_value: number;
+  readonly min_added_potential: number;
+  readonly max_added_potential: number;
+}
+
+export interface RacerPresetJSON {
+  readonly guid: number;
+  readonly name: string;
+  readonly title: string;
+  readonly min_additional_training_levels: number;
+  readonly max_additional_training_levels: number;
+  readonly additional_training_increase_chances: number[];
+  readonly attribute_overwrites: Record<
+    string,
+    RacerPresetAttributeOverwrite
+  >;
+  readonly is_hero_racer: boolean;
+}
+
+export type RacerPresetRegistry = Record<string, RacerPresetJSON>;
+
 interface SpecialistJSON {
   readonly title: string;
   readonly description: string;
@@ -78,13 +101,15 @@ interface SpecialistJSON {
   readonly niche: NicheVisualization;
   readonly allocation: ItemAllocation;
   readonly has_boost: boolean;
-  readonly boost_details: SpecialistBoost;
+  readonly boost_details: SpecialistBoost | null;
+  readonly racer: string | null;
   readonly effect: SpecialistEffect;
 }
 
 export interface SpecialistViewModel extends SpecialistJSON {
   readonly id: string;
   readonly slug: string;
+  readonly racer_preset: RacerPresetJSON | null;
 }
 
 type SpecialistRegistry = Record<string, SpecialistJSON>;
@@ -156,6 +181,8 @@ export interface HydratedSpecialistEffect {
   readonly buffs: HydratedSpecialistBuff[];
 }
 
+export type HydratedRacerPreset = RacerPresetJSON;
+
 export interface HydratedSpecialistViewModel
   extends Omit<SpecialistViewModel, 'effect' | 'boost_details'> {
   readonly effect: HydratedSpecialistEffect;
@@ -173,10 +200,12 @@ export class SpecialistService {
   // Raw states
   private readonly _specialists = signal<SpecialistViewModel[]>([]);
   private readonly _assetsIndex = signal<AssetsIndexRegistry>({});
+  private readonly _racerPresets = signal<RacerPresetRegistry>({});
   private _specialistsLoaded = false;
   private _specialistsRequest: Observable<{
     specs: SpecialistRegistry;
     index: AssetsIndexRegistry;
+    racerPresets: RacerPresetRegistry;
   }> | null = null;
 
   // Loading & error trackers
@@ -186,6 +215,7 @@ export class SpecialistService {
   // Read-only signals exposure
   readonly specialists = this._specialists.asReadonly();
   readonly assetsIndex = this._assetsIndex.asReadonly();
+  readonly racerPresets = this._racerPresets.asReadonly();
   readonly isLoading = this._loading.asReadonly();
   readonly error = this._error.asReadonly();
 
@@ -228,11 +258,15 @@ export class SpecialistService {
       index: this.http.get<AssetsIndexRegistry>(
         'assets/data/specialist_asset_ref.json',
       ),
+      racerPresets: this.http.get<RacerPresetRegistry>(
+        'assets/data/racer_preset_en.json',
+      ),
     })
       .pipe(
-        tap(({ specs, index }) => {
+        tap(({ specs, index, racerPresets }) => {
           this._assetsIndex.set(index);
-          this._specialists.set(this.mapToViewModel(specs));
+          this._racerPresets.set(racerPresets);
+          this._specialists.set(this.mapToViewModel(specs, racerPresets));
           this._specialistsLoaded = true;
         }),
         catchError((err) => {
@@ -251,11 +285,15 @@ export class SpecialistService {
     return request.subscribe();
   }
 
-  private mapToViewModel(rawMap: SpecialistRegistry): SpecialistViewModel[] {
+  private mapToViewModel(
+    rawMap: SpecialistRegistry,
+    racerPresets: RacerPresetRegistry,
+  ): SpecialistViewModel[] {
     return Object.entries(rawMap).map(([id, rawRow]) => ({
       ...rawRow,
       id,
       slug: rawRow.title.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
+      racer_preset: rawRow.racer ? racerPresets[rawRow.racer] ?? null : null,
     }));
   }
 
@@ -385,6 +423,7 @@ export class SpecialistService {
 
     return {
       ...spec,
+      racer_preset: spec.racer_preset ?? null,
       effect: hydratedEffect,
       boost_details: hydratedBoost,
     };

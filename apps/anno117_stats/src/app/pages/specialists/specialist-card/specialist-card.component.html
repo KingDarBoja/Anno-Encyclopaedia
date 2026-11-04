@@ -42,6 +42,43 @@
     </blockquote>
   </header>
 
+  @if (racerPresetInfo(); as racer) {
+    <div class="relative z-10 mb-4 roman-card-box p-3 rounded-md">
+      <div class="flex items-center justify-between pb-2 mb-2 spec-section-header">
+        <span class="text-[10px] uppercase tracking-widest font-bold text-(--text-sub-label)">
+          Racer Preset
+        </span>
+        @if (racer.hero) {
+          <span class="badge-radius" style="border-color: var(--gold-val); color: var(--gold-val);">
+            Hero
+          </span>
+        }
+      </div>
+
+      <div class="text-sm font-bold spec-title">{{ racer.title }}</div>
+
+      <div class="mt-3 space-y-2 text-[11px]">
+        <div class="flex items-center justify-between gap-3">
+          <span class="text-(--text-sub-label)">Training</span>
+          <span class="font-bold">{{ racer.training }} levels</span>
+        </div>
+        <div class="flex items-center justify-between gap-3">
+          <span class="text-(--text-sub-label)">Increase chance</span>
+          <span class="font-bold">{{ racer.chances }}</span>
+        </div>
+      </div>
+
+      <div class="mt-3 space-y-1.5">
+        @for (attribute of racer.attributes; track attribute.key) {
+          <div class="attribute-row flex items-center justify-between text-[11px] px-2 py-1 rounded">
+            <span class="capitalize text-(--text-sub-label)">{{ attribute.label }}</span>
+            <span class="font-bold">{{ attribute.initial }} / +{{ attribute.potential }}</span>
+          </div>
+        }
+      </div>
+    </div>
+  }
+
   <!-- IMPROVES Section -->
   <div class="relative z-10 buff-content-wrapper gap-4">
     @for (buff of groupedBuffs(); track buff.guid) {

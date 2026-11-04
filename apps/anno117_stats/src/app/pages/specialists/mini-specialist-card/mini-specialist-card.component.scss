@@ -128,6 +128,75 @@
 		border-color 0.3s ease;
 }
 
+.spec-racer-block {
+	margin-bottom: 1rem;
+	padding: 0.75rem;
+	background-color: var(--box-bg);
+	border: 1px solid var(--box-border);
+	border-radius: 4px;
+}
+
+.spec-racer-header {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 0.5rem;
+	margin-bottom: 0.5rem;
+	font-size: 0.55rem;
+	font-weight: 800;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	color: var(--text-sub-label);
+}
+
+.spec-racer-hero {
+	padding: 0.15rem 0.35rem;
+	border: 1px solid rgba(255, 204, 0, 0.7);
+	border-radius: 3px;
+	color: #ffcc00;
+	font-size: 0.5rem;
+}
+
+.spec-racer-name {
+	font-weight: 800;
+	font-size: 0.75rem;
+	color: var(--text-highlight);
+	margin-bottom: 0.5rem;
+}
+
+.spec-racer-stats {
+	display: grid;
+	gap: 0.35rem;
+	margin-bottom: 0.5rem;
+	font-size: 0.64rem;
+}
+
+.spec-racer-line,
+.spec-racer-attribute {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.spec-racer-line span,
+.spec-racer-attribute span {
+	color: var(--text-muted);
+}
+
+.spec-racer-attributes {
+	display: grid;
+	gap: 0.25rem;
+}
+
+.spec-racer-attribute {
+	font-size: 0.62rem;
+	padding: 0.2rem 0.25rem;
+	border-radius: 3px;
+	background-color: color-mix(in srgb, var(--box-bg), transparent 16%);
+	border: 1px solid var(--border-subtle);
+}
+
 // ==========================================
 // 📊 EFFECTS AND BUFFS SECTION
 // ==========================================
