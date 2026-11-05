@@ -1358,7 +1358,7 @@
         "description": "What could be more deserving of protection than this inner sanctum, Hortus, the garden of the mind?",
         "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_roman_01_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 5,
         "construction_groups": [
             {
@@ -1410,7 +1410,7 @@
         "description": "In times of need, trumpets blare for the brave to join their phalanx. ",
         "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_gate_roman_01_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 100,
         "construction_groups": [
             {
@@ -1462,7 +1462,7 @@
         "description": "Its strength lies in the stones, the mortar and the ivy, and the nests of bees that swarm out in springtime. ",
         "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_celtic_01_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 5,
         "construction_groups": [
             {
@@ -1514,7 +1514,7 @@
         "description": "Speak Gaul, and enter.",
         "origin": "Marvellous Mosaics",
         "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_gate_celtic_01_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 100,
         "construction_groups": [
             {
@@ -2109,7 +2109,7 @@
     },
     "152322": {
         "uid": 152322,
-        "name": "cDLC02 Ornament Plant_Arrangement 02 1x1",
+        "name": "cDLC02 Ornament Plant_Arrangement 02 2x2",
         "title": "Fig Tree",
         "description": "Soft purple petals ripen into heavy, layered sweetness.",
         "origin": "Blooming Cities",
@@ -2189,7 +2189,7 @@
     },
     "152324": {
         "uid": 152324,
-        "name": "cDLC02 Ornament Plant_Arrangement 04 1x1",
+        "name": "cDLC02 Ornament Plant_Arrangement 04 2x2",
         "title": "Gum Tree",
         "description": "Physicians and embalmers swear by its restorative properties.",
         "origin": "Blooming Cities",
@@ -2434,7 +2434,7 @@
         "description": "You have to be someone, if they call your palace a \"home\". ",
         "origin": "Blooming Cities",
         "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_wall_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 5,
         "construction_groups": [
             {
@@ -2474,7 +2474,7 @@
         "description": "Lapis lazuli and friezes seem to freeze the past in place. ",
         "origin": "Blooming Cities",
         "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_wall_gate_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 100,
         "construction_groups": [
             {
@@ -2629,12 +2629,12 @@
     },
     "174710": {
         "uid": 174710,
-        "name": "cDLC03 Ornament Statue 2x3 Asclepios",
+        "name": "cDLC03 Ornament Statue 2x2 Asclepios",
         "title": "Statue of Asclepios",
         "description": "Bless you.",
         "origin": "Echoes of Kassandra",
         "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_asclepios_0.webp",
-        "prestige": 6,
+        "prestige": 4,
         "cost": 600,
         "construction_groups": [
             {
@@ -2709,12 +2709,12 @@
     },
     "174712": {
         "uid": 174712,
-        "name": "cDLC03 Ornament Statue 2x3 Athena",
+        "name": "cDLC03 Ornament Statue 3x3 Athena",
         "title": "Pallas Athena",
         "description": "Born from a splitting headache and a sculptor's hand, Athena has led many a city to greatness.",
         "origin": "Echoes of Kassandra",
         "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_athena_0.webp",
-        "prestige": 6,
+        "prestige": 9,
         "cost": 600,
         "construction_groups": [
             {
@@ -2749,12 +2749,12 @@
     },
     "174713": {
         "uid": 174713,
-        "name": "cDLC03 Ornament Statue 2x2 Artemis",
+        "name": "cDLC03 Ornament Statue 1x1 Artemis",
         "title": "Statue of Artemis Kalliste",
         "description": "All who caught a glimpse of her slender silhouette in the moonlight were transformed... oh deer.",
         "origin": "Echoes of Kassandra",
         "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_artemis_0.webp",
-        "prestige": 4,
+        "prestige": 1,
         "cost": 400,
         "construction_groups": [
             {
@@ -2834,7 +2834,7 @@
         "description": "Blood of Sparta, daughter of Pythagoras, mother of Elpidios. ",
         "origin": "Echoes of Kassandra",
         "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_kassandra_0.webp",
-        "prestige": 9,
+        "prestige": 4,
         "cost": 1000,
         "construction_groups": [
             {
@@ -2922,7 +2922,7 @@
         "description": "May the father of gods grant clear skies to all who entrust their fate to the waves.",
         "origin": "Echoes of Kassandra",
         "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_zeus_0.webp",
-        "prestige": 4,
+        "prestige": 32,
         "cost": 1000,
         "construction_groups": [
             {
@@ -2970,7 +2970,7 @@
         "description": "Songs and legends never die: they come to life with every recital. ",
         "origin": "Echoes of Kassandra",
         "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_hall_of_echoes_0.webp",
-        "prestige": 9,
+        "prestige": 49,
         "cost": 2000,
         "construction_groups": [
             {
@@ -3727,6 +3727,142 @@
             }
         ]
     },
+    "179694": {
+        "uid": 179694,
+        "name": "HoF Plaza 21 Sandstone",
+        "title": "Kashtan Sandstone",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_ground_01_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80581",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "180794": {
+        "uid": 180794,
+        "name": "HoF Plaza 22 Blue",
+        "title": "Fayence Mosaic Pavement",
+        "description": "Ground patterns can be placed below most ornaments and buildings.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_ground_02_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80581",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80581"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
     "158417": {
         "uid": 158417,
         "name": "Garden Plaza 01",
@@ -3804,6 +3940,74 @@
             {
                 "top_level_guid": "153559",
                 "construction_group_guid": "158413"
+            }
+        ]
+    },
+    "179695": {
+        "uid": 179695,
+        "name": "HoF Med Plaza 22 Egyptian Garden",
+        "title": "Oasis Overgrowth",
+        "description": "Landscaping patterns completely fill a selected space. ",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_garden_0.webp",
+        "prestige": 0,
+        "cost": 0,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "158413",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "158413"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
             }
         ]
     },
@@ -4355,6 +4559,74 @@
             }
         ]
     },
+    "184727": {
+        "uid": 184727,
+        "name": "HoF Ornament Egyptian 1x1 PalmTree",
+        "title": "Date Palms",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_tree_palm_01_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80597"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80597",
+                "construction_group_guid": "80597"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80597"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80597"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80597"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80597"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80597"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
     "80579": {
         "uid": 80579,
         "name": "Ornament Roman Planter 1x1 Flowers",
@@ -4763,6 +5035,74 @@
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_tree_pedestal_0.webp",
         "prestige": 4,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80595"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80595",
+                "construction_group_guid": "80595"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80595"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80595"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80595"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80595"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80595"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "182472": {
+        "uid": 182472,
+        "name": "HoF Ornament Egyptian 3x3 Holytree",
+        "title": "Baobab",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_tree_baobab_0.webp",
+        "prestige": 1,
         "cost": 10,
         "construction_groups": [
             {
@@ -5783,6 +6123,46 @@
             }
         ]
     },
+    "158729": {
+        "uid": 158729,
+        "name": "Ornament Statue Nymphaeus",
+        "title": "Nymphaeus's Final Pose",
+        "description": "He loved to dress up. Here, as a Pharaoh, which Aegyptians not only tolerated but enjoyed. They loved him. ",
+        "origin": "Base",
+        "icon_url": "assets/icons/dlc03/icon_content/ornaments/icon_3d_statue_nymphaeus_0.webp",
+        "prestige": 4,
+        "cost": 300,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "80580",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80580"
+            }
+        ]
+    },
     "88309": {
         "uid": 88309,
         "name": "HoF Ornament Celtic Highlight Wicker Man",
@@ -6120,6 +6500,346 @@
             {
                 "top_level_guid": "153561",
                 "construction_group_guid": "80954"
+            }
+        ]
+    },
+    "182486": {
+        "uid": 182486,
+        "name": "HoF Ornament Egyptian 1x1 SnakeGuardian",
+        "title": "Guardian of Nehebkau",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_statue_pharaoh_02_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80580",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "182470": {
+        "uid": 182470,
+        "name": "HoF Ornament Egyptian 1x1 Obelisk",
+        "title": "Obelisk",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_obelisk_01_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80580",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "182469": {
+        "uid": 182469,
+        "name": "HoF Ornament Egyptian 1x1 Chariots",
+        "title": "Chariots of Conquest",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_statue_chariot_race_left_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80580",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "182473": {
+        "uid": 182473,
+        "name": "HoF Ornament Egyptian 3x3 Sphinx",
+        "title": "Aegyptian Sphinx",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_statue_sphinx_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80580",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "182471": {
+        "uid": 182471,
+        "name": "HoF Ornament Egyptian 3x3 Pharao",
+        "title": "Statue of a Pharao",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_statue_pharaoh_01_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80580",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80580"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
             }
         ]
     },
@@ -6923,346 +7643,6 @@
             }
         ]
     },
-    "149836": {
-        "uid": 149836,
-        "name": "HoF Ornament Roman 1x1 Benches",
-        "title": "Game Table",
-        "description": "Do you play tabula?",
-        "origin": "Hall Of Fame",
-        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_benches_01_0.webp",
-        "prestige": 1,
-        "cost": 20,
-        "construction_groups": [
-            {
-                "top_level_guid": "80961",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "80966",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "80617",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "87448",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96842",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96843",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153559",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153561",
-                "construction_group_guid": "87448"
-            }
-        ]
-    },
-    "149837": {
-        "uid": 149837,
-        "name": "HoF Ornament Roman 2x1 Benches",
-        "title": "Game Table",
-        "description": "Do you play tabula?",
-        "origin": "Hall Of Fame",
-        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_benches_02_0.webp",
-        "prestige": 2,
-        "cost": 50,
-        "construction_groups": [
-            {
-                "top_level_guid": "80961",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "80966",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "80617",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "87448",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96842",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96843",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153559",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153561",
-                "construction_group_guid": "87448"
-            }
-        ]
-    },
-    "149859": {
-        "uid": 149859,
-        "name": "HoF Ornament Roman 1x1 Market Stall Small",
-        "title": "Small Market Stall",
-        "description": "Even if the selection is modest, it is of select quality.",
-        "origin": "Hall Of Fame",
-        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_market_stand_01_0.webp",
-        "prestige": 1,
-        "cost": 10,
-        "construction_groups": [
-            {
-                "top_level_guid": "80961",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "80966",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "80617",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "87448",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96842",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96843",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153559",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153561",
-                "construction_group_guid": "87448"
-            }
-        ]
-    },
-    "149860": {
-        "uid": 149860,
-        "name": "HoF Ornament Roman 2x1 Market Stall Medium",
-        "title": "Common Market Stall",
-        "description": "The more prosperous among vendors can afford to shield themselves from the sun.",
-        "origin": "Hall Of Fame",
-        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_market_stand_08_0.webp",
-        "prestige": 2,
-        "cost": 20,
-        "construction_groups": [
-            {
-                "top_level_guid": "80961",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "80966",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "80617",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "87448",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96842",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96843",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153559",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153561",
-                "construction_group_guid": "87448"
-            }
-        ]
-    },
-    "149861": {
-        "uid": 149861,
-        "name": "HoF Ornament Roman 3x3 Market Stall Large",
-        "title": "Large Market Stall",
-        "description": "Behold the true wealth of an empire\u2014 its wares. ",
-        "origin": "Hall Of Fame",
-        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_market_stand_11_0.webp",
-        "prestige": 9,
-        "cost": 90,
-        "construction_groups": [
-            {
-                "top_level_guid": "80961",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "80966",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "80617",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "87448",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "14194",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96841",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "96842",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "96843",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153558",
-                "construction_group_guid": "87448"
-            },
-            {
-                "top_level_guid": "153559",
-                "construction_group_guid": "80617"
-            },
-            {
-                "top_level_guid": "153561",
-                "construction_group_guid": "87448"
-            }
-        ]
-    },
     "151958": {
         "uid": 151958,
         "name": "Twitch Ornament Town Crier",
@@ -7331,6 +7711,142 @@
             }
         ]
     },
+    "182468": {
+        "uid": 182468,
+        "name": "HoF Ornament Egyptian 1x1 Excavation",
+        "title": "Secret Stash",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_grave_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80617",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "182485": {
+        "uid": 182485,
+        "name": "HoF Ornament Egyptian 3x3 AnnoGate",
+        "title": "Strange Gate",
+        "description": "The sculptor got up close to the subject and made a few hasty sketches.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_portal_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80617",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80617"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
     "92804": {
         "uid": 92804,
         "name": "Ornament Roman Meshgraph Hedge 01",
@@ -7338,7 +7854,7 @@
         "description": "Ageless in its division of privacy.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_hedge_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 1,
         "construction_groups": [
             {
@@ -7378,7 +7894,7 @@
         "description": "Thin and prim like the lips of the snobs beneath it.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_colonnade_slender_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 5,
         "construction_groups": [
             {
@@ -7418,7 +7934,7 @@
         "description": "A caterpillar of cool from the Latium sun.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_colonnade_roofed_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 5,
         "construction_groups": [
             {
@@ -7458,7 +7974,7 @@
         "description": "Perfect for frigid strolls through Albion's marshland.",
         "origin": "Hall Of Fame",
         "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_colonnade_celtic_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 0,
         "construction_groups": [
             {
@@ -7526,7 +8042,7 @@
         "description": "Held together by a promise, just like the limes of empire.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_wall_celtic_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 0,
         "construction_groups": [
             {
@@ -7566,7 +8082,7 @@
         "description": "Walls are a two-way thing.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_wall_roman_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 5,
         "construction_groups": [
             {
@@ -7606,7 +8122,7 @@
         "description": "The way to and from the obligations of the day.",
         "origin": "Base",
         "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_wall_roman_gate_0.webp",
-        "prestige": 0,
+        "prestige": 1,
         "cost": 100,
         "construction_groups": [
             {
@@ -7636,6 +8152,142 @@
             {
                 "top_level_guid": "153559",
                 "construction_group_guid": "80618"
+            }
+        ]
+    },
+    "175178": {
+        "uid": 175178,
+        "name": "HoF Ornament Wall Aegyptus",
+        "title": "Mudbrick Wall",
+        "description": "Keeps the Nine-Bows from preying on the riches of the Delta.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_wall_egypt_0.webp",
+        "prestige": 1,
+        "cost": 5,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "175179": {
+        "uid": 175179,
+        "name": "HoF Ornament Wall Aegyptus Gate",
+        "title": "Mudbrick Gate",
+        "description": "Admits and administers.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_wall_egypt_gate_0.webp",
+        "prestige": 1,
+        "cost": 100,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80618",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80618"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
             }
         ]
     },
@@ -8139,6 +8791,346 @@
             }
         ]
     },
+    "149836": {
+        "uid": 149836,
+        "name": "HoF Ornament Roman 1x1 Benches",
+        "title": "Game Table",
+        "description": "Do you play tabula?",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_benches_01_0.webp",
+        "prestige": 1,
+        "cost": 20,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "149837": {
+        "uid": 149837,
+        "name": "HoF Ornament Roman 2x1 Benches",
+        "title": "Game Table",
+        "description": "Do you play tabula?",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_benches_02_0.webp",
+        "prestige": 2,
+        "cost": 50,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "149859": {
+        "uid": 149859,
+        "name": "HoF Ornament Roman 1x1 Market Stall Small",
+        "title": "Small Market Stall",
+        "description": "Even if the selection is modest, it is of select quality.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_market_stand_01_0.webp",
+        "prestige": 1,
+        "cost": 10,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "149860": {
+        "uid": 149860,
+        "name": "HoF Ornament Roman 2x1 Market Stall Medium",
+        "title": "Common Market Stall",
+        "description": "The more prosperous among vendors can afford to shield themselves from the sun.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_market_stand_08_0.webp",
+        "prestige": 2,
+        "cost": 20,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "149861": {
+        "uid": 149861,
+        "name": "HoF Ornament Roman 3x3 Market Stall Large",
+        "title": "Large Market Stall",
+        "description": "Behold the true wealth of an empire\u2014 its wares. ",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_market_stand_11_0.webp",
+        "prestige": 9,
+        "cost": 90,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
     "174502": {
         "uid": 174502,
         "name": "Twitch Ornament Obelisk",
@@ -8207,6 +9199,210 @@
             }
         ]
     },
+    "184192": {
+        "uid": 184192,
+        "name": "HoF Ornament Egyptian 2x1 Market Stall Medium",
+        "title": "Common Market Stall",
+        "description": "The more prosperous among vendors can afford to shield themselves from the sun.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_market_2x1_01_0.webp",
+        "prestige": 2,
+        "cost": 20,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "184193": {
+        "uid": 184193,
+        "name": "HoF Ornament Egyptian 2x2 Market Stall Medium",
+        "title": "Common Market Stall",
+        "description": "The more prosperous among vendors can afford to shield themselves from the sun.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_market_2x2_03_0.webp",
+        "prestige": 2,
+        "cost": 20,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
+    "184191": {
+        "uid": 184191,
+        "name": "HoF Ornament Egyptian 1x1 Market Stall Small",
+        "title": "Common Market Stall",
+        "description": "The more prosperous among vendors can afford to shield themselves from the sun.",
+        "origin": "Hall Of Fame",
+        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/aegyptus/icon_3d_market_1x1_01_0.webp",
+        "prestige": 2,
+        "cost": 20,
+        "construction_groups": [
+            {
+                "top_level_guid": "80961",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "80966",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "80582",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "87448",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "14194",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96841",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "96842",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "96843",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153558",
+                "construction_group_guid": "87448"
+            },
+            {
+                "top_level_guid": "153559",
+                "construction_group_guid": "80582"
+            },
+            {
+                "top_level_guid": "153561",
+                "construction_group_guid": "87448"
+            }
+        ]
+    },
     "41342": {
         "uid": 41342,
         "name": "Quay Roman",
@@ -8244,6 +9440,26 @@
             {
                 "top_level_guid": "55978",
                 "construction_group_guid": "41339"
+            }
+        ]
+    },
+    "152205": {
+        "uid": 152205,
+        "name": "Quay Greco Roman",
+        "title": "Quay",
+        "description": "Decorates the harbour area.",
+        "origin": "Base",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_quay_0.webp",
+        "prestige": 0,
+        "cost": 20,
+        "construction_groups": [
+            {
+                "top_level_guid": "149843",
+                "construction_group_guid": "149843"
+            },
+            {
+                "top_level_guid": "149687",
+                "construction_group_guid": "149843"
             }
         ]
     }

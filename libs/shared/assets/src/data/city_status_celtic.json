@@ -1,752 +1,1002 @@
 {
     "celtic_01": {
-        "uid": 8503,
+        "guid": "8503",
+        "std_name": "City Status Celtic 01",
         "name": "Outpost",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_01_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_01_0.webp",
         "required_population": 0,
+        "incident_interval": {
+            "fire": 0,
+            "unrest": 0,
+            "disease": 0,
+            "inferno": 0,
+            "rebellion": 0,
+            "plague": 0,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_regional": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_mixed": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         }
     },
     "celtic_02": {
-        "uid": 8504,
+        "guid": "8504",
+        "std_name": "City Status Celtic 02",
         "name": "Small Vicus",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_02_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_02_0.webp",
         "required_population": 150,
+        "incident_interval": {
+            "fire": 0,
+            "unrest": 0,
+            "disease": 3600,
+            "inferno": 0,
+            "rebellion": 0,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_regional": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_mixed": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         }
     },
     "celtic_03": {
-        "uid": 8505,
+        "guid": "8505",
+        "std_name": "City Status Celtic 03",
         "name": "Large Vicus",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_03_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_03_0.webp",
         "required_population": 350,
+        "incident_interval": {
+            "fire": 0,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 0,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 1.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": -1.0
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": -1
         },
         "attribute_effects_regional": {
-            "belief": 1.5,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": -1.0
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_mixed": {
-            "belief": 1.5,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": -1.0
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         }
     },
     "celtic_04": {
-        "uid": 8506,
+        "guid": "8506",
+        "std_name": "City Status Celtic 04",
         "name": "Minor Town",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_04_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_04_0.webp",
         "required_population": 750,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 2.0,
-            "knowledge": 1.5,
-            "prestige": 0.0,
-            "happiness": -1.0,
-            "fire_safety": 0.0,
-            "health": -2.0
+            "belief": 2,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": 0,
+            "health": -2
         },
         "attribute_effects_regional": {
-            "belief": 3.0,
-            "knowledge": 1.0,
-            "prestige": 0.0,
-            "happiness": -1.0,
-            "fire_safety": 0.0,
-            "health": -2.0
+            "belief": 3,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": 0,
+            "health": -1
         },
         "attribute_effects_mixed": {
-            "belief": 3.0,
-            "knowledge": 1.5,
-            "prestige": 0.0,
-            "happiness": -1.5,
-            "fire_safety": 0.0,
-            "health": -2.0
+            "belief": 3,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": 0,
+            "health": -1
         }
     },
     "celtic_05": {
-        "uid": 8507,
+        "guid": "8507",
+        "std_name": "City Status Celtic 05",
         "name": "Growing Town",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_05_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_05_0.webp",
         "required_population": 1250,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 3.0,
-            "knowledge": 3.0,
-            "prestige": 1.0,
-            "happiness": -2.0,
-            "fire_safety": -1.0,
-            "health": -3.0
+            "belief": 3,
+            "knowledge": 3,
+            "prestige": 1,
+            "happiness": -2,
+            "fire_safety": 0,
+            "health": -3
         },
         "attribute_effects_regional": {
-            "belief": 4.5,
-            "knowledge": 2.0,
-            "prestige": 1.0,
-            "happiness": -2.0,
-            "fire_safety": -0.2,
-            "health": -3.0
+            "belief": 4,
+            "knowledge": 2,
+            "prestige": 1,
+            "happiness": -2,
+            "fire_safety": 0,
+            "health": -2
         },
         "attribute_effects_mixed": {
-            "belief": 4.5,
-            "knowledge": 3.0,
-            "prestige": 1.0,
-            "happiness": -3.0,
-            "fire_safety": -0.6,
-            "health": -3.0
+            "belief": 4,
+            "knowledge": 3,
+            "prestige": 1,
+            "happiness": -3,
+            "fire_safety": 0,
+            "health": -2
         }
     },
     "celtic_06": {
-        "uid": 8508,
+        "guid": "8508",
+        "std_name": "City Status Celtic 06",
         "name": "Large Town",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_06_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_06_0.webp",
         "required_population": 2500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 4.0,
-            "knowledge": 4.5,
-            "prestige": 2.0,
-            "happiness": -4.0,
-            "fire_safety": -2.0,
-            "health": -5.0
+            "belief": 4,
+            "knowledge": 4,
+            "prestige": 2,
+            "happiness": -4,
+            "fire_safety": -1,
+            "health": -5
         },
         "attribute_effects_regional": {
-            "belief": 6.0,
-            "knowledge": 3.0,
-            "prestige": 2.0,
-            "happiness": -4.0,
-            "fire_safety": -0.4,
-            "health": -4.0
+            "belief": 6,
+            "knowledge": 3,
+            "prestige": 2,
+            "happiness": -4,
+            "fire_safety": 0,
+            "health": -3
         },
         "attribute_effects_mixed": {
-            "belief": 6.0,
-            "knowledge": 4.5,
-            "prestige": 2.0,
-            "happiness": -6.0,
-            "fire_safety": -1.2,
-            "health": -4.5
+            "belief": 6,
+            "knowledge": 4,
+            "prestige": 2,
+            "happiness": -6,
+            "fire_safety": 0,
+            "health": -4
         }
     },
     "celtic_07": {
-        "uid": 8509,
+        "guid": "8509",
+        "std_name": "City Status Celtic 07",
         "name": "Minor City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_07_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_07_0.webp",
         "required_population": 3500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 5.0,
-            "knowledge": 6.0,
-            "prestige": 3.0,
-            "happiness": -6.0,
-            "fire_safety": -3.0,
-            "health": -6.0
+            "belief": 5,
+            "knowledge": 6,
+            "prestige": 3,
+            "happiness": -6,
+            "fire_safety": -2,
+            "health": -6
         },
         "attribute_effects_regional": {
-            "belief": 7.5,
-            "knowledge": 4.0,
-            "prestige": 3.0,
-            "happiness": -6.0,
-            "fire_safety": -0.6,
-            "health": -4.2
+            "belief": 7,
+            "knowledge": 4,
+            "prestige": 3,
+            "happiness": -6,
+            "fire_safety": 0,
+            "health": -4
         },
         "attribute_effects_mixed": {
-            "belief": 7.5,
-            "knowledge": 6.0,
-            "prestige": 3.0,
-            "happiness": -9.0,
-            "fire_safety": -1.8,
-            "health": -5.1
+            "belief": 7,
+            "knowledge": 6,
+            "prestige": 3,
+            "happiness": -9,
+            "fire_safety": -1,
+            "health": -5
         }
     },
     "celtic_08": {
-        "uid": 8510,
+        "guid": "8510",
+        "std_name": "City Status Celtic 08",
         "name": "Growing City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_08_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_08_0.webp",
         "required_population": 5000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 6.0,
-            "knowledge": 7.5,
-            "prestige": 4.0,
-            "happiness": -6.5,
-            "fire_safety": -4.0,
-            "health": -7.0
+            "belief": 6,
+            "knowledge": 7,
+            "prestige": 4,
+            "happiness": -6,
+            "fire_safety": -3,
+            "health": -7
         },
         "attribute_effects_regional": {
-            "belief": 9.0,
-            "knowledge": 5.0,
-            "prestige": 4.0,
-            "happiness": -7.0,
-            "fire_safety": -0.8,
-            "health": -4.4
+            "belief": 9,
+            "knowledge": 5,
+            "prestige": 4,
+            "happiness": -7,
+            "fire_safety": 0,
+            "health": -4
         },
         "attribute_effects_mixed": {
-            "belief": 9.0,
-            "knowledge": 7.5,
-            "prestige": 4.0,
-            "happiness": -10.15,
-            "fire_safety": -2.4,
-            "health": -5.7
+            "belief": 9,
+            "knowledge": 7,
+            "prestige": 4,
+            "happiness": -10,
+            "fire_safety": -1,
+            "health": -5
         }
     },
     "celtic_09": {
-        "uid": 8511,
+        "guid": "8511",
+        "std_name": "City Status Celtic 09",
         "name": "Major City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_09_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_09_0.webp",
         "required_population": 7500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 7.0,
-            "knowledge": 9.0,
-            "prestige": 5.0,
-            "happiness": -7.0,
-            "fire_safety": -5.0,
-            "health": -8.0
+            "belief": 7,
+            "knowledge": 9,
+            "prestige": 5,
+            "happiness": -7,
+            "fire_safety": -4,
+            "health": -8
         },
         "attribute_effects_regional": {
-            "belief": 10.5,
-            "knowledge": 6.0,
-            "prestige": 5.0,
-            "happiness": -8.0,
-            "fire_safety": -1.0,
-            "health": -4.6
+            "belief": 10,
+            "knowledge": 6,
+            "prestige": 5,
+            "happiness": -8,
+            "fire_safety": 0,
+            "health": -4
         },
         "attribute_effects_mixed": {
-            "belief": 10.5,
-            "knowledge": 9.0,
-            "prestige": 5.0,
-            "happiness": -11.25,
-            "fire_safety": -3.0,
-            "health": -6.3
+            "belief": 10,
+            "knowledge": 9,
+            "prestige": 5,
+            "happiness": -11,
+            "fire_safety": -2,
+            "health": -6
         }
     },
     "celtic_10": {
-        "uid": 8512,
+        "guid": "8512",
+        "std_name": "City Status Celtic 10",
         "name": "Minor Colonia",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_10_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_10_0.webp",
         "required_population": 10000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 8.0,
-            "knowledge": 10.5,
-            "prestige": 6.0,
-            "happiness": -7.5,
-            "fire_safety": -5.2,
-            "health": -9.0
+            "belief": 8,
+            "knowledge": 10,
+            "prestige": 6,
+            "happiness": -7,
+            "fire_safety": -4,
+            "health": -9
         },
         "attribute_effects_regional": {
-            "belief": 12.0,
-            "knowledge": 7.0,
-            "prestige": 6.0,
-            "happiness": -9.0,
-            "fire_safety": -1.1,
-            "health": -4.8
+            "belief": 12,
+            "knowledge": 7,
+            "prestige": 6,
+            "happiness": -9,
+            "fire_safety": 0,
+            "health": -4
         },
         "attribute_effects_mixed": {
-            "belief": 12.0,
-            "knowledge": 10.5,
-            "prestige": 6.0,
-            "happiness": -12.4,
-            "fire_safety": -3.15,
-            "health": -6.9
+            "belief": 12,
+            "knowledge": 10,
+            "prestige": 6,
+            "happiness": -12,
+            "fire_safety": -2,
+            "health": -6
         }
     },
     "celtic_11": {
-        "uid": 8513,
+        "guid": "8513",
+        "std_name": "City Status Celtic 11",
         "name": "Growing Colonia",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_11_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_11_0.webp",
         "required_population": 12500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 9.0,
-            "knowledge": 12.0,
-            "prestige": 7.0,
-            "happiness": -8.0,
-            "fire_safety": -5.4,
-            "health": -9.2
+            "belief": 9,
+            "knowledge": 12,
+            "prestige": 7,
+            "happiness": -8,
+            "fire_safety": -5,
+            "health": -9
         },
         "attribute_effects_regional": {
-            "belief": 13.5,
-            "knowledge": 8.0,
-            "prestige": 7.0,
-            "happiness": -10.0,
-            "fire_safety": -1.2,
-            "health": -5.0
+            "belief": 13,
+            "knowledge": 8,
+            "prestige": 7,
+            "happiness": -10,
+            "fire_safety": 0,
+            "health": -4
         },
         "attribute_effects_mixed": {
-            "belief": 13.5,
-            "knowledge": 12.0,
-            "prestige": 7.0,
-            "happiness": -13.5,
-            "fire_safety": -3.3,
-            "health": -7.1
+            "belief": 13,
+            "knowledge": 12,
+            "prestige": 7,
+            "happiness": -13,
+            "fire_safety": -2,
+            "health": -7
         }
     },
     "celtic_12": {
-        "uid": 8514,
+        "guid": "8514",
+        "std_name": "City Status Celtic 12",
         "name": "Major Colonia",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_12_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_12_0.webp",
         "required_population": 15000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 10.0,
-            "knowledge": 13.5,
-            "prestige": 8.0,
-            "happiness": -8.2,
-            "fire_safety": -5.6,
-            "health": -9.4
+            "belief": 10,
+            "knowledge": 13,
+            "prestige": 8,
+            "happiness": -8,
+            "fire_safety": -5,
+            "health": -9
         },
         "attribute_effects_regional": {
-            "belief": 15.0,
-            "knowledge": 9.0,
-            "prestige": 8.0,
-            "happiness": -10.2,
-            "fire_safety": -1.3,
-            "health": -5.2
+            "belief": 15,
+            "knowledge": 9,
+            "prestige": 8,
+            "happiness": -10,
+            "fire_safety": 0,
+            "health": -5
         },
         "attribute_effects_mixed": {
-            "belief": 15.0,
-            "knowledge": 13.5,
-            "prestige": 8.0,
-            "happiness": -13.8,
-            "fire_safety": -3.45,
-            "health": -7.3
+            "belief": 15,
+            "knowledge": 13,
+            "prestige": 8,
+            "happiness": -13,
+            "fire_safety": -3,
+            "health": -7
         }
     },
     "celtic_13": {
-        "uid": 8515,
+        "guid": "8515",
+        "std_name": "City Status Celtic 13",
         "name": "Vast Colonia",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_13_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_13_0.webp",
         "required_population": 17500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 11.0,
-            "knowledge": 15.0,
-            "prestige": 9.0,
-            "happiness": -8.4,
-            "fire_safety": -5.8,
-            "health": -9.6
+            "belief": 11,
+            "knowledge": 15,
+            "prestige": 9,
+            "happiness": -8,
+            "fire_safety": -5,
+            "health": -9
         },
         "attribute_effects_regional": {
-            "belief": 16.5,
-            "knowledge": 10.0,
-            "prestige": 9.0,
-            "happiness": -10.4,
-            "fire_safety": -1.35,
-            "health": -5.4
+            "belief": 16,
+            "knowledge": 10,
+            "prestige": 9,
+            "happiness": -10,
+            "fire_safety": 0,
+            "health": -5
         },
         "attribute_effects_mixed": {
-            "belief": 16.5,
-            "knowledge": 15.0,
-            "prestige": 9.0,
-            "happiness": -14.1,
-            "fire_safety": -3.6,
-            "health": -7.5
+            "belief": 16,
+            "knowledge": 15,
+            "prestige": 9,
+            "happiness": -14,
+            "fire_safety": -3,
+            "health": -7
         }
     },
     "celtic_14": {
-        "uid": 8516,
+        "guid": "8516",
+        "std_name": "City Status Celtic 14",
         "name": "Minor Imperial City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_14_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_14_0.webp",
         "required_population": 20000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 12.0,
-            "knowledge": 16.5,
-            "prestige": 10.0,
-            "happiness": -8.6,
-            "fire_safety": -6.0,
-            "health": -9.8
+            "belief": 12,
+            "knowledge": 16,
+            "prestige": 10,
+            "happiness": -8,
+            "fire_safety": -5,
+            "health": -9
         },
         "attribute_effects_regional": {
-            "belief": 18.0,
-            "knowledge": 11.0,
-            "prestige": 10.0,
-            "happiness": -10.6,
-            "fire_safety": -1.4,
-            "health": -5.6
+            "belief": 18,
+            "knowledge": 11,
+            "prestige": 10,
+            "happiness": -10,
+            "fire_safety": -1,
+            "health": -5
         },
         "attribute_effects_mixed": {
-            "belief": 18.0,
-            "knowledge": 16.5,
-            "prestige": 10.0,
-            "happiness": -14.4,
-            "fire_safety": -3.7,
-            "health": -7.7
+            "belief": 18,
+            "knowledge": 16,
+            "prestige": 10,
+            "happiness": -14,
+            "fire_safety": -3,
+            "health": -7
         }
     },
     "celtic_15": {
-        "uid": 8517,
+        "guid": "8517",
+        "std_name": "City Status Celtic 15",
         "name": "Growing Imperial City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_15_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_15_0.webp",
         "required_population": 22500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 13.0,
-            "knowledge": 18.0,
-            "prestige": 11.0,
-            "happiness": -8.8,
-            "fire_safety": -6.2,
-            "health": -10.0
+            "belief": 13,
+            "knowledge": 18,
+            "prestige": 11,
+            "happiness": -8,
+            "fire_safety": -5,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 19.5,
-            "knowledge": 12.0,
-            "prestige": 11.0,
-            "happiness": -10.8,
-            "fire_safety": -1.45,
-            "health": -5.7
+            "belief": 19,
+            "knowledge": 12,
+            "prestige": 11,
+            "happiness": -10,
+            "fire_safety": -1,
+            "health": -5
         },
         "attribute_effects_mixed": {
-            "belief": 19.5,
-            "knowledge": 18.0,
-            "prestige": 11.0,
-            "happiness": -14.7,
-            "fire_safety": -3.85,
-            "health": -7.85
+            "belief": 19,
+            "knowledge": 18,
+            "prestige": 11,
+            "happiness": -14,
+            "fire_safety": -3,
+            "health": -7
         }
     },
     "celtic_16": {
-        "uid": 8518,
+        "guid": "8518",
+        "std_name": "City Status Celtic 16",
         "name": "Major Imperial City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_16_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_16_0.webp",
         "required_population": 25000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 14.0,
-            "knowledge": 19.5,
-            "prestige": 12.0,
-            "happiness": -9.0,
-            "fire_safety": -6.4,
-            "health": -10.2
+            "belief": 14,
+            "knowledge": 19,
+            "prestige": 12,
+            "happiness": -9,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 21.0,
-            "knowledge": 13.0,
-            "prestige": 12.0,
-            "happiness": -11.0,
-            "fire_safety": -1.5,
-            "health": -5.8
+            "belief": 21,
+            "knowledge": 13,
+            "prestige": 12,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -5
         },
         "attribute_effects_mixed": {
-            "belief": 21.0,
-            "knowledge": 19.5,
-            "prestige": 12.0,
-            "happiness": -15.0,
-            "fire_safety": -3.95,
-            "health": -8.0
+            "belief": 21,
+            "knowledge": 19,
+            "prestige": 12,
+            "happiness": -15,
+            "fire_safety": -3,
+            "health": -8
         }
     },
     "celtic_17": {
-        "uid": 8519,
+        "guid": "8519",
+        "std_name": "City Status Celtic 17",
         "name": "Vast Imperial City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_17_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_17_0.webp",
         "required_population": 27500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 15.0,
-            "knowledge": 21.0,
-            "prestige": 13.0,
-            "happiness": -9.2,
-            "fire_safety": -6.6,
-            "health": -10.4
+            "belief": 15,
+            "knowledge": 21,
+            "prestige": 13,
+            "happiness": -9,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 22.5,
-            "knowledge": 14.0,
-            "prestige": 13.0,
-            "happiness": -11.2,
-            "fire_safety": -1.55,
-            "health": -5.9
+            "belief": 22,
+            "knowledge": 14,
+            "prestige": 13,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -5
         },
         "attribute_effects_mixed": {
-            "belief": 22.5,
-            "knowledge": 21.0,
-            "prestige": 13.0,
-            "happiness": -15.3,
-            "fire_safety": -4.1,
-            "health": -8.15
+            "belief": 22,
+            "knowledge": 21,
+            "prestige": 13,
+            "happiness": -15,
+            "fire_safety": -4,
+            "health": -8
         }
     },
     "celtic_18": {
-        "uid": 8520,
+        "guid": "8520",
+        "std_name": "City Status Celtic 18",
         "name": "Minor Megalopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_18_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_18_0.webp",
         "required_population": 30000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 16.0,
-            "knowledge": 22.5,
-            "prestige": 14.0,
-            "happiness": -9.4,
-            "fire_safety": -6.8,
-            "health": -10.6
+            "belief": 16,
+            "knowledge": 22,
+            "prestige": 14,
+            "happiness": -9,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 24.0,
-            "knowledge": 15.0,
-            "prestige": 14.0,
-            "happiness": -11.4,
-            "fire_safety": -1.6,
-            "health": -6.0
+            "belief": 24,
+            "knowledge": 15,
+            "prestige": 14,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -6
         },
         "attribute_effects_mixed": {
-            "belief": 24.0,
-            "knowledge": 22.5,
-            "prestige": 14.0,
-            "happiness": -15.6,
-            "fire_safety": -4.2,
-            "health": -8.3
+            "belief": 24,
+            "knowledge": 22,
+            "prestige": 14,
+            "happiness": -15,
+            "fire_safety": -4,
+            "health": -8
         }
     },
     "celtic_19": {
-        "uid": 21115,
+        "guid": "21115",
+        "std_name": "City Status Celtic 19",
         "name": "Growing Megalopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_19_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_19_0.webp",
         "required_population": 32500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 17.0,
-            "knowledge": 24.0,
-            "prestige": 15.0,
-            "happiness": -9.6,
-            "fire_safety": -7.0,
-            "health": -10.8
+            "belief": 17,
+            "knowledge": 24,
+            "prestige": 15,
+            "happiness": -9,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 25.5,
-            "knowledge": 16.0,
-            "prestige": 15.0,
-            "happiness": -11.6,
-            "fire_safety": -1.65,
-            "health": -6.1
+            "belief": 25,
+            "knowledge": 16,
+            "prestige": 15,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -6
         },
         "attribute_effects_mixed": {
-            "belief": 25.5,
-            "knowledge": 24.0,
-            "prestige": 15.0,
-            "happiness": -15.9,
-            "fire_safety": -4.35,
-            "health": -8.45
+            "belief": 25,
+            "knowledge": 24,
+            "prestige": 15,
+            "happiness": -15,
+            "fire_safety": -4,
+            "health": -8
         }
     },
     "celtic_20": {
-        "uid": 21116,
+        "guid": "21116",
+        "std_name": "City Status Celtic 20",
         "name": "Major Megalopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_20_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_20_0.webp",
         "required_population": 35000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 18.0,
-            "knowledge": 25.5,
-            "prestige": 16.0,
-            "happiness": -9.8,
-            "fire_safety": -7.2,
-            "health": -11.0
+            "belief": 18,
+            "knowledge": 25,
+            "prestige": 16,
+            "happiness": -9,
+            "fire_safety": -6,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 27.0,
-            "knowledge": 17.0,
-            "prestige": 16.0,
-            "happiness": -11.8,
-            "fire_safety": -1.7,
-            "health": -6.2
+            "belief": 27,
+            "knowledge": 17,
+            "prestige": 16,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -6
         },
         "attribute_effects_mixed": {
-            "belief": 27.0,
-            "knowledge": 25.5,
-            "prestige": 16.0,
-            "happiness": -16.2,
-            "fire_safety": -4.45,
-            "health": -8.6
+            "belief": 27,
+            "knowledge": 25,
+            "prestige": 16,
+            "happiness": -16,
+            "fire_safety": -4,
+            "health": -8
         }
     },
     "celtic_21": {
-        "uid": 21117,
+        "guid": "21117",
+        "std_name": "City Status Celtic 21",
         "name": "Vast Megalopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_21_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_21_0.webp",
         "required_population": 37500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 19.0,
-            "knowledge": 27.0,
-            "prestige": 17.0,
-            "happiness": -10.0,
-            "fire_safety": -7.4,
-            "health": -11.2
+            "belief": 19,
+            "knowledge": 27,
+            "prestige": 17,
+            "happiness": -10,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 28.5,
-            "knowledge": 18.0,
-            "prestige": 17.0,
-            "happiness": -12.0,
-            "fire_safety": -1.75,
-            "health": -6.3
+            "belief": 28,
+            "knowledge": 18,
+            "prestige": 17,
+            "happiness": -12,
+            "fire_safety": -1,
+            "health": -6
         },
         "attribute_effects_mixed": {
-            "belief": 28.5,
-            "knowledge": 27.0,
-            "prestige": 17.0,
-            "happiness": -16.5,
-            "fire_safety": -4.6,
-            "health": -8.75
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 17,
+            "happiness": -16,
+            "fire_safety": -4,
+            "health": -8
         }
     },
     "celtic_22": {
-        "uid": 21118,
+        "guid": "21118",
+        "std_name": "City Status Celtic 22",
         "name": "Minor Cosmopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_22_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_22_0.webp",
         "required_population": 40000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 20.0,
-            "knowledge": 28.5,
-            "prestige": 18.0,
-            "happiness": -10.2,
-            "fire_safety": -7.6,
-            "health": -11.4
+            "belief": 20,
+            "knowledge": 28,
+            "prestige": 18,
+            "happiness": -10,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 30.0,
-            "knowledge": 19.0,
-            "prestige": 18.0,
-            "happiness": -12.2,
-            "fire_safety": -1.8,
-            "health": -6.4
+            "belief": 30,
+            "knowledge": 19,
+            "prestige": 18,
+            "happiness": -12,
+            "fire_safety": -1,
+            "health": -6
         },
         "attribute_effects_mixed": {
-            "belief": 30.0,
-            "knowledge": 28.5,
-            "prestige": 18.0,
-            "happiness": -16.8,
-            "fire_safety": -4.7,
-            "health": -8.9
+            "belief": 30,
+            "knowledge": 28,
+            "prestige": 18,
+            "happiness": -16,
+            "fire_safety": -4,
+            "health": -8
         }
     },
     "celtic_23": {
-        "uid": 21119,
+        "guid": "21119",
+        "std_name": "City Status Celtic 23",
         "name": "Growing Cosmopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_23_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_23_0.webp",
         "required_population": 42500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 21.0,
-            "knowledge": 30.0,
-            "prestige": 19.0,
-            "happiness": -10.4,
-            "fire_safety": -7.8,
-            "health": -11.6
+            "belief": 21,
+            "knowledge": 30,
+            "prestige": 19,
+            "happiness": -10,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 31.5,
-            "knowledge": 20.0,
-            "prestige": 19.0,
-            "happiness": -12.4,
-            "fire_safety": -1.85,
-            "health": -6.5
+            "belief": 31,
+            "knowledge": 20,
+            "prestige": 19,
+            "happiness": -12,
+            "fire_safety": -1,
+            "health": -6
         },
         "attribute_effects_mixed": {
-            "belief": 31.5,
-            "knowledge": 30.0,
-            "prestige": 19.0,
-            "happiness": -17.1,
-            "fire_safety": -4.85,
-            "health": -9.05
+            "belief": 31,
+            "knowledge": 30,
+            "prestige": 19,
+            "happiness": -17,
+            "fire_safety": -4,
+            "health": -9
         }
     },
     "celtic_24": {
-        "uid": 21120,
+        "guid": "21120",
+        "std_name": "City Status Celtic 24",
         "name": "Major Cosmopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_24_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_24_0.webp",
         "required_population": 45000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 22.0,
-            "knowledge": 31.5,
-            "prestige": 20.0,
-            "happiness": -10.5,
-            "fire_safety": -8.0,
-            "health": -11.8
+            "belief": 22,
+            "knowledge": 31,
+            "prestige": 20,
+            "happiness": -10,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 33.0,
-            "knowledge": 21.0,
-            "prestige": 20.0,
-            "happiness": -12.5,
-            "fire_safety": -1.9,
-            "health": -6.6
+            "belief": 33,
+            "knowledge": 21,
+            "prestige": 20,
+            "happiness": -12,
+            "fire_safety": -1,
+            "health": -6
         },
         "attribute_effects_mixed": {
-            "belief": 33.0,
-            "knowledge": 31.5,
-            "prestige": 20.0,
-            "happiness": -17.25,
-            "fire_safety": -4.95,
-            "health": -9.2
+            "belief": 33,
+            "knowledge": 31,
+            "prestige": 20,
+            "happiness": -17,
+            "fire_safety": -4,
+            "health": -9
         }
     },
     "celtic_25": {
-        "uid": 21121,
+        "guid": "21121",
+        "std_name": "City Status Celtic 25",
         "name": "Vast Cosmopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_25_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_25_0.webp",
         "required_population": 47500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 180
+        },
         "attribute_effects_roman": {
-            "belief": 23.0,
-            "knowledge": 33.0,
-            "prestige": 21.0,
-            "happiness": -10.6,
-            "fire_safety": -8.2,
-            "health": -12.0
+            "belief": 23,
+            "knowledge": 33,
+            "prestige": 21,
+            "happiness": -10,
+            "fire_safety": -7,
+            "health": -12
         },
         "attribute_effects_regional": {
-            "belief": 34.5,
-            "knowledge": 22.0,
-            "prestige": 21.0,
-            "happiness": -12.6,
-            "fire_safety": -1.95,
-            "health": -6.7
+            "belief": 34,
+            "knowledge": 22,
+            "prestige": 21,
+            "happiness": -12,
+            "fire_safety": -1,
+            "health": -6
         },
         "attribute_effects_mixed": {
-            "belief": 34.5,
-            "knowledge": 33.0,
-            "prestige": 21.0,
-            "happiness": -17.4,
-            "fire_safety": -5.1,
-            "health": -9.35
+            "belief": 34,
+            "knowledge": 33,
+            "prestige": 21,
+            "happiness": -17,
+            "fire_safety": -4,
+            "health": -9
         }
     }
 }

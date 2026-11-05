@@ -9,7 +9,7 @@
         "guid": "150268",
         "name": "cDLC01 Subcategory Plazas",
         "localized_name": "Ground Patterns",
-        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_01_01_cover_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_ground_pattern_0.webp"
     },
     "144823": {
         "guid": "144823",
@@ -63,13 +63,13 @@
         "guid": "150271",
         "name": "cDLC01 Subcategory Structures",
         "localized_name": "Structures and Buildings",
-        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_roman_mosaic_3x3_01_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_structures_0.webp"
     },
     "150269": {
         "guid": "150269",
         "name": "cDLC01 Subcategory Walls",
         "localized_name": "Walls and Hedges",
-        "icon_url": "assets/icons/cdlc01/ornaments/icon_3d_cdlc01_wall_roman_01_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_walls_0.webp"
     },
     "152312": {
         "guid": "152312",
@@ -81,13 +81,13 @@
         "guid": "158414",
         "name": "cDLC02 Subcategory Landscape",
         "localized_name": "Landscaping Patterns",
-        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_01_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_landscape_0.webp"
     },
     "152330": {
         "guid": "152330",
         "name": "cDLC02 Subcategory Plazas DEPRECATED",
         "localized_name": "Ground Patterns",
-        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_flower_01_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_landscape_0.webp"
     },
     "152315": {
         "guid": "152315",
@@ -105,19 +105,19 @@
         "guid": "152328",
         "name": "cDLC02 Subcategory Planters",
         "localized_name": "Horticultural Displays",
-        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_plant_01_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_city_foliage_0.webp"
     },
     "152329": {
         "guid": "152329",
         "name": "cDLC02 Subcategory Structures",
         "localized_name": "Structures and Buildings",
-        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_temple_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_structures_0.webp"
     },
     "152987": {
         "guid": "152987",
         "name": "cDLC02 Subcategory Walls",
         "localized_name": "Walls and Hedges",
-        "icon_url": "assets/icons/cdlc02/ornaments/icon_3d_cdlc02_garden_wall_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_walls_0.webp"
     },
     "172238": {
         "guid": "172238",
@@ -129,7 +129,7 @@
         "guid": "172239",
         "name": "cDLC03 Subcategory Statues",
         "localized_name": "Sculpture and Statuary",
-        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_statue_apollo_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_decoration_0.webp"
     },
     "172240": {
         "guid": "172240",
@@ -147,19 +147,19 @@
         "guid": "180466",
         "name": "cDLC03 Subcategory Structures",
         "localized_name": "Structures and Buildings",
-        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_gorgo_latium_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_structures_0.webp"
     },
     "180467": {
         "guid": "180467",
         "name": "cDLC03 Subcategory Structures Celtic",
         "localized_name": "No Title",
-        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_gorgo_albion_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_structures_0.webp"
     },
     "181008": {
         "guid": "181008",
         "name": "cDLC03 Subcategory Structures Egyptian",
         "localized_name": "No Title",
-        "icon_url": "assets/icons/cdlc03/icon_3d_cdlc03_gorgo_egypt_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_structures_0.webp"
     },
     "80961": {
         "guid": "80961",
@@ -171,7 +171,7 @@
         "guid": "80581",
         "name": "Global Ornaments Subcategory Base Plazas",
         "localized_name": "Ground Patterns",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_ground_romanpavement_cover_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_ground_pattern_0.webp"
     },
     "96842": {
         "guid": "96842",
@@ -213,25 +213,25 @@
         "guid": "158413",
         "name": "Global Ornaments Subcategory Base Landscape",
         "localized_name": "Landscaping Patterns",
-        "icon_url": "assets/icons/base/icon_content/ornaments/landscaping/icon_3d_landscaping_forest_latium_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_landscape_0.webp"
     },
     "80597": {
         "guid": "80597",
         "name": "Global Ornaments Subcategory Base Foliage",
         "localized_name": "Natural Foliage",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_tree_roman_olive_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_natural_foliage_0.webp"
     },
     "80595": {
         "guid": "80595",
         "name": "Global Ornaments Subcategory Base Planters",
         "localized_name": "Horticultural Displays",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_treeplanter_roman_coniferous_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_city_foliage_0.webp"
     },
     "80580": {
         "guid": "80580",
         "name": "Global Ornaments Subcategory Base Statues",
         "localized_name": "Sculpture and Statuary",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_statue_community_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_decoration_0.webp"
     },
     "80954": {
         "guid": "80954",
@@ -243,19 +243,19 @@
         "guid": "80617",
         "name": "Global Ornaments Subcategory Base Structures",
         "localized_name": "Structures and Buildings",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_arch_column_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_structures_0.webp"
     },
     "80618": {
         "guid": "80618",
         "name": "Global Ornaments Subcategory Base Walls",
         "localized_name": "Walls and Hedges",
-        "icon_url": "assets/icons/base/icon_content/ornaments/hall_of_fame/icon_3d_colonnade_slender_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_walls_0.webp"
     },
     "80582": {
         "guid": "80582",
         "name": "Global Ornaments Subcategory Base Misc",
         "localized_name": "Miscellaneous",
-        "icon_url": "assets/icons/base/icon_content/ornaments/icon_3d_brazier_medium_0.webp"
+        "icon_url": "assets/icons/base/icon_content/building/ornament/icon_3d_cosmetic_category_highlight_0.webp"
     },
     "41369": {
         "guid": "41369",
@@ -278,6 +278,18 @@
     "55978": {
         "guid": "55978",
         "name": "Celtic Infrastructure List",
+        "localized_name": "Construction",
+        "icon_url": ""
+    },
+    "149843": {
+        "guid": "149843",
+        "name": "Egyptian Infrastructure Harbor",
+        "localized_name": "Harbour Buildings",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_construction_category_harbour_0.webp"
+    },
+    "149687": {
+        "guid": "149687",
+        "name": "Egyptian Infrastructure List",
         "localized_name": "Construction",
         "icon_url": ""
     }
