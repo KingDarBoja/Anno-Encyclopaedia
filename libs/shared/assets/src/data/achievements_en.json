@@ -1142,5 +1142,93 @@
                 "points": 30
             }
         ]
+    },
+    "174995": {
+        "guid": "174995",
+        "reward": "Illustrious Aegyptian",
+        "name": "Set14 (Egypt)",
+        "achievements": [
+            {
+                "guid": "174996",
+                "name": "Achievement_Set14_01_RiverOfOfferings",
+                "title": "River of Offerings",
+                "description": "Settle in Aegyptus and feed your Threshers.",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_01_0.webp",
+                "difficulty": "Bronze",
+                "points": 15
+            },
+            {
+                "guid": "174997",
+                "name": "Achievement_Set14_02_PeakArchitecture",
+                "title": "Peak Architecture",
+                "description": "Complete the pyramid restoration project.",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_02_0.webp",
+                "difficulty": "Silver",
+                "points": 30
+            },
+            {
+                "guid": "174998",
+                "name": "Achievement_Set14_03_MightRites",
+                "title": "Might Makes Rites",
+                "description": "Own all 18 nomes of Aegyptus, devote all to Thoth and have over 250,000 Global Devotion",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_03_0.webp",
+                "difficulty": "Bronze",
+                "points": 15
+            },
+            {
+                "guid": "174999",
+                "name": "Achievement_Set14_04_ValleyOfKings",
+                "title": "Valley of Kings",
+                "description": "Have at least 5 Rock Tombs, 200 Happiness and an overflow of at least one good on a single island. ",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_04_0.webp",
+                "difficulty": "Silver",
+                "points": 30
+            },
+            {
+                "guid": "175000",
+                "name": "Achievement_Set14_05_Philopator",
+                "title": "Philopator",
+                "description": "In Aegyptus, have a total population of at least 9000 that is at least 80% Graecoroman.",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_05_0.webp",
+                "difficulty": "Bronze",
+                "points": 15
+            },
+            {
+                "guid": "175001",
+                "name": "Achievement_Set14_06_DesertBloom",
+                "title": "Desert Bloom",
+                "description": "Irrigate more than 999 grids on a single island.",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_06_0.webp",
+                "difficulty": "Bronze",
+                "points": 15
+            },
+            {
+                "guid": "175002",
+                "name": "Achievement_Set14_07_BringHomeBasket",
+                "title": "The River Won't Tell",
+                "description": "Complete the story of 'Dawn of the Delta' and reveal a well-kept secret.",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_07_0.webp",
+                "difficulty": "Bronze",
+                "points": 15
+            },
+            {
+                "guid": "175003",
+                "name": "Achievement_Set14_08_QueensArchitect",
+                "title": "Building Bridges",
+                "description": "Impress the Kandis of Kashta in \"The Queen's Architect\".",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_08_0.webp",
+                "difficulty": "Silver",
+                "points": 30
+            },
+            {
+                "guid": "175004",
+                "name": "Achievement_Set14_09_CrookAndFlail",
+                "title": "Crook and Flail",
+                "description": "Build one of each type of Aegyptian warship and recruit one of each type of Aegyptian unit. ",
+                "icon_url": "assets/icons/dlc03/icon_content/achievements/achievement_set14_09_0.webp",
+                "difficulty": "Bronze",
+                "points": 15
+            }
+        ]
     }
 }
