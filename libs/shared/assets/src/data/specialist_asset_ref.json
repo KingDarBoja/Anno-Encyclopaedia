@@ -31,6 +31,30 @@
         "name": "Epicure of Air",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tongue_in_aspic_goods_0.webp"
     },
+    "152391": {
+        "name": "Epicure of Earth",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_appetizers_goods_0.webp"
+    },
+    "152388": {
+        "name": "Dairy",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cheese_goods_0.webp"
+    },
+    "152383": {
+        "name": "Bakery",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp"
+    },
+    "152375": {
+        "name": "Porridge Stand",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_porridge_goods_0.webp"
+    },
+    "152400": {
+        "name": "Kaykery",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kahk_goods_0.webp"
+    },
+    "152390": {
+        "name": "Farcer",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_stuffed_goose_goods_0.webp"
+    },
     "31032": {
         "name": "Governor Villa",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_villa_0.webp"
@@ -38,6 +62,22 @@
     "31050": {
         "name": "Villa 01 Roman Celtic",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_villa_0.webp"
+    },
+    "87351": {
+        "name": "Officium",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_guesthouse_0.webp"
+    },
+    "87350": {
+        "name": "Officium",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_guesthouse_0.webp"
+    },
+    "149838": {
+        "name": "Governor Villa",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_villa_0.webp"
+    },
+    "149839": {
+        "name": "Officium",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_guesthouse_0.webp"
     },
     "3402": {
         "name": "Trading Post",
@@ -95,6 +135,38 @@
         "name": "Repair Crane",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_harbour_repair_crane_0.webp"
     },
+    "149683": {
+        "name": "Riverside Trading Post",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_harbour_kontor_0.webp"
+    },
+    "150642": {
+        "name": "Improved River Post",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_harbour_kontor_0.webp"
+    },
+    "150645": {
+        "name": "Grand River Post",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_harbour_kontor_0.webp"
+    },
+    "153332": {
+        "name": "Shipyard",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_harbour_shipyard_0.webp"
+    },
+    "154720": {
+        "name": "Nile Boat Shipyard",
+        "icon_url": "assets/icons/dlc03/icon_content/building/icon_3d_habour_egypt_rivershipyard_0.webp"
+    },
+    "179570": {
+        "name": "Trading Pier",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_harbour_trading_pier_0.webp"
+    },
+    "159123": {
+        "name": "Depot",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_harbour_depot_0.webp"
+    },
+    "179571": {
+        "name": "Repair Crane",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_harbour_repair_crane_0.webp"
+    },
     "3310": {
         "name": "Warehouse",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_warehouse_0.webp"
@@ -121,6 +193,30 @@
     },
     "7057": {
         "name": "Large Warehouse",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_warehouse_0.webp"
+    },
+    "149842": {
+        "name": "Warehouse",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_warehouse_0.webp"
+    },
+    "149848": {
+        "name": "Improved Warehouse",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_warehouse_0.webp"
+    },
+    "149849": {
+        "name": "Grand Warehouse",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_warehouse_0.webp"
+    },
+    "182646": {
+        "name": "Warehouse",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_warehouse_0.webp"
+    },
+    "182647": {
+        "name": "Improved Warehouse",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_warehouse_0.webp"
+    },
+    "182648": {
+        "name": "Grand Warehouse",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_warehouse_0.webp"
     },
     "3087": {
@@ -157,6 +253,26 @@
     },
     "6514": {
         "name": "Noble Residence",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_residence_0.webp"
+    },
+    "149684": {
+        "name": "Thresher Residence",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_residence_0.webp"
+    },
+    "150584": {
+        "name": "Potter Residence",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_residence_0.webp"
+    },
+    "150585": {
+        "name": "Chanter Residence",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_residence_0.webp"
+    },
+    "150586": {
+        "name": "Scribe Residence",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_residence_0.webp"
+    },
+    "150587": {
+        "name": "Gymnasiarch Residence",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_base_residence_0.webp"
     },
     "2955": {
@@ -491,6 +607,10 @@
         "name": "Renderer",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp"
     },
+    "80612": {
+        "name": "Tannery",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp"
+    },
     "31766": {
         "name": "Headpiece Maker",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wig_base_goods_0.webp"
@@ -527,6 +647,10 @@
         "name": "Wig Maker",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wig_goods_0.webp"
     },
+    "55962": {
+        "name": "Potter",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_amphorae_goods_0.webp"
+    },
     "5615": {
         "name": "Narcissium",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_handmirros_goods_0.webp"
@@ -554,6 +678,10 @@
     "5954": {
         "name": "Weaponsmith",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp"
+    },
+    "55945": {
+        "name": "Armourer",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp"
     },
     "2796": {
         "name": "Saltwort Picker",
@@ -691,17 +819,325 @@
         "name": "Coal Mine",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_mine_goods_0.webp"
     },
-    "55962": {
-        "name": "Potter",
-        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_amphorae_goods_0.webp"
+    "151993": {
+        "name": "Barley Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
     },
-    "80612": {
+    "152142": {
+        "name": "Flax Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+    },
+    "151994": {
+        "name": "Sesame Farm",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+    },
+    "151997": {
+        "name": "Reed Gatherer",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp"
+    },
+    "151998": {
+        "name": "Mud Drier",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp"
+    },
+    "152064": {
+        "name": "Beadmaker",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_beads_goods_0.webp"
+    },
+    "151999": {
+        "name": "Wild Goose Chaser",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_wild_goose_goods_0.webp"
+    },
+    "152005": {
+        "name": "Tin Mine",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+    },
+    "152006": {
+        "name": "Copper Mine",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+    },
+    "152007": {
+        "name": "Granite Quarry",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+    },
+    "152210": {
+        "name": "Limestone Quarry",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_limestone_goods_0.webp"
+    },
+    "152012": {
+        "name": "House Of Kamels",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_camels_goods_0.webp"
+    },
+    "152107": {
+        "name": "Blue Lotus Plantation",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+    },
+    "152272": {
+        "name": "Date Farm",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_dates_goods_0.webp"
+    },
+    "152332": {
+        "name": "Bluehands",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_egyptian_blue_goods_0.webp"
+    },
+    "152361": {
+        "name": "Weaver",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloth_goods_0.webp"
+    },
+    "152370": {
+        "name": "Sesame Press",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_oil_goods_0.webp"
+    },
+    "152359": {
+        "name": "Bronze Smelter",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bronze_goods_0.webp"
+    },
+    "152352": {
+        "name": "Malthouse",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_malt_goods_0.webp"
+    },
+    "152389": {
+        "name": "Brewery",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beer_goods_0.webp"
+    },
+    "152437": {
+        "name": "House of Infusion",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_lotus_tea_goods_0.webp"
+    },
+    "152647": {
+        "name": "Bead-Threader",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_usekh_collar_goods_0.webp"
+    },
+    "152648": {
+        "name": "Pleater",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_shenti_goods_0.webp"
+    },
+    "152649": {
+        "name": "Kollyrist",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kohl_goods_0.webp"
+    },
+    "152650": {
+        "name": "Seamstress",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kalasiris_goods_0.webp"
+    },
+    "152651": {
+        "name": "Unguentarius",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_perfumed_oil_goods_0.webp"
+    },
+    "152730": {
+        "name": "Artisan Glazier",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_talismans_goods_0.webp"
+    },
+    "152731": {
+        "name": "Lamp Shaper",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_oil_lamps_goods_0.webp"
+    },
+    "152732": {
+        "name": "Tympanist",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sistrum_rattle_goods_0.webp"
+    },
+    "152788": {
+        "name": "Mud Stacker",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_mud_bricks_goods_0.webp"
+    },
+    "152789": {
+        "name": "Limestone Mason",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_limestone_bricks_goods_0.webp"
+    },
+    "152790": {
+        "name": "Granite Cutter",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_block_goods_0.webp"
+    },
+    "152141": {
+        "name": "Vineyard",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+    },
+    "152143": {
+        "name": "Wheat Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp"
+    },
+    "152144": {
+        "name": "Hemp Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp"
+    },
+    "152151": {
+        "name": "Oat Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oats_goods_0.webp"
+    },
+    "152152": {
+        "name": "Lavender Grower",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+    },
+    "152153": {
+        "name": "Olive Grower",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+    },
+    "152145": {
+        "name": "Pomegranate Farm",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+    },
+    "152000": {
+        "name": "Big Game Hunter",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+    },
+    "152203": {
+        "name": "Sand Refinery",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp"
+    },
+    "152204": {
+        "name": "Gold Washer",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp"
+    },
+    "152256": {
+        "name": "Sheep Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp"
+    },
+    "152257": {
+        "name": "Sanga Cattle Farm",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sanga_cows_goods_0.webp"
+    },
+    "152259": {
+        "name": "Horse Breeder",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp"
+    },
+    "152243": {
+        "name": "Iron Mine",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+    },
+    "152245": {
+        "name": "Coal Mine",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_mine_goods_0.webp"
+    },
+    "152247": {
+        "name": "Mineral Quarry",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+    },
+    "152249": {
+        "name": "Gold Mine",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_mine_goods_0.webp"
+    },
+    "152270": {
+        "name": "Woodcutter",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp"
+    },
+    "152271": {
+        "name": "Charcoal Burner",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp"
+    },
+    "152279": {
+        "name": "Apiary",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp"
+    },
+    "152333": {
+        "name": "Renderer",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp"
+    },
+    "152334": {
         "name": "Tannery",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp"
     },
-    "55945": {
+    "152338": {
+        "name": "Melikrator",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_honey_milk_goods_0.webp"
+    },
+    "152351": {
+        "name": "Donkey Mill",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp"
+    },
+    "152353": {
+        "name": "Furnace",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp"
+    },
+    "152356": {
+        "name": "Mineral Crusher",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp"
+    },
+    "152358": {
+        "name": "Goldsmith",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp"
+    },
+    "152371": {
+        "name": "Papyrus Maker",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_papyrus_goods_0.webp"
+    },
+    "152387": {
+        "name": "Vintner",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp"
+    },
+    "152671": {
+        "name": "Spinner",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp"
+    },
+    "152685": {
+        "name": "Sandal Maker",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sandals_goods_0.webp"
+    },
+    "152683": {
+        "name": "Soap Maker",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_soap_goods_0.webp"
+    },
+    "152686": {
+        "name": "Jeweller",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_necklaces_goods_0.webp"
+    },
+    "152688": {
+        "name": "Kosmetician",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_bathing_milk_goods_0.webp"
+    },
+    "152803": {
+        "name": "Sawmill",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp"
+    },
+    "152795": {
+        "name": "Tiler",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tiles_goods_0.webp"
+    },
+    "152796": {
+        "name": "Concrete Mixer",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_concrete_goods_0.webp"
+    },
+    "152797": {
+        "name": "Tessera Works",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mosaics_goods_0.webp"
+    },
+    "152791": {
+        "name": "Sailmaker",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sails_goods_0.webp"
+    },
+    "152792": {
+        "name": "Ropemaker",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ropes_goods_0.webp"
+    },
+    "152793": {
+        "name": "Weaponsmith",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp"
+    },
+    "152794": {
         "name": "Armourer",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp"
+    },
+    "155404": {
+        "name": "Barley Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+    },
+    "155405": {
+        "name": "Flax Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+    },
+    "155406": {
+        "name": "Sesame Farm",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+    },
+    "155407": {
+        "name": "Wheat Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp"
+    },
+    "155409": {
+        "name": "Oat Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oats_goods_0.webp"
+    },
+    "155408": {
+        "name": "Hemp Farm",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp"
     },
     "3527": {
         "name": "Market",
@@ -735,10 +1171,6 @@
         "name": "Library",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_library_0.webp"
     },
-    "152714": {
-        "name": "Hippodrome",
-        "icon_url": "assets/icons/dlc02/icon_content/hippodrome/icon_3d_construction_category_hippodrome_0.webp"
-    },
     "6724": {
         "name": "Market",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_celtic_marketplace_0.webp"
@@ -771,11 +1203,51 @@
         "name": "Alder Council",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_celtic_town_hall_0.webp"
     },
+    "150573": {
+        "name": "Market",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_marketplace_0.webp"
+    },
+    "151967": {
+        "name": "Firepit",
+        "icon_url": "assets/icons/dlc03/icon_content/building/icon_3d_public_egypt_firepit_0.webp"
+    },
+    "152065": {
+        "name": "Apothecary",
+        "icon_url": "assets/icons/dlc03/icon_content/building/icon_3d_public_egypt_apothecary_0.webp"
+    },
+    "152068": {
+        "name": "Rock Tomb",
+        "icon_url": "assets/icons/dlc03/icon_content/building/icon_3d_public_egypt_tomb_0.webp"
+    },
+    "152067": {
+        "name": "Grammaticus",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_grammaticus_0.webp"
+    },
+    "152066": {
+        "name": "Sanctuary",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_sanctuary_0.webp"
+    },
+    "149794": {
+        "name": "Aegyptian Cistern",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_cistern_0.webp"
+    },
+    "179636": {
+        "name": "Theatre",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_theatre_0.webp"
+    },
+    "185598": {
+        "name": "Gambling House",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_gambling_house_0.webp"
+    },
     "30754": {
         "name": "Vigiles",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_institution_roman_vigiles_0.webp"
     },
     "30769": {
+        "name": "Vigiles",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_institution_roman_vigiles_0.webp"
+    },
+    "152990": {
         "name": "Vigiles",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_institution_roman_vigiles_0.webp"
     },
@@ -787,11 +1259,19 @@
         "name": "Custodes",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_institution_roman_cohortes_0.webp"
     },
+    "152991": {
+        "name": "Custodia",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_institution_roman_cohortes_0.webp"
+    },
     "30765": {
         "name": "Medici",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_institution_roman_medici_0.webp"
     },
     "30771": {
+        "name": "Medici",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_institution_roman_medici_0.webp"
+    },
+    "152992": {
         "name": "Medici",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_institution_roman_medici_0.webp"
     },
@@ -827,9 +1307,17 @@
         "name": "Siege Workshop",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_siege_workshop_0.webp"
     },
-    "6729": {
-        "name": "Temple",
-        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_temple_0.webp"
+    "153380": {
+        "name": "Barracks",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_barracks_0.webp"
+    },
+    "153381": {
+        "name": "Equitum Campus",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_training_grounds_0.webp"
+    },
+    "153382": {
+        "name": "Siege Workshop",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_siege_workshop_0.webp"
     },
     "3620": {
         "name": "Baths",
@@ -843,6 +1331,10 @@
         "name": "Forum",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_wonder_celtic_forum_0.webp"
     },
+    "6729": {
+        "name": "Temple",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_temple_0.webp"
+    },
     "8062": {
         "name": "Baths",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_wonder_celtic_bathhouse_0.webp"
@@ -854,6 +1346,26 @@
     "55981": {
         "name": "Sacred Grove",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_celtic_sacred_grove_0.webp"
+    },
+    "152714": {
+        "name": "Hippodrome",
+        "icon_url": "assets/icons/dlc02/icon_content/hippodrome/icon_3d_construction_category_hippodrome_0.webp"
+    },
+    "152070": {
+        "name": "Temple",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_temple_0.webp"
+    },
+    "152069": {
+        "name": "Observatory",
+        "icon_url": "assets/icons/dlc03/icon_content/building/icon_3d_public_egypt_observatory_0.webp"
+    },
+    "152072": {
+        "name": "Baths",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_wonder_roman_bathhouse_0.webp"
+    },
+    "152071": {
+        "name": "Library",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_roman_library_0.webp"
     },
     "6707": {
         "name": "Recreation Ground",
@@ -895,6 +1407,26 @@
         "name": "Military Roman Celtic Tower Stone Ballista",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_ballista_tower_0.webp"
     },
+    "153397": {
+        "name": "Military Greco Roman Tower Wood Archer",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_wood_archer_tower_0.webp"
+    },
+    "153398": {
+        "name": "Military Greco Roman Tower Stone Archer",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_archer_tower_0.webp"
+    },
+    "153399": {
+        "name": "Military Greco Roman Tower Stone Ballista",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_ballista_tower_0.webp"
+    },
+    "5473": {
+        "name": "Flagship",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_flagship_0.webp"
+    },
+    "52121": {
+        "name": "Latium Startship",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_civil_0.webp"
+    },
     "37224": {
         "name": "Quinquireme",
         "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_quinquereme_civil_0.webp"
@@ -907,20 +1439,12 @@
         "name": "Trireme",
         "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_civil_0.webp"
     },
-    "5473": {
-        "name": "Flagship",
+    "39573": {
+        "name": "Albion Flagship",
         "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_flagship_0.webp"
     },
-    "43094": {
-        "name": "Raider I",
-        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_military_0.webp"
-    },
-    "44483": {
-        "name": "Raider II",
-        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_military_0.webp"
-    },
-    "52121": {
-        "name": "Latium Startship",
+    "52122": {
+        "name": "Albion Startship",
         "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_civil_0.webp"
     },
     "39570": {
@@ -931,37 +1455,89 @@
         "name": "Celtic ModularShip Penteconter",
         "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_penteconter_civil_0.webp"
     },
-    "39573": {
-        "name": "Albion Flagship",
+    "39571": {
+        "name": "Celtic ModularShip Trireme",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_civil_0.webp"
+    },
+    "150440": {
+        "name": "Egyptian Flagship",
         "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_flagship_0.webp"
+    },
+    "150439": {
+        "name": "Egyptian Startship",
+        "icon_url": "assets/icons/dlc03/icon_content/ship/icon_3d_ship_medium_rivership_0.webp"
+    },
+    "150441": {
+        "name": "Egyptian ModularShip Penteconter",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_penteconter_civil_0.webp"
+    },
+    "150442": {
+        "name": "Egyptian ModularShip Trireme",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_civil_0.webp"
+    },
+    "150443": {
+        "name": "Egyptian ModularShip Quinquireme",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_quinquereme_civil_0.webp"
+    },
+    "154038": {
+        "name": "Epholkion (Nile Skiff)",
+        "icon_url": "assets/icons/dlc03/icon_content/ship/icon_3d_ship_small_rivership_0.webp"
+    },
+    "157051": {
+        "name": "Aba (Nile Galley)",
+        "icon_url": "assets/icons/dlc03/icon_content/ship/icon_3d_ship_medium_rivership_0.webp"
+    },
+    "178644": {
+        "name": "Egyptian RiverShip Dahabiya Civil",
+        "icon_url": "assets/icons/dlc03/icon_content/ship/icon_3d_ship_medium_rivership_0.webp"
+    },
+    "43094": {
+        "name": "Raider I",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_military_0.webp"
+    },
+    "44483": {
+        "name": "Raider II",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_military_0.webp"
     },
     "90561": {
         "name": "Caeso's Flagship",
         "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_quinquereme_civil_0.webp"
     },
-    "39571": {
-        "name": "Celtic ModularShip Trireme",
-        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_civil_0.webp"
-    },
-    "52122": {
-        "name": "Albion Startship",
-        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_civil_0.webp"
-    },
     "90562": {
         "name": "Caeso's Canis Dirus Ship",
         "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_quinquereme_civil_0.webp"
     },
-    "13839": {
-        "name": "Armour",
-        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp"
+    "68556": {
+        "name": "Raider Ship",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_pirate_voada_0.webp"
     },
-    "80613": {
-        "name": "Armour",
-        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp"
+    "68535": {
+        "name": "Celtic PirateShip Voada Archer",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_pirate_voada_0.webp"
     },
-    "13810": {
-        "name": "Armour",
-        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp"
+    "68536": {
+        "name": "Celtic PirateShip Voada Siege",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_pirate_voada_0.webp"
+    },
+    "91320": {
+        "name": "Celtic PirateShip Voada Trader (MoreCargo)",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_pirate_voada_0.webp"
+    },
+    "91321": {
+        "name": "Celtic PirateShip Voada Trader Late (MoreCargo)",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_pirate_voada_0.webp"
+    },
+    "77570": {
+        "name": "Trireme",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_trireme_military_0.webp"
+    },
+    "77568": {
+        "name": "Quinquireme",
+        "icon_url": "assets/icons/base/icon_content/ship/icon_3d_ship_quinquereme_military_0.webp"
+    },
+    "152729": {
+        "name": "Olive Press",
+        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olive_oil_goods_0.webp"
     },
     "54989": {
         "name": "Wooden Gate",
@@ -978,6 +1554,22 @@
     "29545": {
         "name": "Military Roman Celtic Wall Stone Gate",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_gate_0.webp"
+    },
+    "153386": {
+        "name": "Military Greco Roman Wall Wood Gate",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_wood_gate_0.webp"
+    },
+    "153393": {
+        "name": "Military Greco Roman Wall Stone Gate",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_gate_0.webp"
+    },
+    "152733": {
+        "name": "Scriptorium",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_scribes_sets_goods_0.webp"
+    },
+    "152734": {
+        "name": "Locksmith",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_ivory_casket_goods_0.webp"
     },
     "30724": {
         "name": "Aqueduct Cistern",
@@ -1119,30 +1711,6 @@
         "name": "Clan Shields",
         "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_clan_shields_goods_0.webp"
     },
-    "19691": {
-        "name": "Aqueduct Source",
-        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_source_0.webp"
-    },
-    "29524": {
-        "name": "Aqueduct Source",
-        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_source_0.webp"
-    },
-    "19723": {
-        "name": "Aqueduct",
-        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_segment_0.webp"
-    },
-    "29525": {
-        "name": "Aqueduct",
-        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_segment_0.webp"
-    },
-    "81354": {
-        "name": "Aqueduct Roman Aqueduct MaxGround",
-        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_segment_0.webp"
-    },
-    "82038": {
-        "name": "Aqueduct Roman Celtic Aqueduct MaxGround",
-        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_segment_0.webp"
-    },
     "71266": {
         "name": "Latrine",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_institution_latrine_0.webp"
@@ -1151,9 +1719,9 @@
         "name": "Latrine",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_institution_latrine_0.webp"
     },
-    "2685": {
-        "name": "Baths",
-        "icon_url": "assets/icons/base/icon_content/building/icon_3d_wonder_roman_bathhouse_0.webp"
+    "152995": {
+        "name": "Latrine",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_institution_latrine_0.webp"
     },
     "55956": {
         "name": "Sacred Grove",
@@ -1162,6 +1730,18 @@
     "6709": {
         "name": "Bardic Hearth",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_public_celtic_bardic_hall_0.webp"
+    },
+    "19691": {
+        "name": "Aqueduct Source",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_source_0.webp"
+    },
+    "29524": {
+        "name": "Aqueduct Source",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_aqueduct_source_0.webp"
+    },
+    "149791": {
+        "name": "Noria",
+        "icon_url": "assets/icons/dlc03/icon_content/infrastructure/icon_3d_noria_waterwheel_0.webp"
     },
     "2181": {
         "name": "Libertus Workforce",
@@ -1207,6 +1787,10 @@
         "name": "Watchtower",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_institution_watch_tower_0.webp"
     },
+    "152994": {
+        "name": "Watchtower",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_institution_watch_tower_0.webp"
+    },
     "145220": {
         "name": "Statuettes",
         "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_idol_goods_0.webp"
@@ -1215,9 +1799,29 @@
         "name": "Latrunculi Sets",
         "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_boardgame_goods_0.webp"
     },
+    "151676": {
+        "name": "Rock Tomb",
+        "icon_url": "assets/icons/dlc03/icon_content/building/icon_3d_public_egypt_tomb_0.webp"
+    },
+    "151702": {
+        "name": "Scribing Sets",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_scribes_sets_goods_0.webp"
+    },
     "153874": {
         "name": "Hippodrome",
         "icon_url": ""
+    },
+    "152969": {
+        "name": "Granary",
+        "icon_url": "assets/icons/dlc03/icon_content/granary/icon_3d_public_egypt_granary_0.webp"
+    },
+    "153059": {
+        "name": "Large Granary",
+        "icon_url": "assets/icons/dlc03/icon_content/granary/icon_3d_public_egypt_granary_specialized_0.webp"
+    },
+    "153060": {
+        "name": "Capacious Granary",
+        "icon_url": "assets/icons/dlc03/icon_content/granary/icon_3d_public_egypt_granary_advanced_0.webp"
     },
     "81072": {
         "name": "Shrine of Cernunnos",
@@ -1226,6 +1830,14 @@
     "82492": {
         "name": "Shrine of Cernunnos",
         "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_cernunnos_0.webp"
+    },
+    "151680": {
+        "name": "Dates",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_dates_goods_0.webp"
+    },
+    "2685": {
+        "name": "Baths",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_wonder_roman_bathhouse_0.webp"
     },
     "2679": {
         "name": "Sanctuary",
@@ -1307,7 +1919,43 @@
         "name": "Stone Wall",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_wall_0.webp"
     },
+    "153383": {
+        "name": "Wooden Palisade",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_wood_wall_0.webp"
+    },
+    "153390": {
+        "name": "Military Greco Roman Wall Stone",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_wall_0.webp"
+    },
+    "153384": {
+        "name": "Military Greco Roman Wall Wood Health Dummy",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_wood_wall_0.webp"
+    },
+    "153391": {
+        "name": "Military Greco Roman Wall Stone Health Dummy",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_wall_0.webp"
+    },
+    "153387": {
+        "name": "Wooden Palisade",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_wood_wall_0.webp"
+    },
+    "153394": {
+        "name": "Stone Wall",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_wall_0.webp"
+    },
+    "153396": {
+        "name": "Stone Wall",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_stone_wall_0.webp"
+    },
+    "153389": {
+        "name": "Wooden Palisade",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_wood_wall_0.webp"
+    },
     "80710": {
+        "name": "Shrine of Mars",
+        "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_mars_0.webp"
+    },
+    "82486": {
         "name": "Shrine of Mars",
         "icon_url": "assets/icons/base/icon_content/ornaments/shrines/icon_3d_shrine_mars_0.webp"
     },
@@ -1359,6 +2007,22 @@
         "name": "Shrine of Vulcan",
         "icon_url": "assets/icons/dlc01/icon_content/ornament/icon_3d_shrine_vulcanus_0.webp"
     },
+    "153592": {
+        "name": "Replica Sphinx Shrine",
+        "icon_url": "assets/icons/dlc03/icon_content/ornaments/shrines/icon_3d_shrine_sphinx_0.webp"
+    },
+    "153777": {
+        "name": "Shrine of Thoth Trismegistus",
+        "icon_url": "assets/icons/dlc03/icon_content/ornaments/shrines/icon_3d_shrine_thoth_0.webp"
+    },
+    "153776": {
+        "name": "Shrine of Sobek",
+        "icon_url": "assets/icons/dlc03/icon_content/ornaments/shrines/icon_3d_shrine_sobek_0.webp"
+    },
+    "153591": {
+        "name": "Shrine of Isis-Bastet",
+        "icon_url": "assets/icons/dlc03/icon_content/ornaments/shrines/icon_3d_shrine_isis_0.webp"
+    },
     "32606": {
         "name": "Infantry Camp",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_camp_0.webp"
@@ -1383,6 +2047,18 @@
         "name": "Siege Engine Camp",
         "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_camp_0.webp"
     },
+    "153419": {
+        "name": "Infantry Camp",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_camp_0.webp"
+    },
+    "153420": {
+        "name": "Cavalry Camp",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_camp_0.webp"
+    },
+    "153421": {
+        "name": "Siege Engine Camp",
+        "icon_url": "assets/icons/base/icon_content/building/icon_3d_military_camp_0.webp"
+    },
     "71264": {
         "name": "Well",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_institution_well_0.webp"
@@ -1390,5 +2066,17 @@
     "71267": {
         "name": "Well",
         "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_institution_well_0.webp"
+    },
+    "152993": {
+        "name": "Well",
+        "icon_url": "assets/icons/base/icon_content/infrastructure/icon_3d_institution_well_0.webp"
+    },
+    "155933": {
+        "name": "Renovated Pyramids",
+        "icon_url": "assets/icons/dlc03/icon_content/sector_project/icon_3d_sector_project_0.webp"
+    },
+    "151701": {
+        "name": "Sistrums",
+        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sistrum_rattle_goods_0.webp"
     }
 }
