@@ -9,6 +9,7 @@ import {
 interface CityStatusSetViewModel {
   roman: CityStatusViewModel[];
   celtic: CityStatusViewModel[];
+  egyptian: CityStatusViewModel[];
 }
 
 @Injectable({ providedIn: 'root' })
@@ -21,6 +22,7 @@ export class CityStatusService {
   private readonly _sets = signal<CityStatusSetViewModel>({
     roman: [],
     celtic: [],
+    egyptian: [],
   });
   private readonly _loading = signal<boolean>(false);
   private readonly _error = signal<string | null>(null);
@@ -34,11 +36,12 @@ export class CityStatusService {
     'assets/icons/base/icon_content/city_status/icon_2d_city_status_01_0.webp';
 
   /**
-   * Fetches both the roman and celtic city status levels from the JSON archive.
+   * Fetches the roman, celtic, and egyptian city status levels from the JSON archive.
    *
    * Paths:
    * - assets/data/city_status_roman.json
    * - assets/data/city_status_celtic.json
+   * - assets/data/city_status_egyptian.json
    */
   fetchCityStatuses() {
     this._loading.set(true);
@@ -50,12 +53,16 @@ export class CityStatusService {
     const celtic$ = this.http.get<CityStatusRawData>(
       'assets/data/city_status_celtic.json',
     );
+    const egyptian$ = this.http.get<CityStatusRawData>(
+      'assets/data/city_status_egyptian.json',
+    );
 
-    return forkJoin([roman$, celtic$])
+    return forkJoin([roman$, celtic$, egyptian$])
       .pipe(
-        map(([rawRoman, rawCeltic]) => ({
+        map(([rawRoman, rawCeltic, rawEgyptian]) => ({
           roman: this.mapToViewModel(rawRoman),
           celtic: this.mapToViewModel(rawCeltic),
+          egyptian: this.mapToViewModel(rawEgyptian),
         })),
         tap((results) => {
           this._sets.set(results);
@@ -80,7 +87,7 @@ export class CityStatusService {
       return {
         slug: this.slugify(label),
         id, // Set the ID from the object key
-        image_url: this.transformImageUrl(rawCityStatus.image_url),
+        icon_url: rawCityStatus.icon_url,
         name: rawCityStatus.name,
         required_pop: rawCityStatus.required_population,
         attributes: {
@@ -88,49 +95,9 @@ export class CityStatusService {
           regional: rawCityStatus.attribute_effects_regional,
           mixed: rawCityStatus.attribute_effects_mixed,
         },
+        incident_interval: rawCityStatus.incident_interval,
       };
     });
-  }
-
-  /**
-   * Transforms internal path structure to public asset path.
-   * From: \\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_01_0
-   * To: assets\icons\base\icon_content\city_status\icon_2d_city_status_01_0
-   */
-  public transformImageUrl(rawPath: string): string {
-    if (!rawPath) return '';
-
-    // 1. Normalize slashes
-    let path = rawPath.replace(/\\/g, '/');
-
-    // 2. Identify the core marker
-    const marker = 'icon_content/';
-    const markerIndex = path.indexOf(marker);
-
-    if (markerIndex !== -1) {
-      // Extract everything from 'icon_content/' onwards
-      const relativePath = path.substring(markerIndex);
-
-      // 3. Check for DLC markers in the original path
-      // We look for 'dlc' followed by numbers, or specific folder names
-      const dlcMatch = path.match(/dlc\d+/i);
-      const subFolder = dlcMatch ? dlcMatch[0].toLowerCase() : 'base';
-
-      // 4. Construct the path: assets/icons/[base|dlc01]/icon_content/...
-      path = `assets/icons/${subFolder}/${relativePath}`;
-    } else {
-      // Fallback for simple filenames
-      if (path.startsWith('/')) path = path.substring(1);
-      path = `assets/icons/base/icon_content/${path}`;
-    }
-
-    // 5. Ensure .webp extension
-    if (!path.toLowerCase().endsWith('.webp')) {
-      path += '.webp';
-    }
-
-    // 6. Final sanitization (remove double slashes except after protocol)
-    return path.replace(/([^:]\/)\/+/g, '$1');
   }
 
   /**

@@ -1,1352 +1,1602 @@
 {
     "roman_01": {
-        "uid": 1929,
+        "guid": "1929",
+        "std_name": "City Status Roman 01",
         "name": "Outpost",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_01_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_01_0.webp",
         "required_population": 0,
+        "incident_interval": {
+            "fire": 0,
+            "unrest": 0,
+            "disease": 0,
+            "inferno": 0,
+            "rebellion": 0,
+            "plague": 0,
+            "tremors": 1020
+        },
         "attribute_effects_roman": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_regional": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_mixed": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         }
     },
     "roman_02": {
-        "uid": 3559,
+        "guid": "3559",
+        "std_name": "City Status Roman 02",
         "name": "Small Vicus",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_02_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_02_0.webp",
         "required_population": 200,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 0,
+            "disease": 0,
+            "inferno": 72000,
+            "rebellion": 0,
+            "plague": 0,
+            "tremors": 1020
+        },
         "attribute_effects_roman": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_regional": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_mixed": {
-            "belief": 0.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": 0.0,
-            "health": 0.0
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         }
     },
     "roman_03": {
-        "uid": 3563,
+        "guid": "3563",
+        "std_name": "City Status Roman 03",
         "name": "Large Vicus",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_03_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_03_0.webp",
         "required_population": 500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 0,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 0,
+            "tremors": 1020
+        },
         "attribute_effects_roman": {
-            "belief": 1.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": -1.0,
-            "health": 0.0
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_regional": {
-            "belief": 1.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": -1.0,
-            "health": 0.0
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         },
         "attribute_effects_mixed": {
-            "belief": 1.0,
-            "knowledge": 0.0,
-            "prestige": 0.0,
-            "happiness": 0.0,
-            "fire_safety": -1.0,
-            "health": 0.0
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
         }
     },
     "roman_04": {
-        "uid": 3564,
+        "guid": "3564",
+        "std_name": "City Status Roman 04",
         "name": "Minor Town",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_04_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_04_0.webp",
         "required_population": 1000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 1020
+        },
         "attribute_effects_roman": {
-            "belief": 2.0,
-            "knowledge": 1.0,
-            "prestige": 0.0,
-            "happiness": -2.0,
-            "fire_safety": -2.0,
-            "health": 0.0
+            "belief": 2,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": -1,
+            "health": 0
         },
         "attribute_effects_regional": {
-            "belief": 2.0,
-            "knowledge": 1.0,
-            "prestige": 0.0,
-            "happiness": -2.0,
-            "fire_safety": -2.0,
-            "health": 0.0
+            "belief": 2,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": -1,
+            "health": 0
         },
         "attribute_effects_mixed": {
-            "belief": 2.0,
-            "knowledge": 1.0,
-            "prestige": 0.0,
-            "happiness": -2.0,
-            "fire_safety": -2.0,
-            "health": 0.0
+            "belief": 2,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": -1,
+            "health": 0
         }
     },
     "roman_05": {
-        "uid": 3573,
+        "guid": "3573",
+        "std_name": "City Status Roman 05",
         "name": "Growing Town",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_05_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_05_0.webp",
         "required_population": 1500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 1020
+        },
         "attribute_effects_roman": {
-            "belief": 3.0,
-            "knowledge": 2.0,
-            "prestige": 1.0,
-            "happiness": -4.0,
-            "fire_safety": -3.0,
-            "health": -2.0
+            "belief": 3,
+            "knowledge": 2,
+            "prestige": 1,
+            "happiness": -3,
+            "fire_safety": -2,
+            "health": -1
         },
         "attribute_effects_regional": {
-            "belief": 3.0,
-            "knowledge": 2.0,
-            "prestige": 1.0,
-            "happiness": -4.0,
-            "fire_safety": -3.0,
-            "health": -2.0
+            "belief": 3,
+            "knowledge": 2,
+            "prestige": 1,
+            "happiness": -3,
+            "fire_safety": -2,
+            "health": -1
         },
         "attribute_effects_mixed": {
-            "belief": 3.0,
-            "knowledge": 2.0,
-            "prestige": 1.0,
-            "happiness": -4.0,
-            "fire_safety": -3.0,
-            "health": -2.0
+            "belief": 3,
+            "knowledge": 2,
+            "prestige": 1,
+            "happiness": -3,
+            "fire_safety": -2,
+            "health": -1
         }
     },
     "roman_06": {
-        "uid": 3579,
+        "guid": "3579",
+        "std_name": "City Status Roman 06",
         "name": "Large Town",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_06_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_06_0.webp",
         "required_population": 3000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 1020
+        },
         "attribute_effects_roman": {
-            "belief": 4.0,
-            "knowledge": 3.0,
-            "prestige": 2.0,
-            "happiness": -6.0,
-            "fire_safety": -4.0,
-            "health": -4.0
+            "belief": 4,
+            "knowledge": 3,
+            "prestige": 2,
+            "happiness": -5,
+            "fire_safety": -3,
+            "health": -3
         },
         "attribute_effects_regional": {
-            "belief": 4.0,
-            "knowledge": 3.0,
-            "prestige": 2.0,
-            "happiness": -6.0,
-            "fire_safety": -4.0,
-            "health": -4.0
+            "belief": 4,
+            "knowledge": 3,
+            "prestige": 2,
+            "happiness": -5,
+            "fire_safety": -3,
+            "health": -3
         },
         "attribute_effects_mixed": {
-            "belief": 4.0,
-            "knowledge": 3.0,
-            "prestige": 2.0,
-            "happiness": -6.0,
-            "fire_safety": -4.0,
-            "health": -4.0
+            "belief": 4,
+            "knowledge": 3,
+            "prestige": 2,
+            "happiness": -5,
+            "fire_safety": -3,
+            "health": -3
         }
     },
     "roman_07": {
-        "uid": 3581,
+        "guid": "3581",
+        "std_name": "City Status Roman 07",
         "name": "Minor City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_07_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_07_0.webp",
         "required_population": 5000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 5.0,
-            "knowledge": 4.0,
-            "prestige": 3.0,
-            "happiness": -8.0,
-            "fire_safety": -5.0,
-            "health": -6.0
+            "belief": 5,
+            "knowledge": 4,
+            "prestige": 3,
+            "happiness": -7,
+            "fire_safety": -4,
+            "health": -5
         },
         "attribute_effects_regional": {
-            "belief": 5.0,
-            "knowledge": 4.0,
-            "prestige": 3.0,
-            "happiness": -8.0,
-            "fire_safety": -5.0,
-            "health": -6.0
+            "belief": 5,
+            "knowledge": 4,
+            "prestige": 3,
+            "happiness": -7,
+            "fire_safety": -4,
+            "health": -5
         },
         "attribute_effects_mixed": {
-            "belief": 5.0,
-            "knowledge": 4.0,
-            "prestige": 3.0,
-            "happiness": -8.0,
-            "fire_safety": -5.0,
-            "health": -6.0
+            "belief": 5,
+            "knowledge": 4,
+            "prestige": 3,
+            "happiness": -7,
+            "fire_safety": -4,
+            "health": -5
         }
     },
     "roman_08": {
-        "uid": 3591,
+        "guid": "3591",
+        "std_name": "City Status Roman 08",
         "name": "Growing City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_08_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_08_0.webp",
         "required_population": 7500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 6.0,
-            "knowledge": 5.0,
-            "prestige": 4.0,
-            "happiness": -10.0,
-            "fire_safety": -6.0,
-            "health": -8.0
+            "belief": 6,
+            "knowledge": 5,
+            "prestige": 4,
+            "happiness": -9,
+            "fire_safety": -5,
+            "health": -7
         },
         "attribute_effects_regional": {
-            "belief": 6.0,
-            "knowledge": 5.0,
-            "prestige": 4.0,
-            "happiness": -10.0,
-            "fire_safety": -6.0,
-            "health": -8.0
+            "belief": 6,
+            "knowledge": 5,
+            "prestige": 4,
+            "happiness": -9,
+            "fire_safety": -5,
+            "health": -7
         },
         "attribute_effects_mixed": {
-            "belief": 6.0,
-            "knowledge": 5.0,
-            "prestige": 4.0,
-            "happiness": -10.0,
-            "fire_safety": -6.0,
-            "health": -8.0
+            "belief": 6,
+            "knowledge": 5,
+            "prestige": 4,
+            "happiness": -9,
+            "fire_safety": -5,
+            "health": -7
         }
     },
     "roman_09": {
-        "uid": 3595,
+        "guid": "3595",
+        "std_name": "City Status Roman 09",
         "name": "Major City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_09_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_09_0.webp",
         "required_population": 10000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 7.0,
-            "knowledge": 6.0,
-            "prestige": 5.0,
-            "happiness": -11.0,
-            "fire_safety": -6.2,
-            "health": -10.0
+            "belief": 7,
+            "knowledge": 6,
+            "prestige": 5,
+            "happiness": -10,
+            "fire_safety": -6,
+            "health": -9
         },
         "attribute_effects_regional": {
-            "belief": 7.0,
-            "knowledge": 6.0,
-            "prestige": 5.0,
-            "happiness": -11.0,
-            "fire_safety": -6.2,
-            "health": -10.0
+            "belief": 7,
+            "knowledge": 6,
+            "prestige": 5,
+            "happiness": -10,
+            "fire_safety": -6,
+            "health": -9
         },
         "attribute_effects_mixed": {
-            "belief": 7.0,
-            "knowledge": 6.0,
-            "prestige": 5.0,
-            "happiness": -11.0,
-            "fire_safety": -6.2,
-            "health": -10.0
+            "belief": 7,
+            "knowledge": 6,
+            "prestige": 5,
+            "happiness": -10,
+            "fire_safety": -6,
+            "health": -9
         }
     },
     "roman_10": {
-        "uid": 3599,
+        "guid": "3599",
+        "std_name": "City Status Roman 10",
         "name": "Minor Colonia",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_10_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_10_0.webp",
         "required_population": 15000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 8.0,
-            "knowledge": 7.0,
-            "prestige": 6.0,
-            "happiness": -12.0,
-            "fire_safety": -6.4,
-            "health": -10.2
+            "belief": 8,
+            "knowledge": 7,
+            "prestige": 6,
+            "happiness": -12,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 8.0,
-            "knowledge": 7.0,
-            "prestige": 6.0,
-            "happiness": -12.0,
-            "fire_safety": -6.4,
-            "health": -10.2
+            "belief": 8,
+            "knowledge": 7,
+            "prestige": 6,
+            "happiness": -12,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_mixed": {
-            "belief": 8.0,
-            "knowledge": 7.0,
-            "prestige": 6.0,
-            "happiness": -12.0,
-            "fire_safety": -6.4,
-            "health": -10.2
+            "belief": 8,
+            "knowledge": 7,
+            "prestige": 6,
+            "happiness": -12,
+            "fire_safety": -6,
+            "health": -10
         }
     },
     "roman_11": {
-        "uid": 3606,
+        "guid": "3606",
+        "std_name": "City Status Roman 11",
         "name": "Growing Colonia",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_11_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_11_0.webp",
         "required_population": 20000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 9.0,
-            "knowledge": 8.0,
-            "prestige": 7.0,
-            "happiness": -13.0,
-            "fire_safety": -6.6,
-            "health": -10.4
+            "belief": 9,
+            "knowledge": 8,
+            "prestige": 7,
+            "happiness": -13,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 9.0,
-            "knowledge": 8.0,
-            "prestige": 7.0,
-            "happiness": -13.0,
-            "fire_safety": -6.6,
-            "health": -10.4
+            "belief": 9,
+            "knowledge": 8,
+            "prestige": 7,
+            "happiness": -13,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_mixed": {
-            "belief": 9.0,
-            "knowledge": 8.0,
-            "prestige": 7.0,
-            "happiness": -13.0,
-            "fire_safety": -6.6,
-            "health": -10.4
+            "belief": 9,
+            "knowledge": 8,
+            "prestige": 7,
+            "happiness": -13,
+            "fire_safety": -6,
+            "health": -10
         }
     },
     "roman_12": {
-        "uid": 3610,
+        "guid": "3610",
+        "std_name": "City Status Roman 12",
         "name": "Major Colonia",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_12_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_12_0.webp",
         "required_population": 25000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 10.0,
-            "knowledge": 9.0,
-            "prestige": 8.0,
-            "happiness": -14.0,
-            "fire_safety": -6.8,
-            "health": -10.6
+            "belief": 10,
+            "knowledge": 9,
+            "prestige": 8,
+            "happiness": -14,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 10.0,
-            "knowledge": 9.0,
-            "prestige": 8.0,
-            "happiness": -14.0,
-            "fire_safety": -6.8,
-            "health": -10.6
+            "belief": 10,
+            "knowledge": 9,
+            "prestige": 8,
+            "happiness": -14,
+            "fire_safety": -6,
+            "health": -10
         },
         "attribute_effects_mixed": {
-            "belief": 10.0,
-            "knowledge": 9.0,
-            "prestige": 8.0,
-            "happiness": -14.0,
-            "fire_safety": -6.8,
-            "health": -10.6
+            "belief": 10,
+            "knowledge": 9,
+            "prestige": 8,
+            "happiness": -14,
+            "fire_safety": -6,
+            "health": -10
         }
     },
     "roman_13": {
-        "uid": 3611,
+        "guid": "3611",
+        "std_name": "City Status Roman 13",
         "name": "Vast Colonia",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_13_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_13_0.webp",
         "required_population": 30000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 11.0,
-            "knowledge": 10.0,
-            "prestige": 9.0,
-            "happiness": -14.2,
-            "fire_safety": -7.0,
-            "health": -10.8
+            "belief": 11,
+            "knowledge": 10,
+            "prestige": 9,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -10
         },
         "attribute_effects_regional": {
-            "belief": 11.0,
-            "knowledge": 10.0,
-            "prestige": 9.0,
-            "happiness": -14.2,
-            "fire_safety": -7.0,
-            "health": -10.8
+            "belief": 11,
+            "knowledge": 10,
+            "prestige": 9,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -10
         },
         "attribute_effects_mixed": {
-            "belief": 11.0,
-            "knowledge": 10.0,
-            "prestige": 9.0,
-            "happiness": -14.2,
-            "fire_safety": -7.0,
-            "health": -10.8
+            "belief": 11,
+            "knowledge": 10,
+            "prestige": 9,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -10
         }
     },
     "roman_14": {
-        "uid": 3612,
+        "guid": "3612",
+        "std_name": "City Status Roman 14",
         "name": "Minor Imperial City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_14_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_14_0.webp",
         "required_population": 35000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 12.0,
-            "knowledge": 11.0,
-            "prestige": 10.0,
-            "happiness": -14.4,
-            "fire_safety": -7.2,
-            "health": -11.0
+            "belief": 12,
+            "knowledge": 11,
+            "prestige": 10,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 12.0,
-            "knowledge": 11.0,
-            "prestige": 10.0,
-            "happiness": -14.4,
-            "fire_safety": -7.2,
-            "health": -11.0
+            "belief": 12,
+            "knowledge": 11,
+            "prestige": 10,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_mixed": {
-            "belief": 12.0,
-            "knowledge": 11.0,
-            "prestige": 10.0,
-            "happiness": -14.4,
-            "fire_safety": -7.2,
-            "health": -11.0
+            "belief": 12,
+            "knowledge": 11,
+            "prestige": 10,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         }
     },
     "roman_15": {
-        "uid": 3613,
+        "guid": "3613",
+        "std_name": "City Status Roman 15",
         "name": "Growing Imperial City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_15_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_15_0.webp",
         "required_population": 40000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
         "attribute_effects_roman": {
-            "belief": 13.0,
-            "knowledge": 12.0,
-            "prestige": 11.0,
-            "happiness": -14.6,
-            "fire_safety": -7.3,
-            "health": -11.2
+            "belief": 13,
+            "knowledge": 12,
+            "prestige": 11,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 13.0,
-            "knowledge": 12.0,
-            "prestige": 11.0,
-            "happiness": -14.6,
-            "fire_safety": -7.3,
-            "health": -11.2
+            "belief": 13,
+            "knowledge": 12,
+            "prestige": 11,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_mixed": {
-            "belief": 13.0,
-            "knowledge": 12.0,
-            "prestige": 11.0,
-            "happiness": -14.6,
-            "fire_safety": -7.3,
-            "health": -11.2
+            "belief": 13,
+            "knowledge": 12,
+            "prestige": 11,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         }
     },
     "roman_16": {
-        "uid": 5700,
+        "guid": "5700",
+        "std_name": "City Status Roman 16",
         "name": "Major Imperial City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_16_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_16_0.webp",
         "required_population": 45000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
         "attribute_effects_roman": {
-            "belief": 14.0,
-            "knowledge": 13.0,
-            "prestige": 12.0,
-            "happiness": -14.8,
-            "fire_safety": -7.4,
-            "health": -11.4
+            "belief": 14,
+            "knowledge": 13,
+            "prestige": 12,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 14.0,
-            "knowledge": 13.0,
-            "prestige": 12.0,
-            "happiness": -14.8,
-            "fire_safety": -7.4,
-            "health": -11.4
+            "belief": 14,
+            "knowledge": 13,
+            "prestige": 12,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_mixed": {
-            "belief": 14.0,
-            "knowledge": 13.0,
-            "prestige": 12.0,
-            "happiness": -14.8,
-            "fire_safety": -7.4,
-            "health": -11.4
+            "belief": 14,
+            "knowledge": 13,
+            "prestige": 12,
+            "happiness": -14,
+            "fire_safety": -7,
+            "health": -11
         }
     },
     "roman_17": {
-        "uid": 5701,
+        "guid": "5701",
+        "std_name": "City Status Roman 17",
         "name": "Vast Imperial City",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_17_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_17_0.webp",
         "required_population": 50000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
         "attribute_effects_roman": {
-            "belief": 15.0,
-            "knowledge": 14.0,
-            "prestige": 13.0,
-            "happiness": -15.0,
-            "fire_safety": -7.5,
-            "health": -11.6
+            "belief": 15,
+            "knowledge": 14,
+            "prestige": 13,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 15.0,
-            "knowledge": 14.0,
-            "prestige": 13.0,
-            "happiness": -15.0,
-            "fire_safety": -7.5,
-            "health": -11.6
+            "belief": 15,
+            "knowledge": 14,
+            "prestige": 13,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_mixed": {
-            "belief": 15.0,
-            "knowledge": 14.0,
-            "prestige": 13.0,
-            "happiness": -15.0,
-            "fire_safety": -7.5,
-            "health": -11.6
+            "belief": 15,
+            "knowledge": 14,
+            "prestige": 13,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -11
         }
     },
     "roman_18": {
-        "uid": 5702,
+        "guid": "5702",
+        "std_name": "City Status Roman 18",
         "name": "Minor Megalopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_18_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_18_0.webp",
         "required_population": 55000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
         "attribute_effects_roman": {
-            "belief": 16.0,
-            "knowledge": 15.0,
-            "prestige": 14.0,
-            "happiness": -15.2,
-            "fire_safety": -7.6,
-            "health": -11.8
+            "belief": 16,
+            "knowledge": 15,
+            "prestige": 14,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_regional": {
-            "belief": 16.0,
-            "knowledge": 15.0,
-            "prestige": 14.0,
-            "happiness": -15.2,
-            "fire_safety": -7.6,
-            "health": -11.8
+            "belief": 16,
+            "knowledge": 15,
+            "prestige": 14,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -11
         },
         "attribute_effects_mixed": {
-            "belief": 16.0,
-            "knowledge": 15.0,
-            "prestige": 14.0,
-            "happiness": -15.2,
-            "fire_safety": -7.6,
-            "health": -11.8
+            "belief": 16,
+            "knowledge": 15,
+            "prestige": 14,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -11
         }
     },
     "roman_19": {
-        "uid": 21122,
+        "guid": "21122",
+        "std_name": "City Status Roman 19",
         "name": "Growing Megalopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_19_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_19_0.webp",
         "required_population": 60000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
         "attribute_effects_roman": {
-            "belief": 17.0,
-            "knowledge": 16.0,
-            "prestige": 15.0,
-            "happiness": -15.4,
-            "fire_safety": -7.7,
-            "health": -12.0
+            "belief": 17,
+            "knowledge": 16,
+            "prestige": 15,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         },
         "attribute_effects_regional": {
-            "belief": 17.0,
-            "knowledge": 16.0,
-            "prestige": 15.0,
-            "happiness": -15.4,
-            "fire_safety": -7.7,
-            "health": -12.0
+            "belief": 17,
+            "knowledge": 16,
+            "prestige": 15,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         },
         "attribute_effects_mixed": {
-            "belief": 17.0,
-            "knowledge": 16.0,
-            "prestige": 15.0,
-            "happiness": -15.4,
-            "fire_safety": -7.7,
-            "health": -12.0
+            "belief": 17,
+            "knowledge": 16,
+            "prestige": 15,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         }
     },
     "roman_20": {
-        "uid": 21123,
+        "guid": "21123",
+        "std_name": "City Status Roman 20",
         "name": "Major Megalopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_20_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_20_0.webp",
         "required_population": 65000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
         "attribute_effects_roman": {
-            "belief": 18.0,
-            "knowledge": 17.0,
-            "prestige": 16.0,
-            "happiness": -15.6,
-            "fire_safety": -7.8,
-            "health": -12.2
+            "belief": 18,
+            "knowledge": 17,
+            "prestige": 16,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         },
         "attribute_effects_regional": {
-            "belief": 18.0,
-            "knowledge": 17.0,
-            "prestige": 16.0,
-            "happiness": -15.6,
-            "fire_safety": -7.8,
-            "health": -12.2
+            "belief": 18,
+            "knowledge": 17,
+            "prestige": 16,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         },
         "attribute_effects_mixed": {
-            "belief": 18.0,
-            "knowledge": 17.0,
-            "prestige": 16.0,
-            "happiness": -15.6,
-            "fire_safety": -7.8,
-            "health": -12.2
+            "belief": 18,
+            "knowledge": 17,
+            "prestige": 16,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         }
     },
     "roman_21": {
-        "uid": 21124,
+        "guid": "21124",
+        "std_name": "City Status Roman 21",
         "name": "Vast Megalopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_21_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_21_0.webp",
         "required_population": 70000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
         "attribute_effects_roman": {
-            "belief": 19.0,
-            "knowledge": 18.0,
-            "prestige": 17.0,
-            "happiness": -15.8,
-            "fire_safety": -7.9,
-            "health": -12.4
+            "belief": 19,
+            "knowledge": 18,
+            "prestige": 17,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         },
         "attribute_effects_regional": {
-            "belief": 19.0,
-            "knowledge": 18.0,
-            "prestige": 17.0,
-            "happiness": -15.8,
-            "fire_safety": -7.9,
-            "health": -12.4
+            "belief": 19,
+            "knowledge": 18,
+            "prestige": 17,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         },
         "attribute_effects_mixed": {
-            "belief": 19.0,
-            "knowledge": 18.0,
-            "prestige": 17.0,
-            "happiness": -15.8,
-            "fire_safety": -7.9,
-            "health": -12.4
+            "belief": 19,
+            "knowledge": 18,
+            "prestige": 17,
+            "happiness": -15,
+            "fire_safety": -7,
+            "health": -12
         }
     },
     "roman_22": {
-        "uid": 21125,
+        "guid": "21125",
+        "std_name": "City Status Roman 22",
         "name": "Minor Cosmopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_22_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_22_0.webp",
         "required_population": 75000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
         "attribute_effects_roman": {
-            "belief": 20.0,
-            "knowledge": 19.0,
-            "prestige": 18.0,
-            "happiness": -16.0,
-            "fire_safety": -8.0,
-            "health": -12.6
+            "belief": 20,
+            "knowledge": 19,
+            "prestige": 18,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -12
         },
         "attribute_effects_regional": {
-            "belief": 20.0,
-            "knowledge": 19.0,
-            "prestige": 18.0,
-            "happiness": -16.0,
-            "fire_safety": -8.0,
-            "health": -12.6
+            "belief": 20,
+            "knowledge": 19,
+            "prestige": 18,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -12
         },
         "attribute_effects_mixed": {
-            "belief": 20.0,
-            "knowledge": 19.0,
-            "prestige": 18.0,
-            "happiness": -16.0,
-            "fire_safety": -8.0,
-            "health": -12.6
+            "belief": 20,
+            "knowledge": 19,
+            "prestige": 18,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -12
         }
     },
     "roman_23": {
-        "uid": 21126,
+        "guid": "21126",
+        "std_name": "City Status Roman 23",
         "name": "Growing Cosmopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_23_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_23_0.webp",
         "required_population": 80000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 21.0,
-            "knowledge": 20.0,
-            "prestige": 19.0,
-            "happiness": -16.2,
-            "fire_safety": -8.1,
-            "health": -12.8
+            "belief": 21,
+            "knowledge": 20,
+            "prestige": 19,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -12
         },
         "attribute_effects_regional": {
-            "belief": 21.0,
-            "knowledge": 20.0,
-            "prestige": 19.0,
-            "happiness": -16.2,
-            "fire_safety": -8.1,
-            "health": -12.8
+            "belief": 21,
+            "knowledge": 20,
+            "prestige": 19,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -12
         },
         "attribute_effects_mixed": {
-            "belief": 21.0,
-            "knowledge": 20.0,
-            "prestige": 19.0,
-            "happiness": -16.2,
-            "fire_safety": -8.1,
-            "health": -12.8
+            "belief": 21,
+            "knowledge": 20,
+            "prestige": 19,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -12
         }
     },
     "roman_24": {
-        "uid": 21127,
+        "guid": "21127",
+        "std_name": "City Status Roman 24",
         "name": "Major Cosmopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_24_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_24_0.webp",
         "required_population": 85000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 22.0,
-            "knowledge": 21.0,
-            "prestige": 20.0,
-            "happiness": -16.4,
-            "fire_safety": -8.2,
-            "health": -13.0
+            "belief": 22,
+            "knowledge": 21,
+            "prestige": 20,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 22.0,
-            "knowledge": 21.0,
-            "prestige": 20.0,
-            "happiness": -16.4,
-            "fire_safety": -8.2,
-            "health": -13.0
+            "belief": 22,
+            "knowledge": 21,
+            "prestige": 20,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 22.0,
-            "knowledge": 21.0,
-            "prestige": 20.0,
-            "happiness": -16.4,
-            "fire_safety": -8.2,
-            "health": -13.0
+            "belief": 22,
+            "knowledge": 21,
+            "prestige": 20,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         }
     },
     "roman_25": {
-        "uid": 21128,
+        "guid": "21128",
+        "std_name": "City Status Roman 25",
         "name": "Vast Cosmopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_25_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_25_0.webp",
         "required_population": 90000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 23.0,
-            "knowledge": 22.0,
-            "prestige": 21.0,
-            "happiness": -16.6,
-            "fire_safety": -8.3,
-            "health": -13.2
+            "belief": 23,
+            "knowledge": 22,
+            "prestige": 21,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 23.0,
-            "knowledge": 22.0,
-            "prestige": 21.0,
-            "happiness": -16.6,
-            "fire_safety": -8.3,
-            "health": -13.2
+            "belief": 23,
+            "knowledge": 22,
+            "prestige": 21,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 23.0,
-            "knowledge": 22.0,
-            "prestige": 21.0,
-            "happiness": -16.6,
-            "fire_safety": -8.3,
-            "health": -13.2
+            "belief": 23,
+            "knowledge": 22,
+            "prestige": 21,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         }
     },
     "roman_26": {
-        "uid": 21129,
+        "guid": "21129",
+        "std_name": "City Status Roman 26",
         "name": "Minor Monstropolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_26_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_26_0.webp",
         "required_population": 95000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 24.0,
-            "knowledge": 23.0,
-            "prestige": 22.0,
-            "happiness": -16.8,
-            "fire_safety": -8.4,
-            "health": -13.3
+            "belief": 24,
+            "knowledge": 23,
+            "prestige": 22,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 24.0,
-            "knowledge": 23.0,
-            "prestige": 22.0,
-            "happiness": -16.8,
-            "fire_safety": -8.4,
-            "health": -13.3
+            "belief": 24,
+            "knowledge": 23,
+            "prestige": 22,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 24.0,
-            "knowledge": 23.0,
-            "prestige": 22.0,
-            "happiness": -16.8,
-            "fire_safety": -8.4,
-            "health": -13.3
+            "belief": 24,
+            "knowledge": 23,
+            "prestige": 22,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         }
     },
     "roman_27": {
-        "uid": 21130,
+        "guid": "21130",
+        "std_name": "City Status Roman 27",
         "name": "Growing Monstropolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_27_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_27_0.webp",
         "required_population": 100000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 25.0,
-            "knowledge": 24.0,
-            "prestige": 23.0,
-            "happiness": -16.9,
-            "fire_safety": -8.5,
-            "health": -13.4
+            "belief": 25,
+            "knowledge": 24,
+            "prestige": 23,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 25.0,
-            "knowledge": 24.0,
-            "prestige": 23.0,
-            "happiness": -16.9,
-            "fire_safety": -8.5,
-            "health": -13.4
+            "belief": 25,
+            "knowledge": 24,
+            "prestige": 23,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 25.0,
-            "knowledge": 24.0,
-            "prestige": 23.0,
-            "happiness": -16.9,
-            "fire_safety": -8.5,
-            "health": -13.4
+            "belief": 25,
+            "knowledge": 24,
+            "prestige": 23,
+            "happiness": -16,
+            "fire_safety": -8,
+            "health": -13
         }
     },
     "roman_28": {
-        "uid": 21131,
+        "guid": "21131",
+        "std_name": "City Status Roman 28",
         "name": "Major Monstropolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_28_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_28_0.webp",
         "required_population": 105000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 26.0,
-            "knowledge": 25.0,
-            "prestige": 24.0,
-            "happiness": -17.0,
-            "fire_safety": -8.6,
-            "health": -13.5
+            "belief": 26,
+            "knowledge": 25,
+            "prestige": 24,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 26.0,
-            "knowledge": 25.0,
-            "prestige": 24.0,
-            "happiness": -17.0,
-            "fire_safety": -8.6,
-            "health": -13.5
+            "belief": 26,
+            "knowledge": 25,
+            "prestige": 24,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 26.0,
-            "knowledge": 25.0,
-            "prestige": 24.0,
-            "happiness": -17.0,
-            "fire_safety": -8.6,
-            "health": -13.5
+            "belief": 26,
+            "knowledge": 25,
+            "prestige": 24,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         }
     },
     "roman_29": {
-        "uid": 21132,
+        "guid": "21132",
+        "std_name": "City Status Roman 29",
         "name": "Vast Monstropolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_29_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_29_0.webp",
         "required_population": 110000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 27.0,
-            "knowledge": 26.0,
-            "prestige": 25.0,
-            "happiness": -17.1,
-            "fire_safety": -8.7,
-            "health": -13.6
+            "belief": 27,
+            "knowledge": 26,
+            "prestige": 25,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 27.0,
-            "knowledge": 26.0,
-            "prestige": 25.0,
-            "happiness": -17.1,
-            "fire_safety": -8.7,
-            "health": -13.6
+            "belief": 27,
+            "knowledge": 26,
+            "prestige": 25,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 27.0,
-            "knowledge": 26.0,
-            "prestige": 25.0,
-            "happiness": -17.1,
-            "fire_safety": -8.7,
-            "health": -13.6
+            "belief": 27,
+            "knowledge": 26,
+            "prestige": 25,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         }
     },
     "roman_30": {
-        "uid": 21133,
+        "guid": "21133",
+        "std_name": "City Status Roman 30",
         "name": "Omnipolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_30_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_30_0.webp",
         "required_population": 115000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 28.0,
-            "knowledge": 27.0,
-            "prestige": 26.0,
-            "happiness": -17.2,
-            "fire_safety": -8.8,
-            "health": -13.7
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 28.0,
-            "knowledge": 27.0,
-            "prestige": 26.0,
-            "happiness": -17.2,
-            "fire_safety": -8.8,
-            "health": -13.7
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 28.0,
-            "knowledge": 27.0,
-            "prestige": 26.0,
-            "happiness": -17.2,
-            "fire_safety": -8.8,
-            "health": -13.7
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         }
     },
     "roman_31": {
-        "uid": 150661,
+        "guid": "150661",
+        "std_name": "City Status Roman 31",
         "name": "Growing Omnipolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_31_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_31_0.webp",
         "required_population": 125000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 28.2,
-            "knowledge": 27.2,
-            "prestige": 26.2,
-            "happiness": -17.3,
-            "fire_safety": -8.9,
-            "health": -13.8
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 28.2,
-            "knowledge": 27.2,
-            "prestige": 26.2,
-            "happiness": -17.3,
-            "fire_safety": -8.9,
-            "health": -13.8
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 28.2,
-            "knowledge": 27.2,
-            "prestige": 26.2,
-            "happiness": -17.3,
-            "fire_safety": -8.9,
-            "health": -13.8
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -8,
+            "health": -13
         }
     },
     "roman_32": {
-        "uid": 150662,
+        "guid": "150662",
+        "std_name": "City Status Roman 32",
         "name": "Major Omnipolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_32_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_32_0.webp",
         "required_population": 135000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 28.4,
-            "knowledge": 27.4,
-            "prestige": 26.4,
-            "happiness": -17.4,
-            "fire_safety": -9.0,
-            "health": -13.9
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -13
         },
         "attribute_effects_regional": {
-            "belief": 28.4,
-            "knowledge": 27.4,
-            "prestige": 26.4,
-            "happiness": -17.4,
-            "fire_safety": -9.0,
-            "health": -13.9
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -13
         },
         "attribute_effects_mixed": {
-            "belief": 28.4,
-            "knowledge": 27.4,
-            "prestige": 26.4,
-            "happiness": -17.4,
-            "fire_safety": -9.0,
-            "health": -13.9
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -13
         }
     },
     "roman_33": {
-        "uid": 150663,
+        "guid": "150663",
+        "std_name": "City Status Roman 33",
         "name": "Vast Omnipolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_33_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_33_0.webp",
         "required_population": 145000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 28.6,
-            "knowledge": 27.6,
-            "prestige": 26.6,
-            "happiness": -17.5,
-            "fire_safety": -9.1,
-            "health": -14.0
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_regional": {
-            "belief": 28.6,
-            "knowledge": 27.6,
-            "prestige": 26.6,
-            "happiness": -17.5,
-            "fire_safety": -9.1,
-            "health": -14.0
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_mixed": {
-            "belief": 28.6,
-            "knowledge": 27.6,
-            "prestige": 26.6,
-            "happiness": -17.5,
-            "fire_safety": -9.1,
-            "health": -14.0
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         }
     },
     "roman_34": {
-        "uid": 150664,
+        "guid": "150664",
+        "std_name": "City Status Roman 34",
         "name": "Minor Aureliopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_34_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_34_0.webp",
         "required_population": 155000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 28.8,
-            "knowledge": 27.8,
-            "prestige": 26.8,
-            "happiness": -17.6,
-            "fire_safety": -9.2,
-            "health": -14.1
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_regional": {
-            "belief": 28.8,
-            "knowledge": 27.8,
-            "prestige": 26.8,
-            "happiness": -17.6,
-            "fire_safety": -9.2,
-            "health": -14.1
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_mixed": {
-            "belief": 28.8,
-            "knowledge": 27.8,
-            "prestige": 26.8,
-            "happiness": -17.6,
-            "fire_safety": -9.2,
-            "health": -14.1
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         }
     },
     "roman_35": {
-        "uid": 150666,
+        "guid": "150666",
+        "std_name": "City Status Roman 35",
         "name": "Growing Aureliopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_35_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_35_0.webp",
         "required_population": 170000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 29.0,
-            "knowledge": 28.0,
-            "prestige": 27.0,
-            "happiness": -17.7,
-            "fire_safety": -9.3,
-            "health": -14.2
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_regional": {
-            "belief": 29.0,
-            "knowledge": 28.0,
-            "prestige": 27.0,
-            "happiness": -17.7,
-            "fire_safety": -9.3,
-            "health": -14.2
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_mixed": {
-            "belief": 29.0,
-            "knowledge": 28.0,
-            "prestige": 27.0,
-            "happiness": -17.7,
-            "fire_safety": -9.3,
-            "health": -14.2
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         }
     },
     "roman_36": {
-        "uid": 150667,
+        "guid": "150667",
+        "std_name": "City Status Roman 36",
         "name": "Major Aureliopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_36_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_36_0.webp",
         "required_population": 185000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 29.2,
-            "knowledge": 28.2,
-            "prestige": 27.2,
-            "happiness": -17.8,
-            "fire_safety": -9.4,
-            "health": -14.3
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_regional": {
-            "belief": 29.2,
-            "knowledge": 28.2,
-            "prestige": 27.2,
-            "happiness": -17.8,
-            "fire_safety": -9.4,
-            "health": -14.3
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_mixed": {
-            "belief": 29.2,
-            "knowledge": 28.2,
-            "prestige": 27.2,
-            "happiness": -17.8,
-            "fire_safety": -9.4,
-            "health": -14.3
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         }
     },
     "roman_37": {
-        "uid": 150672,
+        "guid": "150672",
+        "std_name": "City Status Roman 37",
         "name": "Vast Aureliopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_37_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_37_0.webp",
         "required_population": 200000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 29.4,
-            "knowledge": 28.4,
-            "prestige": 27.4,
-            "happiness": -17.9,
-            "fire_safety": -9.5,
-            "health": -14.4
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_regional": {
-            "belief": 29.4,
-            "knowledge": 28.4,
-            "prestige": 27.4,
-            "happiness": -17.9,
-            "fire_safety": -9.5,
-            "health": -14.4
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_mixed": {
-            "belief": 29.4,
-            "knowledge": 28.4,
-            "prestige": 27.4,
-            "happiness": -17.9,
-            "fire_safety": -9.5,
-            "health": -14.4
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -17,
+            "fire_safety": -9,
+            "health": -14
         }
     },
     "roman_38": {
-        "uid": 150673,
+        "guid": "150673",
+        "std_name": "City Status Roman 38",
         "name": "Minor Titanopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_38_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_38_0.webp",
         "required_population": 220000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 29.6,
-            "knowledge": 28.6,
-            "prestige": 27.6,
-            "happiness": -18.0,
-            "fire_safety": -9.6,
-            "health": -14.5
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_regional": {
-            "belief": 29.6,
-            "knowledge": 28.6,
-            "prestige": 27.6,
-            "happiness": -18.0,
-            "fire_safety": -9.6,
-            "health": -14.5
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_mixed": {
-            "belief": 29.6,
-            "knowledge": 28.6,
-            "prestige": 27.6,
-            "happiness": -18.0,
-            "fire_safety": -9.6,
-            "health": -14.5
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         }
     },
     "roman_39": {
-        "uid": 150674,
+        "guid": "150674",
+        "std_name": "City Status Roman 39",
         "name": "Growing Titanopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_39_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_39_0.webp",
         "required_population": 240000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 29.8,
-            "knowledge": 28.8,
-            "prestige": 27.8,
-            "happiness": -18.1,
-            "fire_safety": -9.7,
-            "health": -14.6
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_regional": {
-            "belief": 29.8,
-            "knowledge": 28.8,
-            "prestige": 27.8,
-            "happiness": -18.1,
-            "fire_safety": -9.7,
-            "health": -14.6
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_mixed": {
-            "belief": 29.8,
-            "knowledge": 28.8,
-            "prestige": 27.8,
-            "happiness": -18.1,
-            "fire_safety": -9.7,
-            "health": -14.6
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         }
     },
     "roman_40": {
-        "uid": 150675,
+        "guid": "150675",
+        "std_name": "City Status Roman 40",
         "name": "Major Titanopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_40_0",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_40_0.webp",
         "required_population": 260000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
         "attribute_effects_roman": {
-            "belief": 30.0,
-            "knowledge": 29.0,
-            "prestige": 28.0,
-            "happiness": -18.2,
-            "fire_safety": -9.8,
-            "health": -14.7
+            "belief": 30,
+            "knowledge": 29,
+            "prestige": 28,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_regional": {
-            "belief": 30.0,
-            "knowledge": 29.0,
-            "prestige": 28.0,
-            "happiness": -18.2,
-            "fire_safety": -9.8,
-            "health": -14.7
+            "belief": 30,
+            "knowledge": 29,
+            "prestige": 28,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         },
         "attribute_effects_mixed": {
-            "belief": 30.0,
-            "knowledge": 29.0,
-            "prestige": 28.0,
-            "happiness": -18.2,
-            "fire_safety": -9.8,
-            "health": -14.7
-        }
-    },
-    "roman_41": {
-        "uid": 150676,
-        "name": "Vast Titanopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_41_0",
-        "required_population": 0,
-        "attribute_effects_roman": {
-            "belief": 30.2,
-            "knowledge": 29.2,
-            "prestige": 28.2,
-            "happiness": -18.3,
-            "fire_safety": -9.9,
-            "health": -14.8
-        },
-        "attribute_effects_regional": {
-            "belief": 30.2,
-            "knowledge": 29.2,
-            "prestige": 28.2,
-            "happiness": -18.3,
-            "fire_safety": -9.9,
-            "health": -14.8
-        },
-        "attribute_effects_mixed": {
-            "belief": 30.2,
-            "knowledge": 29.2,
-            "prestige": 28.2,
-            "happiness": -18.3,
-            "fire_safety": -9.9,
-            "health": -14.8
-        }
-    },
-    "roman_42": {
-        "uid": 150677,
-        "name": "Minor Pantheopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_42_0",
-        "required_population": 0,
-        "attribute_effects_roman": {
-            "belief": 30.4,
-            "knowledge": 29.4,
-            "prestige": 28.4,
-            "happiness": -18.4,
-            "fire_safety": -10.0,
-            "health": -14.9
-        },
-        "attribute_effects_regional": {
-            "belief": 30.4,
-            "knowledge": 29.4,
-            "prestige": 28.4,
-            "happiness": -18.4,
-            "fire_safety": -10.0,
-            "health": -14.9
-        },
-        "attribute_effects_mixed": {
-            "belief": 30.4,
-            "knowledge": 29.4,
-            "prestige": 28.4,
-            "happiness": -18.4,
-            "fire_safety": -10.0,
-            "health": -14.9
-        }
-    },
-    "roman_43": {
-        "uid": 150678,
-        "name": "Growing Pantheopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_43_0",
-        "required_population": 0,
-        "attribute_effects_roman": {
-            "belief": 30.6,
-            "knowledge": 29.6,
-            "prestige": 28.6,
-            "happiness": -18.5,
-            "fire_safety": -10.1,
-            "health": -15.0
-        },
-        "attribute_effects_regional": {
-            "belief": 30.6,
-            "knowledge": 29.6,
-            "prestige": 28.6,
-            "happiness": -18.5,
-            "fire_safety": -10.1,
-            "health": -15.0
-        },
-        "attribute_effects_mixed": {
-            "belief": 30.6,
-            "knowledge": 29.6,
-            "prestige": 28.6,
-            "happiness": -18.5,
-            "fire_safety": -10.1,
-            "health": -15.0
-        }
-    },
-    "roman_44": {
-        "uid": 150679,
-        "name": "Major Pantheopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_44_0",
-        "required_population": 0,
-        "attribute_effects_roman": {
-            "belief": 30.8,
-            "knowledge": 29.8,
-            "prestige": 28.8,
-            "happiness": -18.6,
-            "fire_safety": -10.2,
-            "health": -15.1
-        },
-        "attribute_effects_regional": {
-            "belief": 30.8,
-            "knowledge": 29.8,
-            "prestige": 28.8,
-            "happiness": -18.6,
-            "fire_safety": -10.2,
-            "health": -15.1
-        },
-        "attribute_effects_mixed": {
-            "belief": 30.8,
-            "knowledge": 29.8,
-            "prestige": 28.8,
-            "happiness": -18.6,
-            "fire_safety": -10.2,
-            "health": -15.1
-        }
-    },
-    "roman_45": {
-        "uid": 150680,
-        "name": "Vast Pantheopolis",
-        "image_url": "\\data\\ui\\4k\\base\\icon_content\\city_status\\icon_2d_city_status_45_0",
-        "required_population": 0,
-        "attribute_effects_roman": {
-            "belief": 31.0,
-            "knowledge": 30.0,
-            "prestige": 29.0,
-            "happiness": -18.7,
-            "fire_safety": -10.3,
-            "health": -15.2
-        },
-        "attribute_effects_regional": {
-            "belief": 31.0,
-            "knowledge": 30.0,
-            "prestige": 29.0,
-            "happiness": -18.7,
-            "fire_safety": -10.3,
-            "health": -15.2
-        },
-        "attribute_effects_mixed": {
-            "belief": 31.0,
-            "knowledge": 30.0,
-            "prestige": 29.0,
-            "happiness": -18.7,
-            "fire_safety": -10.3,
-            "health": -15.2
+            "belief": 30,
+            "knowledge": 29,
+            "prestige": 28,
+            "happiness": -18,
+            "fire_safety": -9,
+            "health": -14
         }
     }
 }

@@ -282,7 +282,7 @@
                 },
                 {
                     "guid": 2795,
-                    "std_name": "Production Meadow Roman Honycombs",
+                    "std_name": "Production Meadow Roman Honeycombs",
                     "text": "Apiary",
                     "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
                     "canon_name": "production_apiary_latium",
@@ -807,7 +807,7 @@
                 },
                 {
                     "guid": 2795,
-                    "std_name": "Production Meadow Roman Honycombs",
+                    "std_name": "Production Meadow Roman Honeycombs",
                     "text": "Apiary",
                     "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
                     "canon_name": "production_apiary_latium",
@@ -1195,9 +1195,9 @@
                 {
                     "guid": 5847,
                     "std_name": "Production Marsh Celtic Aurochs",
-                    "text": "Ochs Farm",
+                    "text": "Auroch Farm",
                     "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
-                    "canon_name": "production_ochs_farm_albion",
+                    "canon_name": "production_auroch_farm_albion",
                     "region": [
                         "Celtic"
                     ],
@@ -1340,9 +1340,9 @@
                 {
                     "guid": 5847,
                     "std_name": "Production Marsh Celtic Aurochs",
-                    "text": "Ochs Farm",
+                    "text": "Auroch Farm",
                     "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
-                    "canon_name": "production_ochs_farm_albion",
+                    "canon_name": "production_auroch_farm_albion",
                     "region": [
                         "Celtic"
                     ],
@@ -1610,7 +1610,7 @@
                 },
                 {
                     "guid": 8427,
-                    "std_name": "Production Meadow Roman Celtic Honycombs",
+                    "std_name": "Production Meadow Roman Celtic Honeycombs",
                     "text": "Apiary",
                     "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
                     "canon_name": "production_apiary_albion",
@@ -1871,9 +1871,9 @@
                 {
                     "guid": 5847,
                     "std_name": "Production Marsh Celtic Aurochs",
-                    "text": "Ochs Farm",
+                    "text": "Auroch Farm",
                     "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
-                    "canon_name": "production_ochs_farm_albion",
+                    "canon_name": "production_auroch_farm_albion",
                     "region": [
                         "Celtic"
                     ],
@@ -3067,9 +3067,9 @@
                 {
                     "guid": 5847,
                     "std_name": "Production Marsh Celtic Aurochs",
-                    "text": "Ochs Farm",
+                    "text": "Auroch Farm",
                     "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
-                    "canon_name": "production_ochs_farm_albion",
+                    "canon_name": "production_auroch_farm_albion",
                     "region": [
                         "Celtic"
                     ],
@@ -3281,6 +3281,1834 @@
             ]
         }
     },
+    "152771": {
+        "uid": 152771,
+        "canon_name": "production_rope",
+        "name": "Rope",
+        "description": "Skeins entwined into a vine.",
+        "output_building": {
+            "guid": 152792,
+            "std_name": "Production Military Greco Roman Ropes",
+            "text": "Ropemaker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ropes_goods_0.webp",
+            "canon_name": "production_ropemaker_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152144,
+                    "std_name": "Production Field Greco Roman Hemp",
+                    "text": "Hemp Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp",
+                    "canon_name": "production_hemp_farm_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152772": {
+        "uid": 152772,
+        "canon_name": "production_sails",
+        "name": "Sails",
+        "description": "Hair of the land has become wings of the sea.",
+        "output_building": {
+            "guid": 152791,
+            "std_name": "Production Military Greco Roman Sails",
+            "text": "Sailmaker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sails_goods_0.webp",
+            "canon_name": "production_sailmaker_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152256,
+                    "std_name": "Production Pasture Greco Roman Sheep",
+                    "text": "Sheep Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                    "canon_name": "production_sheep_farm_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152774": {
+        "uid": 152774,
+        "canon_name": "production_weapons",
+        "name": "Weapons",
+        "description": "Pointy things, sharp things, and sharp pointy things.",
+        "output_building": {
+            "guid": 152793,
+            "std_name": "Production Military Greco Roman Weapons",
+            "text": "Weaponsmith",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_weapons_goods_0.webp",
+            "canon_name": "production_weaponsmith_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152353,
+                    "std_name": "Production Heavy Greco Roman Iron",
+                    "text": "Furnace",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp",
+                    "canon_name": "production_furnace_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152243,
+                            "std_name": "Production Mountain Greco Roman Iron Ore",
+                            "text": "Iron Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp",
+                            "canon_name": "production_iron_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152777": {
+        "uid": 152777,
+        "canon_name": "production_armour",
+        "name": "Armour",
+        "description": "Increases the odds for those who gamble with their lives.",
+        "output_building": {
+            "guid": 152794,
+            "std_name": "Production Military Greco Roman Armor",
+            "text": "Armourer",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_armory_goods_0.webp",
+            "canon_name": "production_armourer_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152334,
+                    "std_name": "Production Chemical Greco Roman Leather",
+                    "text": "Tannery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp",
+                    "canon_name": "production_tannery_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152257,
+                            "std_name": "Production Pasture Greco Roman Sanga Cows",
+                            "text": "Sanga Cattle Farm",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sanga_cows_goods_0.webp",
+                            "canon_name": "production_sanga_cattle_farm_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152270,
+                            "std_name": "Production Forest Greco Roman Wood",
+                            "text": "Woodcutter",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp",
+                            "canon_name": "production_woodcutter_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 152353,
+                    "std_name": "Production Heavy Greco Roman Iron",
+                    "text": "Furnace",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_goods_0.webp",
+                    "canon_name": "production_furnace_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152243,
+                            "std_name": "Production Mountain Greco Roman Iron Ore",
+                            "text": "Iron Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp",
+                            "canon_name": "production_iron_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152778": {
+        "uid": 152778,
+        "canon_name": "production_granite",
+        "name": "Granite",
+        "description": "Prized by Kashtans for its monumental gravity, granite is most popular in the south.",
+        "output_building": {
+            "guid": 152790,
+            "std_name": "Production Construction Egyptian Granite",
+            "text": "Granite Cutter",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_block_goods_0.webp",
+            "canon_name": "production_granite_cutter_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152007,
+                    "std_name": "Production Mountain Egyptian Granite Blocks",
+                    "text": "Granite Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp",
+                    "canon_name": "production_granite_quarry_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152779": {
+        "uid": 152779,
+        "canon_name": "production_timber",
+        "name": "Timber",
+        "description": "Sliced tree; the best thing before sliced bread.",
+        "output_building": {
+            "guid": 152803,
+            "std_name": "Production Construction Greco Roman Timber",
+            "text": "Sawmill",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_timber_goods_0.webp",
+            "canon_name": "production_sawmill_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152270,
+                    "std_name": "Production Forest Greco Roman Wood",
+                    "text": "Woodcutter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp",
+                    "canon_name": "production_woodcutter_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152780": {
+        "uid": 152780,
+        "canon_name": "production_tiles",
+        "name": "Tiles",
+        "description": "Imbrex and his brother Tegula band together.",
+        "output_building": {
+            "guid": 152795,
+            "std_name": "Production Construction Greco Roman Tiles",
+            "text": "Tiler",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tiles_goods_0.webp",
+            "canon_name": "production_tiler_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 151998,
+                    "std_name": "Production Riverbank Egyptian Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152781": {
+        "uid": 152781,
+        "canon_name": "production_concrete",
+        "name": "Concrete",
+        "description": "Fabled for its self-mending properties, it can withstand anything but time. ",
+        "output_building": {
+            "guid": 152796,
+            "std_name": "Production Construction Greco Roman Concrete",
+            "text": "Concrete Mixer",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_concrete_goods_0.webp",
+            "canon_name": "production_concrete_mixer_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152210,
+                    "std_name": "Production Mountain Egyptian Limestone Blocks",
+                    "text": "Limestone Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_limestone_goods_0.webp",
+                    "canon_name": "production_limestone_quarry_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152203,
+                    "std_name": "Production Coast Greco Roman Silica",
+                    "text": "Sand Refinery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                    "canon_name": "production_sand_refinery_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152782": {
+        "uid": 152782,
+        "canon_name": "production_mosaics",
+        "name": "Mosaics",
+        "description": "A colourful piece of tessera complements the bolts of Jupiter just like the arse of Apollo.",
+        "output_building": {
+            "guid": 152797,
+            "std_name": "Production Construction Greco Roman Mosaics",
+            "text": "Tessera Works",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mosaics_goods_0.webp",
+            "canon_name": "production_tessera_works_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 151998,
+                    "std_name": "Production Riverbank Egyptian Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152356,
+                    "std_name": "Production Heavy Greco Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152247,
+                            "std_name": "Production Mountain Greco Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152783": {
+        "uid": 152783,
+        "canon_name": "production_mud_bricks",
+        "name": "Mud Bricks",
+        "description": "The great river brings in no shortage of fluvial sediment... may as well build with it!",
+        "output_building": {
+            "guid": 152788,
+            "std_name": "Production Construction Egyptian Mudbricks",
+            "text": "Mud Stacker",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_mud_bricks_goods_0.webp",
+            "canon_name": "production_mud_stacker_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 151998,
+                    "std_name": "Production Riverbank Egyptian Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 151997,
+                    "std_name": "Production Riverbank Egyptian Reed",
+                    "text": "Reed Gatherer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp",
+                    "canon_name": "production_reed_gatherer_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152784": {
+        "uid": 152784,
+        "canon_name": "production_limestone_bricks",
+        "name": "Limestone Bricks",
+        "description": "The cornerstone of empire is found just as commonly in monumental Aegyptus.",
+        "output_building": {
+            "guid": 152789,
+            "std_name": "Production Construction Egyptian Limestone Bricks",
+            "text": "Limestone Mason",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_limestone_bricks_goods_0.webp",
+            "canon_name": "production_limestone_mason_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152210,
+                    "std_name": "Production Mountain Egyptian Limestone Blocks",
+                    "text": "Limestone Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_limestone_goods_0.webp",
+                    "canon_name": "production_limestone_quarry_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152857": {
+        "uid": 152857,
+        "canon_name": "production_porridge",
+        "name": "Porridge",
+        "description": "Nilotic grain strains make this both as nutritious and bland as Latin porridge.",
+        "output_building": {
+            "guid": 152375,
+            "std_name": "Production Food Greco Roman Porridge",
+            "text": "Porridge Stand",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_porridge_goods_0.webp",
+            "canon_name": "production_porridge_stand_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152151,
+                    "std_name": "Production Field Greco Roman Oats",
+                    "text": "Oat Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_oats_goods_0.webp",
+                    "canon_name": "production_oat_farm_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152858": {
+        "uid": 152858,
+        "canon_name": "production_beer",
+        "name": "Beer",
+        "description": "Hot-cold mash mixes make beer special to Aegyptus, but beloved all over. ",
+        "output_building": {
+            "guid": 152389,
+            "std_name": "Production Food Egyptian Beer",
+            "text": "Brewery",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_beer_goods_0.webp",
+            "canon_name": "production_brewery_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152352,
+                    "std_name": "Production Ingredient Egyptian Malt",
+                    "text": "Malthouse",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_malt_goods_0.webp",
+                    "canon_name": "production_malthouse_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151993,
+                            "std_name": "Production Field Egyptian Barley",
+                            "text": "Barley Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp",
+                            "canon_name": "production_barley_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152859": {
+        "uid": 152859,
+        "canon_name": "production_bread",
+        "name": "Bread",
+        "description": "Satisfies the Nile gods too, but not as lucrative in the breadbasket that is Aegyptus.",
+        "output_building": {
+            "guid": 152383,
+            "std_name": "Production Food Greco Roman Bread",
+            "text": "Bakery",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bread_goods_0.webp",
+            "canon_name": "production_bakery_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152351,
+                    "std_name": "Production Ingredient Greco Roman Flour",
+                    "text": "Donkey Mill",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp",
+                    "canon_name": "production_donkey_mill_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152143,
+                            "std_name": "Production Field Greco Roman Wheat",
+                            "text": "Wheat Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp",
+                            "canon_name": "production_wheat_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152860": {
+        "uid": 152860,
+        "canon_name": "production_cheese",
+        "name": "Cheese",
+        "description": "Sanga Cheese has a moreish tartness, redolent of the cheeses of Hellas.  ",
+        "output_building": {
+            "guid": 152388,
+            "std_name": "Production Food Greco Roman Cheese",
+            "text": "Dairy",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cheese_goods_0.webp",
+            "canon_name": "production_dairy_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152257,
+                    "std_name": "Production Pasture Greco Roman Sanga Cows",
+                    "text": "Sanga Cattle Farm",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sanga_cows_goods_0.webp",
+                    "canon_name": "production_sanga_cattle_farm_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152861": {
+        "uid": 152861,
+        "canon_name": "production_wine",
+        "name": "Wine",
+        "description": "Can't speak to the quality, but inevitably, the grape has reached Aegyptus too.",
+        "output_building": {
+            "guid": 152387,
+            "std_name": "Production Food Greco Roman Wine",
+            "text": "Vintner",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wine_goods_0.webp",
+            "canon_name": "production_vintner_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152141,
+                    "std_name": "Production Field Greco Roman Grapes",
+                    "text": "Vineyard",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp",
+                    "canon_name": "production_vineyard_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152279,
+                    "std_name": "Production Meadow Greco Roman Honeycombs",
+                    "text": "Apiary",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                    "canon_name": "production_apiary_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152862": {
+        "uid": 152862,
+        "canon_name": "production_dates",
+        "name": "Dates",
+        "description": "Palms heavy with dates gather expectant crowds below, harvesting bags at the ready.",
+        "output_building": {
+            "guid": 152272,
+            "std_name": "Production Forest Egyptian Dates",
+            "text": "Date Farm",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_dates_goods_0.webp",
+            "canon_name": "production_date_farm_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": []
+        }
+    },
+    "152863": {
+        "uid": 152863,
+        "canon_name": "production_stuffed_goose",
+        "name": "Stuffed Goose",
+        "description": "Feast days\u2014 any day really\u2014 a stuffed goose swum in fat will feed a crowd.",
+        "output_building": {
+            "guid": 152390,
+            "std_name": "Production Food Egyptian Stuffed Goose",
+            "text": "Farcer",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_stuffed_goose_goods_0.webp",
+            "canon_name": "production_farcer_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 151999,
+                    "std_name": "Production Riverbank Egyptian Wild Goose",
+                    "text": "Wild Goose Chaser",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_wild_goose_goods_0.webp",
+                    "canon_name": "production_wild_goose_chaser_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152143,
+                    "std_name": "Production Field Greco Roman Wheat",
+                    "text": "Wheat Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp",
+                    "canon_name": "production_wheat_farm_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152864": {
+        "uid": 152864,
+        "canon_name": "production_rare_meat_platters",
+        "name": "Rare Meat Platters",
+        "description": "Creatures of the Nile are sacred to Aegyptians, but nothing could upset a Roman at a banquet.",
+        "output_building": {
+            "guid": 152391,
+            "std_name": "Production Food Greco Roman Appetizers",
+            "text": "Epicure of Earth",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_appetizers_goods_0.webp",
+            "canon_name": "production_epicure_of_earth_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152000,
+                    "std_name": "Production Riverbank Greco Roman Hippos",
+                    "text": "Big Game Hunter",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp",
+                    "canon_name": "production_big_game_hunter_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152145,
+                    "std_name": "Production Field Greco Roman Pomegranate",
+                    "text": "Pomegranate Farm",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp",
+                    "canon_name": "production_pomegranate_farm_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152865": {
+        "uid": 152865,
+        "canon_name": "production_kayk",
+        "name": "Kayk",
+        "description": "An extravagant sweet, better taken with a slurp of tea, good for children and gods alike.",
+        "output_building": {
+            "guid": 152400,
+            "std_name": "Production Food Egyptian Kahk",
+            "text": "Kaykery",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kahk_goods_0.webp",
+            "canon_name": "production_kaykery_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152279,
+                    "std_name": "Production Meadow Greco Roman Honeycombs",
+                    "text": "Apiary",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                    "canon_name": "production_apiary_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152351,
+                    "std_name": "Production Ingredient Greco Roman Flour",
+                    "text": "Donkey Mill",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp",
+                    "canon_name": "production_donkey_mill_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152143,
+                            "std_name": "Production Field Greco Roman Wheat",
+                            "text": "Wheat Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp",
+                            "canon_name": "production_wheat_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152866": {
+        "uid": 152866,
+        "canon_name": "production_blue_lotus_tea",
+        "name": "Blue Lotus Tea",
+        "description": "A mug of steamy bliss for lotus-eaters who can pay the price of admission.  ",
+        "output_building": {
+            "guid": 152437,
+            "std_name": "Production Food Egyptian Lotus Tea",
+            "text": "House of Infusion",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_lotus_tea_goods_0.webp",
+            "canon_name": "production_house_of_infusion_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152107,
+                    "std_name": "Production Pasture Egyptian Blue Lotus",
+                    "text": "Blue Lotus Plantation",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp",
+                    "canon_name": "production_blue_lotus_plantation_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152279,
+                    "std_name": "Production Meadow Greco Roman Honeycombs",
+                    "text": "Apiary",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                    "canon_name": "production_apiary_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152897": {
+        "uid": 152897,
+        "canon_name": "production_tunics",
+        "name": "Tunics",
+        "description": "The climate of Aegyptus further demonstrates the tunic's universal utility.",
+        "output_building": {
+            "guid": 152671,
+            "std_name": "Production Fashion Greco Roman Tunics",
+            "text": "Spinner",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tunics_goods_0.webp",
+            "canon_name": "production_spinner_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152144,
+                    "std_name": "Production Field Greco Roman Hemp",
+                    "text": "Hemp Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_hemp_goods_0.webp",
+                    "canon_name": "production_hemp_farm_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152898": {
+        "uid": 152898,
+        "canon_name": "production_soap",
+        "name": "Soap",
+        "description": "Aegyptian cleanliness is famed across the empire\u2014 now to indoctrinate the reeky greeks.",
+        "output_building": {
+            "guid": 152683,
+            "std_name": "Production Fashion Greco Roman Soap",
+            "text": "Soap Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_soap_goods_0.webp",
+            "canon_name": "production_soap_maker_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152152,
+                    "std_name": "Production Field Greco Roman Lavender",
+                    "text": "Lavender Grower",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp",
+                    "canon_name": "production_lavender_grower_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152333,
+                    "std_name": "Production Chemical Greco Roman Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151999,
+                            "std_name": "Production Riverbank Egyptian Wild Goose",
+                            "text": "Wild Goose Chaser",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_wild_goose_goods_0.webp",
+                            "canon_name": "production_wild_goose_chaser_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152899": {
+        "uid": 152899,
+        "canon_name": "production_sandals",
+        "name": "Sandals",
+        "description": "To whichever desehert the army marches, these souls are sure to follow.",
+        "output_building": {
+            "guid": 152685,
+            "std_name": "Production Fashion Greco Roman Sandals",
+            "text": "Sandal Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sandals_goods_0.webp",
+            "canon_name": "production_sandal_maker_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152334,
+                    "std_name": "Production Chemical Greco Roman Leather",
+                    "text": "Tannery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_leather_goods_0.webp",
+                    "canon_name": "production_tannery_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152257,
+                            "std_name": "Production Pasture Greco Roman Sanga Cows",
+                            "text": "Sanga Cattle Farm",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sanga_cows_goods_0.webp",
+                            "canon_name": "production_sanga_cattle_farm_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152270,
+                            "std_name": "Production Forest Greco Roman Wood",
+                            "text": "Woodcutter",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wood_goods_0.webp",
+                            "canon_name": "production_woodcutter_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152900": {
+        "uid": 152900,
+        "canon_name": "production_necklaces",
+        "name": "Necklaces",
+        "description": "Prized for their novelty value, but necklaces don't hold the same sway in Aegyptus.",
+        "output_building": {
+            "guid": 152686,
+            "std_name": "Production Fashion Greco Roman Necklace",
+            "text": "Jeweller",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_necklaces_goods_0.webp",
+            "canon_name": "production_jeweller_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152247,
+                    "std_name": "Production Mountain Greco Roman Minerals",
+                    "text": "Mineral Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                    "canon_name": "production_mineral_quarry_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152358,
+                    "std_name": "Production Heavy Greco Roman Gold",
+                    "text": "Goldsmith",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp",
+                    "canon_name": "production_goldsmith_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152204,
+                            "std_name": "Production Coast Greco Roman Gold Ore",
+                            "text": "Gold Washer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp",
+                            "canon_name": "production_gold_washer_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152901": {
+        "uid": 152901,
+        "canon_name": "production_wesekh_collars",
+        "name": "Wesekh Collars",
+        "description": "Broad pectorals of humble make. Pretty reminders of bygone days. ",
+        "output_building": {
+            "guid": 152647,
+            "std_name": "Production Fashion Egyptian Collars",
+            "text": "Bead-Threader",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_usekh_collar_goods_0.webp",
+            "canon_name": "production_bead_threader_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152064,
+                    "std_name": "Production Riverbank Egyptian Beads",
+                    "text": "Beadmaker",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_beads_goods_0.webp",
+                    "canon_name": "production_beadmaker_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "152902": {
+        "uid": 152902,
+        "canon_name": "production_shentis",
+        "name": "Shentis",
+        "description": "A pleated loin-cloth traditionally conferring status when worn beneath a bared chest.",
+        "output_building": {
+            "guid": 152648,
+            "std_name": "Production Fashion Egyptian Shenti",
+            "text": "Pleater",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_shenti_goods_0.webp",
+            "canon_name": "production_pleater_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152361,
+                    "std_name": "Production Crafts Egyptian Cloth",
+                    "text": "Weaver",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloth_goods_0.webp",
+                    "canon_name": "production_weaver_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152142,
+                            "std_name": "Production Field Egyptian Flax",
+                            "text": "Flax Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp",
+                            "canon_name": "production_flax_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152903": {
+        "uid": 152903,
+        "canon_name": "production_kollurion",
+        "name": "Kollurion",
+        "description": "Eye smear to ward off insects and the sternest rays of Ra. ",
+        "output_building": {
+            "guid": 152649,
+            "std_name": "Production Fashion Egyptian Kohl",
+            "text": "Kollyrist",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kohl_goods_0.webp",
+            "canon_name": "production_kollyrist_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152271,
+                    "std_name": "Production Forest Greco Roman Charcoal",
+                    "text": "Charcoal Burner",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp",
+                    "canon_name": "production_charcoal_burner_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152333,
+                    "std_name": "Production Chemical Greco Roman Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151999,
+                            "std_name": "Production Riverbank Egyptian Wild Goose",
+                            "text": "Wild Goose Chaser",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_wild_goose_goods_0.webp",
+                            "canon_name": "production_wild_goose_chaser_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152904": {
+        "uid": 152904,
+        "canon_name": "production_kalasirises",
+        "name": "Kalasirises",
+        "description": "Of a distinctively pure cut, it has been the uniform of women for centuries.",
+        "output_building": {
+            "guid": 152650,
+            "std_name": "Production Fashion Egyptian Kalasiris",
+            "text": "Seamstress",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kalasiris_goods_0.webp",
+            "canon_name": "production_seamstress_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152361,
+                    "std_name": "Production Crafts Egyptian Cloth",
+                    "text": "Weaver",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloth_goods_0.webp",
+                    "canon_name": "production_weaver_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152142,
+                            "std_name": "Production Field Egyptian Flax",
+                            "text": "Flax Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp",
+                            "canon_name": "production_flax_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 152332,
+                    "std_name": "Production Chemical Egyptian Blue",
+                    "text": "Bluehands",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_egyptian_blue_goods_0.webp",
+                    "canon_name": "production_bluehands_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152006,
+                            "std_name": "Production Mountain Egyptian Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152203,
+                            "std_name": "Production Coast Greco Roman Silica",
+                            "text": "Sand Refinery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                            "canon_name": "production_sand_refinery_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152905": {
+        "uid": 152905,
+        "canon_name": "production_perfumed_oils",
+        "name": "Perfumed Oils",
+        "description": "Fragrant oils may soothe the afflicted, at home or at the altar.",
+        "output_building": {
+            "guid": 152651,
+            "std_name": "Production Fashion Egyptian Perfumed Oil",
+            "text": "Unguentarius",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_perfumed_oil_goods_0.webp",
+            "canon_name": "production_unguentarius_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152107,
+                    "std_name": "Production Pasture Egyptian Blue Lotus",
+                    "text": "Blue Lotus Plantation",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp",
+                    "canon_name": "production_blue_lotus_plantation_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152370,
+                    "std_name": "Production Craft Egyptian Sesame Oil",
+                    "text": "Sesame Press",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_oil_goods_0.webp",
+                    "canon_name": "production_sesame_press_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151994,
+                            "std_name": "Production Field Egyptian Sesame",
+                            "text": "Sesame Farm",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp",
+                            "canon_name": "production_sesame_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152906": {
+        "uid": 152906,
+        "canon_name": "production_milk_of_poppea",
+        "name": "Milk of Poppea",
+        "description": "Popularised by a famed patrician, who bathed away her ills in the milk of many donkeys. ",
+        "output_building": {
+            "guid": 152688,
+            "std_name": "Production Fashion Greco Roman Bathing Milk",
+            "text": "Kosmetician",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_bathing_milk_goods_0.webp",
+            "canon_name": "production_kosmetician_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152145,
+                    "std_name": "Production Field Greco Roman Pomegranate",
+                    "text": "Pomegranate Farm",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp",
+                    "canon_name": "production_pomegranate_farm_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152338,
+                    "std_name": "Production Ingredient Greco Roman Honeymilk",
+                    "text": "Melikrator",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_honey_milk_goods_0.webp",
+                    "canon_name": "production_melikrator_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152257,
+                            "std_name": "Production Pasture Greco Roman Sanga Cows",
+                            "text": "Sanga Cattle Farm",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sanga_cows_goods_0.webp",
+                            "canon_name": "production_sanga_cattle_farm_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152279,
+                            "std_name": "Production Meadow Greco Roman Honeycombs",
+                            "text": "Apiary",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                            "canon_name": "production_apiary_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152946": {
+        "uid": 152946,
+        "canon_name": "production_apotropaic_talismans",
+        "name": "Apotropaic Talismans",
+        "description": "Cool blue companions, offering spiritual protection before nefarious forces.",
+        "output_building": {
+            "guid": 152730,
+            "std_name": "Production Culture Egyptian Faience Talismans",
+            "text": "Artisan Glazier",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_talismans_goods_0.webp",
+            "canon_name": "production_artisan_glazier_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 151998,
+                    "std_name": "Production Riverbank Egyptian Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152332,
+                    "std_name": "Production Chemical Egyptian Blue",
+                    "text": "Bluehands",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_egyptian_blue_goods_0.webp",
+                    "canon_name": "production_bluehands_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152006,
+                            "std_name": "Production Mountain Egyptian Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152203,
+                            "std_name": "Production Coast Greco Roman Silica",
+                            "text": "Sand Refinery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                            "canon_name": "production_sand_refinery_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152947": {
+        "uid": 152947,
+        "canon_name": "production_oil_lamps",
+        "name": "Oil Lamps",
+        "description": "Enlightening for Aegyptus's places of learning, great fires notwithstanding. ",
+        "output_building": {
+            "guid": 152731,
+            "std_name": "Production Culture Egyptian Oil Lamps",
+            "text": "Lamp Shaper",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_oil_lamps_goods_0.webp",
+            "canon_name": "production_lamp_shaper_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 151998,
+                    "std_name": "Production Riverbank Egyptian Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152370,
+                    "std_name": "Production Craft Egyptian Sesame Oil",
+                    "text": "Sesame Press",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_oil_goods_0.webp",
+                    "canon_name": "production_sesame_press_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151994,
+                            "std_name": "Production Field Egyptian Sesame",
+                            "text": "Sesame Farm",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp",
+                            "canon_name": "production_sesame_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152948": {
+        "uid": 152948,
+        "canon_name": "production_sistrums",
+        "name": "Sistrums",
+        "description": "The percussive backbeat to the Aegyptian song\u2014 rejoice in hymn!",
+        "output_building": {
+            "guid": 152732,
+            "std_name": "Production Culture Egyptian Sistrum Rattle",
+            "text": "Tympanist",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sistrum_rattle_goods_0.webp",
+            "canon_name": "production_tympanist_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152064,
+                    "std_name": "Production Riverbank Egyptian Beads",
+                    "text": "Beadmaker",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_beads_goods_0.webp",
+                    "canon_name": "production_beadmaker_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152359,
+                    "std_name": "Production Heavy Egyptian Bronze",
+                    "text": "Bronze Smelter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bronze_goods_0.webp",
+                    "canon_name": "production_bronze_smelter_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152006,
+                            "std_name": "Production Mountain Egyptian Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152005,
+                            "std_name": "Production Mountain Egyptian Tin Ore",
+                            "text": "Tin Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp",
+                            "canon_name": "production_tin_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152949": {
+        "uid": 152949,
+        "canon_name": "production_scribing_sets",
+        "name": "Scribing Sets",
+        "description": "Scribbler's papyrus and ink, allowing scholars to scroll through reels of data.",
+        "output_building": {
+            "guid": 152733,
+            "std_name": "Production Household Greco Roman Scribe Set",
+            "text": "Scriptorium",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_scribes_sets_goods_0.webp",
+            "canon_name": "production_scriptorium_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152356,
+                    "std_name": "Production Heavy Greco Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152247,
+                            "std_name": "Production Mountain Greco Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 152371,
+                    "std_name": "Production Crafts Greco Roman Papyrus",
+                    "text": "Papyrus Maker",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_papyrus_goods_0.webp",
+                    "canon_name": "production_papyrus_maker_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151997,
+                            "std_name": "Production Riverbank Egyptian Reed",
+                            "text": "Reed Gatherer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp",
+                            "canon_name": "production_reed_gatherer_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152950": {
+        "uid": 152950,
+        "canon_name": "production_ivory_caskets",
+        "name": "Ivory Caskets",
+        "description": "Magisterial receptacles for papyrii and c., often carved with religious imagery.",
+        "output_building": {
+            "guid": 152734,
+            "std_name": "Production Household Greco Roman Ivory Casket",
+            "text": "Locksmith",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_ivory_casket_goods_0.webp",
+            "canon_name": "production_locksmith_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152000,
+                    "std_name": "Production Riverbank Greco Roman Hippos",
+                    "text": "Big Game Hunter",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp",
+                    "canon_name": "production_big_game_hunter_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152358,
+                    "std_name": "Production Heavy Greco Roman Gold",
+                    "text": "Goldsmith",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp",
+                    "canon_name": "production_goldsmith_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152204,
+                            "std_name": "Production Coast Greco Roman Gold Ore",
+                            "text": "Gold Washer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp",
+                            "canon_name": "production_gold_washer_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "152951": {
+        "uid": 152951,
+        "canon_name": "production_olive_oil",
+        "name": "Olive Oil",
+        "description": "Corporeal benefits aside, it also lubricates wheels in the bureaucratic machine. ",
+        "output_building": {
+            "guid": 152729,
+            "std_name": "Production Household Greco Roman Olive Oil",
+            "text": "Olive Press",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olive_oil_goods_0.webp",
+            "canon_name": "production_olive_press_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152153,
+                    "std_name": "Production Field Greco Roman Olives",
+                    "text": "Olive Grower",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp",
+                    "canon_name": "production_olive_grower_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "153941": {
+        "uid": 153941,
+        "canon_name": "production_fine_glass",
+        "name": "Fine Glass",
+        "description": "Aegyptian sunlight coruscates all the brighter through these articulate glazes.",
+        "output_building": {
+            "guid": 3202,
+            "std_name": "Production Household Roman Fine Glass",
+            "text": "Glassblower",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_fine_glass_goods_0.webp",
+            "canon_name": "production_glassblower_latium",
+            "region": [
+                "Roman"
+            ],
+            "tier": [
+                {
+                    "guid": 152356,
+                    "std_name": "Production Heavy Greco Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152247,
+                            "std_name": "Production Mountain Greco Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 3074,
+                    "std_name": "Production Heavy Roman Glass",
+                    "text": "Glass Smelter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_glass_goods_0.webp",
+                    "canon_name": "production_glass_smelter_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152203,
+                            "std_name": "Production Coast Greco Roman Silica",
+                            "text": "Sand Refinery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                            "canon_name": "production_sand_refinery_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "153995": {
+        "uid": 153995,
+        "canon_name": "production_loungers",
+        "name": "Loungers",
+        "description": "The astute Philopatra had several for her diplomatic visitors to recline over. ",
+        "output_building": {
+            "guid": 3198,
+            "std_name": "Production Household Roman Loungers",
+            "text": "Chair Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lounger_goods_0.webp",
+            "canon_name": "production_chair_maker_latium",
+            "region": [
+                "Roman"
+            ],
+            "tier": [
+                {
+                    "guid": 8579,
+                    "std_name": "Production Field Roman Sandarac Wood",
+                    "text": "Sandarac Nursery",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp",
+                    "canon_name": "production_sandarac_nursery_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 8887,
+                    "std_name": "Production Crafts Roman Cushions",
+                    "text": "Cushion Stuffer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cushion_goods_0.webp",
+                    "canon_name": "production_cushion_stuffer_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152142,
+                            "std_name": "Production Field Egyptian Flax",
+                            "text": "Flax Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp",
+                            "canon_name": "production_flax_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 2999,
+                            "std_name": "Production Chemical Roman Tyrian Purple",
+                            "text": "Dye Works",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tyrian_purple_goods_0.webp",
+                            "canon_name": "production_dye_works_latium",
+                            "region": [
+                                "Roman"
+                            ],
+                            "tier": [
+                                {
+                                    "guid": 8580,
+                                    "std_name": "Production Coast Roman Sea Snails",
+                                    "text": "Snailery",
+                                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_murex_snails_goods_0.webp",
+                                    "canon_name": "production_snailery_latium",
+                                    "region": [
+                                        "Roman"
+                                    ],
+                                    "tier": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "153996": {
+        "uid": 153996,
+        "canon_name": "production_handmirrors",
+        "name": "Handmirrors",
+        "description": "To reflect the rays of Ra, or for our own self-reflection.",
+        "output_building": {
+            "guid": 5615,
+            "std_name": "Production Household Roman Celtic Mirrors",
+            "text": "Narcissium",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_handmirros_goods_0.webp",
+            "canon_name": "production_narcissium_albion",
+            "region": [
+                "Celtic"
+            ],
+            "tier": [
+                {
+                    "guid": 8431,
+                    "std_name": "Production Coast Roman Celtic Sea Shells",
+                    "text": "Shell Gatherer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_seashells_goods_0.webp",
+                    "canon_name": "production_shell_gatherer_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 5472,
+                    "std_name": "Production Heavy Roman Celtic Silver",
+                    "text": "Silver Forge",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_goods_0.webp",
+                    "canon_name": "production_silver_forge_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 5980,
+                            "std_name": "Production Mountain Roman Celtic Silver Ore",
+                            "text": "Silver Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp",
+                            "canon_name": "production_silver_mine_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "154952": {
         "uid": 154952,
         "canon_name": "production_statuettes",
@@ -3394,6 +5222,1104 @@
                             ]
                         }
                     ]
+                }
+            ]
+        }
+    },
+    "157116": {
+        "uid": 157116,
+        "canon_name": "production_cloaks",
+        "name": "Cloaks",
+        "description": "Soft wool cloaks, warm as a sleeping dog.",
+        "output_building": {
+            "guid": 5614,
+            "std_name": "Production Fashion Celtic Cloak",
+            "text": "Birrus Stitcher",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cloak_goods_0.webp",
+            "canon_name": "production_birrus_stitcher_albion",
+            "region": [
+                "Celtic"
+            ],
+            "tier": [
+                {
+                    "guid": 152256,
+                    "std_name": "Production Pasture Greco Roman Sheep",
+                    "text": "Sheep Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_sheep_goods_0.webp",
+                    "canon_name": "production_sheep_farm_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 5469,
+                    "std_name": "Production Chemical Celtic Green",
+                    "text": "Greenhands",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_celtic_green_goods_0.webp",
+                    "canon_name": "production_greenhands_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 2800,
+                            "std_name": "Production Field Celtic Dye Plants",
+                            "text": "Weld Crop",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_dye_plants_goods_0.webp",
+                            "canon_name": "production_weld_crop_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152006,
+                            "std_name": "Production Mountain Egyptian Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157117": {
+        "uid": 157117,
+        "canon_name": "production_statuettes",
+        "name": "Statuettes",
+        "description": "Mysterious idols draw no less attention and devotion here in the delta.",
+        "output_building": {
+            "guid": 145229,
+            "std_name": "Production Household Roman Idols",
+            "text": "Caelator",
+            "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_idol_goods_0.webp",
+            "canon_name": "production_caelator_latium",
+            "region": [
+                "Roman"
+            ],
+            "tier": [
+                {
+                    "guid": 145102,
+                    "std_name": "Good Obsidian",
+                    "text": "Obsidian",
+                    "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_obsidian_goods_0.webp",
+                    "canon_name": "product_obsidian",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 2954,
+                    "std_name": "Production Mountain Roman Marble Blocks",
+                    "text": "Marble Quarry",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marble_goods_0.webp",
+                    "canon_name": "production_marble_quarry_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "157118": {
+        "uid": 157118,
+        "canon_name": "production_drinking_horns",
+        "name": "Drinking Horns",
+        "description": "Polished ox-horn cup with a reinforced bronze rim.",
+        "output_building": {
+            "guid": 55963,
+            "std_name": "Production Culture Celtic Drinking Horns",
+            "text": "Horner",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_drinkhorns_goods_0.webp",
+            "canon_name": "production_horner_albion",
+            "region": [
+                "Celtic"
+            ],
+            "tier": [
+                {
+                    "guid": 5847,
+                    "std_name": "Production Marsh Celtic Aurochs",
+                    "text": "Auroch Farm",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_auroch_goods_0.webp",
+                    "canon_name": "production_auroch_farm_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152005,
+                    "std_name": "Production Mountain Egyptian Tin Ore",
+                    "text": "Tin Mine",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp",
+                    "canon_name": "production_tin_mine_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "157122": {
+        "uid": 157122,
+        "canon_name": "production_bird_tongues_in_aspic",
+        "name": "Bird Tongues in Aspic",
+        "description": "Still holds its shape despite a few wobbles at sea. Both flavour and price have matured.",
+        "output_building": {
+            "guid": 5604,
+            "std_name": "Production Food Roman Celtic Bird Tongues in Aspic",
+            "text": "Epicure of Air",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tongue_in_aspic_goods_0.webp",
+            "canon_name": "production_epicure_of_air_albion",
+            "region": [
+                "Celtic"
+            ],
+            "tier": [
+                {
+                    "guid": 5477,
+                    "std_name": "Production Ingredient Roman Celtic Bird Tongues",
+                    "text": "Tongue Plucker",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bird_tongue_goods_0.webp",
+                    "canon_name": "production_tongue_plucker_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 5851,
+                            "std_name": "Production Marsh Roman Celtic Birds",
+                            "text": "Bird Charmer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_marsh_birds_goods_0.webp",
+                            "canon_name": "production_bird_charmer_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 152333,
+                    "std_name": "Production Chemical Greco Roman Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151999,
+                            "std_name": "Production Riverbank Egyptian Wild Goose",
+                            "text": "Wild Goose Chaser",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_wild_goose_goods_0.webp",
+                            "canon_name": "production_wild_goose_chaser_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157123": {
+        "uid": 157123,
+        "canon_name": "production_brooches",
+        "name": "Brooches",
+        "description": "Imported brooches turn quite a trade for hawkers under the pyramid.",
+        "output_building": {
+            "guid": 5605,
+            "std_name": "Production Fashion Roman Celtic Brooches",
+            "text": "Fibularium",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_brooch_goods_0.webp",
+            "canon_name": "production_fibularium_albion",
+            "region": [
+                "Celtic"
+            ],
+            "tier": [
+                {
+                    "guid": 5472,
+                    "std_name": "Production Heavy Roman Celtic Silver",
+                    "text": "Silver Forge",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_goods_0.webp",
+                    "canon_name": "production_silver_forge_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 5980,
+                            "std_name": "Production Mountain Roman Celtic Silver Ore",
+                            "text": "Silver Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silver_ore_goods_0.webp",
+                            "canon_name": "production_silver_mine_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157124": {
+        "uid": 157124,
+        "canon_name": "production_wigs",
+        "name": "Wigs",
+        "description": "Fine curls fixed with wax and endless patience.",
+        "output_building": {
+            "guid": 31769,
+            "std_name": "Production Fashion Roman Celtic Wigs",
+            "text": "Wig Maker",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wig_goods_0.webp",
+            "canon_name": "production_wig_maker_albion",
+            "region": [
+                "Celtic"
+            ],
+            "tier": [
+                {
+                    "guid": 152259,
+                    "std_name": "Production Pasture Greco Roman Horses",
+                    "text": "Horse Breeder",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_horses_goods_0.webp",
+                    "canon_name": "production_horse_breeder_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 31766,
+                    "std_name": "Production Craft Roman Celtic Wig Base",
+                    "text": "Headpiece Maker",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wig_base_goods_0.webp",
+                    "canon_name": "production_headpiece_maker_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152142,
+                            "std_name": "Production Field Egyptian Flax",
+                            "text": "Flax Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp",
+                            "canon_name": "production_flax_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 31761,
+                            "std_name": "Production Forest Roman Celtic Resin",
+                            "text": "Resin Tapper",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_resin_goods_0.webp",
+                            "canon_name": "production_resin_tapper_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157125": {
+        "uid": 157125,
+        "canon_name": "production_latrunculi_sets",
+        "name": "Latrunculi Sets",
+        "description": "A game to rival Senet, that Aegyptians so enjoy.",
+        "output_building": {
+            "guid": 145230,
+            "std_name": "Production Culture Roman Boardgames",
+            "text": "Latrunculi Workshop",
+            "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_boardgame_goods_0.webp",
+            "canon_name": "production_latrunculi_workshop_latium",
+            "region": [
+                "Roman"
+            ],
+            "tier": [
+                {
+                    "guid": 145102,
+                    "std_name": "Good Obsidian",
+                    "text": "Obsidian",
+                    "icon_url": "assets/icons/dlc01/icon_content/production_goods/icon_3d_obsidian_goods_0.webp",
+                    "canon_name": "product_obsidian",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 3081,
+                    "std_name": "Production Crafts Roman Ornate Wood",
+                    "text": "Gilder",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_ornamented_wood_goods_0.webp",
+                    "canon_name": "production_gilder_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 8579,
+                            "std_name": "Production Field Roman Sandarac Wood",
+                            "text": "Sandarac Nursery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cypress_wood_goods_0.webp",
+                            "canon_name": "production_sandarac_nursery_latium",
+                            "region": [
+                                "Roman"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152358,
+                            "std_name": "Production Heavy Greco Roman Gold",
+                            "text": "Goldsmith",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp",
+                            "canon_name": "production_goldsmith_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": [
+                                {
+                                    "guid": 152204,
+                                    "std_name": "Production Coast Greco Roman Gold Ore",
+                                    "text": "Gold Washer",
+                                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp",
+                                    "canon_name": "production_gold_washer_aegyptus",
+                                    "region": [
+                                        "Egyptian"
+                                    ],
+                                    "tier": []
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157130": {
+        "uid": 157130,
+        "canon_name": "production_dates",
+        "name": "Dates",
+        "description": "Sticky desserts prized by discerning senators.",
+        "output_building": {
+            "guid": 152272,
+            "std_name": "Production Forest Egyptian Dates",
+            "text": "Date Farm",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_dates_goods_0.webp",
+            "canon_name": "production_date_farm_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": []
+        }
+    },
+    "157131": {
+        "uid": 157131,
+        "canon_name": "production_kayk",
+        "name": "Kayk",
+        "description": "Rich with honey, nuts, and imported spice.",
+        "output_building": {
+            "guid": 152400,
+            "std_name": "Production Food Egyptian Kahk",
+            "text": "Kaykery",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kahk_goods_0.webp",
+            "canon_name": "production_kaykery_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 2795,
+                    "std_name": "Production Meadow Roman Honeycombs",
+                    "text": "Apiary",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                    "canon_name": "production_apiary_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 3075,
+                    "std_name": "Production Ingredient Roman Flour",
+                    "text": "Grain Mill",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flour_goods_0.webp",
+                    "canon_name": "production_grain_mill_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 2693,
+                            "std_name": "Production Field Roman Wheat",
+                            "text": "Wheat Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_wheat_goods_0.webp",
+                            "canon_name": "production_wheat_farm_latium",
+                            "region": [
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157132": {
+        "uid": 157132,
+        "canon_name": "production_kollurion",
+        "name": "Kollurion",
+        "description": "Sharpens the torchlit gaze.",
+        "output_building": {
+            "guid": 152649,
+            "std_name": "Production Fashion Egyptian Kohl",
+            "text": "Kollyrist",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kohl_goods_0.webp",
+            "canon_name": "production_kollyrist_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 2880,
+                    "std_name": "Production Forest Roman Charcoal",
+                    "text": "Charcoal Burner",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp",
+                    "canon_name": "production_charcoal_burner_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 31756,
+                    "std_name": "Production Chemical Roman Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 2793,
+                            "std_name": "Production Pasture Roman Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_latium",
+                            "region": [
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157133": {
+        "uid": 157133,
+        "canon_name": "production_milk_of_poppea",
+        "name": "Milk of Poppea",
+        "description": "Favoured by noblewomen of the eastern provinces.",
+        "output_building": {
+            "guid": 152688,
+            "std_name": "Production Fashion Greco Roman Bathing Milk",
+            "text": "Kosmetician",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_bathing_milk_goods_0.webp",
+            "canon_name": "production_kosmetician_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152145,
+                    "std_name": "Production Field Greco Roman Pomegranate",
+                    "text": "Pomegranate Farm",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp",
+                    "canon_name": "production_pomegranate_farm_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152338,
+                    "std_name": "Production Ingredient Greco Roman Honeymilk",
+                    "text": "Melikrator",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_honey_milk_goods_0.webp",
+                    "canon_name": "production_melikrator_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152257,
+                            "std_name": "Production Pasture Greco Roman Sanga Cows",
+                            "text": "Sanga Cattle Farm",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sanga_cows_goods_0.webp",
+                            "canon_name": "production_sanga_cattle_farm_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 2795,
+                            "std_name": "Production Meadow Roman Honeycombs",
+                            "text": "Apiary",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                            "canon_name": "production_apiary_latium",
+                            "region": [
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157134": {
+        "uid": 157134,
+        "canon_name": "production_scribing_sets",
+        "name": "Scribing Sets",
+        "description": "For contracts, poetry, and expensive mistakes.",
+        "output_building": {
+            "guid": 152733,
+            "std_name": "Production Household Greco Roman Scribe Set",
+            "text": "Scriptorium",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_scribes_sets_goods_0.webp",
+            "canon_name": "production_scriptorium_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 3082,
+                    "std_name": "Production Heavy Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 2920,
+                            "std_name": "Production Mountain Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_latium",
+                            "region": [
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 152371,
+                    "std_name": "Production Crafts Greco Roman Papyrus",
+                    "text": "Papyrus Maker",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_papyrus_goods_0.webp",
+                    "canon_name": "production_papyrus_maker_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151997,
+                            "std_name": "Production Riverbank Egyptian Reed",
+                            "text": "Reed Gatherer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp",
+                            "canon_name": "production_reed_gatherer_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157135": {
+        "uid": 157135,
+        "canon_name": "production_ivory_caskets",
+        "name": "Ivory Caskets",
+        "description": "Delicate enough for perfumes, jewels, and secrets.",
+        "output_building": {
+            "guid": 152734,
+            "std_name": "Production Household Greco Roman Ivory Casket",
+            "text": "Locksmith",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_ivory_casket_goods_0.webp",
+            "canon_name": "production_locksmith_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152000,
+                    "std_name": "Production Riverbank Greco Roman Hippos",
+                    "text": "Big Game Hunter",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp",
+                    "canon_name": "production_big_game_hunter_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 31755,
+                    "std_name": "Production Heavy Roman Gold",
+                    "text": "Goldsmith",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_goods_0.webp",
+                    "canon_name": "production_goldsmith_latium",
+                    "region": [
+                        "Roman"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 31753,
+                            "std_name": "Production River Roman Gold Ore",
+                            "text": "Gold Washer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_river_goods_0.webp",
+                            "canon_name": "production_gold_washer_latium",
+                            "region": [
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157136": {
+        "uid": 157136,
+        "canon_name": "production_sistrums",
+        "name": "Sistrums",
+        "description": "Sacred Nile rattles with a refined silver tone.",
+        "output_building": {
+            "guid": 152732,
+            "std_name": "Production Culture Egyptian Sistrum Rattle",
+            "text": "Tympanist",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sistrum_rattle_goods_0.webp",
+            "canon_name": "production_tympanist_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152064,
+                    "std_name": "Production Riverbank Egyptian Beads",
+                    "text": "Beadmaker",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_beads_goods_0.webp",
+                    "canon_name": "production_beadmaker_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152359,
+                    "std_name": "Production Heavy Egyptian Bronze",
+                    "text": "Bronze Smelter",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_bronze_goods_0.webp",
+                    "canon_name": "production_bronze_smelter_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152006,
+                            "std_name": "Production Mountain Egyptian Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 152005,
+                            "std_name": "Production Mountain Egyptian Tin Ore",
+                            "text": "Tin Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp",
+                            "canon_name": "production_tin_mine_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157139": {
+        "uid": 157139,
+        "canon_name": "production_rare_meat_platters",
+        "name": "Rare Meat Platters",
+        "description": "Small bites for lingering over beer and gossip.",
+        "output_building": {
+            "guid": 152391,
+            "std_name": "Production Food Greco Roman Appetizers",
+            "text": "Epicure of Earth",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_appetizers_goods_0.webp",
+            "canon_name": "production_epicure_of_earth_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152000,
+                    "std_name": "Production Riverbank Greco Roman Hippos",
+                    "text": "Big Game Hunter",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp",
+                    "canon_name": "production_big_game_hunter_aegyptus",
+                    "region": [
+                        "Celtic",
+                        "Roman"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152145,
+                    "std_name": "Production Field Greco Roman Pomegranate",
+                    "text": "Pomegranate Farm",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp",
+                    "canon_name": "production_pomegranate_farm_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "157140": {
+        "uid": 157140,
+        "canon_name": "production_perfumed_oils",
+        "name": "Perfumed Oils",
+        "description": "Desert perfume for masking northern weather and sweat.",
+        "output_building": {
+            "guid": 152651,
+            "std_name": "Production Fashion Egyptian Perfumed Oil",
+            "text": "Unguentarius",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_perfumed_oil_goods_0.webp",
+            "canon_name": "production_unguentarius_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152107,
+                    "std_name": "Production Pasture Egyptian Blue Lotus",
+                    "text": "Blue Lotus Plantation",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp",
+                    "canon_name": "production_blue_lotus_plantation_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152370,
+                    "std_name": "Production Craft Egyptian Sesame Oil",
+                    "text": "Sesame Press",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_oil_goods_0.webp",
+                    "canon_name": "production_sesame_press_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 151994,
+                            "std_name": "Production Field Egyptian Sesame",
+                            "text": "Sesame Farm",
+                            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp",
+                            "canon_name": "production_sesame_farm_aegyptus",
+                            "region": [
+                                "Celtic",
+                                "Roman"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157141": {
+        "uid": 157141,
+        "canon_name": "production_scribing_sets",
+        "name": "Scribing Sets",
+        "description": "All that's needed to make one feel official.",
+        "output_building": {
+            "guid": 152733,
+            "std_name": "Production Household Greco Roman Scribe Set",
+            "text": "Scriptorium",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_scribes_sets_goods_0.webp",
+            "canon_name": "production_scriptorium_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152356,
+                    "std_name": "Production Heavy Greco Roman Pigments",
+                    "text": "Mineral Crusher",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigments_goods_0.webp",
+                    "canon_name": "production_mineral_crusher_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 152247,
+                            "std_name": "Production Mountain Greco Roman Minerals",
+                            "text": "Mineral Quarry",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp",
+                            "canon_name": "production_mineral_quarry_aegyptus",
+                            "region": [
+                                "Egyptian"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                },
+                {
+                    "guid": 152371,
+                    "std_name": "Production Crafts Greco Roman Papyrus",
+                    "text": "Papyrus Maker",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_papyrus_goods_0.webp",
+                    "canon_name": "production_papyrus_maker_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 5849,
+                            "std_name": "Production Marsh Celtic Reed",
+                            "text": "Reed Gatherer",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_reed_goods_0.webp",
+                            "canon_name": "production_reed_gatherer_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157145": {
+        "uid": 157145,
+        "canon_name": "production_blue_lotus_tea",
+        "name": "Blue Lotus Tea",
+        "description": "Bitter on the tongue; sweet by the swallow.",
+        "output_building": {
+            "guid": 152437,
+            "std_name": "Production Food Egyptian Lotus Tea",
+            "text": "House of Infusion",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_lotus_tea_goods_0.webp",
+            "canon_name": "production_house_of_infusion_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152107,
+                    "std_name": "Production Pasture Egyptian Blue Lotus",
+                    "text": "Blue Lotus Plantation",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp",
+                    "canon_name": "production_blue_lotus_plantation_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 8427,
+                    "std_name": "Production Meadow Roman Celtic Honeycombs",
+                    "text": "Apiary",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_honeycombs_goods_0.webp",
+                    "canon_name": "production_apiary_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": []
+                }
+            ]
+        }
+    },
+    "157146": {
+        "uid": 157146,
+        "canon_name": "production_kollurion",
+        "name": "Kollurion",
+        "description": "Makes the eyes look sharp as raven's beaks.",
+        "output_building": {
+            "guid": 152649,
+            "std_name": "Production Fashion Egyptian Kohl",
+            "text": "Kollyrist",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_kohl_goods_0.webp",
+            "canon_name": "production_kollyrist_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 5977,
+                    "std_name": "Production Forest Roman Celtic Charcoal",
+                    "text": "Charcoal Burner",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_coal_ore_forest_goods_0.webp",
+                    "canon_name": "production_charcoal_burner_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 5475,
+                    "std_name": "Production Chemical Roman Celtic Fat",
+                    "text": "Renderer",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pig_lard_goods_0.webp",
+                    "canon_name": "production_renderer_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 5974,
+                            "std_name": "Production Pasture Roman Celtic Pigs",
+                            "text": "Pig Farm",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_pigs_goods_0.webp",
+                            "canon_name": "production_pig_farm_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157147": {
+        "uid": 157147,
+        "canon_name": "production_apotropaic_talismans",
+        "name": "Apotropaic Talismans",
+        "description": "Paranoid Aegyptians tuck 'em into every corner of the house.",
+        "output_building": {
+            "guid": 152730,
+            "std_name": "Production Culture Egyptian Faience Talismans",
+            "text": "Artisan Glazier",
+            "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_talismans_goods_0.webp",
+            "canon_name": "production_artisan_glazier_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 5848,
+                    "std_name": "Production Marsh Celtic Mud",
+                    "text": "Mud Drier",
+                    "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_mud_goods_0.webp",
+                    "canon_name": "production_mud_drier_albion",
+                    "region": [
+                        "Celtic"
+                    ],
+                    "tier": []
+                },
+                {
+                    "guid": 152332,
+                    "std_name": "Production Chemical Egyptian Blue",
+                    "text": "Bluehands",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_egyptian_blue_goods_0.webp",
+                    "canon_name": "production_bluehands_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": [
+                        {
+                            "guid": 5290,
+                            "std_name": "Production Mountain Celtic Copper Ore",
+                            "text": "Copper Mine",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp",
+                            "canon_name": "production_copper_mine_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        },
+                        {
+                            "guid": 10929,
+                            "std_name": "Production Coast Roman Celtic Silica",
+                            "text": "Sand Refinery",
+                            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_silica_goods_0.webp",
+                            "canon_name": "production_sand_refinery_albion",
+                            "region": [
+                                "Celtic"
+                            ],
+                            "tier": []
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "157191": {
+        "uid": 157191,
+        "canon_name": "production_cheese",
+        "name": "Cheese",
+        "description": "Sanga Cheese has a moreish tartness, redolent of the cheeses of Hellas.  ",
+        "output_building": {
+            "guid": 152388,
+            "std_name": "Production Food Greco Roman Cheese",
+            "text": "Dairy",
+            "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_cheese_goods_0.webp",
+            "canon_name": "production_dairy_aegyptus",
+            "region": [
+                "Egyptian"
+            ],
+            "tier": [
+                {
+                    "guid": 152257,
+                    "std_name": "Production Pasture Greco Roman Sanga Cows",
+                    "text": "Sanga Cattle Farm",
+                    "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sanga_cows_goods_0.webp",
+                    "canon_name": "production_sanga_cattle_farm_aegyptus",
+                    "region": [
+                        "Egyptian"
+                    ],
+                    "tier": []
                 }
             ]
         }

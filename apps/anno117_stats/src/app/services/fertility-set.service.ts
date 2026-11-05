@@ -2,7 +2,10 @@ import { inject, Injectable, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { of } from 'rxjs';
 import { catchError, finalize, map, tap } from 'rxjs/operators';
-import { translateArray, TRANSLATIONS_EN } from '../models/translations_mapping';
+import {
+  translateArray,
+  TRANSLATIONS_EN,
+} from '../models/translations_mapping';
 import { RegionValue } from '../models/enums';
 
 // --- EXPORT JSON INTERFACES ---
@@ -44,9 +47,9 @@ export interface FertilitySetViewModel {
   readonly id: string;
   readonly name: string;
   readonly rawRegions: RegionValue[]; // Kept for logic/grouping
-  readonly regions: string;      // Translated display string
+  readonly regions: string; // Translated display string
   readonly difficulties: string; // Translated display string
-  readonly islandTypes: string;  // Translated display string
+  readonly islandTypes: string; // Translated display string
   readonly slots: FertilitySlotJSON[];
 }
 
@@ -102,15 +105,39 @@ export class FertilitySetService {
   private mapToViewModel(
     rawRegistry: FertilitySetRegistry,
   ): FertilitySetViewModel[] {
-    return Object.values(rawRegistry).map((rawRow) => ({
-      id: rawRow.guid,
-      name: rawRow.name,
-      rawRegions: rawRow.condition.region,
-      regions: translateArray(rawRow.condition.region, TRANSLATIONS_EN.Region),
-      difficulties: translateArray(rawRow.condition.island_diff, TRANSLATIONS_EN.IslandDifficulty),
-      islandTypes: translateArray(rawRow.condition.island_type, TRANSLATIONS_EN.IslandType),
-      slots: rawRow.slots.sort((a, b) => a.index - b.index),
-    }));
+    return Object.values(rawRegistry).map((rawRow) => {
+      const finalSlots = rawRow.slots
+        .sort((a, b) => a.index - b.index)
+        .map((slot) => {
+          const optionsSet = new Set<string>();
+          const finalOptions = slot.options.filter((a) => {
+            if (optionsSet.has(a.guid)) {
+              return false;
+            }
+            optionsSet.add(a.guid);
+            return true;
+          });
+          return { ...slot, options: finalOptions };
+        });
+      return {
+        id: rawRow.guid,
+        name: rawRow.name,
+        rawRegions: rawRow.condition.region,
+        regions: translateArray(
+          rawRow.condition.region,
+          TRANSLATIONS_EN.Region,
+        ),
+        difficulties: translateArray(
+          rawRow.condition.island_diff,
+          TRANSLATIONS_EN.IslandDifficulty,
+        ),
+        islandTypes: translateArray(
+          rawRow.condition.island_type,
+          TRANSLATIONS_EN.IslandType,
+        ),
+        slots: finalSlots,
+      };
+    });
   }
 
   private getMockRegistry(): FertilitySetRegistry {

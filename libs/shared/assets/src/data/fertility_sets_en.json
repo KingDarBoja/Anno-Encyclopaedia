@@ -3607,5 +3607,2830 @@
                 ]
             }
         ]
+    },
+    "149806": {
+        "guid": "149806",
+        "name": "Fertility Set Egyptian 1st Island Easy No Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Deposit Iron",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "149807": {
+        "guid": "149807",
+        "name": "Fertility Set Egyptian 2nd Island Easy No Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "149808": {
+        "guid": "149808",
+        "name": "Fertility Set Egyptian 3rd Island Easy No Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Hard"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Granite Granite Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "149821": {
+        "guid": "149821",
+        "name": "Fertility Set Egyptian 1st Island Medium",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Deposit Iron",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "149822": {
+        "guid": "149822",
+        "name": "Fertility Set Egyptian 2nd Island Medium No Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "149823": {
+        "guid": "149823",
+        "name": "Fertility Set Egyptian 3rd Island Medium No Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Hard"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Granite Granite Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "149824": {
+        "guid": "149824",
+        "name": "Fertility Set Egyptian 1st Island Hard",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal",
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "149825": {
+        "guid": "149825",
+        "name": "Fertility Set Egyptian 2nd Island Hard No Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "149826": {
+        "guid": "149826",
+        "name": "Fertility Set Egyptian 3rd Island Hard No Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Hard"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "166383": {
+        "guid": "166383",
+        "name": "Fertility Set Egyptian 2nd Island Easy Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin 6xGold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "166384": {
+        "guid": "166384",
+        "name": "Fertility Set Egyptian 3rd Island Easy Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Granite Granite Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Deposit Egyptian Gold Ore",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "166386": {
+        "guid": "166386",
+        "name": "Fertility Set Egyptian 2nd Island Medium Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin 6xGold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "166387": {
+        "guid": "166387",
+        "name": "Fertility Set Egyptian 3rd Island Medium Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal"
+            ],
+            "res_amounts": [
+                "Medium"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Granite Granite Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin 6xGold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "166392": {
+        "guid": "166392",
+        "name": "Fertility Set Egyptian 2nd Island Hard Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin 6xGold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "166393": {
+        "guid": "166393",
+        "name": "Fertility Set Egyptian 3rd Island Hard Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Normal"
+            ],
+            "island_diff": [
+                "Normal"
+            ],
+            "res_amounts": [
+                "Low"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax Iron Granite",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    },
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "4066",
+                        "name": "Deposit Celtic Granite",
+                        "title": "Granite Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_granite_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Fertility Pool Egyptian Copper Sesame Olives Minerals",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "4063",
+                        "name": "Deposit Celtic Copper",
+                        "title": "Copper Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_copper_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "149818",
+                        "name": "Fertility Egyptian Sesame",
+                        "title": "Sesame Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_sesame_goods_0.webp"
+                    },
+                    {
+                        "guid": "2210",
+                        "name": "Fertility Roman Olives",
+                        "title": "Olive Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_olives_goods_0.webp"
+                    },
+                    {
+                        "guid": "4053",
+                        "name": "Deposit Roman Minerals",
+                        "title": "Mineral Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_minerals_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin 6xGold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
+    },
+    "166396": {
+        "guid": "166396",
+        "name": "Fertility Set Egyptian 1st Island Easy Gold",
+        "condition": {
+            "region": [
+                "Egyptian"
+            ],
+            "island_type": [
+                "Starter"
+            ],
+            "island_diff": [
+                "Normal"
+            ],
+            "res_amounts": [
+                "High"
+            ],
+            "island_size": [
+                "Small",
+                "Medium",
+                "Large",
+                "XL",
+                "Continental"
+            ]
+        },
+        "slots": [
+            {
+                "index": 0,
+                "name": "Fertility Pool Egyptian Barley Flax",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2212",
+                        "name": "Fertility Celtic Barley",
+                        "title": "Barley Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_barley_goods_0.webp"
+                    },
+                    {
+                        "guid": "2202",
+                        "name": "Fertility Flax",
+                        "title": "Flax Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_flax_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 1,
+                "name": "Fertility Pool Egyptian Lavender Grapes",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "2209",
+                        "name": "Fertility Roman Lavender",
+                        "title": "Lavender Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_lavender_goods_0.webp"
+                    },
+                    {
+                        "guid": "2205",
+                        "name": "Fertility Roman Grapes",
+                        "title": "Grape Fertility",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_grapes_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 2,
+                "name": "Deposit Iron",
+                "is_pool": false,
+                "options": [
+                    {
+                        "guid": "4049",
+                        "name": "Deposit Iron",
+                        "title": "Iron Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_iron_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 3,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 4,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    }
+                ]
+            },
+            {
+                "index": 5,
+                "name": "Fertility Pool Egyptian Lotus Hippos Pomegranates Tin 6xGold",
+                "is_pool": true,
+                "options": [
+                    {
+                        "guid": "149819",
+                        "name": "Fertility Egyptian Blue Lotus",
+                        "title": "Blue Lotus Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_blue_lotus_goods_0.webp"
+                    },
+                    {
+                        "guid": "149820",
+                        "name": "Fertility Egyptian Hippos",
+                        "title": "Hippo Population",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_hippos_goods_0.webp"
+                    },
+                    {
+                        "guid": "150477",
+                        "name": "Fertility Egyptian Pomegranate",
+                        "title": "Pomegranate Fertility",
+                        "icon_url": "assets/icons/dlc03/icon_content/production_goods/icon_3d_pomegranates_goods_0.webp"
+                    },
+                    {
+                        "guid": "4064",
+                        "name": "Deposit Celtic Tin",
+                        "title": "Tin Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_tin_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    },
+                    {
+                        "guid": "150506",
+                        "name": "Deposit Egyptian Gold Ore",
+                        "title": "Gold Ore Deposit",
+                        "icon_url": "assets/icons/base/icon_content/production_goods/icon_3d_gold_ore_goods_0.webp"
+                    }
+                ]
+            }
+        ]
     }
 }

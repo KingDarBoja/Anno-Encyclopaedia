@@ -94,6 +94,7 @@ export class ProductionChainVisualizerComponent
     const rawChains = this.service.chains();
     const romanChains: ProductionChainViewModel[] = [];
     const celticChains: ProductionChainViewModel[] = [];
+    const egyptianChains: ProductionChainViewModel[] = [];
     const sharedChains: ProductionChainViewModel[] = [];
 
     rawChains.forEach((chain) => {
@@ -103,6 +104,7 @@ export class ProductionChainVisualizerComponent
       const regions = rootBuilding.region || [];
       const hasRoman = regions.includes('Roman');
       const hasCeltic = regions.includes('Celtic');
+      const hasEgyptian = regions.includes('Egyptian');
 
       if (hasRoman && hasCeltic) {
         sharedChains.push(chain);
@@ -110,6 +112,8 @@ export class ProductionChainVisualizerComponent
         romanChains.push(chain);
       } else if (hasCeltic) {
         celticChains.push(chain);
+      } else if (hasEgyptian) {
+        egyptianChains.push(chain);
       }
     });
 
@@ -139,6 +143,11 @@ export class ProductionChainVisualizerComponent
         label: 'Shared',
         icon: 'assets/icons/base/icon_content/generic/icon_2d_region_global_0.webp',
         chains: processGroup(sharedChains),
+      },
+      {
+        label: 'Aegyptus',
+        icon: 'assets/icons/dlc03/icon_content/generic/icon_2d_region_egypt_0.webp',
+        chains: processGroup(egyptianChains),
       },
     ].filter((group) => group.chains.length > 0);
   });

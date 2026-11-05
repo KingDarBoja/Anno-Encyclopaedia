@@ -19,6 +19,9 @@ export class CityStatusPageComponent {
   levelSetsCeltic = computed(
     () => this.cityStatusService.cityStatusSets().celtic,
   );
+  levelSetsEgyptian = computed(
+    () => this.cityStatusService.cityStatusSets().egyptian,
+  );
 
   tocEntries = computed(() =>
     this.levelSetsRoman().map((level) => ({

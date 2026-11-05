@@ -1,0 +1,1402 @@
+{
+    "egyptian_01": {
+        "guid": "149795",
+        "std_name": "City Status Egyptian 01",
+        "name": "Outpost",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_01_0.webp",
+        "required_population": 0,
+        "incident_interval": {
+            "fire": 0,
+            "unrest": 0,
+            "disease": 0,
+            "inferno": 0,
+            "rebellion": 0,
+            "plague": 0,
+            "tremors": 1020
+        },
+        "attribute_effects_roman": {
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        },
+        "attribute_effects_regional": {
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        },
+        "attribute_effects_mixed": {
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        }
+    },
+    "egyptian_02": {
+        "guid": "149796",
+        "std_name": "City Status Egyptian 02",
+        "name": "Small Vicus",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_02_0.webp",
+        "required_population": 175,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 0,
+            "disease": 0,
+            "inferno": 72000,
+            "rebellion": 0,
+            "plague": 0,
+            "tremors": 1020
+        },
+        "attribute_effects_roman": {
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        },
+        "attribute_effects_regional": {
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        },
+        "attribute_effects_mixed": {
+            "belief": 0,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        }
+    },
+    "egyptian_03": {
+        "guid": "154821",
+        "std_name": "City Status Egyptian 03",
+        "name": "Large Vicus",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_03_0.webp",
+        "required_population": 425,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 0,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 0,
+            "tremors": 1020
+        },
+        "attribute_effects_roman": {
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        },
+        "attribute_effects_regional": {
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        },
+        "attribute_effects_mixed": {
+            "belief": 1,
+            "knowledge": 0,
+            "prestige": 0,
+            "happiness": 0,
+            "fire_safety": 0,
+            "health": 0
+        }
+    },
+    "egyptian_04": {
+        "guid": "154822",
+        "std_name": "City Status Egyptian 04",
+        "name": "Minor Town",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_04_0.webp",
+        "required_population": 875,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 1020
+        },
+        "attribute_effects_roman": {
+            "belief": 2,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": -1,
+            "health": -1
+        },
+        "attribute_effects_regional": {
+            "belief": 3,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": 0,
+            "health": -1
+        },
+        "attribute_effects_mixed": {
+            "belief": 3,
+            "knowledge": 1,
+            "prestige": 0,
+            "happiness": -1,
+            "fire_safety": 0,
+            "health": -1
+        }
+    },
+    "egyptian_05": {
+        "guid": "154823",
+        "std_name": "City Status Egyptian 05",
+        "name": "Growing Town",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_05_0.webp",
+        "required_population": 1375,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 1020
+        },
+        "attribute_effects_roman": {
+            "belief": 3,
+            "knowledge": 3,
+            "prestige": 1,
+            "happiness": -2,
+            "fire_safety": -2,
+            "health": -2
+        },
+        "attribute_effects_regional": {
+            "belief": 4,
+            "knowledge": 2,
+            "prestige": 1,
+            "happiness": -2,
+            "fire_safety": 0,
+            "health": -2
+        },
+        "attribute_effects_mixed": {
+            "belief": 4,
+            "knowledge": 3,
+            "prestige": 1,
+            "happiness": -3,
+            "fire_safety": -1,
+            "health": -2
+        }
+    },
+    "egyptian_06": {
+        "guid": "154824",
+        "std_name": "City Status Egyptian 06",
+        "name": "Large Town",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_06_0.webp",
+        "required_population": 2750,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 1020
+        },
+        "attribute_effects_roman": {
+            "belief": 4,
+            "knowledge": 4,
+            "prestige": 2,
+            "happiness": -4,
+            "fire_safety": -3,
+            "health": -3
+        },
+        "attribute_effects_regional": {
+            "belief": 6,
+            "knowledge": 3,
+            "prestige": 2,
+            "happiness": -4,
+            "fire_safety": 0,
+            "health": -3
+        },
+        "attribute_effects_mixed": {
+            "belief": 6,
+            "knowledge": 4,
+            "prestige": 2,
+            "happiness": -6,
+            "fire_safety": -1,
+            "health": -3
+        }
+    },
+    "egyptian_07": {
+        "guid": "154825",
+        "std_name": "City Status Egyptian 07",
+        "name": "Minor City",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_07_0.webp",
+        "required_population": 4250,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 5,
+            "knowledge": 6,
+            "prestige": 3,
+            "happiness": -6,
+            "fire_safety": -4,
+            "health": -4
+        },
+        "attribute_effects_regional": {
+            "belief": 7,
+            "knowledge": 4,
+            "prestige": 3,
+            "happiness": -6,
+            "fire_safety": 0,
+            "health": -4
+        },
+        "attribute_effects_mixed": {
+            "belief": 7,
+            "knowledge": 6,
+            "prestige": 3,
+            "happiness": -9,
+            "fire_safety": -2,
+            "health": -4
+        }
+    },
+    "egyptian_08": {
+        "guid": "154826",
+        "std_name": "City Status Egyptian 08",
+        "name": "Growing City",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_08_0.webp",
+        "required_population": 6250,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 6,
+            "knowledge": 7,
+            "prestige": 4,
+            "happiness": -7,
+            "fire_safety": -4,
+            "health": -4
+        },
+        "attribute_effects_regional": {
+            "belief": 9,
+            "knowledge": 5,
+            "prestige": 4,
+            "happiness": -7,
+            "fire_safety": 0,
+            "health": -4
+        },
+        "attribute_effects_mixed": {
+            "belief": 9,
+            "knowledge": 7,
+            "prestige": 4,
+            "happiness": -10,
+            "fire_safety": -2,
+            "health": -4
+        }
+    },
+    "egyptian_09": {
+        "guid": "154827",
+        "std_name": "City Status Egyptian 09",
+        "name": "Major City",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_09_0.webp",
+        "required_population": 8750,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 7,
+            "knowledge": 9,
+            "prestige": 5,
+            "happiness": -8,
+            "fire_safety": -5,
+            "health": -4
+        },
+        "attribute_effects_regional": {
+            "belief": 10,
+            "knowledge": 6,
+            "prestige": 5,
+            "happiness": -8,
+            "fire_safety": 0,
+            "health": -4
+        },
+        "attribute_effects_mixed": {
+            "belief": 10,
+            "knowledge": 9,
+            "prestige": 5,
+            "happiness": -12,
+            "fire_safety": -2,
+            "health": -4
+        }
+    },
+    "egyptian_10": {
+        "guid": "154828",
+        "std_name": "City Status Egyptian 10",
+        "name": "Minor Colonia",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_10_0.webp",
+        "required_population": 12500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 8,
+            "knowledge": 10,
+            "prestige": 6,
+            "happiness": -9,
+            "fire_safety": -5,
+            "health": -4
+        },
+        "attribute_effects_regional": {
+            "belief": 12,
+            "knowledge": 7,
+            "prestige": 6,
+            "happiness": -9,
+            "fire_safety": 0,
+            "health": -4
+        },
+        "attribute_effects_mixed": {
+            "belief": 12,
+            "knowledge": 10,
+            "prestige": 6,
+            "happiness": -13,
+            "fire_safety": -3,
+            "health": -4
+        }
+    },
+    "egyptian_11": {
+        "guid": "154829",
+        "std_name": "City Status Egyptian 11",
+        "name": "Growing Colonia",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_11_0.webp",
+        "required_population": 16250,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 9,
+            "knowledge": 12,
+            "prestige": 7,
+            "happiness": -10,
+            "fire_safety": -5,
+            "health": -4
+        },
+        "attribute_effects_regional": {
+            "belief": 13,
+            "knowledge": 8,
+            "prestige": 7,
+            "happiness": -10,
+            "fire_safety": 0,
+            "health": -4
+        },
+        "attribute_effects_mixed": {
+            "belief": 13,
+            "knowledge": 12,
+            "prestige": 7,
+            "happiness": -15,
+            "fire_safety": -3,
+            "health": -4
+        }
+    },
+    "egyptian_12": {
+        "guid": "154830",
+        "std_name": "City Status Egyptian 12",
+        "name": "Major Colonia",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_12_0.webp",
+        "required_population": 20000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 10,
+            "knowledge": 13,
+            "prestige": 8,
+            "happiness": -10,
+            "fire_safety": -5,
+            "health": -5
+        },
+        "attribute_effects_regional": {
+            "belief": 15,
+            "knowledge": 9,
+            "prestige": 8,
+            "happiness": -10,
+            "fire_safety": -1,
+            "health": -5
+        },
+        "attribute_effects_mixed": {
+            "belief": 15,
+            "knowledge": 13,
+            "prestige": 8,
+            "happiness": -15,
+            "fire_safety": -3,
+            "health": -5
+        }
+    },
+    "egyptian_13": {
+        "guid": "154831",
+        "std_name": "City Status Egyptian 13",
+        "name": "Vast Colonia",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_13_0.webp",
+        "required_population": 23750,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 11,
+            "knowledge": 15,
+            "prestige": 9,
+            "happiness": -10,
+            "fire_safety": -5,
+            "health": -5
+        },
+        "attribute_effects_regional": {
+            "belief": 16,
+            "knowledge": 10,
+            "prestige": 9,
+            "happiness": -10,
+            "fire_safety": -1,
+            "health": -5
+        },
+        "attribute_effects_mixed": {
+            "belief": 16,
+            "knowledge": 15,
+            "prestige": 9,
+            "happiness": -15,
+            "fire_safety": -3,
+            "health": -5
+        }
+    },
+    "egyptian_14": {
+        "guid": "154832",
+        "std_name": "City Status Egyptian 14",
+        "name": "Minor Imperial City",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_14_0.webp",
+        "required_population": 27500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 12,
+            "knowledge": 16,
+            "prestige": 10,
+            "happiness": -10,
+            "fire_safety": -6,
+            "health": -5
+        },
+        "attribute_effects_regional": {
+            "belief": 18,
+            "knowledge": 11,
+            "prestige": 10,
+            "happiness": -10,
+            "fire_safety": -1,
+            "health": -5
+        },
+        "attribute_effects_mixed": {
+            "belief": 18,
+            "knowledge": 16,
+            "prestige": 10,
+            "happiness": -15,
+            "fire_safety": -3,
+            "health": -5
+        }
+    },
+    "egyptian_15": {
+        "guid": "154833",
+        "std_name": "City Status Egyptian 15",
+        "name": "Growing Imperial City",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_15_0.webp",
+        "required_population": 31250,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 900
+        },
+        "attribute_effects_roman": {
+            "belief": 13,
+            "knowledge": 18,
+            "prestige": 11,
+            "happiness": -10,
+            "fire_safety": -6,
+            "health": -5
+        },
+        "attribute_effects_regional": {
+            "belief": 19,
+            "knowledge": 12,
+            "prestige": 11,
+            "happiness": -10,
+            "fire_safety": -1,
+            "health": -5
+        },
+        "attribute_effects_mixed": {
+            "belief": 19,
+            "knowledge": 18,
+            "prestige": 11,
+            "happiness": -16,
+            "fire_safety": -3,
+            "health": -5
+        }
+    },
+    "egyptian_16": {
+        "guid": "154834",
+        "std_name": "City Status Egyptian 16",
+        "name": "Major Imperial City",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_16_0.webp",
+        "required_population": 35000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
+        "attribute_effects_roman": {
+            "belief": 14,
+            "knowledge": 19,
+            "prestige": 12,
+            "happiness": -11,
+            "fire_safety": -6,
+            "health": -5
+        },
+        "attribute_effects_regional": {
+            "belief": 21,
+            "knowledge": 13,
+            "prestige": 12,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -5
+        },
+        "attribute_effects_mixed": {
+            "belief": 21,
+            "knowledge": 19,
+            "prestige": 12,
+            "happiness": -16,
+            "fire_safety": -3,
+            "health": -5
+        }
+    },
+    "egyptian_17": {
+        "guid": "154835",
+        "std_name": "City Status Egyptian 17",
+        "name": "Vast Imperial City",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_17_0.webp",
+        "required_population": 38750,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
+        "attribute_effects_roman": {
+            "belief": 15,
+            "knowledge": 21,
+            "prestige": 13,
+            "happiness": -11,
+            "fire_safety": -6,
+            "health": -5
+        },
+        "attribute_effects_regional": {
+            "belief": 22,
+            "knowledge": 14,
+            "prestige": 13,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -5
+        },
+        "attribute_effects_mixed": {
+            "belief": 22,
+            "knowledge": 21,
+            "prestige": 13,
+            "happiness": -16,
+            "fire_safety": -4,
+            "health": -5
+        }
+    },
+    "egyptian_18": {
+        "guid": "154836",
+        "std_name": "City Status Egyptian 18",
+        "name": "Minor Megalopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_18_0.webp",
+        "required_population": 42500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
+        "attribute_effects_roman": {
+            "belief": 16,
+            "knowledge": 22,
+            "prestige": 14,
+            "happiness": -11,
+            "fire_safety": -6,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 24,
+            "knowledge": 15,
+            "prestige": 14,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 24,
+            "knowledge": 22,
+            "prestige": 14,
+            "happiness": -17,
+            "fire_safety": -4,
+            "health": -6
+        }
+    },
+    "egyptian_19": {
+        "guid": "154837",
+        "std_name": "City Status Egyptian 19",
+        "name": "Growing Megalopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_19_0.webp",
+        "required_population": 46250,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
+        "attribute_effects_roman": {
+            "belief": 17,
+            "knowledge": 24,
+            "prestige": 15,
+            "happiness": -11,
+            "fire_safety": -7,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 25,
+            "knowledge": 16,
+            "prestige": 15,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 25,
+            "knowledge": 24,
+            "prestige": 15,
+            "happiness": -17,
+            "fire_safety": -4,
+            "health": -6
+        }
+    },
+    "egyptian_20": {
+        "guid": "154838",
+        "std_name": "City Status Egyptian 20",
+        "name": "Major Megalopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_20_0.webp",
+        "required_population": 50000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
+        "attribute_effects_roman": {
+            "belief": 18,
+            "knowledge": 25,
+            "prestige": 16,
+            "happiness": -11,
+            "fire_safety": -7,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 27,
+            "knowledge": 17,
+            "prestige": 16,
+            "happiness": -11,
+            "fire_safety": -1,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 27,
+            "knowledge": 25,
+            "prestige": 16,
+            "happiness": -17,
+            "fire_safety": -4,
+            "health": -6
+        }
+    },
+    "egyptian_21": {
+        "guid": "154839",
+        "std_name": "City Status Egyptian 21",
+        "name": "Vast Megalopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_21_0.webp",
+        "required_population": 53750,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
+        "attribute_effects_roman": {
+            "belief": 19,
+            "knowledge": 27,
+            "prestige": 17,
+            "happiness": -12,
+            "fire_safety": -7,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 28,
+            "knowledge": 18,
+            "prestige": 17,
+            "happiness": -12,
+            "fire_safety": -1,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 17,
+            "happiness": -17,
+            "fire_safety": -4,
+            "health": -6
+        }
+    },
+    "egyptian_22": {
+        "guid": "154840",
+        "std_name": "City Status Egyptian 22",
+        "name": "Minor Cosmopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_22_0.webp",
+        "required_population": 57500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 720
+        },
+        "attribute_effects_roman": {
+            "belief": 20,
+            "knowledge": 28,
+            "prestige": 18,
+            "happiness": -12,
+            "fire_safety": -7,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 30,
+            "knowledge": 19,
+            "prestige": 18,
+            "happiness": -12,
+            "fire_safety": -1,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 30,
+            "knowledge": 28,
+            "prestige": 18,
+            "happiness": -17,
+            "fire_safety": -4,
+            "health": -6
+        }
+    },
+    "egyptian_23": {
+        "guid": "154841",
+        "std_name": "City Status Egyptian 23",
+        "name": "Growing Cosmopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_23_0.webp",
+        "required_population": 61250,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 21,
+            "knowledge": 30,
+            "prestige": 19,
+            "happiness": -12,
+            "fire_safety": -7,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 31,
+            "knowledge": 20,
+            "prestige": 19,
+            "happiness": -12,
+            "fire_safety": -1,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 31,
+            "knowledge": 30,
+            "prestige": 19,
+            "happiness": -18,
+            "fire_safety": -4,
+            "health": -6
+        }
+    },
+    "egyptian_24": {
+        "guid": "154842",
+        "std_name": "City Status Egyptian 24",
+        "name": "Major Cosmopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_24_0.webp",
+        "required_population": 65000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 22,
+            "knowledge": 31,
+            "prestige": 20,
+            "happiness": -12,
+            "fire_safety": -8,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 33,
+            "knowledge": 21,
+            "prestige": 20,
+            "happiness": -12,
+            "fire_safety": -2,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 33,
+            "knowledge": 31,
+            "prestige": 20,
+            "happiness": -18,
+            "fire_safety": -5,
+            "health": -6
+        }
+    },
+    "egyptian_25": {
+        "guid": "154843",
+        "std_name": "City Status Egyptian 25",
+        "name": "Vast Cosmopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_25_0.webp",
+        "required_population": 68750,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 23,
+            "knowledge": 33,
+            "prestige": 21,
+            "happiness": -12,
+            "fire_safety": -8,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 34,
+            "knowledge": 22,
+            "prestige": 21,
+            "happiness": -12,
+            "fire_safety": -2,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 34,
+            "knowledge": 33,
+            "prestige": 21,
+            "happiness": -18,
+            "fire_safety": -5,
+            "health": -6
+        }
+    },
+    "egyptian_26": {
+        "guid": "154844",
+        "std_name": "City Status Egyptian 26",
+        "name": "Minor Monstropolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_26_0.webp",
+        "required_population": 72500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 24,
+            "knowledge": 23,
+            "prestige": 22,
+            "happiness": -12,
+            "fire_safety": -8,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 24,
+            "knowledge": 23,
+            "prestige": 22,
+            "happiness": -12,
+            "fire_safety": -2,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 24,
+            "knowledge": 23,
+            "prestige": 22,
+            "happiness": -18,
+            "fire_safety": -5,
+            "health": -6
+        }
+    },
+    "egyptian_27": {
+        "guid": "154845",
+        "std_name": "City Status Egyptian 27",
+        "name": "Growing Monstropolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_27_0.webp",
+        "required_population": 76250,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 25,
+            "knowledge": 24,
+            "prestige": 23,
+            "happiness": -12,
+            "fire_safety": -8,
+            "health": -6
+        },
+        "attribute_effects_regional": {
+            "belief": 25,
+            "knowledge": 24,
+            "prestige": 23,
+            "happiness": -12,
+            "fire_safety": -2,
+            "health": -6
+        },
+        "attribute_effects_mixed": {
+            "belief": 25,
+            "knowledge": 24,
+            "prestige": 23,
+            "happiness": -18,
+            "fire_safety": -5,
+            "health": -6
+        }
+    },
+    "egyptian_28": {
+        "guid": "154846",
+        "std_name": "City Status Egyptian 28",
+        "name": "Major Monstropolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_28_0.webp",
+        "required_population": 80000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 26,
+            "knowledge": 25,
+            "prestige": 24,
+            "happiness": -12,
+            "fire_safety": -8,
+            "health": -7
+        },
+        "attribute_effects_regional": {
+            "belief": 26,
+            "knowledge": 25,
+            "prestige": 24,
+            "happiness": -12,
+            "fire_safety": -2,
+            "health": -7
+        },
+        "attribute_effects_mixed": {
+            "belief": 26,
+            "knowledge": 25,
+            "prestige": 24,
+            "happiness": -19,
+            "fire_safety": -5,
+            "health": -7
+        }
+    },
+    "egyptian_29": {
+        "guid": "154847",
+        "std_name": "City Status Egyptian 29",
+        "name": "Vast Monstropolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_29_0.webp",
+        "required_population": 83750,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 27,
+            "knowledge": 26,
+            "prestige": 25,
+            "happiness": -13,
+            "fire_safety": -8,
+            "health": -7
+        },
+        "attribute_effects_regional": {
+            "belief": 27,
+            "knowledge": 26,
+            "prestige": 25,
+            "happiness": -13,
+            "fire_safety": -2,
+            "health": -7
+        },
+        "attribute_effects_mixed": {
+            "belief": 27,
+            "knowledge": 26,
+            "prestige": 25,
+            "happiness": -19,
+            "fire_safety": -5,
+            "health": -7
+        }
+    },
+    "egyptian_30": {
+        "guid": "154848",
+        "std_name": "City Status Egyptian 30",
+        "name": "Omnipolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_30_0.webp",
+        "required_population": 87500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -8,
+            "health": -7
+        },
+        "attribute_effects_regional": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -2,
+            "health": -7
+        },
+        "attribute_effects_mixed": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -19,
+            "fire_safety": -5,
+            "health": -7
+        }
+    },
+    "egyptian_31": {
+        "guid": "154849",
+        "std_name": "City Status Egyptian 31",
+        "name": "Growing Omnipolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_31_0.webp",
+        "required_population": 95000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -8,
+            "health": -7
+        },
+        "attribute_effects_regional": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -2,
+            "health": -7
+        },
+        "attribute_effects_mixed": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -19,
+            "fire_safety": -5,
+            "health": -7
+        }
+    },
+    "egyptian_32": {
+        "guid": "154850",
+        "std_name": "City Status Egyptian 32",
+        "name": "Major Omnipolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_32_0.webp",
+        "required_population": 102500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -9,
+            "health": -7
+        },
+        "attribute_effects_regional": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -2,
+            "health": -7
+        },
+        "attribute_effects_mixed": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -19,
+            "fire_safety": -5,
+            "health": -7
+        }
+    },
+    "egyptian_33": {
+        "guid": "154851",
+        "std_name": "City Status Egyptian 33",
+        "name": "Vast Omnipolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_33_0.webp",
+        "required_population": 110000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -9,
+            "health": -7
+        },
+        "attribute_effects_regional": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -2,
+            "health": -7
+        },
+        "attribute_effects_mixed": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -20,
+            "fire_safety": -5,
+            "health": -7
+        }
+    },
+    "egyptian_34": {
+        "guid": "154852",
+        "std_name": "City Status Egyptian 34",
+        "name": "Minor Aureliopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_34_0.webp",
+        "required_population": 117500,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -9,
+            "health": -7
+        },
+        "attribute_effects_regional": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -13,
+            "fire_safety": -2,
+            "health": -7
+        },
+        "attribute_effects_mixed": {
+            "belief": 28,
+            "knowledge": 27,
+            "prestige": 26,
+            "happiness": -20,
+            "fire_safety": -5,
+            "health": -7
+        }
+    },
+    "egyptian_35": {
+        "guid": "154853",
+        "std_name": "City Status Egyptian 35",
+        "name": "Growing Aureliopolis",
+        "icon_url": "assets/icons/base/icon_content/city_status/icon_2d_city_status_35_0.webp",
+        "required_population": 125000,
+        "incident_interval": {
+            "fire": 3600,
+            "unrest": 3600,
+            "disease": 3600,
+            "inferno": 72000,
+            "rebellion": 72000,
+            "plague": 72000,
+            "tremors": 580
+        },
+        "attribute_effects_roman": {
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -13,
+            "fire_safety": -9,
+            "health": -7
+        },
+        "attribute_effects_regional": {
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -13,
+            "fire_safety": -2,
+            "health": -7
+        },
+        "attribute_effects_mixed": {
+            "belief": 29,
+            "knowledge": 28,
+            "prestige": 27,
+            "happiness": -20,
+            "fire_safety": -5,
+            "health": -7
+        }
+    }
+}
