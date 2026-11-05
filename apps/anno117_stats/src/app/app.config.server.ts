@@ -6,7 +6,7 @@ import { serverRoutes } from './app.routes.server';
 const serverConfig: ApplicationConfig = {
   providers: [
     provideServerRendering(
-      { maxResponseBodySize: 3 * 1024 * 1024 },
+      { maxResponseBodySize: 4 * 1024 * 1024 },
       withRoutes(serverRoutes),
     ),
   ],
