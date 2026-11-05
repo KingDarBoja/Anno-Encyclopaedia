@@ -14,8 +14,8 @@ export const RegionIconRegistry: Record<RegionValue, { label: string; icon: stri
     icon: ""
   },
   Egyptian: {
-    label: "",
-    icon: ""
+    label: "Aegyptus",
+    icon: 'assets/icons/dlc03/icon_content/generic/icon_2d_region_egypt_0.webp',
   }
 };
 
